@@ -1,0 +1,57 @@
+/* ── Reset & base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1a1a2e; background: #f0f2f5; }
+
+/* ── Layout ── */
+body { max-width: 960px; margin: 0 auto; padding: 1rem; }
+header { text-align: center; padding: 2rem 0 1rem; }
+header h1 { font-size: 1.8rem; }
+header .meta { color: #666; font-size: 0.85rem; }
+
+/* ── Nav pills ── */
+nav { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
+nav a { text-decoration: none; background: #fff; color: #333; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.08); transition: background 0.2s; }
+nav a:hover { background: #e8eaf6; }
+
+/* ── Badge ── */
+.badge { display: inline-block; background: #5c6bc0; color: #fff; font-size: 0.75rem; padding: 0.1rem 0.5rem; border-radius: 10px; margin-left: 0.3rem; vertical-align: middle; }
+
+/* ── Sections ── */
+section { margin-bottom: 2.5rem; }
+section h2 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 2px solid #5c6bc0; padding-bottom: 0.3rem; }
+
+/* ── Collapsible sources ── */
+details { background: #fff; border-radius: 8px; margin-bottom: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+details summary { cursor: pointer; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 0.5rem; }
+details summary .date { margin-left: auto; font-size: 0.8rem; color: #888; }
+details[open] summary { border-bottom: 1px solid #eee; }
+
+/* ── Article list ── */
+.article-list { list-style: none; padding: 0; }
+.article-list li { padding: 0.75rem 1rem; border-bottom: 1px solid #f5f5f5; }
+.article-list li:last-child { border-bottom: none; }
+.article-list a { color: #1565c0; text-decoration: none; font-weight: 500; }
+.article-list a:hover { text-decoration: underline; }
+.article-list time { display: inline-block; font-size: 0.78rem; color: #888; margin-left: 0.5rem; }
+.article-list .authors { display: inline-block; font-size: 0.78rem; color: #666; margin-left: 0.4rem; }
+.article-list .summary { font-size: 0.85rem; color: #555; margin-top: 0.25rem; }
+
+/* ── Deals grid ── */
+.deals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.75rem; padding: 1rem; }
+.deal-card { background: #fafafa; border: 1px solid #eee; border-radius: 8px; padding: 0.75rem; display: flex; flex-direction: column; gap: 0.4rem; }
+.deal-card img { width: 100%; max-height: 140px; object-fit: contain; border-radius: 4px; }
+.deal-info strong { font-size: 0.9rem; }
+.price { color: #c62828; font-weight: 700; font-size: 1rem; }
+.deal-info .desc { font-size: 0.8rem; color: #666; }
+.validity { font-size: 0.75rem; color: #888; }
+
+/* ── Footer ── */
+footer { text-align: center; padding: 2rem 0; color: #999; font-size: 0.8rem; }
+footer a { color: #5c6bc0; }
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  body { padding: 0.5rem; }
+  header h1 { font-size: 1.3rem; }
+  .deals-grid { grid-template-columns: 1fr 1fr; }
+}

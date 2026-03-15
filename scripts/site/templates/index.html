@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assistant — Daily Brief</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📡 Assistant — Daily Brief</h1>
+    <p class="meta">Generated {{ generated_at }}</p>
+  </header>
+
+  <nav>
+    {% for cat in categories %}
+    <a href="#{{ cat.key }}">{{ cat.label }}
+      <span class="badge">{{ cat.sources | sum(attribute='count') }}</span>
+    </a>
+    {% endfor %}
+  </nav>
+
+  <main>
+    {% for cat in categories %}
+    <section id="{{ cat.key }}">
+      <h2>{{ cat.label }}</h2>
+
+      {% for src in cat.sources %}
+      <details {% if loop.first %}open{% endif %}>
+        <summary>
+          <strong>{{ src.name }}</strong>
+          <span class="badge">{{ src.count }}</span>
+          <span class="date">{{ src.date }}</span>
+        </summary>
+
+        {% if cat.key == 'flyers' %}
+        {# ── Flyer / deal layout ── #}
+        <div class="deals-grid">
+          {% for item in src.entries[:50] %}
+          <div class="deal-card">
+            {% if item.image_url %}
+            <img src="{{ item.image_url }}" alt="{{ item.name }}" loading="lazy">
+            {% endif %}
+            <div class="deal-info">
+              <strong>{{ item.name or item.title or '' }}</strong>
+              {% if item.price %}
+              <span class="price">{{ item.pre_price_text or '' }} {{ item.price }} {{ item.post_price_text or '' }}</span>
+              {% endif %}
+              {% if item.description %}
+              <p class="desc">{{ item.description[:150] }}</p>
+              {% endif %}
+              {% if item.valid_to %}
+              <span class="validity">Valid until {{ item.valid_to }}</span>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        {% else %}
+        {# ── Article layout (news / llm-news) ── #}
+        <ul class="article-list">
+          {% for item in src.entries[:30] %}
+          <li>
+            {% if item.link %}
+            <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title or item.name or '(untitled)' }}</a>
+            {% else %}
+            <strong>{{ item.title or item.name or '(untitled)' }}</strong>
+            {% endif %}
+            {% if item.published %}
+            <time>{{ item.published }}</time>
+            {% endif %}
+            {% if item.authors %}
+            <span class="authors">{{ item.authors[:3] | join(', ') }}</span>
+            {% endif %}
+            {% if item.summary %}
+            <p class="summary">{{ item.summary | truncate(250, true) }}</p>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+      </details>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </main>
+
+  <footer>
+    <p>Data fetched automatically by <a href="https://github.com/">Assistant</a> via GitHub Actions.</p>
+  </footer>
+</body>
+</html>

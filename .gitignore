@@ -1,6 +1,9 @@
 # Data (fetched at runtime)
 data/
 
+# Generated site (root level only)
+/site/
+
 # Python
 __pycache__/
 *.py[cod]
