@@ -1,8 +1,9 @@
-"""Trader Joe's Fearless Flyer fetcher.
+"""Trader Joe's flyer fetcher via Flipp API.
 
-Trader Joe's doesn't publish traditional weekly ad flyers.  Instead they
-release the "Fearless Flyer" — a curated list of featured / new products.
-This fetcher scrapes the Fearless Flyer page for current items.
+Trader Joe's doesn't publish traditional weekly flyers — they release the
+"Fearless Flyer" with featured / new products.  This fetcher tries Flipp
+first (Trader Joe's may or may not participate).  If Flipp has no results
+it falls back to scraping the Fearless Flyer page.
 """
 
 import json
@@ -11,6 +12,7 @@ import logging
 from bs4 import BeautifulSoup
 
 from scripts.common.fetcher import BaseFetcher
+from scripts.common.flipp import FlippClient
 
 logger = logging.getLogger(__name__)
 
@@ -18,94 +20,102 @@ logger = logging.getLogger(__name__)
 class TraderJoesFetcher(BaseFetcher):
     SOURCE_NAME = "trader-joes"
     CATEGORY = "flyers"
+    MERCHANT = "Trader Joe"
     FLYER_URL = "https://www.traderjoes.com/home/discover/fearless-flyer"
-    PRODUCTS_URL = "https://www.traderjoes.com/home/products"
 
     def __init__(self, zipcode: str = "98034"):
         super().__init__()
         self.zipcode = zipcode
 
-    def _extract_json_ld(self, soup: BeautifulSoup) -> list:
-        data = []
+    def _fetch_via_flipp(self):
+        """Try Flipp API for Trader Joe's deals."""
+        client = FlippClient()
+        result = client.get_merchant_deals(self.zipcode, self.MERCHANT)
+        if result.get("deal_count", 0) > 0:
+            return result
+        return None
+
+    def _fetch_fearless_flyer(self):
+        """Fallback: scrape the Fearless Flyer page."""
+        items = []
+        resp = self.get(self.FLYER_URL)
+        soup = BeautifulSoup(resp.text, "html.parser")
+
         for script in soup.find_all("script", type="application/ld+json"):
             try:
                 parsed = json.loads(script.string)
-                if isinstance(parsed, list):
-                    data.extend(parsed)
-                else:
-                    data.append(parsed)
+                entries = parsed if isinstance(parsed, list) else [parsed]
+                for entry in entries:
+                    if entry.get("name"):
+                        items.append({
+                            "name": entry["name"],
+                            "description": entry.get("description", ""),
+                            "price": entry.get("offers", {}).get("price", ""),
+                        })
             except (json.JSONDecodeError, TypeError):
                 continue
-        return data
 
-    def _extract_flyer_items(self, soup: BeautifulSoup) -> list:
-        items = []
-        # Fearless Flyer articles are typically in article or card elements
-        selectors = [
-            "article",
-            "[class*='Article']",
-            "[class*='product']",
-            "[class*='Product']",
-            "[class*='card']",
-        ]
-        for selector in selectors:
-            for el in soup.select(selector):
-                item = {}
-                title = el.select_one("h2, h3, h4, [class*='itle']")
+        for el in soup.select("article, [class*='Article'], [class*='product']"):
+            title = el.select_one("h2, h3, h4")
+            if title:
+                item = {"name": title.get_text(strip=True)}
                 price = el.select_one("[class*='rice']")
-                desc = el.select_one("p, [class*='description']")
-                link = el.select_one("a[href]")
-                img = el.select_one("img")
-                if title:
-                    item["title"] = title.get_text(strip=True)
+                desc = el.select_one("p")
                 if price:
                     item["price"] = price.get_text(strip=True)
                 if desc:
                     item["description"] = desc.get_text(strip=True)[:300]
-                if link:
-                    href = link.get("href", "")
-                    if href.startswith("/"):
-                        href = f"https://www.traderjoes.com{href}"
-                    item["link"] = href
-                if img and img.get("alt"):
-                    item["image_alt"] = img["alt"]
-                if item.get("title"):
-                    items.append(item)
-        return items
+                items.append(item)
 
-    def fetch(self):
-        items = []
-        structured = []
-        page_title = ""
-        errors = []
-
-        for label, url in [("flyer", self.FLYER_URL), ("products", self.PRODUCTS_URL)]:
-            try:
-                resp = self.get(url)
-                soup = BeautifulSoup(resp.text, "html.parser")
-                if not page_title and soup.title:
-                    page_title = soup.title.get_text(strip=True)
-                structured.extend(self._extract_json_ld(soup))
-                items.extend(self._extract_flyer_items(soup))
-            except Exception as exc:
-                logger.error("Trader Joe's %s fetch failed: %s", label, exc)
-                errors.append({"page": label, "error": str(exc)})
-
-        # Deduplicate by title
+        # Deduplicate
         seen = set()
-        unique_items = []
+        unique = []
         for item in items:
-            key = item.get("title", "")
+            key = item.get("name", "")
             if key and key not in seen:
                 seen.add(key)
-                unique_items.append(item)
+                unique.append(item)
+        return unique
+
+    def fetch(self):
+        errors = []
+
+        # Try Flipp first
+        try:
+            flipp_result = self._fetch_via_flipp()
+            if flipp_result:
+                return {
+                    "source": self.SOURCE_NAME,
+                    "zipcode": self.zipcode,
+                    "method": flipp_result.get("method"),
+                    "flyers": flipp_result.get("flyers", []),
+                    "deal_count": flipp_result.get("deal_count", 0),
+                    "deals": flipp_result.get("deals", []),
+                    "errors": [],
+                }
+        except Exception as exc:
+            logger.warning("Trader Joe's Flipp lookup failed: %s", exc)
+            errors.append(f"flipp: {exc}")
+
+        # Fallback to Fearless Flyer scrape
+        try:
+            items = self._fetch_fearless_flyer()
+            return {
+                "source": self.SOURCE_NAME,
+                "zipcode": self.zipcode,
+                "method": "fearless_flyer_scrape",
+                "deal_count": len(items),
+                "deals": items,
+                "errors": errors,
+            }
+        except Exception as exc:
+            logger.error("Trader Joe's Fearless Flyer scrape failed: %s", exc)
+            errors.append(f"scrape: {exc}")
 
         return {
             "source": self.SOURCE_NAME,
             "zipcode": self.zipcode,
-            "page_title": page_title,
-            "item_count": len(unique_items),
-            "items": unique_items,
-            "structured_data": structured,
+            "deal_count": 0,
+            "deals": [],
             "errors": errors,
         }
