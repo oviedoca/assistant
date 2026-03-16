@@ -1,0 +1,637 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization",
+      "link": "https://arxiv.org/abs/2603.13228v1",
+      "summary": "Recent progress in text-conditioned human motion generation has been largely driven by diffusion models trained on large-scale human motion data. Building on this progress, recent methods attempt to transfer such models for character animation and real robot control by applying a Whole-Body Controller (WBC) that converts diffusion-generated motions into executable trajectories. While WBC trajectories become compliant with physics, they may expose substantial deviations from original motion. To a",
+      "published": "2026-03-13T17:59:59Z",
+      "authors": [
+        "Yangsong Zhang",
+        "Anujith Muraleedharan",
+        "Rikhat Akizhanov",
+        "Abdul Ahad Butt",
+        "Gül Varol"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Representation Learning for Spatiotemporal Physical Systems",
+      "link": "https://arxiv.org/abs/2603.13227v1",
+      "summary": "Machine learning approaches to spatiotemporal physical systems have primarily focused on next-frame prediction, with the goal of learning an accurate emulator for the system's evolution in time. However, these emulators are computationally expensive to train and are subject to performance pitfalls, such as compounding errors during autoregressive rollout. In this work, we take a different perspective and look at scientific tasks further downstream of predicting the next frame, such as estimation",
+      "published": "2026-03-13T17:59:51Z",
+      "authors": [
+        "Helen Qu",
+        "Rudy Morel",
+        "Michael McCabe",
+        "Alberto Bietti",
+        "François Lanusse"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A 2% determination of $N_{\\rm eff}$ from primordial element abundance, cosmic microwave background, and baryon acoustic oscillation measurements",
+      "link": "https://arxiv.org/abs/2603.13226v1",
+      "summary": "We present a new constraint on the effective number of relativistic species in the early universe, $N_{\\rm eff}$, by combining recent primordial helium abundance measurements from the Large Binocular Telescope $Y_p$ Project with primordial deuterium abundance data, cosmic microwave background (CMB) observations from $\\it{Planck}$, the Atacama Cosmology Telescope, and the South Pole Telescope, and baryon acoustic oscillation (BAO) data from the Dark Energy Spectroscopic Instrument, yielding $N_{\\",
+      "published": "2026-03-13T17:59:30Z",
+      "authors": [
+        "Samuel Goldstein",
+        "J. Colin Hill"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Visual-ERM: Reward Modeling for Visual Equivalence",
+      "link": "https://arxiv.org/abs/2603.13224v1",
+      "summary": "Vision-to-code tasks require models to reconstruct structured visual inputs, such as charts, tables, and SVGs, into executable or structured representations with high visual fidelity. While recent Large Vision Language Models (LVLMs) achieve strong results via supervised fine-tuning, reinforcement learning remains challenging due to misaligned reward signals. Existing rewards either rely on textual rules or coarse visual embedding similarity, both of which fail to capture fine-grained visual dis",
+      "published": "2026-03-13T17:58:14Z",
+      "authors": [
+        "Ziyu Liu",
+        "Shengyuan Ding",
+        "Xinyu Fang",
+        "Xuanlang Dai",
+        "Penghui Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "First measurement of time-dependent $CP$ violation in the decay flavor-changing neutral-current decay $B^{0}\\rightarrow K_{S}^{0}μ^{+}μ^{-}$",
+      "link": "https://arxiv.org/abs/2603.13223v1",
+      "summary": "A flavor-tagged time-dependent analysis of $B^{0}\\rightarrow K_{S}^{0}μ^{+}μ^{-}$ decays is performed across the full dimuon mass range excluding the $J/ψ$ and $ψ(2S)$ resonance regions. The analysis uses proton-proton collision data collected by the LHCb experiment in 2011--2018 at center-of-mass energies of 7, 8 and 13TeV, corresponding to an integrated luminosity of 9$fb^{-1}$. The CP violation parameters are determined to be $C=-0.13 \\pm 0.32 \\pm 0.04$ and $S= +0.82\\pm 0.29 \\pm 0.05$, where ",
+      "published": "2026-03-13T17:57:11Z",
+      "authors": [
+        "LHCb collaboration",
+        "R. Aaij",
+        "A. S. W. Abdelmotteleb",
+        "C. Abellan Beteta",
+        "F. Abudinén"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two-channel physics in a lightly doped antiferromagnetic Mott insulator revealed by two-hole spectroscopy",
+      "link": "https://arxiv.org/abs/2603.13222v1",
+      "summary": "Understanding pairing in the strong-coupling regime of doped Mott insulators remains an open problem in the context of cuprate superconductors. We perform ultra-high resolution numerical simulations of spectral functions in the highly underdoped $t-J$ model and discover two coupled branches of hole pairs emerging at low energies in the largely unexplored two-particle spectrum. As spin anisotropy is tuned from the Ising limit to the $SU(2)$-symmetric Heisenberg regime, the lowest $d$-wave pair ev",
+      "published": "2026-03-13T17:57:02Z",
+      "authors": [
+        "Pit Bermes",
+        "Sebastian Paeckel",
+        "Annabelle Bohrdt",
+        "Lukas Homeier",
+        "Fabian Grusdt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Generative Model of Conspicuous Consumption and Status Signaling",
+      "link": "https://arxiv.org/abs/2603.13220v1",
+      "summary": "Status signaling drives human behavior and the allocation of scarce resources such as mating opportunities, yet the generative mechanisms governing how specific goods, signals, or behaviors acquire prestige remain a puzzle. Classical frameworks, such as Costly Signaling Theory, treat preferences as fixed and struggle to explain how semiotic meaning changes based on context or drifts dynamically over time, occasionally reaching tipping points. In this work, we propose a computational theory of st",
+      "published": "2026-03-13T17:56:28Z",
+      "authors": [
+        "Logan Cross",
+        "Jordi Grau-Moya",
+        "William A. Cunningham",
+        "Alexander Sasha Vezhnevets",
+        "Joel Z. Leibo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "First-principles predictions of band alignment in strained Si/Si1-xGex and Ge/Si1-xGex heterostructures",
+      "link": "https://arxiv.org/abs/2603.13219v1",
+      "summary": "Accurate band offsets are essential for predictive continuum modeling of nanostructures such as quantum wells and quantum dots formed in strained Si/Si1-xGex and Ge/Si1-xGex heterostructures. Experimental offset data for these systems remain sparse away from endpoint compositions, making composition-dependent design difficult. We use atomistic first-principles density functional theory to compute valence- and conduction-band offsets across the full range 0 <= x <= 1. Random alloying is treated w",
+      "published": "2026-03-13T17:55:48Z",
+      "authors": [
+        "Nathaniel M. Vegh",
+        "Pericles Philippopoulos",
+        "Raphaël J. Prentki",
+        "Wanting Zhang",
+        "Yu Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comparison of Cross-Correlation Methods for Line Intensity Mapping",
+      "link": "https://arxiv.org/abs/2603.13218v1",
+      "summary": "Line intensity mapping (LIM) is a technique for producing 3D maps of the Universe by scanning the sky with a spectrometer sensitive to a range of wavelengths corresponding to the redshifted spectral lines of atoms or molecules, such as hydrogen or carbon, commonly found in galaxies and the diffuse media around them. While LIM experiments have successfully detected the 21 cm line of neutral hydrogen, other lines that reveal large-scale structure or astrophysical processes remain undetected. Many ",
+      "published": "2026-03-13T17:54:09Z",
+      "authors": [
+        "Samuel H. Kramer",
+        "Patrick C. Breysse",
+        "Anthony R. Pullen",
+        "Faizah K. Siddique",
+        "Eric R. Switzer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Measurement of correlations between elliptic flow and mean transverse momentum in pp, p-Pb, and Pb-Pb collisions at the LHC",
+      "link": "https://arxiv.org/abs/2603.13217v1",
+      "summary": "Measurements of the event-by-event correlation between elliptic flow ($v_2$) and the mean transverse momentum ($[p_{\\rm T}]$) using the modified Pearson correlation coefficient $ρ(v_2^2,[p_{\\rm T}])$ are reported in pp collisions at $\\sqrt{s} = 13$ TeV, and in p-Pb and Pb-Pb collisions at a center-of-mass energy per nucleon pair $\\sqrt{s_{\\rm NN}} = 5.02$ TeV. This analysis is based on the full LHC Run 2 dataset recorded by ALICE and is performed for the first time in small collision systems wit",
+      "published": "2026-03-13T17:53:26Z",
+      "authors": [
+        "ALICE Collaboration"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models",
+      "link": "https://arxiv.org/abs/2603.13215v1",
+      "summary": "Evolutions in the world, such as water pouring or ice melting, happen regardless of being observed. Video world models generate \"worlds\" via 2D frame observations. Can these generated \"worlds\" evolve regardless of observation? To probe this question, we design a benchmark to evaluate whether video world models can decouple state evolution from observation. Our benchmark, STEVO-Bench, applies observation control to evolving processes via instructions of occluder insertion, turning off the light, ",
+      "published": "2026-03-13T17:51:14Z",
+      "authors": [
+        "Ziqi Ma",
+        "Mengzhan Liufu",
+        "Georgia Gkioxari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MoEKD: Mixture-of-Experts Knowledge Distillation for Robust and High-Performing Compressed Code Models",
+      "link": "https://arxiv.org/abs/2603.13213v1",
+      "summary": "Large language models for code have achieved strong performance across diverse software analytics tasks, yet their real-world adoption remains limited by high computational demands, slow inference speeds, significant energy consumption, and environmental impact. Knowledge distillation (KD) offers a practical solution by transferring knowledge from a large model to a smaller and more efficient model. Despite its effectiveness, recent studies show that models distilled from a single source often e",
+      "published": "2026-03-13T17:49:01Z",
+      "authors": [
+        "Md. Abdul Awal",
+        "Mrigank Rochan",
+        "Chanchal K. Roy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robust symmetry breaking in gapless quantum magnets",
+      "link": "https://arxiv.org/abs/2603.13212v1",
+      "summary": "We prove the existence of spontaneous symmetry breaking in suitably low-energy eigenstates of certain gapless and frustrated many-body quantum systems, namely symmetric quantum perturbations to classical models which exhibit spontaneous symmetry breaking of a finite group at some positive temperature. Additionally, the classical model need not be local in space, as long as it satisfies a quantum analogue of the Peierls condition. As an example of our technique, we establish robust ferromagnetism",
+      "published": "2026-03-13T17:48:27Z",
+      "authors": [
+        "Chao Yin",
+        "Andrew Lucas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Superposed quantum evolutions across chaotic and regular regimes",
+      "link": "https://arxiv.org/abs/2603.13209v1",
+      "summary": "While the superposition of quantum evolutions is known to produce interference effects, the interference between evolutions with regular and chaotic classical limits remains largely unexplored. Here, we use a Mach-Zehnder interferometer to investigate the superposition of two quantum evolutions, implemented via post-selection, and to compare it with the corresponding classical mixture. The quantum kicked top provides a natural platform for this study, as its classical dynamics ranges from regula",
+      "published": "2026-03-13T17:45:30Z",
+      "authors": [
+        "Amit Anand",
+        "Anne-Catherine de la Hamette",
+        "Robert Mann",
+        "Shohini Ghose"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Negative Masses and Spatial Curvature: Alleviating Neutrino Mass Tensions in LambdaCDM and Extended Cosmologies",
+      "link": "https://arxiv.org/abs/2603.13208v1",
+      "summary": "We investigate the impact of spatial curvature, $Ω_k$, and dynamical dark energy on the cosmological constraints of the neutrino mass sum, $\\sum m_ν$. Using a joint analysis of the latest CMB (Planck and ACT DR6), BAO (DESI DR2) and SNe Ia (DESY5 and DES-Dovekie) datasets, we perform an exploration of the neutrino mass parameter space. To mitigate prior-driven biases near the physical boundary, we implement a symmetric extension wrapper that allows for effective negative masses. We find that the",
+      "published": "2026-03-13T17:44:39Z",
+      "authors": [
+        "Hayyim Pulido-Hernández",
+        "Jorge L. Cervantes-Cota"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Estimating the Missing Mass, Partition Function or Evidence for a Case of Sampling from a Discrete Set",
+      "link": "https://arxiv.org/abs/2603.13207v1",
+      "summary": "We consider the problem of estimating the missing mass, partition function or evidence and its probability distribution in the case that for each sample point in the discrete sample space its (unnormalized) probability mass is revealed. Estimating the missing mass or partition function (evidence) is a well-studied problem for which, in different contexts, the harmonic mean estimator and the Good-Turing (and related) estimators are available. For sampling on a discrete set with revealed probabili",
+      "published": "2026-03-13T17:43:51Z",
+      "authors": [
+        "Bastiaan J. Braams"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bounds on Agreement between Subjective and Objective Measurements",
+      "link": "https://arxiv.org/abs/2603.13204v1",
+      "summary": "Objective estimators of multimedia quality are often judged by comparing estimates with subjective \"truth data,\" most often via Pearson correlation coefficient (PCC) or mean-squared error (MSE). But subjective test results contain noise, so striving for a PCC of 1.0 or an MSE of 0.0 is neither realistic nor repeatable. Numerous efforts have been made to acknowledge and appropriately accommodate subjective test noise in objective-subjective comparisons, typically resulting in new analysis framewo",
+      "published": "2026-03-13T17:41:09Z",
+      "authors": [
+        "Jaden Pieper",
+        "Stephen D. Voran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$π$, K, and p production in high-multiplicity pp collisions at $\\sqrt{s} = 13$ TeV",
+      "link": "https://arxiv.org/abs/2603.13203v1",
+      "summary": "This paper presents the measurement of $π^{\\pm}$, K$^{\\pm}$, and p($\\bar{\\text{p}}$) production in high-multiplicity proton-proton collisions at $\\sqrt{s} = 13$ TeV at midrapidity ($|y| < 0.5$) using the ALICE detector at the LHC. The transverse-momentum ($p_{\\rm T}$) spectra of these particles are reported for three high-multiplicity classes. The results show a mass- and multiplicity-dependent hardening of the $p_{\\rm T}$ spectra and an enhancement of the p/$π$ ratio at intermediate $p_{\\rm T}$",
+      "published": "2026-03-13T17:39:58Z",
+      "authors": [
+        "ALICE Collaboration"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neuron-Aware Data Selection In Instruction Tuning For Large Language Models",
+      "link": "https://arxiv.org/abs/2603.13201v1",
+      "summary": "Instruction Tuning (IT) has been proven to be an effective approach to unlock the powerful capabilities of large language models (LLMs). Recent studies indicate that excessive IT data can degrade LLMs performance, while carefully selecting a small subset of high-quality IT data can significantly enhance their capabilities. Therefore, identifying the most efficient subset data from the IT dataset to effectively develop either specific or general abilities in LLMs has become a critical challenge. ",
+      "published": "2026-03-13T17:39:03Z",
+      "authors": [
+        "Xin Chen",
+        "Junchao Wu",
+        "Shu Yang",
+        "Runzhe Zhan",
+        "Zeyu Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Navig-AI-tion: Navigation by Contextual AI and Spatial Audio",
+      "link": "https://arxiv.org/abs/2603.13200v1",
+      "summary": "Audio-only walking navigation can leave users disoriented, relying on vague cardinal directions and lacking real-time environmental context, leading to frequent errors. To address this, we present a novel system that integrates a Vision Language Model (VLM) with a spatial audio cue. Our system extracts environmental landmarks to anchor navigation instructions and, crucially, provides a directional spatial audio signal when the user faces the wrong direction, indicating the precise turn direction",
+      "published": "2026-03-13T17:38:10Z",
+      "authors": [
+        "Mathias N. Lystbæk",
+        "Haley Adams",
+        "Ranjith Kagathi Ananda",
+        "Eric J Gonzalez",
+        "Luca Ballan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimising Foreground Modelling for Global 21cm Cosmology with GPU-Accelerated Nested Sampling",
+      "link": "https://arxiv.org/abs/2603.13196v1",
+      "summary": "The global 21-cm signal provides a powerful probe of early-Universe astrophysics, but its detection is hindered by Galactic foregrounds that are orders of magnitude brighter than the signal and distortions introduced by beam chromaticity. These challenges require accurate foreground modelling, rigorous Bayesian model comparison, and robust validation frameworks. In this work, we substantially accelerate global 21-cm inference by exploiting GPU architectures, enabling likelihood evaluations to ac",
+      "published": "2026-03-13T17:34:36Z",
+      "authors": [
+        "Jacob L. Tutt",
+        "Peter H. Sims",
+        "Joe H. N. Pattison",
+        "Dominic J. Anstey",
+        "Samuel A. K. Leeney"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Axion search with telescope for radio astronomy (ASTRA): forecast for observations between 0.5 and 4~GHz",
+      "link": "https://arxiv.org/abs/2603.13194v1",
+      "summary": "Axion dark matter (DM) is predicted to convert into radio waves in neutron star magnetospheres. We assess the detectability of this signal using a 5 m radio telescope to be installed at the Fan Mountain Observatory, operating in the UHF, L- and S-bands from 0.5 to 4~GHz. We demonstrate that such a telescope can search new parameter space for axion-like particles over a broad range from $2\\,μ\\text{eV}<m_a<17\\,μ\\text{eV}$ for axion-photon couplings $g_{aγγ} \\gtrsim 2\\times 10^{-12}\\text{ GeV}^{-1}",
+      "published": "2026-03-13T17:31:56Z",
+      "authors": [
+        "Utkarsh Bhura",
+        "David J. E. Marsh",
+        "Bradley R. Johnson",
+        "Karl van Bibber",
+        "Mallory Helfenbein"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Experiments to Expertise: Scientific Knowledge Consolidation for AI-Driven Computational Research",
+      "link": "https://arxiv.org/abs/2603.13191v1",
+      "summary": "While large language models (LLMs) have transformed AI agents into proficient executors of computational materials science, performing a hundred simulations does not make a researcher. What distinguishes research from routine execution is the progressive accumulation of knowledge -- learning which approaches fail, recognizing patterns across systems, and applying understanding to new problems. However, the prevailing paradigm in AI-driven computational science treats each execution in isolation,",
+      "published": "2026-03-13T17:25:47Z",
+      "authors": [
+        "Haonan Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lattice Discrete Particle Model (LDPM): Comparison of Various Time Integration Solvers and Implementations",
+      "link": "https://arxiv.org/abs/2603.13190v1",
+      "summary": "This article presents a comparison of various implementations of the Lattice Discrete Particle Model (LDPM) for the numerical simulation of concrete and other heterogeneous quasibrittle materials. The comparison involves the use of transient implicit and explicit solvers and steady-state (static) solvers and implementations for Central Processing Unit (CPU) as well as Graphics Processing Unit (GPU). The various implementations are compared on the basis of a set of benchmarks tests describing beh",
+      "published": "2026-03-13T17:24:51Z",
+      "authors": [
+        "Erol Lale",
+        "Jan Eliáš",
+        "Ke Yu",
+        "Matthew Troemner",
+        "Monika Středulová"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LLM Constitutional Multi-Agent Governance",
+      "link": "https://arxiv.org/abs/2603.13189v1",
+      "summary": "Large Language Models (LLMs) can generate persuasive influence strategies that shift cooperative behavior in multi-agent populations, but a critical question remains: does the resulting cooperation reflect genuine prosocial alignment, or does it mask erosion of agent autonomy, epistemic integrity, and distributional fairness? We introduce Constitutional Multi-Agent Governance (CMAG), a two-stage framework that interposes between an LLM policy compiler and a networked agent population, combining ",
+      "published": "2026-03-13T17:21:26Z",
+      "authors": [
+        "J. de Curtò",
+        "I. de Zarzà"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CANOE: Classically Assisted Non-Orthogonal Eigensolver",
+      "link": "https://arxiv.org/abs/2603.13188v1",
+      "summary": "In the early fault-tolerant regime, where quantum resources remain limited, hybrid quantum-classical strategies offer one possible route toward quantum advantage. We introduce CANOE, the Classically Assisted Non-Orthogonal Eigensolver, as such an approach, distributing Rayleigh-Ritz basis states between quantum and classical hardware. This approach leverages the expressive power of quantum states, which are costly to reproduce classically, while augmenting them with a large pool of classically g",
+      "published": "2026-03-13T17:21:14Z",
+      "authors": [
+        "Jihyeon Park",
+        "Collin C. D. Frink",
+        "Matthew Otten"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inverse Faraday Effect in Rashba two-dimensional electron systems: interplay of spin and orbital effects",
+      "link": "https://arxiv.org/abs/2603.13187v1",
+      "summary": "The inverse Faraday effect (IFE) refers to the generation of a DC magnetization by circularly polarized light through the transfer of optical angular momentum to electronic degrees of freedom. In conducting systems, this response can arise from two microscopic channels - spin polarization of itinerant electrons and orbital magnetization generated by circulating charge currents. However, the orbital contribution to the inverse Faraday effect in spin-orbit-coupled conducting systems remains largel",
+      "published": "2026-03-13T17:20:45Z",
+      "authors": [
+        "Jaglul Hasan",
+        "Chandan Setty"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos",
+      "link": "https://arxiv.org/abs/2603.13185v1",
+      "summary": "Spatio-temporal scene graphs provide a principled representation for modeling evolving object interactions, yet existing methods remain fundamentally frame-centric: they reason only about currently visible objects, discard entities upon occlusion, and operate in 2D. To address this, we first introduce ActionGenome4D, a dataset that upgrades Action Genome videos into 4D scenes via feed-forward 3D reconstruction, world-frame oriented bounding boxes for every object involved in actions, and dense r",
+      "published": "2026-03-13T17:18:03Z",
+      "authors": [
+        "Rohith Peddi",
+        "Saurabh",
+        "Shravan Shanmugam",
+        "Likhitha Pallapothula",
+        "Yu Xiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Approximating k-Center via Farthest-First on $δ$-Covers",
+      "link": "https://arxiv.org/abs/2603.13184v1",
+      "summary": "The farthest-first traversal of Gonzalez is a classical $2$-approximation algorithm for solving the $k$-center problem, but its sequential nature makes it difficult to scale to very large datasets. In this work we study the effect of running farthest-first on a $δ$-cover of the dataset rather than on the full set of points. A $δ$-cover provides a compact summary of the data in which every point lies within distance $δ$ of some selected center. We prove that if farthest-first is applied to a $δ$-",
+      "published": "2026-03-13T17:17:53Z",
+      "authors": [
+        "Jason R. Wilson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Diffusion-Based Feature Denoising and Using NNMF for Robust Brain Tumor Classification",
+      "link": "https://arxiv.org/abs/2603.13182v1",
+      "summary": "Brain tumor classification from magnetic resonance imaging, which is also known as MRI, plays a sensitive role in computer-assisted diagnosis systems. In recent years, deep learning models have achieved high classification accuracy. However, their sensitivity to adversarial perturbations has become an important reliability concern in medical applications. This study suggests a robust brain tumor classification framework that combines Non-Negative Matrix Factorization (NNMF or NMF), lightweight c",
+      "published": "2026-03-13T17:15:46Z",
+      "authors": [
+        "Hiba Adil Al-kharsan",
+        "Róbert Rajkó"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Verification of Robust Properties for Access Control Policies",
+      "link": "https://arxiv.org/abs/2603.13181v1",
+      "summary": "Existing methods for verifying access control policies require the policy to be complete and fully determined before verification can proceed, but in practice policies are developed iteratively, composed from independently maintained components, and extended as organisational structures evolve. We introduce robust property verification: the problem of determining what a policy's structure commits it to regardless of how pending decisions are resolved and regardless of subsequent extension. We de",
+      "published": "2026-03-13T17:14:38Z",
+      "authors": [
+        "Alexander V. Gheorghiu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MXNorm: Reusing MXFP block scales for efficient tensor normalisation",
+      "link": "https://arxiv.org/abs/2603.13180v1",
+      "summary": "Matrix multiplication performance has long been the major bottleneck to scaling deep learning workloads, which has stimulated the design of new accelerators that use increasingly low-precision number formats. However, improvements in matrix multiplication performance have far outstripped improvements in performance on reductions and elementwise computations, which are still being performed in higher precision. In this work, we propose MXNorm, a drop-in replacement for RMSNorm that estimates the ",
+      "published": "2026-03-13T17:14:06Z",
+      "authors": [
+        "Callum McLean",
+        "Luke Y. Prince",
+        "Alexandre Payot",
+        "Paul Balança",
+        "Carlo Luschi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Clustering Astronomical Orbital Synthetic Data Using Advanced Feature Extraction and Dimensionality Reduction Techniques",
+      "link": "https://arxiv.org/abs/2603.13177v1",
+      "summary": "The dynamics of Saturn's satellite system offer a rich framework for studying orbital stability and resonance interactions. Traditional methods for analysing such systems, including Fourier analysis and stability metrics, struggle with the scale and complexity of modern datasets. This study introduces a machine learning-based pipeline for clustering approximately 22,300 simulated satellite orbits, addressing these challenges with advanced feature extraction and dimensionality reduction technique",
+      "published": "2026-03-13T17:11:52Z",
+      "authors": [
+        "Eraldo Pereira Marinho",
+        "Nelson Callegari Junior",
+        "Fabricio Aparecido Breve",
+        "Caetano Mazzoni Ranieri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fluxon Time-Delay Readout of a Superconducting Qubit Protected by a Spectral Gap in a Josephson Transmission Line",
+      "link": "https://arxiv.org/abs/2603.13175v1",
+      "summary": "We theoretically investigate a readout scheme of the quantum state of a superconducting qubit based on time delay of a single flux quantum (SFQ), also known as a fluxon, propagating in a Josephson transmission line (JTL). We concretely study the time-delay readout based on capacitive coupling between a transmon qubit and a JTL, and we evaluate the time delay depending on the qubit state. We also reveal a feature of the absence of fluxon pinning and exponential suppression of nonadiabatic transit",
+      "published": "2026-03-13T17:10:56Z",
+      "authors": [
+        "Shunsuke Kamimura",
+        "Aree Taguchi",
+        "Masamitsu Tanaka",
+        "Tsuyoshi Yamamoto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beta Tantalum Transmon Qubits with Quality Factors Approaching 10 Million",
+      "link": "https://arxiv.org/abs/2603.13174v1",
+      "summary": "Tantalum-based transmon qubits are a promising platform for building large-scale quantum processors. So far, these qubits have been made from tantalum films grown exclusively in the alpha phase (α-Ta). The beta phase of tantalum (\\{beta}-Ta) readily nucleates at room temperature, making it attractive for scalable qubit fabrication. However, \\{beta}-Ta is widely believed to be detrimental to qubit performance because it has a lower superconducting critical temperature than α-Ta. We challenge this",
+      "published": "2026-03-13T17:10:51Z",
+      "authors": [
+        "Atharv Joshi",
+        "Apoorv Jindal",
+        "Paal H. Prestegaard",
+        "Faranak Bahrami",
+        "Elizabeth Hedrick"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semantic Invariance in Agentic AI",
+      "link": "https://arxiv.org/abs/2603.13173v1",
+      "summary": "Large Language Models (LLMs) increasingly serve as autonomous reasoning agents in decision support, scientific problem-solving, and multi-agent coordination systems. However, deploying LLM agents in consequential applications requires assurance that their reasoning remains stable under semantically equivalent input variations, a property we term semantic invariance.Standard benchmark evaluations, which assess accuracy on fixed, canonical problem formulations, fail to capture this critical reliab",
+      "published": "2026-03-13T17:08:44Z",
+      "authors": [
+        "I. de Zarzà",
+        "J. de Curtò",
+        "Jordi Cabot",
+        "Pietro Manzoni",
+        "Carlos T. Calafate"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ortho-Para Chemistry of H2CO in the Protoplanetary Disk TW Hya",
+      "link": "https://arxiv.org/abs/2603.13172v1",
+      "summary": "The spatial distribution of the chemical reservoirs in protoplanetary disks is key to elucidate the composition of planets, especially habitable ones. However, the partitioning of the main elements among the refractory and volatile phases is still elusive. Key parameters such as the carbon-to-oxygen C/O elemental ratio and the ionization fraction remain poorly constrained, with the latter potentially orders of magnitude lower than in the interstellar medium. Moreover, the thermal structure of th",
+      "published": "2026-03-13T17:05:53Z",
+      "authors": [
+        "M. Gaillard",
+        "A. Faure",
+        "P. Hily-Blant",
+        "R. Le Gal",
+        "S. Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Microstructural Foundation of Rough Log-Normal Volatility Models",
+      "link": "https://arxiv.org/abs/2603.13170v1",
+      "summary": "We establish a microstructural foundation of the rough Bergomi model. Specifically, we consider a sequence of order driven financial market models where orders to buy or sell an asset arrive according to a Poisson process and have a long lasting impact on volatility. Using a recently established C-tightness result for càdlàg processes we establish the weak convergence of the price-volatility process to a log-normal rough volatility model. Our weak convergence result is accompanied by weak error ",
+      "published": "2026-03-13T17:03:59Z",
+      "authors": [
+        "Paul P. Hager",
+        "Ulrich Horst",
+        "Thomas Wagenhofer",
+        "Wei Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Circuit Optimization for Universality Transformation",
+      "link": "https://arxiv.org/abs/2603.13169v1",
+      "summary": "It is known that a computationally universal gate set $\\{H,CCZ\\}$ can be transformed to a strictly universal one $\\{Λ(S), H\\}$ using one maximally imaginary state $|+i\\rangle$ and non-imaginary ancillary qubits. We succeed this transformation with a shorter circuit that eliminates non-imaginary ancillary qubits. We further extend this to the continuous gate-set setting, showing that any multi-qubit unitary can be exactly generated by real single-qubit unitary gates, $CCZ$ gates and $|+i\\rangle$.",
+      "published": "2026-03-13T17:03:44Z",
+      "authors": [
+        "Yasuaki Nakayama",
+        "Yuki Takeuchi",
+        "Seiseki Akibue"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Developing and evaluating a chatbot to support maternal health care",
+      "link": "https://arxiv.org/abs/2603.13168v1",
+      "summary": "The ability to provide trustworthy maternal health information using phone-based chatbots can have a significant impact, particularly in low-resource settings where users have low health literacy and limited access to care. However, deploying such systems is technically challenging: user queries are short, underspecified, and code-mixed across languages, answers require regional context-specific grounding, and partial or missing symptom context makes safe routing decisions difficult.   We presen",
+      "published": "2026-03-13T17:02:05Z",
+      "authors": [
+        "Smriti Jha",
+        "Vidhi Jain",
+        "Jianyu Xu",
+        "Grace Liu",
+        "Sowmya Ramesh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Connecting JWST Silicate Cloud Observations to Exoplanet Cloud Microphysics with Nimbus",
+      "link": "https://arxiv.org/abs/2603.13167v1",
+      "summary": "The unprecedented accuracy of JWST has led to the detection of silicate clouds in exoplanet atmospheres, allowing for the first time to probe cloud formation in extreme environments. While parametrized cloud descriptions can fit these observations, the results do not fully agree with microphysical models. To bridge this gap, we developed Nimbus, a fast microphysical cloud model that can constrain cloud formation processes from observations and utilize Virga, an equilibrium condensation model bal",
+      "published": "2026-03-13T17:01:47Z",
+      "authors": [
+        "Sven Kiefer",
+        "Caroline V. Morley",
+        "Melanie Rowland"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Faithful Multimodal Concept Bottleneck Models",
+      "link": "https://arxiv.org/abs/2603.13163v1",
+      "summary": "Concept Bottleneck Models (CBMs) are interpretable models that route predictions through a layer of human-interpretable concepts. While widely studied in vision and, more recently, in NLP, CBMs remain largely unexplored in multimodal settings. For their explanations to be faithful, CBMs must satisfy two conditions: concepts must be properly detected, and concept representations must encode only their intended semantics, without smuggling extraneous task-relevant or inter-concept information into",
+      "published": "2026-03-13T16:56:08Z",
+      "authors": [
+        "Pierre Moreau",
+        "Emeline Pineau Ferrand",
+        "Yann Choho",
+        "Benjamin Wong",
+        "Annabelle Blangero"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression",
+      "link": "https://arxiv.org/abs/2603.13162v1",
+      "summary": "Diffusion-based image compression has recently shown outstanding perceptual fidelity, yet its practicality is hindered by prohibitive sampling overhead and high memory usage. Most existing diffusion codecs employ U-Net architectures, where hierarchical downsampling forces diffusion to operate in shallow latent spaces (typically with only 8x spatial downscaling), resulting in excessive computation. In contrast, conventional VAE-based codecs work in much deeper latent domains (16x - 64x downscaled",
+      "published": "2026-03-13T16:56:00Z",
+      "authors": [
+        "Junqi Shi",
+        "Ming Lu",
+        "Xingchen Li",
+        "Anle Ke",
+        "Ruiqi Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resource-efficient Quantum Algorithms for Selected Hamiltonian Subspace Diagonalization",
+      "link": "https://arxiv.org/abs/2603.13160v1",
+      "summary": "Quantum algorithms for selecting a subspace of Hamiltonians to diagonalize have emerged as a promising alternative to variational algorithms in the NISQ era. So far, such algorithms, which include the quantum selected configuration interaction (QSCI) and sample-based quantum diagonalization (SQD), have been formulated in second-quantization in Fock space, which leads to inefficient usage of qubit resources. We introduce the first QSCI algorithm developed in the CI-matrix (CIM) framework, which i",
+      "published": "2026-03-13T16:51:19Z",
+      "authors": [
+        "Vincent Graves",
+        "Manqoba Q. Hlatshwayo",
+        "Theodoros Kapourniotis",
+        "Konstantinos Georgopoulos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Clustering without geometry in sparse networks with independent edges",
+      "link": "https://arxiv.org/abs/2603.13159v1",
+      "summary": "The coexistence of sparsity and clustering (non-vanishing average fraction of triangles per node) is one of the few structural features that, irrespective of finer details, are ubiquitously observed across large real-world networks. This fact calls for generic models producing sparse clustered graphs. Earlier results suggested that sparse random graphs with independent edges fail to reproduce clustering, unless edge probabilities are assumed to depend on underlying metric distances that, thanks ",
+      "published": "2026-03-13T16:51:16Z",
+      "authors": [
+        "Alessio Catanzaro",
+        "Remco van der Hofstad",
+        "Diego Garlaschelli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PhaseJumps: fast computation of zeros from planar grid samples",
+      "link": "https://arxiv.org/abs/2603.13158v1",
+      "summary": "We consider complex-valued functions on the complex plane and the task of computing their zeros from samples taken along a finite grid. We introduce PhaseJumps, an algorithm based on comparing changes in the complex phase and local oscillations among grid neighboring points. The algorithm is applicable to possibly non-analytic input functions, and also computes the direction of phase winding around zeros.   PhaseJumps provides a first effective means to compute the zeros of the short-time Fourie",
+      "published": "2026-03-13T16:51:11Z",
+      "authors": [
+        "Antti Haimi",
+        "Günther Koliander",
+        "José Luis Romero"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "exoALMA XX: Tomographic Detection of Embedded Planets in Protoplanetary Disks",
+      "link": "https://arxiv.org/abs/2603.13157v1",
+      "summary": "The exoALMA Large Program has revealed a wealth of substructures in the dust and molecular line emission of several protoplanetary discs, suggesting that planet formation may unfold within highly dynamic environments. Using synthetic observations of planet-disc interactions and disc instabilities, we demonstrate how the origin of these substructures can be investigated through a tomographic study of molecular lines, extending the scope of the analysis beyond line-centroid kinematics alone. Our r",
+      "published": "2026-03-13T16:51:04Z",
+      "authors": [
+        "Andres F. Izquierdo",
+        "Jaehan Bae",
+        "Stefano Facchini",
+        "Ewine F. van Dishoeck",
+        "Marcelo Barraza-Alfaro"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Your Model Stops Working: Anytime-Valid Calibration Monitoring",
+      "link": "https://arxiv.org/abs/2603.13156v1",
+      "summary": "Practitioners monitoring deployed probabilistic models face a fundamental trap: any fixed-sample test applied repeatedly over an unbounded stream will eventually raise a false alarm, even when the model remains perfectly stable. Existing methods typically lack formal error guarantees, conflate alarm time with changepoint location, and monitor indirect signals that do not fully characterize calibration. We present PITMonitor, an anytime-valid calibration-specific monitor that detects distribution",
+      "published": "2026-03-13T16:50:14Z",
+      "authors": [
+        "Tristan Farran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reinforcement Learning for Discounted and Ergodic Control of Diffusion Processes",
+      "link": "https://arxiv.org/abs/2603.13155v1",
+      "summary": "This paper develops a quantized Q-learning algorithm for the optimal control of controlled diffusion processes on $\\mathbb{R}^d$ under both discounted and ergodic (average) cost criteria. We first establish near-optimality of finite-state MDP approximations to discrete-time discretizations of the diffusion, then introduce a quantized Q-learning scheme and prove its almost-sure convergence to near-optimal policies for the finite MDP. These policies, when interpolated to continuous time, are shown",
+      "published": "2026-03-13T16:48:09Z",
+      "authors": [
+        "Erhan Bayraktar",
+        "Ali D. Kara",
+        "Somnath Pradhan",
+        "Serdar Yuksel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation",
+      "link": "https://arxiv.org/abs/2603.13154v1",
+      "summary": "As corporate responsibility increasingly incorporates environmental, social, and governance (ESG) criteria, ESG reporting is becoming a legal requirement in many regions and a key channel for documenting sustainability practices and assessing firms' long-term and ethical performance. However, the length and complexity of ESG disclosures make them difficult to interpret and automate the analysis reliably. To support scalable and trustworthy analysis, this paper introduces ESG-Bench, a benchmark d",
+      "published": "2026-03-13T16:48:05Z",
+      "authors": [
+        "Siqi Sun",
+        "Ben Peng Wu",
+        "Mali Jin",
+        "Peizhen Bai",
+        "Hanpei Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
