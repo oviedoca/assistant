@@ -1,0 +1,639 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Unified Spatio-Temporal Token Scoring for Efficient Video VLMs",
+      "link": "https://arxiv.org/abs/2603.18004v1",
+      "summary": "Token pruning is essential for enhancing the computational efficiency of vision-language models (VLMs), particularly for video-based tasks where temporal redundancy is prevalent. Prior approaches typically prune tokens either (1) within the vision transformer (ViT) exclusively for unimodal perception tasks such as action recognition and object segmentation, without adapting to downstream vision-language tasks; or (2) only within the LLM while leaving the ViT output intact, often requiring comple",
+      "published": "2026-03-18T17:59:56Z",
+      "authors": [
+        "Jianrui Zhang",
+        "Yue Yang",
+        "Rohun Tripathi",
+        "Winson Han",
+        "Ranjay Krishna"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Universal Skeleton Understanding via Differentiable Rendering and MLLMs",
+      "link": "https://arxiv.org/abs/2603.18003v1",
+      "summary": "Multimodal large language models (MLLMs) exhibit strong visual-language reasoning, yet remain confined to their native modalities and cannot directly process structured, non-visual data such as human skeletons. Existing methods either compress skeleton dynamics into lossy feature vectors for text alignment, or quantize motion into discrete tokens that generalize poorly across heterogeneous skeleton formats. We present SkeletonLLM, which achieves universal skeleton understanding by translating ar",
+      "published": "2026-03-18T17:59:12Z",
+      "authors": [
+        "Ziyi Wang",
+        "Peiming Li",
+        "Xinshun Wang",
+        "Yang Tang",
+        "Kai-Kuang Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models",
+      "link": "https://arxiv.org/abs/2603.18002v1",
+      "summary": "Multimodal Large Language Models (MLLMs) have made impressive progress in connecting vision and language, but they still struggle with spatial understanding and viewpoint-aware reasoning. Recent efforts aim to augment the input representations with geometric cues rather than explicitly teaching models to reason in 3D space. We introduce Loc3R-VLM, a framework that equips 2D Vision-Language Models with advanced 3D understanding capabilities from monocular video input. Inspired by human spatial co",
+      "published": "2026-03-18T17:59:10Z",
+      "authors": [
+        "Kevin Qu",
+        "Haozhe Qi",
+        "Mihai Dusmanu",
+        "Mahdi Rad",
+        "Rui Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EchoGen: Cycle-Consistent Learning for Unified Layout-Image Generation and Understanding",
+      "link": "https://arxiv.org/abs/2603.18001v1",
+      "summary": "In this work, we present EchoGen, a unified framework for layout-to-image generation and image grounding, capable of generating images with accurate layouts and high fidelity to text descriptions (e.g., spatial relationships), while grounding the image robustly at the same time. We believe that image grounding possesses strong text and layout understanding abilities, which can compensate for the corresponding limitations in layout-to-image generation. At the same time, images generated from layo",
+      "published": "2026-03-18T17:59:03Z",
+      "authors": [
+        "Kai Zou",
+        "Hongbo Liu",
+        "Dian Zheng",
+        "Jianxiong Gao",
+        "Zhiwei Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse",
+      "link": "https://arxiv.org/abs/2603.18000v1",
+      "summary": "Building LLM-based agents has become increasingly important. Recent works on LLM-based agent self-evolution primarily record successful experiences as textual prompts or reflections, which cannot reliably guarantee efficient task re-execution in complex scenarios. We propose AgentFactory, a new self-evolution paradigm that preserves successful task solutions as executable subagent code rather than textual experience. Crucially, these subagents are continuously refined based on execution feedback",
+      "published": "2026-03-18T17:58:25Z",
+      "authors": [
+        "Zhang Zhang",
+        "Shuqi Lu",
+        "Hongjin Qian",
+        "Di He",
+        "Zheng Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Unreasonable Effectiveness of Text Embedding Interpolation for Continuous Image Steering",
+      "link": "https://arxiv.org/abs/2603.17998v1",
+      "summary": "We present a training-free framework for continuous and controllable image editing at test time for text-conditioned generative models. In contrast to prior approaches that rely on additional training or manual user intervention, we find that a simple steering in the text-embedding space is sufficient to produce smooth edit control. Given a target concept (e.g., enhancing photorealism or changing facial expression), we use a large language model to automatically construct a small set of debiased",
+      "published": "2026-03-18T17:57:53Z",
+      "authors": [
+        "Yigit Ekin",
+        "Yossi Gandelsman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LoST: Level of Semantics Tokenization for 3D Shapes",
+      "link": "https://arxiv.org/abs/2603.17995v1",
+      "summary": "Tokenization is a fundamental technique in the generative modeling of various modalities. In particular, it plays a critical role in autoregressive (AR) models, which have recently emerged as a compelling option for 3D generation. However, optimal tokenization of 3D shapes remains an open question. State-of-the-art (SOTA) methods primarily rely on geometric level-of-detail (LoD) hierarchies, originally designed for rendering and compression. These spatial hierarchies are often token-inefficient ",
+      "published": "2026-03-18T17:56:06Z",
+      "authors": [
+        "Niladri Shekhar Dutt",
+        "Zifan Shi",
+        "Paul Guerrero",
+        "Chun-Hao Paul Huang",
+        "Duygu Ceylan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Embedding light dark matter and small neutrino mass in the flipped standard model",
+      "link": "https://arxiv.org/abs/2603.17994v1",
+      "summary": "We revisit the flipped standard model where a $U(1)_N$ gauge group is added, determining a dark charge through the weak isospin such as $D=T_3+N$, analogous to the electric charge and hypercharge relation. We find %discover that neutrino masses are appropriately generated by a radiative inverse seesaw mechanism mediated by dark fields. Dark matter candidate is a naturally light fermion with the mass radiatively induced at the keV scale. The residual $Z_2$ parity arising from $U(1)_N$ symmetry br",
+      "published": "2026-03-18T17:55:23Z",
+      "authors": [
+        "D. T. Huong",
+        "Phung Van Dong",
+        "A. E. Carcamo Hernandez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GMT: Goal-Conditioned Multimodal Transformer for 6-DOF Object Trajectory Synthesis in 3D Scenes",
+      "link": "https://arxiv.org/abs/2603.17993v1",
+      "summary": "Synthesizing controllable 6-DOF object manipulation trajectories in 3D environments is essential for enabling robots to interact with complex scenes, yet remains challenging due to the need for accurate spatial reasoning, physical feasibility, and multimodal scene understanding. Existing approaches often rely on 2D or partial 3D representations, limiting their ability to capture full scene geometry and constraining trajectory precision. We present GMT, a multimodal transformer framework that gen",
+      "published": "2026-03-18T17:54:35Z",
+      "authors": [
+        "Huajian Zeng",
+        "Abhishek Saroha",
+        "Daniel Cremers",
+        "Xi Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Versatile Editing of Video Content, Actions, and Dynamics without Training",
+      "link": "https://arxiv.org/abs/2603.17989v1",
+      "summary": "Controlled video generation has seen drastic improvements in recent years. However, editing actions and dynamic events, or inserting contents that should affect the behaviors of other objects in real-world videos, remains a major challenge. Existing trained models struggle with complex edits, likely due to the difficulty of collecting relevant training data. Similarly, existing training-free methods are inherently restricted to structure- and motion-preserving edits and do not support modificati",
+      "published": "2026-03-18T17:50:56Z",
+      "authors": [
+        "Vladimir Kulikov",
+        "Roni Paiss",
+        "Andrey Voynov",
+        "Inbar Mosseri",
+        "Tali Dekel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Loss-tolerant Syndrome Measurements",
+      "link": "https://arxiv.org/abs/2603.17988v1",
+      "summary": "In the presence of qubit losses, the building blocks of fault-tolerant error correction (FTEC) must be revisited. Existing loss-tolerant approaches are mainly architecture-specific, and little attention has been given to optimizing the syndrome measurement sequences under loss. Schemes designed for the standard Pauli error model are not directly applicable because the syndrome patterns differ when both Pauli errors and erasures can occur.   Based on recent advances in loss detection units and lo",
+      "published": "2026-03-18T17:50:31Z",
+      "authors": [
+        "Yuanjia Wang",
+        "Todd A. Brun"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Astrophysical Origin of Binary Black Hole Subpopulations: A Tale of Three Channels?",
+      "link": "https://arxiv.org/abs/2603.17987v1",
+      "summary": "There is increasing evidence for multiple binary black hole~(BBH) subpopulations in the cumulative gravitational wave catalog by the LIGO-Virgo-KAGRA Collaboration. The astrophysical interpretation of this complex underlying population is subject to theoretical uncertainties in treatments of binary stellar evolution, core collapse, and host environments. In this \\textit{Letter}, using parametrized mixture models, we show that the BBH detection sample comprises three astrophysical subpopulations ",
+      "published": "2026-03-18T17:49:14Z",
+      "authors": [
+        "Anarya Ray",
+        "Shirsha Mukherjee",
+        "Michael Zevin",
+        "Vicky Kalogera"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Observational Signatures of Exact Black Hole Solutions in a Dark Matter Halo",
+      "link": "https://arxiv.org/abs/2603.17986v1",
+      "summary": "In this work, we derive novel exact solutions describing Schwarzschild-like black holes (BHs) embedded in a Dehnen-type dark matter (DM) halo density profile and investigate their geometric, dynamical, and observational signatures arising from such geometries. We begin by analyzing the horizon structure and spacetime curvature invariants, as well as examining the energy conditions associated with the DM halo. Subsequently, we study the influence of the DM halo on both timelike and null geodesics",
+      "published": "2026-03-18T17:49:13Z",
+      "authors": [
+        "Azalbek Boltaev",
+        "Tursunali Xamidov",
+        "Sanjar Shaymatov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asymptotics of superfluid Bjorken flow",
+      "link": "https://arxiv.org/abs/2603.17985v1",
+      "summary": "We consider the dynamics of an expanding superfluid modeled by Mueller-Israel-Stewart theory coupled to a complex scalar field with a $U(1)$ symmetry that is spontaneously broken. This is a manageable theoretical setting for explorations of the chiral phase transition of expanding quark-gluon plasma. We study the late proper-time behavior of Bjorken flow in this physical system and find that asymptotic solutions can be expressed as a transseries of a novel form, which contains factors like $τ^{-",
+      "published": "2026-03-18T17:46:51Z",
+      "authors": [
+        "Alexander Soloviev",
+        "Michał Spaliński"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On min-Storey estimators for multiple testing and conformal novelty detection",
+      "link": "https://arxiv.org/abs/2603.17984v1",
+      "summary": "In a multiple testing task, finding an appropriate estimator of the proportion $π_0$ of non-signal in the data to boost power of false discovery rate (FDR) controlling procedures is a long-standing research theme, sometimes referred to as 'adaptive FDR control'. The interest in this theme has been reinforced in the recent years with conformal novelty detection, for which it turns out that similar tools can be used in combination with any 'blackbox' machine learning algorithm. Nevertheless, perha",
+      "published": "2026-03-18T17:46:33Z",
+      "authors": [
+        "Gao Zijun",
+        "Roquain Etienne"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Group of Closed Symmetric Flat Foldable Non-Euclidean Curved Crease Origami is not Rigid Foldable: A Simple Geometric Proof",
+      "link": "https://arxiv.org/abs/2603.17982v1",
+      "summary": "We present a novel parabolic reflector system capable of generating a broader class of shapes beyond canonical parabolas. Using a discretized framework, we construct meshes corresponding to key families of developable surfaces, including generalized cylinders, tangent developables, and generalized cones. Both Euclidean and non-Euclidean crease patterns are examined, and we demonstrate that no isometric transformation exists between distinct configurations within this system. This result highligh",
+      "published": "2026-03-18T17:45:19Z",
+      "authors": [
+        "Clark C. Addis",
+        "David M. Boston",
+        "Hunter Pruett",
+        "Phillip Buskohl",
+        "Andres F. Arrieta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Convex Formulation of the Multi-Commodity Dynamic Traffic Assignment",
+      "link": "https://arxiv.org/abs/2603.17981v1",
+      "summary": "We consider a multi-commodity Dynamic Traffic Assignment (DTA) problem formulated as a network flow control problem on the Cell Transmission Model (CTM). The objective is to design optimal control policies using variable speed limits, ramp metering, and dynamic routing to regulate traffic evolution over time on a given limited-capacity transportation network. Even simple instances of DTA problems on the CTM are known to give rise to non-convex optimal control formulations. Nevertheless, a single",
+      "published": "2026-03-18T17:43:14Z",
+      "authors": [
+        "Davide Sipione",
+        "Giacomo Como",
+        "Gustav Nilsson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Feeling the Space: Egomotion-Aware Video Representation for Efficient and Accurate 3D Scene Understanding",
+      "link": "https://arxiv.org/abs/2603.17980v1",
+      "summary": "Recent Multimodal Large Language Models (MLLMs) have shown high potential for spatial reasoning within 3D scenes. However, they typically rely on computationally expensive 3D representations like point clouds or reconstructed Bird's-Eye View (BEV) maps, or lack physical grounding to resolve ambiguities in scale and size. This paper significantly enhances MLLMs with egomotion modality data, captured by Inertial Measurement Units (IMUs) concurrently with the video. In particular, we propose a nove",
+      "published": "2026-03-18T17:42:49Z",
+      "authors": [
+        "Shuyao Shi",
+        "Kang G. Shin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception",
+      "link": "https://arxiv.org/abs/2603.17979v1",
+      "summary": "Radar is a critical perception modality in autonomous driving systems due to its all-weather characteristics and ability to measure range and Doppler velocity. However, the sheer volume of high-dimensional raw radar data saturates the communication link to the computing engine (e.g., an NPU), which is often a low-bandwidth interface with data rate provisioned only for a few low-resolution range-Doppler frames. A generalized codec for utilizing high-dimensional radar data is notably absent, while",
+      "published": "2026-03-18T17:42:34Z",
+      "authors": [
+        "Jinho Park",
+        "Se Young Chun",
+        "Mingoo Seok"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interfacial optical absorptance of air-water interfaces",
+      "link": "https://arxiv.org/abs/2603.17977v1",
+      "summary": "The photomolecular effect has been hypothesized to enhance evaporation of water at visible wavelengths. This study develops a measurement technique to investigate its presence and magnitude at the liquid-vapor interface of water. The experiment detects surface absorptance by comparing polarized reflectance for substrates with and without a water layer. The reflectance ratio is used as an indicator of interfacial absorptance or attenuation. Lightly doped silicon and platinum were used as dielectr",
+      "published": "2026-03-18T17:41:11Z",
+      "authors": [
+        "Preston Bohm",
+        "Mingjun Li",
+        "Akanksha K. Menon",
+        "Zhuomin M. Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Characterization of molecular outflows at core-scale in the massive clump AGAL G345.0029-0.224",
+      "link": "https://arxiv.org/abs/2603.17976v1",
+      "summary": "High-mass stars, with their powerful winds and intense radiation fields, are fundamental in regulating galactic dynamics and evolution; however, despite their great relevance, the mechanisms involved in their formation are still not fully understood. In this context, molecular outflows, which are essential for removing angular momentum and allowing accretion onto the central object, are a crucial phenomenon for characterizing their formation. Previous studies reveal a discrepancy in the masses o",
+      "published": "2026-03-18T17:40:59Z",
+      "authors": [
+        "E. Cohen Arazi",
+        "M. E. Ortega",
+        "S. Paron",
+        "P. F. Velázquez",
+        "A. Rodríguez-González"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AHOY! Animatable Humans under Occlusion from YouTube Videos with Gaussian Splatting and Video Diffusion Priors",
+      "link": "https://arxiv.org/abs/2603.17975v1",
+      "summary": "We present AHOY, a method for reconstructing complete, animatable 3D Gaussian avatars from in-the-wild monocular video despite heavy occlusion. Existing methods assume unoccluded input-a fully visible subject, often in a canonical pose-excluding the vast majority of real-world footage where people are routinely occluded by furniture, objects, or other people. Reconstructing from such footage poses fundamental challenges: large body regions may never be observed, and multi-view supervision per po",
+      "published": "2026-03-18T17:39:05Z",
+      "authors": [
+        "Aymen Mir",
+        "Riza Alp Guler",
+        "Xiangjun Tang",
+        "Peter Wonka",
+        "Gerard Pons-Moll"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Toward Scalable Automated Repository-Level Datasets for Software Vulnerability Detection",
+      "link": "https://arxiv.org/abs/2603.17974v1",
+      "summary": "Software vulnerabilities continue to grow in volume and remain difficult to detect in practice. Although learning-based vulnerability detection has progressed, existing benchmarks are largely function-centric and fail to capture realistic, executable, interprocedural settings. Recent repo-level security benchmarks demonstrate the importance of realistic environments, but their manual curation limits scale. This doctoral research proposes an automated benchmark generator that injects realistic vu",
+      "published": "2026-03-18T17:38:35Z",
+      "authors": [
+        "Amine Lbath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TDAD: Test-Driven Agentic Development - Reducing Code Regressions in AI Coding Agents via Graph-Based Impact Analysis",
+      "link": "https://arxiv.org/abs/2603.17973v1",
+      "summary": "AI coding agents can resolve real-world software issues, yet they frequently introduce regressions, breaking tests that previously passed. Current benchmarks focus almost exclusively on resolution rate, leaving regression behavior under-studied. This paper presents TDAD (Test-Driven Agentic Development), an open-source tool and benchmark methodology that combines abstract-syntax-tree (AST) based code-test graph construction with weighted impact analysis to surface the tests most likely affected ",
+      "published": "2026-03-18T17:38:22Z",
+      "authors": [
+        "Pepe Alonso"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Angle-Resolved Berry Curvature via Nonlinear Hall Effect of Ballistic Electrons",
+      "link": "https://arxiv.org/abs/2603.17972v1",
+      "summary": "Berry curvature fundamentally dictates the topological ground state, anomalous transport and optical properties of quantum materials. However, directly mapping its momentum-space distribution in real materials remains an outstanding experimental challenge. Here, we present an inverse method for reconstructing the abelian Berry curvature of a single band using angle-resolved measurements of the transverse conductance. Our inversion relies on a symmetry-constrained statistical model with two hyper",
+      "published": "2026-03-18T17:38:18Z",
+      "authors": [
+        "Louis Primeau",
+        "Qiong Ma",
+        "Yang Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CaRBM: A Fixed-Depth Quantum Algorithm with Partial Correction for Thermal State Preparation",
+      "link": "https://arxiv.org/abs/2603.17971v1",
+      "summary": "We introduce the CaRBM algorithm for fixed-depth thermal state preparation. Our algorithm is based on thermal state purification and uses the Restricted Boltzmann Machine (RBM) block-encoding scheme to implement the imaginary-time propagator $e^{-βH}$, which is implemented in the quantum circuit in a fixed-depth manner via Cartan decomposition. Our algorithm performs best at high temperatures, with the success probability of the block encoding decreasing as the temperature decreases. To increase",
+      "published": "2026-03-18T17:38:05Z",
+      "authors": [
+        "Omar Alsheikh",
+        "A. F. Kemper",
+        "Ermal Rrapaj",
+        "Goksu C. Toga"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Muon: MUD (MomentUm Decorrelation) for Faster Transformer Training",
+      "link": "https://arxiv.org/abs/2603.17970v1",
+      "summary": "Orthogonalized-momentum optimizers such as Muon improve transformer training by approximately whitening/orthogonalizing matrix-valued momentum updates via a short polar-decomposition iteration. However, polar-factor approximations typically require multiple large matrix multiplications, and the resulting overhead can be substantial and hardware-dependent. We introduce MUD (MomentUm Decorrelation), a complementary whitening approach that replaces Muon's polar update with a triangular (Cholesky-li",
+      "published": "2026-03-18T17:37:31Z",
+      "authors": [
+        "Ben S. Southworth",
+        "Stephen Thomas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Specification-Aware Distribution Shaping for Robotics Foundation Models",
+      "link": "https://arxiv.org/abs/2603.17969v1",
+      "summary": "Robotics foundation models have demonstrated strong capabilities in executing natural language instructions across diverse tasks and environments. However, they remain largely data-driven and lack formal guarantees on safety and satisfaction of time-dependent specifications during deployment. In practice, robots often need to comply with operational constraints involving rich spatio-temporal requirements such as time-bounded goal visits, sequential objectives, and persistent safety conditions. I",
+      "published": "2026-03-18T17:36:46Z",
+      "authors": [
+        "Sadık Bera Yüksel",
+        "Derya Aksaray"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z $\\approx$ 0.7: Pushing Black Hole Searches into the Dwarf-Galaxy Regime",
+      "link": "https://arxiv.org/abs/2603.17967v1",
+      "summary": "We report the discovery and characterization of two compact galaxies, Pelias and Neleus, at z ~ 0.71 and z ~ 0.75, identified in MACS J0416.1-2403 and GOODS-North. Both exhibit unusual spectral energy distributions (SEDs), with very blue rest-frame UV-optical emission and a steep rise toward near- and mid-infrared wavelengths. JWST/NIRISS and JWST/NIRSpec spectroscopy show strong rest-frame optical lines ([O III] 4959,5007 and Halpha) with extreme equivalent widths (>= 1000 Angstrom), indicating",
+      "published": "2026-03-18T17:35:18Z",
+      "authors": [
+        "E. Iani",
+        "P. Rinaldi",
+        "A. Torralba",
+        "J. Lyu",
+        "R. Navarro-Carrera"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LaDe: Unified Multi-Layered Graphic Media Generation and Decomposition",
+      "link": "https://arxiv.org/abs/2603.17965v1",
+      "summary": "Media design layer generation enables the creation of fully editable, layered design documents such as posters, flyers, and logos using only natural language prompts. Existing methods either restrict outputs to a fixed number of layers or require each layer to contain only spatially continuous regions, causing the layer count to scale linearly with design complexity. We propose LaDe (Layered Media Design), a latent diffusion framework that generates a flexible number of semantically meaningful l",
+      "published": "2026-03-18T17:34:07Z",
+      "authors": [
+        "Vlad-Constantin Lungu-Stan",
+        "Ionut Mironica",
+        "Mariana-Iuliana Georgescu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Low Energy Phonon Bursts Created By Fast Neutron Damage",
+      "link": "https://arxiv.org/abs/2603.17964v1",
+      "summary": "Solid state athermal phonon calorimeters used in the search for low mass dark matter or coherent neutrino-nucleus interactions have long observed a large excess of events below several hundred eV. The relaxation of damage created by the interaction of fast cosmic ray neutrons with the detector has been proposed as a source of these excess events. By comparing neutron exposed detectors to control detectors, we report the first measurement of phonon bursts caused by damage created by fast neutrons",
+      "published": "2026-03-18T17:33:29Z",
+      "authors": [
+        "A. Armatol",
+        "C. Augier",
+        "L. Bergé",
+        "J. Billard",
+        "H. J. Birch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The chemical DNA of the Magellanic Clouds VI. Origin and evolution of neutron-capture elements in the SMC",
+      "link": "https://arxiv.org/abs/2603.17963v1",
+      "summary": "Context. In the context of galactic archaeology, the study of the Small Magellanic Cloud (SMC) is of crucial importance, as it represents a unique opportunity to study a nearby massive dwarf system. However, theoretical studies of the chemical evolution of this galaxy are strikingly lacking. Aims. In this study, we investigate the chemical enrichment of the SMC galaxy. Besides alpha and Fe-peak elements, we devote particular attention to the evolution of neutron-capture elements with different o",
+      "published": "2026-03-18T17:32:12Z",
+      "authors": [
+        "Marco Palla",
+        "Alessio Mucciarelli",
+        "Donatella Romano",
+        "Samuele Anoardo",
+        "Francesca Matteucci"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ConGA: Guidelines for Contextual Gender Annotation. A Framework for Annotating Gender in Machine Translation",
+      "link": "https://arxiv.org/abs/2603.17962v1",
+      "summary": "Handling gender across languages remains a persistent challenge for Machine Translation (MT) and Large Language Models (LLMs), especially when translating from gender-neutral languages into morphologically gendered ones, such as English to Italian. English largely omits grammatical gender, while Italian requires explicit agreement across multiple grammatical categories. This asymmetry often leads MT systems to default to masculine forms, reinforcing bias and reducing translation accuracy. To add",
+      "published": "2026-03-18T17:31:47Z",
+      "authors": [
+        "Argentina Anna Rescigno",
+        "Eva Vanmassenhove",
+        "Johanna Monti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The efficient delivery of highly-siderophile elements to the core creates a mass accretion catastrophe for the Earth",
+      "link": "https://arxiv.org/abs/2603.17961v1",
+      "summary": "The excess abundance of highly siderophile elements (HSEs), as inferred for the terrestrial planets and the Moon, is thought to record a `late veneer' of impacts after the giant impact phase of planet formation. Estimates for total mass accretion during this period typically assume all HSEs delivered remain entrained in the mantle. Here, we present an analytical discussion of the fate of liquid metal diapirs in both a magma pond and a solid mantle, and show that metals from impactors larger than",
+      "published": "2026-03-18T17:31:17Z",
+      "authors": [
+        "Richard J. Anslow",
+        "Maylis Landeau",
+        "Amy Bonsor",
+        "Jonathan Itcovitz",
+        "Oliver Shorttle"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MQTE: A Measurement-Based Quantum Algorithm for Robust Energy Spectrum Estimation in the NISQ Era",
+      "link": "https://arxiv.org/abs/2603.17959v1",
+      "summary": "Extracting energy spectra from quantum Hamiltonians is a fundamental task for quantum simulation, yet remains challenging on noisy intermediate-scale quantum (NISQ) devices. We propose Measured Quantum Time Evolution (MQTE), an ancilla-free algorithm that estimates energy gaps by applying real-time evolution to a reference state and measuring time-resolved probabilities via repeated projective measurements. Spectral analysis of these signals reveals oscillation frequencies corresponding to eigen",
+      "published": "2026-03-18T17:30:41Z",
+      "authors": [
+        "Qing-Xing Xie",
+        "Yong-Kang Duan",
+        "Fa-Hui Liu",
+        "Yan Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond VQE and QPE: A Noise- and Sampling-Error-Tolerant Quantum Algorithm with Heisenberg-Limited Precision",
+      "link": "https://arxiv.org/abs/2603.17953v1",
+      "summary": "This paper introduces Witnessed Quantum Time Evolution (WQTE), a novel quantum algorithm for efficiently computing the eigen-energy spectra of arbitrary quantum systems without requiring eigenstate preparation-a key limitation of conventional approaches. By leveraging a single ancillary qubit to control real-time evolution operators and employing Fourier analysis, WQTE enables parallel resolution of multiple eigen-energies. Theoretical analysis demonstrates that the algorithm achieves Heisenberg",
+      "published": "2026-03-18T17:27:07Z",
+      "authors": [
+        "Qing-Xing Xie",
+        "Zidong Lin",
+        "Yun-Long Liu",
+        "Yan Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gender Disambiguation in Machine Translation: Diagnostic Evaluation in Decoder-Only Architectures",
+      "link": "https://arxiv.org/abs/2603.17952v1",
+      "summary": "While Large Language Models achieve state-of-the-art results across a wide range of NLP tasks, they remain prone to systematic biases. Among these, gender bias is particularly salient in MT, due to systematic differences across languages in whether and how gender is marked. As a result, translation often requires disambiguating implicit source signals into explicit gender-marked forms. In this context, standard benchmarks may capture broad disparities but fail to reflect the full complexity of g",
+      "published": "2026-03-18T17:26:36Z",
+      "authors": [
+        "Chiara Manna",
+        "Hosein Mohebbi",
+        "Afra Alishahi",
+        "Frédéric Blain",
+        "Eva Vanmassenhove"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Measurement of coherent elastic neutrino nucleus scattering on germanium by COHERENT",
+      "link": "https://arxiv.org/abs/2603.17951v1",
+      "summary": "The COHERENT collaboration reports the most precise measurement of the coherent elastic neutrino-nucleus scattering cross section to date. This measurement was performed with COHERENT's germanium detector array, Ge-Mini, at the Spallation Neutron Source at Oak Ridge National Laboratory. A cumulative exposure of $4.68\\times10^{22}$ protons on target yielded a total number of observed counts of $124^{+14}_{-12}$ and a flux-averaged cross section of $1.00 \\pm 0.10 \\mathrm{(statistical)} \\pm 0.10 \\m",
+      "published": "2026-03-18T17:25:28Z",
+      "authors": [
+        "M. Adhikari",
+        "M. Ahn",
+        "D. Amaya Matamoros",
+        "P. S. Barbeau",
+        "V. Belov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physical Approaches to Metabolic Scaling in Living Systems",
+      "link": "https://arxiv.org/abs/2603.17950v1",
+      "summary": "Living systems continuously transform matter and energy through the chemical processes that constitute their metabolism. The overall metabolic rate of an organism correlates positively with its body mass, however both the exact scaling behavior and possible explanations for this behavior have been under intense debate for two centuries. This review synthesizes empirical findings and theoretical frameworks on the energetics of living systems from an interdisciplinary perspective, with a focus on ",
+      "published": "2026-03-18T17:25:14Z",
+      "authors": [
+        "Efe Ilker",
+        "Michael Hinczewski",
+        "Xingbo Yang",
+        "Frank Jülicher"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Homogeneous forcing",
+      "link": "https://arxiv.org/abs/2603.17949v1",
+      "summary": "Assume $κ= κ^{< κ}$ (usually $\\aleph_0$ or an inaccessible).   We shall deal with iterated forcings preserving ${}^{κ>}{\\rm Ord}$ and not collapsing cardinals along a linear order $L$. A sufficient condition for this, which we will focus on, is for the forcings to have support $<κ$ and the $κ^+$-cc, and be strategically $<κ$-complete. The aim is to have homogeneous forcings, so that the iteration has many automorphisms.   In addition to the inherent interest, such iterations are helpful for cons",
+      "published": "2026-03-18T17:20:55Z",
+      "authors": [
+        "Saharon Shelah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VideoAtlas: Navigating Long-Form Video in Logarithmic Compute",
+      "link": "https://arxiv.org/abs/2603.17948v1",
+      "summary": "Extending language models to video introduces two challenges: representation, where existing methods rely on lossy approximations, and long-context, where caption- or agent-based pipelines collapse video into text and lose visual fidelity. To overcome this, we introduce \\textbf{VideoAtlas}, a task-agnostic environment to represent video as a hierarchical grid that is simultaneously lossless, navigable, scalable, caption- and preprocessing-free. An overview of the video is available at a glance, ",
+      "published": "2026-03-18T17:20:19Z",
+      "authors": [
+        "Mohamed Eltahir",
+        "Ali Habibullah",
+        "Yazan Alshoibi",
+        "Lama Ayash",
+        "Tanveer Hussain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CARE: Covariance-Aware and Rank-Enhanced Decomposition for Enabling Multi-Head Latent Attention",
+      "link": "https://arxiv.org/abs/2603.17946v1",
+      "summary": "Converting pretrained attention modules such as grouped-query attention (GQA) into multi-head latent attention (MLA) can improve expressivity without increasing KV-cache cost, making it attractive for efficient inference. However, many practical conversion baselines rely on weight-only low-rank approximations (e.g., SVD-style initializations) and uniform rank allocation. They focus on minimizing the difference between weight matrices rather than on how those weights affect input activations, ign",
+      "published": "2026-03-18T17:18:35Z",
+      "authors": [
+        "Zhongzhu Zhou",
+        "Fengxiang Bie",
+        "Ziyan Chen",
+        "Zhenyu Zhang",
+        "Yibo Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ShapleyLaw: A Game-Theoretic Approach to Multilingual Scaling Laws",
+      "link": "https://arxiv.org/abs/2603.17945v1",
+      "summary": "In multilingual pretraining, the test loss of a pretrained model is heavily influenced by the proportion of each language in the pretraining data, namely the \\textit{language mixture ratios}. Multilingual scaling laws can predict the test loss under different language mixture ratios and can therefore be used to estimate the optimal ratios. However, the current approaches to multilingual scaling laws do not measure the \\textit{cross-lingual transfer} effect, resulting in suboptimal mixture ratios",
+      "published": "2026-03-18T17:17:18Z",
+      "authors": [
+        "Xuyang Cao",
+        "Qianying Liu",
+        "Chuan Xiao",
+        "Yusuke Oda",
+        "Pontus Stenetorp"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TransText: Transparency Aware Image-to-Video Typography Animation",
+      "link": "https://arxiv.org/abs/2603.17944v1",
+      "summary": "We introduce the first method, to the best of our knowledge, for adapting image-to-video models to layer-aware text (glyph) animation, a capability critical for practical dynamic visual design. Existing approaches predominantly handle the transparency-encoding (alpha channel) as an extra latent dimension appended to the RGB space, necessitating the reconstruction of the underlying RGB-centric variational autoencoder (VAE). However, given the scarcity of high-quality transparent glyph data, retra",
+      "published": "2026-03-18T17:16:40Z",
+      "authors": [
+        "Fei Zhang",
+        "Zijian Zhou",
+        "Bohao Tang",
+        "Sen He",
+        "Hang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing",
+      "link": "https://arxiv.org/abs/2603.17942v1",
+      "summary": "Large language models (LLMs) exhibit latent multi-token prediction (MTP) capabilities despite being trained solely for next-token generation. We propose a simple, training-free MTP approach that probes an LLM using on-the-fly mask tokens drawn from its embedding space, enabling parallel prediction of future tokens without modifying model weights or relying on auxiliary draft models. Our method constructs a speculative token tree by sampling top-K candidates from mask-token logits and applies a l",
+      "published": "2026-03-18T17:14:01Z",
+      "authors": [
+        "Raghavv Goel",
+        "Mukul Gagrani",
+        "Mingu Lee",
+        "Chris Lott"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient Quantum Algorithm for Solving Linear Distributed Delay Differential Equations",
+      "link": "https://arxiv.org/abs/2603.17941v1",
+      "summary": "Non-Markovian dynamics is ubiquitous in both quantum and classical systems, but the numerical computation of the time-delay dynamics is demanding. In this work, we propose an efficient quantum algorithm for solving linear distributed delay differential equations and identify the condition under which it applies. Using the linear chain trick, the distributed delay differential equations can be embedded into ordinary differential equations augmented with auxiliary variables, when the kernel functi",
+      "published": "2026-03-18T17:13:50Z",
+      "authors": [
+        "Wataru Setoyama",
+        "Keisuke Fujii"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exploration of Fluxonium Parameters for Capacitive Cross-Resonance Gates",
+      "link": "https://arxiv.org/abs/2603.17936v1",
+      "summary": "We study the cross-resonance effect in capacitively-coupled fluxonium qubits and devise a simple formula for their maximum ZX interaction strength. By going beyond the perturbative regime, we find that a CNOT gate can generally be realized in under 200 ns with residual ZZ limited to 50 kHz, for fluxonium qubits with frequencies below 1 GHz. Our analysis relies on a semi-analytical method: we first numerically diagonalize the Floquet Hamiltonian of the strongly-driven control qubit and then pertu",
+      "published": "2026-03-18T17:10:12Z",
+      "authors": [
+        "Eugene Y. Huang",
+        "Christian Kraglund Andersen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Minimum-Energy Control For Control-Affine Systems",
+      "link": "https://arxiv.org/abs/2603.17933v1",
+      "summary": "In this letter, we derive minimum-energy controls for a broad class of control-affine systems using a Lagrange multiplier fixed-point equation and a generally non-symmetric Gramian-like matrix. In feasible coercivity classes, this fixed point is unique and can be computed by standard Picard iteration. These iterates converge with factorial decay, yielding an implementable, highly scalable synthesis with an intrinsic energy bound. As a demonstration of concept, we use uniform complete controllabi",
+      "published": "2026-03-18T17:08:52Z",
+      "authors": [
+        "Cyprien Tamekue",
+        "Zongxi Yu",
+        "ShiNung Ching"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Real-time Coordination of Cascaded Hydroelectric Generation under Decision-Dependent Uncertainties",
+      "link": "https://arxiv.org/abs/2603.17931v1",
+      "summary": "This paper proposes a real-time control policy for cascaded hydropower systems that incorporates decision-dependent uncertainty (DDU) to capture the coupling of streamflow uncertainties across the network. The framework jointly models exogenous forecast errors and endogenous uncertainty propagation, explicitly characterizing the dependence between upstream releases and downstream inflow variability through a heteroskedastic variance model conditioned on past errors, variance, and control actions",
+      "published": "2026-03-18T17:05:44Z",
+      "authors": [
+        "Eliza Cohn",
+        "Ning Qi",
+        "Upmanu Lall",
+        "Bolun Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interpretable Traffic Responsibility from Dashcam Video via Legal Multi Agent Reasoning",
+      "link": "https://arxiv.org/abs/2603.17930v1",
+      "summary": "The widespread adoption of dashcams has made video evidence in traffic accidents increasingly abundant, yet transforming \"what happened in the video\" into \"who is responsible under which legal provisions\" still relies heavily on human experts. Existing ego-view traffic accident studies mainly focus on perception and semantic understanding, while LLM-based legal methods are mostly built on textual case descriptions and rarely incorporate video evidence, leaving a clear gap between the two. We fir",
+      "published": "2026-03-18T17:04:48Z",
+      "authors": [
+        "Jingchun Yang",
+        "Jinchang Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
