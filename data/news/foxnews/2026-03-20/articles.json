@@ -1,0 +1,706 @@
+{
+  "source": "foxnews",
+  "article_count": 100,
+  "articles": [
+    {
+      "title": "Man accused of shooting father in face with crossbow captured after snowy manhunt",
+      "link": "https://www.foxnews.com/us/man-accused-shooting-father-face-crossbow-captured-after-snowy-manhunt",
+      "summary": "A West Virginia man was arrested after allegedly shooting his father in the face with a crossbow and leading police on a snowy multi-county manhunt.",
+      "published": "Fri, 20 Mar 2026 03:01:07 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Media under fire: Journalists keep questioning Iran war as Hegseth calls them ‘unpatriotic’ and ‘anti-Trump’",
+      "link": "https://www.foxnews.com/media/media-under-fire-journalists-keep-questioning-iran-war-hegseth-calls-them-unpatriotic-anti-trump",
+      "summary": "War Secretary Pete Hegseth slams media coverage of Iran conflict as &quot;dishonest&quot; while President Donald Trump reportedly rebukes Israeli allies over gas field bombing.",
+      "published": "Fri, 20 Mar 2026 03:00:34 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Feds charge 3 in $2.5b scheme to smuggle us AI tech to China using dummy servers",
+      "link": "https://www.foxnews.com/us/feds-charge-3-2-5b-scheme-smuggle-us-ai-tech-china-using-dummy-servers",
+      "summary": "Three men linked to Supermicro are accused of smuggling $2.5 billion in AI technology to China via fake documents and shell companies, prosecutors allege.",
+      "published": "Fri, 20 Mar 2026 00:31:33 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Missing University of Alabama student Jimmy Gracey found dead in Barcelona",
+      "link": "https://www.foxnews.com/us/missing-university-alabama-student-jimmy-gracey-found-dead-barcelona",
+      "summary": "The body of University of Alabama student Jimmy Gracey, 20, was recovered at Port Olimpic in Barcelona after a days-long search, his family confirmed.",
+      "published": "Thu, 19 Mar 2026 22:08:37 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Ukraine peace talks on ‘situational pause’ as Middle East conflict intensifies: Kremlin",
+      "link": "https://www.foxnews.com/world/ukraine-peace-talks-situational-pause-middle-east-conflict-intensifies-kremlin",
+      "summary": "The Kremlin says Ukraine peace talks are on a &apos;situational pause&apos; as Zelenskyy signals a Ukrainian team could resume negotiations as soon as Saturday.",
+      "published": "Thu, 19 Mar 2026 22:08:00 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Indiana University philanthropy group allegedly led fundraising training with Hamas-linked 'sham charity'",
+      "link": "https://www.foxnews.com/us/indiana-university-philanthropy-group-allegedly-led-fundraising-training-hamas-linked-sham-charity",
+      "summary": "Indiana University&apos;s Muslim Philanthropy Initiative allegedly partnered with Hayat Yolu, a Treasury-sanctioned group accused of funding Hamas.",
+      "published": "Thu, 19 Mar 2026 22:02:34 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "DHS touts 10 straight months of zero illegal aliens released at border as crossings plunge",
+      "link": "https://www.foxnews.com/us/dhs-touts-10-straight-months-zero-illegal-aliens-released-border-crossings-plunge",
+      "summary": "DHS says Border Patrol recorded 10 straight months of zero migrant releases, crediting enforcement-first policies and historically low illegal crossings.",
+      "published": "Thu, 19 Mar 2026 21:36:22 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "UC Berkeley to pay $1M, overhaul policies after antisemitism lawsuit settlement",
+      "link": "https://www.foxnews.com/media/uc-berkeley-pay-1m-overhaul-policies-after-antisemitism-lawsuit-settlement",
+      "summary": "UC Berkeley will pay $1 million and adopt new antisemitism policies after settling a Brandeis Center lawsuit alleging harassment against Jews.",
+      "published": "Thu, 19 Mar 2026 21:30:18 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Five Mexican nationals indicted after massive meth lab bust uncovers enormous quantities of drugs",
+      "link": "https://www.foxnews.com/us/five-mexican-nationals-indicted-massive-meth-lab-bust-uncovers-enormous-quantities-drugs",
+      "summary": "Five Mexican nationals face federal charges after nearly 3,000 pounds of meth and guns were seized from a clandestine lab in Northern California.",
+      "published": "Thu, 19 Mar 2026 21:14:56 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Viral video appears to show blind plane passenger caught in tense service dog dispute",
+      "link": "https://www.foxnews.com/lifestyle/viral-video-appears-show-blind-plane-passenger-caught-tense-service-dog-dispute",
+      "summary": "A viral video shared by influencer Jen Hamilton claims a blind passenger faced a tense dispute over his service dog. Hamilton stepped in, offering to switch seats to diffuse the clash.",
+      "published": "Thu, 19 Mar 2026 21:14:37 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "California building with dozens of health care, hospice providers raises eyebrows amid fraud speculation",
+      "link": "https://www.foxnews.com/media/california-building-housing-dozens-health-care-hospice-providers-raises-eyebrows-amid-fraud-speculation",
+      "summary": "A single building in Van Nuys, California, has raised eyebrows over the number of hospice providers and health agencies registered to the address.",
+      "published": "Thu, 19 Mar 2026 21:00:47 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "World Baseball Classic final attracted historic viewership with over 10M watching on FOX",
+      "link": "https://www.foxnews.com/sports/world-baseball-classic-final-marks-historic-viewership-over-10m-watching-fox",
+      "summary": "Venezuela&apos;s historic WBC title win over Team USA drew over 10.7 million viewers, making it the most-watched World Baseball Classic telecast ever, up 128% from 2023.",
+      "published": "Thu, 19 Mar 2026 20:25:06 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Browns' NFL rule proposal on future draft picks in trades draws scrutiny",
+      "link": "https://www.foxnews.com/sports/browns-nfl-rule-proposal-future-draft-picks-trades-draws-scrutiny",
+      "summary": "The Browns argued extending the NFL draft pick trade window from three to five years would create a more active trade market. Owners will vote on the proposal this month.",
+      "published": "Thu, 19 Mar 2026 20:10:12 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "California to change Cesar Chavez Day to Farmworkers Day after sexual abuse scandal",
+      "link": "https://www.foxnews.com/media/california-change-cesar-chavez-day-farmworkers-day-after-sexual-abuse-scandal",
+      "summary": "California State Assembly Speaker Robert Rivas announced plans to rename Cesar Chavez Day Farmworkers Day after allegations against the labor activist.",
+      "published": "Thu, 19 Mar 2026 20:00:40 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Denmark secretly prepared to blow up Greenland's runways to stop US aircraft: report",
+      "link": "https://www.foxnews.com/world/denmark-secretly-prepared-blow-greenlands-runways-stop-u-s-aircraft-report",
+      "summary": "Denmark disguised a troop deployment to Greenland as a NATO exercise called Arctic Endurance, with soldiers carrying explosives, DR reported, citing 12 high-level sources.",
+      "published": "Thu, 19 Mar 2026 19:25:34 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Nuclear fusion advances, but challenges remain for power grid",
+      "link": "https://www.foxnews.com/politics/efforts-update-expand-energy-sources",
+      "summary": "Nuclear fusion energy could become commercially viable by the early 2030s as scientists work to replicate the sun&apos;s power, potentially transforming energy.",
+      "published": "Thu, 19 Mar 2026 19:07:48 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "ICE agents told by relatives they will 'answer in hell' as families fracture over politics",
+      "link": "https://www.foxnews.com/media/ice-agents-told-relatives-answer-hell-families-fracture-over-politics",
+      "summary": "ICE agents faced family rejection when immigration enforcement divided households, and some relatives told them they would “answer in hell&quot; for their actions.",
+      "published": "Thu, 19 Mar 2026 19:00:52 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Olympians speak out against Iran's public execution of champion wrestler Saleh Mohammadi",
+      "link": "https://www.foxnews.com/sports/olympians-speak-out-against-irans-public-execution-boxer-champion-wrestler-saleh-mohammadi",
+      "summary": "The sports world mourned the reported execution of Iranian wrestling star Saleh Mohammadi, 19, who Iran International says was publicly hanged by Iran&apos;s regime.",
+      "published": "Thu, 19 Mar 2026 18:54:58 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Feds investigate alarming near miss between Alaska Airlines jet, FedEx plane at busy Newark airport",
+      "link": "https://www.foxnews.com/us/feds-investigate-alarming-near-miss-between-alaska-airlines-jet-fedex-plane-busy-newark-airport",
+      "summary": "Federal authorities will investigate a reported close call at Newark airport involving an Alaska Airlines and FedEx aircraft on crossing runways Tuesday night.",
+      "published": "Thu, 19 Mar 2026 18:53:28 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Jack Hughes clarifies remarks on Olympic gold medal puck after Hall of Fame says it’s staying put",
+      "link": "https://www.foxnews.com/sports/jack-hughes-clarifies-remarks-olympic-gold-medal-puck-hall-fame-says-staying-put",
+      "summary": "Jack Hughes clarified his comments about wanting the Olympic gold puck after sparking a back and forth with the Hockey Hall of Fame over it&apos;s ownership.",
+      "published": "Thu, 19 Mar 2026 18:43:08 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Duke survives stunning halftime deficit to hold off No. 16 seed Siena in March Madness' first round",
+      "link": "https://www.foxnews.com/sports/duke-survives-stunning-halftime-deficit-hold-off-16-seed-siena-march-madness-first-round",
+      "summary": "The Siena Saints nearly became the third team in March Madness history to beat a No. 1 seed as a No. 16 seed, but the Duke Blue Devils rallied in the second half to avoid the upset.",
+      "published": "Thu, 19 Mar 2026 18:40:37 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Major city hikes hotel tax to nearly 20% as tourism bosses eye future events",
+      "link": "https://www.foxnews.com/travel/major-city-hikes-hotel-tax-nearly-20-tourism-bosses-eye-major-events",
+      "summary": "Chicago has raised the tourist tax on downtown hotels to 19% to boost tourism marketing efforts. A new district will fund Choose Chicago campaigns and events.",
+      "published": "Thu, 19 Mar 2026 18:40:17 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Juror says Kouri Richins sympathy flipped after trial exposed kids’ book author’s plot to kill husband: report",
+      "link": "https://www.foxnews.com/us/juror-says-kouri-richins-sympathy-flipped-after-trial-exposed-kids-book-authors-plot-kill-husband-report",
+      "summary": "A juror revealed how the jury in Utah author Kouri Richins&apos; murder trial jury went from sympathetic to a unanimous guilty verdict in her husband&apos;s fentanyl poisoning death.",
+      "published": "Thu, 19 Mar 2026 18:32:02 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Fox News' Shannon Bream scores fourth consecutive No 1 New York Times bestseller with new faith book",
+      "link": "https://www.foxnews.com/media/fox-news-shannon-bream-scores-fourth-consecutive-no-1-new-york-times-bestseller-new-faith-book",
+      "summary": "Shannon Bream&apos;s new book &quot;Nothing is Impossible with God&quot; debuted at No. 1 on the New York Times bestseller list, making it her fourth hit with Fox News Books.",
+      "published": "Thu, 19 Mar 2026 18:30:27 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Mamdani moves to sideline NYC police with new safety office under sweeping overhaul",
+      "link": "https://www.foxnews.com/us/mamdani-moves-sideline-nyc-police-new-safety-office-under-sweeping-overhaul",
+      "summary": "NYC Mayor Zohran Mamdani announced the new Office of Community Safety Thursday, signaling a shift in a public safety approach from policing to prevention and support programs.",
+      "published": "Thu, 19 Mar 2026 18:30:05 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Nuclear fusion advances, but challenges remain for power grid",
+      "link": "https://www.foxnews.com/politics/efforts-update-expand-energy-sources",
+      "summary": "Nuclear fusion energy could become commercially viable by the early 2030s as scientists work to replicate the sun&apos;s power, potentially transforming energy.",
+      "published": "Thu, 19 Mar 2026 19:07:48 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Duffy mocks Newsom’s ‘bridges to nowhere’ as California wildlife crossing overruns by $21M",
+      "link": "https://www.foxnews.com/politics/duffy-mocks-newsoms-bridges-nowhere-california-wildlife-crossing-overruns-21m",
+      "summary": "Animal crossing bridge in California faces delays and cost overruns as Newsom blames Trump tariffs for $114 million project originally set at $92 million.",
+      "published": "Thu, 19 Mar 2026 18:20:46 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Dems face reckoning after putting deceased labor leader on pedestal as sexual abuse allegations emerge",
+      "link": "https://www.foxnews.com/politics/dems-face-reckoning-after-putting-deceased-labor-leader-pedestal-sexual-abuse-allegations-emerge",
+      "summary": "Years of White House proclamations and Democratic praise for Cesar Chavez are now under fresh scrutiny after abuse allegations prompted allies to back away.",
+      "published": "Thu, 19 Mar 2026 17:55:18 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Elizabeth Warren endorses Nazi-tattooed Graham Platner in high-stakes Maine Senate primary",
+      "link": "https://www.foxnews.com/politics/elizabeth-warren-endorses-nazi-tattooed-graham-platner-high-stakes-maine-senate-primary",
+      "summary": "Elizabeth Warren endorsed Graham Platner in Maine&apos;s Democratic Senate primary against Gov. Janet Mills, backing the outsider ahead of a June showdown.",
+      "published": "Thu, 19 Mar 2026 17:24:46 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "DOJ subpoenas ex-FBI Director James Comey over role in 2017 Russia intel assessment",
+      "link": "https://www.foxnews.com/politics/doj-subpoenas-ex-fbi-director-james-comey-over-role-2017-russia-intel-assessment",
+      "summary": "The DOJ subpoenaed James Comey over his role in the 2017 Russia election intelligence report, escalating a criminal probe into how it was produced and if officials misled Congress.",
+      "published": "Thu, 19 Mar 2026 17:22:48 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Epstein's lawyer 'not aware' of any relationship Trump had with late convicted sex offender, Comer says",
+      "link": "https://www.foxnews.com/politics/epsteins-lawyer-not-aware-any-relationship-trump-had-late-convicted-sex-offender-comer-says",
+      "summary": "Epstein&apos;s lawyer testified he knew of no Trump relationship, the House Oversight chairman revealed.",
+      "published": "Thu, 19 Mar 2026 17:10:39 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Gabbard unaware of FBI probe into Joe Kent before resignation, official says",
+      "link": "https://www.foxnews.com/politics/gabbard-unaware-fbi-probe-joe-kent-before-resignation-official-says",
+      "summary": "FBI reportedly investigating former counterterrorism chief Joe Kent for allegedly leaking classified information, with intelligence director Tulsi Gabbard unaware of probe.",
+      "published": "Thu, 19 Mar 2026 16:42:28 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Illegal immigrant accused of running over US citizen nabbed by ICE after Biden-era release",
+      "link": "https://www.foxnews.com/politics/illegal-immigrant-accused-running-over-us-citizen-nabbed-ice-after-biden-era-release",
+      "summary": "A road rage incident in a Philadelphia suburb led to U.S. Immigration and Customs Enforcement arresting a violent illegal immigrant with a long criminal history.",
+      "published": "Thu, 19 Mar 2026 16:03:13 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Squad-backed progressives hit with ‘cold shower’ as moderates win Illinois primaries",
+      "link": "https://www.foxnews.com/politics/squad-style-progressives-hit-cold-shower-candidates-fall-moderates-blue-state-civil-war",
+      "summary": "Progressive Democrats backed by Squad members suffered several primary losses to more moderate candidates in Illinois highlighting the Democratic Party&apos;s internal fight.",
+      "published": "Thu, 19 Mar 2026 15:56:37 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "White men 'clearly' targeted as Virginia Dems’ race-sex bill hits Spanberger’s desk: experts",
+      "link": "https://www.foxnews.com/politics/white-men-clearly-targeted-virginia-dems-race-sex-bill-hits-spanbergers-desk-experts",
+      "summary": "A new Virginia procurement bill mandates agencies increase minority and women-owned business contracts to 42%. Republicans call it unconstitutional.",
+      "published": "Thu, 19 Mar 2026 15:41:52 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Dem rep's staffer repeatedly posed as lawyer for detainees, smuggled phone into Texas facility, ICE says",
+      "link": "https://www.foxnews.com/politics/dem-reps-staffer-repeatedly-posed-lawyer-detainees-smuggled-phone-texas-facility-ice-says",
+      "summary": "A congressional staffer allegedly posed as attorney 11 times to sneak a phone into ICE facility, sparking official investigation and immediate facility ban.",
+      "published": "Thu, 19 Mar 2026 15:22:48 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Pence: Democrats’ DHS funding fight ‘unconscionable’ as US faces threats ‘at home and abroad’",
+      "link": "https://www.foxnews.com/politics/pence-democrats-dhs-funding-fight-unconscionable-us-faces-threats-at-home-abroad",
+      "summary": "Former VP Mike Pence tells Fox News Digital exclusively that Democrats blocking DHS funding amid Iran strikes and terror attacks is &quot;unconscionable&quot; behavior.",
+      "published": "Thu, 19 Mar 2026 15:13:32 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Beijing leverages UN troops, funding to expand global influence, House report warns",
+      "link": "https://www.foxnews.com/politics/china-using-un-troops-funding-expand-global-influence-house-report-warns",
+      "summary": "House report warns China is systematically exploiting UN peacekeeping missions and financial contributions to advance strategic interests globally.",
+      "published": "Thu, 19 Mar 2026 15:12:26 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "4 House Dems vote against Women's History Museum bill over biological women-only amendment, Republican claims",
+      "link": "https://www.foxnews.com/politics/4-house-dems-vote-against-womens-history-museum-bill-over-biological-women-only-amendment-republican-claims",
+      "summary": "All four Democrats on a House committee opposed advancing a measure pertaining to authorizing land for the construction of the Women&apos;s History Museum.",
+      "published": "Thu, 19 Mar 2026 14:19:40 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "70 House GOP members urge Trump admin on Chinese-vape crackdown",
+      "link": "https://www.foxnews.com/politics/70-house-gop-members-urge-trump-admin-chinese-vape-crackdown",
+      "summary": "Illegal Chinese e-cigarettes are at the center of a new push by 70 House Republicans, who signed a letter urging officials to act in trade talks.",
+      "published": "Thu, 19 Mar 2026 14:11:00 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Pritzker's $5M push for ally sparks fury from Congressional Black Caucus: reports",
+      "link": "https://www.foxnews.com/politics/pritzkers-5m-push-ally-sparks-fury-from-congressional-black-caucus-reports",
+      "summary": "Congressional Black Caucus members criticized Gov. JB Pritzker for spending millions to boost Julianna Stratton in the Illinois Senate primary race.",
+      "published": "Thu, 19 Mar 2026 14:01:35 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Trump quips about Pearl Harbor when asked if Japan given advanced notice on Iran attacks: 'Wanted surprise'",
+      "link": "https://www.foxnews.com/politics/trump-quips-pearl-harbor-asked-japan-given-advanced-notice-iran-attacks-wanted-surprise",
+      "summary": "During White House meeting with Japan PM Sanae Takaichi, President Donald Trump quips about Pearl Harbor while speaking about the launch of Operation Epic Fury.",
+      "published": "Thu, 19 Mar 2026 13:55:56 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Mystery drones fly near DC-area military base as Iran tensions escalate",
+      "link": "https://www.foxnews.com/politics/mystery-drones-fly-near-dc-area-military-base-iran-tensions-escalate",
+      "summary": "Unidentified drones were reportedly detected near Fort McNair military base in Washington D.C., where top officials reportedly have been housed, sparking security concerns.",
+      "published": "Thu, 19 Mar 2026 13:30:32 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Schumer keeps public guessing on how long Dems will refuse to fund DHS amid terror attacks",
+      "link": "https://www.foxnews.com/politics/schumer-keeps-public-guessing-how-long-dems-refuse-fund-dhs",
+      "summary": "Schumer declined to answer questions over how long Democrats would continue to hold DHS closed over demands for reforming ICE, even as concerns about terrorism have climbed in recent weeks.",
+      "published": "Thu, 19 Mar 2026 13:30:31 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Slotkin presses DHS pick on ICE at polls, says she can’t trust Trump to allow ‘free and fair’ election",
+      "link": "https://www.foxnews.com/politics/slotkin-presses-dhs-pick-ice-polls-says-she-cant-trust-trump-allow-free-fair-election",
+      "summary": "Sen. Slotkin challenges Trump&apos;s DHS pick Mullin over ICE at polling places during confirmation hearing, warning Trump could try to &quot;steal&quot; the 2026 election.",
+      "published": "Thu, 19 Mar 2026 12:53:12 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Sarah Sanders flipped off, kicked out of restaurant that claims employees were 'uncomfortable'",
+      "link": "https://www.foxnews.com/politics/sarah-sanders-flipped-off-kicked-out-of-restaurant-that-claims-employees-were-uncomfortable",
+      "summary": "Arkansas Gov. Sarah Huckabee Sanders says she was asked to leave Little Rock restaurant after staff claimed her presence made employees feel threatened.",
+      "published": "Thu, 19 Mar 2026 12:48:24 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "DOJ fires warning shot at Letitia James over transgender treatments for minors",
+      "link": "https://www.foxnews.com/politics/doj-fires-warning-shot-letitia-james-over-transgender-treatments-minors",
+      "summary": "The DOJ warns New York Attorney General Letitia James to back away from her fight with NYU Langone Health over its decision to stop providing certain transgender treatments to minors.",
+      "published": "Thu, 19 Mar 2026 12:47:47 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Hawley launches investigation into abortion drug manufacturers over 'grave risks' to women",
+      "link": "https://www.foxnews.com/politics/hawley-launches-investigation-abortion-drug-manufacturers-over-grave-risks-women",
+      "summary": "Sen. Josh Hawley, R-Mo., has launched investigations into two manufacturers of the mifepristone abortion drug on Thursday.",
+      "published": "Thu, 19 Mar 2026 12:40:20 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Hochul pleads for wealthy New Yorkers to return from red states like Florida, Texas as tax base 'eroded'",
+      "link": "https://www.foxnews.com/politics/hochul-pleads-wealthy-new-yorkers-return-from-red-states-like-florida-texas-tax-base-eroded",
+      "summary": "Empire State Gov. Kathy Hochul, a Democrat, indicated that New York&apos;s tax base has eroded because wealth has relocated to red states like Texas and Florida.",
+      "published": "Thu, 19 Mar 2026 12:28:20 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Texas Senate hopeful Talarico in hot seat for calling men in women’s sports a ‘far-right conspiracy’",
+      "link": "https://www.foxnews.com/politics/texas-senate-hopeful-talarico-hot-seat-calling-men-womens-sports-far-right-conspiracy",
+      "summary": "Top Democratic candidate James Talarico, who is running for U.S. Senate in Texas, is being called out for suggesting concern about males in girls’ sports is a “far-right conspiracy.&quot;",
+      "published": "Thu, 19 Mar 2026 12:27:24 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Ukraine peace talks on ‘situational pause’ as Middle East conflict intensifies: Kremlin",
+      "link": "https://www.foxnews.com/world/ukraine-peace-talks-situational-pause-middle-east-conflict-intensifies-kremlin",
+      "summary": "The Kremlin says Ukraine peace talks are on a &apos;situational pause&apos; as Zelenskyy signals a Ukrainian team could resume negotiations as soon as Saturday.",
+      "published": "Thu, 19 Mar 2026 22:08:00 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Denmark secretly prepared to blow up Greenland's runways to stop US aircraft: report",
+      "link": "https://www.foxnews.com/world/denmark-secretly-prepared-blow-greenlands-runways-stop-u-s-aircraft-report",
+      "summary": "Denmark disguised a troop deployment to Greenland as a NATO exercise called Arctic Endurance, with soldiers carrying explosives, DR reported, citing 12 high-level sources.",
+      "published": "Thu, 19 Mar 2026 19:25:34 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Iran’s new supreme leader linked to properties with ‘line of sight’ into Israeli UK Embassy",
+      "link": "https://www.foxnews.com/world/irans-new-supreme-leader-linked-properties-line-sight-israeli-uk-embassy",
+      "summary": "Two London apartments linked to Mojtaba Khamenei sit less than 50 meters from the Israeli Embassy which a terrorism specialist says constitutes a serious security breach.",
+      "published": "Thu, 19 Mar 2026 18:00:19 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Iran arrests 97 people it accuses of being 'soldiers of Israel' in massive crackdown",
+      "link": "https://www.foxnews.com/world/iran-arrests-97-people-accuses-being-soldiers-israel-massive-crackdown",
+      "summary": "Iran has detained hundreds since the war began, including 97 accused of ties to Israel, following the assassination of intelligence minister Esmaeil Khatib in a targeted Israeli strike.",
+      "published": "Thu, 19 Mar 2026 15:49:13 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Trump rates Macron 'an 8' as France and US split over Middle East strategy",
+      "link": "https://www.foxnews.com/world/trump-rates-macron-an-8-france-us-split-over-middle-east-strategy",
+      "summary": "Macron calls for Middle East de-escalation while Trump and Israel push military pressure against Iran, exposing growing diplomatic rifts over regional strategy.",
+      "published": "Thu, 19 Mar 2026 15:37:45 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Neither the US nor Israel will 'succeed in replacing the Iranian regime,' retired US general says",
+      "link": "https://www.foxnews.com/world/neither-us-nor-israel-succeed-replacing-iranian-regime-retired-us-general-says",
+      "summary": "Retired U.S. Lt. Gen. Mark Schwartz told an Israeli newspaper that he believes &quot;neither Israel nor the U.S. will fully succeed in replacing the Iranian regime.&quot;",
+      "published": "Thu, 19 Mar 2026 12:55:00 -0400",
+      "section": "world"
+    },
+    {
+      "title": "12 Arab and Islamic countries unite to condemn 'heinous' Iranian attacks",
+      "link": "https://www.foxnews.com/world/12-arab-islamic-countries-unite-condemn-heinous-iranian-attacks",
+      "summary": "A coalition of 12 Arab and Islamic countries denounces Iran’s attacks on civilian infrastructure, urges restraint and warns of risks to regional security.",
+      "published": "Thu, 19 Mar 2026 08:31:12 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Iran's supreme leader Mojtaba Khamenei 'misfunctioning,' not controlling regime: sources",
+      "link": "https://www.foxnews.com/world/irans-supreme-leader-mojtaba-khamenei-misfunctioning-not-controlling-regime-sources",
+      "summary": "Iran&apos;s new Supreme Leader, Mojtaba Khamenei, took power after his father Ali Khamenei was killed in an Israeli strike, but Israeli intelligence says he lacks control over the regime.",
+      "published": "Wed, 18 Mar 2026 21:28:12 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Iran’s hidden mountain nuclear site raises urgent threat, must be ‘neutralized': reports",
+      "link": "https://www.foxnews.com/world/irans-hidden-mountain-nuclear-site-raises-urgent-threat-must-neutralized-reports",
+      "summary": "Andrea Stricker warns the U.S. must neutralize Iran&apos;s Pickaxe Mountain nuclear site and secure uranium stockpiles before ending combat operations.",
+      "published": "Wed, 18 Mar 2026 19:31:03 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Russia ships fuel to Cuba using 'spoofing' tactic challenging Trump embargo: reports",
+      "link": "https://www.foxnews.com/world/russia-ships-fuel-cuba-using-spoofing-tactic-challenging-trump-embargo-reports",
+      "summary": "Hong Kong-flagged tanker allegedly delivered 190,000 barrels of Russian oil to Cuba using AIS spoofing and ship-to-ship transfers to evade U.S. sanctions.",
+      "published": "Wed, 18 Mar 2026 17:27:02 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Venezuela's Delcy Rodriguez replaces sanctioned loyalist defense minister with military intel head",
+      "link": "https://www.foxnews.com/world/venezuelas-delcy-rodriguez-replaces-sanctioned-loyalist-defense-minister-military-intel-head",
+      "summary": "Acting president Delcy Rodriguez has appointed Gustavo Gonzalez Lopez to lead the defense ministry, a move to consolidate military control.",
+      "published": "Wed, 18 Mar 2026 16:47:13 -0400",
+      "section": "world"
+    },
+    {
+      "title": "One dead after cable car detaches, plummets at Swiss ski resort",
+      "link": "https://www.foxnews.com/world/one-dead-cable-car-detaches-plummets-swiss-ski-resort",
+      "summary": "A 61-year-old woman died Wednesday after a gondola detached and crashed on a snowy mountainside in Engelberg, Switzerland, authorities said.",
+      "published": "Wed, 18 Mar 2026 15:39:24 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Former Assad-era prison chief convicted of torture in US federal court, marking a historic first",
+      "link": "https://www.foxnews.com/world/former-assad-era-prison-chief-convicted-torture-us-federal-court-marking-historic-first",
+      "summary": "Samir Ousman Alsheikh, a former Syrian prison chief, was found guilty of torture and immigration fraud charges, becoming the first Assad-era official convicted in a U.S. court.",
+      "published": "Wed, 18 Mar 2026 15:04:13 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Afghanistan accuses Pakistan of killing hundreds in Kabul hospital strike",
+      "link": "https://www.foxnews.com/world/afghanistan-accuses-pakistan-killing-hundreds-kabul-hospital-strike",
+      "summary": "Reported airstrike on Afghanistan hospital allegedly kills 400+ civilians, sparking widespread criticism over muted international response to the attack.",
+      "published": "Wed, 18 Mar 2026 14:26:26 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Belgium deploys military to guard Jewish sites after Iran-linked group claims Europe attacks",
+      "link": "https://www.foxnews.com/world/belgium-deploys-military-guard-jewish-sites-after-iran-linked-group-claims-europe-attacks",
+      "summary": "Belgium deploys military to protect Jewish communities after explosion outside Liège, Belgium, synagogue. Officials call blast a &quot;despicable antisemitic&quot; act.",
+      "published": "Wed, 18 Mar 2026 12:07:58 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Fiery aftermath of Iran missile strike near Tel Aviv caught on video after 2 killed",
+      "link": "https://www.foxnews.com/world/iran-missile-strike-tel-aviv-aftermath-video",
+      "summary": "Video footage captured fiery destruction and emergency crews responding after an Iranian missile strike near Tel Aviv, Israel, killed two people.",
+      "published": "Wed, 18 Mar 2026 08:26:11 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Israel kills Iranian intelligence minister who survived initial strike, official says",
+      "link": "https://www.foxnews.com/world/israel-kills-iranian-intelligence-minister-who-survived-initial-strike-official-says",
+      "summary": "Iran’s Intelligence Minister Esmaeil Khatib was killed in an Israeli strike, a senior Israeli official told Fox News.",
+      "published": "Wed, 18 Mar 2026 07:51:02 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Pro-life leader criticizes 'insane' UK bill that would decriminalize certain abortions up until birth",
+      "link": "https://www.foxnews.com/world/pro-life-leader-criticizes-insane-uk-bill-would-decriminalize-certain-abortions-up-until-birth",
+      "summary": "Shawn Carney, CEO of 40 Days for Life, expressed concern over a U.K. bill aimed at shielding women from criminal liability for abortions up until birth, describing it as &quot;insane.&quot;",
+      "published": "Wed, 18 Mar 2026 02:01:57 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Deadly blasts at market and hospital raise fears of renewed Boko Haram insurgency in Nigeria",
+      "link": "https://www.foxnews.com/world/deadly-blasts-market-hospital-raise-fears-renewed-boko-haram-insurgency-nigeria",
+      "summary": "Nigeria suicide bombings in Maiduguri killed at least 23 people and wounded over 100 others in deadly attacks targeting a hospital and market Monday night.",
+      "published": "Tue, 17 Mar 2026 18:13:08 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Rubio says Cuba needs ‘new people in charge’ as blackouts, unrest grip island",
+      "link": "https://www.foxnews.com/world/rubio-says-cuba-needs-new-people-charge-blackouts-unrest-grip-island",
+      "summary": "Marco Rubio links U.S. sanctions on Cuba to political change as the island nation faces widespread blackouts and economic crisis affecting millions of citizens.",
+      "published": "Tue, 17 Mar 2026 17:00:55 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Iran regime hides in bunkers as civilians left exposed without adequate bomb shelters or sirens",
+      "link": "https://www.foxnews.com/world/iran-regime-hides-bunkers-civilians-left-exposed-without-adequate-bomb-shelters-sirens",
+      "summary": "Iranian civilians are complaining about a lack of bomb shelters and warning systems as Islamic Revolutionary Guard Corps officials hide in bunkers during strikes.",
+      "published": "Tue, 17 Mar 2026 15:03:53 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Next US move on Iran: Seize Kharg Island, secure uranium or risk ground war escalation",
+      "link": "https://www.foxnews.com/world/next-move-iran-seize-kharg-island-secure-uranium-risk-ground-war-escalation",
+      "summary": "Military analysts discuss three paths for U.S.-Iran conflict: capturing Iran&apos;s economic lifeline at Kharg Island, full invasion or securing nuclear sites.",
+      "published": "Tue, 17 Mar 2026 15:01:06 -0400",
+      "section": "world"
+    },
+    {
+      "title": "EU pushes for end of Iran war in a manner where 'everybody saves face'",
+      "link": "https://www.foxnews.com/world/eu-proposes-face-saving-exit-plan-iran-israel-us-end-escalating-regional-conflict",
+      "summary": "The European Union is reportedly consulting with Gulf countries about possible ways Iran, Israel and the U.S. could end the war in a manner where &quot;everybody saves face.&quot;",
+      "published": "Tue, 17 Mar 2026 12:47:54 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Multiple allies decline US calls for Strait of Hormuz support amid rising Middle East tensions",
+      "link": "https://www.foxnews.com/world/multiple-allies-decline-us-calls-strait-hormuz-support-amid-rising-middle-east-tensions",
+      "summary": "Several U.S. allies are refusing military involvement in securing the Strait of Hormuz, citing diplomacy, legal limits or strategic caution.",
+      "published": "Tue, 17 Mar 2026 10:02:23 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Top Iranian official, commander killed in strike, Israel defense minister says",
+      "link": "https://www.foxnews.com/world/top-iranian-official-commander-killed-strike-israel-defense-minister-says",
+      "summary": "Iran&apos;s Supreme National Security Council secretary Ali Larijani and Basij Commander Gholamreza Soleimani have been &quot;eliminated,&quot; the Israel Defense Forces said.",
+      "published": "Tue, 17 Mar 2026 08:27:21 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Man accused of shooting father in face with crossbow captured after snowy manhunt",
+      "link": "https://www.foxnews.com/us/man-accused-shooting-father-face-crossbow-captured-after-snowy-manhunt",
+      "summary": "A West Virginia man was arrested after allegedly shooting his father in the face with a crossbow and leading police on a snowy multi-county manhunt.",
+      "published": "Fri, 20 Mar 2026 03:01:07 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Feds charge 3 in $2.5b scheme to smuggle us AI tech to China using dummy servers",
+      "link": "https://www.foxnews.com/us/feds-charge-3-2-5b-scheme-smuggle-us-ai-tech-china-using-dummy-servers",
+      "summary": "Three men linked to Supermicro are accused of smuggling $2.5 billion in AI technology to China via fake documents and shell companies, prosecutors allege.",
+      "published": "Fri, 20 Mar 2026 00:31:33 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Missing University of Alabama student Jimmy Gracey found dead in Barcelona",
+      "link": "https://www.foxnews.com/us/missing-university-alabama-student-jimmy-gracey-found-dead-barcelona",
+      "summary": "The body of University of Alabama student Jimmy Gracey, 20, was recovered at Port Olimpic in Barcelona after a days-long search, his family confirmed.",
+      "published": "Thu, 19 Mar 2026 22:08:37 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Indiana University philanthropy group allegedly led fundraising training with Hamas-linked 'sham charity'",
+      "link": "https://www.foxnews.com/us/indiana-university-philanthropy-group-allegedly-led-fundraising-training-hamas-linked-sham-charity",
+      "summary": "Indiana University&apos;s Muslim Philanthropy Initiative allegedly partnered with Hayat Yolu, a Treasury-sanctioned group accused of funding Hamas.",
+      "published": "Thu, 19 Mar 2026 22:02:34 -0400",
+      "section": "us"
+    },
+    {
+      "title": "DHS touts 10 straight months of zero illegal aliens released at border as crossings plunge",
+      "link": "https://www.foxnews.com/us/dhs-touts-10-straight-months-zero-illegal-aliens-released-border-crossings-plunge",
+      "summary": "DHS says Border Patrol recorded 10 straight months of zero migrant releases, crediting enforcement-first policies and historically low illegal crossings.",
+      "published": "Thu, 19 Mar 2026 21:36:22 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Five Mexican nationals indicted after massive meth lab bust uncovers enormous quantities of drugs",
+      "link": "https://www.foxnews.com/us/five-mexican-nationals-indicted-massive-meth-lab-bust-uncovers-enormous-quantities-drugs",
+      "summary": "Five Mexican nationals face federal charges after nearly 3,000 pounds of meth and guns were seized from a clandestine lab in Northern California.",
+      "published": "Thu, 19 Mar 2026 21:14:56 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Feds investigate alarming near miss between Alaska Airlines jet, FedEx plane at busy Newark airport",
+      "link": "https://www.foxnews.com/us/feds-investigate-alarming-near-miss-between-alaska-airlines-jet-fedex-plane-busy-newark-airport",
+      "summary": "Federal authorities will investigate a reported close call at Newark airport involving an Alaska Airlines and FedEx aircraft on crossing runways Tuesday night.",
+      "published": "Thu, 19 Mar 2026 18:53:28 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Juror says Kouri Richins sympathy flipped after trial exposed kids’ book author’s plot to kill husband: report",
+      "link": "https://www.foxnews.com/us/juror-says-kouri-richins-sympathy-flipped-after-trial-exposed-kids-book-authors-plot-kill-husband-report",
+      "summary": "A juror revealed how the jury in Utah author Kouri Richins&apos; murder trial jury went from sympathetic to a unanimous guilty verdict in her husband&apos;s fentanyl poisoning death.",
+      "published": "Thu, 19 Mar 2026 18:32:02 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Mamdani moves to sideline NYC police with new safety office under sweeping overhaul",
+      "link": "https://www.foxnews.com/us/mamdani-moves-sideline-nyc-police-new-safety-office-under-sweeping-overhaul",
+      "summary": "NYC Mayor Zohran Mamdani announced the new Office of Community Safety Thursday, signaling a shift in a public safety approach from policing to prevention and support programs.",
+      "published": "Thu, 19 Mar 2026 18:30:05 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Boston officer charged with manslaughter after shooting carjacking suspect as video disputes account",
+      "link": "https://www.foxnews.com/us/boston-officer-charged-manslaughter-shooting-carjacking-suspect-video-disputes-account",
+      "summary": "Boston police officer Nicholas O&apos;Malley charged with voluntary manslaughter after allegedly shooting suspected carjacker Stephenson King during incident.",
+      "published": "Thu, 19 Mar 2026 17:34:22 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Texas woman with 37 felony theft charges released on bond after months on the run while on parole: report",
+      "link": "https://www.foxnews.com/us/texas-woman-37-felony-theft-charges-released-bond-after-months-run-while-parole-report",
+      "summary": "A Houston woman with 37 felony theft charges was released on $75,000 bond. A crime advocate says habitual offenders need more serious consequences.",
+      "published": "Thu, 19 Mar 2026 17:28:33 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Spring breakers caught on camera viciously attacking man in overnight street brawl",
+      "link": "https://www.foxnews.com/us/spring-breakers-caught-camera-viciously-attacking-man-overnight-street-brawl",
+      "summary": "A mob of spring breakers was filmed beating a man in Fort Lauderdale as Florida authorities crack down on unruly crowds, with 133 arrests reported in Volusia County over the weekend.",
+      "published": "Thu, 19 Mar 2026 16:26:18 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Fox News ‘Antisemitism Exposed’ Newsletter: Democrats, Independents turn on Israel",
+      "link": "https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-democrats-independents-turn-israel",
+      "summary": "Fox News&apos; &quot;Antisemitism Exposed&quot; newsletter brings you stories on the rising anti-Jewish prejudice across the U.S. and the world.",
+      "published": "Thu, 19 Mar 2026 16:07:33 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Photos reveal devastation inside Michigan synagogue after attack",
+      "link": "https://www.foxnews.com/us/photos-reveal-devastation-inside-michigan-synagogue-after-attack",
+      "summary": "New images show children&apos;s areas damaged at Temple Israel where accused attacker drove truck into the building before being shot by security guards.",
+      "published": "Thu, 19 Mar 2026 15:03:45 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Masked gunman kills Loyola Chicago college student in shooting near campus; police hunt for suspect",
+      "link": "https://www.foxnews.com/us/masked-gunman-kills-loyola-chicago-college-student-shooting-near-campus-police-hunt-suspect",
+      "summary": "Loyola University Chicago student Sheridan Gorman was gunned down near campus in Rogers Park early Thursday. The 18-year-old was walking with friends.",
+      "published": "Thu, 19 Mar 2026 14:54:03 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Missing former college student, 19, found dead in pond two months after vanishing near his apartment",
+      "link": "https://www.foxnews.com/us/missing-former-college-student-19-found-dead-pond-two-months-after-vanishing-near-his-apartment",
+      "summary": "The body of Chance Lauer, a missing 19-year-old former college student, was recovered from a pond near his Maine apartment complex, police said Wednesday.",
+      "published": "Thu, 19 Mar 2026 14:20:39 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Judge rips into teen’s ‘high-risk’ behavior before delivering decades-long sentence in violent robbery",
+      "link": "https://www.foxnews.com/us/judge-rips-teens-high-risk-behavior-before-delivering-decades-long-sentence-violent-robbery",
+      "summary": "A Texas judge delivered harsh words while sentencing 18-year-old Caden Fontenette to 25 years for a violent convenience store robbery that terrorized a worker.",
+      "published": "Thu, 19 Mar 2026 13:32:32 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Bloody NYC Khamenei vigil reveals anti-US protest network linked to Iran",
+      "link": "https://www.foxnews.com/us/rapper-beaten-nyc-khamenei-vigil-reveals-anti-us-protest-network-linked-iranian-propaganda-machine",
+      "summary": "Report links NYC Khamenei vigil that had bloody clash to Iran-aligned network.",
+      "published": "Thu, 19 Mar 2026 13:26:54 -0400",
+      "section": "us"
+    },
+    {
+      "title": "LAPD union calls for probe into LA council president over alleged call during traffic stop",
+      "link": "https://www.foxnews.com/us/la-council-president-traffic-stop-call-probe",
+      "summary": "The Los Angeles police union is calling for an investigation into Council President Harris-Dawson after he allegedly contacted school board member during traffic stop.",
+      "published": "Thu, 19 Mar 2026 11:30:44 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Florida deputies mock rowdy spring breakers with NCAA-style scoreboard as arrests surge",
+      "link": "https://www.foxnews.com/us/florida-deputies-mock-rowdy-spring-breakers-ncaa-style-scoreboard-arrests-surge",
+      "summary": "Florida sheriff&apos;s office goes viral with hilarious posts targeting spring break students, creating NCAA tournament-style arrest leaderboard.",
+      "published": "Thu, 19 Mar 2026 10:26:08 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Suspect accused of killing NYPD's Jonathan Diller 'looks like he's smiling' in bodycam video: testimony",
+      "link": "https://www.foxnews.com/us/suspect-accused-killing-nypds-jonathan-diller-looks-like-hes-smiling-bodycam-video-testimony",
+      "summary": "Trial testimony on Wednesday revealed disturbing details as Guy Rivera faces murder charges for allegedly gunning down NYPD officer Jonathan Diller in March 2024.",
+      "published": "Thu, 19 Mar 2026 10:16:27 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Florida hospital sues to evict patient who refuses to leave for months",
+      "link": "https://www.foxnews.com/us/florida-hospital-sues-evict-patient-who-refuses-leave-months",
+      "summary": "A Florida hospital is seeking a court order to remove a patient who has allegedly refused to leave for 5 months after being discharged.",
+      "published": "Thu, 19 Mar 2026 09:03:31 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Federal judge temporarily changes grand jury rules after Trump effort to charge members of Congress",
+      "link": "https://www.foxnews.com/us/federal-judge-temporarily-changes-grand-jury-rules-after-trump-effort-charge-members-congress",
+      "summary": "Federal judge orders new transparency rules for grand jury proceedings after Trump&apos;s failed attempt to secure indictments against six Democratic lawmakers.",
+      "published": "Thu, 19 Mar 2026 08:04:52 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Former counterterrorism chief Joe Kent under FBI investigation and more top headlines",
+      "link": "https://www.foxnews.com/us/former-counterterrorism-chief-joe-kent-under-fbi-investigation-more-top-headlines",
+      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+      "published": "Thu, 19 Mar 2026 07:12:00 -0400",
+      "section": "us"
+    },
+    {
+      "title": "NYPD officer assigned to Mayor Mamdani’s security suspended after off-duty shooting",
+      "link": "https://www.foxnews.com/us/nypd-officer-mamdani-security-bronx-shooting",
+      "summary": "A New York City police officer allegedly shot a man in the head while off-duty in the Bronx and has been suspended without pay as the department investigates.",
+      "published": "Thu, 19 Mar 2026 03:06:10 -0400",
+      "section": "us"
+    }
+  ]
+}
