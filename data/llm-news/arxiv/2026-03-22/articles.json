@@ -1,0 +1,669 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+      "link": "https://arxiv.org/abs/2603.19235v1",
+      "summary": "While Multimodal Large Language Models demonstrate impressive semantic capabilities, they often suffer from spatial blindness, struggling with fine-grained geometric reasoning and physical dynamics. Existing solutions typically rely on explicit 3D modalities or complex geometric scaffolding, which are limited by data scarcity and generalization challenges. In this work, we propose a paradigm shift by leveraging the implicit spatial prior within large-scale video generation models. We posit that ",
+      "published": "2026-03-19T17:59:58Z",
+      "authors": [
+        "Xianjin Wu",
+        "Dingkang Liang",
+        "Tianrui Feng",
+        "Kui Xia",
+        "Yumeng Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Matryoshka Gaussian Splatting",
+      "link": "https://arxiv.org/abs/2603.19234v1",
+      "summary": "The ability to render scenes at adjustable fidelity from a single model, known as level of detail (LoD), is crucial for practical deployment of 3D Gaussian Splatting (3DGS). Existing discrete LoD methods expose only a limited set of operating points, while concurrent continuous LoD approaches enable smoother scaling but often suffer noticeable quality degradation at full capacity, making LoD a costly design decision. We introduce Matryoshka Gaussian Splatting (MGS), a training framework that ena",
+      "published": "2026-03-19T17:59:56Z",
+      "authors": [
+        "Zhilin Guo",
+        "Boqiao Zhang",
+        "Hakan Aktas",
+        "Kyle Fogarty",
+        "Jeffrey Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens",
+      "link": "https://arxiv.org/abs/2603.19232v1",
+      "summary": "Visual generation with discrete tokens has gained significant attention as it enables a unified token prediction paradigm shared with language models, promising seamless multimodal architectures. However, current discrete generation methods remain limited to low-dimensional latent tokens (typically 8-32 dims), sacrificing the semantic richness essential for understanding. While high-dimensional pretrained representations (768-1024 dims) could bridge this gap, their discrete generation poses fund",
+      "published": "2026-03-19T17:59:55Z",
+      "authors": [
+        "Yuqing Wang",
+        "Chuofan Ma",
+        "Zhijie Lin",
+        "Yao Teng",
+        "Lijun Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2603.19233v1",
+      "summary": "Vision-Language-Action (VLA) models combine perception, language, and motor control in a single architecture, yet how they translate multimodal inputs into actions remains poorly understood. We apply activation injection, sparse autoencoders (SAEs), and linear probes to six models spanning 80M--7B parameters across 394,000+ rollout episodes on four benchmarks. The visual pathway dominates action generation across all architectures: injecting baseline activations into null-prompt episodes recover",
+      "published": "2026-03-19T17:59:55Z",
+      "authors": [
+        "Bryce Grant",
+        "Xijia Zhao",
+        "Peng Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction",
+      "link": "https://arxiv.org/abs/2603.19231v1",
+      "summary": "Reconstructing articulated 3D objects from a single image requires jointly inferring object geometry, part structure, and motion parameters from limited visual evidence. A key difficulty lies in the entanglement between motion cues and object structure, which makes direct articulation regression unstable. Existing methods address this challenge through multi-view supervision, retrieval-based assembly, or auxiliary video generation, often sacrificing scalability or efficiency. We present MonoArt,",
+      "published": "2026-03-19T17:59:52Z",
+      "authors": [
+        "Haitian Li",
+        "Haozhe Xie",
+        "Junxiang Xu",
+        "Beichen Wen",
+        "Fangzhou Hong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+      "link": "https://arxiv.org/abs/2603.19229v1",
+      "summary": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings. To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input mo",
+      "published": "2026-03-19T17:59:51Z",
+      "authors": [
+        "Huaide Jiang",
+        "Yash Chaudhary",
+        "Yuping Wang",
+        "Zehao Wang",
+        "Raghav Sharma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer",
+      "link": "https://arxiv.org/abs/2603.19227v1",
+      "summary": "Prior motion generation largely follows two paradigms: continuous diffusion models that excel at kinematic control, and discrete token-based generators that are effective for semantic conditioning. To combine their strengths, we propose a three-stage framework comprising condition feature extraction (Perception), discrete token generation (Planning), and diffusion-based motion synthesis (Control). Central to this framework is MoTok, a diffusion-based discrete motion tokenizer that decouples sema",
+      "published": "2026-03-19T17:59:51Z",
+      "authors": [
+        "Chenyang Gu",
+        "Mingyuan Zhang",
+        "Haozhe Xie",
+        "Zhongang Cai",
+        "Lei Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing",
+      "link": "https://arxiv.org/abs/2603.19228v1",
+      "summary": "Current instruction-guided video editing models struggle to simultaneously balance precise semantic modifications with faithful motion preservation. While existing approaches rely on injecting explicit external priors (e.g., VLM features or structural conditions) to mitigate these issues, this reliance severely bottlenecks model robustness and generalization. To overcome this limitation, we present SAMA (factorized Semantic Anchoring and Motion Alignment), a framework that factorizes video editi",
+      "published": "2026-03-19T17:59:51Z",
+      "authors": [
+        "Xinyao Zhang",
+        "Wenkai Dong",
+        "Yuxin Song",
+        "Bo Fang",
+        "Qi Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FinTradeBench: A Financial Reasoning Benchmark for LLMs",
+      "link": "https://arxiv.org/abs/2603.19225v1",
+      "summary": "Real-world financial decision-making is a challenging problem that requires reasoning over heterogeneous signals, including company fundamentals derived from regulatory filings and trading signals computed from price dynamics. Recently, with the advancement of Large Language Models (LLMs), financial analysts have begun to use them for financial decision-making tasks. However, existing financial question answering benchmarks for testing these models primarily focus on company balance sheet data a",
+      "published": "2026-03-19T17:59:41Z",
+      "authors": [
+        "Yogesh Agrawal",
+        "Aniruddha Dutta",
+        "Md Mahadi Hasan",
+        "Santu Karmaker",
+        "Aritra Dutta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EffectErase: Joint Video Object Removal and Insertion for High-Quality Effect Erasing",
+      "link": "https://arxiv.org/abs/2603.19224v1",
+      "summary": "Video object removal aims to eliminate dynamic target objects and their visual effects, such as deformation, shadows, and reflections, while restoring seamless backgrounds. Recent diffusion-based video inpainting and object removal methods can remove the objects but often struggle to erase these effects and to synthesize coherent backgrounds. Beyond method limitations, progress is further hampered by the lack of a comprehensive dataset that systematically captures common object effects across va",
+      "published": "2026-03-19T17:59:22Z",
+      "authors": [
+        "Yang Fu",
+        "Yike Zheng",
+        "Ziyun Dai",
+        "Henghui Ding"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World",
+      "link": "https://arxiv.org/abs/2603.19223v1",
+      "summary": "We present F2LLM-v2, a new family of general-purpose, multilingual embedding models in 8 distinct sizes ranging from 80M to 14B. Trained on a newly curated composite of 60 million publicly available high-quality data samples, F2LLM-v2 supports more than 200 languages, with a particular emphasis on previously underserved mid- and low-resource languages. By integrating a two-stage LLM-based embedding training pipeline with matryoshka learning, model pruning, and knowledge distillation techniques, ",
+      "published": "2026-03-19T17:59:21Z",
+      "authors": [
+        "Ziyin Zhang",
+        "Zihan Liao",
+        "Hang Yu",
+        "Peng Di",
+        "Rui Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spectrally-Guided Diffusion Noise Schedules",
+      "link": "https://arxiv.org/abs/2603.19222v1",
+      "summary": "Denoising diffusion models are widely used for high-quality image and video generation. Their performance depends on noise schedules, which define the distribution of noise levels applied during training and the sequence of noise levels traversed during sampling. Noise schedules are typically handcrafted and require manual tuning across different resolutions. In this work, we propose a principled way to design per-instance noise schedules for pixel diffusion, based on the image's spectral proper",
+      "published": "2026-03-19T17:59:12Z",
+      "authors": [
+        "Carlos Esteves",
+        "Ameesh Makadia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Online Learning and Equilibrium Computation with Ranking Feedback",
+      "link": "https://arxiv.org/abs/2603.19221v1",
+      "summary": "Online learning in arbitrary, and possibly adversarial, environments has been extensively studied in sequential decision-making, and it is closely connected to equilibrium computation in game theory. Most existing online learning algorithms rely on \\emph{numeric} utility feedback from the environment, which may be unavailable in human-in-the-loop applications and/or may be restricted by privacy concerns. In this paper, we study an online learning model in which the learner only observes a \\emph{",
+      "published": "2026-03-19T17:59:07Z",
+      "authors": [
+        "Mingyang Liu",
+        "Yongshan Chen",
+        "Zhiyuan Fan",
+        "Gabriele Farina",
+        "Asuman Ozdaglar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+      "link": "https://arxiv.org/abs/2603.19220v1",
+      "summary": "We introduce Nemotron-Cascade 2, an open 30B MoE model with 3B activated parameters that delivers best-in-class reasoning and strong agentic capabilities. Despite its compact size, its mathematical and coding reasoning performance approaches that of frontier open models. It is the second open-weight LLM, after DeepSeekV3.2-Speciale-671B-A37B, to achieve Gold Medal-level performance in the 2025 International Mathematical Olympiad (IMO), the International Olympiad in Informatics (IOI), and the ICP",
+      "published": "2026-03-19T17:58:52Z",
+      "authors": [
+        "Zhuolin Yang",
+        "Zihan Liu",
+        "Yang Chen",
+        "Wenliang Dai",
+        "Boxin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
+      "link": "https://arxiv.org/abs/2603.19219v1",
+      "summary": "With the growing adoption of vision-language-action models and world models in autonomous driving systems, scalable image tokenization becomes crucial as the interface for the visual modality. However, most existing tokenizers are designed for monocular and 2D scenes, leading to inefficiency and inter-view inconsistency when applied to high-resolution multi-view driving scenes. To address this, we propose DriveTok, an efficient 3D driving scene tokenizer for unified multi-view reconstruction and",
+      "published": "2026-03-19T17:58:22Z",
+      "authors": [
+        "Dong Zhuo",
+        "Wenzhao Zheng",
+        "Sicheng Zuo",
+        "Siming Yan",
+        "Lu Hou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking Vector Field Learning for Generative Segmentation",
+      "link": "https://arxiv.org/abs/2603.19218v1",
+      "summary": "Taming diffusion models for generative segmentation has attracted increasing attention. While existing approaches primarily focus on architectural tweaks or training heuristics, there remains a limited understanding of the intrinsic mismatch between continuous flow matching objectives and discrete perception tasks. In this work, we revisit diffusion segmentation from the perspective of vector field learning. We identify two key limitations of the commonly used flow matching objective: gradient v",
+      "published": "2026-03-19T17:58:19Z",
+      "authors": [
+        "Chaoyang Wang",
+        "Yaobo Liang",
+        "Boci Peng",
+        "Fan Duan",
+        "Jingdong Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs",
+      "link": "https://arxiv.org/abs/2603.19217v1",
+      "summary": "Recent advancements in omnimodal large language models (OmniLLMs) have significantly improved the comprehension of audio and video inputs. However, current evaluations primarily focus on short audio and video clips ranging from 10 seconds to 5 minutes, failing to reflect the demands of real-world applications, where videos typically run for tens of minutes. To address this critical gap, we introduce LVOmniBench, a new benchmark designed specifically for the cross-modal comprehension of long-form",
+      "published": "2026-03-19T17:58:13Z",
+      "authors": [
+        "Keda Tao",
+        "Yuhua Zheng",
+        "Jia Xu",
+        "Wenjie Du",
+        "Kele Shao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising",
+      "link": "https://arxiv.org/abs/2603.19216v1",
+      "summary": "Understanding and generating 3D objects as compositions of meaningful parts is fundamental to human perception and reasoning. However, most text-to-3D methods overlook the semantic and functional structure of parts. While recent part-aware approaches introduce decomposition, they remain largely geometry-focused, lacking semantic grounding and failing to model how parts align with textual descriptions or their inter-part relations. We propose DreamPartGen, a framework for semantically grounded, p",
+      "published": "2026-03-19T17:58:11Z",
+      "authors": [
+        "Tianjiao Yu",
+        "Xinzhuo Li",
+        "Muntasir Wahed",
+        "Jerry Xiong",
+        "Yifan Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$R$-equivalence on Cubic Surfaces I: Existing Cases with Non-Trivial Universal Equivalence",
+      "link": "https://arxiv.org/abs/2603.19215v1",
+      "summary": "Let $V$ be a smooth cubic surface over a $p$-adic field $k$ with good reduction. Swinnerton-Dyer (1981) proved that $R$-equivalence is trivial on $V(k)$ except perhaps if $V$ is one of three special types--those whose $R$-equivalence he could not bound by proving the universal (admissible) equivalence is trivial. We consider all surfaces $V$ currently known to have non-trivial universal equivalence. Beyond being intractable to Swinnerton-Dyer's approach, we observe that if these surfaces also ha",
+      "published": "2026-03-19T17:57:38Z",
+      "authors": [
+        "Dimitri Kanevsky",
+        "Julian Salazar",
+        "Matt Harvey"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constitutive vs. Corrective: A Causal Taxonomy of Human Runtime Involvement in AI Systems",
+      "link": "https://arxiv.org/abs/2603.19213v1",
+      "summary": "As AI systems increasingly permeate high-stakes decision-making, the terminology regarding human involvement - Human-in-the-Loop (HITL), Human-on-the-Loop (HOTL), and Human Oversight - has become vexingly ambiguous. This ambiguity complicates interdisciplinary collaboration between computer science, law, philosophy, psychology, and sociology and can lead to regulatory uncertainty. We propose a clarification grounded in causal structure, focused on human involvement during the runtime of AI syste",
+      "published": "2026-03-19T17:57:07Z",
+      "authors": [
+        "Kevin Baum",
+        "Johann Laux"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Synthetic Control Misconceptions: Recommendations for Practice",
+      "link": "https://arxiv.org/abs/2603.19211v1",
+      "summary": "To estimate the causal effect of an intervention, researchers need to identify a control group that represents what might have happened to the treatment group in the absence of that intervention. This is challenging without a randomized experiment and further complicated when few units (possibly only one) are treated. Nevertheless, when data are available on units over time, synthetic control (SC) methods provide an opportunity to construct a valid comparison by differentially weighting control ",
+      "published": "2026-03-19T17:56:42Z",
+      "authors": [
+        "Robert Pickett",
+        "Jennifer Hill",
+        "Sarah Cowan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders",
+      "link": "https://arxiv.org/abs/2603.19209v1",
+      "summary": "Large vision--language models (VLMs) often use a frozen vision backbone, whose image features are mapped into a large language model through a lightweight connector. While transformer-based encoders are the standard visual backbone, we ask whether state space model (SSM) vision backbones can be a strong alternative. We systematically evaluate SSM vision backbones for VLMs in a controlled setting. Under matched ImageNet-1K initialization, the SSM backbone achieves the strongest overall performanc",
+      "published": "2026-03-19T17:56:32Z",
+      "authors": [
+        "Shang-Jui Ray Kuo",
+        "Paola Cascante-Bonilla"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RPiAE: A Representation-Pivoted Autoencoder Enhancing Both Image Generation and Editing",
+      "link": "https://arxiv.org/abs/2603.19206v1",
+      "summary": "Diffusion models have become the dominant paradigm for image generation and editing, with latent diffusion models shifting denoising to a compact latent space for efficiency and scalability. Recent attempts to leverage pretrained visual representation models as tokenizer priors either align diffusion features to representation features or directly reuse representation encoders as frozen tokenizers. Although such approaches can improve generation metrics, they often suffer from limited reconstruc",
+      "published": "2026-03-19T17:54:43Z",
+      "authors": [
+        "Yue Gong",
+        "Hongyu Li",
+        "Shanyuan Liu",
+        "Bo Cheng",
+        "Yuhang Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robustness, Cost, and Attack-Surface Concentration in Phishing Detection",
+      "link": "https://arxiv.org/abs/2603.19204v1",
+      "summary": "Phishing detectors built on engineered website features attain near-perfect accuracy under i.i.d.\\ evaluation, yet deployment security depends on robustness to post-deployment feature manipulation. We study this gap through a cost-aware evasion framework that models discrete, monotone feature edits under explicit attacker budgets. Three diagnostics are introduced: minimal evasion cost (MEC), the evasion survival rate $S(B)$, and the robustness concentration index (RCI).   On the UCI Phishing Web",
+      "published": "2026-03-19T17:53:32Z",
+      "authors": [
+        "Julian Allagan",
+        "Mohamed Elbakary",
+        "Zohreh Safari",
+        "Weizheng Gao",
+        "Gabrielle Morgan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tinted Frames: Question Framing Blinds Vision-Language Models",
+      "link": "https://arxiv.org/abs/2603.19203v1",
+      "summary": "Vision-Language Models (VLMs) have been shown to be blind, often underutilizing their visual inputs even on tasks that require visual reasoning. In this work, we demonstrate that VLMs are selectively blind. They modulate the amount of attention applied to visual inputs based on linguistic framing even when alternative framings demand identical visual reasoning. Using visual attention as a probe, we quantify how framing alters both the amount and distribution of attention over the image. Constrai",
+      "published": "2026-03-19T17:53:09Z",
+      "authors": [
+        "Wan-Cyuan Fan",
+        "Jiayun Luo",
+        "Declan Kutscher",
+        "Leonid Sigal",
+        "Ritwik Gupta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2603.19201v1",
+      "summary": "Contact-rich manipulation tasks, such as wiping and assembly, require accurate perception of contact forces, friction changes, and state transitions that cannot be reliably inferred from vision alone. Despite growing interest in visuo-tactile manipulation, progress is constrained by two persistent limitations: existing datasets are small in scale and narrow in task coverage, and current methods treat tactile signals as passive observations rather than using them to model contact dynamics or enab",
+      "published": "2026-03-19T17:52:42Z",
+      "authors": [
+        "Yuhang Zheng",
+        "Songen Gu",
+        "Weize Li",
+        "Yupeng Zheng",
+        "Yujie Zang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FASTER: Rethinking Real-Time Flow VLAs",
+      "link": "https://arxiv.org/abs/2603.19199v1",
+      "summary": "Real-time execution is crucial for deploying Vision-Language-Action (VLA) models in the physical world. Existing asynchronous inference methods primarily optimize trajectory smoothness, but neglect the critical latency in reacting to environmental changes. By rethinking the notion of reaction in action chunking policies, this paper presents a systematic analysis of the factors governing reaction time. We show that reaction time follows a uniform distribution determined jointly by the Time to Fir",
+      "published": "2026-03-19T17:51:37Z",
+      "authors": [
+        "Yuxiang Lu",
+        "Zhe Liu",
+        "Xianzhe Fan",
+        "Zhenya Yang",
+        "Jinghua Hou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Exponentially Weighted Signature",
+      "link": "https://arxiv.org/abs/2603.19198v1",
+      "summary": "The signature is a canonical representation of a multidimensional path over an interval. However, it treats all historical information uniformly, offering no intrinsic mechanism for contextualising the relevance of the past. To address this, we introduce the Exponentially Weighted Signature (EWS), generalising the Exponentially Fading Memory (EFM) signature from diagonal to general bounded linear operators. These operators enable cross-channel coupling at the level of temporal weighting together",
+      "published": "2026-03-19T17:51:20Z",
+      "authors": [
+        "Alexandre Bloch",
+        "Samuel N. Cohen",
+        "Terry Lyons",
+        "Joël Mouterde",
+        "Benjamin Walker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Investigation of Differential Diffusion and Strain Coupling in Large Eddy Simulations of Hydrogen-Air Flames",
+      "link": "https://arxiv.org/abs/2603.19197v1",
+      "summary": "Large Eddy Simulations with flamelet-based thermochemistry are used to investigate the behaviour of a premixed hydrogen-air flame stabilised by a bluff-body. Validation against experimental data is carried out first to demonstrate the model's ability to predict both velocity field and flame structure. The capability of the model in predicting differential diffusion effects is then assessed, in particular regarding the coupling between differential diffusion, tangential strain and curvature, and ",
+      "published": "2026-03-19T17:50:59Z",
+      "authors": [
+        "Antonio Masucci",
+        "Gioele Ferrante",
+        "Tiziano Ghisu",
+        "Andrea Giusti",
+        "Ivan Langella"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Auditory Knowledge in LLM Backbones Shapes Audio Language Models: A Holistic Evaluation",
+      "link": "https://arxiv.org/abs/2603.19195v1",
+      "summary": "Large language models (LLMs) have been widely used as knowledge backbones of Large Audio Language Models (LALMs), yet how much auditory knowledge they encode through text-only pre-training and how this affects downstream performance remains unclear. We study this gap by comparing different LLMs under two text-only and one audio-grounded setting: (1) direct probing on AKB-2000, a curated benchmark testing the breadth and depth of auditory knowledge; (2) cascade evaluation, where LLMs reason over ",
+      "published": "2026-03-19T17:50:07Z",
+      "authors": [
+        "Ke-Han Lu",
+        "Szu-Wei Fu",
+        "Chao-Han Huck Yang",
+        "Zhehuai Chen",
+        "Sung-Feng Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Luck and magic for Pitman-Stanley polytopes and parking functions",
+      "link": "https://arxiv.org/abs/2603.19194v1",
+      "summary": "Motivated by the combinatorics of parking functions and their several generalizations, we study the Ehrhart theory of Pitman--Stanley polytopes. We prove a strong positivity phenomenon called \\emph{magic positivity} for the Ehrhart polynomials of these polytopes, which in turn implies that their $h^*$-polynomials are real-rooted (and thus log-concave and unimodal). Our result is achieved by interpreting the coefficients of these Ehrhart polynomials in the \\emph{magic basis} in terms of the numbe",
+      "published": "2026-03-19T17:49:46Z",
+      "authors": [
+        "Nicolas Avila",
+        "Luis Ferroni",
+        "Alejandro H. Morales"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting",
+      "link": "https://arxiv.org/abs/2603.19193v1",
+      "summary": "Bird's-Eye-View (BEV) perception serves as a cornerstone for autonomous driving, offering a unified spatial representation that fuses surrounding-view images to enable reasoning for various downstream tasks, such as semantic segmentation, 3D object detection, and motion prediction. However, most existing BEV perception frameworks adopt an end-to-end training paradigm, where image features are directly transformed into the BEV space and optimized solely through downstream task supervision. This f",
+      "published": "2026-03-19T17:49:43Z",
+      "authors": [
+        "Yiren Lu",
+        "Xin Ye",
+        "Burhaneddin Yaman",
+        "Jingru Luo",
+        "Zhexiao Xiong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards",
+      "link": "https://arxiv.org/abs/2603.19191v1",
+      "summary": "Reinforcement Learning (RL) has the potential to improve the robustness of GUI agents in stochastic environments, yet training is highly sensitive to the quality of the reward function. Existing reward approaches struggle to achieve both scalability and performance. To address this, we propose OS-Themis, a scalable and accurate multi-agent critic framework. Unlike a single judge, OS-Themis decomposes trajectories into verifiable milestones to isolate critical evidence for decision making and emp",
+      "published": "2026-03-19T17:47:47Z",
+      "authors": [
+        "Zehao Li",
+        "Zhenyu Wu",
+        "Yibo Zhao",
+        "Bowen Yang",
+        "Jingjing Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Markov Potential Game and Multi-Agent Reinforcement Learning for Autonomous Driving",
+      "link": "https://arxiv.org/abs/2603.19188v1",
+      "summary": "Autonomous driving (AD) requires safe and reliable decision-making among interacting agents, e.g., vehicles, bicycles, and pedestrians. Multi-agent reinforcement learning (MARL) modeled by Markov games (MGs) provides a suitable framework to characterize such agents' interactions during decision-making. Nash equilibria (NEs) are often the desired solution in an MG. However, it is typically challenging to compute an NE in general-sum games, unless the game is a Markov potential game (MPG), which e",
+      "published": "2026-03-19T17:43:19Z",
+      "authors": [
+        "Huiwen Yan",
+        "Mushuang Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GenMFSR: Generative Multi-Frame Image Restoration and Super-Resolution",
+      "link": "https://arxiv.org/abs/2603.19187v1",
+      "summary": "Camera pipelines receive raw Bayer-format frames that need to be denoised, demosaiced, and often super-resolved. Multiple frames are captured to utilize natural hand tremors and enhance resolution. Multi-frame super-resolution is therefore a fundamental problem in camera pipelines. Existing adversarial methods are constrained by the quality of ground truth. We propose GenMFSR, the first Generative Multi-Frame Raw-to-RGB Super Resolution pipeline, that incorporates image priors from foundation mo",
+      "published": "2026-03-19T17:43:16Z",
+      "authors": [
+        "Harshana Weligampola",
+        "Joshua Peter Ebenezer",
+        "Weidi Liu",
+        "Abhinau K. Venkataramanan",
+        "Sreenithy Chandran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Improving RCT-Based Treatment Effect Estimation Under Covariate Mismatch via Calibrated Alignment",
+      "link": "https://arxiv.org/abs/2603.19186v1",
+      "summary": "Randomized controlled trials (RCTs) are the gold standard for estimating heterogeneous treatment effects, yet they are often underpowered for detecting effect heterogeneity. Large observational studies (OS) can supplement RCTs for conditional average treatment effect (CATE) estimation, but a key barrier is covariate mismatch: the two sources measure different, only partially overlapping, covariates. We propose CALM (Calibrated ALignment under covariate Mismatch), which bypasses imputation by lea",
+      "published": "2026-03-19T17:43:12Z",
+      "authors": [
+        "Amir Asiaee",
+        "Samhita Pal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MIDST Challenge at SaTML 2025: Membership Inference over Diffusion-models-based Synthetic Tabular data",
+      "link": "https://arxiv.org/abs/2603.19185v1",
+      "summary": "Synthetic data is often perceived as a silver-bullet solution to data anonymization and privacy-preserving data publishing. Drawn from generative models like diffusion models, synthetic data is expected to preserve the statistical properties of the original dataset while remaining resilient to privacy attacks. Recent developments of diffusion models have been effective on a wide range of data types, but their privacy resilience, particularly for tabular formats, remains largely unexplored. MIDST",
+      "published": "2026-03-19T17:42:46Z",
+      "authors": [
+        "Masoumeh Shafieinejad",
+        "Xi He",
+        "Mahshid Alinoori",
+        "John Jewell",
+        "Sana Ayromlou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models",
+      "link": "https://arxiv.org/abs/2603.19183v1",
+      "summary": "Vision-Language-Action (VLA) models have emerged as a promising approach for general-purpose robot manipulation. However, their generalization is inconsistent: while these models can perform impressively in some settings, fine-tuned variants often fail on novel objects, scenes, and instructions. We apply mechanistic interpretability techniques to better understand the inner workings of VLA models. To probe internal representations, we train Sparse Autoencoders (SAEs) on hidden layer activations ",
+      "published": "2026-03-19T17:42:05Z",
+      "authors": [
+        "Aiden Swann",
+        "Lachlain McGranahan",
+        "Hugo Buurmeijer",
+        "Monroe Kennedy",
+        "Mac Schwager"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Euler Stratification for $\\mathbb{P}^1 \\times \\mathbb{P}^1 \\times \\mathbb{P}^n$",
+      "link": "https://arxiv.org/abs/2603.19184v1",
+      "summary": "We study the Euler characteristic of a hypersurface in $(\\mathbb{C}^*)^2 \\times (\\mathbb{C}^*)^n$ defined by a polynomial whose monomial support corresponds to lattice points in $Δ_1 \\times Δ_1 \\times Δ_n$ as the coefficients of the defining polynomial vary. Each member of this hypersurface family corresponds to a three-way independence model from algebraic statistics, and the (signed) Euler characteristic is equal to the maximum likelihood degree (ML degree) of the model. We show in the case of",
+      "published": "2026-03-19T17:42:05Z",
+      "authors": [
+        "Serkan Hoşten",
+        "Vadym Kurylenko",
+        "Elke Neuhaus",
+        "Nikolas Rieke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Box Maze: A Process-Control Architecture for Reliable LLM Reasoning",
+      "link": "https://arxiv.org/abs/2603.19182v1",
+      "summary": "Large language models (LLMs) demonstrate strong generative capabilities but remain vulnerable to hallucination and unreliable reasoning under adversarial prompting. Existing safety approaches -- such as reinforcement learning from human feedback (RLHF) and output filtering -- primarily operate at the behavioral level and may lack explicit architectural mechanisms for enforcing reasoning process integrity.   This paper proposes the Box Maze framework, a conceptual process-control architecture tha",
+      "published": "2026-03-19T17:41:18Z",
+      "authors": [
+        "Zou Qiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Identifying AGNs from X-ray detections---I: Metallicity calibrations in AGNs with X-ray luminosity as the primary input parameter",
+      "link": "https://arxiv.org/abs/2603.19181v1",
+      "summary": "We present the first semi-empirical strong-line calibrations to determine metallicity in Active Galactic Nuclei (AGNs) that use the directly observable X-ray luminosity ($Ł_{\\rm X}$) instead of the dimensionless ionization parameter ($U$). The calibrations are derived from an extensive grid of photoionization models computed with the {\\sc Cloudy} code, which are compared with observational data of Seyfert nuclei from the Burst Alert Telescope (BAT) AGN Spectroscopic Survey (BASS). In this first ",
+      "published": "2026-03-19T17:40:22Z",
+      "authors": [
+        "Mark Armah",
+        "O. L. Dors",
+        "Rogério Riffel",
+        "M. V. Cardaci",
+        "G. F. Hägele"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reduction of Triadic Interactions Suppresses Intermittency and Anomalous Dissipation in Turbulence",
+      "link": "https://arxiv.org/abs/2603.19180v1",
+      "summary": "We investigate how the defining statistical features of three-dimensional turbulence respond to systematic reductions of the Fourier-space triadic interaction network. Using direct numerical simulations of both fractally and homogeneously decimated Navier-Stokes dynamics, we show that progressive thinning of the set of active modes leads to a systematic suppression of intermittency and, most strikingly, to the vanishing of the mean dissipation rate in the large-Reynolds-number limit. Structure-f",
+      "published": "2026-03-19T17:39:08Z",
+      "authors": [
+        "Anikat Kankaria",
+        "Ritwik Mukherjee",
+        "Sugan Durai Murugan",
+        "Marco Edoardo Rosti",
+        "Samriddhi Sankar Ray"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Few-shot Acoustic Synthesis with Multimodal Flow Matching",
+      "link": "https://arxiv.org/abs/2603.19176v1",
+      "summary": "Generating audio that is acoustically consistent with a scene is essential for immersive virtual environments. Recent neural acoustic field methods enable spatially continuous sound rendering but remain scene-specific, requiring dense audio measurements and costly training for each environment. Few-shot approaches improve scalability across rooms but still rely on multiple recordings and, being deterministic, fail to capture the inherent uncertainty of scene acoustics under sparse context. We in",
+      "published": "2026-03-19T17:32:06Z",
+      "authors": [
+        "Amandine Brunetto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits",
+      "link": "https://arxiv.org/abs/2603.19173v1",
+      "summary": "As agentic AI systems become increasingly capable of generating and optimizing GPU kernels, progress is constrained by benchmarks that reward speedup over software baselines rather than proximity to hardware-efficient execution. We present SOL-ExecBench, a benchmark of 235 CUDA kernel optimization problems extracted from 124 production and emerging AI models spanning language, diffusion, vision, audio, video, and hybrid architectures, targeting NVIDIA Blackwell GPUs. The benchmark covers forward",
+      "published": "2026-03-19T17:30:02Z",
+      "authors": [
+        "Edward Lin",
+        "Sahil Modi",
+        "Siva Kumar Sastry Hari",
+        "Qijing Huang",
+        "Zhifan Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization for Efficient MoE Inference on Edge",
+      "link": "https://arxiv.org/abs/2603.19172v1",
+      "summary": "Despite the computational efficiency of MoE models, the excessive memory footprint and I/O overhead inherent in multi-expert architectures pose formidable challenges for real-time inference on resource-constrained edge platforms. While existing static methods struggle with a rigid latency-accuracy trade-off, we observe that expert importance is highly skewed and depth-dependent. Motivated by these insights, we propose DyMoE, a dynamic mixed-precision quantization framework designed for high-perf",
+      "published": "2026-03-19T17:30:01Z",
+      "authors": [
+        "Yuegui Huang",
+        "Zhiyuan Fang",
+        "Weiqi Luo",
+        "Ruoyu Wu",
+        "Wuhui Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion",
+      "link": "https://arxiv.org/abs/2603.19170v1",
+      "summary": "This paper proposes a fully decentralized model predictive control (MPC) framework with control barrier function (CBF) constraints for safety-critical trajectory planning in multi-robot legged systems. The incorporation of CBF constraints introduces explicit inter-agent coupling, which prevents direct decomposition of the resulting optimal control problems. To address this challenge, we reformulate the centralized safety-critical MPC problem using a structured distributed optimization framework ",
+      "published": "2026-03-19T17:25:33Z",
+      "authors": [
+        "Yicheng Zeng",
+        "Ruturaj S. Sambhus",
+        "Basit Muhammad Imran",
+        "Jeeseop Kim",
+        "Vittorio Pastore"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis",
+      "link": "https://arxiv.org/abs/2603.19169v1",
+      "summary": "Conventional pixel-wise loss functions fail to enforce topological constraints in coronary vessel segmentation, producing fragmented vascular trees despite high pixel-level accuracy. We present ARIADNE, a two-stage framework coupling preference-aligned perception with RL-based diagnostic reasoning for topologically coherent stenosis detection. The perception module employs DPO to fine-tune the Sa2VA vision-language foundation model using Betti number constraints as preference signals, aligning t",
+      "published": "2026-03-19T17:25:19Z",
+      "authors": [
+        "Zhan Jin",
+        "Yu Luo",
+        "Yizhou Zhang",
+        "Ziyang Cui",
+        "Yuqing Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evaluating Counterfactual Strategic Reasoning in Large Language Models",
+      "link": "https://arxiv.org/abs/2603.19167v1",
+      "summary": "We evaluate Large Language Models (LLMs) in repeated game-theoretic settings to assess whether strategic performance reflects genuine reasoning or reliance on memorized patterns. We consider two canonical games, Prisoner's Dilemma (PD) and Rock-Paper-Scissors (RPS), upon which we introduce counterfactual variants that alter payoff structures and action labels, breaking familiar symmetries and dominance relations. Our multi-metric evaluation framework compares default and counterfactual instantia",
+      "published": "2026-03-19T17:23:20Z",
+      "authors": [
+        "Dimitrios Georgousis",
+        "Maria Lymperaiou",
+        "Angeliki Dimitriou",
+        "Giorgos Filandrianos",
+        "Giorgos Stamou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Meanings and Measurements: Multi-Agent Probabilistic Grounding for Vision-Language Navigation",
+      "link": "https://arxiv.org/abs/2603.19166v1",
+      "summary": "Robots collaborating with humans must convert natural language goals into actionable, physically grounded decisions. For example, executing a command such as \"go two meters to the right of the fridge\" requires grounding semantic references, spatial relations, and metric constraints within a 3D scene. While recent vision language models (VLMs) demonstrate strong semantic grounding capabilities, they are not explicitly designed to reason about metric constraints in physically defined spaces. In th",
+      "published": "2026-03-19T17:20:56Z",
+      "authors": [
+        "Swagat Padhan",
+        "Lakshya Jain",
+        "Bhavya Minesh Shah",
+        "Omkar Patil",
+        "Thao Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization",
+      "link": "https://arxiv.org/abs/2603.19163v1",
+      "summary": "Combinatorial optimization problems arise in logistics, scheduling, and resource allocation, yet existing approaches face a fundamental trade-off among generality, performance, and usability. We present cuGenOpt, a GPU-accelerated general-purpose metaheuristic framework that addresses all three dimensions simultaneously.   At the engine level, cuGenOpt adopts a \"one block evolves one solution\" CUDA architecture with a unified encoding abstraction (permutation, binary, integer), a two-level adapt",
+      "published": "2026-03-19T17:19:21Z",
+      "authors": [
+        "Yuyang Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
