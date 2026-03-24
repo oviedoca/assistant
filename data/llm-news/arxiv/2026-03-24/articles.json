@@ -1,0 +1,651 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
+      "link": "https://arxiv.org/abs/2603.22286v1",
+      "summary": "Diffusion Transformers (DiTs) power high-fidelity video world models but remain computationally expensive due to sequential denoising and costly spatio-temporal attention. Training-free feature caching accelerates inference by reusing intermediate activations across denoising steps; however, existing methods largely rely on a Zero-Order Hold assumption i.e., reusing cached features as static snapshots when global drift is small. This often leads to ghosting artifacts, blur, and motion inconsiste",
+      "published": "2026-03-23T17:59:54Z",
+      "authors": [
+        "Umair Nawaz",
+        "Ahmed Heakl",
+        "Ufaq Khan",
+        "Abdelrahman Shaker",
+        "Salman Khan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding",
+      "link": "https://arxiv.org/abs/2603.22285v1",
+      "summary": "Long video understanding remains challenging for multimodal large language models (MLLMs) due to limited context windows, which necessitate identifying sparse query-relevant video segments. However, existing methods predominantly localize clues based solely on the query, overlooking the video's intrinsic structure and varying relevance across segments. To address this, we propose VideoDetective, a framework that integrates query-to-segment relevance and inter-segment affinity for effective clue ",
+      "published": "2026-03-23T17:59:51Z",
+      "authors": [
+        "Ruoliu Yang",
+        "Chu Wu",
+        "Caifeng Shan",
+        "Ran He",
+        "Chaoyou Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "End-to-End Training for Unified Tokenization and Latent Denoising",
+      "link": "https://arxiv.org/abs/2603.22283v1",
+      "summary": "Latent diffusion models (LDMs) enable high-fidelity synthesis by operating in learned latent spaces. However, training state-of-the-art LDMs requires complex staging: a tokenizer must be trained first, before the diffusion model can be trained in the frozen latent space. We propose UNITE - an autoencoder architecture for unified tokenization and latent diffusion. UNITE consists of a Generative Encoder that serves as both image tokenizer and latent generator via weight sharing. Our key insight is",
+      "published": "2026-03-23T17:59:49Z",
+      "authors": [
+        "Shivam Duggal",
+        "Xingjian Bai",
+        "Zongze Wu",
+        "Richard Zhang",
+        "Eli Shechtman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniMotion: A Unified Framework for Motion-Text-Vision Understanding and Generation",
+      "link": "https://arxiv.org/abs/2603.22282v1",
+      "summary": "We present UniMotion, to our knowledge the first unified framework for simultaneous understanding and generation of human motion, natural language, and RGB images within a single architecture. Existing unified models handle only restricted modality subsets (e.g., Motion-Text or static Pose-Image) and predominantly rely on discrete tokenization, which introduces quantization errors and disrupts temporal continuity. UniMotion overcomes both limitations through a core principle: treating motion as ",
+      "published": "2026-03-23T17:59:48Z",
+      "authors": [
+        "Ziyi Wang",
+        "Xinshun Wang",
+        "Shuang Chen",
+        "Yang Cong",
+        "Mengyuan Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
+      "link": "https://arxiv.org/abs/2603.22281v1",
+      "summary": "Recent progress in latent world models (e.g., V-JEPA2) has shown promising capability in forecasting future world states from video observations. Nevertheless, dense prediction from a short observation window limits temporal context and can bias predictors toward local, low-level extrapolation, making it difficult to capture long-horizon semantics and reducing downstream utility. Vision--language models (VLMs), in contrast, provide strong semantic grounding and general knowledge by reasoning ove",
+      "published": "2026-03-23T17:59:42Z",
+      "authors": [
+        "Haichao Zhang",
+        "Yijiang Li",
+        "Shwai He",
+        "Tushar Nagarajan",
+        "Mingfei Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2603.22280v1",
+      "summary": "Vision-Language-Action (VLA) models map visual observations and language instructions directly to robotic actions. While effective for simple tasks, standard VLA models often struggle with complex, multi-step tasks requiring logical planning, as well as precise manipulations demanding fine-grained spatial perception. Recent efforts have incorporated Chain-of-Thought (CoT) reasoning to endow VLA models with a ``thinking before acting'' capability. However, current CoT-based VLA models face two cr",
+      "published": "2026-03-23T17:59:25Z",
+      "authors": [
+        "Zhide Zhong",
+        "Junfeng Li",
+        "Junjie He",
+        "Haodong Yan",
+        "Xin Gong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "3D-Layout-R1: Structured Reasoning for Language-Instructed Spatial Editing",
+      "link": "https://arxiv.org/abs/2603.22279v1",
+      "summary": "Large Language Models (LLMs) and Vision Language Models (VLMs) have shown impressive reasoning abilities, yet they struggle with spatial understanding and layout consistency when performing fine-grained visual editing. We introduce a Structured Reasoning framework that performs text-conditioned spatial layout editing via scene-graph reasoning. Given an input scene graph and a natural-language instruction, the model reasons over the graph to generate an updated scene graph that satisfies the text",
+      "published": "2026-03-23T17:59:14Z",
+      "authors": [
+        "Haoyu Zhen",
+        "Xiaolong Li",
+        "Yilin Zhao",
+        "Han Zhang",
+        "Sifei Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Dual Mechanisms of Spatial Reasoning in Vision-Language Models",
+      "link": "https://arxiv.org/abs/2603.22278v1",
+      "summary": "Many multimodal tasks, such as image captioning and visual question answering, require vision-language models (VLMs) to associate objects with their properties and spatial relations. Yet it remains unclear where and how such associations are computed within VLMs. In this work, we show that VLMs rely on two concurrent mechanisms to represent such associations. In the language model backbone, intermediate layers represent content-independent spatial relations on top of visual tokens corresponding ",
+      "published": "2026-03-23T17:58:02Z",
+      "authors": [
+        "Kelly Cui",
+        "Nikhil Prakash",
+        "Ayush Raina",
+        "David Bau",
+        "Antonio Torralba"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Little Red and Blue Dots: simply stratified Broad Line Regions",
+      "link": "https://arxiv.org/abs/2603.22277v1",
+      "summary": "It has been claimed that a fraction of the so-called Little Red Dots (LRDs) are characterised by exponential broad line profiles, which have been ascribed to broadening from electron scattering by an ionised cocoon. In this work, we investigate the H$α$ broad line profiles of 32 AGN, including Little Red Dots (LRDs), Little Blue Dots (LBDs), and X-ray detected sources, using high SNR and resolution spectroscopy. We find that while single Gaussian models are statistically rejected, the exponentia",
+      "published": "2026-03-23T17:57:55Z",
+      "authors": [
+        "J. Scholtz",
+        "F. D'Eugenio",
+        "R. Maiolino",
+        "M. Brazzini",
+        "H. Übler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scaling DoRA: High-Rank Adaptation via Factored Norms and Fused Kernels",
+      "link": "https://arxiv.org/abs/2603.22276v1",
+      "summary": "Weight-Decomposed Low-Rank Adaptation (DoRA) extends LoRA by decoupling weight magnitude from direction, but its forward pass requires the row-wise norm of W + sBA, a computation that every major framework we surveyed implements by materializing the dense [d_out, d_in] product BA. At d_in = 8192 and rank r = 384, a single module's norm requires about 512 MB of transient working memory in bf16, making high-rank DoRA costly and often infeasible on common single-GPU setups once hundreds of adapted ",
+      "published": "2026-03-23T17:57:24Z",
+      "authors": [
+        "Alexandra Zelenin",
+        "Alexandra Zhuravlyova"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Repurposing Geometric Foundation Models for Multi-view Diffusion",
+      "link": "https://arxiv.org/abs/2603.22275v1",
+      "summary": "While recent advances in generative latent spaces have driven substantial progress in single-image generation, the optimal latent space for novel view synthesis (NVS) remains largely unexplored. In particular, NVS requires geometrically consistent generation across viewpoints, but existing approaches typically operate in a view-independent VAE latent space. In this paper, we propose Geometric Latent Diffusion (GLD), a framework that repurposes the geometrically consistent feature space of geomet",
+      "published": "2026-03-23T17:57:05Z",
+      "authors": [
+        "Wooseok Jang",
+        "Seonghu Jeon",
+        "Jisang Han",
+        "Jinhyeok Choi",
+        "Minkyung Kwon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Development and large-scale benchmarks of a protein-ligand absolute binding free energy toolkit",
+      "link": "https://arxiv.org/abs/2603.22274v1",
+      "summary": "Absolute binding free energy (ABFE) calculations offer a theoretically rigorous approach for predicting protein--ligand binding affinities without the scaffold constraints of relative binding free energy (RBFE) perturbations. However, broad adoption of ABFE in high-throughput hit discovery campaigns has been hindered by high computational costs and a lack of large-scale validation. Here, we present Felis, an open-source, automated, and scalable toolkit designed for high-throughput ABFE calculati",
+      "published": "2026-03-23T17:57:03Z",
+      "authors": [
+        "Yu Liu",
+        "Ailun Wang",
+        "Yu Xia",
+        "Zhi Wang",
+        "Wen Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Itô perspective on variance renormalisation",
+      "link": "https://arxiv.org/abs/2603.22272v1",
+      "summary": "We show that the Itô solutions of the nonlinear stochastic heat equation $$ \\partial_t u^\\varepsilon- Δu^\\varepsilon =\\varepsilon^{3/4} g (u^\\varepsilon) \\nabla ξ_\\varepsilon, $$ where $ ξ_\\varepsilon$ denotes the mollification in space at scale $\\varepsilon>0$ of a space-time white noise $ξ$, converge in law, as $\\varepsilon\\to 0$, to the solution of the stochastic heat equation with right-hand side $cg'g(u)ξ$ with a constant $c>0$. Since the noise $\\nablaξ$ is supercritical, the small prefacto",
+      "published": "2026-03-23T17:56:19Z",
+      "authors": [
+        "Konstantinos Dareiotis",
+        "Máté Gerencsér"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution",
+      "link": "https://arxiv.org/abs/2603.22271v1",
+      "summary": "Diffusion-based video super-resolution (VSR) has recently achieved remarkable fidelity but still suffers from prohibitive sampling costs. While distribution matching distillation (DMD) can accelerate diffusion models toward one-step generation, directly applying it to VSR often results in training instability alongside degraded and insufficient supervision. To address these issues, we propose DUO-VSR, a three-stage framework built upon a Dual-Stream Distillation strategy that unifies distributio",
+      "published": "2026-03-23T17:56:17Z",
+      "authors": [
+        "Zhengyao Lv",
+        "Menghan Xia",
+        "Xintao Wang",
+        "Kwan-Yee K. Wong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GenOpticalFlow: A Generative Approach to Unsupervised Optical Flow Learning",
+      "link": "https://arxiv.org/abs/2603.22270v1",
+      "summary": "Optical flow estimation is a fundamental problem in computer vision, yet the reliance on expensive ground-truth annotations limits the scalability of supervised approaches. Although unsupervised and semi-supervised methods alleviate this issue, they often suffer from unreliable supervision signals based on brightness constancy and smoothness assumptions, leading to inaccurate motion estimation in complex real-world scenarios. To overcome these limitations, we introduce \\textbf{\\modelname}, a nov",
+      "published": "2026-03-23T17:55:52Z",
+      "authors": [
+        "Yixuan Luo",
+        "Feng Qiao",
+        "Zhexiao Xiong",
+        "Yanjing Li",
+        "Nathan Jacobs"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Computational modeling of RNA-protein binding interactions under an external force",
+      "link": "https://arxiv.org/abs/2603.22269v1",
+      "summary": "RNA binding proteins play a crucial role in post-transcriptional gene regulation by controlling the transport, processing, and translation of their target RNAs. Post-transcriptional gene regulation leads to the differential expression of genetic material and loss of regulation or over-regulation relates to a large range of cancers and diseases - many of which have directly been associated with RNA binding proteins and their target RNAs. To understand RNA, RNA binding proteins, and how they funct",
+      "published": "2026-03-23T17:54:45Z",
+      "authors": [
+        "Danielle Wampler",
+        "Ralf Bundschuh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Accurate Tensorial Model for Prediction of Full Zeolite NMR Spectra",
+      "link": "https://arxiv.org/abs/2603.22268v1",
+      "summary": "Solid state nuclear magnetic resonance (ss-NMR) is one of the most sensitive and popular techniques for structure elucidation in geometrically complex crystalline materials, such as zeolites. Synergistic support from computational modelling is vital to interpret experimental spectra, and relate ss-NMR to atomistic models. Nevertheless, computational predictions are hindered by the high expense of calculating magnetic shielding (MS) and electric field gradient (EFG) tensors from first principles.",
+      "published": "2026-03-23T17:53:58Z",
+      "authors": [
+        "Carlos Bornes",
+        "Chiheb Ben Mahmoud",
+        "Volker L. Deringer",
+        "Christopher J. Heard",
+        "Lukáš Grajciar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TiCo: Time-Controllable Training for Spoken Dialogue Models",
+      "link": "https://arxiv.org/abs/2603.22267v1",
+      "summary": "We propose TiCo, a simple post-training method for enabling spoken dialogue models (SDMs) to follow time-constrained instructions and generate responses with controllable duration. This capability is valuable for real-world spoken language systems such as voice assistants and interactive agents, where controlling response duration can improve interaction quality. However, despite their strong ability to generate natural spoken responses, existing models lack time awareness and struggle to follow",
+      "published": "2026-03-23T17:51:40Z",
+      "authors": [
+        "Kai-Wei Chang",
+        "Wei-Chih Chen",
+        "En-Pei Hu",
+        "Hung-yi Lee",
+        "James Glass"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cohesive Membranes under determinant constraints",
+      "link": "https://arxiv.org/abs/2603.22265v1",
+      "summary": "This paper is devoted to the variational derivation of reduced models for elastic membranes with fracture under constraints on the determinant of the deformation gradient. We consider two physically relevant settings: the non-interpenetration regime, in which the deformation is required to be orientation-preserving ($\\det \\nabla u > 0$), and the incompressible regime, in which the deformation preserves volume ($\\det \\nabla u = 1$). In both cases, the surface energy density is allowed to depend o",
+      "published": "2026-03-23T17:49:23Z",
+      "authors": [
+        "Nicola Pio Melillo",
+        "Dario Reggiani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+      "link": "https://arxiv.org/abs/2603.22264v1",
+      "summary": "Dexterous manipulation remains challenging due to the cost of collecting real-robot teleoperation data, the heterogeneity of hand embodiments, and the high dimensionality of control. We present UniDex, a robot foundation suite that couples a large-scale robot-centric dataset with a unified vision-language-action (VLA) policy and a practical human-data capture setup for universal dexterous hand control. First, we construct UniDex-Dataset, a robot-centric dataset over 50K trajectories across eight",
+      "published": "2026-03-23T17:49:12Z",
+      "authors": [
+        "Gu Zhang",
+        "Qicheng Xu",
+        "Haozhe Zhang",
+        "Jianhan Ma",
+        "Long He"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DexDrummer: In-Hand, Contact-Rich, and Long-Horizon Dexterous Robot Drumming",
+      "link": "https://arxiv.org/abs/2603.22263v1",
+      "summary": "Performing in-hand, contact-rich, and long-horizon dexterous manipulation remains an unsolved challenge in robotics. Prior hand dexterity works have considered each of these three challenges in isolation, yet do not combine these skills into a single, complex task. To further test the capabilities of dexterity, we propose drumming as a testbed for dexterous manipulation. Drumming naturally integrates all three challenges: it involves in-hand control for stabilizing and adjusting the drumstick wi",
+      "published": "2026-03-23T17:49:06Z",
+      "authors": [
+        "Hung-Chieh Fang",
+        "Amber Xie",
+        "Jennifer Grannen",
+        "Kenneth Llontop",
+        "Dorsa Sadigh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flip Distance of Non-Crossing Spanning Trees: NP-Hardness and Improved Bounds",
+      "link": "https://arxiv.org/abs/2603.22262v1",
+      "summary": "We consider the problem of reconfiguring non-crossing spanning trees on point sets. For a set $P$ of $n$ points in general position in the plane, the flip graph $F(P)$ has a vertex for each non-crossing spanning tree on $P$ and an edge between any two spanning trees that can be transformed into each other by the exchange of a single edge. This flip graph has been intensively studied, lately with an emphasis on determining its diameter diam$(F(P))$ for sets $P$ of $n$ points in convex position. T",
+      "published": "2026-03-23T17:48:50Z",
+      "authors": [
+        "Håvard Bakke Bjerkevik",
+        "Joseph Dorfer",
+        "Linda Kleist",
+        "Torsten Ueckerdt",
+        "Birgit Vogtenhuber"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Greater accessibility can amplify discrimination in generative AI",
+      "link": "https://arxiv.org/abs/2603.22260v1",
+      "summary": "Hundreds of millions of people rely on large language models (LLMs) for education, work, and even healthcare. Yet these models are known to reproduce and amplify social biases present in their training data. Moreover, text-based interfaces remain a barrier for many, for example, users with limited literacy, motor impairments, or mobile-only devices. Voice interaction promises to expand accessibility, but unlike text, speech carries identity cues that users cannot easily mask, raising concerns ab",
+      "published": "2026-03-23T17:47:44Z",
+      "authors": [
+        "Carolin Holtermann",
+        "Minh Duc Bui",
+        "Kaitlyn Zhou",
+        "Valentin Hofmann",
+        "Katharina von der Wense"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Emergent relativistic symmetry from interacting fermions on the honeycomb bilayer",
+      "link": "https://arxiv.org/abs/2603.22259v1",
+      "summary": "We study the phase diagram of interacting spinless fermions on the honeycomb bilayer at charge neutrality using large-scale quantum Monte Carlo simulations. In the noninteracting limit, the low-energy spectrum features quadratically dispersing bands that touch at the corners of the hexagonal Brillouin zone. Weak to intermediate interactions induce a splitting of each of the quadratic band touching points into four Dirac points, located along high-symmetry directions of the reciprocal lattice. St",
+      "published": "2026-03-23T17:47:34Z",
+      "authors": [
+        "Zi Hong Liu",
+        "Lukas Janssen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semi-Blind Channel Estimation and Hybrid Receiver Beamforming in the Tera-Hertz Multi-User Massive MIMO Uplink",
+      "link": "https://arxiv.org/abs/2603.22258v1",
+      "summary": "We develop a pragmatic multi-user (MU) massive multiple-input multiple-output (MIMO) channel model tailored to the THz band, encompassing factors such as molecular absorption, reflection losses and multipath diffused ray components. Next, we propose a novel semi-blind based channel state information (CSI) acquisition technique i.e. MU whitening decorrelation semi-blind (MU-WD-SB) that exploits the second order statistics corresponding to the unknown data symbols along with pilot vectors. A const",
+      "published": "2026-03-23T17:46:54Z",
+      "authors": [
+        "Abhisha Garg",
+        "Suraj Srivastava",
+        "Varsha Dubey",
+        "Aditya Jagannatham",
+        "Lajos Hanzo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mainly on the Plane: Observing the Extended, Ionized Disks of Milky Way Analogs in IllustrisTNG",
+      "link": "https://arxiv.org/abs/2603.22257v1",
+      "summary": "This paper explores the extent to which the circumgalactic medium (CGM) of Milky Way-like galaxies is located in an extended, ionized, disklike structure. To test this hypothesis, we analyze the spatial and kinematic distributions of different ion species within a sample of MW-like systems in IllustrisTNG. We model commonly observed ions (HI, MgII, SiIV, CIV and OVI) and calculate (1) their angular momentum misalignment from the star-forming disk ($θ$) and (2) the fraction of absorption consiste",
+      "published": "2026-03-23T17:46:45Z",
+      "authors": [
+        "Michael Messere",
+        "Kirill Tchernyshyov",
+        "Mary E. Putman",
+        "Greg L. Bryan",
+        "Jessica K. Werk"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Entropy of affine permutations and universality of affine atomic lengths",
+      "link": "https://arxiv.org/abs/2603.22256v1",
+      "summary": "We introduce and study the notion of entropy of affine permutations and prove that it coincides with the atomic length associated with the sum of the fundamental weights for a type $A$ affine root system, as defined by the first two authors. We then establish an analogue of the Granville-Ono theorem by showing that any nonnegative integer can be realised as the entropy of an affine permutation or alternatively, as the size of a core multipartition as introduced by the last two authors. Our proof",
+      "published": "2026-03-23T17:45:50Z",
+      "authors": [
+        "Nathan Chapelier-Laget",
+        "Thomas Gerber",
+        "Nicolas Jacon",
+        "Cédric Lecouvey"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SelfTTS: cross-speaker style transfer through explicit embedding disentanglement and self-refinement using self-augmentation",
+      "link": "https://arxiv.org/abs/2603.22252v1",
+      "summary": "This paper presents SelfTTS, a text-to-speech (TTS) model designed for cross-speaker style transfer that eliminates the need for external pre-trained speaker or emotion encoders. The architecture achieves emotional expressivity in neutral speakers through an explicit disentanglement strategy utilizing Gradient Reversal Layers (GRL) combined with cosine similarity loss to decouple speaker and emotion information. We introduce Multi Positive Contrastive Learning (MPCL) to induce clustered represen",
+      "published": "2026-03-23T17:45:03Z",
+      "authors": [
+        "Lucas H. Ueda",
+        "João G. T. Lima",
+        "Pedro R. Corrêa",
+        "Flávio O. Simões",
+        "Mário U. Neto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+      "link": "https://arxiv.org/abs/2603.22251v1",
+      "summary": "The increasing heterogeneity of high-performance computing (HPC) systems and the transition to exascale architectures require systematic and reproducible performance evaluation across diverse workloads. While continuous integration (CI) ensures functional correctness in software engineering, performance and energy efficiency in HPC are typically evaluated outside CI workflows, motivating continuous benchmarking (CB) as a complementary approach. Integrating benchmarking into CI workflows enables ",
+      "published": "2026-03-23T17:44:49Z",
+      "authors": [
+        "Jayesh Badwaik",
+        "Mathis Bode",
+        "Michal Rajski",
+        "Andreas Herten"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EgoGroups: A Benchmark For Detecting Social Groups of People in the Wild",
+      "link": "https://arxiv.org/abs/2603.22249v1",
+      "summary": "Social group detection, or the identification of humans involved in reciprocal interpersonal interactions (e.g., family members, friends, and customers and merchants), is a crucial component of social intelligence needed for agents transacting in the world. The few existing benchmarks for social group detection are limited by low scene diversity and reliance on third-person camera sources (e.g., surveillance footage). Consequently, these benchmarks generally lack real-world evaluation on how gro",
+      "published": "2026-03-23T17:43:49Z",
+      "authors": [
+        "Jeffri Murrugarra-Llerena",
+        "Pranav Chitale",
+        "Zicheng Liu",
+        "Kai Ao",
+        "Yujin Ham"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Confidence-Based Decoding is Provably Efficient for Diffusion Language Models",
+      "link": "https://arxiv.org/abs/2603.22248v1",
+      "summary": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive (AR) models for language modeling, allowing flexible generation order and parallel generation of multiple tokens. However, this flexibility introduces a challenge absent in AR models: the \\emph{decoding strategy} -- which determines the order and number of tokens generated at each iteration -- critically affects sampling efficiency. Among decoding strategies explored in practice, confidence-based methods, ",
+      "published": "2026-03-23T17:43:21Z",
+      "authors": [
+        "Changxiao Cai",
+        "Gen Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two hot pre-white dwarfs inside the red-giant-branch planetary nebula Pa 13 -- Double core evolution or common envelope-induced rejuvenation?",
+      "link": "https://arxiv.org/abs/2603.22247v1",
+      "summary": "Close binary central stars of PNe offer a unique window for investigating the conditions immediately following the ejection of a common envelope (CE). Double eclipsing and double-lined double systems are particularly valuable as they provide minimally model-dependent constraints on fundamental binary parameters. We report that the nucleus of Pa13 (P=0.3988d) belongs to this rare class of systems and present a comprehensive analysis of its double-degenerate binary. We performed a two-component NL",
+      "published": "2026-03-23T17:42:58Z",
+      "authors": [
+        "Nicole Reindl",
+        "David Jones",
+        "Todd Hillwig",
+        "Marcelo M. Miller Bertolami",
+        "Matti Dorsch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Landau Damping of Collective Neutrino Oscillation Waves",
+      "link": "https://arxiv.org/abs/2603.22246v1",
+      "summary": "Dense neutrino media in core-collapse supernovae and neutron star mergers can experience collective flavor transformations in the form of neutrino oscillation waves. It was recently reported that the stable fast modes of collective oscillations can be damped through a mechanism similar to the Landau damping of plasma waves. In this work, we show that the actual damping rates of fast oscillation waves are usually very small and vanishes in the pure fast limit. This result does not affect the unst",
+      "published": "2026-03-23T17:42:15Z",
+      "authors": [
+        "Anson Kost",
+        "Huaiyu Duan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RotorMap and Quantum Fingerprints of DNA Sequences via Rotary Position Embeddings",
+      "link": "https://arxiv.org/abs/2603.22245v1",
+      "summary": "For strings of letters from a small alphabet, such as DNA sequences, we present a quantum encoding that empirically provides a strong correlation between the Levenshtein edit distance and the fidelity between quantum states defined by the encodings. It is based on the principles of Rotary Position Embeddings (RoPE), employed in modern large language models. Classically, this encoding yields RotorMap - a GPU-accelerated DNA mapping algorithm that achieves speedups of 50-700x over single-thread Mi",
+      "published": "2026-03-23T17:41:43Z",
+      "authors": [
+        "Danylo Yakymenko",
+        "Maksym Chernyshev",
+        "Illia Savchenko",
+        "Sergii Strelchuk"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MemDLM: Memory-Enhanced DLM Training",
+      "link": "https://arxiv.org/abs/2603.22241v1",
+      "summary": "Diffusion Language Models (DLMs) offer attractive advantages over Auto-Regressive (AR) models, such as full-attention parallel decoding and flexible generation. However, they suffer from a notable train-inference mismatch: DLMs are trained with a static, single-step masked prediction objective, but deployed through a multi-step progressive denoising trajectory. We propose MemDLM (Memory-Enhanced DLM), which narrows this gap by embedding a simulated denoising process into training via Bi-level Op",
+      "published": "2026-03-23T17:39:56Z",
+      "authors": [
+        "Zehua Pei",
+        "Hui-Ling Zhen",
+        "Weizhe Lin",
+        "Sinno Jialin Pan",
+        "Yunhe Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A bending in the size-mass relation of star-forming galaxies across $0.5 < z < 6.0$ at a critical stellar mass of $10^{10}M_\\odot$ revealed by JWST",
+      "link": "https://arxiv.org/abs/2603.22239v1",
+      "summary": "Galaxy size provides key insights into the physical processes driving galaxy formation and evolution. Using deep JWST/NIRCam and MIRI imaging from the PRIMER survey, we investigate the rest-frame optical size-stellar mass relation of galaxies at $0.5 < z < 6.0$. We find that star-forming galaxies (SFGs) exhibit a broken power-law size-mass relation at all redshifts, with a nearly constant pivot mass ($M_{\\rm p}$) of $\\sim 10^{10} M_\\odot$, and a slope flattening above $M_{\\rm p}$. This highlight",
+      "published": "2026-03-23T17:36:22Z",
+      "authors": [
+        "Longyue Chen",
+        "Tao Wang",
+        "Hanwen Sun",
+        "Ke Xu",
+        "Luwenjia Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Structure-aware divergences for comparing probability distributions",
+      "link": "https://arxiv.org/abs/2603.22237v1",
+      "summary": "Many natural and social science systems are described using probability distributions over elements that are related to each other: for instance, occupations with shared skills or species with similar traits. Standard information theory quantities such as entropies and $f$-divergences treat elements interchangeably and are blind to the similarity structure. We introduce a family of divergences that are sensitive to the geometry of the underlying domain. By virtue of being the Bregman divergences",
+      "published": "2026-03-23T17:36:04Z",
+      "authors": [
+        "Rohit Sahasrabuddhe",
+        "Renaud Lambiotte"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ShapDBM: Exploring Decision Boundary Maps in Shapley Space",
+      "link": "https://arxiv.org/abs/2603.22235v1",
+      "summary": "Decision Boundary Maps (DBMs) are an effective tool for visualising machine learning classification boundaries. Yet, DBM quality strongly depends on the dimensionality reduction (DR) technique and high dimensional space used for the data points. For complex ML datasets, DR can create many mixed classes which, in turn, yield DBMs that are hard to use. We propose a new technique to compute DBMs by transforming data space into Shapley space and computing DR on it. Compared to standard DBMs computed",
+      "published": "2026-03-23T17:31:20Z",
+      "authors": [
+        "Luke Watkin",
+        "Daniel Archambault",
+        "Alex Telea"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Axionlike dark-matter winds driven by galactic baryon redistribution",
+      "link": "https://arxiv.org/abs/2603.22234v1",
+      "summary": "We examine solutions of the hydrodynamic equations for dark matter (DM) modeled as a Bose-Einstein condensate (BEC) with axionlike interaction, forming a spherically symmetric halo in dwarf galaxies. Small perturbations and decoherence of the BEC DM arise from changes in the gravitational background induced by subgalactic baryonic processes. Focusing on the events in the central region of a galaxy, overlapping with the solitonic DM core, we consider three scenarios: (i) expansion of a gaseous sh",
+      "published": "2026-03-23T17:30:39Z",
+      "authors": [
+        "A. Nazarenko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Search for Higgs boson production at high transverse momentum in the WW decay channel in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+      "link": "https://arxiv.org/abs/2603.22233v1",
+      "summary": "A search for Higgs boson (\\PH) production at high transverse momentum ($p_\\mathrm{T}$) in the WW decay channel is presented. The analysis uses proton-proton collisions at $\\sqrt{s}$ = 13 TeV recorded by the CMS experiment in 2016$-$2018, corresponding to an integrated luminosity of 138 fb$^{-1}$. The visible decay products of the Higgs boson are reconstructed as a single large-radius jet with one isolated lepton or none (1$\\ell$ and 0$\\ell$, respectively; $\\ell$ = e, $μ$). The \\PH-candidate jets",
+      "published": "2026-03-23T17:29:09Z",
+      "authors": [
+        "CMS Collaboration"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Model, Two Markets: Bid-Aware Generative Recommendation",
+      "link": "https://arxiv.org/abs/2603.22231v1",
+      "summary": "Generative Recommender Systems using semantic ids, such as TIGER (Rajput et al., 2023), have emerged as a widely adopted competitive paradigm in sequential recommendation. However, existing architectures are designed solely for semantic retrieval and do not address concerns such as monetization via ad revenue and incorporation of bids for commercial retrieval. We propose GEM-Rec, a unified framework that integrates commercial relevance and monetization objectives directly into the generative seq",
+      "published": "2026-03-23T17:27:59Z",
+      "authors": [
+        "Yanchen Jiang",
+        "Zhe Feng",
+        "Christopher P. Mah",
+        "Aranyak Mehta",
+        "Di Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Riverine Land Cover Mapping through Semantic Segmentation of Multispectral Point Clouds",
+      "link": "https://arxiv.org/abs/2603.22230v1",
+      "summary": "Accurate land cover mapping in riverine environments is essential for effective river management, ecological understanding, and geomorphic change monitoring. This study explores the use of Point Transformer v2 (PTv2), an advanced deep neural network architecture designed for point cloud data, for land cover mapping through semantic segmentation of multispectral LiDAR data in real-world riverine environments. We utilize the geometric and spectral information from the 3-channel LiDAR point cloud t",
+      "published": "2026-03-23T17:27:17Z",
+      "authors": [
+        "Sopitta Thurachen",
+        "Josef Taher",
+        "Matti Lehtomäki",
+        "Leena Matikainen",
+        "Linnea Blåfield"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking Deep Learning Models for Aerial LiDAR Point Cloud Semantic Segmentation under Real Acquisition Conditions: A Case Study in Navarre",
+      "link": "https://arxiv.org/abs/2603.22229v1",
+      "summary": "Recent advances in deep learning have significantly improved 3D semantic segmentation, but most models focus on indoor or terrestrial datasets. Their behavior under real aerial acquisition conditions remains insufficiently explored, and although a few studies have addressed similar scenarios, they differ in dataset design, acquisition conditions, and model selection. To address this gap, we conduct an experimental benchmark evaluating several state-of-the-art architectures on a large-scale aeria",
+      "published": "2026-03-23T17:26:41Z",
+      "authors": [
+        "Alex Salvatierra",
+        "José Antonio Sanz",
+        "Christian Gutiérrez",
+        "Mikel Galar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SpatialReward: Verifiable Spatial Reward Modeling for Fine-Grained Spatial Consistency in Text-to-Image Generation",
+      "link": "https://arxiv.org/abs/2603.22228v1",
+      "summary": "Recent advances in text-to-image (T2I) generation via reinforcement learning (RL) have benefited from reward models that assess semantic alignment and visual quality. However, most existing reward models pay limited attention to fine-grained spatial relationships, often producing images that appear plausible overall yet contain inaccuracies in object positioning. In this work, we present \\textbf{SpatialReward}, a verifiable reward model explicitly designed to evaluate spatial layouts in generate",
+      "published": "2026-03-23T17:26:35Z",
+      "authors": [
+        "Sashuai Zhou",
+        "Qiang Zhou",
+        "Junpeng Ma",
+        "Yue Cao",
+        "Ruofan Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dyadic: A Scalable Platform for Human-Human and Human-AI Conversation Research",
+      "link": "https://arxiv.org/abs/2603.22227v1",
+      "summary": "Conversation is ubiquitous in social life, but the empirical study of this interactive process has been thwarted by tools that are insufficiently modular and unadaptive to researcher needs. To relieve many constraints in conversation research, the current tutorial presents an overview and introduction to a new tool, Dyadic (https://www.chatdyadic.com/), a web-based platform for studying human-human and human-AI conversations using text-based or voice-based chats. Dyadic is distinct from other pl",
+      "published": "2026-03-23T17:25:45Z",
+      "authors": [
+        "David M. Markowitz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adapting Self-Supervised Speech Representations for Cross-lingual Dysarthria Detection in Parkinson's Disease",
+      "link": "https://arxiv.org/abs/2603.22225v1",
+      "summary": "The limited availability of dysarthric speech data makes cross-lingual detection an important but challenging problem. A key difficulty is that speech representations often encode language-dependent structure that can confound dysarthria detection. We propose a representation-level language shift (LS) that aligns source-language self-supervised speech representations with the target-language distribution using centroid-based vector adaptation estimated from healthy-control speech. We evaluate th",
+      "published": "2026-03-23T17:23:39Z",
+      "authors": [
+        "Abner Hernandez",
+        "Eunjung Yeo",
+        "Kwanghee Choi",
+        "Chin-Jou Li",
+        "Zhengjun Yue"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The energy-momentum tensor in a classical model of the electron",
+      "link": "https://arxiv.org/abs/2603.22223v1",
+      "summary": "We show that the leading non-analytic terms in the small-t expansion of the energy momentum tensor (EMT) form factors of an electrically charged particle in QED can be correctly derived in a classical model of the electron by Bialynicki-Birula. Based on the lucidity of the employed exactly solvable model, we comment also on the recently proposed concept of a regularized proton D-term.",
+      "published": "2026-03-23T17:19:36Z",
+      "authors": [
+        "Grace Gardella",
+        "Mira Varma",
+        "Peter Schweitzer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Portfolio-Level Optimization Framework for Coordinated Market Participation and Operational Scheduling of Hydrogen-Centric Companies",
+      "link": "https://arxiv.org/abs/2603.22222v1",
+      "summary": "The vision of electrolytic hydrogen as a clean energy vector prompts the emergence of hydrogen-centric companies that must simultaneously engage in electricity, hydrogen, and green certificate markets while operating complex, geographically distributed asset portfolios. This paper proposes a portfolio-level optimization framework tailored for the integrated operational scheduling and market participation of such companies. The model co-optimizes asset scheduling and market decisions across multi",
+      "published": "2026-03-23T17:18:17Z",
+      "authors": [
+        "Seyed Amir Mansouri",
+        "Kenneth Bruninx"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Accelerating Fresh Data Exploration with Fluid ETL Pipelines",
+      "link": "https://arxiv.org/abs/2603.22220v1",
+      "summary": "Recently, we have seen an increasing need for fresh data exploration, where data analysts seek to explore the main characteristics or detect anomalies of data being actively collected. In addition to the common challenges in classic data exploration, such as a lack of prior knowledge about the data or the analysis goal, fresh data exploration also demands an ingestion system with sufficient throughput to keep up with rapid data accumulation. However, leveraging traditional Extract-Transform-Load",
+      "published": "2026-03-23T17:14:42Z",
+      "authors": [
+        "Maxwell Norfolk",
+        "Dong Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Noise Titration: Exact Distributional Benchmarking for Probabilistic Time Series Forecasting",
+      "link": "https://arxiv.org/abs/2603.22219v1",
+      "summary": "Modern time series forecasting is evaluated almost entirely through passive observation of single historical trajectories, rendering claims about a model's robustness to non-stationarity fundamentally unfalsifiable. We propose a paradigm shift toward interventionist, exact-statistical benchmarking. By systematically titrating calibrated Gaussian observation noise into known chaotic and stochastic dynamical systems, we transform forecasting from a black-box sequence matching game into an exact di",
+      "published": "2026-03-23T17:14:11Z",
+      "authors": [
+        "Qilin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
