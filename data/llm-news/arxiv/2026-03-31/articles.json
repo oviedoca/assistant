@@ -1,0 +1,644 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
+      "link": "https://arxiv.org/abs/2603.28767v1",
+      "summary": "Recent image generation models have shown strong capabilities in generating high-fidelity and photorealistic images. However, they are fundamentally constrained by frozen internal knowledge, thus often failing on real-world scenarios that are knowledge-intensive or require up-to-date information. In this paper, we present Gen-Searcher, as the first attempt to train a search-augmented image generation agent, which performs multi-hop reasoning and search to collect the textual knowledge and refere",
+      "published": "2026-03-30T17:59:56Z",
+      "authors": [
+        "Kaituo Feng",
+        "Manyuan Zhang",
+        "Shuang Chen",
+        "Yunlong Lin",
+        "Kaixuan Fan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HandX: Scaling Bimanual Motion and Interaction Generation",
+      "link": "https://arxiv.org/abs/2603.28766v1",
+      "summary": "Synthesizing human motion has advanced rapidly, yet realistic hand motion and bimanual interaction remain underexplored. Whole-body models often miss the fine-grained cues that drive dexterous behavior, finger articulation, contact timing, and inter-hand coordination, and existing resources lack high-fidelity bimanual sequences that capture nuanced finger dynamics and collaboration. To fill this gap, we present HandX, a unified foundation spanning data, annotation, and evaluation. We consolidate",
+      "published": "2026-03-30T17:59:49Z",
+      "authors": [
+        "Zimu Zhang",
+        "Yucheng Zhang",
+        "Xiyan Xu",
+        "Ziyin Wang",
+        "Sirui Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Block-Scaled Data Types",
+      "link": "https://arxiv.org/abs/2603.28765v1",
+      "summary": "NVFP4 has grown increasingly popular as a 4-bit format for quantizing large language models due to its hardware support and its ability to retain useful information with relatively few bits per parameter. However, the format is not without limitations: recent work has shown that NVFP4 suffers from its error distribution, resulting in large amounts of quantization error on near-maximal values in each group of 16 values. In this work, we leverage this insight to design new Adaptive Block-Scaled Da",
+      "published": "2026-03-30T17:59:33Z",
+      "authors": [
+        "Jack Cook",
+        "Hyemin S. Lee",
+        "Kathryn Le",
+        "Junxian Guo",
+        "Giovanni Traverso"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
+      "link": "https://arxiv.org/abs/2603.28764v1",
+      "summary": "Similarity measures are widely used to interpret the representational geometries used by neural networks to solve tasks. Yet, because existing methods compare the extrinsic geometry of representations in state space, rather than their intrinsic geometry, they may fail to capture subtle yet crucial distinctions between fundamentally different neural network solutions. Here, we introduce metric similarity analysis (MSA), a novel method which leverages tools from Riemannian geometry to compare the ",
+      "published": "2026-03-30T17:59:22Z",
+      "authors": [
+        "N Alex Cayco Gajic",
+        "Arthur Pellegrino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PoseDreamer: Scalable and Photorealistic Human Data Generation Pipeline with Diffusion Models",
+      "link": "https://arxiv.org/abs/2603.28763v1",
+      "summary": "Acquiring labeled datasets for 3D human mesh estimation is challenging due to depth ambiguities and the inherent difficulty of annotating 3D geometry from monocular images. Existing datasets are either real, with manually annotated 3D geometry and limited scale, or synthetic, rendered from 3D engines that provide precise labels but suffer from limited photorealism, low diversity, and high production costs. In this work, we explore a third path: generated data. We introduce PoseDreamer, a novel p",
+      "published": "2026-03-30T17:59:18Z",
+      "authors": [
+        "Lorenza Prospero",
+        "Orest Kupyn",
+        "Ostap Viniavskyi",
+        "João F. Henriques",
+        "Christian Rupprecht"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers",
+      "link": "https://arxiv.org/abs/2603.28762v1",
+      "summary": "Modern Text-to-Image (T2I) diffusion models have achieved remarkable semantic alignment, yet they often suffer from a significant lack of variety, converging on a narrow set of visual solutions for any given prompt. This typicality bias presents a challenge for creative applications that require a wide range of generative outcomes. We identify a fundamental trade-off in current approaches to diversity: modifying model inputs requires costly optimization to incorporate feedback from the generativ",
+      "published": "2026-03-30T17:59:13Z",
+      "authors": [
+        "Omer Dahary",
+        "Benaya Koren",
+        "Daniel Garibi",
+        "Daniel Cohen-Or"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cosmic Shear in Effective Field Theory at Two-Loop Order: Revisiting $S_8$ in Dark Energy Survey Data",
+      "link": "https://arxiv.org/abs/2603.28761v1",
+      "summary": "Cosmic shear is a powerful probe of cosmological distances, matter abundance and clustering in the low-redshift Universe. Cosmological parameter extraction from cosmic shear data is limited by our understanding of baryonic astrophysics, which severely restricts the range of scales used in such analyses. We show that the remaining scales are largely perturbative and can be accurately described with two-loop effective field theory (EFT) predictions. We present the first consistent analysis of the ",
+      "published": "2026-03-30T17:59:01Z",
+      "authors": [
+        "Shi-Fan Chen",
+        "Joseph DeRose",
+        "Mikhail M. Ivanov",
+        "Oliver H. E. Philcox"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SHOW3D: Capturing Scenes of 3D Hands and Objects in the Wild",
+      "link": "https://arxiv.org/abs/2603.28760v1",
+      "summary": "Accurate 3D understanding of human hands and objects during manipulation remains a significant challenge for egocentric computer vision. Existing hand-object interaction datasets are predominantly captured in controlled studio settings, which limits both environmental diversity and the ability of models trained on such data to generalize to real-world scenarios. To address this challenge, we introduce a novel marker-less multi-camera system that allows for nearly unconstrained mobility in genuin",
+      "published": "2026-03-30T17:58:27Z",
+      "authors": [
+        "Patrick Rim",
+        "Kevin Harris",
+        "Braden Copple",
+        "Shangchen Han",
+        "Xu Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FlowIt: Global Matching for Optical Flow with Confidence-Guided Refinement",
+      "link": "https://arxiv.org/abs/2603.28759v1",
+      "summary": "We present FlowIt, a novel architecture for optical flow estimation designed to robustly handle large pixel displacements. At its core, FlowIt leverages a hierarchical transformer architecture that captures extensive global context, enabling the model to effectively model long-range correspondences. To overcome the limitations of localized matching, we formulate the flow initialization as an optimal transport problem. This formulation yields a highly robust initial flow field, alongside explicit",
+      "published": "2026-03-30T17:58:12Z",
+      "authors": [
+        "Sadra Safadoust",
+        "Fabio Tosi",
+        "Matteo Poggi",
+        "Fatma Güney"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$\\mathcal{L}_1$-Certified Distributionally Robust Planning for Safety-Constrained Adaptive Control",
+      "link": "https://arxiv.org/abs/2603.28758v1",
+      "summary": "Safe operation of autonomous systems requires robustness to both model uncertainty and uncertainty in the environment. We propose a hierarchical framework for stochastic nonlinear systems that integrates distributionally robust model predictive control (DR-MPC) with $\\mathcal{L}_1$-adaptive control. The key idea is to use the $\\mathcal{L}_1$ adaptive controller's online distributional certificates that bound the Wasserstein distance between nominal and true state distributions, thereby certifyin",
+      "published": "2026-03-30T17:57:58Z",
+      "authors": [
+        "Astghik Hakobyan",
+        "Amaras Nazarians",
+        "Aditya Gahlawat",
+        "Naira Hovakimyan",
+        "Ilya Kolmanovsky"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SonoWorld: From One Image to a 3D Audio-Visual Scene",
+      "link": "https://arxiv.org/abs/2603.28757v1",
+      "summary": "Tremendous progress in visual scene generation now turns a single image into an explorable 3D world, yet immersion remains incomplete without sound. We introduce Image2AVScene, the task of generating a 3D audio-visual scene from a single image, and present SonoWorld, the first framework to tackle this challenge. From one image, our pipeline outpaints a 360° panorama, lifts it into a navigable 3D scene, places language-guided sound anchors, and renders ambisonics for point, areal, and ambient sou",
+      "published": "2026-03-30T17:57:47Z",
+      "authors": [
+        "Derong Jin",
+        "Xiyi Chen",
+        "Ming C. Lin",
+        "Ruohan Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast Large-Scale Model-Based Iterative Tomography via Exploiting Mathematical Structure, Hierarchical Optimization, Smart Initialization, and Distributed GPU Computing",
+      "link": "https://arxiv.org/abs/2603.28756v1",
+      "summary": "Model-Based Iterative Reconstruction (MBIR) is important because direct methods, such as Filtered Back-Projection (FBP) can introduce significant noise and artifacts in sparse-angle tomography, especially for time-evolving samples. Although MBIR produces high-quality reconstructions through prior-informed optimization, its computational cost has traditionally limited its broader adoption. In previous work, we addressed this limitation by expressing the Radon transform and its adjoint using non-u",
+      "published": "2026-03-30T17:57:21Z",
+      "authors": [
+        "Dinesh Kumar",
+        "Jeffrey Donatelli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Graphilosophy: Graph-Based Digital Humanities Computing with The Four Books",
+      "link": "https://arxiv.org/abs/2603.28755v1",
+      "summary": "The Four Books have shaped East Asian intellectual traditions, yet their multi-layered interpretive complexity limits their accessibility in the digital age. While traditional bilingual commentaries provide a vital pedagogical bridge, computational frameworks are needed to preserve and explore this wisdom. This paper bridges AI and classical philosophy by introducing Graphilosophy, an ontology-guided, multi-layered knowledge graph framework for modeling and interpreting The Four Books. Integrati",
+      "published": "2026-03-30T17:57:07Z",
+      "authors": [
+        "Minh-Thu Do",
+        "Quynh-Chau Le-Tran",
+        "Duc-Duy Nguyen-Mai",
+        "Thien-Trang Nguyen",
+        "Khanh-Duy Le"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sparse State-Space Realizations of Linear Controllers",
+      "link": "https://arxiv.org/abs/2603.28754v1",
+      "summary": "This paper provides a novel approach for finding sparse state-space realizations of linear systems (e.g., controllers). Sparse controllers are commonly used in distributed control, where a controller is synthesized with some sparsity penalty. Here, motivated by a modeling problem in sensorimotor neuroscience, we study a complementary question: given a linear time-invariant system (e.g., controller) in transfer function form and a desired sparsity pattern, can we find a suitably sparse state-spac",
+      "published": "2026-03-30T17:56:56Z",
+      "authors": [
+        "Yaozhi Du",
+        "Jing Shuang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The average X-ray spectrum of the volume-complete M-, F-, G-, and K-type star sample within 10 pc of the Sun",
+      "link": "https://arxiv.org/abs/2603.28751v1",
+      "summary": "F, G, K and M type stars are the most abundant stellar population in the Milky Way and are expected to contribute to its diffuse X-ray emission. Yet their intrinsic average X-ray spectrum remains poorly constrained due to their faint X-ray luminosities, leaving their collective role in the X-ray background of the Milky Way uncertain. We analysed the volume-complete sample of M- (M0--M6) and FGK-type stars within 10 pc of the Sun using data from eROSITA all-sky survey aboard the Spectrum-Roentgen",
+      "published": "2026-03-30T17:55:34Z",
+      "authors": [
+        "Xueying Zheng",
+        "Gabriele Ponti",
+        "Nicola Locatelli",
+        "Beate Stelzer",
+        "Enza Magaudda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Odd Hadwiger number and graph products",
+      "link": "https://arxiv.org/abs/2603.28748v1",
+      "summary": "The Odd Hadwiger number of a graph $G$ is the largest integer $r$ such that $G$ has a clique of size $r$ as an odd minor. In this paper, we investigate how large is the Odd Hadwiger number of the product of two graphs, when considering any of the four standard graph products: Cartesian, direct, lexicographic, strong. We provide an optimal lower bound in the cases of the strong and lexicographic products.",
+      "published": "2026-03-30T17:53:34Z",
+      "authors": [
+        "Henry Echeverría",
+        "Andrea Jiménez",
+        "Suchismita Mishra",
+        "Daniel A. Quiroz",
+        "Mauricio Yépez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Estimation and mitigation of foregrounds in projected kSZ velocity reconstruction",
+      "link": "https://arxiv.org/abs/2603.28746v1",
+      "summary": "The kSZ effect has recently emerged as a powerful probe for precision cosmology through its ability to reconstruct the large-scale velocity field. In particular, the kSZ-reconstructed velocity-galaxy cross-correlation is sensitive to signatures of primordial non-Gaussianity through its imprint on the galaxy bias. The kSZ velocity reconstruction is performed using small-scale information from CMB temperature and galaxy overdensities. As the sensitivity of these measurements improves, systematic e",
+      "published": "2026-03-30T17:52:43Z",
+      "authors": [
+        "Carmen Embil Villagra",
+        "Fiona McCarthy",
+        "Antón Baleato Lizancos",
+        "Blake D. Sherwin",
+        "Anthony Challinor"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking Language Model Scaling under Transferable Hypersphere Optimization",
+      "link": "https://arxiv.org/abs/2603.28743v1",
+      "summary": "Scaling laws for large language models depend critically on the optimizer and parameterization. Existing hyperparameter transfer laws are mainly developed for first-order optimizers, and they do not structurally prevent training instability at scale. Recent hypersphere optimization methods constrain weight matrices to a fixed-norm hypersphere, offering a promising alternative for more stable scaling. We introduce HyperP (Hypersphere Parameterization), the first framework for transferring optimal",
+      "published": "2026-03-30T17:51:47Z",
+      "authors": [
+        "Liliang Ren",
+        "Yang Liu",
+        "Yelong Shen",
+        "Weizhu Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Charge-Dependent Directed Flow in Symmetric Nuclear Collisions",
+      "link": "https://arxiv.org/abs/2603.28742v1",
+      "summary": "The directed flow ($v_1$) of identified hadrons ($π^{\\pm}, K^{\\pm}, p, \\bar{p}, φ, Λ$, and $\\barΛ$) is studied in symmetric nuclear collisions (O+O, Cu+Cu, Ru+Ru, Au+Au, and U+U) at $\\sqrt{s_{NN}} = 200$ GeV using the string-melting version of a multiphase transport model with improved quark coalescence. The mid-rapidity $v_1$-slope ($dv_1/dy$) and its charge-dependent splitting ($Δdv_1/dy$) between particles and anti-particles are investigated as a function of nuclear mass number ($A$) and coll",
+      "published": "2026-03-30T17:51:33Z",
+      "authors": [
+        "Vipul Bairathi",
+        "Kishora Nayak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SNID-SAGE: A Modern Framework for Interactive Supernova Classification and Spectral Analysis",
+      "link": "https://arxiv.org/abs/2603.28741v1",
+      "summary": "We present SNID-SAGE (SuperNova IDentification-Spectral Analysis and Guided Exploration), a framework for supernova spectral classification with both a fully interactive graphical interface and a scriptable command-line pipeline for large-scale processing. The pipeline combines deterministic spectral preprocessing, FFT-based cross-correlation against a curated template library, ranking of candidate matches using a composite quality metric, and consolidation of redshift and classification solutio",
+      "published": "2026-03-30T17:51:04Z",
+      "authors": [
+        "Fiorenzo Stoppa",
+        "Stephen J. Smartt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2603.28740v1",
+      "summary": "Vision-Language-Action (VLA) models improve action generation by conditioning policies on rich vision-language information. However, current auto-regressive policies are constrained by three bottlenecks: (1) architectural bias drives models to overlook visual details, (2) an excessive number of visual tokens makes attention difficult to focus on the correct regions, and (3) task-irrelevant visual information introduces substantial noise - together severely impairing the quality of action. In thi",
+      "published": "2026-03-30T17:50:54Z",
+      "authors": [
+        "Yichi Zhang",
+        "Weihao Yuan",
+        "Yizhuo Zhang",
+        "Xidong Zhang",
+        "Jia Wan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining",
+      "link": "https://arxiv.org/abs/2603.28737v1",
+      "summary": "We introduce ParaSpeechCLAP, a dual-encoder contrastive model that maps speech and text style captions into a common embedding space, supporting a wide range of intrinsic (speaker-level) and situational (utterance-level) descriptors (such as pitch, texture and emotion) far beyond the narrow set handled by existing models. We train specialized ParaSpeechCLAP-Intrinsic and ParaSpeechCLAP-Situational models alongside a unified ParaSpeechCLAP-Combined model, finding that specialization yields strong",
+      "published": "2026-03-30T17:50:07Z",
+      "authors": [
+        "Anuj Diwan",
+        "Eunsol Choi",
+        "David Harwath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Deterministic Modeling of Dynamic ISAC Channels in RF Digital Twin Environments",
+      "link": "https://arxiv.org/abs/2603.28736v1",
+      "summary": "This paper introduces a methodology to calibrate Radio-Frequency Digital Twins (RF-DTs) for Integrated Sensing and Communication (ISAC) in dynamic wireless environments. The approach leverages high-resolution ray tracing in combination with wideband channel sounding to ensure consistency between simulated and measured propagation. The methodology is validated in urban scenarios featuring both mono-static and bi-static configurations, as well as moving user platforms and vehicles. Results show th",
+      "published": "2026-03-30T17:49:34Z",
+      "authors": [
+        "Cesar Montaner",
+        "Saúl Fenollosa",
+        "Andres Ortega",
+        "Hugo Beltrán",
+        "Narcis Cardona"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RAD-AI: Rethinking Architecture Documentation for AI-Augmented Ecosystems",
+      "link": "https://arxiv.org/abs/2603.28735v1",
+      "summary": "AI-augmented ecosystems (interconnected systems where multiple AI components interact through shared data and infrastructure) are becoming the architectural norm for smart cities, autonomous fleets, and intelligent platforms. Yet the architecture documentation frameworks practitioners rely on, arc42 and the C4 model, were designed for deterministic software and cannot capture probabilistic behavior, data-dependent evolution, or dual ML/software lifecycles. This gap carries regulatory consequence",
+      "published": "2026-03-30T17:48:56Z",
+      "authors": [
+        "Oliver Aleksander Larsen",
+        "Mahyar T. Moghaddam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Free energy analyticity of the disordered XY model and Debye screening in the 2D Coulomb gas",
+      "link": "https://arxiv.org/abs/2603.28734v1",
+      "summary": "We consider three models of statistical mechanics: the classical XY model in arbitrary dimension, the lattice Coulomb gas in dimension two, and the square well model in arbitrary dimension. For each of these three models, we prove that the free energy is analytic in the disordered regime (the square well model is disordered at any positive temperature). In order to prove these results, we prove that the Gibbs measures of these models are factors of i.i.d. with information clusters of exponential",
+      "published": "2026-03-30T17:47:34Z",
+      "authors": [
+        "Lucas D'Alimonte",
+        "Piet Lammers"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "See it to Place it: Evolving Macro Placements with Vision-Language Models",
+      "link": "https://arxiv.org/abs/2603.28733v1",
+      "summary": "We propose using Vision-Language Models (VLMs) for macro placement in chip floorplanning, a complex optimization task that has recently shown promising advancements through machine learning methods. Because human designers rely heavily on spatial reasoning to arrange components on the chip canvas, we hypothesize that VLMs with strong visual reasoning abilities can effectively complement existing learning-based approaches. We introduce VeoPlace (Visual Evolutionary Optimization Placement), a nove",
+      "published": "2026-03-30T17:47:34Z",
+      "authors": [
+        "Ikechukwu Uchendu",
+        "Swati Goel",
+        "Karly Hou",
+        "Ebrahim Songhori",
+        "Kuang-Huei Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pandora: Articulated 3D Scene Graphs from Egocentric Vision",
+      "link": "https://arxiv.org/abs/2603.28732v1",
+      "summary": "Robotic mapping systems typically approach building metric-semantic scene representations from the robot's own sensors and cameras. However, these \"first person\" maps inherit the robot's own limitations due to its embodiment or skillset, which may leave many aspects of the environment unexplored. For example, the robot might not be able to open drawers or access wall cabinets. In this sense, the map representation is not as complete, and requires a more capable robot to fill in the gaps. We narr",
+      "published": "2026-03-30T17:47:07Z",
+      "authors": [
+        "Alan Yu",
+        "Yun Chang",
+        "Christopher Xie",
+        "Luca Carlone"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SAGAI-MID: A Generative AI-Driven Middleware for Dynamic Runtime Interoperability",
+      "link": "https://arxiv.org/abs/2603.28731v1",
+      "summary": "Modern distributed systems integrate heterogeneous services, REST APIs with different schema versions, GraphQL endpoints, and IoT devices with proprietary payloads that suffer from persistent schema mismatches. Traditional static adapters require manual coding for every schema pair and cannot handle novel combinations at runtime. We present SAGAI-MID, a FastAPI-based middleware that uses large language models (LLMs) to dynamically detect and resolve schema mismatches at runtime. The system emplo",
+      "published": "2026-03-30T17:46:41Z",
+      "authors": [
+        "Oliver Aleksander Larsen",
+        "Mahyar T. Moghaddam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2603.28730v1",
+      "summary": "Vision-language models (VLMs) have shown impressive capabilities across diverse tasks, motivating efforts to leverage these models to supervise robot learning. However, when used as evaluators in reinforcement learning (RL), today's strongest models often fail under partial observability and distribution shift, enabling policies to exploit perceptual errors rather than solve the task. To address this limitation, we introduce SOLE-R1 (Self-Observing LEarner), a video-language reasoning model expl",
+      "published": "2026-03-30T17:46:31Z",
+      "authors": [
+        "Philip Schroeder",
+        "Thomas Weng",
+        "Karl Schmeckpeper",
+        "Eric Rosen",
+        "Stephen Hart"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Double Colloidal Networks to Core-Shell and Mixed Composites through Sequential Gelation",
+      "link": "https://arxiv.org/abs/2603.28729v1",
+      "summary": "Multicomponent gel systems have garnered much interest due to their compelling mechanical properties in the past decade. Yet, some mechanisms associated with multicomponent gels, such as sequential gelation, have been explored primarily in the context of chemical nonreversible polymeric and protein gels than in physical reversible colloidal ones. In this study, we use mesoscale simulation techniques to model the sequential gelation of two-component colloidal systems whose components' interspecie",
+      "published": "2026-03-30T17:46:01Z",
+      "authors": [
+        "Alexander Kaltashov",
+        "Safa Jamali"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BitSov: A Composable Bitcoin-Native Architecture for Sovereign Internet Infrastructure",
+      "link": "https://arxiv.org/abs/2603.28727v1",
+      "summary": "Today's internet concentrates identity, payments, communication, and content hosting under a small number of corporate intermediaries, creating single points of failure, enabling censorship, and extracting economic rent from participants. We present BitSov, an architectural framework for sovereign internet infrastructure that composes existing decentralized technologies (Bitcoin, Lightning Network, decentralized storage, federated messaging, and mesh connectivity) into a unified, eight-layer pro",
+      "published": "2026-03-30T17:44:06Z",
+      "authors": [
+        "Oliver Aleksander Larsen",
+        "Rasmus Thorsen Larsen",
+        "Mahyar T. Moghaddam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Acoustic-to-articulatory Inversion of the Complete Vocal Tract from RT-MRI with Various Audio Embeddings and Dataset Sizes",
+      "link": "https://arxiv.org/abs/2603.28723v1",
+      "summary": "Articulatory-to-acoustic inversion strongly depends on the type of data used. While most previous studies rely on EMA, which is limited by the number of sensors and restricted to accessible articulators, we propose an approach aiming at a complete inversion of the vocal tract, from the glottis to the lips. To this end, we used approximately 3.5 hours of RT-MRI data from a single speaker. The innovation of our approach lies in the use of articulator contours automatically extracted from MRI image",
+      "published": "2026-03-30T17:38:46Z",
+      "authors": [
+        "Sofiane Azzouz",
+        "Pierre-André Vuissoz",
+        "Yves Laprie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rotating black hole shadows in metric-affine bumblebee gravity",
+      "link": "https://arxiv.org/abs/2603.28722v1",
+      "summary": "In this work, we investigate the structure of black hole shadows in the bumblebee gravity model formulated within the metric-affine framework, which incorporates spontaneous Lorentz symmetry breaking (LSB) through a vector field $B_μ$ with a non-zero vacuum expectation value. We analyze the influence of the dimensionless rotation parameter $a = J/M$ and the Lorentz-violating (LV) coefficient $X = ξb^2$ on the photon sphere radius, the critical impact parameter, and the shadow morphology. Using r",
+      "published": "2026-03-30T17:38:22Z",
+      "authors": [
+        "Jose R. Nascimento",
+        "Ana R. M. Oliveira",
+        "Albert Yu. Petrov",
+        "Paulo J. Porfírio",
+        "Amilcar R. Queiroz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Uncovering the Microscopic Mechanism of Slow Dynamics in Quasiperiodic Many-Body Localized Systems",
+      "link": "https://arxiv.org/abs/2603.28721v1",
+      "summary": "We study the number entropy and quasiparticle width in one-dimensional quasiperiodic many-body localized (MBL) systems and observe slow dynamics that have previously been investigated in detail only in random systems. In contrast, quasiperiodic systems exhibit more structured growth of both observables. We identify the modulation of the Rabi oscillation amplitude of single-particle hoppings as the mechanism underlying the slow growth even deep in the MBL regime. This quantum amplitude modulation",
+      "published": "2026-03-30T17:37:06Z",
+      "authors": [
+        "Bernard Faulend",
+        "Hrvoje Buljan",
+        "Antonio Štrkalj"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Categorical Time-Reversal Symmetries",
+      "link": "https://arxiv.org/abs/2603.28720v1",
+      "summary": "The classification of phases using categorical symmetries has greatly expanded the landscape of gapped and gapless phases. So far, however, these developments have largely been restricted to phases with unitary (higher-)categorical symmetries over $\\mathbb{C}$. In this work, we incorporate anti-unitary symmetries, such as time-reversal symmetry $\\mathbb{Z}_2^T$, and show that the relevant physical structures are naturally described by fusion categories over $\\mathbb{R}$. A class of real fusion c",
+      "published": "2026-03-30T17:36:31Z",
+      "authors": [
+        "Rui Wen",
+        "Sakura Schafer-Nameki"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Alertness Optimization for Shift Workers Using a Physiology-based Mathematical Model",
+      "link": "https://arxiv.org/abs/2603.28719v1",
+      "summary": "Sleep is vital for maintaining cognitive function, facilitating metabolic waste removal, and supporting memory consolidation. However, modern societal demands, particularly shift work, often disrupt natural sleep patterns. This can induce excessive sleepiness among shift workers in critical sectors such as healthcare and transportation and increase the risk of accidents. The primary contributors to this issue are misalignments of circadian rhythms and enforced sleep-wake schedules.   Regulating ",
+      "published": "2026-03-30T17:35:58Z",
+      "authors": [
+        "Zidi Tao",
+        "A. Agung Julius",
+        "John T Wen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stepwise Credit Assignment for GRPO on Flow-Matching Models",
+      "link": "https://arxiv.org/abs/2603.28718v1",
+      "summary": "Flow-GRPO successfully applies reinforcement learning to flow models, but uses uniform credit assignment across all steps. This ignores the temporal structure of diffusion generation: early steps determine composition and content (low-frequency structure), while late steps resolve details and textures (high-frequency details). Moreover, assigning uniform credit based solely on the final image can inadvertently reward suboptimal intermediate steps, especially when errors are corrected later in th",
+      "published": "2026-03-30T17:35:14Z",
+      "authors": [
+        "Yash Savani",
+        "Branislav Kveton",
+        "Yuchen Liu",
+        "Yilin Wang",
+        "Jing Shi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Hierarchical Cross-Modal Fusion Predict Human Perception of AI Dubbed Content?",
+      "link": "https://arxiv.org/abs/2603.28717v1",
+      "summary": "Evaluating AI generated dubbed content is inherently multi-dimensional, shaped by synchronization, intelligibility, speaker consistency, emotional alignment, and semantic context. Human Mean Opinion Scores (MOS) remain the gold standard but are costly and impractical at scale. We present a hierarchical multimodal architecture for perceptually meaningful dubbing evaluation, integrating complementary cues from audio, video, and text. The model captures fine-grained features such as speaker identit",
+      "published": "2026-03-30T17:33:58Z",
+      "authors": [
+        "Ashwini Dasare",
+        "Nirmesh Shah",
+        "Ashishkumar Gudmalwar",
+        "Pankaj Wasnik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dynamic Dual-Granularity Skill Bank for Agentic RL",
+      "link": "https://arxiv.org/abs/2603.28716v1",
+      "summary": "Agentic reinforcement learning (RL) can benefit substantially from reusable experience, yet existing skill-based methods mainly extract trajectory-level guidance and often lack principled mechanisms for maintaining an evolving skill memory. We propose D2Skill, a dynamic dual-granularity skill bank for agentic RL that organizes reusable experience into task skills for high-level guidance and step skills for fine-grained decision support and error correction. D2Skill jointly trains the policy and ",
+      "published": "2026-03-30T17:32:11Z",
+      "authors": [
+        "Songjun Tu",
+        "Chengdong Xu",
+        "Qichao Zhang",
+        "Yaocheng Zhang",
+        "Xiangyuan Lan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Slow dispersion in Floquet-Dirac Hamiltonians",
+      "link": "https://arxiv.org/abs/2603.28715v1",
+      "summary": "We study dispersive decay for non-autonomous Hamiltonian systems. While the general theory for dispersion in such non-autonomous systems is largely open, it was shown \\cite{kraisler2025time} that there exists a time-periodically forced one-dimensional Dirac equation with unusually slow dispersive decay rate of $t^{-1/5}$. It is to be expected that such behavior is not generic and requires a very particular forcing term; we provide a more general ansatz and systematic procedure to construct such ",
+      "published": "2026-03-30T17:31:08Z",
+      "authors": [
+        "Anthony Bloch",
+        "Amir Sagiv",
+        "Stefan Steinerberger"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VAANI: Capturing the language landscape for an inclusive digital India",
+      "link": "https://arxiv.org/abs/2603.28714v1",
+      "summary": "Project VAANI is an initiative to create an India-representative multi-modal dataset that comprehensively maps India's linguistic diversity, starting with 165 districts across the country in its first two phases. Speech data is collected through a carefully structured process that uses image-based prompts to encourage spontaneous responses. Images are captured through a separate process that encompasses a broad range of topics, gathered from both within and across districts. The collected data u",
+      "published": "2026-03-30T17:30:53Z",
+      "authors": [
+        "Sujith Pulikodan",
+        "Abhayjeet Singh",
+        "Agneedh Basu",
+        "Lokesh Rady",
+        "Nihar Desai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DreamLite: A Lightweight On-Device Unified Model for Image Generation and Editing",
+      "link": "https://arxiv.org/abs/2603.28713v1",
+      "summary": "Diffusion models have made significant progress in both text-to-image (T2I) generation and text-guided image editing. However, these models are typically built with billions of parameters, leading to high latency and increased deployment challenges. While on-device diffusion models improve efficiency, they largely focus on T2I generation and lack support for image editing. In this paper, we propose DreamLite, a compact unified on-device diffusion model (0.39B) that supports both T2I generation a",
+      "published": "2026-03-30T17:30:25Z",
+      "authors": [
+        "Kailai Feng",
+        "Yuxiang Wei",
+        "Bo Chen",
+        "Yang Pan",
+        "Hu Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning a dynamic four-chamber shape model of the human heart for 95,695 UK Biobank participants",
+      "link": "https://arxiv.org/abs/2603.28711v1",
+      "summary": "The human heart is a sophisticated system composed of four cardiac chambers with distinct shapes, which function in a coordinated manner. Existing shape models of the heart mainly focus on the ventricular chambers and they are derived from relatively small datasets. Here, we present a spatio-temporal (3D+t) statistical shape model of all four cardiac chambers, learnt from a large population of nearly 100,000 participants from the UK Biobank. A deep learning-based pipeline is developed to reconst",
+      "published": "2026-03-30T17:28:39Z",
+      "authors": [
+        "Qiang Ma",
+        "Qingjie Meng",
+        "Yicheng Wu",
+        "Shuo Wang",
+        "Mengyun Qiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scalability of the asynchronous discontinuous Galerkin method for compressible flow simulations",
+      "link": "https://arxiv.org/abs/2603.28710v1",
+      "summary": "The scalability of time-dependent partial differential equation (PDE) solvers based on the discontinuous Galerkin (DG) method is increasingly limited by data communication and synchronization requirements across processing elements (PEs) at extreme scales. To address these challenges, asynchronous computing approaches that relax communication and synchronization at a mathematical level have been proposed. In particular, the asynchronous discontinuous Galerkin (ADG) method with asynchrony-toleran",
+      "published": "2026-03-30T17:28:23Z",
+      "authors": [
+        "Shubham Kumar Goswami",
+        "Dapse Vidyesh",
+        "Konduri Aditya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physical Design of UET-RVMCU: A Streamlined Open-Source RISC-V Microcontroller",
+      "link": "https://arxiv.org/abs/2603.28709v1",
+      "summary": "This paper presents the design and physical implementation of UET-RVMCU, a lightweight RISC-V microcontroller derived from the UETRV-PCore. Aimed at creating an accessible and flexible open-source RISC-V-based microcontroller, UET-RVMCU simplifies the application-class UETRV-PCore by reducing pipeline stages, removing MMU functionality, and integrating GPIO peripherals. The final GDSII layout was generated using an open-source RTL-to-GDS flow (OpenLane). This project demonstrates the feasibility",
+      "published": "2026-03-30T17:27:52Z",
+      "authors": [
+        "Abdullah Azhar",
+        "Uneeb Kamal",
+        "Wajid Ali",
+        "Saad Gillani",
+        "Dr Suleman Sami Qazi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GPU-Accelerated Optimization of Transformer-Based Neural Networks for Real-Time Inference",
+      "link": "https://arxiv.org/abs/2603.28708v1",
+      "summary": "This paper presents the design and evaluation of a GPU-accelerated inference pipeline for transformer models using NVIDIA TensorRT with mixed-precision optimization. We evaluate BERT-base (110M parameters) and GPT-2 (124M parameters) across batch sizes from 1 to 32 and sequence lengths from 32 to 512. The system achieves up to 64.4x speedup over CPU baselines, sub-10 ms latency for single-sample inference, and a 63 percent reduction in memory usage. We introduce a hybrid precision strategy that ",
+      "published": "2026-03-30T17:27:33Z",
+      "authors": [
+        "Soutrik Mukherjee",
+        "Sangwhan Cha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Convex Route to Thermomechanics: Learning Internal Energy and Dissipation",
+      "link": "https://arxiv.org/abs/2603.28707v1",
+      "summary": "We present a physics-based neural network framework for the discovery of constitutive models in fully coupled thermomechanics. In contrast to classical formulations based on the Helmholtz energy, we adopt the internal energy and a dissipation potential as primary constitutive functions, expressed in terms of deformation and entropy. This choice avoids the need to enforce mixed convexity--concavity conditions and facilitates a consistent incorporation of thermodynamic principles. In this contribu",
+      "published": "2026-03-30T17:26:13Z",
+      "authors": [
+        "Hagen Holthusen",
+        "Paul Steinmann",
+        "Ellen Kuhl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Scalable Monolithic Modified Newton Multigrid Framework for Time-Dependent $p$-Navier-Stokes Flow",
+      "link": "https://arxiv.org/abs/2603.28706v1",
+      "summary": "Fully implicit tensor-product space-time discretizations of time-dependent $(p,δ)$-Navier-Stokes models yield, on each time step, large nonlinear monolithic saddle-point systems. In the shear-thinning regime $1<p<2$, especially as $p\\downarrow 1$ and $δ\\downarrow 0$, the decisive difficulty is the constitutive tangent: its ill-conditioning impairs Newton globalization and the preconditioning of the arising linear systems. We therefore develop a scalable monolithic modified Newton framework for t",
+      "published": "2026-03-30T17:24:47Z",
+      "authors": [
+        "Nils Margenberg",
+        "Carolin Mehlmann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Binary Decisions in DAOs: Accountability and Belief Aggregation via Linear Opinion Pools",
+      "link": "https://arxiv.org/abs/2603.28705v1",
+      "summary": "We study binary decision-making in governance councils of Decentralized Autonomous Organizations (DAOs), where experts choose between two alternatives on behalf of the organization. We introduce an information structure model for such councils and formalize desired properties in blockchain governance. We propose a mechanism assuming an evaluation tool that ex-post returns a boolean indicating success or failure, implementable via smart contracts. Experts hold two types of private information: id",
+      "published": "2026-03-30T17:23:47Z",
+      "authors": [
+        "Nuno Braz",
+        "Miguel Correia",
+        "Diogo Poças"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ACE2-NEMO: Coupling an ML atmospheric emulator to a full-depth dynamical ocean model",
+      "link": "https://arxiv.org/abs/2603.28704v1",
+      "summary": "Understanding how fast atmospheric variability shapes slow climate variability and sensitivity remains a central challenge in Earth-system science. Recent advances in machine-learned (ML) atmospheric models have demonstrated remarkable skill on weather timescales, but their emergent behaviour in a fully coupled climate system remains largely unexplored. We present early results from a new hybrid modelling framework, in which the ACE2 ML atmospheric emulator is interactively coupled to the NEMO o",
+      "published": "2026-03-30T17:21:18Z",
+      "authors": [
+        "Bobby Antonio",
+        "Kristian Strommen",
+        "Pablo Ortega",
+        "Hannah M. Christensen"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
