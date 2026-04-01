@@ -1,0 +1,622 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
+      "link": "https://arxiv.org/abs/2603.30045v1",
+      "summary": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam, a controllable panoramic video generation framework that exploits the rich per-frame scene coverage and inherent long-term spatial and temporal consistency of panoramic representation, enabling long",
+      "published": "2026-03-31T17:59:33Z",
+      "authors": [
+        "Yuheng Liu",
+        "Xin Lin",
+        "Xinke Li",
+        "Baihan Yang",
+        "Chen Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The WEAVE acquisition and guiding software: pattern recognition-based acquisition and multi-fibre guiding",
+      "link": "https://arxiv.org/abs/2603.30044v1",
+      "summary": "We present the architecture, implementation, and on-sky validation of the fully automated acquisition and guiding system (AG) developed for the WEAVE instrument on the William Herschel Telescope. The AG operates in two distinct modes, corresponding to the observing modes of WEAVE. For the large integral field unit (LIFU), an off-axis imaging guider is used, for which we have devised an automatic acquisition method based on pattern recognition of stellar asterisms matched against Gaia predictions",
+      "published": "2026-03-31T17:59:05Z",
+      "authors": [
+        "Emanuel Gafton",
+        "Gavin B. Dalton",
+        "Don Carlos Abrams",
+        "Jure Skvarč",
+        "Sergio Picó"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+      "link": "https://arxiv.org/abs/2603.30043v1",
+      "summary": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a controlled testbed. Our investigations reveal two findings. Our first finding is early plan commitment: video diffusion models commit to a high-level motion plan within the first few denoising steps, after w",
+      "published": "2026-03-31T17:58:15Z",
+      "authors": [
+        "Kaleb Newman",
+        "Tyler Zhu",
+        "Olga Russakovsky"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
+      "link": "https://arxiv.org/abs/2603.30040v1",
+      "summary": "Automatic parallelization remains a challenging problem in software engineering, particularly in identifying code regions where loops can be safely executed in parallel on modern multi-core architectures. Traditional static analysis techniques, such as dependence analysis and polyhedral models, often struggle with irregular or dynamically structured code. In this work, we propose a Transformer-based approach to classify the parallelization potential of source code, focusing on distinguishing ind",
+      "published": "2026-03-31T17:54:27Z",
+      "authors": [
+        "Izavan dos S. Correia",
+        "Henrique C. T. Santos",
+        "Tiago A. E. Ferreira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision",
+      "link": "https://arxiv.org/abs/2603.30038v1",
+      "summary": "AI-assisted coding has rapidly reshaped software practice and research workflows, yet today's models still struggle to produce correct code for complex 3D geometric vision. If models could reliably write such code, the research of our community would change substantially. To measure progress toward that goal, we introduce GeoCodeBench, a PhD-level benchmark that evaluates coding for 3D vision. Each problem is a fill-in-the-function implementation task curated from representative papers at recent",
+      "published": "2026-03-31T17:50:55Z",
+      "authors": [
+        "Wenyi Li",
+        "Renkai Luo",
+        "Yue Yu",
+        "Huan-ang Gao",
+        "Mingju Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Aligned, Orthogonal or In-conflict: When can we safely optimize Chain-of-Thought?",
+      "link": "https://arxiv.org/abs/2603.30036v1",
+      "summary": "Chain-of-Thought (CoT) monitoring, in which automated systems monitor the CoT of an LLM, is a promising approach for effectively overseeing AI systems. However, the extent to which a model's CoT helps us oversee the model - the monitorability of the CoT - can be affected by training, for instance by the model learning to hide important features of its reasoning. We propose and empirically validate a conceptual framework for predicting when and why this occurs. We model LLM post-training as an RL",
+      "published": "2026-03-31T17:38:39Z",
+      "authors": [
+        "Max Kaufmann",
+        "David Lindner",
+        "Roland S. Zimmermann",
+        "and Rohin Shah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reward-Based Online LLM Routing via NeuralUCB",
+      "link": "https://arxiv.org/abs/2603.30035v1",
+      "summary": "This study investigates the use of NeuralUCB for cost-aware large language model (LLM) routing. Existing routing approaches can be broadly grouped into supervised routing methods and partial-feedback methods, each with different tradeoffs in efficiency and adaptivity. We implement a NeuralUCB-based routing policy and evaluate it on RouterBench under a simulated online setting. Experimental results show that the proposed method consistently outperforms random and min-cost baselines in utility rew",
+      "published": "2026-03-31T17:35:34Z",
+      "authors": [
+        "Ming-Hua Tsai",
+        "Phat Tran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EnsembleSHAP: Faithful and Certifiably Robust Attribution for Random Subspace Method",
+      "link": "https://arxiv.org/abs/2603.30034v1",
+      "summary": "Random subspace method has wide security applications such as providing certified defenses against adversarial and backdoor attacks, and building robustly aligned LLM against jailbreaking attacks. However, the explanation of random subspace method lacks sufficient exploration. Existing state-of-the-art feature attribution methods, such as Shapley value and LIME, are computationally impractical and lacks security guarantee when applied to random subspace method. In this work, we propose EnsembleS",
+      "published": "2026-03-31T17:30:52Z",
+      "authors": [
+        "Yanting Wang",
+        "Jinyuan Jia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tucker Attention: A generalization of approximate attention mechanisms",
+      "link": "https://arxiv.org/abs/2603.30033v1",
+      "summary": "The pursuit of reducing the memory footprint of the self-attention mechanism in multi-headed self attention (MHA) spawned a rich portfolio of methods, e.g., group-query attention (GQA) and multi-head latent attention (MLA). The methods leverage specialized low-rank factorizations across embedding dimensions or attention heads. From the point of view of classical low-rank approximation, these methods are unconventional and raise questions of which objects they really approximate and how to interp",
+      "published": "2026-03-31T17:30:51Z",
+      "authors": [
+        "Timon Klein",
+        "Jonas Kusch",
+        "Sebastian Sager",
+        "Stefan Schnake",
+        "Steffen Schotthöfer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Covertly improving intelligibility with data-driven adaptations of speech timing",
+      "link": "https://arxiv.org/abs/2603.30032v1",
+      "summary": "Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements in machine-generated speech allowing more precise control of speech rate in order to systematically examine how targeted speech-rate adjustments may improve comprehension. We first use reverse-correl",
+      "published": "2026-03-31T17:30:47Z",
+      "authors": [
+        "Paige Tuttösí",
+        "Angelica Lim",
+        "H. Henny Yeung",
+        "Yue Wang",
+        "Jean-Julien Aucouturier"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Triadic Cognitive Architecture: Bounding Autonomous Action via Spatio-Temporal and Epistemic Friction",
+      "link": "https://arxiv.org/abs/2603.30031v1",
+      "summary": "Current autonomous AI agents, driven primarily by Large Language Models (LLMs), operate in a state of cognitive weightlessness: they process information without an intrinsic sense of network topology, temporal pacing, or epistemic limits. Consequently, heuristic agentic loops (e.g., ReAct) can exhibit failure modes in interactive environments, including excessive tool use under congestion, prolonged deliberation under time decay, and brittle behavior under ambiguous evidence. In this paper, we p",
+      "published": "2026-03-31T17:30:25Z",
+      "authors": [
+        "Davide Di Gioia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Lightweight Hybrid Publish/Subscribe Event Fabric for IPC and Modular Distributed Systems",
+      "link": "https://arxiv.org/abs/2603.30030v1",
+      "summary": "Modular software deployed on mini compute units in controlled distributed environments often needs two messaging paths: low-overhead in-process coordination and selective cross-node distribution. In practice, event identity, serialization, and transport bridging are frequently implemented as ad hoc glue, which complicates inter-process communication (IPC), structured routing, and shutdown behavior. This paper presents CNS, a lightweight local-first hybrid event fabric centered on asynchronous fi",
+      "published": "2026-03-31T17:27:30Z",
+      "authors": [
+        "Dimitris Gkoulis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An inverted infall profile for the collapse of the massive star-forming IRDC SDC335.579-0.292",
+      "link": "https://arxiv.org/abs/2603.30029v1",
+      "summary": "There is increasing evidence for global collapse of clumps over parsec-scales in massive star formation regions. Such collapse may result in characteristic molecular line emission profiles but the spatial variation of such lines has rarely been quantitatively examined. Here we explore the infall properties using the spatially-resolved HCO$^+$ J=1--0 and H$^{13}$CO$^+$ J=1--0 maps of the massive infrared dark cloud (IRDC) SDC335.579-0.292. We compare the observations with the analytical Hill5 mod",
+      "published": "2026-03-31T17:27:24Z",
+      "authors": [
+        "Jinjin Xie",
+        "Gary A. Fuller",
+        "Di Li",
+        "Rowan Smith",
+        "Nicolas Peretto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Commercial LLMs Be Parliamentary Political Companions? Comparing LLM Reasoning Against Romanian Legislative Expuneri de Motive",
+      "link": "https://arxiv.org/abs/2603.30028v1",
+      "summary": "This paper evaluates whether commercial large language models (LLMs) can function as reliable political advisory tools by comparing their outputs against official legislative reasoning. Using a dataset of 15 Romanian Senate law proposals paired with their official explanatory memoranda (expuneri de motive), we test six LLMs spanning three provider families and multiple capability tiers: GPT-5-mini, GPT-5-chat (OpenAI), Claude Haiku 4.5 (Anthropic), and Llama 4 Maverick, Llama 3.3 70B, and Llama ",
+      "published": "2026-03-31T17:27:12Z",
+      "authors": [
+        "Iulian Lucău",
+        "Adelin-George Voicu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ContextClaim: A Context-Driven Paradigm for Verifiable Claim Detection",
+      "link": "https://arxiv.org/abs/2603.30025v1",
+      "summary": "Verifiable claim detection asks whether a claim expresses a factual statement that can, in principle, be assessed against external evidence. As an early filtering stage in automated fact-checking, it plays an important role in reducing the burden on downstream verification components. However, existing approaches to claim detection, whether based on check-worthiness or verifiability, rely solely on the claim text itself. This is a notable limitation for verifiable claim detection in particular, ",
+      "published": "2026-03-31T17:20:46Z",
+      "authors": [
+        "Yufeng Li",
+        "Rrubaa Panchendrarajan",
+        "Arkaitz Zubiaga"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
+      "link": "https://arxiv.org/abs/2603.30022v1",
+      "summary": "This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and understanding of natural language, the proposed framework effectively connects low-level execution with high-level reasoning in robotic systems. This integration allows robots to understand and carry out complex, human-like instructions while adapting ",
+      "published": "2026-03-31T17:19:34Z",
+      "authors": [
+        "Md Saad",
+        "Sajjad Hussain",
+        "Mohd Suhaib"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Approximation algorithms for satisfiable and nearly satisfiable ordering CSPs",
+      "link": "https://arxiv.org/abs/2603.30020v1",
+      "summary": "We study approximation algorithms for satisfiable and nearly satisfiable instances of ordering constraint satisfaction problems (ordering CSPs). Ordering CSPs arise naturally in ranking and scheduling, yet their approximability remains poorly understood beyond a few isolated cases.   We introduce a general framework for designing approximation algorithms for ordering CSPs. The framework relaxes an input instance to an auxiliary ordering CSP, solves the relaxation, and then applies a randomized t",
+      "published": "2026-03-31T17:18:20Z",
+      "authors": [
+        "Yury Makarychev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "NLSTEM: Non-local denoising for enhanced 4D-STEM pattern indexing",
+      "link": "https://arxiv.org/abs/2603.30018v1",
+      "summary": "4D-STEM-based orientation and phase mapping has enabled rapid microstructure quantification that can be directly combined with standard TEM- and STEM-based imaging modes. Typically, orientation mapping is coupled with beam precession (i.e. precession electron diffraction) to achieve high indexing rates, adding to the cost and often decreasing the spatial resolution of the approach. This paper introduces a new post processing approach modeled after the non-local pattern averaging and reindexing a",
+      "published": "2026-03-31T17:16:35Z",
+      "authors": [
+        "Yichen Yang",
+        "Olivier Pierron",
+        "Josh Kacher",
+        "David Rowenhorst"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Refined Detection for Gumbel Watermarking",
+      "link": "https://arxiv.org/abs/2603.30017v1",
+      "summary": "We propose a simple detection mechanism for the Gumbel watermarking scheme proposed by Aaronson (2022). The new mechanism is proven to be near-optimal in a problem-dependent sense among all model-agnostic watermarking schemes under the assumption that the next-token distribution is sampled i.i.d.",
+      "published": "2026-03-31T17:16:27Z",
+      "authors": [
+        "Tor Lattimore"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks",
+      "link": "https://arxiv.org/abs/2603.30016v1",
+      "summary": "AI agents, predominantly powered by large language models (LLMs), are vulnerable to indirect prompt injection, in which malicious instructions embedded in untrusted data can trigger dangerous agent actions. This position paper discusses our vision for system-level defenses against indirect prompt injection attacks. We articulate three positions: (1) dynamic replanning and security policy updates are often necessary for dynamic tasks and realistic environments; (2) certain context-dependent secur",
+      "published": "2026-03-31T17:15:46Z",
+      "authors": [
+        "Chong Xiang",
+        "Drew Zagieboylo",
+        "Shaona Ghosh",
+        "Sanjay Kariyappa",
+        "Kai Greshake"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Noise Inference by Recycling Test Rounds in Verification Protocols",
+      "link": "https://arxiv.org/abs/2603.30015v1",
+      "summary": "Interactive verification protocols for quantum computations allow to build trust between a client and a service provider, ensuring the former that the instructed computation was carried out faithfully. They come in two variants, one without quantum communication that requires large overhead on the server side to coherently implement quantum-resistant cryptographic primitives, and one with quantum communication but with repetition as the only overhead on the service provider's side. Given the lim",
+      "published": "2026-03-31T17:15:20Z",
+      "authors": [
+        "Amit Saha",
+        "Harold Ollivier"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scalable AI-assisted Workflow Management for Detector Design Optimization Using Distributed Computing",
+      "link": "https://arxiv.org/abs/2603.30014v1",
+      "summary": "The Production and Distributed Analysis (PanDA) system, originally developed for the ATLAS experiment at the CERN Large Hadron Collider (LHC), has evolved into a robust platform for orchestrating large-scale workflows across distributed computing resources. Coupled with its intelligent Distributed Dispatch and Scheduling (iDDS) component, PanDA supports AI/ML-driven workflows through a scalable and flexible workflow engine.   We present an AI-assisted framework for detector design optimization t",
+      "published": "2026-03-31T17:11:16Z",
+      "authors": [
+        "Derek Anderson",
+        "Amit Bashyal",
+        "Markus Diefenthaler",
+        "Cristiano Fanelli",
+        "Wen Guan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Counting partial Hadamard matrices in the cubic regime",
+      "link": "https://arxiv.org/abs/2603.30013v1",
+      "summary": "We give a precise asymptotic formula for the number of $n\\times 4t$ partial Hadamard matrices in the regimes $t/n^3\\to\\infty$ and $t/n^3\\toΘ$ for sufficiently large fixed $Θ$. This strengthens earlier results of de~Launey and Levin, who obtained the asymptotic for $t/n^{12}\\to\\infty$, and of Canfield, who extended this to $t/n^4\\to\\infty$.",
+      "published": "2026-03-31T17:09:34Z",
+      "authors": [
+        "Damek Davis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Conditional Polarization Guidance for Camouflaged Object Detection",
+      "link": "https://arxiv.org/abs/2603.30008v1",
+      "summary": "Camouflaged object detection (COD) aims to identify targets that are highly blended with their backgrounds. Recent works have shown that the optical characteristics of polarization cues play a significant role in improving camouflaged object detection. However, most existing polarization-based approaches depend on complex visual encoders and fusion mechanisms, leading to increased model complexity and computational overhead, while failing to fully explore how polarization can explicitly guide hi",
+      "published": "2026-03-31T17:03:06Z",
+      "authors": [
+        "QIfan Zhang",
+        "Hao Wang",
+        "Xiangrong Qin",
+        "Ruijie Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Renal Blood Flow Quantification During Standard Myocardial Perfusion Imaging with Rubidium-82 Positron Emission Tomography",
+      "link": "https://arxiv.org/abs/2603.30005v1",
+      "summary": "Background: Renal blood flow (RBF) is an important marker of kidney health, but noninvasive assessment is not routinely used in clinical imaging. We evaluated the feasibility and physiologic validity of quantifying renal transport of Rubidium-82 (K1) during standard myocardial perfusion imaging (MPI) PET. Methods: We studied 126 patients (age 60 +/- 12 years; 48% male; 51% Black) undergoing clinically indicated rest and stress Rb-82 MPI, in whom at least one kidney was partially visualized withi",
+      "published": "2026-03-31T16:58:19Z",
+      "authors": [
+        "Hamid Abdollahi",
+        "Robert Doot",
+        "Raul Porto",
+        "Anthony Young",
+        "Abdel K Tahari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The scalar--Maxwell--$Λ(x)$ system: Wormhole spacetimes without nonlinear electrodynamics in unimodular gravity",
+      "link": "https://arxiv.org/abs/2603.30003v1",
+      "summary": "In General Relativity, constructing exact traversable wormholes coupled to electromagnetic fields typically requires complex Non-Linear Electrodynamics (NED). We demonstrate that Unimodular Gravity (UG) elegantly resolves this limitation. By relaxing energy-momentum conservation, UG introduces a dynamical cosmological term, $Λ(x)$, enabling a semi-classical energy exchange between matter and the vacuum. Exploiting this mechanism, we construct exact Scalar-Maxwell-$Λ(x)$ wormholes. We show that, ",
+      "published": "2026-03-31T16:58:07Z",
+      "authors": [
+        "G. Alencar",
+        "T. M. Crispim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tracking Equivalent Mechanistic Interpretations Across Neural Networks",
+      "link": "https://arxiv.org/abs/2603.30002v1",
+      "summary": "Mechanistic interpretability (MI) is an emerging framework for interpreting neural networks. Given a task and model, MI aims to discover a succinct algorithmic process, an interpretation, that explains the model's decision process on that task. However, MI is difficult to scale and generalize. This stems in part from two key challenges: there is no precise notion of a valid interpretation; and, generating interpretations is often an ad hoc process. In this paper, we address these challenges by d",
+      "published": "2026-03-31T16:57:52Z",
+      "authors": [
+        "Alan Sun",
+        "Mariya Toneva"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Functional models and self-modeling property of minimal Dirac operators on the half-line",
+      "link": "https://arxiv.org/abs/2603.30001v1",
+      "summary": "We prove that minimal Dirac operators on the half-line are self-modeling, which means that such an operator is determined by its arbitrary unitary copy uniquely up to a transformation (shape equivalence) which changes its potential by a constant factor of modulus one. This result is obtained using the wave functional model of the minimal matrix Schrödinger operator on the half-line.",
+      "published": "2026-03-31T16:57:38Z",
+      "authors": [
+        "M. I. Belishev",
+        "S. A. Simonov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Phyelds: A Pythonic Framework for Aggregate Computing",
+      "link": "https://arxiv.org/abs/2603.29999v1",
+      "summary": "Aggregate programming is a field-based coordination paradigm with over a decade of exploration and successful applications across domains including sensor networks, robotics, and IoT, with implementations in various programming languages, such as Protelis, ScaFi (Scala), and FCPP (C++). A recent research direction integrates machine learning with aggregate computing, aiming to support large-scale distributed learning and provide new abstractions for implementing learning algorithms. However, exi",
+      "published": "2026-03-31T16:57:32Z",
+      "authors": [
+        "Gianluca Aguzzi",
+        "Davide Domini",
+        "Nicolas Farabegoli",
+        "Mirko Viroli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhancing Structural Mapping with LLM-derived Abstractions for Analogical Reasoning in Narratives",
+      "link": "https://arxiv.org/abs/2603.29997v1",
+      "summary": "Analogical reasoning is a key driver of human generalization in problem-solving and argumentation. Yet, analogies between narrative structures remain challenging for machines. Cognitive engines for structural mapping are not directly applicable, as they assume pre-extracted entities, whereas LLMs' performance is sensitive to prompt format and the degree of surface similarity between narratives. This gap motivates a key question: What is the impact of enhancing structural mapping with LLM-derived",
+      "published": "2026-03-31T16:57:11Z",
+      "authors": [
+        "Mohammadhossein Khojasteh",
+        "Yifan Jiang",
+        "Stefano De Giorgis",
+        "Frank van Harmelen",
+        "Filip Ilievski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Model-Free Coordinated Optimization of IBR Controllers for Enhanced Grid-Level Transient Dynamic Performance",
+      "link": "https://arxiv.org/abs/2603.29995v1",
+      "summary": "With the increasing penetration of inverter-based resources (IBRs) in power grids, system-level coordinated optimization of IBR controllers has become increasingly important for maintaining overall system stability. Unlike most existing methods that rely on simplified or linearized dynamic models and focus on small-signal stability or isolated tuning of individual facilities, this paper proposes a novel simulation-based, model-free framework for the coordinated optimization of IBR control parame",
+      "published": "2026-03-31T16:56:32Z",
+      "authors": [
+        "Haowen Xu",
+        "Xin Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Extending MONA in Camera Dropbox: Reproduction, Learned Approval, and Design Implications for Reward-Hacking Mitigation",
+      "link": "https://arxiv.org/abs/2603.29993v1",
+      "summary": "Myopic Optimization with Non-myopic Approval (MONA) mitigates multi-step reward hacking by restricting the agent's planning horizon while supplying far-sighted approval as a training signal~\\cite{farquhar2025mona}. The original paper identifies a critical open question: how the method of constructing approval -- particularly the degree to which approval depends on achieved outcomes -- affects whether MONA's safety guarantees hold. We present a reproduction-first extension of the public MONA Came",
+      "published": "2026-03-31T16:56:10Z",
+      "authors": [
+        "Nathan Heath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Simplex Layers and Phase Boundaries in the Partition Graph",
+      "link": "https://arxiv.org/abs/2603.29988v1",
+      "summary": "For the partition graph $G_n$ on the set of partitions of $n$, we study the stratification induced by the local simplex dimension $\\dim_{\\mathrm{loc}}(λ)$, defined as the maximal dimension of a simplex of the clique complex $K_n=\\mathrm{Cl}(G_n)$ containing $λ$. Using the previously established description of maximal cliques through a vertex in terms of star and top capacities, we define the simplex layers $L_r(n):=\\{λ\\vdash n:\\dim_{\\mathrm{loc}}(λ)=r\\}$ and study their global structure. We form",
+      "published": "2026-03-31T16:51:56Z",
+      "authors": [
+        "Fedor B. Lyudogovskiy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ParetoEnsembles.jl: A Julia Package for Multiobjective Parameter Estimation Using Pareto Optimal Ensemble Techniques",
+      "link": "https://arxiv.org/abs/2603.29986v1",
+      "summary": "Mathematical models of natural and man-made systems often have many adjustable parameters that must be estimated from multiple, potentially conflicting datasets. Rather than reporting a single best-fit parameter vector, it is often more informative to generate an ensemble of parameter sets that collectively map out the trade-offs among competing objectives. This paper presents ParetoEnsembles.jl, an open-source Julia package that generates such ensembles using Pareto Optimal Ensemble Techniques ",
+      "published": "2026-03-31T16:51:24Z",
+      "authors": [
+        "Jeffrey D. Varner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pattern Expansion of Spin Glasses",
+      "link": "https://arxiv.org/abs/2603.29984v1",
+      "summary": "We introduce a systematic method for expanding general spin-glass Hamiltonians in terms of Mattis interactions, providing a novel perspective for understanding the fundamental differences between short-range Edwards-Anderson (EA) and mean-field Sherrington-Kirkpatrick (SK) spin glasses. By iteratively extracting patterns from the coupling matrix, we expand the original spin-glass system into a Hopfield-like model (a series of Mattis interactions) plus a residual system. Our analysis reveals prof",
+      "published": "2026-03-31T16:46:27Z",
+      "authors": [
+        "Mutian Shen",
+        "Zohar Nussinov",
+        "Yang-Yu Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhanced nanocomposite susceptibility by field-alignment of superparamagnetic particles",
+      "link": "https://arxiv.org/abs/2603.29983v1",
+      "summary": "Nanocomposites comprised of insulated magnetic single-domain particles are promising candidates for high-frequency, eddy current free, soft magnetic materials, but tend to suffer from low magnetic susceptibility ($<20$). Particle alignment has been proposed to increase nanocomposite susceptibility and reduce magnetic losses but experimental verification has been lacking. Here, magnetic nanocomposites containing 3-57 vol\\% field-aligned 11$\\pm$3 nm maghemite particles in a poly-vinyl matrix were ",
+      "published": "2026-03-31T16:46:23Z",
+      "authors": [
+        "Mathias Zambach",
+        "Miriam Varón",
+        "Thomas Veile",
+        "Matti Knaapila",
+        "László Almásy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Performative Scenario Optimization",
+      "link": "https://arxiv.org/abs/2603.29982v1",
+      "summary": "This paper introduces a performative scenario optimization framework for decision-dependent chance-constrained problems. Unlike classical stochastic optimization, we account for the feedback loop where decisions actively shape the underlying data-generating process. We define performative solutions as self-consistent equilibria and establish their existence using Kakutani's fixed-point theorem. To ensure computational tractability without requiring an explicit model of the environment, we propos",
+      "published": "2026-03-31T16:44:17Z",
+      "authors": [
+        "Quanyan Zhu",
+        "Zhengye Han"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Voronoi-Based Vacuum Leakage Detection in Composite Manufacturing",
+      "link": "https://arxiv.org/abs/2603.29980v1",
+      "summary": "In this article, we investigate vacuum leakage detection problems in composite manufacturing. Our approach uses Voronoi diagrams, a well-known structure in discrete geometry. The Voronoi diagram of the vacuum connection positions partitions the component surface. We use this partition to narrow down potential leak locations to a small area, making an efficient manual search feasible. To further reduce the search area, we propose refined Voronoi diagrams. We evaluate both variants using a novel d",
+      "published": "2026-03-31T16:43:42Z",
+      "authors": [
+        "Christoph Brauer",
+        "Arne Hindersmann",
+        "Timo de Wolff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Structural Feature Engineering for Generative Engine Optimization: How Content Structure Shapes Citation Behavior",
+      "link": "https://arxiv.org/abs/2603.29979v1",
+      "summary": "The proliferation of AI-powered search engines has shifted information discovery from traditional link-based retrieval to direct answer generation with selective source citation, creating new challenges for content visibility. While existing Generative Engine Optimization (GEO) approaches focus primarily on semantic content modification, the role of structural features in influencing citation behavior remains underexplored.   In this paper, we propose GEO-SFE, a systematic framework for structur",
+      "published": "2026-03-31T16:41:43Z",
+      "authors": [
+        "Junwei Yu",
+        "Mufeng Yang",
+        "Yepeng Ding",
+        "Hiroyuki Sato"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantifying Cross-Modal Interactions in Multimodal Glioma Survival Prediction via InterSHAP: Evidence for Additive Signal Integration",
+      "link": "https://arxiv.org/abs/2603.29977v1",
+      "summary": "Multimodal deep learning for cancer prognosis is commonly assumed to benefit from synergistic cross-modal interactions, yet this assumption has not been directly tested in survival prediction settings. This work adapts InterSHAP, a Shapley interaction index-based metric, from classification to Cox proportional hazards models and applies it to quantify cross-modal interactions in glioma survival prediction. Using TCGA-GBM and TCGA-LGG data (n=575), we evaluate four fusion architectures combining ",
+      "published": "2026-03-31T16:39:56Z",
+      "authors": [
+        "Iain Swift",
+        "JingHua Ye",
+        "Ruairi O'Reilly"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Precision Emulation Approach to the GPU Acceleration of Ab Initio Electronic Structure Calculations",
+      "link": "https://arxiv.org/abs/2603.29975v1",
+      "summary": "This study explores the use of INT8-based emulation for accelerating traditional FP64-based HPC workloads on modern GPU architectures. Through SCILIB-Accel automatic BLAS offload tool for cache-coherent Unified Memory Architecture, we emulate FP64 matrix multiplications in the LSMS CPU application in the MuST suite without code changes. We find that accuracy depends on both arithmetic precision and the properties of the operator, which can be dealt with through tunable precision emulation. Unlik",
+      "published": "2026-03-31T16:37:43Z",
+      "authors": [
+        "Hang Liu",
+        "Junjie Li",
+        "Yinzhi Wang",
+        "Niraj K. Nepal",
+        "Yang Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Meteorology-Driven GPT4AP: A Multi-Task Forecasting LLM for Atmospheric Air Pollution in Data-Scarce Settings",
+      "link": "https://arxiv.org/abs/2603.29974v1",
+      "summary": "Accurate forecasting of air pollution is important for environmental monitoring and policy support, yet data-driven models often suffer from limited generalization in regions with sparse observations. This paper presents Meteorology-Driven GPT for Air Pollution (GPT4AP), a parameter-efficient multi-task forecasting framework based on a pre-trained GPT-2 backbone and Gaussian rank-stabilized low-rank adaptation (rsLoRA). The model freezes the self-attention and feed-forward layers and adapts ligh",
+      "published": "2026-03-31T16:37:06Z",
+      "authors": [
+        "Prasanjit Dey",
+        "Soumyabrata Dev",
+        "Bianca Schoen-Phelan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Do covariates explain why these groups differ? The choice of reference group can reverse conclusions in the Oaxaca-Blinder decomposition",
+      "link": "https://arxiv.org/abs/2603.29972v1",
+      "summary": "Scientists often want to explain why an outcome is different in two groups. For instance, differences in patient mortality rates across two hospitals could be due to differences in the patients themselves (covariates) or differences in medical care (outcomes given covariates). The Oaxaca--Blinder decomposition (OBD) is a standard tool to tease apart these factors. It is well known that the OBD requires choosing one of the groups as a reference, and the numerical answer can vary with the referenc",
+      "published": "2026-03-31T16:34:48Z",
+      "authors": [
+        "Manuel Quintero",
+        "Advik Shreekumar",
+        "William T. Stephenson",
+        "Tamara Broderick"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ABC implies that Ramanujan's tau function misses almost all primes",
+      "link": "https://arxiv.org/abs/2603.29970v1",
+      "summary": "Lehmer conjectured that Ramanujan's tau-function never vanishes. In a related direction, a folklore conjecture asserts that infinitely many primes arise as absolute values of Ramanujan's tau-function. Recently, Xiong showed that these prime values form a subset of the primes with density at most $2/11$. Assuming the $abc$ Conjecture, we prove the stronger upper bound \\[ S(X):=\\#\\{\\ell\\le X:\\ \\ell\\ \\text{prime and } |τ(n)|=\\ell \\text{ for some } n\\ge 1\\} = O(X^{9/10}\\log X), \\] which implies that",
+      "published": "2026-03-31T16:33:28Z",
+      "authors": [
+        "David Kurniadi Angdinata",
+        "Evan Chen",
+        "Chris Cummins",
+        "Ben Eltschig",
+        "Dejan Grubisic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Trimodal Deep Learning for Glioma Survival Prediction: A Feasibility Study Integrating Histopathology, Gene Expression, and MRI",
+      "link": "https://arxiv.org/abs/2603.29968v1",
+      "summary": "Multimodal deep learning has improved prognostic accuracy for brain tumours by integrating histopathology and genomic data, yet the contribution of volumetric MRI within unified survival frameworks remains unexplored. This pilot study extends a bimodal framework by incorporating Fluid Attenuated Inversion Recovery (FLAIR) MRI from BraTS2021 as a third modality. Using the TCGA-GBMLGG cohort (664 patients), we evaluate three unimodal models, nine bimodal configurations, and three trimodal configur",
+      "published": "2026-03-31T16:32:22Z",
+      "authors": [
+        "Iain Swift",
+        "JingHua Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning Structural-Functional Brain Representations through Multi-Scale Adaptive Graph Attention for Cognitive Insight",
+      "link": "https://arxiv.org/abs/2603.29967v1",
+      "summary": "Understanding how brain structure and function interact is key to explaining intelligence yet modeling them jointly is challenging as the structural and functional connectome capture complementary aspects of organization. We introduced Multi-scale Adaptive Graph Network (MAGNet), a Transformer-style graph neural network framework that adaptively learns structure-function interactions. MAGNet leverages source-based morphometry from structural MRI to extract inter-regional morphological features a",
+      "published": "2026-03-31T16:32:15Z",
+      "authors": [
+        "Badhan Mazumder",
+        "Sir-Lord Wiafe",
+        "Aline Kotoski",
+        "Vince D. Calhoun",
+        "Dong Hye Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scaling Video Pretraining for Surgical Foundation Models",
+      "link": "https://arxiv.org/abs/2603.29966v1",
+      "summary": "Surgical video understanding is essential for computer-assisted interventions, yet existing surgical foundation models remain constrained by limited data scale, procedural diversity, and inconsistent evaluation, often lacking a reproducible training pipeline. We propose SurgRec, a scalable and reproducible pretraining recipe for surgical video understanding, instantiated with two variants: SurgRec-MAE and SurgRec-JEPA. We curate a large multi-source corpus of 10,535 videos and 214.5M frames span",
+      "published": "2026-03-31T16:31:25Z",
+      "authors": [
+        "Sicheng Lu",
+        "Zikai Xiao",
+        "Jianhui Wei",
+        "Danyu Sun",
+        "Qi Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SurgTEMP: Temporal-Aware Surgical Video Question Answering with Text-guided Visual Memory for Laparoscopic Cholecystectomy",
+      "link": "https://arxiv.org/abs/2603.29962v1",
+      "summary": "Surgical procedures are inherently complex and risky, requiring extensive expertise and constant focus to well navigate evolving intraoperative scenes. Computer-assisted systems such as surgical visual question answering (VQA) offer promises for education and intraoperative support. Current surgical VQA research largely focuses on static frame analysis, overlooking rich temporal semantics. Surgical video question answering is further challenged by low visual contrast, its highly knowledge-driven",
+      "published": "2026-03-31T16:27:46Z",
+      "authors": [
+        "Shi Li",
+        "Vinkle Srivastav",
+        "Nicolas Chanel",
+        "Saurav Sharma",
+        "Nabani Banik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Short proofs in combinatorics and number theory",
+      "link": "https://arxiv.org/abs/2603.29961v1",
+      "summary": "We give a triplet of short proofs, each of which answers a question raised by Erdős. The first concerns the small prime factors of $\\binom{n}{k}$, the second concerns whether an additive basis $A$ can always be split into pieces $A_1$ and $A_2$ such that each of $A_i + A_i$ has bounded gaps, and the final concerns whether $\\{αp\\}$ is \"well-distributed\" in the sense introduced by Hlawka and Petersen. In each case, the proof is due entirely to an internal model at OpenAI.",
+      "published": "2026-03-31T16:27:33Z",
+      "authors": [
+        "Boris Alexeev",
+        "Moe Putterman",
+        "Mehtaab Sawhney",
+        "Mark Sellke",
+        "Gregory Valiant"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Think Anywhere in Code Generation",
+      "link": "https://arxiv.org/abs/2603.29957v1",
+      "summary": "Recent advances in reasoning Large Language Models (LLMs) have primarily relied on upfront thinking, where reasoning occurs before final answer. However, this approach suffers from critical limitations in code generation, where upfront thinking is often insufficient as problems' full complexity only reveals itself during code implementation. Moreover, it cannot adaptively allocate reasoning effort throughout the code generation process where difficulty varies significantly. In this paper, we pro",
+      "published": "2026-03-31T16:24:03Z",
+      "authors": [
+        "Xue Jiang",
+        "Tianyu Zhang",
+        "Ge Li",
+        "Mengyang Liu",
+        "Taozhi Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
