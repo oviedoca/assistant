@@ -1,0 +1,660 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets",
+      "link": "https://arxiv.org/abs/2604.08548v1",
+      "summary": "Human body fitting, which aligns parametric body models such as SMPL to raw 3D point clouds of clothed humans, serves as a crucial first step for downstream tasks like animation and texturing. An effective fitting method should be both locally expressive-capturing fine details such as hands and facial features-and globally robust to handle real-world challenges, including clothing dynamics, pose variations, and noisy or partial inputs. Existing approaches typically excel in only one aspect, lack",
+      "published": "2026-04-09T17:59:59Z",
+      "authors": [
+        "Xiaoben Li",
+        "Jingyi Wu",
+        "Zeyu Cai",
+        "Yu Siyuan",
+        "Boqian Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+      "link": "https://arxiv.org/abs/2604.08546v1",
+      "summary": "Text-to-video diffusion models have enabled open-ended video synthesis, but often struggle with generating the correct number of objects specified in a prompt. We introduce NUMINA , a training-free identify-then-guide framework for improved numerical alignment. NUMINA identifies prompt-layout inconsistencies by selecting discriminative self- and cross-attention heads to derive a countable latent layout. It then refines this layout conservatively and modulates cross-attention to guide regeneratio",
+      "published": "2026-04-09T17:59:57Z",
+      "authors": [
+        "Zhengyang Sun",
+        "Yu Chen",
+        "Xin Zhou",
+        "Xiaofan Li",
+        "Xiwu Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
+      "link": "https://arxiv.org/abs/2604.08545v1",
+      "summary": "The advent of agentic multimodal models has empowered systems to actively interact with external environments. However, current agents suffer from a profound meta-cognitive deficit: they struggle to arbitrate between leveraging internal knowledge and querying external utilities. Consequently, they frequently fall prey to blind tool invocation, resorting to reflexive tool execution even when queries are resolvable from the raw visual context. This pathological behavior precipitates severe latency",
+      "published": "2026-04-09T17:59:57Z",
+      "authors": [
+        "Shilin Yan",
+        "Jintao Tong",
+        "Hongwei Xue",
+        "Xiaojun Tang",
+        "Yangyang Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
+      "link": "https://arxiv.org/abs/2604.08544v1",
+      "summary": "Robotic manipulation with deformable objects represents a data-intensive regime in embodied learning, where shape, contact, and topology co-evolve in ways that far exceed the variability of rigids. Although simulation promises relief from the cost of real-world data acquisition, prevailing sim-to-real pipelines remain rooted in rigid-body abstractions, producing mismatched geometry, fragile soft dynamics, and motion primitives poorly suited for cloth interaction. We posit that simulation fails n",
+      "published": "2026-04-09T17:59:52Z",
+      "authors": [
+        "Yunsong Zhou",
+        "Hangxu Liu",
+        "Xuekun Jiang",
+        "Xing Shen",
+        "Yuanzhen Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation",
+      "link": "https://arxiv.org/abs/2604.08543v1",
+      "summary": "Event cameras offer multiple advantages in monocular egocentric 3D human pose estimation from head-mounted devices, such as millisecond temporal resolution, high dynamic range, and negligible motion blur. Existing methods effectively leverage these properties, but suffer from low 3D estimation accuracy, insufficient in many applications (e.g., immersive VR/AR). This is due to the design not being fully tailored towards event streams (e.g., their asynchronous and continuous nature), leading to hi",
+      "published": "2026-04-09T17:59:52Z",
+      "authors": [
+        "Mayur Deshmukh",
+        "Hiroyasu Akada",
+        "Helge Rhodin",
+        "Christian Theobalt",
+        "Vladislav Golyanik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction",
+      "link": "https://arxiv.org/abs/2604.08542v1",
+      "summary": "This paper addresses the task of large-scale 3D scene reconstruction from long video sequences. Recent feed-forward reconstruction models have shown promising results by directly regressing 3D geometry from RGB images without explicit 3D priors or geometric constraints. However, these methods often struggle to maintain reconstruction accuracy and consistency over long sequences due to limited memory capacity and the inability to effectively capture global contextual cues. In contrast, humans can",
+      "published": "2026-04-09T17:59:50Z",
+      "authors": [
+        "Tao Xie",
+        "Peishan Yang",
+        "Yudong Jin",
+        "Yingfeng Cai",
+        "Wei Yin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts",
+      "link": "https://arxiv.org/abs/2604.08541v1",
+      "summary": "Multimodal Mixture-of-Experts (MoE) models have achieved remarkable performance on vision-language tasks. However, we identify a puzzling phenomenon termed Seeing but Not Thinking: models accurately perceive image content yet fail in subsequent reasoning, while correctly solving identical problems presented as pure text. Through systematic analysis, we first verify that cross-modal semantic sharing exists in MoE architectures, ruling out semantic alignment failure as the sole explanation. We the",
+      "published": "2026-04-09T17:59:44Z",
+      "authors": [
+        "Haolei Xu",
+        "Haiwen Hong",
+        "Hongxing Li",
+        "Rui Zhou",
+        "Yang Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation",
+      "link": "https://arxiv.org/abs/2604.08540v1",
+      "summary": "Text-to-Audio-Video (T2AV) generation is rapidly becoming a core interface for media creation, yet its evaluation remains fragmented. Existing benchmarks largely assess audio and video in isolation or rely on coarse embedding similarity, failing to capture the fine-grained joint correctness required by realistic prompts. We introduce AVGen-Bench, a task-driven benchmark for T2AV generation featuring high-quality prompts across 11 real-world categories. To support comprehensive assessment, we pro",
+      "published": "2026-04-09T17:59:39Z",
+      "authors": [
+        "Ziwei Zhou",
+        "Zeyuan Lai",
+        "Rui Wang",
+        "Yifan Yang",
+        "Zhen Xing"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+      "link": "https://arxiv.org/abs/2604.08539v1",
+      "summary": "Group Relative Policy Optimization (GRPO) has emerged as the de facto Reinforcement Learning (RL) objective driving recent advancements in Multimodal Large Language Models. However, extending this success to open-source multimodal generalist models remains heavily constrained by two primary challenges: the extreme variance in reward topologies across diverse visual tasks, and the inherent difficulty of balancing fine-grained perception with multi-step reasoning capabilities. To address these iss",
+      "published": "2026-04-09T17:59:39Z",
+      "authors": [
+        "Wenbo Hu",
+        "Xin Chen",
+        "Yan Gao-Tian",
+        "Yihe Deng",
+        "Nanyun Peng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ParseBench: A Document Parsing Benchmark for AI Agents",
+      "link": "https://arxiv.org/abs/2604.08538v1",
+      "summary": "AI agents are changing the requirements for document parsing. What matters is \\emph{semantic correctness}: parsed output must preserve the structure and meaning needed for autonomous decisions, including correct table structure, precise chart data, semantically meaningful formatting, and visual grounding. Existing benchmarks do not fully capture this setting for enterprise automation, relying on narrow document distributions and text-similarity metrics that miss agent-critical failures. We intro",
+      "published": "2026-04-09T17:59:36Z",
+      "authors": [
+        "Boyang Zhang",
+        "Sebastián G. Acosta",
+        "Preston Carlson",
+        "Sacha Bron",
+        "Pierre-Loïc Doulcet"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding",
+      "link": "https://arxiv.org/abs/2604.08537v1",
+      "summary": "Visual decoding from brain signals is a key challenge at the intersection of computer vision and neuroscience, requiring methods that bridge neural representations and computational models of vision. A field-wide goal is to achieve generalizable, cross-subject models. A major obstacle towards this goal is the substantial variability in neural representations across individuals, which has so far required training bespoke models or fine-tuning separately for each subject. To address this challenge",
+      "published": "2026-04-09T17:59:32Z",
+      "authors": [
+        "Mu Nan",
+        "Muquan Yu",
+        "Weijian Mai",
+        "Jacob S. Prince",
+        "Hossein Adeli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RewardFlow: Generate Images by Optimizing What You Reward",
+      "link": "https://arxiv.org/abs/2604.08536v1",
+      "summary": "We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics. RewardFlow unifies complementary differentiable rewards for semantic alignment, perceptual fidelity, localized grounding, object consistency, and human preference, and further introduces a differentiable VQA-based reward that provides fine-grained semantic supervision through language-vision reasoning. To coordinate these heterog",
+      "published": "2026-04-09T17:59:19Z",
+      "authors": [
+        "Onkar Susladkar",
+        "Dong-Hwan Jang",
+        "Tushar Prakash",
+        "Adheesh Juvekar",
+        "Vedant Shah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fail2Drive: Benchmarking Closed-Loop Driving Generalization",
+      "link": "https://arxiv.org/abs/2604.08535v1",
+      "summary": "Generalization under distribution shift remains a central bottleneck for closed-loop autonomous driving. Although simulators like CARLA enable safe and scalable testing, existing benchmarks rarely measure true generalization: they typically reuse training scenarios at test time. Success can therefore reflect memorization rather than robust driving behavior. We introduce Fail2Drive, the first paired-route benchmark for closed-loop generalization in CARLA, with 200 routes and 17 new scenario class",
+      "published": "2026-04-09T17:59:18Z",
+      "authors": [
+        "Simon Gerstenecker",
+        "Andreas Geiger",
+        "Katrin Renz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ActiveGlasses: Learning Manipulation with Active Vision from Ego-centric Human Demonstration",
+      "link": "https://arxiv.org/abs/2604.08534v1",
+      "summary": "Large-scale real-world robot data collection is a prerequisite for bringing robots into everyday deployment. However, existing pipelines often rely on specialized handheld devices to bridge the embodiment gap, which not only increases operator burden and limits scalability, but also makes it difficult to capture the naturally coordinated perception-manipulation behaviors of human daily interaction. This challenge calls for a more natural system that can faithfully capture human manipulation and ",
+      "published": "2026-04-09T17:59:08Z",
+      "authors": [
+        "Yanwen Zou",
+        "Chenyang Shi",
+        "Wenye Yu",
+        "Han Xue",
+        "Jun Lv"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Self-Improving 4D Perception via Self-Distillation",
+      "link": "https://arxiv.org/abs/2604.08532v1",
+      "summary": "Large-scale multi-view reconstruction models have made remarkable progress, but most existing approaches still rely on fully supervised training with ground-truth 3D/4D annotations. Such annotations are expensive and particularly scarce for dynamic scenes, limiting scalability. We propose SelfEvo, a self-improving framework that continually improves pretrained multi-view reconstruction models using unlabeled videos. SelfEvo introduces a self-distillation scheme using spatiotemporal context asymm",
+      "published": "2026-04-09T17:59:04Z",
+      "authors": [
+        "Nan Huang",
+        "Pengcheng Yu",
+        "Weijia Zeng",
+        "James M. Rehg",
+        "Angjoo Kanazawa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wideband Compressed-Domain Cramér--Rao Bounds for Near-Field XL-MIMO: Data and Geometric Diversity Decomposition",
+      "link": "https://arxiv.org/abs/2604.08531v1",
+      "summary": "Wideband orthogonal frequency-division multiplexing (OFDM) over extremely large-scale MIMO (XL-MIMO) arrays in the near-field Fresnel regime suffers from a coupled beam-squint and wavefront-curvature effect that renders single-frequency covariance models severely biased: the per-subcarrier compressed covariance diverges from the center-frequency model by 64\\% at $B = 100$~MHz and by 177\\% at $B = 400$~MHz. We derive the wideband compressed-domain Cramér--Rao bound (CRB) for hybrid analog--digita",
+      "published": "2026-04-09T17:58:57Z",
+      "authors": [
+        "Rıfat Volkan Şenyuva"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Disentangling cosmic distance tensions with early and late dark energy",
+      "link": "https://arxiv.org/abs/2604.08530v1",
+      "summary": "Recent cosmological data reveal tension between parameters inferred from measurements of the cosmic microwave background (CMB), baryon acoustic oscillations (BAO), and supernovae (SN) under $Λ$CDM. Typical dynamical dark energy parameterizations (such as $w_0w_a$) that seek to jointly resolve these tensions have an equation of state parameter that crosses into the phantom regime, leading to potential instabilities for physical models. We show that the BAO (early-time) and SN (late-time) sides of",
+      "published": "2026-04-09T17:58:43Z",
+      "authors": [
+        "Tanisha Jhaveri",
+        "Tanvi Karwal",
+        "Thomas Crawford",
+        "Wayne Hu",
+        "Ali Rida Khalife"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PSI: Shared State as the Missing Layer for Coherent AI-Generated Instruments in Personal AI Agents",
+      "link": "https://arxiv.org/abs/2604.08529v1",
+      "summary": "Personal AI tools can now be generated from natural-language requests, but they often remain isolated after creation. We present PSI, a shared-state architecture that turns independently generated modules into coherent instruments: persistent, connected, and chat-complementary artifacts accessible through both GUIs and a generic chat agent. By publishing current state and write-back affordances to a shared personal-context bus, modules enable cross-module reasoning and synchronized actions acros",
+      "published": "2026-04-09T17:58:36Z",
+      "authors": [
+        "Zhiyuan Wang",
+        "Erzhen Hu",
+        "Mark Rucker",
+        "Laura E. Barnes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A-SLIP: Acoustic Sensing for Continuous In-hand Slip Estimation",
+      "link": "https://arxiv.org/abs/2604.08528v1",
+      "summary": "Reliable in-hand manipulation requires accurate real-time estimation of slip between a gripper and a grasped object. Existing tactile sensing approaches based on vision, capacitance, or force-torque measurements face fundamental trade-offs in form factor, durability, and their ability to jointly estimate slip direction and magnitude. We present A-SLIP, a multi-channel acoustic sensing system integrated into a parallel-jaw gripper for estimating continuous slip in the grasp plane. The A-SLIP sens",
+      "published": "2026-04-09T17:58:27Z",
+      "authors": [
+        "Uksang Yoo",
+        "Yuemin Mao",
+        "Jean Oh",
+        "Jeffrey Ichnowski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Demystifying OPD: Length Inflation and Stabilization Strategies for Large Language Models",
+      "link": "https://arxiv.org/abs/2604.08527v1",
+      "summary": "On-policy distillation (OPD) trains student models under their own induced distribution while leveraging supervision from stronger teachers. We identify a failure mode of OPD: as training progresses, on-policy rollouts can undergo abrupt length inflation, causing truncated trajectories to dominate the training data. This truncation collapse coincides with abrupt repetition saturation and induces biased gradient signals, leading to severe training instability and sharp degradation in validation p",
+      "published": "2026-04-09T17:58:02Z",
+      "authors": [
+        "Feng Luo",
+        "Yu-Neng Chuang",
+        "Guanchu Wang",
+        "Zicheng Xu",
+        "Xiaotian Han"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "link": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expens",
+      "published": "2026-04-09T17:57:50Z",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On",
+      "link": "https://arxiv.org/abs/2604.08526v1",
+      "summary": "Given a person and a garment image, virtual try-on (VTO) aims to synthesize a realistic image of the person wearing the garment, while preserving their original pose and identity. Although recent VTO methods excel at visualizing garment appearance, they largely overlook a crucial aspect of the try-on experience: the accuracy of garment fit -- for example, depicting how an extra-large shirt looks on an extra-small person. A key obstacle is the absence of datasets that provide precise garment and ",
+      "published": "2026-04-09T17:57:50Z",
+      "authors": [
+        "Johanna Karras",
+        "Yuanhao Wang",
+        "Yingwei Li",
+        "Ira Kemelmacher-Shlizerman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal",
+      "link": "https://arxiv.org/abs/2604.08524v1",
+      "summary": "Applying steering vectors to large language models (LLMs) is an efficient and effective model alignment technique, but we lack an interpretable explanation for how it works-- specifically, what internal mechanisms steering vectors affect and how this results in different model outputs. To investigate the causal mechanisms underlying the effectiveness of steering vectors, we conduct a comprehensive case study on refusal. We propose a multi-token activation patching framework and discover that dif",
+      "published": "2026-04-09T17:57:14Z",
+      "authors": [
+        "Stephen Cheng",
+        "Sarah Wiegreffe",
+        "Dinesh Manocha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
+      "link": "https://arxiv.org/abs/2604.08523v1",
+      "summary": "AI agents may be able to automate your inbox, but can they automate other routine aspects of your life? Everyday online tasks offer a realistic yet unsolved testbed for evaluating the next generation of AI agents. To this end, we introduce ClawBench, an evaluation framework of 153 simple tasks that people need to accomplish regularly in their lives and work, spanning 144 live platforms across 15 categories, from completing purchases and booking appointments to submitting job applications. These ",
+      "published": "2026-04-09T17:57:13Z",
+      "authors": [
+        "Yuxuan Zhang",
+        "Yubo Wang",
+        "Yipeng Zhu",
+        "Penghui Du",
+        "Junwen Miao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniversalVTG: A Universal and Lightweight Foundation Model for Video Temporal Grounding",
+      "link": "https://arxiv.org/abs/2604.08522v1",
+      "summary": "Video temporal grounding (VTG) is typically tackled with dataset-specific models that transfer poorly across domains and query styles. Recent efforts to overcome this limitation have adapted large multimodal language models (MLLMs) to VTG, but their high compute cost and limited video context still hinder long-video grounding. We instead scale unified supervision while keeping the model lightweight. We present UniversalVTG, a single VTG model trained with large-scale cross-dataset pretraining. A",
+      "published": "2026-04-09T17:57:09Z",
+      "authors": [
+        "Joungbin An",
+        "Agrim Jain",
+        "Kristen Grauman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Discounted MPC and infinite-horizon optimal control under plant-model mismatch: Stability and suboptimality",
+      "link": "https://arxiv.org/abs/2604.08521v1",
+      "summary": "We study closed-loop stability and suboptimality for MPC and infinite-horizon optimal control solved using a surrogate model that differs from the real plant. We employ a unified framework based on quadratic costs to analyze both finite- and infinite-horizon problems, encompassing discounted and undiscounted scenarios alike. Plant-model mismatch bounds proportional to states and controls are assumed, under which the origin remains an equilibrium. Under continuity of the model and cost-controllab",
+      "published": "2026-04-09T17:57:02Z",
+      "authors": [
+        "Robert H. Moldenhauer",
+        "Karl Worthmann",
+        "Romain Postoyan",
+        "Dragan Nešić",
+        "Mathieu Granzotto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts",
+      "link": "https://arxiv.org/abs/2604.08519v1",
+      "summary": "Large language models (LLMs) can struggle to memorize factual knowledge in their parameters, often leading to hallucinations and poor performance on knowledge-intensive tasks. In this paper, we formalize fact memorization from an information-theoretic perspective and study how training data distributions affect fact accuracy. We show that fact accuracy is suboptimal (below the capacity limit) whenever the amount of information contained in the training data facts exceeds model capacity. This is ",
+      "published": "2026-04-09T17:55:50Z",
+      "authors": [
+        "Jiayuan Ye",
+        "Vitaly Feldman",
+        "Kunal Talwar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fresnel zone plates for reconfigurable atomic waveguides",
+      "link": "https://arxiv.org/abs/2604.08518v1",
+      "summary": "Fresnel zone plates (FZPs), with patterns of $1\\,μ$m resolution, allow the formation of clean, diffraction-limited foci -- but have a static phase profile. Spatial light modulators (SLMs) allow dynamic control of spatial beam intensity and phase -- but are bulky and currently limited to roughly $10\\,μ$m pixel sizes and $1\\,$Mega-pixel formats. Here, we present a new `best-of-both' kind of FZP, scalable to large area rings currently incompatible with direct SLM generation. It is equivalent to a p",
+      "published": "2026-04-09T17:54:41Z",
+      "authors": [
+        "A. M. Pike",
+        "A. Dorne",
+        "L. Pickering",
+        "M. Jamieson",
+        "I. T. MacCuish"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning vs. Optimizing Bidders in Budgeted Auctions",
+      "link": "https://arxiv.org/abs/2604.08517v1",
+      "summary": "The study of repeated interactions between a learner and a utility-maximizing optimizer has yielded deep insights into the manipulability of learning algorithms. However, existing literature primarily focuses on independent, unlinked rounds, largely ignoring the ubiquitous practical reality of budget constraints. In this paper, we study this interaction in repeated second-price auctions in a Bayesian setting between a learning agent and a strategic agent, both subject to strict budget constraint",
+      "published": "2026-04-09T17:54:27Z",
+      "authors": [
+        "Giannis Fikioris",
+        "Balasubramanian Sivan",
+        "Éva Tardos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+      "link": "https://arxiv.org/abs/2604.08516v1",
+      "summary": "Web agents--autonomous systems that navigate and execute tasks on the web on behalf of users--have the potential to transform how people interact with the digital world. However, the most capable web agents today rely on proprietary models with undisclosed training data and recipes, limiting scientific understanding, reproducibility, and community-driven progress.   We believe agents for the open web should be built in the open. To this end, we introduce (1) MolmoWebMix, a large and diverse mixt",
+      "published": "2026-04-09T17:54:02Z",
+      "authors": [
+        "Tanmay Gupta",
+        "Piper Wolters",
+        "Zixian Ma",
+        "Peter Sushko",
+        "Rock Yuren Pang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Measurement-induced state transitions across the fluxonium qubit landscape",
+      "link": "https://arxiv.org/abs/2604.08515v1",
+      "summary": "Understanding the mechanisms that limit high-fidelity readout in circuit quantum electrodynamics is essential for its optimization. Multi-photon resonances are understood to be a limiting factor, causing population transfer from the computational states to higher-energy states under drive. This effect, known as measurement-induced state transitions, has been extensively studied for the transmon qubit. While this exploration has begun for the fluxonium qubit, a systematic study of this effect is ",
+      "published": "2026-04-09T17:53:41Z",
+      "authors": [
+        "Alex A. Chapple",
+        "Boris M. Varbanov",
+        "Alexander McDonald",
+        "Alexandre Blais"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
+      "link": "https://arxiv.org/abs/2604.08513v1",
+      "summary": "Transfer learning followed by fine-tuning is widely adopted in medical image classification due to consistent gains in diagnostic performance. However, in multi-class settings with overlapping visual features, improvements in accuracy do not guarantee stability of the visual evidence used to support predictions. We define semantic drift as systematic changes in the attribution structure supporting a model's predictions between transfer learning and full fine-tuning, reflecting potential shifts i",
+      "published": "2026-04-09T17:53:02Z",
+      "authors": [
+        "Kabilan Elangovan",
+        "Daniel Ting"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Metric affine gravity with dynamical chronology protection",
+      "link": "https://arxiv.org/abs/2604.08511v1",
+      "summary": "Modified theories of gravity often introduce geometric structure beyond general relativity in order to address unresolved problems in the gravitational sector without invoking ad hoc matter fields. Mimetic gravity, for example, generates an effective cosmological dark sector by isolating the conformal mode of the metric, while Horava--Lifshitz gravity attains power-counting renormalizability by endowing spacetime with a preferred dynamical foliation. Although chronology protection was not the or",
+      "published": "2026-04-09T17:50:22Z",
+      "authors": [
+        "Moustafa Ismail",
+        "David Mattingly"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What do Language Models Learn and When? The Implicit Curriculum Hypothesis",
+      "link": "https://arxiv.org/abs/2604.08510v1",
+      "summary": "Large language models (LLMs) can perform remarkably complex tasks, yet the fine-grained details of how these capabilities emerge during pretraining remain poorly understood. Scaling laws on validation loss tell us how much a model improves with additional compute, but not what skills it acquires in which order. To remedy this, we propose the Implicit Curriculum Hypothesis: pretraining follows a compositional and predictable curriculum across models and data mixtures. We test this by designing a ",
+      "published": "2026-04-09T17:50:12Z",
+      "authors": [
+        "Emmy Liu",
+        "Kaiser Sun",
+        "Millicent Li",
+        "Isabelle Lee",
+        "Lindia Tjuatja"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Visually-grounded Humanoid Agents",
+      "link": "https://arxiv.org/abs/2604.08509v1",
+      "summary": "Digital human generation has been studied for decades and supports a wide range of real-world applications. However, most existing systems are passively animated, relying on privileged state or scripted control, which limits scalability to novel environments. We instead ask: how can digital humans actively behave using only visual observations and specified goals in novel scenes? Achieving this would enable populating any 3D environments with digital humans at scale that exhibit spontaneous, nat",
+      "published": "2026-04-09T17:50:09Z",
+      "authors": [
+        "Hang Ye",
+        "Xiaoxuan Ma",
+        "Fan Lu",
+        "Wayne Wu",
+        "Kwan-Yee Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sumo: Dynamic and Generalizable Whole-Body Loco-Manipulation",
+      "link": "https://arxiv.org/abs/2604.08508v1",
+      "summary": "This paper presents a sim-to-real approach that enables legged robots to dynamically manipulate large and heavy objects with whole-body dexterity. Our key insight is that by performing test-time steering of a pre-trained whole-body control policy with a sample-based planner, we can enable these robots to solve a variety of dynamic loco-manipulation tasks. Interestingly, we find our method generalizes to a diverse set of objects and tasks with no additional tuning or training, and can be further ",
+      "published": "2026-04-09T17:49:40Z",
+      "authors": [
+        "John Z. Zhang",
+        "Maks Sorokin",
+        "Jan Brüdigam",
+        "Brandon Hung",
+        "Stephen Phillips"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Quasi-Regression Method for the Mediation Analysis of Zero-Inflated Single-Cell Data",
+      "link": "https://arxiv.org/abs/2604.08507v1",
+      "summary": "Recent advances in single-cell technologies have advanced our understanding of gene regulation and cellular heterogeneity at single-cell resolution. Single-cell data contain both gene expression levels and the proportion of expressing cells, which makes them structurally different from bulk data. Currently, methodological work on causal mediation analysis for single-cell data remains limited and often requires specific distributional assumptions. To address this challenge, we present QuasiMed, a",
+      "published": "2026-04-09T17:49:37Z",
+      "authors": [
+        "Seungjun Ahn",
+        "Donald Porchia",
+        "Panos Roussos",
+        "Maaike van Gerwen",
+        "Qing Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Heavy Tailed Non-Gaussianity of the Supermassive Black Hole Gravitational Wave Background",
+      "link": "https://arxiv.org/abs/2604.08506v1",
+      "summary": "We study the non-Gaussian features of the gravitational wave (GW) background generated by a population of inspiraling supermassive black hole (SMBH) binaries. We show that the SMBH GW amplitude distribution (GWAD) features a universal heavy power-law tail $\\propto A^{-4}$, while the low-amplitude tail depends on the SMBH merger rate and the energy-loss mechanisms of the binaries. The distribution of the induced timing residuals inherits this heavy tail. As a result, the ensemble averaged statist",
+      "published": "2026-04-09T17:49:25Z",
+      "authors": [
+        "Juhan Raidal",
+        "Juan Urrutia",
+        "Ville Vaskonen",
+        "Hardi Veermäe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On d-stochastic measures with fractal support and uniform (d-1)-marginals, and related results",
+      "link": "https://arxiv.org/abs/2604.08505v1",
+      "summary": "The family $\\mathcal{P}_{d}^{λ_{d-1}}$ of all probability measures on $[0,1]^d$ whose $(d-1)$-dimensional marginals are all equal to the Lebesgue measure $λ_{d-1}$ on $[0,1]^{d-1}$ contains remarkably pathological elements: Working with Iterated Function Systems with Probabi\\-lities (IFSPs) we construct measures $μ\\in \\mathcal{P}_{d}^{λ_{d-1}}$ of the following two types: (i) $μ$ has self-similar fractal support; (ii) $μ$ has self-similar support and models the situation of complete/functional d",
+      "published": "2026-04-09T17:49:00Z",
+      "authors": [
+        "Nicolas Pascal Dietrich",
+        "Juan Fernández Sánchez",
+        "Wolfgang Trutschnig"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Differentially Private Language Generation and Identification in the Limit",
+      "link": "https://arxiv.org/abs/2604.08504v1",
+      "summary": "We initiate the study of language generation in the limit, a model recently introduced by Kleinberg and Mullainathan [KM24], under the constraint of differential privacy. We consider the continual release model, where a generator must eventually output a stream of valid strings while protecting the privacy of the entire input sequence. Our first main result is that for countable collections of languages, privacy comes at no qualitative cost: we provide an $\\varepsilon$-differentially-private alg",
+      "published": "2026-04-09T17:48:46Z",
+      "authors": [
+        "Anay Mehrotra",
+        "Grigoris Velegkas",
+        "Xifan Yu",
+        "Felix Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics",
+      "link": "https://arxiv.org/abs/2604.08503v1",
+      "summary": "Recent advances in generative video modeling, driven by large-scale datasets and powerful architectures, have yielded remarkable visual realism. However, emerging evidence suggests that simply scaling data and model size does not endow these systems with an understanding of the underlying physical laws that govern real-world dynamics. Existing approaches often fail to capture or enforce such physical consistency, resulting in unrealistic motion and dynamics. In his work, we investigate whether i",
+      "published": "2026-04-09T17:48:46Z",
+      "authors": [
+        "Ying Shen",
+        "Jerry Xiong",
+        "Tianjiao Yu",
+        "Ismini Lourentzou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantifying Explanation Consistency: The C-Score Metric for CAM-Based Explainability in Medical Image Classification",
+      "link": "https://arxiv.org/abs/2604.08502v1",
+      "summary": "Class Activation Mapping (CAM) methods are widely used to generate visual explanations for deep learning classifiers in medical imaging. However, existing evaluation frameworks assess whether explanations are correct, measured by localisation fidelity against radiologist annotations, rather than whether they are consistent: whether the model applies the same spatial reasoning strategy across different patients with the same pathology. We propose the C-Score (Consistency Score), a confidence-weig",
+      "published": "2026-04-09T17:47:31Z",
+      "authors": [
+        "Kabilan Elangovan",
+        "Daniel Ting"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing",
+      "link": "https://arxiv.org/abs/2604.08501v1",
+      "summary": "Science currently offers two options for quality assurance, both inadequate. Journal gatekeeping claims to verify both integrity and contribution, but actually measures prestige: peer review is slow, biased, and misses fabricated citations even at top venues. Open science provides no quality assurance at all: the only filter between AI-generated text and the public record is the author's integrity. AI-assisted writing makes both worse by producing more papers faster than either system can absorb",
+      "published": "2026-04-09T17:46:44Z",
+      "authors": [
+        "Sergey V Samsonau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Novel View Synthesis as Video Completion",
+      "link": "https://arxiv.org/abs/2604.08500v1",
+      "summary": "We tackle the problem of sparse novel view synthesis (NVS) using video diffusion models; given $K$ ($\\approx 5$) multi-view images of a scene and their camera poses, we predict the view from a target camera pose. Many prior approaches leverage generative image priors encoded via diffusion models. However, models trained on single images lack multi-view knowledge. We instead argue that video models already contain implicit multi-view knowledge and so should be easier to adapt for NVS. Our key ins",
+      "published": "2026-04-09T17:44:18Z",
+      "authors": [
+        "Qi Wu",
+        "Khiem Vuong",
+        "Minsik Jeon",
+        "Srinivasa Narasimhan",
+        "Deva Ramanan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PIArena: A Platform for Prompt Injection Evaluation",
+      "link": "https://arxiv.org/abs/2604.08499v1",
+      "summary": "Prompt injection attacks pose serious security risks across a wide range of real-world applications. While receiving increasing attention, the community faces a critical gap: the lack of a unified platform for prompt injection evaluation. This makes it challenging to reliably compare defenses, understand their true robustness under diverse attacks, or assess how well they generalize across tasks and benchmarks. For instance, many defenses initially reported as effective were later found to exhib",
+      "published": "2026-04-09T17:42:45Z",
+      "authors": [
+        "Runpeng Geng",
+        "Chenlong Yin",
+        "Yanting Wang",
+        "Ying Chen",
+        "Jinyuan Jia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What They Saw, Not Just Where They Looked: Semantic Scanpath Similarity via VLMs and NLP metric",
+      "link": "https://arxiv.org/abs/2604.08494v1",
+      "summary": "Scanpath similarity metrics are central to eye-movement research, yet existing methods predominantly evaluate spatial and temporal alignment while neglecting semantic equivalence between attended image regions. We present a semantic scanpath similarity framework that integrates vision-language models (VLMs) into eye-tracking analysis. Each fixation is encoded under controlled visual context (patch-based and marker-based strategies) and transformed into concise textual descriptions, which are agg",
+      "published": "2026-04-09T17:36:22Z",
+      "authors": [
+        "Mohamed Amine Kerkouri",
+        "Marouane Tliba",
+        "Bin Wang",
+        "Aladine Chetouani",
+        "Ulas Bagci"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery",
+      "link": "https://arxiv.org/abs/2604.08491v1",
+      "summary": "Large language models (LLMs) are transforming scientific workflows, not only through their generative capabilities but also through their emerging ability to use tools, reason about data, and coordinate complex analytical tasks. Yet in most human-AI collaborations, the primary outputs, figures, are still treated as static visual summaries: once rendered, they are handled by both humans and multimodal LLMs as images to be re-interpreted from pixels or captions. The emergent capabilities of LLMs o",
+      "published": "2026-04-09T17:30:58Z",
+      "authors": [
+        "Yifang Wang",
+        "Rui Sheng",
+        "Erzhuo Shao",
+        "Yifan Qian",
+        "Haotian Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Small entropy doubling for random walks and polynomial growth",
+      "link": "https://arxiv.org/abs/2604.08490v1",
+      "summary": "Gromov's theorem states that a finitely generated group has polynomial growth if and only if it is virtually nilpotent. A key ingredient in its proof is the small doubling property. In this work, we study entropy analogues of this property for random walks on groups. We show that if a finitely supported symmetric random walk $R_n$ satisfies \\[ \\mathrm{H}(R_{2n}) \\le \\mathrm{H}(R_n) + \\log K \\] at some sufficiently large scale $n$, then the underlying group is virtually nilpotent, with bounds dep",
+      "published": "2026-04-09T17:30:24Z",
+      "authors": [
+        "Guy Blachar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The effect of dust on vortices II: Streaming instabilities",
+      "link": "https://arxiv.org/abs/2604.08489v1",
+      "summary": "One of the main questions in planet formation theory is how to cross the metre-scale barrier. In this two-part series, we assess the merits of vortex-based theories by investigating the effect of backreacting dust on vortices. Specifically, this second paper focuses on the 'turbulent' vortex theory, according to which the streaming instability (SI) might be active in vortices. We re-purpose the dusty vortex models derived in paper I as background flows for a linear stability analysis. To simplif",
+      "published": "2026-04-09T17:28:39Z",
+      "authors": [
+        "Nathan Magnan",
+        "Henrik Nils Latter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The effect of dust on vortices I: Laminar models",
+      "link": "https://arxiv.org/abs/2604.08488v1",
+      "summary": "One of the main questions regarding planet formation is how to cross the metre-scale barrier. Several theories rely on the formation of dust clumps dense enough to collapse under their own gravity. Vortices are promising candidate sites of clump formation because they can concentrate dust 'laminarly' by capturing particles, and 'turbulently' by creating the ideal conditions for the streaming instability. In this two-part series, we assess the validity of both pathways by investigating the effect",
+      "published": "2026-04-09T17:28:36Z",
+      "authors": [
+        "Nathan Magnan",
+        "Henrik Nils Latter"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
