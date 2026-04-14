@@ -1,0 +1,658 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Who Handles Orientation? Investigating Invariance in Feature Matching",
+      "link": "https://arxiv.org/abs/2604.11809v1",
+      "summary": "Finding matching keypoints between images is a core problem in 3D computer vision. However, modern matchers struggle with large in-plane rotations. A straightforward mitigation is to learn rotation invariance via data augmentation. However, it remains unclear at which stage rotation invariance should be incorporated. In this paper, we study this in the context of a modern sparse matching pipeline. We perform extensive experiments by training on a large collection of 3D vision datasets and evalua",
+      "published": "2026-04-13T17:59:58Z",
+      "authors": [
+        "David Nordström",
+        "Johan Edstedt",
+        "Fredrik Kahl",
+        "Georg Bökman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
+      "link": "https://arxiv.org/abs/2604.11808v1",
+      "summary": "Generating high-fidelity 3D indoor scenes remains a significant challenge due to data scarcity and the complexity of modeling intricate spatial relations. Current methods often struggle to scale beyond training distribution to dense scenes or rely on LLMs/VLMs that lack the ability for precise spatial reasoning. Building on top of the observation that object placement relies mainly on local dependencies instead of information-redundant global distributions, in this paper, we propose Pair2Scene, ",
+      "published": "2026-04-13T17:59:55Z",
+      "authors": [
+        "Xingjian Ran",
+        "Shujie Zhang",
+        "Weipeng Zhong",
+        "Li Luo",
+        "Bo Dai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
+      "link": "https://arxiv.org/abs/2604.11807v1",
+      "summary": "The stable operation of autonomous off-grid photovoltaic systems dictates reliance on solar forecasting algorithms that respect atmospheric thermodynamics. Contemporary deep learning models consistently exhibit critical anomalies, primarily severe temporal phase lags during cloud transients and physically impossible nocturnal power generation. To resolve this divergence between data-driven modeling and deterministic celestial mechanics, this research introduces the Thermodynamic Liquid Manifold ",
+      "published": "2026-04-13T17:59:49Z",
+      "authors": [
+        "Mohammed Ezzaldin Babiker Abdullah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Detecting Safety Violations Across Many Agent Traces",
+      "link": "https://arxiv.org/abs/2604.11806v1",
+      "summary": "To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings such as misuse campaigns, covert sabotage, reward hacking, and prompt injection. Existing approaches struggle here for several reasons. Per-trace judges miss failures that only become visible across t",
+      "published": "2026-04-13T17:59:40Z",
+      "authors": [
+        "Adam Stein",
+        "Davis Brown",
+        "Hamed Hassani",
+        "Mayur Naik",
+        "Eric Wong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+      "link": "https://arxiv.org/abs/2604.11805v1",
+      "summary": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such data is limited in scale and concentrated mainly in domains like mathematics. In contrast, other sciences such as physics lack large-scale QA datasets to effectively train reasoning-capable models. In this work, we show that physics simulators can ser",
+      "published": "2026-04-13T17:59:40Z",
+      "authors": [
+        "Mihir Prabhudesai",
+        "Aryan Satpathy",
+        "Yangmin Li",
+        "Zheyang Qin",
+        "Nikash Bhardwaj"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+      "link": "https://arxiv.org/abs/2604.11804v1",
+      "summary": "In this work, we study Human-Object Interaction Video Generation (HOIVG), which aims to synthesize high-quality human-object interaction videos conditioned on text, reference images, audio, and pose. This task holds significant practical value for automating content creation in real-world applications, such as e-commerce demonstrations, short video production, and interactive entertainment. However, existing approaches fail to accommodate all these requisite conditions. We present OmniShow, an e",
+      "published": "2026-04-13T17:59:12Z",
+      "authors": [
+        "Donghao Zhou",
+        "Guisheng Liu",
+        "Hao Yang",
+        "Jiatong Li",
+        "Jingyu Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus",
+      "link": "https://arxiv.org/abs/2604.11803v1",
+      "summary": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite their cultural significance and widespread use, are underrepresented in linguistic resources and computational models, resulting in performance disparities. To address this gap, we introduce Saar-Voice, a six-hour speech corpus for the Saarbrücken dialect of German. The dataset was created by first col",
+      "published": "2026-04-13T17:59:11Z",
+      "authors": [
+        "Lena S. Oberkircher",
+        "Jesujoba O. Alabi",
+        "Dietrich Klakow",
+        "Jürgen Trouvain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs?",
+      "link": "https://arxiv.org/abs/2604.11802v1",
+      "summary": "Using psychological constructs such as the Big Five, large language models (LLMs) can imitate specific personality profiles and predict a user's personality. While LLMs can exhibit behaviors consistent with these constructs, it remains unclear where and how they are represented inside the model and how they relate to behavioral outputs. To address this gap, we focus on questionnaire-operationalized Big Five concepts, analyze the formation and localization of their internal representations, and u",
+      "published": "2026-04-13T17:58:49Z",
+      "authors": [
+        "Yuto Harada",
+        "Hiro Taiyo Hamada"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CLSGen: A Dual-Head Fine-Tuning Framework for Joint Probabilistic Classification and Verbalized Explanation",
+      "link": "https://arxiv.org/abs/2604.11801v1",
+      "summary": "With the recent progress of Large Language Models (LLMs), there is a growing interest in applying these models to solve complex and challenging problems. Modern LLMs, capable of processing long contexts and generating verbalized explanations, offer significant potential in addressing real-world applications. However, a critical hurdle in deploying LLMs for practical decision-making is their inability to provide reliable, quantitative probabilities. While task-specific fine-tuning of LLMs using t",
+      "published": "2026-04-13T17:58:43Z",
+      "authors": [
+        "WonJin Yoon",
+        "Kangyu Zhu",
+        "Ian Bulovic",
+        "Autumn Sehy",
+        "Yanjun Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Diffusing diffusivity model with dichotomous noise",
+      "link": "https://arxiv.org/abs/2604.11800v1",
+      "summary": "We study Langevin dynamics with stochastic diffusivity arising from fluctuations of the surrounding medium. The diffusivity is modeled as Ornstein-Uhlenbeck process driven by symmetric dichotomous noise, which confines it to a finite interval. We derive analytical expressions for the short-time probability density function (PDF) of the particle displacement and analyse its asymptotic behaviour. While the PDF retains the characteristic logarithmic divergence at the origin, its tails differ from t",
+      "published": "2026-04-13T17:58:42Z",
+      "authors": [
+        "Dongho Lee",
+        "Jae-Hyung Jeon",
+        "Pascal Viot",
+        "Gleb Oshanin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net",
+      "link": "https://arxiv.org/abs/2604.11798v1",
+      "summary": "Accurate delineation of the Clinical Target Volume (CTV) is essential for radiotherapy planning, yet remains time-consuming and difficult to assess, especially for complex treatments such as Total Marrow and Lymph Node Irradiation (TMLI). While deep learning-based auto-segmentation can reduce workload, safe clinical deployment requires reliable cues indicating where models may be wrong. In this work, we propose a budget-aware uncertainty-driven quality assurance (QA) framework built on nnU-Net, ",
+      "published": "2026-04-13T17:58:15Z",
+      "authors": [
+        "Ricardo Coimbra Brioso",
+        "Lorenzo Mondo",
+        "Damiano Dei",
+        "Nicola Lambri",
+        "Pietro Mancosu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "C-ReD: A Comprehensive Chinese Benchmark for AI-Generated Text Detection Derived from Real-World Prompts",
+      "link": "https://arxiv.org/abs/2604.11796v1",
+      "summary": "Recently, large language models (LLMs) are capable of generating highly fluent textual content. While they offer significant convenience to humans, they also introduce various risks, like phishing and academic dishonesty. Numerous research efforts have been dedicated to developing algorithms for detecting AI-generated text and constructing relevant datasets. However, in the domain of Chinese corpora, challenges remain, including limited model diversity and data homogeneity. To address these issu",
+      "published": "2026-04-13T17:56:27Z",
+      "authors": [
+        "Chenxi Qing",
+        "Junxi Wu",
+        "Zheng Liu",
+        "Yixiang Qiu",
+        "Hongyao Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Many-Body Super- and Subradiance in Ordered Atomic Arrays",
+      "link": "https://arxiv.org/abs/2604.11795v1",
+      "summary": "When quantum emitters couple indistinguishably to light, they can synchronize into a collective light matter system with radiative properties profoundly different from those of independent particles. To date, the resulting collective effects have largely been confined to point like or homogeneous ensembles. Here, we open access to a qualitatively new collective regime by realizing geometrically ordered, spatially extended atom arrays with subwavelength spacing. This establishes a fundamentally n",
+      "published": "2026-04-13T17:56:16Z",
+      "authors": [
+        "Alec Douglas",
+        "Lin Su",
+        "Michal Szurek",
+        "Robin Groth",
+        "Sandra Brandstetter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The nature of tilted supercritical accretion discs",
+      "link": "https://arxiv.org/abs/2604.11794v1",
+      "summary": "In this paper, we report on the first 3D general relativistic radiation magnetohydrodynamic simulations of large supercritical accretion discs that are tilted with respect to the black hole spin axis. We explore a range of black hole spin parameters (from $a_* = -0.9$ to 0.9), initial tilts (in the range from $β_0 = 0^\\circ$ to $30^\\circ$), and target mass accretion rates. We first confirm that, for all the untilted simulations, the Eddington accretion limit is obeyed ($\\dot{M}_\\mathrm{BH} \\less",
+      "published": "2026-04-13T17:56:15Z",
+      "authors": [
+        "P. Chris Fragile",
+        "Matthew J. Middleton",
+        "Brooks Brasseur",
+        "Deepika A. Bollimpalli",
+        "Zach Smith"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Disentangled Point Diffusion for Precise Object Placement",
+      "link": "https://arxiv.org/abs/2604.11793v1",
+      "summary": "Recent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in attaining a high degree of precision. An alternative, object-centric approach frames the task as predicting the placement pose of the target object, providing a modular decomposition of the problem. Building on this goal-prediction paradigm, we propo",
+      "published": "2026-04-13T17:55:47Z",
+      "authors": [
+        "Lyuxing He",
+        "Eric Cai",
+        "Shobhit Aggarwal",
+        "Jianjun Wang",
+        "David Held"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LottieGPT: Tokenizing Vector Animation for Autoregressive Generation",
+      "link": "https://arxiv.org/abs/2604.11792v1",
+      "summary": "Despite rapid progress in video generation, existing models are incapable of producing vector animation, a dominant and highly expressive form of multimedia on the Internet. Vector animations offer resolution-independence, compactness, semantic structure, and editable parametric motion representations, yet current generative models operate exclusively in raster space and thus cannot synthesize them. Meanwhile, recent advances in large multimodal models demonstrate strong capabilities in generati",
+      "published": "2026-04-13T17:55:40Z",
+      "authors": [
+        "Junhao Chen",
+        "Kejun Gao",
+        "Yuehan Cui",
+        "Mingze Sun",
+        "Mingjin Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Mechanistic Analysis of Looped Reasoning Language Models",
+      "link": "https://arxiv.org/abs/2604.11791v1",
+      "summary": "Reasoning has become a central capability in large language models. Recent research has shown that reasoning performance can be improved by looping an LLM's layers in the latent dimension, resulting in looped reasoning language models. Despite promising results, few works have investigated how their internal dynamics differ from those of standard feedforward models. In this paper, we conduct a mechanistic analysis of the latent states in looped language models, focusing in particular on how the ",
+      "published": "2026-04-13T17:55:36Z",
+      "authors": [
+        "Hugh Blayney",
+        "Álvaro Arroyo",
+        "Johan Obando-Ceron",
+        "Pablo Samuel Castro",
+        "Aaron Courville"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+      "link": "https://arxiv.org/abs/2604.11790v1",
+      "summary": "Tool-augmented Large Language Model (LLM) agents have demonstrated impressive capabilities in automating complex, multi-step real-world tasks, yet remain vulnerable to indirect prompt injection. Adversaries exploit this weakness by embedding malicious instructions within tool-returned content, which agents directly incorporate into their conversation history as trusted observations. This vulnerability manifests across three primary attack channels: web and local content injection, MCP server inj",
+      "published": "2026-04-13T17:55:11Z",
+      "authors": [
+        "Wei Zhao",
+        "Zhe Li",
+        "Peixin Zhang",
+        "Jun Sun"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The stochastic Zakharov system in dimension $d \\geq 4$: Local well-posedness and regularization by noise for scattering",
+      "link": "https://arxiv.org/abs/2604.11787v1",
+      "summary": "In this paper, we develop the well-posedness theory and uncover the noise-regularization effect on scattering for the stochastic Zakharov system in dimensions $d \\geq 4$ and beyond the energy space. Our focus is particularly directed at the large data regime, where the global existence and long-time dynamics of the deterministic Zakharov system remain largely open. We prove the local well-posedness of the stochastic system in the full deterministic regularity regime and establish a blow-up alter",
+      "published": "2026-04-13T17:55:02Z",
+      "authors": [
+        "Martin Spitz",
+        "Deng Zhang",
+        "Zhenqi Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LMMs Meet Object-Centric Vision: Understanding, Segmentation, Editing and Generation",
+      "link": "https://arxiv.org/abs/2604.11789v1",
+      "summary": "Large Multimodal Models (LMMs) have achieved remarkable progress in general-purpose vision--language understanding, yet they remain limited in tasks requiring precise object-level grounding, fine-grained spatial reasoning, and controllable visual manipulation. In particular, existing systems often struggle to identify the correct instance, preserve object identity across interactions, and localize or modify designated regions with high precision. Object-centric vision provides a principled frame",
+      "published": "2026-04-13T17:55:02Z",
+      "authors": [
+        "Yuqian Yuan",
+        "Wenqiao Zhang",
+        "Juekai Lin",
+        "Yu Zhong",
+        "Mingjian Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HDR Video Generation via Latent Alignment with Logarithmic Encoding",
+      "link": "https://arxiv.org/abs/2604.11788v1",
+      "summary": "High dynamic range (HDR) imagery offers a rich and faithful representation of scene radiance, but remains challenging for generative models due to its mismatch with the bounded, perceptually compressed data on which these models are trained. A natural solution is to learn new representations for HDR, which introduces additional complexity and data requirements. In this work, we show that HDR generation can be achieved in a much simpler way by leveraging the strong visual priors already captured ",
+      "published": "2026-04-13T17:55:02Z",
+      "authors": [
+        "Naomi Ken Korem",
+        "Mohamed Oumoumad",
+        "Harel Cain",
+        "Matan Ben Yosef",
+        "Urska Jelercic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GenTac: Generative Modeling and Forecasting of Soccer Tactics",
+      "link": "https://arxiv.org/abs/2604.11786v1",
+      "summary": "Modeling open-play soccer tactics is a formidable challenge due to the stochastic, multi-agent nature of the game. Existing computational approaches typically produce single, deterministic trajectory forecasts or focus on highly structured set-pieces, fundamentally failing to capture the inherent variance and branching possibilities of real-world match evolution. Here, we introduce GenTac, a diffusion-based generative framework that conceptualizes soccer tactics as a stochastic process over cont",
+      "published": "2026-04-13T17:53:49Z",
+      "authors": [
+        "Jiayuan Rao",
+        "Tianlin Gui",
+        "Haoning Wu",
+        "Yanfeng Wang",
+        "Weidi Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Extraction of Effective Electromagnetic Material Properties for Rydberg Electrometer Vapor Cells from 10-300 MHz",
+      "link": "https://arxiv.org/abs/2604.11785v1",
+      "summary": "Quantum sensors often consist of packaging, such as dielectric-based vapor cells and metallic electrodes, that reduces and spatially alters the locally observed electromagnetic fields. These effects have been well studied in the optical regime, and even in the RF regime over a few GHz. However, there have been few studies in the electrically small regime below 1 GHz. In order to account for or remove the effects of the packaging, more studies are needed across a broad range of frequencies. This ",
+      "published": "2026-04-13T17:52:16Z",
+      "authors": [
+        "D. Richardson",
+        "J. Dee",
+        "J. Yaeger",
+        "M. Viray",
+        "J. Marsh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+      "link": "https://arxiv.org/abs/2604.11784v1",
+      "summary": "GUI agents drive applications through their visual interfaces instead of programmatic APIs, interacting with arbitrary software via taps, swipes, and keystrokes, reaching a long tail of applications that CLI-based agents cannot. Yet progress in this area is bottlenecked less by modeling capacity than by the absence of a coherent full-stack infrastructure: online RL training suffers from environment instability and closed pipelines, evaluation protocols drift silently across works, and trained ag",
+      "published": "2026-04-13T17:52:04Z",
+      "authors": [
+        "Fei Tang",
+        "Zhiqiong Lu",
+        "Boxuan Zhang",
+        "Weiming Lu",
+        "Jun Xiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Codes for Deterministic Identification over Gaussian Channels: Closing the Capacity Gap",
+      "link": "https://arxiv.org/abs/2604.11782v1",
+      "summary": "Deterministic identification (DI) has emerged as a promising paradigm for large-scale and goal-oriented communication systems. Despite significant progress, a fundamental open problem has remained unresolved: a persistent gap between the best known lower and upper bounds on the DI capacity, as well as on the corresponding rate-reliability tradeoff bounds. In this paper, we finally close this gap for Gaussian channels $\\mathcal{G}$ by constructing an optimised code that achieves the known upper b",
+      "published": "2026-04-13T17:48:08Z",
+      "authors": [
+        "Pau Colomer",
+        "Christian Deppe",
+        "Holger Boche",
+        "Andreas Winter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "General365: Benchmarking General Reasoning in Large Language Models Across Diverse and Challenging Tasks",
+      "link": "https://arxiv.org/abs/2604.11778v1",
+      "summary": "Contemporary large language models (LLMs) have demonstrated remarkable reasoning capabilities, particularly in specialized domains like mathematics and physics. However, their ability to generalize these reasoning skills to more general and broader contexts--often termed general reasoning--remains under-explored. Unlike domain-specific reasoning, general reasoning relies less on expert knowledge but still presents formidable reasoning challenges, such as complex constraints, nested logical branc",
+      "published": "2026-04-13T17:44:25Z",
+      "authors": [
+        "Junlin Liu",
+        "Shengnan An",
+        "Shuang Zhou",
+        "Dan Ma",
+        "Shixiong Luo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient KernelSHAP Explanations for Patch-based 3D Medical Image Segmentation",
+      "link": "https://arxiv.org/abs/2604.11775v1",
+      "summary": "Perturbation-based explainability methods such as KernelSHAP provide model-agnostic attributions but are typically impractical for patch-based 3D medical image segmentation due to the large number of coalition evaluations and the high cost of sliding-window inference. We present an efficient KernelSHAP framework for volumetric CT segmentation that restricts computation to a user-defined region of interest and its receptive-field support, and accelerates inference via patch logit caching, reusing",
+      "published": "2026-04-13T17:43:33Z",
+      "authors": [
+        "Ricardo Coimbra Brioso",
+        "Giulio Sichili",
+        "Damiano Dei",
+        "Nicola Lambri",
+        "Pietro Mancosu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neutron Reconstruction via Blips in Liquid Argon Time Projection Chambers",
+      "link": "https://arxiv.org/abs/2604.11774v1",
+      "summary": "Neutrons are important final-state particles in neutrino interactions, yet they are not considered or reconstructed in most current neutrino LArTPC physics analyses. In this paper, we present a simulation-based proof-of-concept study of neutron reconstruction in a generic LArTPC detector. Leveraging isolated, MeV-scale energy deposits, or blips, from neutron inelastic scattering, and using realistic blip response from published experimental results, we demonstrate the capability to identify neut",
+      "published": "2026-04-13T17:42:21Z",
+      "authors": [
+        "Miguel Hernandez Morquecho",
+        "Bryce Littlejohn",
+        "Paola Sala",
+        "Linyan Wan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Autonomous Diffractometry Enabled by Visual Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2604.11773v1",
+      "summary": "Automation underpins progress across scientific and industrial disciplines. Yet, automating tasks requiring interpretation of abstract visual information remain challenging. For example, crystal alignment strongly relies on humans with the ability to comprehend diffraction patterns. Here we introduce an autonomous system that aligns single crystals without access to crystallography and diffraction theory. Using a model-free reinforcement learning framework, an agent learns to identify and naviga",
+      "published": "2026-04-13T17:42:19Z",
+      "authors": [
+        "J. Oppliger",
+        "M. Stifter",
+        "A. Rüegg",
+        "I. Biało",
+        "L. Martinelli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Automated Pentesting with Large Language Models",
+      "link": "https://arxiv.org/abs/2604.11772v1",
+      "summary": "Large Language Models (LLMs) are redefining offensive cybersecurity by allowing the generation of harmful machine code with minimal human intervention. While attackers take advantage of dark LLMs such as XXXGPT and WolfGPT to produce malicious code, ethical hackers can follow similar approaches to automate traditional pentesting workflows. In this work, we present RedShell, a privacy-preserving, hardware-efficient framework that leverages fine-tuned LLMs to assist pentesters in generating offens",
+      "published": "2026-04-13T17:41:51Z",
+      "authors": [
+        "Ricardo Bessa",
+        "Rui Claro",
+        "João Trindade",
+        "João Lourenço"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Shape-dependence of electrophoretic mobility",
+      "link": "https://arxiv.org/abs/2604.11771v1",
+      "summary": "The electrophoretic mobility of a spherical particle is well understood, yet how particle shape modifies this mobility at arbitrary Debye length remains an open question. Here, we compute the electrophoretic mobility of a nearly spherical particle whose surface is described by $r_s(θ) = a[1 + \\varepsilon f(θ)]$, with $\\varepsilon \\ll 1$, at arbitrary ratio of particle size to Debye length $κa$. Using a volume-integral formulation combined with domain perturbation techniques, we derive a universa",
+      "published": "2026-04-13T17:41:45Z",
+      "authors": [
+        "Arkava Ganguly",
+        "Ankur Gupta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhancing Program Repair with Specification Guidance and Intermediate Behavioral Signals",
+      "link": "https://arxiv.org/abs/2604.11770v1",
+      "summary": "Automated Program Repair (APR) has recently benefited from large language models (LLMs). However, most LLM-based APR approaches still rely primarily on coarse end-to-end signals from test-suite outcomes to guide repair, providing limited insight into where a program's internal logic deviates from its intended behavior. In contrast, human debugging often relies on intermediate reasoning about program states through localized correctness conditions or assertions. Inspired by this observation, we p",
+      "published": "2026-04-13T17:41:05Z",
+      "authors": [
+        "Minh Le-Anh",
+        "Cuong Chi Le",
+        "Tien N. Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$λ_A$: A Typed Lambda Calculus for LLM Agent Composition",
+      "link": "https://arxiv.org/abs/2604.11767v1",
+      "summary": "Existing LLM agent frameworks lack formal semantics: there is no principled way to determine whether an agent configuration is well-formed or will terminate. We present $λ_A$, a typed lambda calculus for agent composition that extends the simply-typed lambda calculus with oracle calls, bounded fixpoints (the ReAct loop), probabilistic choice, and mutable environments. We prove type safety, termination of bounded fixpoints, and soundness of derived lint rules, with partial Coq mechanization (1,56",
+      "published": "2026-04-13T17:39:23Z",
+      "authors": [
+        "Qin Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MosaicMRI: A Diverse Dataset and Benchmark for Raw Musculoskeletal MRI",
+      "link": "https://arxiv.org/abs/2604.11762v1",
+      "summary": "Deep learning underpins a wide range of applications in MRI, including reconstruction, artifact removal, and segmentation. However, progress has been driven largely by public datasets focused on brain and knee imaging, shaping how models are trained and evaluated. As a result, careful studies of the reliability of these models across diverse anatomical settings remain limited. In this work, we introduce MosaicMRI, a large and diverse collection of fully sampled raw musculoskeletal (MSK) MR measu",
+      "published": "2026-04-13T17:36:01Z",
+      "authors": [
+        "Paula Arguello",
+        "Berk Tinaz",
+        "Mohammad Shahab Sepehri",
+        "Maryam Soltanolkotabi",
+        "Mahdi Soltanolkotabi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Effects of interviewers on response to income and wealth items",
+      "link": "https://arxiv.org/abs/2604.11760v1",
+      "summary": "Item nonresponse to financial questions is a persistent source of survey error, especially in interviewer-administered surveys. We examine whether interviewers' expectations about respondents' willingness to report income are associated with actual item responses to income and asset questions in Wave 6 of the Survey of Health, Ageing and Retirement in Europe (SHARE). Using data from 41,934 respondents in 12 countries, linked to interviewer survey and roster information, we analyze responses to f",
+      "published": "2026-04-13T17:33:01Z",
+      "authors": [
+        "Moslem Rashidi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Retrieval Is Not Enough: Why Organizational AI Needs Epistemic Infrastructure",
+      "link": "https://arxiv.org/abs/2604.11759v1",
+      "summary": "Organizational knowledge used by AI agents typically lacks epistemic structure: retrieval systems surface semantically relevant content without distinguishing binding decisions from abandoned hypotheses, contested claims from settled ones, or known facts from unresolved questions. We argue that the ceiling on organizational AI is not retrieval fidelity but \\emph{epistemic} fidelity--the system's ability to represent commitment strength, contradiction status, and organizational ignorance as compu",
+      "published": "2026-04-13T17:31:14Z",
+      "authors": [
+        "Federico Bottino",
+        "Carlo Ferrero",
+        "Nicholas Dosio",
+        "Pierfrancesco Beneventano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems",
+      "link": "https://arxiv.org/abs/2604.11757v1",
+      "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for building general-purpose robotic agents. However, the VLA landscape remains highly fragmented and complex: as existing approaches vary substantially in architectures, training data, embodiment configurations, and benchmark-specific engineering. In this work, we introduce StarVLA-$α$, a simple yet strong baseline designed to study VLA design choices under controlled conditions. StarVLA-$α$ deliberately minimizes",
+      "published": "2026-04-13T17:30:01Z",
+      "authors": [
+        "Jinhui Ye",
+        "Ning Gao",
+        "Senqiao Yang",
+        "Jinliang Zheng",
+        "Zixuan Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+      "link": "https://arxiv.org/abs/2604.11753v1",
+      "summary": "We study parallel test-time scaling for long-horizon agentic tasks such as agentic search and deep research, where multiple rollouts are generated in parallel and aggregated into a final response. While such scaling has proven effective for chain-of-thought reasoning, agentic tasks pose unique challenges: trajectories are long, multi-turn, and tool-augmented, and outputs are often open-ended. Aggregating only final answers discards rich information from trajectories, while concatenating all traj",
+      "published": "2026-04-13T17:26:31Z",
+      "authors": [
+        "Yoonsang Lee",
+        "Howard Yen",
+        "Xi Ye",
+        "Danqi Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Synthetic Conversational Smishing Dataset for Social Engineering Detection",
+      "link": "https://arxiv.org/abs/2604.11752v1",
+      "summary": "Smishing (SMS phishing) has become a serious cybersecurity threat, especially for elderly and cyber-unaware individuals, causing financial loss and undermining user trust. Although prior work has focused on detecting smishing at the level of individual messages, real-world attackers often rely on multi-stage social engineering, gradually manipulating victims through extended conversations before attempting to steal sensitive information. Despite the existence of several datasets for single-messa",
+      "published": "2026-04-13T17:26:17Z",
+      "authors": [
+        "Carl Lochstampfor",
+        "Ayan Roy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Grounded World Model for Semantically Generalizable Planning",
+      "link": "https://arxiv.org/abs/2604.11751v1",
+      "summary": "In Model Predictive Control (MPC), world models predict the future outcomes of various action proposals, which are then scored to guide the selection of the optimal action. For visuomotor MPC, the score function is a distance metric between a predicted image and a goal image, measured in the latent space of a pretrained vision encoder like DINO and JEPA. However, it is challenging to obtain the goal image in advance of the task execution, particularly in new environments. Additionally, conveying",
+      "published": "2026-04-13T17:25:41Z",
+      "authors": [
+        "Quanyi Li",
+        "Lan Feng",
+        "Haonan Zhang",
+        "Wuyang Li",
+        "Letian Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Magnetic switching of self-hybridized exciton-polaritons in CrSBr photonic crystal slabs",
+      "link": "https://arxiv.org/abs/2604.11750v1",
+      "summary": "Layered van der Waals antiferromagnet CrSBr supports strong light--matter coupling and formation of magnetically tunable exciton-polaritons, yet active magnetic control over polariton propagation direction has remained elusive. Here, we investigate self-hybridized exciton-polaritons in photonic crystal slabs fabricated from CrSBr flakes and their evolution across the antiferromagnetic-to-ferromagnetic spin-flip transition induced by moderate in-plane magnetic fields. Using angle-resolved reflect",
+      "published": "2026-04-13T17:23:20Z",
+      "authors": [
+        "T. D. Gorelkina",
+        "I. E. Kalantaevskii",
+        "A. N. Abramov",
+        "K. A. Gasnikova",
+        "P. A. Alekseev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HistLens: Mapping Idea Change across Concepts and Corpora",
+      "link": "https://arxiv.org/abs/2604.11749v1",
+      "summary": "Language change both reflects and shapes social processes, and the semantic evolution of foundational concepts provides a measurable trace of historical and social transformation. Despite recent advances in diachronic semantics and discourse analysis, existing computational approaches often (i) concentrate on a single concept or a single corpus, making findings difficult to compare across heterogeneous sources, and (ii) remain confined to surface lexical evidence, offering insufficient computati",
+      "published": "2026-04-13T17:22:02Z",
+      "authors": [
+        "Yi Jing",
+        "Weiyun Qiu",
+        "Yihang Peng",
+        "Zhifang Sui"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling",
+      "link": "https://arxiv.org/abs/2604.11748v1",
+      "summary": "Continuous diffusion models have achieved strong performance across domains such as images. However, in language modeling, prior continuous diffusion language models (DLMs) lag behind discrete counterparts. In this work, we close this gap with LangFlow, the first continuous DLM to rival discrete diffusion. Our approach connects embedding-space DLMs to Flow Matching via Bregman divergence and introduces three key innovations: (1) a novel ODE-based NLL bound for principled evaluation of continuous",
+      "published": "2026-04-13T17:21:41Z",
+      "authors": [
+        "Yuxin Chen",
+        "Chumeng Liang",
+        "Hangke Sui",
+        "Ruihan Guo",
+        "Chaoran Cheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inferring Change Points in Regression via Sample Weighting",
+      "link": "https://arxiv.org/abs/2604.11746v1",
+      "summary": "We study the problem of identifying change points in high-dimensional generalized linear models, and propose an approach based on sample-weighted empirical risk minimization. Our method, Weighted ERM, encodes priors on the change points via weights assigned to each sample, to obtain weighted versions of standard estimators such as M-estimators and maximum-likelihood estimators. Under mild assumptions on the data, we obtain a precise asymptotic characterization of the performance of our method fo",
+      "published": "2026-04-13T17:20:34Z",
+      "authors": [
+        "Gabriel Arpino",
+        "Ramji Venkataramanan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data-driven oscillator model for multi-frequency turbulent flows",
+      "link": "https://arxiv.org/abs/2604.11745v1",
+      "summary": "The complex dynamics of high-dimensional oscillatory flows can be simplified using phase-reduction analysis, providing a deeper understanding of the flow response to external perturbations. Although phase-based modeling and analysis have been utilized in recent studies on oscillatory fluid flows, their usages are still limited to single-frequency flows due to difficulties in addressing chaotic characteristics induced by multiple frequencies of turbulent flows. In order to overcome this limitatio",
+      "published": "2026-04-13T17:20:24Z",
+      "authors": [
+        "Youngjae Kim",
+        "Koichiro Yawata",
+        "Hiroya Nakao",
+        "Kunihiko Taira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "KL Divergence Between Gaussians: A Step-by-Step Derivation for the Variational Autoencoder Objective",
+      "link": "https://arxiv.org/abs/2604.11744v1",
+      "summary": "Kullback-Leibler (KL) divergence is a fundamental concept in information theory that quantifies the discrepancy between two probability distributions. In the context of Variational Autoencoders (VAEs), it serves as a central regularization term, imposing structure on the latent space and thereby enabling the model to exhibit generative capabilities. In this work, we present a detailed derivation of the closed-form expression for the KL divergence between Gaussian distributions, a case of particu",
+      "published": "2026-04-13T17:18:20Z",
+      "authors": [
+        "Andrés Muñoz",
+        "Rodrigo Ramele"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Discourse Diversity in Multi-Turn Empathic Dialogue",
+      "link": "https://arxiv.org/abs/2604.11742v1",
+      "summary": "Large language models (LLMs) produce responses rated as highly empathic in single-turn settings (Ayers et al., 2023; Lee et al., 2024), yet they are also known to be formulaic generators that reuse the same lexical patterns, syntactic templates, and discourse structures across tasks (Jiang et al., 2025; Shaib et al., 2024; Namuduri et al., 2025). Less attention has been paid to whether this formulaicity extends to the level of discourse moves, i.e., what a response does for the person it is addr",
+      "published": "2026-04-13T17:17:22Z",
+      "authors": [
+        "Hongli Zhan",
+        "Emma S. Gueorguieva",
+        "Javier Hernandez",
+        "Jina Suh",
+        "Desmond C. Ong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games",
+      "link": "https://arxiv.org/abs/2604.11741v1",
+      "summary": "Vision-language models (VLMs) have shown impressive capabilities in perceptual tasks, yet they degrade in complex multi-hop reasoning under multiplayer game settings with imperfect and deceptive information. In this paper, we study a representative multiplayer task, Murder Mystery Games, which require inferring hidden truths based on partial clues provided by roles with different intentions. To address this challenge, we propose a collaborative multi-agent framework for evaluating and synthesizi",
+      "published": "2026-04-13T17:16:23Z",
+      "authors": [
+        "Keyang Zhong",
+        "Junlin Xie",
+        "Hefeng Wu",
+        "Haofeng Li",
+        "Guanbin Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An active soft condensed matter approach to the Physics of living systems",
+      "link": "https://arxiv.org/abs/2604.11740v1",
+      "summary": "This article aims to introduce the broad field of soft active matter physics and its relevance to the life sciences in simple, accessible language. Although this area of research is relatively new, it has already demonstrated significant potential in providing a physical understanding of many biological processes. While several review articles by leading researchers exist, they can be difficult to grasp for undergraduate students and even early-career researchers who wish to enter this field. In",
+      "published": "2026-04-13T17:15:47Z",
+      "authors": [
+        "Nitin Kumar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reduced pair breaking from extended disorder in unconventional superconductors: implications to 4Hb-TaS$_2$",
+      "link": "https://arxiv.org/abs/2604.11738v1",
+      "summary": "Unconventional superconductivity is generally expected to be strongly suppressed by nonmagnetic disorder, as captured by Abrikosov--Gor'kov (AG) theory. However, several materials, including transition metal dichalcogenides, exhibit signatures of unconventional pairing despite relatively high resistivities, suggesting a breakdown of the conventional relation between momentum relaxation and pair breaking. Here, we study this problem in H-phase transition metal dichalcogenides by computing the dis",
+      "published": "2026-04-13T17:15:16Z",
+      "authors": [
+        "Yuval Tsur",
+        "Mark H. Fischer",
+        "Jonathan Ruhman"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
