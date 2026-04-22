@@ -1,0 +1,21 @@
+{
+  "source": "trader-joes",
+  "zipcode": "98034",
+  "method": "items_search",
+  "flyers": [],
+  "deal_count": 1,
+  "deals": [
+    {
+      "name": "MACMILLAN Beautiful Bouquets With Trader Joes Flowers Book",
+      "description": "",
+      "brand": "",
+      "price": 19.99,
+      "pre_price_text": null,
+      "post_price_text": null,
+      "valid_from": "2026-04-21T04:00:00+00:00",
+      "valid_to": "2026-04-28T03:59:59+00:00",
+      "image_url": ""
+    }
+  ],
+  "errors": []
+}
