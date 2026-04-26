@@ -1,0 +1,650 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+      "link": "https://arxiv.org/abs/2604.21931v1",
+      "summary": "How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention has been paid to perceiving and controlling the passage of time. In this paper, we study time as a learnable visual concept and develop models for reasoning about and manipulating the flow of time in videos. We first exploit the multimodal cues and temporal structure naturally present in videos to l",
+      "published": "2026-04-23T17:59:57Z",
+      "authors": [
+        "Yen-Siang Wu",
+        "Rundong Luo",
+        "Jingsen Zhu",
+        "Tao Tu",
+        "Ali Farhadi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
+      "link": "https://arxiv.org/abs/2604.21930v1",
+      "summary": "Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the same stream can induce different CL regimes and therefore different benchmark conclusions. To study this effect, we introduce a taskification-level framework based on plasticity and stability profiles, a ",
+      "published": "2026-04-23T17:59:54Z",
+      "authors": [
+        "Nicolae Filat",
+        "Ahmed Hussain",
+        "Konstantinos Kalogiannis",
+        "Elena Burceanu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
+      "link": "https://arxiv.org/abs/2604.21928v1",
+      "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This paper evaluates their relevance through three approaches: (1) selecting the best hypothesis between two candidates, (2) computing semantic distance using generative embeddings, and (3) qualitative class",
+      "published": "2026-04-23T17:59:47Z",
+      "authors": [
+        "Thibault Bañeras-Roux",
+        "Shashi Kumar",
+        "Driss Khalil",
+        "Sergio Burdisso",
+        "Petr Motlicek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
+      "link": "https://arxiv.org/abs/2604.21927v1",
+      "summary": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime, defined by the trainable parameter subspace, is itself a key evaluation variable. We formalize adaptation regimes as projected optimization over fixed trainable subspaces, showing that changing the trainab",
+      "published": "2026-04-23T17:59:34Z",
+      "authors": [
+        "Paul-Tiberiu Iordache",
+        "Elena Burceanu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs",
+      "link": "https://arxiv.org/abs/2604.21926v1",
+      "summary": "Understanding human activities and their surrounding environments typically relies on visual perception, yet cameras pose persistent challenges in privacy, safety, energy efficiency, and scalability. We explore an alternative: 4D perception without vision. Its goal is to reconstruct human motion and 3D scene layouts purely from everyday wearable sensors. For this we introduce IMU-to-4D, a framework that repurposes large language models for non-visual spatiotemporal understanding of human-scene d",
+      "published": "2026-04-23T17:59:16Z",
+      "authors": [
+        "Hao-Yu Hsu",
+        "Tianhang Cheng",
+        "Jing Wen",
+        "Alexander G. Schwing",
+        "Shenlong Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+      "link": "https://arxiv.org/abs/2604.21924v1",
+      "summary": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon VLA execution to long-horizon instruction following via a dedicated task-management VLM. The manager is decoupled from the executor and is invoked in a receding-horizon manner: given the current observation, it predicts a progress-aware remaining pla",
+      "published": "2026-04-23T17:59:04Z",
+      "authors": [
+        "Isabella Liu",
+        "An-Chieh Cheng",
+        "Rui Yan",
+        "Geng Chen",
+        "Ri-Zhao Qiu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Characterizing Streaming Decidability of CSPs via Non-Redundancy",
+      "link": "https://arxiv.org/abs/2604.21922v1",
+      "summary": "We study the single-pass streaming complexity of deciding satisfiability of Constraint Satisfaction Problems (CSPs). A CSP is specified by a constraint language $Γ$, that is, a finite set of $k$-ary relations over the domain $[q] = \\{0, \\dots, q-1\\}$. An instance of $\\mathsf{CSP}(Γ)$ consists of $m$ constraints over $n$ variables $x_1, \\ldots, x_n$ taking values in $[q]$. Each constraint $C_i$ is of the form $\\{R_i,(x_{i_1} + λ_{i_1}, \\ldots, x_{i_k} + λ_{i_k})\\}$, where $R_i \\in Γ$ and $λ_{i_1}",
+      "published": "2026-04-23T17:59:01Z",
+      "authors": [
+        "Amatya Sharma",
+        "Santhoshini Velusamy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Context Unrolling in Omni Models",
+      "link": "https://arxiv.org/abs/2604.21921v1",
+      "summary": "We present Omni, a unified multimodal model natively trained on diverse modalities, including text, images, videos, 3D geometry, and hidden representations. We find that such training enables Context Unrolling, where the model explicitly reasons across multiple modal representations before producing predictions. This process enables the model to aggregate complementary information across heterogeneous modalities, facilitating a more faithful approximation of the shared multimodal knowledge manif",
+      "published": "2026-04-23T17:58:38Z",
+      "authors": [
+        "Ceyuan Yang",
+        "Zhijie Lin",
+        "Yang Zhao",
+        "Fei Xiao",
+        "Hao He"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "First measurement of wind line formation regions in an early O-type star",
+      "link": "https://arxiv.org/abs/2604.21920v1",
+      "summary": "Massive stars with their strong ionizing radiation and strong stellar winds are the key feedback agents of the universe. Stellar winds of massive stars are often measured by fitting resonance lines in the UV using non-LTE stellar atmosphere models. So far, the line formation regions of these lines have not been measured empirically, preventing a comparison to the model's structures. We aim to conduct the first measurement of the resonance line formation regions in an early-type eclipsing binary ",
+      "published": "2026-04-23T17:58:27Z",
+      "authors": [
+        "D. Pauli",
+        "T. N. Parsons",
+        "R. K. Prinja"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wave physics as a choreographic notation for partner dance",
+      "link": "https://arxiv.org/abs/2604.21918v1",
+      "summary": "The wave is considered a paradigm in dance and connects bodily expression with nature. Although wave concepts such as propagation and phase have proven to be powerful tools for dance analysis, many aspects of bodily expression, including partner dance, have been investigated using numerical approaches and neural networks. Complementarily, compact analytical models have been especially successful for describing human motion, particularly gait. Here, we leverage wave-physics concepts to provide a ",
+      "published": "2026-04-23T17:58:03Z",
+      "authors": [
+        "Fernando Ramiro-Manzano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
+      "link": "https://arxiv.org/abs/2604.21916v1",
+      "summary": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they cast models solely as solvers of fixed problem sets. We introduce MathDuels, a self-play benchmark in which models occupy dual roles: each authors math problems under adversarial prompting and solves problems authored by every other participant. Problems are produced through a three-stage generation p",
+      "published": "2026-04-23T17:57:46Z",
+      "authors": [
+        "Zhiqiu Xu",
+        "Shibo Jin",
+        "Shreya Arya",
+        "Mayur Naik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+      "link": "https://arxiv.org/abs/2604.21915v1",
+      "summary": "We present Vista4D, a robust and flexible video reshooting framework that grounds the input video and target cameras in a 4D point cloud. Specifically, given an input video, our method re-synthesizes the scene with the same dynamics from a different camera trajectory and viewpoint. Existing video reshooting methods often struggle with depth estimation artifacts of real-world dynamic videos, while also failing to preserve content appearance and failing to maintain precise camera control for chall",
+      "published": "2026-04-23T17:57:28Z",
+      "authors": [
+        "Kuan Heng Lin",
+        "Zhizheng Liu",
+        "Pablo Salamanca",
+        "Yash Kant",
+        "Ryan Burgert"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis",
+      "link": "https://arxiv.org/abs/2604.21914v1",
+      "summary": "Recently, end-to-end robotic manipulation models have gained significant attention for their generalizability and scalability. However, they often suffer from limited robustness to camera viewpoint changes when training with a fixed camera. In this paper, we propose VistaBot, a novel framework that integrates feed-forward geometric models with video diffusion models to achieve view-robust closed-loop manipulation without requiring camera calibration at test time. Our approach consists of three k",
+      "published": "2026-04-23T17:57:13Z",
+      "authors": [
+        "Songen Gu",
+        "Yuhang Zheng",
+        "Weize Li",
+        "Yupeng Zheng",
+        "Yating Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cryogenic shock exfoliation for ultrahigh mobility rhombohedral graphite nanoelectronics",
+      "link": "https://arxiv.org/abs/2604.21912v1",
+      "summary": "Rhombohedral multilayer graphene (RMG) offers a highly tunable platform for correlated electron physics, featuring field-effect control of magnetic, superconducting, and topological phases[1-24]. The promise of these materials has been held back by the limited abundance of rhombohedral stacking in natural graphite, which constrains both sample yield and useful area. Here we introduce 'cryogenic shock exfoliation' to produce large area rhombohedral graphene flakes which, combined with a low-press",
+      "published": "2026-04-23T17:56:37Z",
+      "authors": [
+        "Ludwig Holleis",
+        "Youngjoon Choi",
+        "Canxun Zhang",
+        "Jack H. Farrell",
+        "Gabriel Bargas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
+      "link": "https://arxiv.org/abs/2604.21911v1",
+      "summary": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or the dominance of the language component, yet the relative importance of these factors remains unclear. To resolve this ambiguity, We propose HalluScope, a benchmark to better understand the extent to ",
+      "published": "2026-04-23T17:54:36Z",
+      "authors": [
+        "Pegah Khayatan",
+        "Jayneel Parekh",
+        "Arnaud Dapogny",
+        "Mustafa Shukor",
+        "Alasdair Newson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation",
+      "link": "https://arxiv.org/abs/2604.21910v1",
+      "summary": "Scientific workflow systems automate execution -- scheduling, fault tolerance, resource management -- but not the semantic translation that precedes it. Scientists still manually convert research questions into workflow specifications, a task requiring both domain knowledge and infrastructure expertise. We propose an agentic architecture that closes this gap through three layers: an LLM interprets natural language into structured intents (semantic layer); validated generators produce reproducibl",
+      "published": "2026-04-23T17:52:52Z",
+      "authors": [
+        "Bartosz Balis",
+        "Michal Orzechowski",
+        "Piotr Kica",
+        "Michal Dygas",
+        "Michal Kuszewski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Directional Confusions Reveal Divergent Inductive Biases Through Rate-Distortion Geometry in Human and Machine Vision",
+      "link": "https://arxiv.org/abs/2604.21909v1",
+      "summary": "Humans and modern vision models can reach similar classification accuracy while making systematically different kinds of mistakes - differing not in how often they err, but in who gets mistaken for whom, and in which direction. We show that these directional confusions reveal distinct inductive biases that are invisible to accuracy alone. Using matched human and deep vision model responses on a natural-image categorization task under 12 perturbation types, we quantify asymmetry in confusion matr",
+      "published": "2026-04-23T17:52:16Z",
+      "authors": [
+        "Leyla Roksan Caglar",
+        "Pedro A. M. Mediano",
+        "Baihan Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A structure-preserving semi-implicit finite volume scheme on vertex-staggered unstructured meshes",
+      "link": "https://arxiv.org/abs/2604.21906v1",
+      "summary": "We present a novel structure-preserving semi-implicit finite volume method on vertex-based staggered meshes for the compatible discretization of first order systems of time-dependent partial differential equations (PDEs). The method preserves divergence-free and curl-free vector fields exactly thanks to the compatible vertex-staggered discretization of the state variables on unstructured grids that are constituted by primal Delaunay triangles and their dual polygons. For the weakly compressible ",
+      "published": "2026-04-23T17:50:40Z",
+      "authors": [
+        "Elena Bernardelli",
+        "Elena Gaburro",
+        "Michael Dumbser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Low-Rank Adaptation Redux for Large Models",
+      "link": "https://arxiv.org/abs/2604.21905v1",
+      "summary": "Low-rank adaptation (LoRA) has emerged as the de facto standard for parameter-efficient fine-tuning (PEFT) of foundation models, enabling the adaptation of billion-parameter networks with minimal computational and memory overhead. Despite its empirical success and rapid proliferation of variants, it remains elusive which architectural choices, optimization techniques, and deployment constraints should guide practical method selection. This overview revisits LoRA through the lens of signal proces",
+      "published": "2026-04-23T17:50:23Z",
+      "authors": [
+        "Bingcong Li",
+        "Yilang Zhang",
+        "Georgios B. Giannakis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+      "link": "https://arxiv.org/abs/2604.21904v1",
+      "summary": "In recent years, significant progress has been made in both image generation and generated image detection. Despite their rapid, yet largely independent, development, these two fields have evolved distinct architectural paradigms: the former predominantly relies on generative networks, while the latter favors discriminative frameworks. A recent trend in both domains is the use of adversarial information to enhance performance, revealing potential for synergy. However, the significant architectur",
+      "published": "2026-04-23T17:49:25Z",
+      "authors": [
+        "Yanran Zhang",
+        "Wenzhao Zheng",
+        "Yifei Li",
+        "Bingyao Yu",
+        "Yu Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models",
+      "link": "https://arxiv.org/abs/2604.21903v1",
+      "summary": "Deep-learning video super-resolution has progressed rapidly, but climate applications typically super-resolve (increase resolution) either space or time, and joint spatiotemporal models are often designed for a single pair of super-resolution (SR) factors (upscaling spatial and temporal ratio between the low-resolution sequence and the high-resolution sequence), limiting transfer across spatial resolutions and temporal cadences (frame rates). We present a scale-adaptive framework that reuses the",
+      "published": "2026-04-23T17:49:16Z",
+      "authors": [
+        "Max Defez",
+        "Filippo Quarenghi",
+        "Mathieu Vrac",
+        "Stephan Mandt",
+        "Tom Beucler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Universal Quantum Information Preserving Photonic Switch for Scalable Quantum Networks",
+      "link": "https://arxiv.org/abs/2604.21902v1",
+      "summary": "Quantum networks are a keystone of the quantum internet. However, existing implementations remain largely confined to static point-to-point links due to the absence of a switching paradigm capable of dynamically routing fragile quantum entanglement without introducing decoherence. Here, we propose the Universal Quantum Switch, a foundational building block allowing on-demand, non-blocking, and encoding-agnostic routing of quantum information, as well as seamless modality conversion between dispa",
+      "published": "2026-04-23T17:48:51Z",
+      "authors": [
+        "Jiapeng Zhao",
+        "Stéphane Vinet",
+        "Amir Minoofar",
+        "Michael Kilzer",
+        "Lucas Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GiVA: Gradient-Informed Bases for Vector-Based Adaptation",
+      "link": "https://arxiv.org/abs/2604.21901v1",
+      "summary": "As model sizes continue to grow, parameter-efficient fine-tuning has emerged as a powerful alternative to full fine-tuning. While LoRA is widely adopted among these methods, recent research has explored vector-based adaptation methods due to their extreme parameter efficiency. However, these methods typically require substantially higher ranks than LoRA to match its performance, leading to increased training costs. This work introduces GiVA, a gradient-based initialization strategy for vector-ba",
+      "published": "2026-04-23T17:48:18Z",
+      "authors": [
+        "Neeraj Gangwar",
+        "Rishabh Deshmukh",
+        "Michael Shavlovsky",
+        "Hancao Li",
+        "Vivek Mittal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Institutionalizing Best Practices in Research Computing: A Framework and Case Study for Improving User Onboarding",
+      "link": "https://arxiv.org/abs/2604.21898v1",
+      "summary": "Research computing centers around the world struggle with onboarding new users. Subject matter experts, researchers, and principal investigators are often overwhelmed by the complex infrastructure and software offerings designed to support diverse research domains at large academic and national institutions. As a result, users frequently fall into confusion and complexity to access these resources, despite the availability of documentation, tutorials, interactive trainings and other similar reso",
+      "published": "2026-04-23T17:47:24Z",
+      "authors": [
+        "Ayush Chaturvedi",
+        "Rob Pokorney",
+        "Elyn Fritz-Waters",
+        "Charlotte Rouse",
+        "Gary Bax"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mapping the Political Discourse in the Brazilian Chamber of Deputies: A Multi-Faceted Computational Approach",
+      "link": "https://arxiv.org/abs/2604.21897v1",
+      "summary": "Analyses of legislative behavior often rely on voting records, overlooking the rich semantic and rhetorical content of political speech. In this paper, we ask three complementary questions about parliamentary discourse: how things are said, what is being said, and who is speaking in discursively similar ways. To answer these questions, we introduce a scalable and generalizable computational framework that combines diachronic stylometric analysis, contextual topic modeling, and semantic clusterin",
+      "published": "2026-04-23T17:46:33Z",
+      "authors": [
+        "Flávio Soriano",
+        "Victoria F. Mello",
+        "Pedro B. Rigueira",
+        "Gisele L. Pappa",
+        "Wagner Meira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nemobot Games: Crafting Strategic AI Gaming Agents for Interactive Learning with Large Language Models",
+      "link": "https://arxiv.org/abs/2604.21896v1",
+      "summary": "This paper introduces a new paradigm for AI game programming, leveraging large language models (LLMs) to extend and operationalize Claude Shannon's taxonomy of game-playing machines. Central to this paradigm is Nemobot, an interactive agentic engineering environment that enables users to create, customize, and deploy LLM-powered game agents while actively engaging with AI-driven strategies. The LLM-based chatbot, integrated within Nemobot, demonstrates its capabilities across four distinct class",
+      "published": "2026-04-23T17:46:29Z",
+      "authors": [
+        "Chee Wei Tan",
+        "Yuchen Wang",
+        "Shangxin Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Task-Driven Co-Design of Heterogeneous Multi-Robot Systems",
+      "link": "https://arxiv.org/abs/2604.21894v1",
+      "summary": "Designing multi-agent robotic systems requires reasoning across tightly coupled decisions spanning heterogeneous domains, including robot design, fleet composition, and planning. Much effort has been devoted to isolated improvements in these domains, whereas system-level co-design considering trade-offs and task requirements remains underexplored. In this work, we present a formal and compositional framework for the task-driven co-design of heterogeneous multi-robot systems. Building on a monoto",
+      "published": "2026-04-23T17:44:52Z",
+      "authors": [
+        "Maximilian Stralz",
+        "Meshal Alharbi",
+        "Yujun Huang",
+        "Gioele Zardini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Revealing Geography-Driven Signals in Zone-Level Claim Frequency Models: An Empirical Study using Environmental and Visual Predictors",
+      "link": "https://arxiv.org/abs/2604.21893v1",
+      "summary": "Geographic context is often consider relevant to motor insurance risk, yet public actuarial datasets provide limited location identifiers, constraining how this information can be incorporated and evaluated in claim-frequency models. This study examines how geographic information from alternative data sources can be incorporated into actuarial models for Motor Third Party Liability (MTPL) claim prediction under such constraints.   Using the BeMTPL97 dataset, we adopt a zone-level modeling framew",
+      "published": "2026-04-23T17:44:52Z",
+      "authors": [
+        "Sherly Alfonso-Sánchez",
+        "Cristián Bravo",
+        "Kristina G. Stankova"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The impact of hydrogen atom tunneling on aromatic chemistry in TMC-1",
+      "link": "https://arxiv.org/abs/2604.21892v1",
+      "summary": "Hydrogen atom tunneling likely plays a substantial role in the gas-phase chemistry of astrochemical environments. To determine the potential effect that it has on the chemical modeling of aromatic molecules, we screened the kida.uva.2024 network, and our own expanded network to find reactions which could be significantly accelerated by hydrogen atom tunneling in the ISM. In total, 64 reactions were identified. The hydrogen abstraction reactions from H$_{2}$ to four key interstellar radicals (C$_",
+      "published": "2026-04-23T17:44:06Z",
+      "authors": [
+        "Reace H. J. Willis",
+        "Thomas H. Speak",
+        "Alex N. Byrne",
+        "Christopher N. Shingledecker",
+        "Ilsa R. Cooke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Multi-Stage Warm-Start Deep Learning Framework for Unit Commitment",
+      "link": "https://arxiv.org/abs/2604.21891v1",
+      "summary": "Maintaining instantaneous balance between electricity supply and demand is critical for reliability and grid instability. System operators achieve this through solving the task of Unit Commitment (UC),ca high dimensional large-scale Mixed-integer Linear Programming (MILP) problem that is strictly and heavily governed by the grid physical constraints. As grid integrate variable renewable sources, and new technologies such as long duration storage in the grid, UC must be optimally solved for multi",
+      "published": "2026-04-23T17:44:02Z",
+      "authors": [
+        "Muhy Eddin Za'ter",
+        "Anna Van Boven",
+        "Bri-Mathias Hodge",
+        "Kyri Baker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EVENT5Ws: A Large Dataset for Open-Domain Event Extraction from Documents",
+      "link": "https://arxiv.org/abs/2604.21890v1",
+      "summary": "Event extraction identifies the central aspects of events from text. It supports event understanding and analysis, which is crucial for tasks such as informed decision-making in emergencies. Therefore, it is necessary to develop automated event extraction approaches. However, existing datasets for algorithm development have limitations, including limited coverage of event types in closed-domain settings and a lack of large, manually verified dataset in open-domain settings. To address these limi",
+      "published": "2026-04-23T17:42:07Z",
+      "authors": [
+        "Praval Sharma",
+        "Ashok Samal",
+        "Leen-Kiat Soh",
+        "Deepti Joshi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale",
+      "link": "https://arxiv.org/abs/2604.21889v1",
+      "summary": "Real-time detection and mitigation of technical anomalies are critical for large-scale cloud-native services, where even minutes of downtime can result in massive financial losses and diminished user trust. While customer incidents serve as a vital signal for discovering risks missed by monitoring, extracting actionable intelligence from this data remains challenging due to extreme noise, high throughput, and semantic complexity of diverse business lines. In this paper, we present TingIS, an end",
+      "published": "2026-04-23T17:40:45Z",
+      "authors": [
+        "Jun Wang",
+        "Ziyin Zhang",
+        "Rui Wang",
+        "Hang Yu",
+        "Peng Di"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Dyson Minds 2025 Workshop: SETI around Black Holes",
+      "link": "https://arxiv.org/abs/2604.21886v1",
+      "summary": "The Dyson Minds 2025 Workshop, held at the Center for Brains, Minds & Machines at MIT and organized by Penn State, MIT, and The Ultraintelligence Foundation, brought together researchers in astrophysics, engineering, artificial intelligence, computer science, and philosophy to examine \"Dyson Minds\" -- large-scale post-biological intelligences powered by energy harvested from supermassive black holes (SMBHs). Building on the ideas of F. J. Dyson (1960, 1966) and I. J. Good (1966), participants ex",
+      "published": "2026-04-23T17:38:36Z",
+      "authors": [
+        "Olivia Curtis",
+        "Van Hunter Adams",
+        "Daniel Angerhausen",
+        "Joseph Bates",
+        "Anamaria Berea"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Multimodal Text- and Graph-Based Approach for Open-Domain Event Extraction from Documents",
+      "link": "https://arxiv.org/abs/2604.21885v1",
+      "summary": "Event extraction is essential for event understanding and analysis. It supports tasks such as document summarization and decision-making in emergency scenarios. However, existing event extraction approaches have limitations: (1) closed-domain algorithms are restricted to predefined event types and thus rarely generalize to unseen types and (2) open-domain event extraction algorithms, capable of handling unconstrained event types, have largely overlooked the potential of large language models (LL",
+      "published": "2026-04-23T17:33:44Z",
+      "authors": [
+        "Praval Sharma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Testing solitonic boson star interpretations of Sagittarius A* with near-infrared flare astrometry",
+      "link": "https://arxiv.org/abs/2604.21883v1",
+      "summary": "We use GRAVITY near-infrared (NIR) flare astrometry to test whether Sagittarius A* could be a solitonic boson star. We consider five spherically symmetric solitonic boson-star models with different effective radii, together with the Schwarzschild black hole. Treating the flares as hot spots on circular equatorial orbits, we analyze their centroid motions and images in these spacetimes and use them for parameter fitting. We perform the fitting using both $χ^2$ analysis and Markov Chain Monte Carl",
+      "published": "2026-04-23T17:27:30Z",
+      "authors": [
+        "Xiangyu Wang",
+        "Zhenyu Zhang",
+        "Hai-Qing Zhang",
+        "Minyong Guo",
+        "Bin Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms",
+      "link": "https://arxiv.org/abs/2604.21882v1",
+      "summary": "Understanding what kinds of factual knowledge large language models (LLMs) memorize is essential for evaluating their reliability and limitations. Entity-based QA is a common framework for analyzing non-verbatim memorization, but typical evaluations query each entity using a single canonical surface form, making it difficult to disentangle fact memorization from access through a particular name. We introduce RedirectQA, an entity-based QA dataset that uses Wikipedia redirect information to assoc",
+      "published": "2026-04-23T17:25:32Z",
+      "authors": [
+        "Yuto Nishida",
+        "Naoki Shikoda",
+        "Yosuke Kishinami",
+        "Ryo Fujii",
+        "Makoto Morishita"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SPAC: Automating FPGA-based Network Switches with Protocol Adaptive Customization",
+      "link": "https://arxiv.org/abs/2604.21881v1",
+      "summary": "With network requirements diverging across emerging applications, latency-critical services demand minimal logic delay, while hyperscale training and collectives require sustained line-rate throughput for synchronized bulk transfers. This divergence creates an urgent need for custom network switches tailored to specialized protocols and application-specific traffic patterns. This paper presents SPAC (Switch and Protocol Adaptive Customization), a novel approach that automates the generation of F",
+      "published": "2026-04-23T17:25:03Z",
+      "authors": [
+        "Guoyu Li",
+        "Yang Cao",
+        "Lucas H L Ng",
+        "Alexander Charlton",
+        "Qianzhou Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gradual Voluntary Participation: A Framework for Participatory AI Governance in Journalism",
+      "link": "https://arxiv.org/abs/2604.21878v1",
+      "summary": "The integration of AI into journalism challenges participatory design (PD), particularly with respect to stakeholder influence, workplace perceptions, and organizational dynamics. Traditional PD assumes that users can shape technologies, yet AI systems resist influence due to opaque data, fixed architectures, and inaccessible objectives. Through interviews with 10 journalists, we identify the perception gap, showing that trust in AI depends on perceived agency within workplace participatory work",
+      "published": "2026-04-23T17:21:50Z",
+      "authors": [
+        "Matilde Barbini",
+        "Stefano Sorrentino",
+        "Daniel Gatica-Perez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Loss-biased fault-tolerant quantum error correction",
+      "link": "https://arxiv.org/abs/2604.21876v1",
+      "summary": "We investigate the limits of quantum error correction (QEC) in neutral-atom processors approaching high-fidelity gates and fast cycle times. We show that shorter QEC cycles amplify platform-specific errors, notably Rydberg excitation hopping, and hinder decay of residual Rydberg population, leading to non-Markovian correlated errors that degrade logical performance. To address this, we introduce loss biasing, where spurious Rydberg excitations are rapidly converted into atom loss via mid-circuit",
+      "published": "2026-04-23T17:21:39Z",
+      "authors": [
+        "Laura Pecorari",
+        "Gavin K. Brennen",
+        "Stanimir S. Kondov",
+        "Guido Pupillo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Grounding Video Reasoning in Physical Signals",
+      "link": "https://arxiv.org/abs/2604.21873v1",
+      "summary": "Physical video understanding requires more than naming an event correctly. A model can answer a question about pouring, sliding, or collision from textual regularities while still failing to localize the event in time or space. We introduce a grounded benchmark for physical video understanding that extends the what--when--where evaluation structure of V-STaR to four video sources, six physics domains, three prompt families (physics, vstar_like, and neutral_rstr), and four input conditions (origi",
+      "published": "2026-04-23T17:17:18Z",
+      "authors": [
+        "Alibay Osmanli",
+        "Zixu Cheng",
+        "Shaogang Gong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quark and gluon production in the presence of the time-varying chiral magnetic current",
+      "link": "https://arxiv.org/abs/2604.21872v1",
+      "summary": "The chiral magnetic effect consists in the induction of the electric current along the direction of the magnetic field. The corresponding transport coefficient $b_0$, known as the chiral magnetic conductivity, is proportional to the chiral imbalance in the medium. In many systems, such as quark-gluon plasma, $b_0$ is time-dependent. This paper studies the effect of the time variation of $b_0$ on the particle spectra and energy loss produced through the chiral Cherenkov and associated processes i",
+      "published": "2026-04-23T17:16:10Z",
+      "authors": [
+        "Kirill Tuchin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions",
+      "link": "https://arxiv.org/abs/2604.21871v1",
+      "summary": "Human moral judgment is context-dependent and modulated by interpersonal relationships. As large language models (LLMs) increasingly function as decision-support systems, determining whether they encode these social nuances is critical. We characterize machine behavior using the Whistleblower's Dilemma by varying two experimental dimensions: crime severity and relational closeness. Our study evaluates three distinct perspectives: (1) moral rightness (prescriptive norms), (2) predicted human beha",
+      "published": "2026-04-23T17:14:18Z",
+      "authors": [
+        "Jiseon Kim",
+        "Jea Kwon",
+        "Luiz Felipe Vecchietti",
+        "Wenchao Dong",
+        "Jaehong Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Locating acts of mechanistic reasoning in student team conversations with mechanistic machine learning",
+      "link": "https://arxiv.org/abs/2604.21870v1",
+      "summary": "STEM education researchers are often interested in identifying moments of students' mechanistic reasoning for deeper analysis, but have limited capacity to search through many team conversation transcripts to find segments with a high concentration of such reasoning. We offer a solution in the form of an interpretable machine learning model that outputs time-varying probabilities that individual students are engaging in acts of mechanistic reasoning, leveraging evidence from their own utterances",
+      "published": "2026-04-23T17:13:25Z",
+      "authors": [
+        "Kaitlin Gili",
+        "Mainak Nistala",
+        "Kristen Wendell",
+        "Michael C. Hughes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analytical and Machine Learning Methods for Model Discernment at CE$ν$NS Experiments",
+      "link": "https://arxiv.org/abs/2604.21869v1",
+      "summary": "Neutrino experiments are often limited by low statistics, sizable systematic uncertainties, and coarse observable binning, which can hinder discrimination among competing beyond-the-Standard-Model (BSM) explanations of anomalous signals. In particular, analyses based primarily on total event-rate differences are vulnerable to source-normalization uncertainties and to degeneracies among models that induce similar inclusive yields. Using stopped-pion coherent elastic neutrino-nucleus scattering (C",
+      "published": "2026-04-23T17:08:40Z",
+      "authors": [
+        "Iain A. Bisset",
+        "Bhaskar Dutta",
+        "Doojin Kim",
+        "Samiran Sinha",
+        "Joel W. Walker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Extending Hamiltonian-Adaptive Resolution Simulation to Interfaces: An Updated LAMMPS Implementation and Application to Porous Solids",
+      "link": "https://arxiv.org/abs/2604.21867v1",
+      "summary": "Many natural phenomena involve processes that happen simultaneously at different characteristic length- and timescales. Typically, the region where the process of interest happens is affected by fluctuations in its surroundings. Modeling these systems requires an effective combination of simulation resolutions. The Hamiltonian-Adaptive Resolution Simulation (H-AdResS) method allows to model dual-resolution systems in length- and time-scales compatible with molecular diffusion, by combining atomi",
+      "published": "2026-04-23T17:06:22Z",
+      "authors": [
+        "Hari Haran Sudhakar",
+        "Alessandra Serva",
+        "Rocio Semino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "High-performance cellular automaton decoders for quantum repetition and toric code",
+      "link": "https://arxiv.org/abs/2604.21866v1",
+      "summary": "Execution of quantum algorithms on large-scale quantum computers will require extremely low logical error rates, which necessitates the development of scalable decoding architectures. Local decoders are promising candidates for this task, as they avoid the communication and data processing bottlenecks inherent in global decoding strategies. Cellular automaton (CA) decoders represent a distinct class of local decoders, offering a path toward the low-latency, real-time decoding required for practi",
+      "published": "2026-04-23T17:01:26Z",
+      "authors": [
+        "Don Winter",
+        "Thiago L. M. Guedes",
+        "Markus Müller"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonparametric f-Modeling for Empirical Bayes Inference with Unequal and Unknown Variances",
+      "link": "https://arxiv.org/abs/2604.21865v1",
+      "summary": "Empirical Bayes methods are widely used for large-scale inference, yet most classical approaches assume homoscedastic observations and focus primarily on posterior mean estimation. We develop a nonparametric empirical Bayes framework for the heteroscedastic normal means problem with unequal and unknown variances. Our first contribution is a generalized Tweedie-type identity that expresses the Bayes estimator entirely in terms of the joint marginal density of the observed statistics and its parti",
+      "published": "2026-04-23T17:01:23Z",
+      "authors": [
+        "Zhigen Zhao",
+        "Shonosuke Sugaasawa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FAccT-Checked: A Narrative Review of Authority Reconfigurations and Retention in AI-Mediated Journalism",
+      "link": "https://arxiv.org/abs/2604.21864v1",
+      "summary": "Building on recent interpretivist approaches, we conduct a critical narrative review across journalism studies, human-computer interaction, and FAccT scholarship, conceptualizing editorial authority as the conjunction of decision rights, epistemic warrant, and responsibility. We provide a comprehensive theoretical framework for addressing how concerns on fairness, accountability and transparency emerge, interact, and persist within AI mediated journalistic practice. We identify and describe two ",
+      "published": "2026-04-23T17:00:15Z",
+      "authors": [
+        "Stefano Sorrentino",
+        "Matilde Barbini",
+        "Daniel Gatica-Perez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neuromorphic Computing Based on Parametrically-Driven Oscillators and Frequency Combs",
+      "link": "https://arxiv.org/abs/2604.21861v1",
+      "summary": "Parametrically driven oscillators provide a natural platform for neuromorphic computation, where nonlinear mode coupling and intrinsic dynamics enable both memory and high-dimensional transformation. Here, we investigate a two-mode system exhibiting 2:1 parametric resonance and demonstrate its operation as a reservoir computer across distinct dynamical regimes, including sub-threshold, parametric resonance, and frequency-comb states. By encoding input signals into the drive amplitude and samplin",
+      "published": "2026-04-23T16:57:58Z",
+      "authors": [
+        "Mahadev Sunil Kumar",
+        "Adarsh Ganesan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Transient Turn Injection: Exposing Stateless Multi-Turn Vulnerabilities in Large Language Models",
+      "link": "https://arxiv.org/abs/2604.21860v1",
+      "summary": "Large language models (LLMs) are increasingly integrated into sensitive workflows, raising the stakes for adversarial robustness and safety. This paper introduces Transient Turn Injection(TTI), a new multi-turn attack technique that systematically exploits stateless moderation by distributing adversarial intent across isolated interactions. TTI leverages automated attacker agents powered by large language models to iteratively test and evade policy enforcement in both commercial and open-source ",
+      "published": "2026-04-23T16:56:14Z",
+      "authors": [
+        "Naheed Rayhan",
+        "Sohely Jahan"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
