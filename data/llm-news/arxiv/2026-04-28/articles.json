@@ -1,0 +1,648 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "link": "https://arxiv.org/abs/2604.24764v1",
+      "summary": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a framework that aligns video generation with 3D constraints through reinforcement learning. To facilitate this alignment, we introduce a specialized pure text dataset tailored for world simulation. Utiliz",
+      "published": "2026-04-27T17:59:56Z",
+      "authors": [
+        "Weijie Wang",
+        "Xiaoxuan He",
+        "Youping Gu",
+        "Yifan Yang",
+        "Zeyu Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+      "link": "https://arxiv.org/abs/2604.24763v1",
+      "summary": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal model that performs visual understanding and generation directly based on pixel embeddings. Tuna-2 drastically simplifies the model architecture by employing simple patch embedding layers to encode vi",
+      "published": "2026-04-27T17:59:56Z",
+      "authors": [
+        "Zhiheng Liu",
+        "Weiming Ren",
+        "Xiaoke Huang",
+        "Shoufa Chen",
+        "Tianhong Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer",
+      "link": "https://arxiv.org/abs/2604.24762v1",
+      "summary": "Shot Boundary Detection (SBD) aims to automatically identify shot changes and divide a video into coherent shots. While SBD was widely studied in the literature, existing state-of-the-art methods often produce non-interpretable boundaries on transitions, miss subtle yet harmful discontinuities, and rely on noisy, low-diversity annotations and outdated benchmarks. To alleviate these limitations, we propose OmniShotCut to formulate SBD as structured relational prediction, jointly estimating shot r",
+      "published": "2026-04-27T17:59:19Z",
+      "authors": [
+        "Boyang Wang",
+        "Guangyi Xu",
+        "Zhipeng Tang",
+        "Jiahui Zhang",
+        "Zezhou Cheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cosmological Impact of Redshift-Dependent Type Ia Supernovae Calibration",
+      "link": "https://arxiv.org/abs/2604.24761v1",
+      "summary": "Type Ia supernovae (SNIa) play a central role in constraining the late-time expansion history of the Universe and are directly implicated in current cosmological tensions. Motivated by the possibility of unaccounted redshift-dependent calibration systematics or new physics, we investigate the impact of a phenomenological correction to SNIa magnitudes that scales with cosmic look-back time. We parameterize this effect with a free amplitude and constrain it using a combination of cosmic microwave ",
+      "published": "2026-04-27T17:59:07Z",
+      "authors": [
+        "Seyed Hamidreza Mirpoorian",
+        "Meng-Xiang Lin",
+        "Levon Pogosian"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Contracting Tensor Networks with Generalized Belief Propagation",
+      "link": "https://arxiv.org/abs/2604.24760v1",
+      "summary": "Recent years have seen a growing interest in the use of belief propagation - an algorithm originally introduced for performing statistical inference on graphical models - for approximate, but highly efficient, tensor network contraction. Here, we detail how to apply generalized belief propagation (GBP) - where messages are passed within a hierarchy of overlapping regions of the tensor network - to approximately contract tensor networks and obtain accurate results. The original belief propagation",
+      "published": "2026-04-27T17:59:03Z",
+      "authors": [
+        "Joseph Tindall",
+        "Grace M. Sommers",
+        "Hilbert Kappen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The lifetime of 100,000 molecular clouds in the nearby Universe",
+      "link": "https://arxiv.org/abs/2604.24759v1",
+      "summary": "Multiple mechanisms are proposed for the formation of giant molecular clouds (GMCs), from gravitational free-fall caused by self-gravity to stellar feedback-driven gas compression. Both the galactic environment and galaxy conditions could play an additional role in enhancing the formation via their gas surface density and star formation activity. In this paper, we make use of a catalog of 108,466 GMCs identified by F770W PHANGS--JWST imaging across 66 galaxies at a homogenized resolution of 30~p",
+      "published": "2026-04-27T17:58:03Z",
+      "authors": [
+        "Z. Bazzi",
+        "M. I. N. Kobayashi",
+        "D. Colombo",
+        "F. Bigiel",
+        "A. K. Leroy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
+      "link": "https://arxiv.org/abs/2604.24758v1",
+      "summary": "Adaptive programming practice often relies on fixed libraries of worked examples and practice problems, which require substantial authoring effort and may not correspond well to the logical errors and partial solutions students produce while writing code. As a result, students may receive learning content that does not directly address the concepts they are working to understand, while instructors must either invest additional effort in expanding content libraries or accept a coarse level of per",
+      "published": "2026-04-27T17:56:56Z",
+      "authors": [
+        "Griffin Pitts",
+        "Muntasir Hoq",
+        "Peter Brusilovsky",
+        "Narges Norouzi",
+        "Arto Hellas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Strongly Polynomial Algorithm for Arctic Auctions",
+      "link": "https://arxiv.org/abs/2604.24756v1",
+      "summary": "Our main contribution is a strongly polynomial algorithm for computing an equilibrium for the Arctic Auction, which is the quasi-linear extension of the linear Fisher market model. We build directly on Orlin's strongly polynomial algorithm for the linear Fisher market (Orlin, 2010). The first combinatorial polynomial algorithm for the linear Fisher market was based on the primal-dual paradigm (Devanur et al., 2008). This was followed by Orlin's scaling-based algorithms. The Arctic Auction (Klemp",
+      "published": "2026-04-27T17:56:14Z",
+      "authors": [
+        "Jugal Garg",
+        "Shayan Taherijam",
+        "Vijay V Vazirani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Non-Abelian Particle-Loop, Fracton, and Planon Condensation in Cage-Net Models",
+      "link": "https://arxiv.org/abs/2604.24755v1",
+      "summary": "We present a framework for non-Abelian p-loop, fracton, and planon condensation in 3+1 dimensions by constructing extended cage-net fracton models using decoupled layers of the Hu-Geer-Wu (HGW) string-net model. These cage-net models extend the conventional cage-net models based on the Levin-Wen (LW) string-net model in the sense that they inherit the tail degrees of freedom of the HGW models, which are essential for completely describing the internal spaces of quasiparticles. This approach allo",
+      "published": "2026-04-27T17:55:47Z",
+      "authors": [
+        "Yifei Wang",
+        "Yu Zhao",
+        "Yingcheng Li",
+        "Hao Song",
+        "Yidun Wan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Joint Sato-Tate Laws for Transformations of Hecke Eigenvalues: The Vertical Case",
+      "link": "https://arxiv.org/abs/2604.24753v1",
+      "summary": "We introduce a framework within which a large class of joint equidistribution problems can be studied and resolved with effective error terms. This involves proving a higher dimensional and $μ$-analogue of the Erdös-Turán inequality, and utilizing the theory of the Hardy-Krause (H-K) variation from analysis, where, in particular, we formulate a technique to approximate a broad class of relevant functions by functions of bounded H-K variation. Our main focus will be on the vertical Sato-Tate prob",
+      "published": "2026-04-27T17:55:14Z",
+      "authors": [
+        "Mohammad H. Hamdar",
+        "Tian Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dynamical preparation of U(1) quantum spin liquids in an analogue quantum simulator",
+      "link": "https://arxiv.org/abs/2604.24744v1",
+      "summary": "Locally constrained gauge theories underpin our understanding of fundamental interactions in particle physics and the emergent behaviour of quantum materials. In strongly correlated systems, they can give rise to quantum spin liquids that lack conventional order and are defined by coherent superpositions of an extensive number of many-body configurations. Realising and probing such exotic states experimentally is an outstanding challenge both in solid-state and synthetic quantum systems, not lea",
+      "published": "2026-04-27T17:46:14Z",
+      "authors": [
+        "Simon Karch",
+        "Melissa Will",
+        "Irene Prieto Rodriguez",
+        "Nikolas Liebster",
+        "SeungJung Huh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The impact of disorder and non-convex interactions on delocalisation of height functions",
+      "link": "https://arxiv.org/abs/2604.24743v1",
+      "summary": "We study the behaviour of four spins systems (the XY model, the Villain model, the XY height function and the integer-valued Gaussian free field) in the presence of a non-elliptic quenched disorder. In the article [DG25], it was shown that the phase transitions of the XY model (the Berezinskii-Kosterlitz-Thouless phase transition in $d = 2$ and the order/disorder phase transition when $d \\geq 3$) persist on the infinite cluster of a supercritical Bernoulli percolation. A first objective of this ",
+      "published": "2026-04-27T17:45:54Z",
+      "authors": [
+        "Paul Dario",
+        "Diederik van Engelenburg",
+        "Christophe Garban"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Application of a Quantum Amplitude Redistribution Algorithm to the Data Filtering Problem",
+      "link": "https://arxiv.org/abs/2604.24742v1",
+      "summary": "This paper presents an analysis of the applicability of a quantum amplitude redistribution algorithm to the data filtering problem and the results of modeling the algorithm's operation in comparison with a median filter.",
+      "published": "2026-04-27T17:45:29Z",
+      "authors": [
+        "Karina Zakharova",
+        "Artem Chernikov",
+        "Sergey Sysoev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Universal tracer statistics in single-file transport",
+      "link": "https://arxiv.org/abs/2604.24741v1",
+      "summary": "We uncover an emergent universality in the large-scale, long-time statistics of a one-dimensional hard-rod gas evolving under two fundamentally different classes of microscopic dynamics: stochastic (diffusive) and unitary (ballistic). Remarkably, despite the difference of the two systems, the one-time joint distribution of the positions of multiple tracers exhibits identical non-Gaussian fluctuations, up to a simple dynamical scaling. This universality holds in both annealed and quenched ensembl",
+      "published": "2026-04-27T17:44:36Z",
+      "authors": [
+        "Soumyabrata Saha",
+        "Jitendra Kethepalli",
+        "Benjamin Guiselin",
+        "Jacopo De Nardis",
+        "Tridib Sadhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CAbLECAR: efficiently scheduling QLDPC codes on a tileable spin qubit chip with shuttling",
+      "link": "https://arxiv.org/abs/2604.24739v1",
+      "summary": "Semiconductor spin qubits are a promising platform for large-scale quantum computing, but have yet to take full advantage of the broad class of quantum low-density parity check (QLDPC) codes, which promise high encoding rates and efficient logic but require nonlocal connectivity between physical qubits. In this work, we investigate the implementation of QLDPC codes on a tileable, shuttling-based spin qubit architecture. By tailoring syndrome extraction circuits to the shuttling noise model, we s",
+      "published": "2026-04-27T17:44:08Z",
+      "authors": [
+        "Jason D. Chadwick",
+        "Frederic T. Chong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Parametric Statistical Inference in the Zone of Moderate Deviation Probabilities",
+      "link": "https://arxiv.org/abs/2604.24736v1",
+      "summary": "A parametric theory of statistical inference is developed for the moderate deviation probability zone. The new approach to the proofs is based on the Taylor series expansion of the logarithm of the likelihood ratio based on the Hellinger distance. The Large Deviation Principle in the moderate deviation probability zone is proven for Bayesian estimators and maximum likelihood estimators. A uniform approximation of the logarithm of the likelihood ratio and Theorem on concentration of the posterior",
+      "published": "2026-04-27T17:42:35Z",
+      "authors": [
+        "Mikhail Ermakov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Quantum Contextuality disappears in the Classical Limit",
+      "link": "https://arxiv.org/abs/2604.24735v1",
+      "summary": "The emergence of classicality is fundamentally driven by the interaction between a quantum system and its environment. Foundational open-system approaches, notably the Caldeira-Leggett model, successfully captured how these interactions lead to macroscopic effects like quantum dissipation and decoherence. However, these approaches often leave the precise definitions of classicality and quantumness ambiguous. In quantum information theory, this boundary is a heavily scrutinized question, and Koch",
+      "published": "2026-04-27T17:42:27Z",
+      "authors": [
+        "Arthur C. R. Dutra",
+        "Roberto D. Baldijão",
+        "Marcelo Terra Cunha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Error analysis for the approximation of a flow in deformable porous media with nonlinear strain-stress relation",
+      "link": "https://arxiv.org/abs/2604.24731v1",
+      "summary": "We study a model describing the slow flow of a fluid through a deformable, porous, elastic solid undergoing small deformations. The stress-strain relationship of the solid incorporates nonlinear effects, formulated as a perturbation of the classical linear elasticity. To approximate the coupled system, we introduce a discrete scheme based on a first order semi-implicit time integration scheme combined with a standard finite element spatial discretization. We establish the existence and uniquenes",
+      "published": "2026-04-27T17:41:24Z",
+      "authors": [
+        "Andrea Bonito",
+        "Vivette Girault",
+        "Diane Guignard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VEHRON: A Configuration-Driven BEV Simulation Framework for Subsystem-Level Studies",
+      "link": "https://arxiv.org/abs/2604.24726v1",
+      "summary": "In practical early-stage battery-electric vehicle studies, analysis workflows may become fragmented across spreadsheets, notebooks, and project-specific scripts, making reuse, audit, and extension harder. VEHRON is an open-source Python framework for a deterministic, traceable workflow built around prescribed-speed longitudinal simulation of battery-electric vehicles using validated YAML configuration, packaged drive-cycle resources, interchangeable subsystem models, and auditable case outputs. ",
+      "published": "2026-04-27T17:37:12Z",
+      "authors": [
+        "Subramanyam Natarajan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Chemotaxis compressible Navier-Stokes equations with density-dependent viscosity modeling vascular network formation",
+      "link": "https://arxiv.org/abs/2604.24725v1",
+      "summary": "The existence of global weak solutions to the compressible Navier-Stokes equations for the density of endothelial cells and their velocity, coupled to a reaction-diffusion equation for the concentration of the chemoattractant, is established in a three-dimensional torus for energy-finite initial data. The coupling of the equations arises through the chemotaxis force, which contributes to the momentum balance equation, and the signal production due to the cells in the chemotaxis equation. The equ",
+      "published": "2026-04-27T17:36:32Z",
+      "authors": [
+        "Ansgar Jüngel",
+        "Flora Philipp"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data-Driven Privacy-Preserving Modeling and Frequency Regulation with Aggregated Electric Vehicles via Bilinear Hidden Markov Model",
+      "link": "https://arxiv.org/abs/2604.24724v1",
+      "summary": "Vehicle-to-Grid (V2G) technology allows bidirectional power flow for real-time grid support, making electric vehicles (EVs) well-suited for ancillary services such as frequency regulation. However, existing methods for flexibility estimation and coordinating aggregated EVs often rely on individual EV traveling information (e.g., arrival/departure time) and/or characteristic parameters (e.g., charging efficiency, battery capacity) as well as real-time state-of-charge (SOC), which raises privacy c",
+      "published": "2026-04-27T17:34:41Z",
+      "authors": [
+        "Yiping Liu",
+        "Xiaozhe Wang",
+        "Geza Joos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient Multivariate Kelly Optimization Reveals Sigmoidal Scaling Laws",
+      "link": "https://arxiv.org/abs/2604.24723v1",
+      "summary": "For a sequence of binary bets, the Kelly criterion provides a closed-form solution that maximizes the expected growth rate of wealth. In contrast, when multiple bets are placed simultaneously (e.g., in portfolio allocation or prediction markets), the optimal Kelly strategy generally requires numerical optimization over a joint outcome space. A naive formulation scales exponentially in the number of bets, requiring $O(2^N)$ time and memory for $N$ simultaneous wagers, which restricts existing met",
+      "published": "2026-04-27T17:32:57Z",
+      "authors": [
+        "Ruslan Tepelyan",
+        "Daniel Lam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Floquet engineering of tight-binding Hamiltonians in momentum space lattices",
+      "link": "https://arxiv.org/abs/2604.24722v1",
+      "summary": "Quantum simulation with ultracold atoms provides a versatile platform to emulate condensed-matter models. In particular, momentum-space lattices enable the realization of programmable tight-binding Hamiltonians. Here, we generalize this approach by exploiting quantum resonances of a periodically driven (shaken) rotor within the Floquet framework. Using first-order time-dependent perturbation theory, we derive analytical relations between the lattice modulation and the effective tight-binding par",
+      "published": "2026-04-27T17:32:44Z",
+      "authors": [
+        "D. Ronco",
+        "F. Arrouas",
+        "N. Ombredane",
+        "E. Flament",
+        "Q. Levoy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dynamical Modeling of the Broad-Line Region with High-Mass Active Galactic Nuclei and Constraints on the Virial Factor",
+      "link": "https://arxiv.org/abs/2604.24721v1",
+      "summary": "We present the results of broad-line region (BLR) dynamical modeling for eight high-mass active galactic nuclei (AGNs) from the Seoul National University AGN Monitoring Project, by constraining BLR geometry and kinematics as well as black hole (BH) mass ($M_{\\rm BH}$). We find that the H$β$-emitting BLRs are best described as thick disks viewed at intermediate inclinations, with emission preferentially originating from the far side of the BLR. BLR kinematics show a combination of rotational, inf",
+      "published": "2026-04-27T17:31:17Z",
+      "authors": [
+        "Shu Wang",
+        "Jong-Hak Woo",
+        "Lizvette Villafaña",
+        "Tommaso Treu",
+        "Elena Gallo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sentiment and Emotion Classification of Indonesian E-Commerce Reviews via Multi-Task BiLSTM and AutoML Benchmarking",
+      "link": "https://arxiv.org/abs/2604.24720v1",
+      "summary": "Indonesian marketplace reviews mix standard vocabulary with slang, regional loanwords, numeric shorthands, and emoji, making lexicon-based sentiment tools unreliable in practice. This paper describes a two-track classification pipeline applied to the PRDECT-ID dataset, which contains 5,400 product reviews from 29 Indonesian e-commerce categories, each labeled for binary sentiment (Positive/Negative) and five-class emotion (Happy, Sad, Fear, Love, Anger). The first track applies TF-IDF vectorizat",
+      "published": "2026-04-27T17:30:38Z",
+      "authors": [
+        "Hermawan Manurung",
+        "Ibrahim Al-Kahfi",
+        "Ahmad Rizqi",
+        "Martin Clinton Tosima Manullang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DiffuSAM: Diffusion-Based Prompt-Free SAM2 for Few-Shot and Source-Free Medical Image Segmentation",
+      "link": "https://arxiv.org/abs/2604.24719v1",
+      "summary": "Segmentation models such as Segment Anything Model (SAM) and SAM2 achieve strong prompt-driven zero-shot performance. However, their training on natural images limits domain transfer to medical data. Consequently, accurate segmentation typically requires extensive fine-tuning and expert-designed prompts. We propose DiffuSAM, a diffusion-based adaptation of SAM2 for prompt-free medical image segmentation. Our framework synthesizes SAM2-compatible segmentation mask-like embeddings via a lightweigh",
+      "published": "2026-04-27T17:29:53Z",
+      "authors": [
+        "Tal Grossman",
+        "Noa Cahan",
+        "Lev Ayzenberg",
+        "Hayit Greenspan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
+      "link": "https://arxiv.org/abs/2604.24718v1",
+      "summary": "Monocular RGB cameras mounted on drones are widely used for wildlife monitoring, yet most analytical pipelines remain confined to two-dimensional image space, leaving geometric information in video underexploited. We present WildLIFT, a computational framework that integrates three-dimensional scene geometry from monocular drone video with open-vocabulary 2D instance segmentation to enable species-agnostic 3D detection and tracking. Oriented 3D bounding box labels with semantic face information ",
+      "published": "2026-04-27T17:29:22Z",
+      "authors": [
+        "Vandita Shukla",
+        "Fabio Remondino",
+        "Blair Costelloe",
+        "Benjamin Risse"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning to Rotate: Temporal and Semantic Rotary Encoding for Sequential Modeling",
+      "link": "https://arxiv.org/abs/2604.24717v1",
+      "summary": "Every Transformer architecture dedicates enormous capacity to learning rich representations in semantic embedding space -- yet the rotation manifold acted upon by Rotary Positional Embeddings (RoPE) has been treated as a fixed, hand-crafted structure, populated only by discrete ordinal indices. We argue that this rotation space is a largely overlooked second dimension of expressivity in the attention mechanism, one whose systematic exploration may open a new door for attention-based architecture",
+      "published": "2026-04-27T17:26:15Z",
+      "authors": [
+        "Hailing Cheng",
+        "Daqi Sun",
+        "Xinyu Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gate-dependent offset charge shifts and anharmonicity in gatemon qubits in the weak tunneling regime",
+      "link": "https://arxiv.org/abs/2604.24716v1",
+      "summary": "Gatemon qubits are based on a superconductor-quantum dot-superconductor (S-QD-S) junction which enables in situ electrostatic tuning via a gate electrode. For a single-channel QD this structure gives rise to two subgap Andreev bound states (ABSs), and generally leads to a richer quantum phase dynamics as compared to conventional transmons. In a recent work [Phys. Rev. B 111, 214503 (2025)] we derived the quantum phase dynamics from a many-body treatment which leads to an effective gate voltage-d",
+      "published": "2026-04-27T17:24:20Z",
+      "authors": [
+        "Utkan Güngördü",
+        "Rusko Ruskov",
+        "Silas Hoffman",
+        "Kyle Serniak",
+        "Andrew J. Kerman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling",
+      "link": "https://arxiv.org/abs/2604.24715v1",
+      "summary": "Hybrid sequence models that combine efficient Transformer components with linear sequence modeling blocks are a promising alternative to pure Transformers, but most are still pretrained from scratch and therefore fail to reuse existing Transformer checkpoints. We study upcycling as a practical path to convert pretrained Transformer LLMs into hybrid architectures while preserving short-context quality and improving long-context capability. We call our solution \\emph{HyLo} (HYbrid LOng-context): a",
+      "published": "2026-04-27T17:23:37Z",
+      "authors": [
+        "Parsa Ashrafi Fashi",
+        "Utkarsh Saxena",
+        "Mehdi Rezagholizadeh",
+        "Aref Jafari",
+        "Akash Haridas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Homology-based Morphometry of Brain Atrophy: Methods and Applications",
+      "link": "https://arxiv.org/abs/2604.24714v1",
+      "summary": "Understanding the structure of the brain, and how it changes with time and disease, is a core goal of structural neuroimaging. Contemporary approaches to structural brain analysis are dominated by voxel-wise, mass-univariate methods such as voxel-based morphometry (VBM). However, these techniques require images to be normalized to a standard template, which can obscure subject-specific geometric features. Normalization to a common stereotactic space can also be problematic when comparing groups ",
+      "published": "2026-04-27T17:22:47Z",
+      "authors": [
+        "Donato Quiccione",
+        "Mariam Pirashvili",
+        "Nathan Broomhead",
+        "Sean J. Fallon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Prompt Under-Specification Improves Code Correctness: An Exploratory Study of Prompt Wording and Structure Effects on LLM-Based Code Generation",
+      "link": "https://arxiv.org/abs/2604.24712v1",
+      "summary": "Large language models are increasingly used for code generation, yet the correctness of their outputs depends not only on model capability but also on how tasks are specified. Prior studies demonstrate that small changes in natural language prompts, particularly under-specification can substantially reduce code correctness; however, these findings are largely based on minimal-specification benchmarks such as HumanEval and MBPP, where limited structural redundancy may exaggerate sensitivity. In t",
+      "published": "2026-04-27T17:21:09Z",
+      "authors": [
+        "Amal AKLI",
+        "Mike PAPADAKIS",
+        "Maxime CORDY",
+        "Yves Le TRAON"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Case-Specific Rubrics for Clinical AI Evaluation: Methodology, Validation, and LLM-Clinician Agreement Across 823 Encounters",
+      "link": "https://arxiv.org/abs/2604.24710v1",
+      "summary": "Objective. Clinical AI documentation systems require evaluation methodologies that are clinically valid, economically viable, and sensitive to iterative changes. Methods requiring expert review per scoring instance are too slow and expensive for safe, iterative deployment. We present a case-specific, clinician-authored rubric methodology for clinical AI evaluation and examine whether LLM-generated rubrics can approximate clinician agreement.   Materials and Methods. Twenty clinicians authored 1,",
+      "published": "2026-04-27T17:17:56Z",
+      "authors": [
+        "Aaryan Shah",
+        "Andrew Hines",
+        "Alexia Downs",
+        "Denis Bajet",
+        "Paulius Mui"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A rational model for the fiberwise THH transfer II: $A_\\infty$-algebras",
+      "link": "https://arxiv.org/abs/2604.24709v1",
+      "summary": "In Part I, we proved that a rational model for the fiberwise THH transfer of a map $f$ of fibrations over a base space is given by the Hochschild homology transfer of a cdga model of $f$. In this paper, we provide an explicit description of this Hochschild homology transfer in terms of $A_\\infty$-algebras, generalizing work of Bouc. Using a result of Lind-Malkiewich, we deduce a rational model for the Becker-Gottlieb transfer. We furthermore use our results for the following applications to mani",
+      "published": "2026-04-27T17:17:28Z",
+      "authors": [
+        "Florian Naef",
+        "Robin Stoll"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models",
+      "link": "https://arxiv.org/abs/2604.24708v1",
+      "summary": "Training large neural networks with data-parallel stochastic gradient descent allocates N GPU replicas to compute effectively identical updates -- a practice that leaves the rich space of learning rate configurations entirely unexplored during training. We propose Hyperparameter-Divergent Ensemble Training (HDET), a method that repurposes these replicas for simultaneous learning rate exploration at negligible communication overhead. HDET operates in alternating phases: a fan-out stage in which r",
+      "published": "2026-04-27T17:17:28Z",
+      "authors": [
+        "Hailing Cheng",
+        "Tao Huang",
+        "Chen Zhu",
+        "Antonio Alonso"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Passage-Aware Structural Mapping for RGB-D Visual SLAM",
+      "link": "https://arxiv.org/abs/2604.24707v1",
+      "summary": "Doorways and passages are critical structural elements for indoor robot navigation, yet they remain underexplored in modern Visual SLAM (VSLAM) frameworks. This paper presents a passage-aware structural mapping approach for RGB-D VSLAM that detects doors and traversable openings by jointly fusing geometric, semantic, and topological cues. Doors are modeled as planar entities embedded within walls and classified as traversable or non-traversable based on their coplanarity with the supporting wall",
+      "published": "2026-04-27T17:17:17Z",
+      "authors": [
+        "Ali Tourani",
+        "Miguel Fernandez-Cortizas",
+        "Saad Ejaz",
+        "David Pérez Saura",
+        "Asier Bikandi-Noya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems",
+      "link": "https://arxiv.org/abs/2604.24706v1",
+      "summary": "Learning-based control techniques use data from past trajectories to control systems with uncertain dynamics. However, learning-based controllers are often computationally inefficient, limiting their practicality. To address this limitation, we propose a learning-based controller that exploits differential flatness, a property of many robotic systems. Recent research on using flatness for learning-based control either is limited in that it (i) ignores input constraints, (ii) applies only to sing",
+      "published": "2026-04-27T17:14:17Z",
+      "authors": [
+        "Tobias A. Farger",
+        "Adam W. Hall",
+        "Angela P. Schoellig"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Energy-Arena: A Dynamic Benchmark for Operational Energy Forecasting",
+      "link": "https://arxiv.org/abs/2604.24705v1",
+      "summary": "Energy forecasting research faces a persistent comparability gap that makes it difficult to measure consistent progress over time. Reported accuracy gains are often not directly comparable because models are evaluated under study-specific datasets, time periods, information sets, and scoring setups, while widely used benchmarks and competition datasets are typically tied to fixed historical windows. This paper introduces the Energy-Arena, a dynamic benchmarking platform for operational energy ti",
+      "published": "2026-04-27T17:14:01Z",
+      "authors": [
+        "Max Kleinebrahm",
+        "Jonathan Berrisch",
+        "Philipp Eiser",
+        "Wolf Fichtner",
+        "Veit Hagenmeyer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis",
+      "link": "https://arxiv.org/abs/2604.24703v1",
+      "summary": "Large language models are widely used for code generation, yet they rely on an implicit assumption that the task descriptions are sufficiently detailed and well-formed. However, in practice, users may provide defective descriptions, which can have a strong effect on code correctness. To address this issue, we develop SpecValidator, a lightweight classifier based on a small model that has been parameter-efficiently finetuned, to automatically detect task description defects. We evaluate SpecValid",
+      "published": "2026-04-27T17:07:08Z",
+      "authors": [
+        "Amal Akli",
+        "Mike Papadakis",
+        "Maxime Cordy",
+        "Yves Le Traon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Shear-driven mixing of segregated granular materials",
+      "link": "https://arxiv.org/abs/2604.24702v1",
+      "summary": "As granular materials flow and settle, interactions among particles of different sizes or properties drive mixing and segregation, producing rich dynamics that reshape systems ranging from industrial hoppers to planetary surfaces. A hallmark of such polydisperse flows is shear-driven size segregation, whereby particles rearrange so that larger grains migrate above smaller ones. Despite substantial progress in modelling granular flow and segregation, key questions concerning the underlying mechan",
+      "published": "2026-04-27T17:06:04Z",
+      "authors": [
+        "Hugo N. Ulloa",
+        "Tomás Trewhela"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Green Shielding: A User-Centric Approach Towards Trustworthy AI",
+      "link": "https://arxiv.org/abs/2604.24700v1",
+      "summary": "Large language models (LLMs) are increasingly deployed, yet their outputs can be highly sensitive to routine, non-adversarial variation in how users phrase queries, a gap not well addressed by existing red-teaming efforts. We propose Green Shielding, a user-centric agenda for building evidence-backed deployment guidance by characterizing how benign input variation shifts model behavior. We operationalize this agenda through the CUE criteria: benchmarks with authentic Context, reference standards",
+      "published": "2026-04-27T17:04:17Z",
+      "authors": [
+        "Aaron J. Li",
+        "Nicolas Sanchez",
+        "Hao Huang",
+        "Ruijiang Dong",
+        "Jaskaran Bains"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Chameleon's Limit: Investigating Persona Collapse and Homogenization in Large Language Models",
+      "link": "https://arxiv.org/abs/2604.24698v1",
+      "summary": "Applications based on large language models (LLMs), such as multi-agent simulations, require population diversity among agents. We identify a pervasive failure mode we term \\emph{Persona Collapse}: agents each assigned a distinct profile nonetheless converge into a narrow behavioral mode, producing a homogeneous simulated population. To quantify persona collapse, we propose a framework that measures how much of the persona space a population occupies (Coverage), how evenly agents spread across i",
+      "published": "2026-04-27T17:01:48Z",
+      "authors": [
+        "Yunze Xiao",
+        "Vivienne J. Zhang",
+        "Chenghao Yang",
+        "Ningshan Ma",
+        "Weihao Xuan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft",
+      "link": "https://arxiv.org/abs/2604.24697v1",
+      "summary": "Discovering causal regularities and applying them to build functional systems--the discovery-to-application loop--is a hallmark of general intelligence, yet evaluating this capacity has been hindered by the vast complexity gap between scientific discovery and real-world engineering. We introduce SciCrafter, a Minecraft-based benchmark that operationalizes this loop through parameterized redstone circuit tasks. Agents must ignite lamps in specified patterns (e.g., simultaneously or in timed seque",
+      "published": "2026-04-27T16:58:04Z",
+      "authors": [
+        "Zhou Ziheng",
+        "Huacong Tang",
+        "Jinyuan Zhang",
+        "Haowei Lin",
+        "Bangcheng Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "NeuroClaw Technical Report",
+      "link": "https://arxiv.org/abs/2604.24696v1",
+      "summary": "Agentic artificial intelligence systems promise to accelerate scientific workflows, but neuroimaging poses unique challenges: heterogeneous modalities (sMRI, fMRI, dMRI, EEG), long multi-stage pipelines, and persistent reproducibility risks. To address this gap, we present NeuroClaw, a domain-specialized multi-agent research assistant for executable and reproducible neuroimaging research. NeuroClaw operates directly on raw neuroimaging data across formats and modalities, grounding decisions in d",
+      "published": "2026-04-27T16:57:14Z",
+      "authors": [
+        "Cheng Wang",
+        "Zhibin He",
+        "Zhihao Peng",
+        "Shengyuan Liu",
+        "Yufan Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Control of the Néel vector in the quantum antiferromagnetic honeycomb lattice",
+      "link": "https://arxiv.org/abs/2604.24695v1",
+      "summary": "The switching of antiferromagnetic order and its efficient control promise to enable ultrafast manipulation of data and large storage capacity. Recently, the time-dependent Schwinger boson mean-field theory has been successfully developed to study the Néel vector switching in hypercubic antiferromagnetic lattices. In the present article, we aim at demonstrating that the approach is a well-justified framework to capture the essentials of the switching process, even in low-symmetry quantum antifer",
+      "published": "2026-04-27T16:56:24Z",
+      "authors": [
+        "Asliddin Khudoyberdiev",
+        "Dag-Björn Hering",
+        "Vanessa Sulaiman",
+        "Götz S. Uhrig"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Contextual Linear Activation Steering of Language Models",
+      "link": "https://arxiv.org/abs/2604.24693v1",
+      "summary": "Linear activation steering is a powerful approach for eliciting the capabilities of large language models and specializing their behavior using limited labeled data. While effective, existing methods often apply a fixed steering strength to all tokens, resulting in inconsistent steering quality across diverse input prompts. In this work, we introduce Contextual Linear Activation Steering (CLAS), a method that dynamically adapts linear activation steering to context-dependent steering strengths. ",
+      "published": "2026-04-27T16:54:16Z",
+      "authors": [
+        "Brandon Hsu",
+        "Daniel Beaglehole",
+        "Adityanarayanan Radhakrishnan",
+        "Mikhail Belkin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can LLMs Act as Historians? Evaluating Historical Research Capabilities of LLMs via the Chinese Imperial Examination",
+      "link": "https://arxiv.org/abs/2604.24690v1",
+      "summary": "While Large Language Models (LLMs) have increasingly assisted in historical tasks such as text processing, their capacity for professional-level historical reasoning remains underexplored. Existing benchmarks primarily assess basic knowledge breadth or lexical understanding, failing to capture the higher-order skills, such as evidentiary reasoning,that are central to historical research. To fill this gap, we introduce ProHist-Bench, a novel benchmark anchored in the Chinese Imperial Examination ",
+      "published": "2026-04-27T16:50:40Z",
+      "authors": [
+        "Lirong Gao",
+        "Zeqing Wang",
+        "Yuyan Cai",
+        "Jiayi Deng",
+        "Yanmei Gu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Singlet-triplet oscillations in multivalley Si double quantum dots",
+      "link": "https://arxiv.org/abs/2604.24689v1",
+      "summary": "Charge separation from the $(4,0)$ to the $(3,1)$ state in a Si/SiGe double quantum dot is commonly used for initialization of spin qubits and Pauli-spin-blockade readout. It was used in recent experiments involving creation of the $(3,1)$ singlet, and subsequent shuttling of one of the electrons. We present a theoretical description of the process of charge separation and singlet-triplet mixing, arriving at expressions for the singlet return probability that take into account experimentally obs",
+      "published": "2026-04-27T16:49:48Z",
+      "authors": [
+        "Łukasz Cywiński",
+        "Mats Volmer",
+        "Tom Struck",
+        "Giordano Scappucci",
+        "Lars R. Schreiber"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the geometric algebras of the Ising model",
+      "link": "https://arxiv.org/abs/2604.24688v1",
+      "summary": "We revisit the classical transfer matrix solution of the one- and two-dimensional Ising model from the perspective of Clifford and conformal geometric algebras. Building on Kaufman's spinor formulation, we show that all elements entering the solution, including the transfer matrix, its eigenvectors, and the quasiparticle excitations, admit a natural and unified interpretation as elements of an appropriate conformal Clifford algebra. In particular, the transfer matrix can be viewed as a dilation ",
+      "published": "2026-04-27T16:49:09Z",
+      "authors": [
+        "N. Johnson",
+        "D. Marenduzzo",
+        "A. Morozov",
+        "E. Orlandini",
+        "G. M. Vasil"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents",
+      "link": "https://arxiv.org/abs/2604.24686v1",
+      "summary": "Autonomous AI agents can remain fully authorized and still become unsafe as behavior drifts, adversaries adapt, and decision patterns shift without any code change. We propose the \\textbf{Informational Viability Principle}: governing an agent reduces to estimating a bound on unobserved risk $\\hat{B}(x) = U(x) + SB(x) + RG(x)$ and allowing an action only when its capacity $S(x)$ exceeds $\\hat{B}(x)$ by a safety margin. The \\textbf{Agent Viability Framework}, grounded in Aubin's viability theory, ",
+      "published": "2026-04-27T16:46:15Z",
+      "authors": [
+        "German Marin",
+        "Jatin Chaudhary"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
