@@ -1,0 +1,76 @@
+{
+  "source": "mit-tech-review",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+      "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+      "summary": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit enterprise and might even oust&#8230;",
+      "published": "Mon, 27 Apr 2026 22:52:57 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "The missing step between hype and profit",
+      "link": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In February, I picked up a flyer at an anti-AI march in London. I can’t say for sure whether or not its writers meant to riff on South Park’s underpants gnomes. But&#8230;",
+      "published": "Mon, 27 Apr 2026 16:13:41 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "Rebuilding the data stack for AI",
+      "link": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+      "summary": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI at scale requires something far less glamorous but far more consequential: data&#8230;",
+      "published": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "Three reasons why DeepSeek’s new model matters",
+      "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "summary": "On April 24, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. The model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is open source, meaning it is available&#8230;",
+      "published": "Fri, 24 Apr 2026 21:40:58 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "AI needs a strong data fabric to deliver business value",
+      "link": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
+      "summary": "Artificial intelligence is moving quickly in the enterprise, from experimentation to everyday use. Organizations are deploying copilots, agents, and predictive systems across finance, supply chains, human resources, and customer operations. By the end of 2025, half of companies used AI in at least three business functions, according to a recent survey. But as AI becomes&#8230;",
+      "published": "Wed, 22 Apr 2026 10:05:06 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "10 Things That Matter in AI Right Now",
+      "link": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/",
+      "summary": "",
+      "published": "Tue, 21 Apr 2026 20:45:00 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "LLMs+",
+      "link": "https://www.technologyreview.com/2026/04/21/1135645/llm-large-language-models-ai/",
+      "summary": "When ChatGPT launched as an experimental prototype in late 2022, OpenAI’s chatbot became an everyday everything app for hundreds of millions of people. LLMs like ChatGPT were the new future: The entire tech industry was consumed by the inferno, with companies racing to spin up rival products. The ashes of the old tech world still&#8230;",
+      "published": "Tue, 21 Apr 2026 20:45:00 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "Supercharged scams",
+      "link": "https://www.technologyreview.com/2026/04/21/1135647/supercharged-scams-ai-artificial-intelligence/",
+      "summary": "When ChatGPT was released to the public in late 2022, it opened people’s eyes to how easily generative AI could churn out vast amounts of human-seeming text from simple prompts. This quickly caught the attention of criminals, who soon began using large language models to produce malicious emails—both the untargeted spam kind and more sophisticated,&#8230;",
+      "published": "Tue, 21 Apr 2026 20:45:00 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "World models",
+      "link": "https://www.technologyreview.com/2026/04/21/1135650/world-models-ai-artificial-intelligence/",
+      "summary": "AI systems have already gained impressive mastery over the digital world, but the physical world is still humanity’s domain. As it turns out, building an AI system that can compose a novel or code an app is far easier than developing one that can fold laundry or navigate a city street. To get there, many&#8230;",
+      "published": "Tue, 21 Apr 2026 20:45:00 +0000",
+      "section": "ai"
+    },
+    {
+      "title": "Weaponized deepfakes",
+      "link": "https://www.technologyreview.com/2026/04/21/1135652/weaponized-deepfakes-ai-artificial-intelligence/",
+      "summary": "For years, experts have warned that deepfakes—AI-generated videos, images, or audio recordings of people doing or saying things they haven’t actually done in real life—could be deployed in malicious ways.&#160; These dangers are now here. Improvements in deepfake technology, and the widespread availability of easy-to-use and cheap (or free) generative models, have made it easier&#8230;",
+      "published": "Tue, 21 Apr 2026 20:45:00 +0000",
+      "section": "ai"
+    }
+  ]
+}
