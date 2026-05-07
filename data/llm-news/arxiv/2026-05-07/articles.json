@@ -1,0 +1,641 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Syn4D: A Multiview Synthetic 4D Dataset",
+      "link": "https://arxiv.org/abs/2605.05207v1",
+      "summary": "Dense 3D reconstruction and tracking of dynamic scenes from monocular video remains an important open challenge in computer vision. Progress in this area has been constrained by the scarcity of high-quality datasets with dense, complete, and accurate geometric annotations. To address this limitation, we introduce Syn4D, a multiview synthetic dataset of dynamic scenes that includes ground-truth camera motion, depth maps, dense tracking, and parametric human pose annotations. A key feature of Syn4",
+      "published": "2026-05-06T17:59:55Z",
+      "authors": [
+        "Zeren Jiang",
+        "Yushi Lan",
+        "Yihang Luo",
+        "Yufan Deng",
+        "Zihang Lai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Taming Outlier Tokens in Diffusion Transformers",
+      "link": "https://arxiv.org/abs/2605.05206v1",
+      "summary": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract disproportionate attention while carrying limited local information, but their role in generative models remains underexplored. We show that this phenomenon appears in both the encoder and denoiser of modern Representation Autoencoder (RAE)-DiT pipelines: pretrained ViT encoders can produce outlier represen",
+      "published": "2026-05-06T17:59:42Z",
+      "authors": [
+        "Xiaoyu Wu",
+        "Yifei Wang",
+        "Tsu-Jui Fu",
+        "Liang-Chieh Chen",
+        "Zhe Gan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mixed-Parity Altermagnetism in Collinear Spin-Orbital Magnets",
+      "link": "https://arxiv.org/abs/2605.05205v1",
+      "summary": "Altermagnetism has so far mainly been understood in its even- and odd-parity forms. We show that collinear antiferromagnets with zero net magnetization can also host mixed-parity spin splitting, namely neither purely even nor purely odd in momentum. We identify the symmetry conditions for such mixed-parity altermagnetism and show that, in two dimensions, it can arise in spin-orbital magnets when the two antiparallel spin sectors are related by a single mirror symmetry. Using a two-sublattice two",
+      "published": "2026-05-06T17:59:37Z",
+      "authors": [
+        "Zheng-Yang Zhuang",
+        "Jin-Xin Hu",
+        "Song-Bo Zhang",
+        "Lun-Hui Hu",
+        "Zhongbo Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models",
+      "link": "https://arxiv.org/abs/2605.05204v1",
+      "summary": "The landscape of high-performance image generation models is currently shifting from the inefficient multi-step ones to the efficient few-step counterparts (e.g, Z-Image-Turbo and FLUX.2-klein). However, these models present significant challenges for directly continuous supervised fine-tuning. For example, applying the commonly used fine-tuning technique would compromises their inherent few-step inference capability. To address this, we propose D-OPSD, a novel training paradigm for step-distill",
+      "published": "2026-05-06T17:59:34Z",
+      "authors": [
+        "Dengyang Jiang",
+        "Xin Jin",
+        "Dongyang Liu",
+        "Zanyi Wang",
+        "Mingzhe Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Non-conservation and time non-locality of biased tracers",
+      "link": "https://arxiv.org/abs/2605.05203v1",
+      "summary": "We study the effect of ongoing formation and merger on the assumed number conservation of biased tracers. Using a Lagrangian approach we present a model of the number density which accounts for such effects. The model is nonlocal in time, reflecting the gradual assembly of tracers from the underlying matter. The loss of tracers through merger is modelled by an environmentally-dependent sink, such that the merger rate is proportional to the local number density (higher probability of an event in ",
+      "published": "2026-05-06T17:59:30Z",
+      "authors": [
+        "Lawrence Dam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Field-induced asymmetric band flattening and ideal quantum geometry in rhombohedral graphene",
+      "link": "https://arxiv.org/abs/2605.05199v1",
+      "summary": "Rhombohedral graphene exhibits an exceptionally diverse array of correlated phases that depend sensitively on the displacement field. Compiling reported phases into a unified phase diagram reveals a pronounced field-dependent electron-hole asymmetry: correlated states on the hole-doped side emerge at small displacement fields, whereas the fractional quantum anomalous Hall effect (FQAHE) is observed exclusively on the electron-doped side under large displacement fields. This stark asymmetry highl",
+      "published": "2026-05-06T17:58:08Z",
+      "authors": [
+        "Hongyun Zhang",
+        "Jinxi Lu",
+        "Size Wu",
+        "Yijie Wang",
+        "Kai Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Implicit Representations of Grammaticality in Language Models",
+      "link": "https://arxiv.org/abs/2605.05197v1",
+      "summary": "Grammaticality and likelihood are distinct notions in human language. Pretrained language models (LMs), which are probabilistic models of language fitted to maximize corpus likelihood, generate grammatically well-formed text and discriminate well between grammatical and ungrammatical sentences in tightly controlled minimal pairs. However, their string probabilities do not sharply discriminate between grammatical and ungrammatical sentences overall. But do LMs implicitly acquire a grammaticality ",
+      "published": "2026-05-06T17:57:31Z",
+      "authors": [
+        "Yingshan Susan Wang",
+        "Linlu Qiu",
+        "Zhaofeng Wu",
+        "Roger P. Levy",
+        "Yoon Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Frustrated magnetic order in hybrid Kitaev spin-orbital models",
+      "link": "https://arxiv.org/abs/2605.05196v1",
+      "summary": "Spin-orbital generalization of Kitaev model provides a robust extension to the original Kitaev model. However, real materials often exhibit competing interactions that break exact solvability which can give rise to new phases. Motivated by recent microscopic proposals of coexisting Yao-Lee and Kitaev couplings, we investigate the fate of the ground state when two independent exactly solvable spin liquid Hamiltonians each originally formulated on different lattice geometries are combined on a com",
+      "published": "2026-05-06T17:56:19Z",
+      "authors": [
+        "Ivan Dutta",
+        "Aayush Vijayvargia",
+        "Anamitra Mukherjee",
+        "Onur Erten",
+        "Kush Saha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
+      "link": "https://arxiv.org/abs/2605.05192v1",
+      "summary": "Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\\ge 2$ and any finite sequence $(f_j)_j\\subset L^p$ we have \\[ \\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(\\sup_{j} \\sum_{k} α_{jk}^{\\,c}\\right)^{1/p'} \\Big(\\sum_j \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $c=2$, $1/p+1/p'=1$, and $α_{jk}=\\sqrt{\\frac{\\|f_{j}f_{k}\\|_{p/2}}{\\|f_{j}\\|_{p}\\|f_{k}\\|_{p}}}$. In the first part of this paper we construct a counterexample showing that this inequality fails for every $p>2$",
+      "published": "2026-05-06T17:54:51Z",
+      "authors": [
+        "Ziang Chen",
+        "Jaume de Dios Pont",
+        "Paata Ivanisvili",
+        "Jose Madrid",
+        "Haozhu Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval",
+      "link": "https://arxiv.org/abs/2605.05189v1",
+      "summary": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterion. In an isotropic Gaussian model for the stored pairs, we show that top-1 retrieval, where every signal must beat its largest distractor, requires the logarithmic model-size scale $d^2\\asymp n\\log n$. We prove that the correlation matrix memory construction, which stores associations by superposing",
+      "published": "2026-05-06T17:53:20Z",
+      "authors": [
+        "Nicholas Barnfield",
+        "Juno Kim",
+        "Eshaan Nichani",
+        "Jason D. Lee",
+        "Yue M. Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SILC: Lookahead Caching for Short-form Video Delivery Systems",
+      "link": "https://arxiv.org/abs/2605.05188v1",
+      "summary": "Short video platforms like TikTok, Instagram Reels, and YouTube Shorts have gained immense popularity in the last few years and are responsible for a large and growing fraction of Internet traffic. We identify two unique opportunities for improving short video delivery using their existing interactions with content delivery networks (CDNs). First, short videos use a push-based recommendation system, where the user is presented a sequence of videos recommended by the algorithm rather than user ex",
+      "published": "2026-05-06T17:53:14Z",
+      "authors": [
+        "Maleeha Masood",
+        "Shreya Kannan",
+        "Om Chabra",
+        "Deepak Vasisht",
+        "Indranil Gupta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LoViF 2026 The First Challenge on Holistic Quality Assessment for 4D World Model (PhyScore)",
+      "link": "https://arxiv.org/abs/2605.05187v1",
+      "summary": "This paper reports on the LoViF 2026 PhyScore challenge, a competition on holistic quality assessment of world-model-generated videos across both 2D and 4D generation settings. The challenge is motivated by a central gap in current evaluation practice: perceptual quality alone is insufficient to judge whether generated dynamics are physically plausible, temporally coherent, and consistent with input conditions. Participants are required to build a metric that jointly predicts four dimensions, i.",
+      "published": "2026-05-06T17:52:39Z",
+      "authors": [
+        "Wei Luo",
+        "Yiting Lu",
+        "Xin Li",
+        "Haoran Li",
+        "Fengbin Guan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OpenSearch-VL: An Open Recipe for Frontier Multimodal Search Agents",
+      "link": "https://arxiv.org/abs/2605.05185v1",
+      "summary": "Deep search has become a crucial capability for frontier multimodal agents, enabling models to solve complex questions through active search, evidence verification, and multi-step reasoning. Despite rapid progress, top-tier multimodal search agents remain difficult to reproduce, largely due to the absence of open high-quality training data, transparent trajectory synthesis pipelines, or detailed training recipes. To this end, we introduce OpenSearch-VL, a fully open-source recipe for training fr",
+      "published": "2026-05-06T17:50:38Z",
+      "authors": [
+        "Shuang Chen",
+        "Kaituo Feng",
+        "Hangting Chen",
+        "Wenxuan Huang",
+        "Dasen Dai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Boundaries of Baker domains of entire functions. A finer approach",
+      "link": "https://arxiv.org/abs/2605.05184v1",
+      "summary": "We consider transcendental entire functions having doubly parabolic Baker domains, such that the Denjoy-Wolff point of the associated inner function is not a singularity. We describe in a very precise way the dynamics on the boundary from a measure-theoretical point of view. Applications of such results lead to a better understanding of the topology and the dynamics on the boundaries. In particular, we improve some of the results in [N. Fagella and A. Jové, A model for boundary dynamics of Baker",
+      "published": "2026-05-06T17:50:16Z",
+      "authors": [
+        "Anna Jové",
+        "Łukasz Pawelec"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On Turán's inequality: new general criteria, nonnegative representations and the class of generalized Chebyshev polynomials",
+      "link": "https://arxiv.org/abs/2605.05180v1",
+      "summary": "Originally, Turán's inequality states that if $(P_n(x))_{n\\in\\mathbb{N}_0}$ is the sequence of Legendre polynomials, then $Δ_n(x):=P_n^2(x)-P_{n+1}(x)P_{n-1}(x)\\geq0$ for all $n\\in\\mathbb{N}$ and $x\\in[-1,1]$. Gasper specified the parameters $α,β>-1$ for which the Jacobi polynomials $(R_n^{(α,β)}(x))_{n\\in\\mathbb{N}_0}$ satisfy Turán's inequality. Frequently, such results rely on the specific structure of the concrete orthogonal polynomials under consideration. Therefore, special focus has been ",
+      "published": "2026-05-06T17:47:48Z",
+      "authors": [
+        "Stefan Kahler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Estimating the expected output of wide random MLPs more efficiently than sampling",
+      "link": "https://arxiv.org/abs/2605.05179v1",
+      "summary": "By far the most common way to estimate an expected loss in machine learning is to draw samples, compute the loss on each one, and take the empirical average. However, sampling is not necessarily optimal. Given an MLP at initialization, we show how to estimate its expected output over Gaussian inputs without running samples through the network at all. Instead, we produce approximate representations of the distributions of activations at each layer, leveraging tools such as cumulants and Hermite e",
+      "published": "2026-05-06T17:46:12Z",
+      "authors": [
+        "Wilson Wu",
+        "Victor Lecomte",
+        "Michael Winer",
+        "George Robinson",
+        "Jacob Hilton"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Explicit Two-Sided Eigenvalue Bounds for Schrödinger Operators with Singular Potentials via Finite Element Method",
+      "link": "https://arxiv.org/abs/2605.05177v1",
+      "summary": "We present, to the best of our knowledge, the first numerical algorithm for explicit, computable two-sided eigenvalue bounds for Schrödinger operators H = -Delta + V on R^N, N = 2,3, in the presence of both an unbounded potential and an unbounded domain. \"Explicit\" here means that all constants and ingredients are derived in closed form from the mesh, the potential, and a small set of explicit inequalities (Payne-Weinberger, Hardy, and explicit bounded-domain Sobolev embeddings); the conversion ",
+      "published": "2026-05-06T17:43:18Z",
+      "authors": [
+        "Xuefeng Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Understanding In-Context Learning for Nonlinear Regression with Transformers: Attention as Featurizer",
+      "link": "https://arxiv.org/abs/2605.05176v1",
+      "summary": "Pre-trained transformers are able to learn from examples provided as part of the prompt without any weight updates, a remarkable ability known as in-context learning (ICL). Despite its demonstrated efficacy across various domains, the theoretical understanding of ICL is still developing. Whereas most existing theory has focused on linear models, we study ICL in the nonlinear regression setting. Through the interaction mechanism in attention, we explicitly construct transformer networks to realiz",
+      "published": "2026-05-06T17:42:07Z",
+      "authors": [
+        "Alexander Hsu",
+        "Zhaiming Shen",
+        "Wenjing Liao",
+        "Rongjie Lai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MRI-Eval: A Tiered Benchmark for Evaluating LLM Performance on MRI Physics and GE Scanner Operations Knowledge",
+      "link": "https://arxiv.org/abs/2605.05175v1",
+      "summary": "Background: Existing MRI LLM benchmarks rely mainly on review-book multiple-choice questions, where top proprietary models already score highly, limiting discrimination. No systematic benchmark has evaluated vendor-specific scanner operational knowledge central to research MRI practice. Purpose: We developed MRI-Eval, a tiered benchmark for relative model comparison on MRI physics and GE scanner operations knowledge using primary multiple-choice questions (MCQ), with stem-only and primed diagnos",
+      "published": "2026-05-06T17:42:01Z",
+      "authors": [
+        "Perry E. Radau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Plasma effects on lifetimes and screening of Rydberg excitons",
+      "link": "https://arxiv.org/abs/2605.05171v1",
+      "summary": "We simulate the effects of a neutral electron--hole plasma on Rydberg excitons in cuprous oxide (Cu$_2$O), focusing on the validity of Debye screening and the role of plasma-induced thermalization. Unlike atomic Rydberg states, excitons in Cu$_2$O consist of quasiparticles with comparable effective masses whose orbital frequencies can exceed the plasma frequency, invalidating the assumption of a stationary screened charge. Using two complementary approaches, a classical orbit model and a harmoni",
+      "published": "2026-05-06T17:40:08Z",
+      "authors": [
+        "AbdAlGhaffar Amer",
+        "V. Walther",
+        "Francis Robicheaux"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours",
+      "link": "https://arxiv.org/abs/2605.05170v1",
+      "summary": "Driven by a rapid co-evolution of both harness and underlying models, LLM agents are improving at a dizzying pace. In our prior work (performed in Dec. 2025), we introduced \"Design Conductor\" (or just \"Conductor\"), a system capable of building a 5-stage Linux-capable RISC-V CPU in 12 hours. In this work, we introduce an updated multi-agent harness powered by frontier models released in April 2026, which is able to handle 80x larger tasks, at higher quality, fully autonomously. Following a brief ",
+      "published": "2026-05-06T17:40:03Z",
+      "authors": [
+        "The Verkor Team",
+        "Ravi Krishna",
+        "Suresh Krishna",
+        "David Chin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The First Token Knows: Single-Decode Confidence for Hallucination Detection",
+      "link": "https://arxiv.org/abs/2605.05166v1",
+      "summary": "Self-consistency detects hallucinations by generating multiple sampled answers to a question and measuring agreement, but this requires repeated decoding and can be sensitive to lexical variation. Semantic self-consistency improves this by clustering sampled answers by meaning using natural language inference, but it adds both sampling cost and external inference overhead. We show that first-token confidence, phi_first, computed from the normalized entropy of the top-K logits at the first conten",
+      "published": "2026-05-06T17:34:00Z",
+      "authors": [
+        "Mina Gabriel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interests Burn-down Diffusion Process for Personalized Collaborative Filtering",
+      "link": "https://arxiv.org/abs/2605.05165v1",
+      "summary": "Generative methods have gained widespread attention in Collaborative Filtering (CF) tasks for their ability to produce high-quality personalized samples aligned with users' interests. Among them, diffusion generative models have raised increasing attention in recommendation field. Despite that the pioneering efforts have applied the conventional diffusion process to model diffusive user interests, the incongruity between the Gaussian noise and the subtle nature of user's personalized interaction",
+      "published": "2026-05-06T17:33:54Z",
+      "authors": [
+        "Yifang Qin",
+        "Zhaobin Li",
+        "Arisa Watanabe",
+        "Wei Ju",
+        "Zhiping Xiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Geometry-Aware State Space Model: A New Paradigm for Whole-Slide Image Representation",
+      "link": "https://arxiv.org/abs/2605.05164v1",
+      "summary": "Accurate analysis of histopathological images is critical for disease diagnosis and treatment planning. Whole-slide images (WSIs), which digitize tissue specimens at gigapixel resolution, are fundamental to this process but require aggregating thousands of patches for slide-level predictions. Multiple Instance Learning (MIL) tackles this challenge with a two-stage paradigm, decoupling tile-level embedding and slide-level prediction. However, most existing methods implicitly embed patch represent",
+      "published": "2026-05-06T17:33:30Z",
+      "authors": [
+        "Enhui Chai",
+        "Sicheng Chen",
+        "Tianyi Zhang",
+        "Chad Wong",
+        "Kecheng Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World",
+      "link": "https://arxiv.org/abs/2605.05163v1",
+      "summary": "Synthesizing physics-grounded 3D assets is a critical bottleneck for interactive virtual worlds and embodied AI. Existing methods predominantly focus on static geometry, overlooking the functional properties essential for interaction. We propose that interactive asset generation must be rooted in functional logic and hierarchical physics. To bridge this gap, we introduce PhysForge, a decoupled two-stage framework supported by PhysDB, a large-scale dataset of 150,000 assets with four-tier physica",
+      "published": "2026-05-06T17:33:23Z",
+      "authors": [
+        "Yunhan Yang",
+        "Chunshi Wang",
+        "Junliang Ye",
+        "Yang Li",
+        "Zanxin Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wasserstein-Aligned Localisation for VLM-Based Distributional OOD Detection in Medical Imaging",
+      "link": "https://arxiv.org/abs/2605.05161v1",
+      "summary": "Zero-shot anomaly localisation via vision-language models (VLMs) offers a compelling approach for rare pathology detection, yet its performance is fundamentally limited by the absence of healthy anatomical context. We reformulate zero-shot localisation as a comparative inference problem in which anomalies are identified through structured comparison against reference distributions of normal anatomy. We introduce WALDO, a training-free framework grounded in optimal transport theory that enables c",
+      "published": "2026-05-06T17:32:34Z",
+      "authors": [
+        "Bernhard Kainz",
+        "Johanna P Mueller",
+        "Matthew Baugh",
+        "Cosmin Bercea"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PSK at SemEval-2026 Task 9: Multilingual Polarization Detection Using Ensemble Gemma Models with Synthetic Data Augmentation",
+      "link": "https://arxiv.org/abs/2605.05159v1",
+      "summary": "We present our system for SemEval-2026 Task 9: Multilingual Polarization Detection, a binary classification task spanning 22 languages. Our approach fine-tunes separate Gemma~3 models (12B and 27B parameters) per language using Low-Rank Adaptation (LoRA), augmented with synthetic data generated by a large language model (LLM). We employ three synthetic data strategies (direct generation, paraphrasing, and contrastive pair creation) using GPT-4o-mini, with a multi-stage quality filtering pipeline",
+      "published": "2026-05-06T17:29:14Z",
+      "authors": [
+        "Srikar Kashyap Pulipaka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Are PTA measurements sensitive to gravitational wave non-Gaussianities?",
+      "link": "https://arxiv.org/abs/2605.05157v1",
+      "summary": "Observing non-Gaussianity in the timing residuals of Pulsar Timing Arrays (PTAs) has recently attracted attention as a potential discriminator between astrophysical and cosmological origins of the observed Gravitational Wave (GW) signal. In this work, we show that even in an idealized signal-dominated setup, after decorrelating data to avoid spurious detections, statistical tests applied to PTA data cannot distinguish between Gaussian and non-Gaussian GWBs in a model-agnostic way. In particular,",
+      "published": "2026-05-06T17:28:29Z",
+      "authors": [
+        "Chiara Cecchini",
+        "Jonas El Gammal",
+        "Gabriele Franciolini",
+        "Mauro Pieroni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sculpting Spin-Wave Landscapes via Curvature of 2D Magnonic Crystals",
+      "link": "https://arxiv.org/abs/2605.05156v1",
+      "summary": "Engineering the dispersion relation is one of the key ingredients enabling the application of spin waves in computational elements. One way to engineer the spin-wave band structure is to create an artificial magnonic crystal, which can be used to design specific band gaps or dispersion branches. However, creating a two-dimensional magnonic crystal usually requires removing material, which dramatically decreases the decay lengths of spin waves. Here, we present a method to manipulate the demagnet",
+      "published": "2026-05-06T17:27:28Z",
+      "authors": [
+        "Ondřej Wojewoda",
+        "Robert Kraft",
+        "Olha Bezsmertna",
+        "Oleksandr Pylypovskyi",
+        "Jose A. Fernandez Roldan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Aes3D: Aesthetic Assessment in 3D Gaussian Splatting",
+      "link": "https://arxiv.org/abs/2605.05155v1",
+      "summary": "As 3D Gaussian Splatting (3DGS) gains attention in immersive media and digital content creation, assessing the aesthetics of 3D scenes becomes important in helping creators build more visually compelling 3D content. However, existing evaluation methods for 3D scenes primarily emphasize reconstruction fidelity and perceptual realism, largely overlooking higher-level aesthetic attributes such as composition, harmony, and visual appeal. This limitation comes from two key challenges: (1) the absence",
+      "published": "2026-05-06T17:27:09Z",
+      "authors": [
+        "Chuanzhi Xu",
+        "Boyu Wei",
+        "Haoxian Zhou",
+        "Xuanhua Yin",
+        "Zihan Deng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CTseg: A Tool for Brain CT Segmentation, Spatial Normalisation, and Volumetrics",
+      "link": "https://arxiv.org/abs/2605.05154v1",
+      "summary": "This paper presents and validates CTseg, a freely available software for brain CT segmentation, spatial normalisation, and volumetrics. CTseg builds on the Multi-Brain generative modelling framework, providing a CT-specific pipeline that produces tissue maps, deformation fields, and brain volume estimates in the same format as SPM's unified segmentation, thereby extending SPM's established analysis chain from MRI to CT. CTseg is designed for routine hospital CT scans without requiring preprocess",
+      "published": "2026-05-06T17:25:54Z",
+      "authors": [
+        "Mikael Brudfors"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Superposition Is Not Necessary: A Mechanistic Interpretability Analysis of Transformer Representations for Time Series Forecasting",
+      "link": "https://arxiv.org/abs/2605.05151v1",
+      "summary": "Transformer architectures have been widely adopted for time series forecasting, yet whether the representational mechanisms that make them powerful in NLP actually engage on time series data remains unexplored. The persistent competitiveness of simple linear models such as DLinear has fueled ongoing debate, but no mechanistic explanation for this phenomenon has been offered. We address this gap by applying sparse autoencoders (SAEs), a tool from mechanistic interpretability, to probe the interna",
+      "published": "2026-05-06T17:23:27Z",
+      "authors": [
+        "Alper Yıldırım"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The $T_{bc}$ tetraquarks near the $B\\bar{D}$ threshold",
+      "link": "https://arxiv.org/abs/2605.05150v1",
+      "summary": "We study the doubly heavy open-flavor tetraquarks $T_{bc}^{(0)}$ ($J^{P}=0^{+}$) and $T_{bc}^{(1)}$ ($J^{P}=1^{+}$) in the dynamical diquark model, describing the system as a heavy antidiquark--light diquark pair interacting through the lattice-QCD $Σ_g^+(1S)$ Born--Oppenheimer potential. Solving the radial Schrödinger equation yields $M(T_{bc}^{(0)}) = 7.143$--$7.158$ GeV and $M(T_{bc}^{(1)}) = 7.217$--$7.222$ GeV, with hyperfine splittings of $Δ_{HF}\\simeq 59$--$79$ MeV. The splitting is drive",
+      "published": "2026-05-06T17:21:23Z",
+      "authors": [
+        "Halil Mutuk"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Degree-sequence bounds for independent sets via multivariate local occupancy",
+      "link": "https://arxiv.org/abs/2605.05149v1",
+      "summary": "We present new degree-sequence lower bounds on the expected size of an independent set from the hard-core model. For arbitrary graphs, we establish a multivariate lower bound inspired by a conjecture of the first author and Kang and a recent bound on the multivariate partition function due to Lee and the third author. By applying a novel spectral analysis to the local occupancy linear program, our method successfully bypasses the convergence radius limitations of the cluster expansion and avoids",
+      "published": "2026-05-06T17:20:28Z",
+      "authors": [
+        "Ewan Davies",
+        "Juspreet Singh Sandhu",
+        "Jaehyeon Seo",
+        "Brian Tan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Matters in Practical Learned Image Compression",
+      "link": "https://arxiv.org/abs/2605.05148v1",
+      "summary": "One of the major differentiators unlocked by learned codecs relative to their hard-coded traditional counterparts is their ability to be optimized directly to appeal to the human visual system. Despite this potential, a perceptual yet practical image codec is yet to be proposed.   In this work, we aim to close this gap. We conduct a comprehensive study of the key modeling choices that govern the design of a practical learned image codec, jointly optimized for perceptual quality and runtime -- in",
+      "published": "2026-05-06T17:17:51Z",
+      "authors": [
+        "Kedar Tatwawadi",
+        "Parisa Rahimzadeh",
+        "Zhanghao Sun",
+        "Zhiqi Chen",
+        "Ziyun Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Human-AI Co-Mentorship in Project-Based Learning: A Case Study in Financial Forecasting",
+      "link": "https://arxiv.org/abs/2605.05144v1",
+      "summary": "This paper reflects on a AI research project carried out by a team of high-school and early-undergraduate students under the mentorship of graduate researchers and ably assisted by AI tools. We share our experience in not only on the learning experience for the high school students, but also on how AI tools accelerated the process that enabled the high school students to focus on higher order problem formulation and solution. Although the participants entered the project with limited background ",
+      "published": "2026-05-06T17:16:29Z",
+      "authors": [
+        "Freyaa Chawla",
+        "Ahan Chawla",
+        "Rishi Singh",
+        "Joe Germino",
+        "Grigorii Khvatskii"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents",
+      "link": "https://arxiv.org/abs/2605.05138v1",
+      "summary": "We evaluate an initial coding-agent system for ARC-AGI-3 in which the agent maintains an executable Python world model, verifies it against previous observations, refactors it toward simpler abstractions as a practical proxy for an MDL-like simplicity bias, and plans through the model before acting. The system is intentionally direct: it uses a scripted controller, predefined world-model interfaces, verifier programs, and a plan executor, but no hand-coded game-specific logic. We report results ",
+      "published": "2026-05-06T17:12:36Z",
+      "authors": [
+        "Sergey Rodionov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Low-Cost Black-Box Detection of LLM Hallucinations via Dynamical System Prediction",
+      "link": "https://arxiv.org/abs/2605.05134v1",
+      "summary": "Large Language Models (LLMs) frequently generate plausible but non-factual content, a phenomenon known as hallucination. While existing detection methods typically rely on computationally expensive sampling-based consistency checks or external knowledge retrieval, we propose a new method that treats the LLM as a black-box dynamical system. By projecting LLM responses into a high-dimensional manifold via an embedding model, we characterize the resulting vector sequences as observable realizations",
+      "published": "2026-05-06T17:07:29Z",
+      "authors": [
+        "Dan Wilson",
+        "Mohamed Akrout"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Transformed Latent Variable Multi-Output Gaussian Processes",
+      "link": "https://arxiv.org/abs/2605.05133v1",
+      "summary": "Multi-Output Gaussian Processes (MOGPs) provide a principled probabilistic framework for modelling correlated outputs but face scalability bottlenecks when applied to datasets with high-dimensional output spaces. To maintain tractability, existing methods typically resort to restrictive assumptions, such as employing low-rank or sum-of-separable kernels, which can limit expressiveness. We propose the Transformed Latent Variable MOGP (T-LVMOGP), a novel framework that scales MOGPs to a massive nu",
+      "published": "2026-05-06T17:05:50Z",
+      "authors": [
+        "Xiaoyu Jiang",
+        "Xinxing Shi",
+        "Sokratia Georgaka",
+        "Magnus Rattray",
+        "Mauricio A Álvarez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BDF2-type integrator for Landau-Lifshitz-Gilbert equation in micromagnetics: a-priori error estimates",
+      "link": "https://arxiv.org/abs/2605.05129v1",
+      "summary": "We consider the Landau-Lifshitz-Gilbert equation (LLG), which models time-dependent micromagnetic phenomena. We analyze a fully discrete scheme that combines first-order finite elements in space with a BDF2 method in time. The method requires the solution of only one linear system of equations per time step and does not enforce the pointwise unit-length constraint of the magnetization. While unconditional weak convergence has been analyzed in an earlier work, we now prove optimal-order convergen",
+      "published": "2026-05-06T16:56:38Z",
+      "authors": [
+        "Michele Aldé",
+        "Dirk Praetorius",
+        "Michael Feischl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Demand Externality of Automation",
+      "link": "https://arxiv.org/abs/2605.05127v1",
+      "summary": "Automation raises productivity and reduces paid human labor, but it also reallocates income and ownership claims. This paper studies that tradeoff in a static benchmark and in a stationary heterogeneous-agent general equilibrium. Firms choose automation from a profit function. Households differ by skill and wealth, save in a capital/equity claim, and face incomplete insurance. Wages and returns are determined by market clearing from a Cobb--Douglas final-good firm, while the wealth distribution ",
+      "published": "2026-05-06T16:55:58Z",
+      "authors": [
+        "Erhan Bayraktar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2605.05126v1",
+      "summary": "Current Vision-Language-Action (VLA) models primarily focus on mapping 2D observations to actions, but exhibit notable limitations in spatiotemporal perception and reasoning: 1) spatial representations often rely on additional sensors, introducing substantial computational overhead; 2) visual reasoning is typically limited to future-frame prediction, lacking alignment with the instruction-grounded scene and thus compromising spatiotemporal consistency. To address these challenges, we propose Con",
+      "published": "2026-05-06T16:55:44Z",
+      "authors": [
+        "Wei Li",
+        "Jizhihui Liu",
+        "Li Yixing",
+        "Junwen Tong",
+        "Rui Shao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Joint Treatment Effect Estimation from Incomplete Healthcare Data: Temporal Causal Normalizing Flows with LLM-driven Evolutionary MNAR Imputation",
+      "link": "https://arxiv.org/abs/2605.05125v1",
+      "summary": "Target trial emulation (TTE) enables causal questions to be studied with observational data when randomized controlled trials (RCTs) are infeasible. Yet treatment-effect methods often address causal estimation, missingness, and temporal structure separately, limiting their robustness in electronic health records (EHRs), where time-varying confounding and missing-not-at-random (MNAR) biomarkers can reach 50%--80%. We propose a two-stage pipeline for treatment effect estimation from incomplete lon",
+      "published": "2026-05-06T16:53:08Z",
+      "authors": [
+        "Olivia Jullian Parra",
+        "Sara Zoccheddu",
+        "David Catalan Cerezo",
+        "Tom Forzy",
+        "Franziska Ulrich"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exponential Quintessence: Analytic Relationship Between the Current Equation of State Parameter and the Potential Parameter",
+      "link": "https://arxiv.org/abs/2605.05122v1",
+      "summary": "Motivated by the indications of time-varying dark energy equation of state reported from DESI, we investigate a quintessence model with an exponential potential $V_0 e^{-λφ/m_{\\mathrm{pl}}}$. We derive an analytical relationship between the current equation of state parameter for the quintessence field and the potential parameter $λ$ required to realize sufficient duration of radiation and matter domination. Our results provide a useful analytical relation for inferring the potential parameter $",
+      "published": "2026-05-06T16:51:02Z",
+      "authors": [
+        "Naoto Maki",
+        "Kazunori Kohri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Semantics: An Evidential Reasoning-Aware Multi-View Learning Framework for Trustworthy Mental Health Prediction",
+      "link": "https://arxiv.org/abs/2605.05121v1",
+      "summary": "Automated mental health prediction using textual data has shown promising results with deep learning and large language models. However, deploying these models in high-stakes real-world settings remains challenging, as existing approaches largely rely on semantic representations and often produce overconfident predictions under ambiguous, noisy, or shifted data. Moreover, most methods lack reliable uncertainty estimation, undermining trust in risk-sensitive mental health applications. To address",
+      "published": "2026-05-06T16:49:17Z",
+      "authors": [
+        "Yucheng Ruan",
+        "Ling Huang",
+        "Qika Lin",
+        "Kai He",
+        "Mengling Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physiologically Grounded Driver Behavior Classification: SHAP-Driven Elite Feature Selection and Hybrid Gradient Boosting for Multimodal Physiological Signals",
+      "link": "https://arxiv.org/abs/2605.05120v1",
+      "summary": "An interpretable and scalable framework for decoding driving behaviors from multimodal physiological signals is proposed in this study. We utilize multimodal physiological driving behavior large-scale dataset comprising synchronized electroencephalogram (EEG), electromyography (EMG), and galvanic skin response (GSR) signals. Our approach involves rigorous preprocessing followed by a domain-specific feature extraction pipeline targeting time-domain, frequency-domain, and derived physiological ind",
+      "published": "2026-05-06T16:48:57Z",
+      "authors": [
+        "Sahar Askari",
+        "Mohammad Mahdi Mirza Ali Mohammadi",
+        "Fatemeh Ensafdoust",
+        "Amin Golnari",
+        "Saeid Sanei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Wasserstein Gradient Flow Interpretation of Drifting Models",
+      "link": "https://arxiv.org/abs/2605.05118v1",
+      "summary": "Recently, Deng et al. (2026) proposed Generative Modeling via Drifting (GMD), a novel framework for generative tasks. This note presents an analysis of GMD through the lens of Wasserstein Gradient Flows (WGF), i.e., the path of steepest descent for a functional in the space of probability measures, equipped with the geometry of optimal transport. Unlike previous WGF-based contributions, GMD can be thought of as directly targeting a fixed point of a specific WGF flow. We demonstrate three main re",
+      "published": "2026-05-06T16:48:46Z",
+      "authors": [
+        "Arthur Gretton",
+        "Li Kevin Wenliang",
+        "Alexandre Galashov",
+        "James Thornton",
+        "Valentin De Bortoli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Hardness of Junking LLMs",
+      "link": "https://arxiv.org/abs/2605.05116v1",
+      "summary": "Large language models (LLMs) are known to be vulnerable to jailbreak attacks, which typically rely on carefully designed prompts containing explicit semantic structure. These attacks generally operate by fixing an adversarial instruction and optimizing small adversarial components (e.g., suffixes or prefixes). In this setting, prompt structure is fundamental for performance, and recent results show that even simple random search can achieve strong performance when combined with sophisticated pro",
+      "published": "2026-05-06T16:47:07Z",
+      "authors": [
+        "Marco Rando",
+        "Samuel Vaiter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
+      "link": "https://arxiv.org/abs/2605.05115v1",
+      "summary": "Neural representations carry rich geometric structure; but does that structure causally shape behavior? To address this question, we intervene along paths through activation space defined by different geometries, and measure the behavioral trajectories they induce. In particular, we test whether interventions that respect the geometry of activation space will yield behaviors close to those the model exhibits naturally. Concretely, we first fit an activation manifold $M_h$ to representations and ",
+      "published": "2026-05-06T16:46:03Z",
+      "authors": [
+        "Daniel Wurgaft",
+        "Can Rager",
+        "Matthew Kowal",
+        "Vasudev Shyam",
+        "Sheridan Feucht"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Effective Field Theory of Large Scale Structure and Newtonian Motion Gauges",
+      "link": "https://arxiv.org/abs/2605.05114v1",
+      "summary": "The simplest flavor of the Effective Field Theory of Large Scale Structure is based on Newtonian equations and describes the nonlinear matter density and velocity using Einstein-de-Sitter kernels. Even in the presence of massive neutrinos, this has been argued to be sufficient for the analysis of data from Stage-III galaxy surveys. In this paper, we show that there exists a simple way to extend the validity range of this framework to more complex problems with a scale-dependent growth factor, wh",
+      "published": "2026-05-06T16:45:33Z",
+      "authors": [
+        "Christian Fidler",
+        "Julien Lesgourgues",
+        "Antonia Mattes",
+        "Azadeh Moradinezhad Dizgah",
+        "Simon Neuland"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
