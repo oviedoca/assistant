@@ -1,0 +1,645 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Fermionic trace relations and supersymmetric indices at finite $N$",
+      "link": "https://arxiv.org/abs/2605.08085v1",
+      "summary": "We study invariants of bosonic and fermionic (Grassmann-valued) matrices under the adjoint action of $U(N)$, weighted by the fermion number. Such models naturally appear as the supersymmetric indices of supersymmetric gauge theories and are captured by $U(N)$ matrix models. We discuss two features of the fermionic models that are qualitatively different from bosonic models. Firstly, the $2N^\\text{th}$ power of a Grassmann matrix vanishes, which gives rise to many new trace relations. Secondly, t",
+      "published": "2026-05-08T17:59:58Z",
+      "authors": [
+        "Giorgos Eleftheriou",
+        "Ziming Ji",
+        "Sameer Murthy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
+      "link": "https://arxiv.org/abs/2605.08084v1",
+      "summary": "The pursuit of autonomous driving has produced one of the richest sensor data collections in all of robotics. However, its scale and diversity remain largely untapped. Each dataset adopts different 2D and 3D modalities, such as cameras, lidar, ego states, annotations, traffic lights, and HD maps, with different rates and synchronization schemes. They come in fragmented formats requiring complex dependencies that cannot natively coexist in the same development environment. Further, major inconsis",
+      "published": "2026-05-08T17:59:53Z",
+      "authors": [
+        "Daniel Dauner",
+        "Valentin Charraut",
+        "Bastian Berle",
+        "Tianyu Li",
+        "Long Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "link": "https://arxiv.org/abs/2605.08083v1",
+      "summary": "Test-time scaling (TTS) has become an effective approach for improving large language model performance by allocating additional computation during inference. However, existing TTS strategies are largely hand-crafted: researchers manually design reasoning patterns and tune heuristics by intuition, leaving much of the computation-allocation space unexplored. We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments wh",
+      "published": "2026-05-08T17:59:40Z",
+      "authors": [
+        "Tong Zheng",
+        "Haolin Liu",
+        "Chengsong Huang",
+        "Huiwen Bao",
+        "Sheng Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Normalizing Trajectory Models",
+      "link": "https://arxiv.org/abs/2605.08078v1",
+      "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps -- an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice the likelihood framework in the process. We introduce Normalizing Trajectory Models (NTM), which models each reverse step as an expressive conditional normalizing flow with exact likelihood training. ",
+      "published": "2026-05-08T17:57:14Z",
+      "authors": [
+        "Jiatao Gu",
+        "Tianrong Chen",
+        "Ying Shen",
+        "David Berthelot",
+        "Shuangfei Zhai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration",
+      "link": "https://arxiv.org/abs/2605.08077v1",
+      "summary": "Knowledge Graph Question Answering (KGQA) has shown promise for grounded and interpretable reasoning, yet existing approaches often fail to provide reliable coverage guarantees over retrieved answers. While Conformal Prediction (CP) offers a principled framework for producing prediction sets with statistical guarantees, prior methods suffer from critical limitations in both calibration validity and score discriminability, resulting in violated coverage guarantees and excessively large prediction",
+      "published": "2026-05-08T17:57:13Z",
+      "authors": [
+        "Shuhang Lin",
+        "Chuhao Zhou",
+        "Xiao Lin",
+        "Zihan Dong",
+        "Kuan Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Zero-Shot Imagined Speech Decoding via Imagined-to-Listened MEG Mapping",
+      "link": "https://arxiv.org/abs/2605.08075v1",
+      "summary": "Decoding imagined speech from non-invasive brain recordings is challenging because imagined datasets are scarce and difficult to align temporally across subjects and sessions In this work, we propose a new approach to the decoding of imagined speech that leverages the richer and more reliably labeled recordings during listening to speech. We collected paired listened and imagined MEG recordings to rhythmic melodic and spoken stimuli from trained musicians. Using trained musicians helped improve ",
+      "published": "2026-05-08T17:56:19Z",
+      "authors": [
+        "Maryam Maghsoudi",
+        "Shihab Shamma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
+      "link": "https://arxiv.org/abs/2605.08074v1",
+      "summary": "Conformal prediction (CP) provides a distribution-free approach to uncertainty quantification with finite-sample guarantees. However, applying CP to graph neural networks (GNNs) remains challenging as the combinatorial nature of graphs often leads to insufficiently certain predictions and indiscriminative embeddings. Existing methods primarily rely on embedding-space proximity for localization, which can be unreliable for graphs and yield inefficient prediction sets. We propose GRAPHLCP, a proxi",
+      "published": "2026-05-08T17:56:09Z",
+      "authors": [
+        "Peyman Baghershahi",
+        "Fangxin Wang",
+        "Debmalya Mandal",
+        "Sourav Medya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+      "link": "https://arxiv.org/abs/2605.08073v1",
+      "summary": "Recent event-based image reconstruction methods predominantly rely on Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to process complementary event information. However, these architectures face fundamental limitations: CNNs often fail to capture global feature correlations, whereas ViTs incur quadratic computational complexity (e.g., $O(n^2)$), hindering their application in high-resolution scenarios. To address these bottlenecks, we introduce EmambaIR, an Efficient visual ",
+      "published": "2026-05-08T17:56:01Z",
+      "authors": [
+        "Wei Yu",
+        "Yunhang Qian"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
+      "link": "https://arxiv.org/abs/2605.08070v1",
+      "summary": "A standard technique for scaling inference-time reasoning is Self-Consistency, whereby multiple candidate answers are sampled from an LLM and the most common answer is selected. More recently, it has been shown that weighted majority voting (e.g. Confidence-Informed Self Consistency (CISC)), which assigns a confidence value to each candidate answer and chooses the answer with the largest accumulated score, tends to be more accurate on a wide range of popular benchmarks. In practice, weighted maj",
+      "published": "2026-05-08T17:54:38Z",
+      "authors": [
+        "James Petullo",
+        "Sonny George",
+        "Dylan Cashman",
+        "Nianwen Xue"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Empirical Bayes Rebiasing",
+      "link": "https://arxiv.org/abs/2605.08069v1",
+      "summary": "We study methods for simultaneous analysis of many noisy and biased estimates, each paired with an even noisier estimate of its own bias. The analyst's goal is to construct short calibrated intervals for each parameter. The standard debiasing approach, which subtracts the bias estimate from each biased estimate, inflates variance and yields long intervals. In this paper, we propose an empirical Bayes rebiasing strategy that starts from the fully debiased estimates and learns from data how much b",
+      "published": "2026-05-08T17:53:17Z",
+      "authors": [
+        "Wanyi Ling",
+        "Sida Li",
+        "Junming Guan",
+        "Nikolaos Ignatiadis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Proxy3D: Efficient 3D Representations for Vision-Language Models via Semantic Clustering and Alignment",
+      "link": "https://arxiv.org/abs/2605.08064v1",
+      "summary": "Spatial intelligence in vision-language models (VLMs) attracts research interest with the practical demand to reason in the 3D world.Despite promising results, most existing methods follow the conventional 2D pipeline in VLMs and use pixel-aligned representations for the vision modality. However, correspondence-based models with implicit 3D scene understanding often fail to achieve spatial consistency, and representation-based models with 3D geometric priors lack efficiency in vision sequence se",
+      "published": "2026-05-08T17:50:47Z",
+      "authors": [
+        "Jerry Jiang",
+        "Haowen Sun",
+        "Denis Gudovskiy",
+        "Yohei Nakata",
+        "Tomoyuki Okuno"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "link": "https://arxiv.org/abs/2605.08063v1",
+      "summary": "Existing Flow Matching (FM) text-to-image models suffer from two critical bottlenecks under multi-task alignment: the reward sparsity induced by scalar-valued rewards, and the gradient interference arising from jointly optimizing heterogeneous objectives, which together give rise to a 'seesaw effect' of competing metrics and pervasive reward hacking. Inspired by the success of On-Policy Distillation (OPD) in the large language model community, we propose Flow-OPD, the first unified post-training",
+      "published": "2026-05-08T17:50:15Z",
+      "authors": [
+        "Zhen Fang",
+        "Wenxuan Huang",
+        "Yu Zeng",
+        "Yiming Zhao",
+        "Shuang Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Finite order symplectic birational self-maps on Kummer-type manifolds",
+      "link": "https://arxiv.org/abs/2605.08062v1",
+      "summary": "A projective hyperkähler manifold of Kummer-type is said to be twisted modular if it is birational to the Albanese fiber of a moduli space of twisted sheaves on an abelian surface. We prove that, with the exception of certain cases of Picard rank 3, any projective Kummer-type manifold admitting a finite-order symplectic birational self-map that acts nontrivially on its second cohomology group is twisted modular. We provide a complete characterization of these exceptions in terms of their Néron-S",
+      "published": "2026-05-08T17:49:39Z",
+      "authors": [
+        "Yajnaseni Dutta",
+        "Dominique Mattei",
+        "Stevell Muller",
+        "Howard Nuer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rubric-Grounded RL: Structured Judge Rewards for Generalizable Reasoning",
+      "link": "https://arxiv.org/abs/2605.08061v1",
+      "summary": "We argue that decomposing reward into weighted, verifiable criteria and using an LLM judge to score them provides a partial-credit optimization signal: instead of a binary outcome or a single holistic score, each response is graded along multiple task-specific criteria. We formalize \\emph{rubric-grounded reinforcement learning (RL)}: a framework in which the policy is optimized against a structured, multi-criterion reward produced by a frozen LLM judge that conditions on auxiliary grounding the ",
+      "published": "2026-05-08T17:48:58Z",
+      "authors": [
+        "Manish Bhattarai",
+        "Ismael Boureima",
+        "Nishath Rajiv Ranasinghe",
+        "Scott Pakin",
+        "Dan O'Malley"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+      "link": "https://arxiv.org/abs/2605.08060v1",
+      "summary": "Context window expansion is often treated as a straightforward capability upgrade for LLMs, but we find it systematically fails in multi-agent social dilemmas. Across 7 LLMs and 4 games over 500 rounds, expanding accessible history degrades cooperation in 18 of 28 model--game settings, a pattern we term the memory curse. We isolate the underlying mechanism through three analyses. First, lexical analysis of 378,000 reasoning traces associates this breakdown with eroding forward-looking intent rat",
+      "published": "2026-05-08T17:47:13Z",
+      "authors": [
+        "Jiayuan Liu",
+        "Tianqin Li",
+        "Shiyi Du",
+        "Xin Luo",
+        "Haoxuan Zeng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "6D Pose Estimation via Keypoint Heatmap Regression with RGB-D Residual Neural Networks",
+      "link": "https://arxiv.org/abs/2605.08059v1",
+      "summary": "In this paper, we propose a modular framework for 6D pose estimation based on keypoint heatmap regression. Our approach combines YOLOv10m for object detection with a ResNet18-based network that predicts 2D heatmaps from RGB images. Keypoints extracted from these heatmaps are used to estimate the 6D object pose via the PnP RANSAC algorithm. We compare different keypoint selection strategies to assess their impact on pose accuracy. Additionally, we extend the baseline by incorporating depth data u",
+      "published": "2026-05-08T17:47:02Z",
+      "authors": [
+        "Ismail Aljosevic",
+        "Amir Masoud Almasi",
+        "Ana Parovic",
+        "Ashkan Shafiei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CA-SQL: Complexity-Aware Inference Time Reasoning for Text-to-SQL via Exploration and Compute Budget Allocation",
+      "link": "https://arxiv.org/abs/2605.08057v1",
+      "summary": "While recent advancements in inference-time learning have improved LLM reasoning on Text-to-SQL tasks, current solutions still struggle to perform well on the most challenging tasks in the Bird-Bench (BIRD) benchmark. This is due to inadequate solution space exploration, which is necessary to uncover promising candidate queries that can be further refined to produce the correct output. To address this challenge, we introduce CA-SQL, a novel Text-to-SQL pipeline that utilizes the estimated diffic",
+      "published": "2026-05-08T17:44:15Z",
+      "authors": [
+        "James Petullo",
+        "Nianwen Xue"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Anisotropic Defect Diffusion in Layered CsPbBr$_\\mathrm{x}$I$_\\mathrm{3-x}$ Perovskites",
+      "link": "https://arxiv.org/abs/2605.08055v1",
+      "summary": "Mixed-halide perovskites offer a route to enhance phase stability and modify optoelectronic properties. Here, we use large-scale molecular dynamics simulations with a reactive force field to investigate defects in CsPbBr$_\\mathrm{x}$I$_\\mathrm{3-x}$ perovskites, focusing on how defect mobility can be controlled and the stability of the material may be improved by layered ordering of Br and I anions in layers. Our results show that layered halide ordering induces strongly anisotropic defect diffu",
+      "published": "2026-05-08T17:43:42Z",
+      "authors": [
+        "Konrad Wilke",
+        "Mike Pols",
+        "Titus S. van Erp",
+        "Geert Brocks",
+        "Shuxia Tao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Highly-Constrained Human Motion Generation with Retrieval-Guided Diffusion Noise Optimization",
+      "link": "https://arxiv.org/abs/2605.08054v1",
+      "summary": "Generating human motion that satisfies customized zero-shot goal functions, enabling applications such as controllable character animation and behavior synthesis for virtual agents, is a critical capability. While current approaches handle many unseen constraints, they fail on tasks with very challenging spatiotemporal restrictions, such as severe spatial obstacles or specified numbers of walking steps. To equip motion generators for these highly constrained tasks, we present a retrieval-guided ",
+      "published": "2026-05-08T17:43:29Z",
+      "authors": [
+        "Hanchao Liu",
+        "Fang-Lue Zhang",
+        "Shining Zhang",
+        "Tai-Jiang Mu",
+        "Shi-Min Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reinforcement Learning for Exponential Utility: Algorithms and Convergence in Discounted MDPs",
+      "link": "https://arxiv.org/abs/2605.08053v1",
+      "summary": "Reinforcement learning (RL) for exponential-utility optimization in discounted Markov decision processes (MDPs) lacks principled value-based algorithms. We address this gap in the fixed risk-aversion setting. Building on the Bellman-type equation for exponential utility studied in \\cite{porteus1975optimality}, we derive two Q-value-style extensions and show that the associated operators are contractions in the $L_\\infty$ and sup-log/Thompson metrics, respectively. We characterize their fixed poi",
+      "published": "2026-05-08T17:41:48Z",
+      "authors": [
+        "Gugan Thoppe",
+        "L. A. Prashanth",
+        "Ankur Naskar",
+        "Sanjay Bhat"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rapid phase ordering of Ising dynamics on $\\mathbb Z^2$",
+      "link": "https://arxiv.org/abs/2605.08052v1",
+      "summary": "We consider the phase ordering problem for the low-temperature Ising dynamics initialized from a biased and disordered initialization. Work of Fontes, Schonmann, Sidoravicius (2002) showed that at zero-temperature, Ising Glauber dynamics on $\\mathbb Z^d$ for $d\\ge 2$ initialized from i.i.d. spins on each vertex that are $+1$ with sufficiently large probability, absorbs into the all-plus configuration quickly. We prove that analogous behavior holds throughout the low-temperature regime of the Isi",
+      "published": "2026-05-08T17:41:36Z",
+      "authors": [
+        "Reza Gheissari",
+        "Allan Sly"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inferring Asteroseismic Parameters from Short Observations Using Deep Learning: Application to TESS and K2 Red Giants",
+      "link": "https://arxiv.org/abs/2605.08051v1",
+      "summary": "Asteroseismology is the study of resonant oscillations of stars to infer their internal structure and dynamics. It is also a powerful tool for precisely determining stellar parameters such as mass, radius, surface gravity, and age. The ongoing TESS mission, with its nearly complete sky coverage, presents a unique opportunity to uniformly probe stellar populations across the Milky Way. TESS is estimated to have observed more than 300,000 oscillating red giants, most of which have one to two month",
+      "published": "2026-05-08T17:41:13Z",
+      "authors": [
+        "Nipun Ghanghas",
+        "Siddharth Dhanpal",
+        "Shravan Hanasoge",
+        "Praneeth Netrapalli",
+        "Karthikeyan Shanmugam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MoCoTalk: Multi-Conditional Diffusion with Adaptive Router for Controllable Talking Head Generation",
+      "link": "https://arxiv.org/abs/2605.08050v1",
+      "summary": "Talking-head generation requires joint modeling of identity, head pose, facial expression, and mouth dynamics. Existing methods typically address only a subset of these factors, and rely on fixed-weight or heuristic fusion when multiple conditions are involved. We present MoCoTalk, a multi-conditional video diffusion framework that unifies four complementary control signals: a reference image, facial keypoints, 3DMM-rendered shading meshes, and the corresponding speech audio. To resolve destruct",
+      "published": "2026-05-08T17:40:01Z",
+      "authors": [
+        "Xinyan Ye",
+        "Jiankang Deng",
+        "Abbas Edalat"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Light-driven octupolar inverse Faraday effect and multipolar order in Mott insulators",
+      "link": "https://arxiv.org/abs/2605.08049v1",
+      "summary": "Hidden multipolar orders in spin-orbit-coupled Mott insulators provide a promising setting for correlated quantum matter, yet their control and detection remain major challenges. Here, we demonstrate that circularly polarized light enables both in $4d^2/5d^2$ systems with edge-sharing octahedra. Using a Floquet Schrieffer-Wolff expansion of a driven Hubbard-Kanamori model, we derive a low-energy multipolar Hamiltonian with two qualitatively new light-driven terms. One is an effective static fiel",
+      "published": "2026-05-08T17:39:38Z",
+      "authors": [
+        "Saikat Banerjee",
+        "Tara Steinhöfel",
+        "Florian Lange",
+        "Matthias Eschrig",
+        "Holger Fehske"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Accurate and Efficient Statistical Testing for Word Semantic Breadth",
+      "link": "https://arxiv.org/abs/2605.08048v1",
+      "summary": "Measuring the breadth of a word's meaning, or its spread across contexts, has become feasible with contextualized token embeddings. A word type can be represented as a cloud of token vectors, with dispersion-based statistics serving as proxies for contextual diversity (Nagata and Tanaka-Ishii, ACL2025). These measurements are useful for deciding appropriate sense distinctions when constructing thesauri and domain-specific dictionaries. However, when comparing the breadth of two word types, naive",
+      "published": "2026-05-08T17:38:36Z",
+      "authors": [
+        "Yo Ehara"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Time-Domain Method of Auxiliary Sources for Analyzing Transient Electromagnetic Interactions with GSTC-Modeled Metasurfacess",
+      "link": "https://arxiv.org/abs/2605.08047v1",
+      "summary": "This paper presents a time domain (TD) formulation for modeling the transient electromagnetic response of two-dimensional (2D) metasurfaces using the Method of Auxiliary Sources (MAS) combined with the Generalized Sheet Transition Condition (GSTC). In the proposed approach, the frequency-domain impedance type GSTC is transformed into a causal, convolution-based TD representation and integrated within the MAS formulation. rfaces.",
+      "published": "2026-05-08T17:37:02Z",
+      "authors": [
+        "Minas Kouroublakis",
+        "Nikolaos L. Tsitsas",
+        "Yehuda Leviatan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semi-supervised Method for Risk Prediction with Doubly Censored EHR Data",
+      "link": "https://arxiv.org/abs/2605.08046v1",
+      "summary": "The rapid expansion of large-scale electronic health record (EHR) data offers unique opportunities to improve the accuracy and efficiency of clinical risk estimation. Yet, because clinical events may occur outside the recording health system, clinical event outcomes are frequently subject to double censoring (both left and right). Besides, gold-standard event times can often only be ascertained through labor-intensive manual chart reviews, yielding labels for only a small subset of patients. Rel",
+      "published": "2026-05-08T17:35:41Z",
+      "authors": [
+        "Jie Zhou",
+        "Enhao Wang",
+        "Xuan Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Uncertainty-Aware Structured Data Extraction from Full CMR Reports via Distilled LLMs",
+      "link": "https://arxiv.org/abs/2605.08045v1",
+      "summary": "Converting free-text cardiac magnetic resonance (CMR) reports into auditable structured data remains a bottleneck for cohort assembly, longitudinal curation, and clinical decision support. We present CMR-EXTR, a lightweight framework that converts free-text CMR reports into structured data and assigns per-field confidence for quality control. A teacher-student distillation pipeline enables fully offline inference while limiting manual annotation. Uncertainty integrates three complementary princi",
+      "published": "2026-05-08T17:35:41Z",
+      "authors": [
+        "Yi Yu",
+        "Parker Martin",
+        "Zhenyu Bu",
+        "Yixuan Liu",
+        "Yi-Yu Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast Byte Latent Transformer",
+      "link": "https://arxiv.org/abs/2605.08044v1",
+      "summary": "Recent byte-level language models (LMs) match the performance of token-level models without relying on subword vocabularies, yet their utility is limited by slow, byte-by-byte autoregressive generation. We address this bottleneck in the Byte Latent Transformer (BLT) through new training and generation techniques. First, we introduce BLT Diffusion (BLT-D), a new model and our fastest BLT variant, trained with an auxiliary block-wise diffusion objective alongside the standard next-byte prediction ",
+      "published": "2026-05-08T17:35:27Z",
+      "authors": [
+        "Julie Kallini",
+        "Artidoro Pagnoni",
+        "Tomasz Limisiewicz",
+        "Gargi Ghosh",
+        "Luke Zettlemoyer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SCOPE: Structured Decomposition and Conditional Skill Orchestration for Complex Image Generation",
+      "link": "https://arxiv.org/abs/2605.08043v1",
+      "summary": "While text-to-image models have made strong progress in visual fidelity, faithfully realizing complex visual intents remains challenging because many requirements must be tracked across grounding, generation, and verification. We refer to these requirements as semantic commitments and formalize their lifecycle discontinuity as the Conceptual Rift, where commitments may be locally resolved or checked but fail to remain identifiable as the same operational units throughout the generation lifecycle",
+      "published": "2026-05-08T17:32:30Z",
+      "authors": [
+        "Tianfei Ren",
+        "Zhipeng Yan",
+        "Yiming Zhao",
+        "Zhen Fang",
+        "Yu Zeng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The two-flavor Schwinger model at 50: Solving Coleman's puzzles",
+      "link": "https://arxiv.org/abs/2605.08042v1",
+      "summary": "In his 1976 paper \"More about the massive Schwinger model\", Coleman introduced $1+1$-dimensional Quantum Electrodynamics coupled to two charged massive fermions. By applying Abelian bosonization, he elucidated much of the physics of this two-flavor Schwinger model, but he listed three puzzles at the end of his paper. We present new analytical and numerical calculations to solve Coleman's three puzzles and thereby deepen our understanding of this model. These puzzles pertain to the theory with eq",
+      "published": "2026-05-08T17:32:20Z",
+      "authors": [
+        "Gabriel Cuomo",
+        "Ross Dempsey",
+        "Andrei Katsevich",
+        "Igor R. Klebanov",
+        "Ilia V. Kochergin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ECNUClaw: A Learner-Profiled Intelligent Study Companion Framework for K-12 Personalized Education",
+      "link": "https://arxiv.org/abs/2605.08040v1",
+      "summary": "We introduce ECNUClaw, an open-source framework for building learner-profiled intelligent study companions in K-12 education. The system constructs and maintains a five-dimension learner profile -- covering cognitive, behavioral, emotional, metacognitive, and contextual dimensions -- by extracting signals from student-companion dialogues at each turn. Profile updates feed directly into an adaptive strategy engine that adjusts the companion's guidance intensity, encouragement frequency, and Bloom",
+      "published": "2026-05-08T17:29:28Z",
+      "authors": [
+        "Yizhou Zhou",
+        "Jiayin Li",
+        "Zhi Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Joint Beamforming and Antenna Placement Optimization in Pinching Antenna Systems with User Mobility: A Deep Reinforcement Learning Approach",
+      "link": "https://arxiv.org/abs/2605.08039v1",
+      "summary": "Recently, the pinching antenna systems (PASS) have attracted significant attention due to their ability to exploit dynamically reconfigurable pinching points along waveguides for flexible signal transmission. However, existing work largely overlooks user mobility although the optimal pinching configuration is highly dependent on the user's location and must be continuously adjusted. In this work, we investigate a PASS-enabled system model in which a base station (BS) serves a mobile user. We for",
+      "published": "2026-05-08T17:28:52Z",
+      "authors": [
+        "Ali Amhaz",
+        "Mohamed Elhattab",
+        "Chadi Assi",
+        "Sanaa Sharafeddine"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Pairs: Your Language Model is Secretly Optimizing a Preference Graph",
+      "link": "https://arxiv.org/abs/2605.08037v1",
+      "summary": "Direct Preference Optimization (DPO) aligns language models using pairwise preference comparisons, offering a simple and effective alternative to Reinforcement Learning (RL) from human feedback. However, in many practical settings, training data consists of multiple rollouts per prompt, inducing rich preference structure that pairwise DPO fails to exploit. Collapsing such data into independent pairs discards transitivity, introduces redundant or conflicting supervision, and can lead to unstable ",
+      "published": "2026-05-08T17:26:14Z",
+      "authors": [
+        "Ning Liu",
+        "Chuanneng Sun",
+        "Kristina Klinkner",
+        "Shervin Malmasi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Don't Get Your Kroneckers in a Twist: Gaussian Processes on High-Dimensional Incomplete Grids",
+      "link": "https://arxiv.org/abs/2605.08036v1",
+      "summary": "We introduce CUTS-GPR, a new method for performing numerically exact Gaussian process regression (GPR) in high-dimensional settings. The key component of CUTS-GPR is an extremely fast kernel matrix-vector product, which exhibits near-linear or even linear scaling with the amount of training data, $N$, and low-order polynomial scaling with dimensionality, $D$. This is obtained by combining an additive kernel with an incomplete grid and exploiting the resulting structure of the kernel matrix. We d",
+      "published": "2026-05-08T17:24:22Z",
+      "authors": [
+        "Mads Greisen Højlund",
+        "August Smart Lykke-Møller",
+        "Henry Moss",
+        "Ove Christiansen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PropSplat: Map-Free RF Field Reconstruction via 3D Gaussian Propagation Splatting",
+      "link": "https://arxiv.org/abs/2605.08035v1",
+      "summary": "Building a site-specific propagation model typically requires either ray-tracing over detailed 3D maps or dense measurement campaigns. Both approaches are expensive and often infeasible for rapid deployments where geographic data is unavailable or outdated. We present PropSplat, a map-free propagation modeling method that reconstructs radio frequency (RF) fields using 3D anisotropic Gaussian primitives. Each Gaussian encodes a scalar path loss offset relative to an explicit baseline path loss mo",
+      "published": "2026-05-08T17:24:06Z",
+      "authors": [
+        "William Bjorndahl",
+        "Maninder Pal Singh",
+        "Farhad Nouri",
+        "Joseph Camp"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Weak Order on the MacNeille Completion of Bruhat Order",
+      "link": "https://arxiv.org/abs/2605.08033v1",
+      "summary": "Let $\\mathrm{Mac}(W)$ be the MacNeille completion of the Bruhat order of a Coxeter group $W$. We introduce an action of the $0$-Hecke monoid of type $W$ on $\\mathrm{Mac}(W)$, which allows us to define a weak order and a descent set statistic on $\\mathrm{Mac}(W)$. When $W$ is of type $A$, we recover constructions of Hamaker and Reiner, which were originally formulated in terms of monotone triangles and alternating sign matrices. Using this action, we prove that certain unions of Knutson--Miller s",
+      "published": "2026-05-08T17:23:19Z",
+      "authors": [
+        "Colin Defant"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analytical Solution to the Kronig-Penney Model with Harmonic Oscillator Wells: Insights to Tight-Binding",
+      "link": "https://arxiv.org/abs/2605.08032v1",
+      "summary": "The celebrated Kronig-Penney model traditionally has been formulated with square well potentials representing atomic centres. Here, we use a slightly more realistic potential, the truncated harmonic oscillator, in lieu of square well potentials, and solve the model analytically. We derive the energy dispersion and wave functions for this model. This configuration has some important similarities and differences compared to the usual model. In particular, we write the governing equation in a form ",
+      "published": "2026-05-08T17:22:20Z",
+      "authors": [
+        "Christopher Moore",
+        "Frank Marsiglio"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Object Hallucination-Free Reinforcement Unlearning for Vision-Language Models",
+      "link": "https://arxiv.org/abs/2605.08031v1",
+      "summary": "Vision-language models (VLMs) raise growing concerns about privacy, copyright, and bias, motivating machine unlearning to remove sensitive knowledge. However, existing methods primarily fine-tune the language decoder, leading to superficial forgetting that fails to erase underlying visual representations and often introduces object hallucination. We propose HFRU, a reinforcement unlearning framework that operates on the vision encoder for deep semantic removal. Our two-stage approach combines al",
+      "published": "2026-05-08T17:19:53Z",
+      "authors": [
+        "Kaidi Jia",
+        "Yujie Lin",
+        "Chengyi Yang",
+        "Jiayao Ma",
+        "Jinsong Su"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PET-Adapter: Test-Time Domain Adaptation for Full and Limited-Angle PET Image Reconstruction",
+      "link": "https://arxiv.org/abs/2605.08030v1",
+      "summary": "Positron Emission Tomography (PET) image reconstruction is inherently challenged by Poisson noise and physical degradation factors, which are further exacerbated in limited-angle acquisitions. While deep learning methods demonstrate promising performance, their generalization to unseen clinical data distributions remains limited without extensive retraining. We propose PET-Adapter, a test-time domain adaptation framework for generative PET reconstruction models pretrained solely on phantom data.",
+      "published": "2026-05-08T17:15:33Z",
+      "authors": [
+        "Rüveyda Yilmaz",
+        "Yuli Wu",
+        "Johannes Stegmaier",
+        "Volkmar Schulz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
+      "link": "https://arxiv.org/abs/2605.08029v1",
+      "summary": "Deep generative models have advanced rapidly across text and vision, motivating unified multimodal systems that can understand, reason over, and generate interleaved text-image sequences. Most existing approaches combine autoregressive language modeling with diffusion-based image generators, inheriting a structural mismatch between causal text generation and iterative visual denoising. We observe that autoregressive normalizing flows are autoregressive Transformers--sharing the same causal mask,",
+      "published": "2026-05-08T17:14:43Z",
+      "authors": [
+        "Ying Shen",
+        "Tianrong Chen",
+        "Yuan Gao",
+        "Yizhe Zhang",
+        "Yuyang Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Domain Decomposition Physics-Informed Neural Networks for Traffic State Estimation with Sparse Sensor Data",
+      "link": "https://arxiv.org/abs/2605.08028v1",
+      "summary": "Traffic state estimation from sparse fixed sensors is challenging because physics-informed neural networks (PINNs) tend to over-smooth the shockwaves admitted by the Lighthill-Whitham-Richards (LWR) model. This study proposes Adaptive Domain Decomposition Physics-Informed Neural Networks (ADD-PINN), a two-stage residual-guided framework for LWR-based offline speed-field reconstruction. A coarse global PINN is first trained; its spatial residual profile is then used to place subdomain boundaries ",
+      "published": "2026-05-08T17:13:53Z",
+      "authors": [
+        "Eunhan Ka",
+        "Ludovic Leclercq",
+        "Satish V. Ukkusuri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Approximate directional stationarity and associated qualification conditions",
+      "link": "https://arxiv.org/abs/2605.08026v1",
+      "summary": "Approximate stationarity conditions provide necessary optimality conditions without requiring additional assumptions by demanding that a perturbed stationarity system possesses solutions as the involved perturbations tend to zero. Together with associated approximate constraint qualifications, which are typically rather mild, they raised much interest in the optimization community during the last decade. In parallel, directional stationarity conditions became quite popular as they sharpen standa",
+      "published": "2026-05-08T17:11:53Z",
+      "authors": [
+        "Isabella Käming",
+        "Patrick Mehlitz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TRAS: An Interactive Software for Tracing Tree Ring Cross Sections",
+      "link": "https://arxiv.org/abs/2605.08025v1",
+      "summary": "Tree ring marking remains a key step in dendrometry and dendrochronology, but it is often performed manually, making the process time-consuming, subjective, and difficult to scale to large image datasets.   We present the Tree Ring Analyzer Suite (TRAS), an open-source graphical software for automatic delineation, manual correction, and measurement of tree rings in wood cross-sectional images. TRAS integrates three complementary detection algorithms: the classical image-processing method CS-TRD ",
+      "published": "2026-05-08T17:11:38Z",
+      "authors": [
+        "Henry Marichal",
+        "Diego Passarella",
+        "Gregory Randall"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Globally Optimal Training of Spiking Neural Networks via Parameter Reconstruction",
+      "link": "https://arxiv.org/abs/2605.08022v1",
+      "summary": "Spiking Neural Networks (SNNs) have been proposed as biologically plausible and energy-efficient alternatives to conventional Artificial Neural Networks (ANNs). However, the training of SNN usually relies on surrogate gradients due to the non-differentiability of the spike function, introducing approximation errors that accumulate across layers. To address this challenge, we extend the work on convexification of parallel feedforward threshold networks to parallel recurrent threshold networks, wh",
+      "published": "2026-05-08T17:10:08Z",
+      "authors": [
+        "Himanshu Udupi",
+        "Xiaocong Yang",
+        "ChengXiang Zhai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generalized master equation for driven quantum oscillators: microscopic origin of nonlinear dissipation and asymmetric resonances",
+      "link": "https://arxiv.org/abs/2605.08021v1",
+      "summary": "Driven nonlinear quantum oscillators are a central platform for quantum technologies, yet their dissipative dynamics are typically described using Lindblad or Caldeira-Leggett master equations derived under assumptions that exclude nonlinearities and driving. Here, we derive a generalized Caldeira-Leggett master equation for driven nonlinear oscillators by retaining the full nonlinear and time-dependent system dynamics in the construction of the dissipator. For position- and momentum-dependent s",
+      "published": "2026-05-08T17:09:18Z",
+      "authors": [
+        "Jakob Wagner",
+        "Jeff Maki",
+        "Oded Zilberberg",
+        "Kilian Seibold"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reason to Play: Behavioral and Brain Alignment Between Frontier LRMs and Human Game Learners",
+      "link": "https://arxiv.org/abs/2605.08019v1",
+      "summary": "Humans rapidly learn abstract knowledge when encountering novel environments and flexibly deploy this knowledge to guide efficient and intelligent action. Can modern AI systems learn and plan in a similar way? We study this question using a dataset of complex human gameplay with concurrent fMRI recordings, in which participants learn novel video games that require rule discovery, hypothesis revision, and multi-step planning. We jointly evaluate models by their ability to play the games, match hu",
+      "published": "2026-05-08T17:07:41Z",
+      "authors": [
+        "Botos Csaba",
+        "Sreejan Kumar",
+        "Austin Tudor David Andrews",
+        "Laurence Hunt",
+        "Chris Summerfield"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BAMIFun: Bayesian Multiple Imputation for Functional Data",
+      "link": "https://arxiv.org/abs/2605.08018v1",
+      "summary": "Missing data are pervasive in modern functional datasets, where trajectories are often sparsely or irregularly observed. Although Functional Principal Component Analysis (FPCA) is widely used to reconstruct incomplete curves, existing FPCA-based approaches typically employ single imputation, leading to overly optimistic inferences in downstream analyses. To address these challenges, we develop a novel Bayesian multiple imputation framework for functional data (BAMIFun). For single-level function",
+      "published": "2026-05-08T17:07:10Z",
+      "authors": [
+        "Ziren Jiang",
+        "Lei Xuan",
+        "Eric F. Lock",
+        "Erjia Cui"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dynamical mechanisms of flexible phase-locking in cortical theta oscillators",
+      "link": "https://arxiv.org/abs/2605.08014v1",
+      "summary": "Oscillatory activity in auditory cortex is thought to play a central role in auditory and speech processing by synchronizing neural rhythms to external acoustic features of the speech stream. To support this function, cortical oscillators must flexibly phase-lock to inputs spanning a wide range of timescales, including rhythms substantially slower than their intrinsic frequency. Here we identify a general dynamical mechanism by which intrinsic inhibitory currents operating on multiple timescales",
+      "published": "2026-05-08T17:05:09Z",
+      "authors": [
+        "Yangyang Wang",
+        "Benjamin R. Pittman-Polletta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning CLI Agents with Structured Action Credit under Selective Observation",
+      "link": "https://arxiv.org/abs/2605.08013v1",
+      "summary": "Command line interface (CLI) agents are emerging as a practical paradigm for agent-computer interaction over evolving filesystems, executable command line programs, and online execution feedback. Recent work has used reinforcement learning (RL) to learn these interaction abilities from verifiable task feedback, yet few methods exploit the native structured attributes of CLI actions as learning signals. Beyond this underused action structure, CLI learning also couples two bottlenecks for coding a",
+      "published": "2026-05-08T17:02:31Z",
+      "authors": [
+        "Haoyang Su",
+        "Ying Wen"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
