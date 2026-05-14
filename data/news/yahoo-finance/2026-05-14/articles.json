@@ -1,0 +1,580 @@
+{
+  "source": "yahoo-finance",
+  "article_count": 82,
+  "articles": [
+    {
+      "title": "Explained: What is a perpetual DEX? A Wall Street primer featuring Decibel",
+      "link": "https://finance.yahoo.com/news/explained-perpetual-dex-wall-street-152000841.html",
+      "summary": "",
+      "published": "2026-05-13T15:20:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Chip-Gear Standout Camtek Tops Q1 Views, Guides Higher",
+      "link": "https://www.investors.com/news/technology/camtek-stock-camt-q1-2026-earnings/?src=A00220&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T20:50:07Z",
+      "section": "top"
+    },
+    {
+      "title": "Solesence, Inc. Common Stock Q1 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/solesence-inc-common-stock-q1-205057383.html",
+      "summary": "",
+      "published": "2026-05-12T20:50:57Z",
+      "section": "top"
+    },
+    {
+      "title": "Alico, Inc. Q2 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/alico-inc-q2-2026-earnings-205056919.html",
+      "summary": "",
+      "published": "2026-05-12T20:50:56Z",
+      "section": "top"
+    },
+    {
+      "title": "Vestis Corporation Q2 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/vestis-corporation-q2-2026-earnings-204802638.html",
+      "summary": "",
+      "published": "2026-05-12T20:48:02Z",
+      "section": "top"
+    },
+    {
+      "title": "Canadian Pacific Kansas City (CP) Keeps Breaking Grain Shipping Records As Momentum Builds",
+      "link": "https://finance.yahoo.com/news/canadian-pacific-kansas-city-cp-205704065.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:04Z",
+      "section": "top"
+    },
+    {
+      "title": "Plug Power Stock Pops on Earnings. The Hydrogen Company Improved Its Margins 71%.",
+      "link": "https://finance.yahoo.com/news/plug-power-stock-pops-earnings-205231930.html",
+      "summary": "",
+      "published": "2026-05-12T20:52:31Z",
+      "section": "top"
+    },
+    {
+      "title": "Ducommun Incorporated Q1 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/ducommun-incorporated-q1-2026-earnings-204830238.html",
+      "summary": "",
+      "published": "2026-05-12T20:48:30Z",
+      "section": "top"
+    },
+    {
+      "title": "Nelson Peltz Reportedly Wants to Take Wendy's Private. What That Means for WEN Stock.",
+      "link": "https://finance.yahoo.com/news/nelson-peltz-reportedly-wants-wendys-205231564.html",
+      "summary": "",
+      "published": "2026-05-12T20:52:31Z",
+      "section": "top"
+    },
+    {
+      "title": "Gold Slides Lower as US Inflation Clouds Fed Easing Outlook",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-investors-track-war-044338216.html",
+      "summary": "",
+      "published": "2026-05-12T20:55:24Z",
+      "section": "top"
+    },
+    {
+      "title": "Ahead of Cisco Earnings, Here Is What Barchart Options Data Shows for CSCO Stock",
+      "link": "https://finance.yahoo.com/news/ahead-cisco-earnings-barchart-options-205722850.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:22Z",
+      "section": "top"
+    },
+    {
+      "title": "Grok AI Stock Portfolio: Sable Offshore (SOC) Is Among The Top 10 Picks for 2026",
+      "link": "https://finance.yahoo.com/news/grok-ai-stock-portfolio-sable-205306482.html",
+      "summary": "",
+      "published": "2026-05-12T20:53:06Z",
+      "section": "top"
+    },
+    {
+      "title": "a.k.a. Brands Sees Q1 Sales Growth, Raises 2026 Guidance",
+      "link": "https://finance.yahoo.com/news/k-brands-sees-q1-sales-205718071.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:18Z",
+      "section": "top"
+    },
+    {
+      "title": "Camtek Ltd. Q1 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/camtek-ltd-q1-2026-earnings-205711806.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:11Z",
+      "section": "top"
+    },
+    {
+      "title": "Cresset CEO Says Wealth Talent Shortage to Watch Is in Adjacent Family Office Services",
+      "link": "https://finance.yahoo.com/news/cresset-ceo-says-wealth-talent-205413203.html",
+      "summary": "",
+      "published": "2026-05-12T20:54:13Z",
+      "section": "top"
+    },
+    {
+      "title": "Why Grupo Aeroportuario del Pacífico (PAC) Appears Shielded From Spirit Airlines Disruption",
+      "link": "https://finance.yahoo.com/news/why-grupo-aeroportuario-del-pac-205643885.html",
+      "summary": "",
+      "published": "2026-05-12T20:56:43Z",
+      "section": "top"
+    },
+    {
+      "title": "ETF League Tables: Vanguard Inflows Total $2.1B",
+      "link": "https://finance.yahoo.com/news/etf-league-tables-vanguard-inflows-210004154.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:04Z",
+      "section": "top"
+    },
+    {
+      "title": "Brookfield Infrastructure (BIP) Takes A Short-Term Hit As Strategic Expansion Continues",
+      "link": "https://finance.yahoo.com/news/brookfield-infrastructure-bip-takes-short-205623226.html",
+      "summary": "",
+      "published": "2026-05-12T20:56:23Z",
+      "section": "top"
+    },
+    {
+      "title": "Daily ETF Flows: SMH Inflows Total $397M",
+      "link": "https://finance.yahoo.com/news/daily-etf-flows-smh-inflows-210003297.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:03Z",
+      "section": "top"
+    },
+    {
+      "title": "Fanatics Commerce Names Jamie Gersch to Expanded Marketing Role",
+      "link": "https://finance.yahoo.com/news/fanatics-commerce-names-jamie-gersch-205024358.html",
+      "summary": "",
+      "published": "2026-05-12T20:50:24Z",
+      "section": "top"
+    },
+    {
+      "title": "Union Pacific (UNP): New Merger Analysis Points To Bigger Supply Chain Ambitions",
+      "link": "https://finance.yahoo.com/news/union-pacific-unp-merger-analysis-205721985.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:21Z",
+      "section": "top"
+    },
+    {
+      "title": "Old Dominion (ODFL) Gets A Target Hike As Freight Demand Signals Begin To Improve",
+      "link": "https://finance.yahoo.com/news/old-dominion-odfl-gets-target-205735041.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:35Z",
+      "section": "top"
+    },
+    {
+      "title": "Grupo Aeroportuario del Sureste (ASR) Lands A Higher Target As Analysts Reassess The Outlook",
+      "link": "https://finance.yahoo.com/news/grupo-aeroportuario-del-sureste-asr-205842898.html",
+      "summary": "",
+      "published": "2026-05-12T20:58:42Z",
+      "section": "top"
+    },
+    {
+      "title": "Why Ainos (AIMD) May Be Positioning Itself For A Bigger AI Commercialization Push",
+      "link": "https://finance.yahoo.com/news/why-ainos-aimd-may-positioning-210033334.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:33Z",
+      "section": "top"
+    },
+    {
+      "title": "There Is a Fire Sale on M.B.A.s",
+      "link": "https://www.wsj.com/lifestyle/careers/there-is-a-fire-sale-on-m-b-a-s-87d56c69?siteid=yhoof2&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T20:58:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Is Parsons Corporation (PSN) Among the Best Transport Infrastructure Stocks to Buy for 2026?",
+      "link": "https://finance.yahoo.com/news/parsons-corporation-psn-among-best-205919525.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:19Z",
+      "section": "top"
+    },
+    {
+      "title": "Here is Why comScore, Inc. (SCOR) is Among the 7 Best Machine Learning Stocks to Buy According to Short Sellers",
+      "link": "https://finance.yahoo.com/news/why-comscore-inc-scor-among-205943658.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:43Z",
+      "section": "top"
+    },
+    {
+      "title": "NetSol Technologies (NTWK) Secures A Major Contract Extension",
+      "link": "https://finance.yahoo.com/news/netsol-technologies-ntwk-secures-major-210117843.html",
+      "summary": "",
+      "published": "2026-05-12T21:01:17Z",
+      "section": "top"
+    },
+    {
+      "title": "Wetour Robotics Limited (WETO): 7 Best Machine Learning Stocks to Buy According to Short Sellers",
+      "link": "https://finance.yahoo.com/news/wetour-robotics-limited-weto-7-205934132.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:34Z",
+      "section": "top"
+    },
+    {
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-026aa938?siteid=yhoof2&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T20:57:00Z",
+      "section": "top"
+    },
+    {
+      "title": "FreightCar America, Inc. (RAIL): Best Transport Infrastructure Stocks to Buy for 2026",
+      "link": "https://finance.yahoo.com/news/freightcar-america-inc-rail-best-205855095.html",
+      "summary": "",
+      "published": "2026-05-12T20:58:55Z",
+      "section": "top"
+    },
+    {
+      "title": "Myseum.AI (MYSE) Lands A Key AMD Partnership As Its AI Ambitions Expand",
+      "link": "https://finance.yahoo.com/news/myseum-ai-myse-lands-key-210105350.html",
+      "summary": "",
+      "published": "2026-05-12T21:01:05Z",
+      "section": "top"
+    },
+    {
+      "title": "Focus Universal (FCUV) Expands Its Float As Investors Weigh The Long-Term Tradeoff",
+      "link": "https://finance.yahoo.com/news/focus-universal-fcuv-expands-float-210045133.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:45Z",
+      "section": "top"
+    },
+    {
+      "title": "Grok AI Says Kratos Defense & Security (KTOS) a Top Defense Stock Pick for 2026",
+      "link": "https://finance.yahoo.com/news/grok-ai-says-kratos-defense-205908604.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:08Z",
+      "section": "top"
+    },
+    {
+      "title": "Here is Why AECOM (ACM) is Among the Best Transport Infrastructure Stocks to Buy for 2026",
+      "link": "https://finance.yahoo.com/news/why-aecom-acm-among-best-205908223.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:08Z",
+      "section": "top"
+    },
+    {
+      "title": "5 Tax Strategies Smart Founders Use to Protect Their Profits",
+      "link": "https://finance.yahoo.com/news/5-tax-strategies-smart-founders-210000678.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Sherwin-Williams (SHW) Gets Higher Price Target from Evercore ISI",
+      "link": "https://finance.yahoo.com/news/sherwin-williams-shw-gets-higher-210115554.html",
+      "summary": "",
+      "published": "2026-05-12T21:01:15Z",
+      "section": "top"
+    },
+    {
+      "title": "Wells Fargo, Barclays Lift Target (TGT) Price Targets Following Improved Setup",
+      "link": "https://finance.yahoo.com/news/wells-fargo-barclays-lift-target-210325286.html",
+      "summary": "",
+      "published": "2026-05-12T21:03:25Z",
+      "section": "top"
+    },
+    {
+      "title": "Why Granite Construction (GVA) May Be Entering A Stronger Expansion Phase",
+      "link": "https://finance.yahoo.com/news/why-granite-construction-gva-may-205829726.html",
+      "summary": "",
+      "published": "2026-05-12T20:58:29Z",
+      "section": "top"
+    },
+    {
+      "title": "Is XBP Global Holdings, Inc. (XBP) Among the Best Machine Learning Stocks to Buy According to Short Sellers?",
+      "link": "https://finance.yahoo.com/news/xbp-global-holdings-inc-xbp-205956517.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:56Z",
+      "section": "top"
+    },
+    {
+      "title": "Auto & Transport Roundup: Market Talk",
+      "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-40363f35?siteid=yhoof2&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T21:00:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Explained: What is a perpetual DEX? A Wall Street primer featuring Decibel",
+      "link": "https://finance.yahoo.com/news/explained-perpetual-dex-wall-street-152000841.html",
+      "summary": "",
+      "published": "2026-05-13T15:20:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Chip-Gear Standout Camtek Tops Q1 Views, Guides Higher",
+      "link": "https://www.investors.com/news/technology/camtek-stock-camt-q1-2026-earnings/?src=A00220&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T20:50:07Z",
+      "section": "markets"
+    },
+    {
+      "title": "Solesence, Inc. Common Stock Q1 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/solesence-inc-common-stock-q1-205057383.html",
+      "summary": "",
+      "published": "2026-05-12T20:50:57Z",
+      "section": "markets"
+    },
+    {
+      "title": "Alico, Inc. Q2 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/alico-inc-q2-2026-earnings-205056919.html",
+      "summary": "",
+      "published": "2026-05-12T20:50:56Z",
+      "section": "markets"
+    },
+    {
+      "title": "Vestis Corporation Q2 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/vestis-corporation-q2-2026-earnings-204802638.html",
+      "summary": "",
+      "published": "2026-05-12T20:48:02Z",
+      "section": "markets"
+    },
+    {
+      "title": "Canadian Pacific Kansas City (CP) Keeps Breaking Grain Shipping Records As Momentum Builds",
+      "link": "https://finance.yahoo.com/news/canadian-pacific-kansas-city-cp-205704065.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:04Z",
+      "section": "markets"
+    },
+    {
+      "title": "Plug Power Stock Pops on Earnings. The Hydrogen Company Improved Its Margins 71%.",
+      "link": "https://finance.yahoo.com/news/plug-power-stock-pops-earnings-205231930.html",
+      "summary": "",
+      "published": "2026-05-12T20:52:31Z",
+      "section": "markets"
+    },
+    {
+      "title": "Ducommun Incorporated Q1 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/ducommun-incorporated-q1-2026-earnings-204830238.html",
+      "summary": "",
+      "published": "2026-05-12T20:48:30Z",
+      "section": "markets"
+    },
+    {
+      "title": "Nelson Peltz Reportedly Wants to Take Wendy's Private. What That Means for WEN Stock.",
+      "link": "https://finance.yahoo.com/news/nelson-peltz-reportedly-wants-wendys-205231564.html",
+      "summary": "",
+      "published": "2026-05-12T20:52:31Z",
+      "section": "markets"
+    },
+    {
+      "title": "Gold Slides Lower as US Inflation Clouds Fed Easing Outlook",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-investors-track-war-044338216.html",
+      "summary": "",
+      "published": "2026-05-12T20:55:24Z",
+      "section": "markets"
+    },
+    {
+      "title": "Ahead of Cisco Earnings, Here Is What Barchart Options Data Shows for CSCO Stock",
+      "link": "https://finance.yahoo.com/news/ahead-cisco-earnings-barchart-options-205722850.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:22Z",
+      "section": "markets"
+    },
+    {
+      "title": "Grok AI Stock Portfolio: Sable Offshore (SOC) Is Among The Top 10 Picks for 2026",
+      "link": "https://finance.yahoo.com/news/grok-ai-stock-portfolio-sable-205306482.html",
+      "summary": "",
+      "published": "2026-05-12T20:53:06Z",
+      "section": "markets"
+    },
+    {
+      "title": "a.k.a. Brands Sees Q1 Sales Growth, Raises 2026 Guidance",
+      "link": "https://finance.yahoo.com/news/k-brands-sees-q1-sales-205718071.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:18Z",
+      "section": "markets"
+    },
+    {
+      "title": "Camtek Ltd. Q1 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/news/camtek-ltd-q1-2026-earnings-205711806.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:11Z",
+      "section": "markets"
+    },
+    {
+      "title": "Cresset CEO Says Wealth Talent Shortage to Watch Is in Adjacent Family Office Services",
+      "link": "https://finance.yahoo.com/news/cresset-ceo-says-wealth-talent-205413203.html",
+      "summary": "",
+      "published": "2026-05-12T20:54:13Z",
+      "section": "markets"
+    },
+    {
+      "title": "Why Grupo Aeroportuario del Pacífico (PAC) Appears Shielded From Spirit Airlines Disruption",
+      "link": "https://finance.yahoo.com/news/why-grupo-aeroportuario-del-pac-205643885.html",
+      "summary": "",
+      "published": "2026-05-12T20:56:43Z",
+      "section": "markets"
+    },
+    {
+      "title": "ETF League Tables: Vanguard Inflows Total $2.1B",
+      "link": "https://finance.yahoo.com/news/etf-league-tables-vanguard-inflows-210004154.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:04Z",
+      "section": "markets"
+    },
+    {
+      "title": "Brookfield Infrastructure (BIP) Takes A Short-Term Hit As Strategic Expansion Continues",
+      "link": "https://finance.yahoo.com/news/brookfield-infrastructure-bip-takes-short-205623226.html",
+      "summary": "",
+      "published": "2026-05-12T20:56:23Z",
+      "section": "markets"
+    },
+    {
+      "title": "Daily ETF Flows: SMH Inflows Total $397M",
+      "link": "https://finance.yahoo.com/news/daily-etf-flows-smh-inflows-210003297.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:03Z",
+      "section": "markets"
+    },
+    {
+      "title": "Fanatics Commerce Names Jamie Gersch to Expanded Marketing Role",
+      "link": "https://finance.yahoo.com/news/fanatics-commerce-names-jamie-gersch-205024358.html",
+      "summary": "",
+      "published": "2026-05-12T20:50:24Z",
+      "section": "markets"
+    },
+    {
+      "title": "Union Pacific (UNP): New Merger Analysis Points To Bigger Supply Chain Ambitions",
+      "link": "https://finance.yahoo.com/news/union-pacific-unp-merger-analysis-205721985.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:21Z",
+      "section": "markets"
+    },
+    {
+      "title": "Old Dominion (ODFL) Gets A Target Hike As Freight Demand Signals Begin To Improve",
+      "link": "https://finance.yahoo.com/news/old-dominion-odfl-gets-target-205735041.html",
+      "summary": "",
+      "published": "2026-05-12T20:57:35Z",
+      "section": "markets"
+    },
+    {
+      "title": "Grupo Aeroportuario del Sureste (ASR) Lands A Higher Target As Analysts Reassess The Outlook",
+      "link": "https://finance.yahoo.com/news/grupo-aeroportuario-del-sureste-asr-205842898.html",
+      "summary": "",
+      "published": "2026-05-12T20:58:42Z",
+      "section": "markets"
+    },
+    {
+      "title": "Why Ainos (AIMD) May Be Positioning Itself For A Bigger AI Commercialization Push",
+      "link": "https://finance.yahoo.com/news/why-ainos-aimd-may-positioning-210033334.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:33Z",
+      "section": "markets"
+    },
+    {
+      "title": "There Is a Fire Sale on M.B.A.s",
+      "link": "https://www.wsj.com/lifestyle/careers/there-is-a-fire-sale-on-m-b-a-s-87d56c69?siteid=yhoof2&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T20:58:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Is Parsons Corporation (PSN) Among the Best Transport Infrastructure Stocks to Buy for 2026?",
+      "link": "https://finance.yahoo.com/news/parsons-corporation-psn-among-best-205919525.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:19Z",
+      "section": "markets"
+    },
+    {
+      "title": "Here is Why comScore, Inc. (SCOR) is Among the 7 Best Machine Learning Stocks to Buy According to Short Sellers",
+      "link": "https://finance.yahoo.com/news/why-comscore-inc-scor-among-205943658.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:43Z",
+      "section": "markets"
+    },
+    {
+      "title": "NetSol Technologies (NTWK) Secures A Major Contract Extension",
+      "link": "https://finance.yahoo.com/news/netsol-technologies-ntwk-secures-major-210117843.html",
+      "summary": "",
+      "published": "2026-05-12T21:01:17Z",
+      "section": "markets"
+    },
+    {
+      "title": "Wetour Robotics Limited (WETO): 7 Best Machine Learning Stocks to Buy According to Short Sellers",
+      "link": "https://finance.yahoo.com/news/wetour-robotics-limited-weto-7-205934132.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:34Z",
+      "section": "markets"
+    },
+    {
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-026aa938?siteid=yhoof2&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T20:57:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "FreightCar America, Inc. (RAIL): Best Transport Infrastructure Stocks to Buy for 2026",
+      "link": "https://finance.yahoo.com/news/freightcar-america-inc-rail-best-205855095.html",
+      "summary": "",
+      "published": "2026-05-12T20:58:55Z",
+      "section": "markets"
+    },
+    {
+      "title": "Myseum.AI (MYSE) Lands A Key AMD Partnership As Its AI Ambitions Expand",
+      "link": "https://finance.yahoo.com/news/myseum-ai-myse-lands-key-210105350.html",
+      "summary": "",
+      "published": "2026-05-12T21:01:05Z",
+      "section": "markets"
+    },
+    {
+      "title": "Focus Universal (FCUV) Expands Its Float As Investors Weigh The Long-Term Tradeoff",
+      "link": "https://finance.yahoo.com/news/focus-universal-fcuv-expands-float-210045133.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:45Z",
+      "section": "markets"
+    },
+    {
+      "title": "Grok AI Says Kratos Defense & Security (KTOS) a Top Defense Stock Pick for 2026",
+      "link": "https://finance.yahoo.com/news/grok-ai-says-kratos-defense-205908604.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:08Z",
+      "section": "markets"
+    },
+    {
+      "title": "Here is Why AECOM (ACM) is Among the Best Transport Infrastructure Stocks to Buy for 2026",
+      "link": "https://finance.yahoo.com/news/why-aecom-acm-among-best-205908223.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:08Z",
+      "section": "markets"
+    },
+    {
+      "title": "5 Tax Strategies Smart Founders Use to Protect Their Profits",
+      "link": "https://finance.yahoo.com/news/5-tax-strategies-smart-founders-210000678.html",
+      "summary": "",
+      "published": "2026-05-12T21:00:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Sherwin-Williams (SHW) Gets Higher Price Target from Evercore ISI",
+      "link": "https://finance.yahoo.com/news/sherwin-williams-shw-gets-higher-210115554.html",
+      "summary": "",
+      "published": "2026-05-12T21:01:15Z",
+      "section": "markets"
+    },
+    {
+      "title": "Wells Fargo, Barclays Lift Target (TGT) Price Targets Following Improved Setup",
+      "link": "https://finance.yahoo.com/news/wells-fargo-barclays-lift-target-210325286.html",
+      "summary": "",
+      "published": "2026-05-12T21:03:25Z",
+      "section": "markets"
+    },
+    {
+      "title": "Why Granite Construction (GVA) May Be Entering A Stronger Expansion Phase",
+      "link": "https://finance.yahoo.com/news/why-granite-construction-gva-may-205829726.html",
+      "summary": "",
+      "published": "2026-05-12T20:58:29Z",
+      "section": "markets"
+    },
+    {
+      "title": "Is XBP Global Holdings, Inc. (XBP) Among the Best Machine Learning Stocks to Buy According to Short Sellers?",
+      "link": "https://finance.yahoo.com/news/xbp-global-holdings-inc-xbp-205956517.html",
+      "summary": "",
+      "published": "2026-05-12T20:59:56Z",
+      "section": "markets"
+    },
+    {
+      "title": "Auto & Transport Roundup: Market Talk",
+      "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-40363f35?siteid=yhoof2&yptr=yahoo",
+      "summary": "",
+      "published": "2026-05-12T21:00:00Z",
+      "section": "markets"
+    }
+  ]
+}
