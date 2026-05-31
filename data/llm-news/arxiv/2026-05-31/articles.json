@@ -1,0 +1,627 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+      "link": "https://arxiv.org/abs/2605.30353v1",
+      "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop perturbation theory module in JAX. We documented and classified 15 supervision events by intervention level.   The agent resolved ten autonomously by iterating against oracle tests. Two more by the physicist's domain knowledge. The three it could n",
+      "published": "2026-05-28T17:59:59Z",
+      "authors": [
+        "Nhat-Minh Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "link": "https://arxiv.org/abs/2605.30351v1",
+      "summary": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and latency, has been mostly left unchanged. In this paper, we present the first study of Multi-Head Latent Attention (MLA) in video diffusion. VideoMLA replaces per-head keys and values with a shared low-",
+      "published": "2026-05-28T17:59:57Z",
+      "authors": [
+        "Hidir Yesiltepe",
+        "Jiazhen Hu",
+        "Tuna Han Salih Meral",
+        "Adil Kaan Akan",
+        "Kaan Oktay"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+      "link": "https://arxiv.org/abs/2605.30350v1",
+      "summary": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introduce DynaFLIP, a dynamics-aware multimodal pre-training framework that pushes motion understanding upstream into perception. We construct image-language-3D flow triplets from heterogeneous human and rob",
+      "published": "2026-05-28T17:59:53Z",
+      "authors": [
+        "Jusuk Lee",
+        "Seungjae Lee",
+        "Jonghun Shin",
+        "Hoseong Jung",
+        "Sungha Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "link": "https://arxiv.org/abs/2605.30348v1",
+      "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{Data Mixture Surgery (DMS)}$: given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus under a predefined taxonomy. We propose $\\textbf{LLMSurgeon}",
+      "published": "2026-05-28T17:59:53Z",
+      "authors": [
+        "Yaxin Luo",
+        "Jiacheng Cui",
+        "Xiaohan Zhao",
+        "Xinyi Shang",
+        "Jiacheng Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+      "link": "https://arxiv.org/abs/2605.30349v1",
+      "summary": "Autoregressive video diffusion models generate streaming video by producing frames sequentially, conditioning each chunk on previously generated content. These models are structurally anchored to the first frame: its key-value representation occupies a privileged position in the attention cache and serves as the primary scene reference throughout generation. As the cleanest and most error-free position in the cache, this anchor draws disproportionate attention, suppressing video dynamics, and lo",
+      "published": "2026-05-28T17:59:53Z",
+      "authors": [
+        "Yusuf Dalva",
+        "Pinar Yanardag"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "NeuROK: Generative 4D Neural Object Kinematics",
+      "link": "https://arxiv.org/abs/2605.30347v1",
+      "summary": "Data-driven approaches have revolutionized 3D vision, enabling transformers to effectively reconstruct and generate static 3D objects. However, generating simulative 4D dynamics -- realistic temporal deformations of static objects under various physical conditions -- remains challenging and often ad hoc, despite its importance in building comprehensive 3D world models. Most existing methods assume a predefined physical model and use system identification to estimate parameters, restricting these",
+      "published": "2026-05-28T17:59:53Z",
+      "authors": [
+        "Chen Geng",
+        "Guangzhao He",
+        "Yue Gao",
+        "Yunzhi Zhang",
+        "Shangzhe Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "YoCausal: How Far is Video Generation from World Model? A Causality Perspective",
+      "link": "https://arxiv.org/abs/2605.30346v1",
+      "summary": "As video diffusion models (VDMs) advance toward world models, a key question arises: do they truly understand causality, or merely overfit to statistical temporal patterns? Existing benchmarks mostly rely on synthetic data, limiting real-world generalization due to the sim-to-real gap. We present YoCausal, a two-level benchmark inspired by the Violation of Expectation (VoE) paradigm from cognitive science. By temporally reversing real-world videos at zero cost as natural counterfactual samples, ",
+      "published": "2026-05-28T17:59:51Z",
+      "authors": [
+        "You-Zhe Xie",
+        "Yu-Hsuan Li",
+        "Jie-Ying Lee",
+        "Kaipeng Zhang",
+        "Yu-Lun Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+      "link": "https://arxiv.org/abs/2605.30345v1",
+      "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, the first large language model that generates editable PCB schematics from natural-language requests. The key challenge lies in the lack of an LLM-suited representation and a large-scale dataset. Curr",
+      "published": "2026-05-28T17:59:50Z",
+      "authors": [
+        "Qinpei Luo",
+        "Ruichun Ma",
+        "Xinyu Zhang",
+        "Lili Qiu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tiny but Trusted: Efficient Vision-Language Reasoning for Time-Series Anomaly Detection",
+      "link": "https://arxiv.org/abs/2605.30344v1",
+      "summary": "Recent advances in Vision-Language Models (VLMs) have achieved impressive performance across many tasks, yet prior studies report unsatisfactory performance when applying large language or multimodal models to finding abnormal patterns in sequential data. Public anomaly detection benchmarks typically provide interval annotations but not natural-language rationales, making it difficult to fine-tune VLMs to produce grounded, interpretable decisions. To address this gap, we construct VisAnomBench, ",
+      "published": "2026-05-28T17:59:50Z",
+      "authors": [
+        "Xiaona Zhou",
+        "Muntasir Wahed",
+        "Tianjiao Yu",
+        "Constantin Brif",
+        "Ismini Lourentzou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
+      "link": "https://arxiv.org/abs/2605.30343v1",
+      "summary": "To improve the reasoning capabilities of large language models, test-time compute is typically scaled by generating intermediate tokens before the final answer. However, this couples reasoning to autoregressive generation and thereby conflates internal computation with external communication. In contrast, human cognition can use working memory to hold and manipulate information internally without the need to externalize intermediate thoughts. Drawing on this principle, we introduce Reasoning in ",
+      "published": "2026-05-28T17:59:49Z",
+      "authors": [
+        "Lukas Aichberger",
+        "Sepp Hochreiter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GPIC: A Giant Permissive Image Corpus for Visual Generation",
+      "link": "https://arxiv.org/abs/2605.30341v1",
+      "summary": "Studying scalable methods for visual generative modeling requires large, accessible, and stable datasets. We introduce GPIC, a Giant Permissive Image Corpus of approximately 28 trillion pixels. GPIC comprises diverse internet images captioned by a state-of-the-art vision-language model, including 100M training, 200K validation, and 1M test examples. Moreover, all GPIC images are permissively licensed for both research and commercial use. GPIC is safety-filtered, deduplicated, and centrally hoste",
+      "published": "2026-05-28T17:59:26Z",
+      "authors": [
+        "Keshigeyan Chandrasegaran",
+        "Kyle Sargent",
+        "Suchir Agarwal",
+        "Michael Jang",
+        "Michael Poli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking Single-Factor Physical Video-to-Audio Generation",
+      "link": "https://arxiv.org/abs/2605.30339v1",
+      "summary": "Generative video-to-audio (V2A) models produce highly plausible soundtracks, but it remains unclear whether they capture the underlying physical processes. Existing evaluations emphasize perceptual realism and overlook physical correctness under controlled interventions. In this paper, we introduce FlatSounds, a benchmark that audits the physical reasoning of V2A models through: 1) controlled counterfactual pairs in which a single physical factor is varied, and 2) single-video pattern tests that",
+      "published": "2026-05-28T17:59:09Z",
+      "authors": [
+        "Tingle Li",
+        "Siddharth Gururani",
+        "Kevin J. Shih",
+        "Gantavya Bhatt",
+        "Sang-gil Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image",
+      "link": "https://arxiv.org/abs/2605.30338v1",
+      "summary": "Reconstructing physically stable 3D scenes from a single RGB image enables casual images to be converted into simulation-ready digital assets for applications such as immersive interaction and content creation. However, existing single-image reconstruction methods fall short in capturing the physical structure of a scene. As a result, they often produce geometrically plausible but physically inconsistent results, including object floating and penetration, which lead to unstable behavior in physi",
+      "published": "2026-05-28T17:59:01Z",
+      "authors": [
+        "Xiaoxuan Ma",
+        "Jiashun Wang",
+        "Nicolas Ugrinovic",
+        "Yehonathan Litman",
+        "Kris Kitani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient Test-Time Finetuning of LLMs via Convex Reconstruction and Gradient Caching",
+      "link": "https://arxiv.org/abs/2605.30337v1",
+      "summary": "Test-time finetuning (TTFT) is a rapidly evolving paradigm that adapts a language model to each prompt by retrieving related sequences, updating the model on them, and then evaluating the prompt. However, TTFT is only practical if it is fast: selection and finetuning both happen per query, making each a direct bottleneck. Existing methods trade speed for quality: fast retrieval is often redundant, while stronger diversity-aware selection adds prohibitive per-query cost. We introduce HullFT, a ge",
+      "published": "2026-05-28T17:59:01Z",
+      "authors": [
+        "Alaa Khamis",
+        "Alaa Maalouf"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fairness-Aware Federated Learning with Trajectory Shapley Value",
+      "link": "https://arxiv.org/abs/2605.30336v1",
+      "summary": "Federated learning is an emerging distributed paradigm that addresses the challenges posed by heterogeneous, privacy-sensitive data. It enables multiple clients to train a model collaboratively by aggregating their local updates at a server. However, conventional aggregation schemes typically use fixed weights that fail to reflect unequal and time-varying client contributions, leading to biased and unstable learning. To improve fairness and stability, we propose the Trajectory Shapley Value (TSV",
+      "published": "2026-05-28T17:58:57Z",
+      "authors": [
+        "Daniel Kuznetsov",
+        "Ziqi Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+      "link": "https://arxiv.org/abs/2605.30335v1",
+      "summary": "Multi-component LLM agents assemble probabilistic claims from components that each see only part of a joint problem; the composition can violate basic probability axioms even when every component is locally coherent. We formalise this locally coherent, globally incoherent failure via the compositional residual eps*, the L2 distance from the composed quote to the joint coherent polytope, computable at runtime from system output and the declared cross-component coupling constraints. A product-stru",
+      "published": "2026-05-28T17:58:55Z",
+      "authors": [
+        "Anany Kotawala"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Demystifying Data Organization for Enhanced LLM Training",
+      "link": "https://arxiv.org/abs/2605.30334v1",
+      "summary": "Large Language Models (LLMs) have revolutionized various fields, yet their training efficiency is heavily reliant on effective data curation. While data selection has been widely studied, the strategic data organization for enhanced training remains an underexplored area, particularly since current LLMs are often trained for only one or a few epochs. This paper systematically explores the influence of data organization on LLM training by reusing pre-computed sample-level scores originally genera",
+      "published": "2026-05-28T17:58:53Z",
+      "authors": [
+        "Yalun Dai",
+        "Yangyu Huang",
+        "Tongshen Yang",
+        "Yonghan Wang",
+        "Xin Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "COMPOSE: Composing Future Theorems from Citations and Formal Structure",
+      "link": "https://arxiv.org/abs/2605.30333v1",
+      "summary": "A plausible future mathematical claim must satisfy two constraints: it should follow the direction of prior work and respect the formal dependencies that constrain what can validly follow. Existing approaches typically model only one of these sources, producing claims that are either weakly grounded or insufficiently motivated. We introduce grounded future mathematical generation, where the goal is to generate a plausible future theorem-like claim for an anchor paper using two complementary sour",
+      "published": "2026-05-28T17:58:42Z",
+      "authors": [
+        "David Busbib",
+        "Michael Werman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Colored Noise Diffusion Sampling",
+      "link": "https://arxiv.org/abs/2605.30332v1",
+      "summary": "Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional stochastic differential equation (SDE) solvers fail to account for this dynamic, naively injecting uniform white noise throughout the entire process and misusing the finite energy budget. In this work, we establish a mathematical framework that reconsiders SDE inf",
+      "published": "2026-05-28T17:58:13Z",
+      "authors": [
+        "Hadar Davidson",
+        "Noam Issachar",
+        "Sagie Benaim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When, why, and how do diffusion posterior samplers fail? A finite-sample lens",
+      "link": "https://arxiv.org/abs/2605.30330v1",
+      "summary": "Diffusion models have excellent capacity to model complex distributions of natural data, which has made them a popular and effective choice for posterior sampling in imaging inverse problems. Existing methods can incorporate any measurement model at inference time but must use an inexact approximation for the likelihood at intermediate timesteps for computational tractability. Although these approximations can often work well empirically, their downstream effect on the sampled posterior is poorl",
+      "published": "2026-05-28T17:57:46Z",
+      "authors": [
+        "Benjamin A. Burns",
+        "Sara Fridovich-Keil"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+      "link": "https://arxiv.org/abs/2605.30329v1",
+      "summary": "Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can judge the methodological viability of a research idea before expending time and computational resources. We introduce SoundnessBench, a curated benchmark of 1,099 machine-learning research proposals reconstructed from ICLR submissions, labeled with r",
+      "published": "2026-05-28T17:57:37Z",
+      "authors": [
+        "Sy-Tuyen Ho",
+        "Minghui Liu",
+        "Huy Nghiem",
+        "Furong Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reasoning with Sampling: Cutting at Decision Points",
+      "link": "https://arxiv.org/abs/2605.30327v1",
+      "summary": "Frontier reasoning models are produced by posttraining base language models with reinforcement learning. Recent work has challenged this by showing that sampling from a sharpened version of the base model's distribution, a so-called power distribution, elicits comparable reasoning without additional training, curated datasets, or verifiers. However, making this method practical requires efficiently sampling from the power distribution. A sampler needs to \"mix\" to the power distribution, which ne",
+      "published": "2026-05-28T17:57:32Z",
+      "authors": [
+        "Felix Zhou",
+        "Anay Mehrotra",
+        "Quanquan C. Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Veda: Scalable Video Diffusion via Distilled Sparse Attention",
+      "link": "https://arxiv.org/abs/2605.30325v1",
+      "summary": "Scaling Diffusion Transformers to generate high-resolution, long videos is constrained by the quadratic cost of self-attention, and existing sparse attention methods degrade under high sparsity. We show empirically that generation quality is determined not by the sparsity ratio itself, but by how well the sparse mask aligns with the tile-wise geometry of full attention. Based on this insight, we propose Veda, a distilled sparse attention framework that formulates tile selection as an explicit re",
+      "published": "2026-05-28T17:57:07Z",
+      "authors": [
+        "Shihao Han",
+        "Hao Yang",
+        "Xinting Hu",
+        "Xiaofeng Mei",
+        "Yi Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On Language Generation in the Limit with Bounded Memory",
+      "link": "https://arxiv.org/abs/2605.30324v1",
+      "summary": "We study language generation in the limit under bounded memory. In this task, a learner observes examples from an unknown target language one at a time and must eventually output only new valid examples. Prior work assumes access to the entire history, a strong assumption since realistic algorithms retain limited past information. Classical work in learning theory shows memory constraints dramatically alter learnability; we extend this to language generation.   First, we study memoryless generat",
+      "published": "2026-05-28T17:57:03Z",
+      "authors": [
+        "Jon Kleinberg",
+        "Anay Mehrotra",
+        "Amin Saberi",
+        "Grigoris Velegkas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+      "link": "https://arxiv.org/abs/2605.30323v1",
+      "summary": "Reinforcement Learning from Human Feedback (RLHF) typically relies on static reward models to align Large Language Models with human preferences. However, human values are inherently diverse and heterogeneous, and a single reward model often lacks the robustness required to generalize to unseen preference domains. While existing multi-reward frameworks attempt to address this, they are often restricted to a fixed set of known domains and fail to adapt to unseen human distributions without costly",
+      "published": "2026-05-28T17:56:54Z",
+      "authors": [
+        "Zhenyu Sun",
+        "Zheng Xu",
+        "Ermin Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+      "link": "https://arxiv.org/abs/2605.30322v1",
+      "summary": "We introduce Gram, an automated alignment auditing framework to assess the propensity of AI agents to engage in sabotage. We evaluate Gemini models across 17 simulated agentic deployment scenarios that incentivize sabotage. We find Gemini models misbehave in about 2-3% of our simulated trajectories. Many of these cases are explained by \"overeagerness\" in Gemini models resulting in both excessive role-playing and goal-seeking behavior. In contrast to other alignment auditing approaches, Gram is d",
+      "published": "2026-05-28T17:56:18Z",
+      "authors": [
+        "David Lindner",
+        "Victoria Krakovna",
+        "Sebastian Farquhar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Bayesian Proof and Interpretation of Talagrand's Majorizing Measure Theorem",
+      "link": "https://arxiv.org/abs/2605.30321v1",
+      "summary": "In this paper, we give a short Bayesian proof of Talagrand's celebrated majorizing-measure theorem (MMT). While the upper-bound direction of MMT follows relatively directly from standard arguments, the lower-bound direction is widely regarded as the more difficult part and has received several distinct proofs. Unlike previous approaches, our proof does not rely on existing Gaussian processes lower bounds techniques, nor on combinatorial, geometric, or coding-theoretic constructions. Instead, we ",
+      "published": "2026-05-28T17:56:03Z",
+      "authors": [
+        "Ilias Zadik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Before the Shutter: Aesthetic and Actionable Portrait Photography Planning in 3D Scenes",
+      "link": "https://arxiv.org/abs/2605.30318v1",
+      "summary": "Portrait photography is largely decided before the shutter opens: the subject's pose, the camera configuration, and the lighting devices must be coordinated within the surrounding 3D scene. In contrast, most existing computational methods focus on post-production in 2D image space, such as retouching, relighting, or editing images that already exist; pre-capture photographic planning remains largely unexplored. We introduce 3D aesthetic portrait planning, the task of generating human pose, camer",
+      "published": "2026-05-28T17:55:09Z",
+      "authors": [
+        "Ruixiang Jiang",
+        "Chang Wen Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VPG: Visual Prefix Guidance for Autoregressive Image and Video Generation",
+      "link": "https://arxiv.org/abs/2605.30317v1",
+      "summary": "Autoregressive image and video generators are trained with teacher-forced histories but must sample from their own generated prefixes at inference time, making them vulnerable to exposure bias and prefix drift. Existing remedies either modify training or apply sampling-time guidance aimed primarily at external semantic conditions, such as class labels or text prompts, rather than testing whether a next-step prediction provides strong posterior support for the generated prefix itself. We propose ",
+      "published": "2026-05-28T17:55:06Z",
+      "authors": [
+        "Xinyao Liao",
+        "Qiyuan He",
+        "Yicong Li",
+        "Jiayin Zhu",
+        "Xiaoye Qu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resolution Diagnostics for Paired LLM Evaluation",
+      "link": "https://arxiv.org/abs/2605.30315v1",
+      "summary": "Across two public LLM leaderboards, many displayed pairwise rankings do not meet a conventional paired-test resolution target under the actual paired evaluation design: 11 of 40 Open LLM Leaderboard v1 pairwise comparisons and 4 of 9 MMLU-Pro top-10 adjacent-rank pairs are unresolved at (alpha, 1-beta) = (0.05, 0.8). The MMLU-Pro count rises to 6/9 under real subject-level clustering and stays at 5-6 out of 9 in 99.9% of category-bootstrap resamples. We frame paired LLM evaluation as a hypothesi",
+      "published": "2026-05-28T17:54:09Z",
+      "authors": [
+        "Anany Kotawala"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SpecBench: Evaluating Specification-Level Reasoning for Software Engineering LLM Agents",
+      "link": "https://arxiv.org/abs/2605.30314v1",
+      "summary": "Software engineering (SWE) agents are transitioning from code generation to full software development lifecycle automation. A critical phase in this lifecycle is specification design: transforming initial proposals into carefully considered requirements through expert review. Existing benchmarks such as SWE-Bench are implementation-focused by measuring the agent's ability to generate code given fixed, precise design requirements. This formulation assumes specifications are correct and complete. ",
+      "published": "2026-05-28T17:54:01Z",
+      "authors": [
+        "Grant Hamblin",
+        "Kevin Song",
+        "Zhanda Zhu",
+        "Anand Jayarajan",
+        "Sihang Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "link": "https://arxiv.org/abs/2605.30312v1",
+      "summary": "Differentially private (DP) image synthesis generates images that preserve the statistical characteristics of a sensitive dataset, enabling sensitive data analysis and usage while providing rigorous guarantees of privacy leakage. Existing methods fine-tune public models using DP Stochastic Gradient Descent (DP-SGD) on sensitive images to generate synthetic images. But full fine-tuning public models on sensitive images is computationally expensive, because current public models typically contain ",
+      "published": "2026-05-28T17:53:30Z",
+      "authors": [
+        "Chen Gong",
+        "Kecen Li",
+        "Zinan Lin",
+        "Tianhao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Archon: A Unified Multimodal Model for Holistic Digital Human Generation",
+      "link": "https://arxiv.org/abs/2605.30311v1",
+      "summary": "Digital humans are fundamental to immersive interaction, yet creating a unified model for holistic modalities, including text, audio, motion, and visual content, remains an open challenge. In this paper, we present Archon, a fully pretrained, human-centric unified multimodal model for holistic avatar generation. Archon unifies seven modalities with modality-specific tokenizers, and a native autoregressive unified multimodal model pretrained on synchronized modalities and 72 diverse tasks to mode",
+      "published": "2026-05-28T17:53:27Z",
+      "authors": [
+        "Chong Bao",
+        "Shichen Liu",
+        "Lijun Yu",
+        "David Futschik",
+        "Stylianos Moschoglou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "City-Mesh3R: Simulation-Ready City-Scale 3D Mesh Reconstruction from Multi-View Images",
+      "link": "https://arxiv.org/abs/2605.30310v1",
+      "summary": "City-scale 3D surface reconstruction from multiview images for downstream 3D simulation, poses highly challenging problems due to the scale and complexity of urban scenes. Existing city-scale 3D reconstruction methods based on NeRF, Gaussian Splatting etc. often fail to recover 3D meshes ready for simulation due to incomplete/missing geometry and irregular, noisy surfaces. Scaling existing small-scale 3D reconstruction methods to arbitrarily large urban scenes is highly infeasible due to their c",
+      "published": "2026-05-28T17:53:26Z",
+      "authors": [
+        "Sayan Paul",
+        "Sourav Ghosh",
+        "Siddharth Katageri",
+        "Soumyadip Maity",
+        "Sanjana Sinha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Grounded 3D-Aware Spatial Vision-Language Modeling",
+      "link": "https://arxiv.org/abs/2605.30307v1",
+      "summary": "We present GR3D, a spatial vision language model equipped with three complementary grounding capabilities--explicit 2D grounding, implicit 2D grounding, and monocular 3D grounding--within a single framework. GR3D introduces an implicit grounding mechanism that identifies entity mentions during generation and inserts the corresponding region tokens into the text stream, allowing the model to reference visual evidence on the fly when producing spatial chain-of-thought responses. In parallel, a reg",
+      "published": "2026-05-28T17:51:38Z",
+      "authors": [
+        "An-Chieh Cheng",
+        "Yang Fu",
+        "Yatai Ji",
+        "Ligeng Zhu",
+        "Guanqi Zhan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Augmented Correlation Functions for Spectroscopic Galaxy Surveys",
+      "link": "https://arxiv.org/abs/2605.30305v1",
+      "summary": "Galaxy redshift surveys encode a wealth of information generated by nonlinear gravitational evolution, galaxy bias, and redshift-space distortions, only part of which is accessible through standard two-point statistics. Motivated by the need for flexible and computationally efficient alternatives, we introduce the augmented correlation function, a general framework in which an arbitrary transformation of the galaxy field defines additional ``latent'' dimensions that extend the standard two-point",
+      "published": "2026-05-28T17:50:30Z",
+      "authors": [
+        "Davide Bianchi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analytical model for structured light propagation through a turbulent atmosphere",
+      "link": "https://arxiv.org/abs/2605.30304v1",
+      "summary": "We develop a straightforward analytical framework for the propagation of spatial light modes through a turbulent atmosphere. Built upon the split-step approach with the mode-based optical field representation, it directly assesses how turbulence-induced phase fluctuations deplete the optical power in the original mode and re-distribute it into neighboring spatial modes. Importantly, this power transfer scales linearly with the propagation distance in a uniform channel, yielding a simple solution",
+      "published": "2026-05-28T17:47:23Z",
+      "authors": [
+        "Konstantin Kravtsov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generalizing a Highly Configurable Analytics Pipeline to Replicate and Support Educational Research Across Multiple Domains",
+      "link": "https://arxiv.org/abs/2605.30303v1",
+      "summary": "Artificial intelligence assistants deployed in online learning environments create new opportunities to collect large volumes of learner interaction data and generate insights to improve student outcomes. Architecture for AI-Augmented Learning (A4L) is a modular data architecture that enables the collection, integration, and analysis of learner interaction data from educational AI systems, supporting the generation of instructional insights that facilitate personalized learning and reinforce the",
+      "published": "2026-05-28T17:46:53Z",
+      "authors": [
+        "Yallen Bai",
+        "Ploy Thajchayapong",
+        "Ashok Goel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Invariant statistical connections on the multivariate centered Gaussian model and their moduli spaces",
+      "link": "https://arxiv.org/abs/2605.30300v1",
+      "summary": "We study invariant statistical connections on the space $\\mathcal{N}_0^n$ of zero-mean multivariate normal distributions (the multivariate centered Gaussian model) equipped with the Fisher metric $g^F$. We introduce moduli spaces of invariant statistical connections on homogeneous Riemannian manifolds via two natural equivalence relations arising from a categorical viewpoint, and apply this framework to $(\\mathcal{N}_0^n, g^F)$. We explicitly determine the $GL(n,\\mathbb{R})$-invariant and $\\math",
+      "published": "2026-05-28T17:46:11Z",
+      "authors": [
+        "Hideyuki Ishi",
+        "Hikozo Kobayashi",
+        "Takayuki Okuda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On reversing the Simon-Lieb inequality in high-dimensional percolation",
+      "link": "https://arxiv.org/abs/2605.30299v1",
+      "summary": "We study Bernoulli percolation on $\\mathbb Z^d$ in dimensions ${d>6}$. We prove that a classical consequence of the van den Berg-Kesten inequality, often referred to as the Simon-Lieb inequality in the context of the Ising model, admits a partial reversal. As a main application, we show that the quantity $\\varphi_{p_c}(S)$, introduced by Duminil-Copin and Tassion (Comm.\\ Math.\\ Phys., 2016), is uniformly bounded over all $S\\subset \\mathbb Z^d$. This partial reversal further yields a short and se",
+      "published": "2026-05-28T17:45:29Z",
+      "authors": [
+        "Romain Panis",
+        "Bruno Schapira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Electron Doping of $\\mathrm{La_3Ni_2O_7}$ Thin Films: Candidate Metal Dopants and Their Potential Impact on Superconductivity",
+      "link": "https://arxiv.org/abs/2605.30297v1",
+      "summary": "The bilayer Ruddlesden-Popper nickelate $\\mathrm{La_3Ni_2O_7}$ has emerged as a promising platform for exploring and understanding high-temperature superconductivities. While most prior doping studies   have focused on hole doping via strontium (Sr) substitution or by tuning oxygen content, electron doping remains largely unexplored. In this work,we systematically investigate electron doping in $\\mathrm{La_3Ni_2O_7}$ thin films through   tetravalent element substitution, employing first-principl",
+      "published": "2026-05-28T17:44:12Z",
+      "authors": [
+        "Shi-Cong Mo",
+        "Wéi Wú"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhanced Loading of a Molecular Magneto-Optical Trap",
+      "link": "https://arxiv.org/abs/2605.30296v1",
+      "summary": "Molecular magneto-optical traps (MOTs) typically capture orders of magnitude fewer particles than their atomic counterparts due in part to their significantly lower capture velocities. Here, we employ a Stochastic Schrödinger Equation Monte Carlo approach to model a CaF DC MOT to understand the factors limiting capture velocity. We provide physical intuition into the mechanisms that affect capture velocity and identify important parameters and general strategies to improve it. In addition, we po",
+      "published": "2026-05-28T17:44:06Z",
+      "authors": [
+        "Ebram Youssef",
+        "Kaiya Wilson",
+        "Jiahe Cao",
+        "Reilly Brislawn",
+        "Avani Lakkireddy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+      "link": "https://arxiv.org/abs/2605.30295v1",
+      "summary": "Large language models (LLMs) show promise for clinical reasoning and decision support, but evaluation in realistic, electronic health record-congruent settings remains limited. Existing benchmarks often rely on static datasets or unstructured inputs that do not reflect the structured, interoperable data formats used in clinical systems. We introduce a pipeline for generating clinically realistic HL7 FHIR R4 bundles from unstructured text, enabling controllable evaluation of clinical decision sup",
+      "published": "2026-05-28T17:42:43Z",
+      "authors": [
+        "Valentina Bui Muti",
+        "Eugénie Dulout",
+        "Ziquan Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Leave a Window Out: Modifying the Jackknife for Predictive Inference in Time Series",
+      "link": "https://arxiv.org/abs/2605.30292v1",
+      "summary": "Conformal prediction methods enjoy strong theoretical and empirical predictive inference performance, provided the data is exchangeable, and predictors are trained in a memoryless fashion. However, these assumptions and constraints are impractical in many real-data settings, such as time series (where temporal dependence violates exchangeability, and where memoryless predictors will inevitably have poor predictive accuracy). Recent work shows that the split conformal prediction method is robust ",
+      "published": "2026-05-28T17:41:12Z",
+      "authors": [
+        "Hanyang Jiang",
+        "Rina Foygel Barber",
+        "Ashwin Pananjady",
+        "Yao Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wedding Cocktail Hour Contact Webs: Temporal Proximity Network of a Privately Hosted Social Event",
+      "link": "https://arxiv.org/abs/2605.30291v1",
+      "summary": "Objectives: We captured a fine-grained dataset of organic socializing with socially meaningful group labels to fill a gap in the study of face-to-face interaction. Prior interaction data from conferences, classrooms, hospitals, and workplaces exhibit network signatures such as heterogeneous contact rates, clustering, and bursty dynamics. However, schedules, room assignments, and authority roles in these settings may obscure organic social group dynamics. Studies on group mixing often rely on dem",
+      "published": "2026-05-28T17:40:47Z",
+      "authors": [
+        "Joshua Z. Stadlan",
+        "Richard B. Kahn",
+        "Michelle Birkett"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Self-Trained Verification for Training- and Test-Time Self-Improvement",
+      "link": "https://arxiv.org/abs/2605.30290v1",
+      "summary": "Self-improvement at scale has been a longstanding goal for reasoning models, and there are two natural places to do it: at test time, through verification-refinement (V-R) loops; and at training time, through self-training methods. Both are gated by the same bottleneck: the verifier. V-R loops stall when verifier scores inflate while accuracy stagnates, and when feedback is too generic to act on; self-training fails similarly when bad self-generated data are added to training. Better verificatio",
+      "published": "2026-05-28T17:40:45Z",
+      "authors": [
+        "Chen Henry Wu",
+        "Aditi Raghunathan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Statistical Embeddings for Similarity, Retrieval, and Interpretable Alignment of Numeric Tabular Datasets",
+      "link": "https://arxiv.org/abs/2605.30289v1",
+      "summary": "Numeric tabular datasets are the dominant data format in scientific practice, yet large language models lack native mechanisms for representing numeric datasets in a meaningful way across heterogeneous feature spaces. Existing approaches either target predictive modeling over individual datasets, which requires a shared set of variable definitions, or lack mechanisms for interpretable cross-dataset alignment. The proposed methodology characterizes numeric tabular datasets through structured expl",
+      "published": "2026-05-28T17:40:42Z",
+      "authors": [
+        "M. Ross Kunz",
+        "John Merickel",
+        "Keith Wilson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection",
+      "link": "https://arxiv.org/abs/2605.30288v1",
+      "summary": "Mid-training has become an important stage in modern LLM development, using large-scale curated mixtures to strengthen capabilities before final post-training. Its data selection problem is distinct: the data are optimized under a pretraining-style objective at near-pretraining scale, but are curated toward downstream capabilities and drawn from heterogeneous sources with different formats and training roles. As a result, effective selection requires both scalability and source-adaptive semantic",
+      "published": "2026-05-28T17:40:40Z",
+      "authors": [
+        "Haowen Wang",
+        "Yaxin Du",
+        "Jian Yang",
+        "Jiajun Wu",
+        "Shukai Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MoSAIC: Multi-Resolution Spatial Regression Analysis of Cellular Colocalizations in Cancer Imaging",
+      "link": "https://arxiv.org/abs/2605.30287v1",
+      "summary": "Hierarchical multiplex imaging approaches generate spatially resolved single-cell measurements across multiple, spatially organized fields of view (FOVs) within patient tumor specimens, thereby enabling systematic investigation of how the organization of the tumor microenvironment varies along biologically meaningful intratumoral gradients. Existing approaches fail to jointly address this multi-resolution data structure needed to recover true biological signals. We propose MoSAIC: multi-resoluti",
+      "published": "2026-05-28T17:40:35Z",
+      "authors": [
+        "Jessica Aldous",
+        "Michele Peruzzi",
+        "Maria Masotti",
+        "Aaron Udager",
+        "Allison May"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+      "link": "https://arxiv.org/abs/2605.30284v1",
+      "summary": "Scientific discovery is an inherently creative and uncertain process, requiring reasoning beyond the recall of known knowledge. While many benchmarks have been proposed to evaluate large language model (LLM) performance on deep research tasks via multi-hop retrieval, their innovative reasoning abilities essential for true scientific discovery remain largely untested. We introduce a benchmark framework for evaluating model performance in scientific discovery and reasoning, building up from a raw ",
+      "published": "2026-05-28T17:38:19Z",
+      "authors": [
+        "A. J. Lew",
+        "Y. Cao",
+        "M. J. Buehler"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
