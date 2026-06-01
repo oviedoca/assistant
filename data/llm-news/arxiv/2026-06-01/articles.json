@@ -1,0 +1,648 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+      "link": "https://arxiv.org/abs/2605.31604v1",
+      "summary": "Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing (RF), a technique that closes this gap by making representation prediction a native capability of th",
+      "published": "2026-05-29T17:59:55Z",
+      "authors": [
+        "Yuqing Wang",
+        "Zhijie Lin",
+        "Ceyuan Yang",
+        "Yang Zhao",
+        "Fei Xiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
+      "link": "https://arxiv.org/abs/2605.31603v1",
+      "summary": "Connector-based video unified models have demonstrated strong capability in instruction-grounded video synthesis, but integrating a large high-fidelity generator into the unified training loop is computationally prohibitive, limiting achievable visual quality. We therefore propose Lumos-Nexus, a training-efficient unified video generation framework that facilitates the development of strong reasoning-driven generation capabilities while significantly enhancing visual fidelity. Lumos-Nexus adopts",
+      "published": "2026-05-29T17:59:50Z",
+      "authors": [
+        "Jiazheng Xing",
+        "Hangjie Yuan",
+        "Lingling Cai",
+        "Xinyu Liu",
+        "Yujie Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Normal approximations in nonparametric empirical Bayes",
+      "link": "https://arxiv.org/abs/2605.31599v1",
+      "summary": "Empirical Bayes analyses routinely model noisy measurements of latent parameters as normal, justifying this by an informal appeal to the central limit theorem (CLT). This paper puts this heuristic appeal on firmer analytical grounds. We show that the denoising regret of the nonparametric maximum likelihood estimator (NPMLE) and related sieve methods is controlled by the rate attained under exact normality, plus a term reflecting the quality of the CLT approximation. The CLT need only hold margin",
+      "published": "2026-05-29T17:59:04Z",
+      "authors": [
+        "Jiafeng Chen",
+        "Nabarun Deb",
+        "Nikolaos Ignatiadis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Linear Scaling Video VLMs for Long Video Understanding",
+      "link": "https://arxiv.org/abs/2605.31598v1",
+      "summary": "Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video encoders still rely on spatiotemporal self-attention, causing compute and latency to grow quadratically with the number of frames. Existing efficiency methods improve scalability but often lose accuracy relative to full self-attention, for example through aggressive frame/token dropping or coarse attention approximations. We introduce StateKV, an inference-time method that adapts pret",
+      "published": "2026-05-29T17:59:02Z",
+      "authors": [
+        "Cristobal Eyzaguirre",
+        "Jiajun Wu",
+        "Juan Carlos Niebles"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models",
+      "link": "https://arxiv.org/abs/2605.31597v1",
+      "summary": "Measuring structured object understanding in vision foundation models remains challenging due to inconsistent evaluation protocols and limited part-level supervision. Semantic correspondence (SC) evaluates this capability by testing whether object parts can be matched across instances and categories under large variations in appearance, viewpoint, and geometry. To enable a systematic SC evaluation, we introduce SOCO, a new benchmark for Semantic Object Correspondence that introduces a taxonomy o",
+      "published": "2026-05-29T17:58:48Z",
+      "authors": [
+        "Olaf Dünkel",
+        "Basavaraj Sunagad",
+        "Haoran Wang",
+        "David T. Hoffmann",
+        "Christian Theobalt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "KLIP: localized distribution shift detection via KL-divergence with diffusion priors in Inverse Problems",
+      "link": "https://arxiv.org/abs/2605.31596v1",
+      "summary": "Diffusion models have shown promising performance as data-driven priors for computational imaging, as well as some capacity to detect out-of-distribution (OOD) images. However, existing approaches to OOD detection often require some knowledge of the shifted distribution, fail to detect subtle or localized distribution shifts, and operate on full images, rather than the indirect measurements available in inverse problems. We propose an OOD detection metric based on the Kullback-Leibler divergence",
+      "published": "2026-05-29T17:58:01Z",
+      "authors": [
+        "Alireza Kheirandish",
+        "Jihoon Hong",
+        "Sara Fridovich-Keil"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction",
+      "link": "https://arxiv.org/abs/2605.31595v1",
+      "summary": "Dynamic scene reconstruction from monocular video remains a fundamental challenge in computer vision. Existing feed-forward methods predict 3D Gaussians pixel-wise for each frame, suffering from duplicated Gaussians and view-dependent biases that hinder effective learning of scene motion. We present C4G, a feed-forward 4D reconstruction framework built upon a compact set of timestamp-conditioned learnable Gaussian query tokens. Each token aggregates corresponding features across the full tempora",
+      "published": "2026-05-29T17:57:41Z",
+      "authors": [
+        "Mungyeom Kim",
+        "Minkyeong Jeon",
+        "Honggyu An",
+        "Jaewoo Jung",
+        "Hyuna Ko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
+      "link": "https://arxiv.org/abs/2605.31593v1",
+      "summary": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, splitting a harmful task across many user accounts so each individual transcript looks benign. Because safety monitors score only one agent context at a time, they are structurally blind to misuse that is only visible in aggregate, across many accounts. We show this gap is real by building, to our know",
+      "published": "2026-05-29T17:57:00Z",
+      "authors": [
+        "Davis Brown",
+        "Samarth Bhargav",
+        "Arav Santhanam",
+        "Kasper Hong",
+        "Ivan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CoFiDA-M: Concept-Aware Feature Modulation for Cross-Domain Adaptation with Image-Only Inference",
+      "link": "https://arxiv.org/abs/2605.31591v1",
+      "summary": "Models for AI-based skin cancer screening suffer a severe performance drop when shifting from expert dermoscopic (source) images to consumer-grade clinical (target) images, hindering real-world deployment. Existing domain adaptation methods often ignore crucial semantic invariants, such as clinical concepts. While new foundation models like MONET can provide this semantic information as dense, probabilistic scores, this metadata is unavailable at test time, creating a deployment paradox for prac",
+      "published": "2026-05-29T17:56:36Z",
+      "authors": [
+        "Nurjahan Sultana",
+        "Moi Hoon Yap",
+        "Xinqi Fan",
+        "Wenqi Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation",
+      "link": "https://arxiv.org/abs/2605.31590v1",
+      "summary": "Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video diffusion transformers (DiTs) and uncover intrinsic turning points in the DiT denoising trajectory where conditioning text affects generation from global layout to fine-grained details. Building on this finding, we present TunerDiT, a simple yet effective progressive steering method that requires no ad",
+      "published": "2026-05-29T17:56:09Z",
+      "authors": [
+        "Ruotong Liao",
+        "Guowen Huang",
+        "Qing Cheng",
+        "Guangyao Zhai",
+        "Lei Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Recognizing Co-Speech Gestures in-the-Wild",
+      "link": "https://arxiv.org/abs/2605.31589v1",
+      "summary": "While humans naturally gesture during speech, only a sparse subset of these movements are visually depictive and semantically linked to specific spoken words. Current multimodal models struggle to capture these semantic co-speech gestures, heavily bottlenecked by a lack of precisely annotated training data. To address this, we introduce the Gesture Recognition in the Wild (GRW) dataset, the first large-scale benchmark designed to map unconstrained human gestures to specific words with frame-accu",
+      "published": "2026-05-29T17:55:17Z",
+      "authors": [
+        "Sindhu B Hegde",
+        "K R Prajwal",
+        "Andrew Zisserman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two roles of Alexander in two Kashaev phases",
+      "link": "https://arxiv.org/abs/2605.31588v1",
+      "summary": "The crucial feature of resurgence theory is the ambiguity of non-perturbative behavior, reflected either in the different choices of integration contours or in the existence of several solutions to Ward identities. This is well illustrated by considering exactly solvable models, of which the prominent example is Chern-Simons theory. Its important chapter, which should have a direct generalization to arbitrary Yang-Mills, is the consideration of Wilson averages in the double-scaling limit of larg",
+      "published": "2026-05-29T17:55:11Z",
+      "authors": [
+        "Dmitry Galakhov",
+        "Alexei Morozov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
+      "link": "https://arxiv.org/abs/2605.31586v1",
+      "summary": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if open-source models have robust constructional understanding, and if so, what learning dynamics underlie the acquisition of this knowledge. Focusing on a set of rare Paired-Focus constructions in English (e.g. \"let alone\", \"much less\"), we construct a novel dataset to test their meanings using both s",
+      "published": "2026-05-29T17:54:00Z",
+      "authors": [
+        "Wesley Scivetti",
+        "Ethan Wilcox",
+        "Nathan Schneider",
+        "Kanishka Misra",
+        "Leonie Weissweiler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stability and instability of torus-symmetric Einstein spacetimes with square-integrable connection",
+      "link": "https://arxiv.org/abs/2605.31585v1",
+      "summary": "We study the global evolution problem for the Einstein equations under T2 symmetry on T3, allowing vacuum, scalar-field, and compressible-fluid matter models, governed by a general equation of state including isothermal and polytropic fluids. Under this symmetry, we obtain the first non-perturbative, global existence and stability theory with connection coefficients being merely square-integrable, which allows both impulsive gravitational waves and shock waves. In areal gauge, we introduce new f",
+      "published": "2026-05-29T17:53:17Z",
+      "authors": [
+        "Bruno Le Floch",
+        "Philippe G. LeFloch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "link": "https://arxiv.org/abs/2605.31584v1",
+      "summary": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-confusability distractors and sparse, outcome-only reward signals that cannot supervise intermediate reasoning steps. To address these issues, we introduce \\textsc{LongTraceRL}. For data construction, we ",
+      "published": "2026-05-29T17:51:40Z",
+      "authors": [
+        "Nianyi Lin",
+        "Jiajie Zhang",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Giving Sensors a Voice: Multimodal JEPA for Semantic Time-Series Embeddings",
+      "link": "https://arxiv.org/abs/2605.31580v1",
+      "summary": "Transformer-based architectures have advanced sequence modeling in language and vision, yet general-purpose representation learning for heterogeneous multivariate time series remains underexplored. We introduce CHARM (Channel-Aware Representation Model), which incorporates channel-level textual descriptions into a Transformer encoder equivariant to channel order. CHARM is trained with a Joint Embedding Predictive Architecture (JEPA) and a novel loss promoting informative, temporally stable embed",
+      "published": "2026-05-29T17:48:30Z",
+      "authors": [
+        "Utsav Dutta",
+        "Gerardo Pastrana",
+        "Sina Khoshfetrat Pakazad",
+        "Henrik Ohlsson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Functional Multi-Target Detection via Bispectrum Inversion",
+      "link": "https://arxiv.org/abs/2605.31579v1",
+      "summary": "This paper develops a functional theory for multi-target detection, where a compactly supported signal is recovered from a single noisy observation containing many unknown translations of the signal. Our formulation allows continuous, off-grid translations and correlated stationary Gaussian process noise, extending beyond the discrete, grid-aligned, white-noise models common in prior work. We analyze two uninitialized recovery algorithms based on autocorrelation analysis; in particular, both alg",
+      "published": "2026-05-29T17:47:45Z",
+      "authors": [
+        "Anna Little",
+        "Daniel Sanz-Alonso",
+        "Mikhail Sweeney",
+        "Ruiyi Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Deeply bound dibaryon $d^*(2380)$ from meson-exchange saturation $ΔΔ$ effective field theory",
+      "link": "https://arxiv.org/abs/2605.31578v1",
+      "summary": "We propose an RG-improved effective-field-theory framework for the deeply bound dibaryon $d^*(2380)$, a $ΔΔ$ bound state in the $(J,I)=(3,0)$ ${}^7S_3$ channel. Its binding momentum $γ\\simeq 320$ MeV gives $γ/m_π\\simeq 2.3$, indicating the need to re-organize the short-range dynamics beyond a formal pionless EFT. We match the large-$N_c$-constrained pionless contact potential to a meson-exchange-saturated contact interaction in which the $σ,ρ,ω$ dynamics are integrated out at the hadronic scale ",
+      "published": "2026-05-29T17:47:15Z",
+      "authors": [
+        "Prin Sawasdipol",
+        "Chinadanai Bubpatate",
+        "Daris Samart"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SurGe: Improved Surface Geometry in Point Maps",
+      "link": "https://arxiv.org/abs/2605.31577v1",
+      "summary": "Recent feedforward 3D reconstruction methods predict point maps and estimate global 3D geometry remarkably well. However, their predictions still exhibit inaccurate local surface geometry, which is clearly visible qualitatively but only weakly reflected in common metrics. To make these errors more explicit in evaluation, we introduce a point map normal metric that evaluates the local surface orientation induced by neighboring 3D predictions. To reduce these errors, we propose two complementary c",
+      "published": "2026-05-29T17:46:46Z",
+      "authors": [
+        "Karim Knaebel",
+        "Gonzalo Martin Garcia",
+        "Christian Schmidt",
+        "Ilya Fradlin",
+        "Lucas Nunes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SPECTRA: Synthetic IR Test Collections with Relevance Oracles and Controlled Distractor Diagnostics",
+      "link": "https://arxiv.org/abs/2605.31575v1",
+      "summary": "Scalable information retrieval testing needs corpora that are large enough to stress index construction, ranking latency, query routing, and evaluation tooling, yet human-judged test collections remain expensive and may be unavailable when documents are private or still under design. This paper introduces SPECTRA, a reproducible framework for generating synthetic text corpora and retrieval test collections through a separation of latent topical structure, surface text realization, metadata contr",
+      "published": "2026-05-29T17:44:15Z",
+      "authors": [
+        "Eric Liang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Generative AI help people navigate Radical Moral Disagreements? The CONSIDER prototype",
+      "link": "https://arxiv.org/abs/2605.31574v1",
+      "summary": "Radical Moral Disagreements (RMDs) are highly polarising topics that are increasingly censored in everyday life, with growing evidence suggesting that this polarisation carries measurable costs to public mental health. To address these challenges, some researchers have proposed Large Language Models (LLMs) as a means to support more democratic deliberation and better moral reasoning. Yet existing tools are poorly calibrated to help people navigate RMDs, because of their intense and divisive char",
+      "published": "2026-05-29T17:43:56Z",
+      "authors": [
+        "William Hohnen-Ford",
+        "Sarah Chen",
+        "Kathryn B. Francis",
+        "Madeline G. Reinecke",
+        "Ilina Singh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Value of Temporary Control for the M/M/1 Queue",
+      "link": "https://arxiv.org/abs/2605.31573v1",
+      "summary": "In this article, a one-off option for temporary service rate control for the M/M/1 queue is considered.   After taking this option, during a single exponentially distributed period, two service rates are available for use. Once service rate control is lost, the system continues with a fixed service rate $μ$. The objective is to minimise the sum of holding costs and service costs.   We approximate the expected total saved cost by taking the one-off option, depending on the starting state or start",
+      "published": "2026-05-29T17:41:56Z",
+      "authors": [
+        "Odysseas Kanavetas",
+        "Camiel M. P. Koopmans",
+        "Floske M. Spieksma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving",
+      "link": "https://arxiv.org/abs/2605.31572v1",
+      "summary": "Reasoning is essential for autonomous driving (AD) in long-tail scenarios, where vehicles must apply commonsense knowledge, understand spatial relations, infer agent interactions, and make safe decisions. However, existing AD datasets and benchmarks mainly target perception, prediction, or planning, and provide limited supervision for reasoning over realistic long-tail driving scenes. We introduce nuReasoning, a large-scale real-world dataset and benchmark for reasoning-centric AD. Following the",
+      "published": "2026-05-29T17:40:04Z",
+      "authors": [
+        "Zhiyu Huang",
+        "Johnson Liu",
+        "Rui Song",
+        "Zewei Zhou",
+        "Ruining Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Datalog Framework for Conflict-Free Replicated Data Types",
+      "link": "https://arxiv.org/abs/2605.31569v1",
+      "summary": "Distributed applications increasingly support local-first collaboration over shared data, allowing multiple users to perform updates concurrently without global coordination. Such collaboration requires careful design to capture the intended semantics of the concurrent interactions.   We introduce a declarative framework for specifying and reasoning about the semantics of conflict-free replicated data types (CRDTs) and CRDT-based applications in Datalog. The framework models CRDT semantics as ex",
+      "published": "2026-05-29T17:36:29Z",
+      "authors": [
+        "Elena Yanakieva",
+        "Annette Bieniusa",
+        "Stefania Dumbrava"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lipschitz continuity of the time constant for continuum percolation",
+      "link": "https://arxiv.org/abs/2605.31568v1",
+      "summary": "We consider the Boolean model of continuum percolation, where points are placed in $\\mathbb{R}^d$ by a Poisson point process and pairs of points with distance at most 1 are connected by an edge. The time constant is the limiting ratio of the chemical distance (i.e. graph distance) to the Euclidean distance for pairs of distant connected points. Yao, Chen, and Guo established the existence of a time constant in the supercritical regime. We show that above the critical intensity, the time constant",
+      "published": "2026-05-29T17:34:50Z",
+      "authors": [
+        "Karoline Dubin",
+        "Christian Gorski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Addressing errors in multiple variables using generalized raking and cumulative probability models",
+      "link": "https://arxiv.org/abs/2605.31567v1",
+      "summary": "Routinely collected data, such as electronic health record (EHR) data, are frequently used for biomedical research, but these data are prone to errors, which can bias study findings. Validating data in subsamples of records can reduce bias, and the efficiency of estimates can be improved by incorporating in analyses both the error-prone data available on the entire cohort and the validated data available on the subsample. One approach to incorporate both data sources is with generalized raking, ",
+      "published": "2026-05-29T17:34:03Z",
+      "authors": [
+        "Eric S. Kawaguchi",
+        "Chun Li",
+        "Frank E. Harrell",
+        "Pamela A. Shaw",
+        "Thomas Lumley"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A derivative-free particle method for optimization in Hilbert spaces",
+      "link": "https://arxiv.org/abs/2605.31565v1",
+      "summary": "We introduce a stochastic interacting particle system in separable Hilbert spaces together with its associated mean-field formulation. The model is shown to retain the characteristic consensus-driven structure of classical Consensus-Based Optimization, while accounting for the analytical challenges of infinite-dimensional dynamics. We establish well-posedness of the proposed dynamics and analyze the associated consensus mechanism. Furthermore, we derive convergence guarantees under suitable assu",
+      "published": "2026-05-29T17:30:52Z",
+      "authors": [
+        "Hui Huang",
+        "Hicham Kouhkouh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+      "link": "https://arxiv.org/abs/2605.31564v1",
+      "summary": "We present the first systematic study of masked diffusion language models (MDLMs) for graph-to-text generation. We analyze MDLM generation trajectories -- the order in which tokens are unmasked during iterative decoding -- and find that, unlike autoregressive LLMs which generate text linearly, MDLMs naturally prioritize entities first, followed by relational and function words, with structural tokens resolved last. We further identify a previously undocumented failure mode of supervised fine-tun",
+      "published": "2026-05-29T17:29:35Z",
+      "authors": [
+        "Qing Wang",
+        "Jacob Devasier",
+        "Chengkai Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Disagreeing Rationales: Rethinking Classification and Explainability Evaluation in Hate Speech Detection",
+      "link": "https://arxiv.org/abs/2605.31563v1",
+      "summary": "Human disagreement is ubiquitous and well-known in labeling. However, variation in explanations, captured through token-level human rationales, remains far less explored. At the same time, it is unclear how to best evaluate human labels and rationales -- or even how to best aggregate rationales beyond majority vote -- in light of this variation. Yet, rationales may provide additional insights into the richness of human reasoning, that may differ in style, values and interpretations -- especially",
+      "published": "2026-05-29T17:29:28Z",
+      "authors": [
+        "Benedetta Muscato",
+        "Beiduo Chen",
+        "Gizem Gezici",
+        "Barbara Plank",
+        "Fosca Giannotti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Effective Biological Representation Learning by Masking Gene Expression",
+      "link": "https://arxiv.org/abs/2605.31562v1",
+      "summary": "RNA sequencing produces rich and diverse datasets of gene expression, offering compelling insights into cellular state and function that have many applications in drug discovery. Modeling such data is challenging due to inherent technical noise and experimental batch effects, as evidenced by many existing transcriptomic foundation models (FMs) underperforming relative to linear baselines. Such results raise the question of whether deep representation learning provides a distinct advantage over t",
+      "published": "2026-05-29T17:28:58Z",
+      "authors": [
+        "Kian Kenyon-Dean",
+        "Alina Selega",
+        "Ihab Bendidi",
+        "Jordan M. Sorokin",
+        "Luca Bertinetto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+      "link": "https://arxiv.org/abs/2605.31561v1",
+      "summary": "Test-time reasoning has become a significant field of study since the introduction of chain-of-thought reasoning in large language models (LLMs). However, the mechanisms of this reasoning process are still under-explored -- from the same input prompt, and even the same partial solution, LLMs can produce varied answers if sampled multiple times. We propose to leverage question-asking as an inference-time intervention that articulates information about the model's hidden state. To achieve that, we",
+      "published": "2026-05-29T17:27:07Z",
+      "authors": [
+        "Chu Fei Luo",
+        "Samuel Dahan",
+        "Xiaodan Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can dents and gouges compromise the structural integrity of hydrogen transport pipelines?",
+      "link": "https://arxiv.org/abs/2605.31560v1",
+      "summary": "Repurposing natural gas pipelines for hydrogen transport requires understanding how external defects, like dents and gouges, affect structural integrity under H$_2$ exposure. To address this, we combine experiments with a new hydrogen embrittlement model aimed at large plastic straining scenarios, which integrates: (i) multi-trap hydrogen transport, (ii) finite-strain plasticity, and (iii) a hydrogen- and triaxiality-dependent damage law. Each constituent of the model is validated with experimen",
+      "published": "2026-05-29T17:22:30Z",
+      "authors": [
+        "R. Das",
+        "B. Bezensek",
+        "E. Martínez-Pañeda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Functional Attention: From Pairwise Affinities to Functional Correspondences",
+      "link": "https://arxiv.org/abs/2605.31559v1",
+      "summary": "Learning mappings between infinite-dimensional function spaces, or operator learning, is essential for many machine learning applications. Although transformer-based operators are popular, they often rely on token-wise attention. These methods treat continuous fields as discrete tokens and usually ignore the global functional structure. We introduce \\emph{Functional Attention}, which reinterprets attention as a functional correspondence between adaptive bases. Inspired by geometric functional ma",
+      "published": "2026-05-29T17:22:19Z",
+      "authors": [
+        "Jiefang Xiao",
+        "Maolin Gao",
+        "Simon Weber",
+        "Guandao Yang",
+        "Daniel Cremers"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
+      "link": "https://arxiv.org/abs/2605.31558v1",
+      "summary": "Transformer-based language models are widespread in today's society. As such, understanding the mechanisms by which they solve structured tasks and predicting how they may behave in novel scenarios is of great importance for safe deployment. We study the learning dynamics of attention heads in a controlled setting by training a decoder-only Transformer (GPT-J) on two structurally equivalent multi-hop reasoning tasks: a number task requiring positional reasoning and a letter task requiring symbol",
+      "published": "2026-05-29T17:22:04Z",
+      "authors": [
+        "Felipe Urrutia",
+        "Juan José Alegría",
+        "Cinthia Sanchez Macias",
+        "Jorge Salas",
+        "Cristian B. Calderon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision",
+      "link": "https://arxiv.org/abs/2605.31557v1",
+      "summary": "Continuous episodic memory is a core capability for autonomous agents operating in dynamic, real-world environments, yet current streaming video benchmarks provide limited tools for diagnosing what models remember and for how long. We introduce \\egostream, a diagnostic benchmark for streaming episodic memory evaluation in egocentric vision. \\egostream organizes 2,250 curated questions along seven cognitive dimensions: detail, spatial, temporal, event, social, causal, and prospective memory. We i",
+      "published": "2026-05-29T17:20:10Z",
+      "authors": [
+        "Rosario Forte",
+        "Giuseppe Lando",
+        "Antonino Furnari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vision-Language Models Suppress Female Representations Under Ambiguous Input",
+      "link": "https://arxiv.org/abs/2605.31556v1",
+      "summary": "Alignment teaches vision-language models (VLMs) to avoid expressing demographic biases, and when gender is clearly visible they largely succeed. Far less is known about ambiguous inputs (a worker in full gear, a figure seen from behind) cases common in practice yet rarely studied. We find that minimal prompting pressure exposes occupation-gender defaults when prompting ambiguous input images, with models collapsing to male even for strongly female-stereotyped occupations. But do these outputs re",
+      "published": "2026-05-29T17:20:02Z",
+      "authors": [
+        "Arnau Marin-Llobet",
+        "Simon Henniger",
+        "Mahzarin R. Banaji"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Effects of Vertex Merging & Splitting on Large Coauthorship Networks: A Counterfactual Analysis",
+      "link": "https://arxiv.org/abs/2605.31555v1",
+      "summary": "Researchers analyze coauthorship networks, but author name ambiguity in their network data remains a significant challenge as it can change the number of vertices, distorting network properties. Although many scholars use straightforward heuristics for author name disambiguation using author's forename initials, these techniques can skew our understanding of network properties by merging or splitting vertices, raising concerns about the reliability and validity of these methods. This study inves",
+      "published": "2026-05-29T17:19:53Z",
+      "authors": [
+        "Jinseok Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spectral coarse spaces based on indefinite operators: the $H_k$-GenEO method",
+      "link": "https://arxiv.org/abs/2605.31552v1",
+      "summary": "GenEO (`Generalised Eigenvalue problems on the Overlap') is a method for constructing coarse spaces used in the preconditioning of iterative solvers for discrete PDEs. This method combines a (small) number of modes of local PDE eigenproblems to obtain a global coarse space. A coarse solve is then combined with local solves of the global PDE to obtain the preconditioner. A substantial theory for GenEO has been developed for the case when the local elgenproblems are positive semi-definite. This ha",
+      "published": "2026-05-29T17:15:56Z",
+      "authors": [
+        "Théophile Chaumont-Frelet",
+        "Victorita Dolean",
+        "Mark Fry",
+        "Ivan G. Graham",
+        "Matthias Langer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semantic Triplet Restoration: A Novel Protocol for Hierarchical Table Understanding in Large Language Models",
+      "link": "https://arxiv.org/abs/2605.31550v1",
+      "summary": "Table question answering requires models to recover semantic relations encoded implicitly by two-dimensional layout, merged cells, and hierarchical headers. Current pipelines typically use HTML or Markdown as intermediate table representations, but these layout-oriented serializations introduce markup overhead and require large language models to infer header-cell alignments from row and column spans. We propose Semantic Triplet Restoration (STR), a protocol that rewrites each cell as an atomic ",
+      "published": "2026-05-29T17:10:25Z",
+      "authors": [
+        "Yibin Zhao",
+        "Fangxin Shang",
+        "Dingrui Yang",
+        "Yuqi Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reconciling the Fundamental Plane of Early-Type Galaxies with hydrodynamical simulations: The case of IllustrisTNG100-1",
+      "link": "https://arxiv.org/abs/2605.31548v1",
+      "summary": "The Fundamental Plane (FP) of Early-Type Galaxies (ETGs) encapsulates a tight correlation among their structural and dynamical properties and provides an important benchmark for galaxy formation models. However, cosmological hydrodynamical simulations have historically struggled to reproduce the observed FP tilt, with discrepancies often attributed to to flawed feedback physics or insufficient resolution. Using the IllustrisTNG100-1 simulation, we show that adopting observationally motivated mea",
+      "published": "2026-05-29T17:04:40Z",
+      "authors": [
+        "Pedro de Araujo Ferreira",
+        "Nicola R. Napolitano",
+        "Crescenzo Tortora",
+        "Luciano Casarini",
+        "Francisco Villaescusa-Navarro"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Dynamic-Probabilistic Consistency Gap in Chaotic Surrogate Modeling",
+      "link": "https://arxiv.org/abs/2605.31547v1",
+      "summary": "Dynamical systems reconstruction (DSR) aims to learn surrogate models that capture the dynamics underlying time-series data. Reliably deploying these surrogates requires uncertainty estimates consistent with the learned dynamics. We expose a dynamic-probabilistic consistency (DPC) gap: the pursuit of finite-horizon probabilistic objectives can degrade dynamics or decouple predictive uncertainty from the local tangent dynamics it ought to reflect. We isolate three mechanisms behind this gap: core",
+      "published": "2026-05-29T17:04:15Z",
+      "authors": [
+        "Andre Herz",
+        "Matthijs Pals",
+        "Daniel Durstewitz",
+        "Georgia Koppe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Preference-Aware Rubric Learning for Personalized Evaluation",
+      "link": "https://arxiv.org/abs/2605.31545v1",
+      "summary": "As Large Language Models (LLMs) evolve from general-purpose assistants to user-centric agents, personalization has become central to aligning model behavior with individual preferences, making the evaluation of personalized alignment a critical bottleneck. Existing evaluation methods-ranging from automatic metrics to LLM-as-a-judge approaches-fail to capture subjective, user-specific preferences embedded in long-term interaction histories. We identify three essential principles for reliable and ",
+      "published": "2026-05-29T17:00:55Z",
+      "authors": [
+        "Yilun Qiu",
+        "Xiaoyan Zhao",
+        "Yang Zhang",
+        "Yuxin Chen",
+        "Cilin Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "More efficient Clifford+T synthesis for small-angle rotations and application to Trotterization",
+      "link": "https://arxiv.org/abs/2605.31544v1",
+      "summary": "Clifford+T synthesis of rotation gates is an important routine in fault-tolerant quantum compilation. While Clifford+T synthesis is scalable, it has a high overhead of tens of T gates per rotation in practice, translating to high resource estimates for many fault-tolerant algorithms. However, these well-known results, including those using probabilistic mixtures [Quantum 7, 1208 (2023)], are independent of the rotation angle $θ$, requiring $O(\\log 1/δ)$ T gates. We show that it is possible to do",
+      "published": "2026-05-29T16:59:34Z",
+      "authors": [
+        "Marius Bothe",
+        "Christoph Sünderhauf",
+        "Michael J. Witham",
+        "Earl T. Campbell",
+        "Nick S. Blunt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Orbital Networks in the Three-Body Problem",
+      "link": "https://arxiv.org/abs/2605.31543v1",
+      "summary": "Orbital transfers in multi-body systems are often studied as isolated trajectory design problems, making it difficult to identify the larger transport structure connecting families of periodic orbits, including which families act as hubs, gateways, relays, or persistently difficult-to-access regions. This work introduces a reachable-set-based framework for constructing orbital networks in the circular restricted three-body problem. Finite-$ΔV$ and finite-time-of-flight reachable-set overlaps are",
+      "published": "2026-05-29T16:58:57Z",
+      "authors": [
+        "Abdullah Braik",
+        "Shane D. Ross"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Recovering the Shape of a Contact Line",
+      "link": "https://arxiv.org/abs/2605.31542v1",
+      "summary": "We study the conditions for a three-phase contact line to return to a previous position. We drive a water-air-glass contact line between two horizontal plates, by slowly adding and removing water with a constant volume amplitude. For the first several cycles, the contact line ends each cycle with a different shape, in contrast with previously published work. Eventually the shapes begin to repeat, and the system has memory: a cycle with a smaller amplitude ends in a different shape, but even one ",
+      "published": "2026-05-29T16:57:33Z",
+      "authors": [
+        "Ashbell Abraham",
+        "Audrey Profeta",
+        "Jeanette Smit",
+        "Esmeralda Orozco",
+        "Charity Lizardo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Migdal-Eliashberg and SUS-$Y^2$-SYK",
+      "link": "https://arxiv.org/abs/2605.31540v1",
+      "summary": "This note addresses a number of subtle issues pertaining to the long-standing problem of strong phonon-like fermion-boson coupling. Among the central topics are the customary Migdal-Eliashberg approximation in the pertinent Schwinger-Dyson gap equation and its solutions. The previously gained insight is assessed by contrasting it against the various (non-)supersymmetric variants of the Yukawa-Sachdev-Ye-Kitaev model. Also, some previously discussed (pseudo-)holographic aspects of fermion pairing",
+      "published": "2026-05-29T16:55:52Z",
+      "authors": [
+        "D. V. Khveshchenko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Automated Prediction of Postoperative Pancreatic Fistula Using Preoperative Computed Tomography",
+      "link": "https://arxiv.org/abs/2605.31539v1",
+      "summary": "Postoperative pancreatic fistula (POPF) is a serious complication after pancreatic resection, increasing morbidity, hospital stay, and healthcare costs. We present an automatic, end-to-end deep learning pipeline-from pancreatic segmentation to classification-for preoperative POPF risk estimation and stratification using preoperative CT scans. A data set with auto-segmented pancreas volumes and surgical outcomes was used to evaluate multiple architectures, including a custom lightweight 3D CNN ba",
+      "published": "2026-05-29T16:55:19Z",
+      "authors": [
+        "Ashok Choudhary",
+        "Chris Varghese",
+        "Leo Y. Li-Han",
+        "Frank G. Lee",
+        "Ellen L. Larson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video",
+      "link": "https://arxiv.org/abs/2605.31535v1",
+      "summary": "Self-supervised novel view synthesis (NVS) remains challenging to scale, despite the abundance of video data, largely due to the brittleness of training on realistic videos and the hard-to-predict scaling behavior of multi-network system designs. We introduce RayDer, a unified, feed-forward transformer that consolidates camera estimation, scene reconstruction, and rendering into a single backbone, turning self-supervised NVS into a well-posed single-model scaling problem. A minimal dynamic state",
+      "published": "2026-05-29T16:50:27Z",
+      "authors": [
+        "Ulrich Prestel",
+        "Stefan Andreas Baumann",
+        "Nick Stracke",
+        "Björn Ommer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BERS: Locally Optimal Continuous Algorithm for Maritime Weather Routing with Just-in-Time Arrival",
+      "link": "https://arxiv.org/abs/2605.31533v1",
+      "summary": "Maritime weather routing must optimize route geometry under dynamic wind-wave conditions, obstacle constraints, and fixed-arrival requirements. We present Bézier Evolve and Refine Strategy (\\name{}), a two-stage framework that combines global evolutionary search (CMA-ES) with local variational refinement (FMS). Routes are parametrized as Bézier curves and evaluated with dense along-path sampling, enabling smooth trajectories while preserving practical feasibility constraints and accounting for m",
+      "published": "2026-05-29T16:46:19Z",
+      "authors": [
+        "Daniel Precioso",
+        "Francisco Suárez",
+        "Javier Jiménez de la Jara",
+        "Rafael Ballester-Ripoll",
+        "David Gómez-Ullate"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UNISON: A Unified Sound Generation and Editing Framework via Deep LLM Fusion",
+      "link": "https://arxiv.org/abs/2605.31530v1",
+      "summary": "We present UNISON, a latent diffusion framework that unifies speech generation, sound generation, and audio editing within a single model. A single model handles text-to-audio, text-to-speech, zero-shot speaker cloning, mixed speech-and-sound generation, scene-level audio editing, speech-in-scene editing, and timed temporal composition, all of which share a single set of weights. Our architecture features two core designs: (1) Layer-wise deep LLM fusion, which injects hidden states from uniforml",
+      "published": "2026-05-29T16:43:07Z",
+      "authors": [
+        "Zhaoqing Li",
+        "Haoning Xu",
+        "Jingran Su",
+        "Yaofang Liu",
+        "Zhefan Rao"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
