@@ -1,0 +1,650 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Latent Spatial Memory for Video World Models",
+      "link": "https://arxiv.org/abs/2606.09828v1",
+      "summary": "Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel space discards rich features of the learned latent representation. In this paper, we introduce \\emph{latent spatial memory} for video world models, a persistent 3D cache that stores scene information ",
+      "published": "2026-06-08T17:59:54Z",
+      "authors": [
+        "Weijie Wang",
+        "Haoyu Zhao",
+        "Yifan Yang",
+        "Feng Chen",
+        "Zeyu Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2606.09827v1",
+      "summary": "Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with long-horizon, temporally dependent tasks. Cognitive science suggests that humans rely on working memory to buffer short-lived context, the hippocampal system to preserve episodic memory of past experience, and internal models to imagine possible futur",
+      "published": "2026-06-08T17:59:53Z",
+      "authors": [
+        "Hao Shi",
+        "Weiye Li",
+        "Bin Xie",
+        "Yulin Wang",
+        "Renping Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "link": "https://arxiv.org/abs/2606.09826v1",
+      "summary": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, focus on single-agent Solo play, and lack unified protocols for evaluating heterogeneous agent classes (commercial VLMs, open-weight VLMs, and specialized game policies) on the same footing. We address these gaps with OmniGameArena, a real-time benchmark of twelve newly built Unreal Engine 5 games s",
+      "published": "2026-06-08T17:59:43Z",
+      "authors": [
+        "Mingxian Lin",
+        "Shengju Qian",
+        "Yuqi Liu",
+        "Yi-Hua Huang",
+        "Yiyu Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
+      "link": "https://arxiv.org/abs/2606.09825v1",
+      "summary": "Training reinforcement learning (RL) policies from scratch is   costly: it requires careful reward and environment design,   extensive tuning, and substantial computation.   Yet many control problems already have a functional but   suboptimal policy available as a baseline.   This paper proposes a method for embedding such a baseline into   the RL training process, simultaneously improving training   efficiency relative to from-scratch methods and producing a   learning policy that outperforms t",
+      "published": "2026-06-08T17:59:39Z",
+      "authors": [
+        "Anton Bolychev",
+        "Georgiy Malaniya",
+        "Sinan Ibrahim",
+        "Pavel Osinenko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TSseek: Regular Expression-Based Similarity Search for Distributed Time Series Datasets",
+      "link": "https://arxiv.org/abs/2606.09824v1",
+      "summary": "Similarity search is a fundamental operation in time series analysis. Most existing techniques, however, require users to supply a precise sequence of values (typically an entire time series object) as the query input. This rigid requirement limits real-world applications, where users instead want to express patterns, trends, or value ranges. Flexible, pattern-based search has been explored in text retrieval and complex event processing, but remains underexplored for large-scale distributed time",
+      "published": "2026-06-08T17:58:47Z",
+      "authors": [
+        "Xiaoshuai Li",
+        "Khalid Alnuaim",
+        "Mohamed Y. Eltabakh",
+        "Elke A. Rundensteiner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Causally Evaluating the Learnability of Formal Language Tasks",
+      "link": "https://arxiv.org/abs/2606.09822v1",
+      "summary": "Language models, as multi-task learners, acquire a wide range of abilities during training. A fundamental question is how much task-specific data is needed to learn a given task. Answering this for natural language is difficult: tasks are hard to delineate and can confound one another. To rigorously investigate the relationship between data frequency and learnability, we turn to a controlled setting using formal languages induced from probabilistic finite automata. These serve as a methodologica",
+      "published": "2026-06-08T17:58:36Z",
+      "authors": [
+        "Vésteinn Snæbjarnarson",
+        "Anej Svete",
+        "Josef Valvoda",
+        "Reda Boumasmoud",
+        "Brian DuSell"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking the Divergence Regularization in LLM RL",
+      "link": "https://arxiv.org/abs/2606.09821v1",
+      "summary": "Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy staleness, making trust-region control essential for stable optimization. Mainstream methods such as PPO and GRPO approximate this control with a ratio-clipping mechanism, but the importance ratio can be a poor proxy for distributional shift in long-tailed vocabularies. Recent work such as DPPO addresses th",
+      "published": "2026-06-08T17:58:23Z",
+      "authors": [
+        "Jiarui Yao",
+        "Xiangxin Zhou",
+        "Penghui Qi",
+        "Wee Sun Lee",
+        "Liefeng Bo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Linear Ricci-Trace Deformations and Operational Equivalence in Rastall-Type Gravity",
+      "link": "https://arxiv.org/abs/2606.09819v1",
+      "summary": "We analyze a class of linear Ricci--trace deformations of Einstein's field equations in which the relative weight between the Ricci tensor and the scalar-curvature trace sector is modified while the metric remains the only gravitational field. The purpose of the analysis is structural rather than phenomenological: we classify the corresponding field-equation class, fix the parameter dictionaries commonly used in the Rastall-gravity literature, and identify which equivalence statements survive af",
+      "published": "2026-06-08T17:56:43Z",
+      "authors": [
+        "José A. C. Nogales",
+        "Karen-Luz Burgoa Rosso",
+        "Marcelo H. Alavarenga"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A note on large values of Dirichlet $L$-functions for characters of fixed order at $1/2<σ\\leq 1$",
+      "link": "https://arxiv.org/abs/2606.09818v1",
+      "summary": "In this note, we use a simple argument to show the existence of large values of conjecturally sharp size for Dirichlet $L$-functions attached to primitive characters of fixed order at $σ\\in (1/2, 1]$. More precisely, for every fixed integer $g\\geq 2$ we prove the existence of a primitive character $χ$ of order $g$ and conductor $Q\\asymp x$ such that $|L(1,χ)| \\geq e^γ\\left(\\log\\log x+\\log\\log\\log x-\\log(2\\log g)+o(1)\\right). $ We also show that for every fixed $1/2<σ<1$ there exists a primitive ",
+      "published": "2026-06-08T17:56:34Z",
+      "authors": [
+        "Youness Lamzouri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws",
+      "link": "https://arxiv.org/abs/2606.09816v1",
+      "summary": "Standard diffusion models typically use a single time-homogeneous Gaussian terminal distribution as the reference law for generation. While this choice is analytically convenient and empirically powerful, it provides little explicit structure for data concentrated near low-dimensional manifolds, where different regions of the data distribution may correspond to distinct local geometric or semantic factors. As a result, the reverse model must recover manifold-level structure almost entirely from ",
+      "published": "2026-06-08T17:56:16Z",
+      "authors": [
+        "Danqi Zhuang",
+        "Jisui Huang",
+        "Xiaoyue Xi",
+        "Andrew Kiggins",
+        "Xiaojie Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ALMA measurements of mass loss and wind clumping in the massive stars of the Arches cluster",
+      "link": "https://arxiv.org/abs/2606.09814v1",
+      "summary": "We present the first Atacama Large Millimeter/submillimeter Array (ALMA) Band 3 (100 GHz) and Band 6 (243 GHz) continuum observations of the Arches cluster, one of the youngest and most massive stellar clusters in the Milky Way. We detect and characterise millimetre emission from 23 massive stars, including WN7-9h Wolf-Rayet stars, O-type supergiants and hypergiants. By combining our ALMA measurements with archival Very Large Array data spanning 5-22.5 GHz, we derive broadband radio-millimetre s",
+      "published": "2026-06-08T17:55:41Z",
+      "authors": [
+        "James P. Perry",
+        "Raman K. Prinja",
+        "Danielle M. Fenech",
+        "Francisco Najarro"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "iMaC: Translating Actions into Motion and Contact Images for Embodied World Models",
+      "link": "https://arxiv.org/abs/2606.09813v1",
+      "summary": "Embodied world models have emerged as a pivotal paradigm for visual robotic decision-making and interactive environment simulation. However, conventional embodied frameworks rely on low-dimensional structured action vectors (e.g., joint angles and end-effector poses), which suffer from limited expressive capacity, poor generalization across diverse embodiments, and unnatural dynamic modeling for complex physical interactions. To address these limitations, this paper proposesiMac (Image as Action",
+      "published": "2026-06-08T17:55:41Z",
+      "authors": [
+        "Zhenyu Wu",
+        "Xiuwei Xu",
+        "Yukun Zhou",
+        "Yifan Li",
+        "Qiuping Deng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing",
+      "link": "https://arxiv.org/abs/2606.09811v1",
+      "summary": "World-action models have emerged as a promising paradigm for robot manipulation, jointly modeling visual scene dynamics and actions to inject physical priors into policy learning. However, existing world-action models couple world prediction and action execution at the same temporal resolution, forcing the world branch to model near-term frame variations that are redundant and weakly informative. We posit that strictly binding world prediction and action execution to the same temporal rhythm may",
+      "published": "2026-06-08T17:55:18Z",
+      "authors": [
+        "Jisong Cai",
+        "Long Ling",
+        "Shiwei Chu",
+        "Zhongshan Liu",
+        "Jiayue Kang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting",
+      "link": "https://arxiv.org/abs/2606.09809v1",
+      "summary": "AI evaluation results are produced at scale but reported inconsistently across leaderboards, model cards, benchmark papers, and company blogs. The cost is interpretive: readers cannot reliably compare results across sources, identify what a report omits, or trace an aggregate claim to its underlying evidence. Recent efforts address isolated components but leave three gaps: they cover only narrow slices of the evaluation lifecycle and do not compose into a single interpretable record; they specif",
+      "published": "2026-06-08T17:55:02Z",
+      "authors": [
+        "Avijit Ghosh",
+        "Anka Reuel",
+        "Jenny Chim",
+        "Wm. Matthew Kennedy",
+        "Srishti Yadav"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "High Mach number limit of the compressible Navier--Stokes equations in critical Besov spaces",
+      "link": "https://arxiv.org/abs/2606.09808v1",
+      "summary": "We investigate the high Mach number limit for the scaled compressible Navier--Stokes system in the critical Besov framework. In the scaled momentum equation, the pressure force is represented by the term \\(\\varepsilon^2\\nabla a^\\varepsilon\\), where $\\varepsilon$ is the inverse Mach number; as \\(\\varepsilon\\to0\\), the formal limiting system is the compressible pressureless Navier--Stokes system. The analysis is complicated by the absence of density dissipation in the limiting model and by the hig",
+      "published": "2026-06-08T17:54:55Z",
+      "authors": [
+        "Jinkai Ni",
+        "Zhipeng Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Topological Neural Operators",
+      "link": "https://arxiv.org/abs/2606.09806v1",
+      "summary": "We introduce Topological Neural Operators (TNOs), a principled framework for operator learning on cell complexes that lifts neural operators (NOs) from functions on points and/or edges to topological domains. TNOs represent data as features defined on cells of varying dimension and model their interactions through Discrete Exterior Calculus, enabling explicit cross-dimensional coupling via gradient-, curl-, and divergence-type operators. The key design principle is to decouple where information ",
+      "published": "2026-06-08T17:54:33Z",
+      "authors": [
+        "Lennart Bastian",
+        "Samuel Leventhal",
+        "Mustafa Hajij",
+        "Tolga Birdal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+      "link": "https://arxiv.org/abs/2606.09803v1",
+      "summary": "We present \\textbf{Echo-Memory}, a controlled study of memory mechanisms in action-conditioned world models. These models generate multi-segment videos from a first frame, text prompt, and camera-action sequence, but their central failure is often memory rather than local image synthesis: after the camera leaves and returns, the scene or salient object may silently change. Existing memory designs are hard to compare because gains are entangled with backbone, training, retrieval, and evaluation d",
+      "published": "2026-06-08T17:54:10Z",
+      "authors": [
+        "Wayne King",
+        "Zeyue Xue",
+        "Yuxuan Bian",
+        "Jie Huang",
+        "Haoran Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the generalized Turán number of complete bipartite graphs",
+      "link": "https://arxiv.org/abs/2606.09801v1",
+      "summary": "For graphs $F$ and $H$, the generalized Turán number $\\mathrm{ex}(n,F,H)$ denotes the maximum number of copies of $F$ in an $H$-free graph on $n$ vertices. We prove that if $s\\in \\{2,3\\}$, $s< a\\leq b$ and $t$ is sufficiently large, then $\\mathrm{ex}(n,K_{a,b},K_{s,t})=Θ(n^s)$. The $s=2$, $a=b=3$ case of this result answers a question of Spiro.   Proving another conjecture of Spiro, we show that for every graph $F$ with at least one edge, there exist infinitely many real numbers $r$ such that $\\",
+      "published": "2026-06-08T17:53:07Z",
+      "authors": [
+        "Oliver Janzer",
+        "Sean Longbrake",
+        "Liana Yepremyan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FASE: Fast Adaptive Semantic Entropy for Code Quality",
+      "link": "https://arxiv.org/abs/2606.09800v1",
+      "summary": "Multi-agent code generation offers a promising paradigm for autonomous software development by simulating the human software engineering lifecycle. However, system reliability remains hindered by LLM hallucinations and error propagation across interacting agents. While semantic entropy provides a principled way to quantify uncertainty without ground-truth answers, current methods often rely on costly LLM-driven equivalence checks. In this work, we introduce Fast Adaptive Semantic Entropy (FASE),",
+      "published": "2026-06-08T17:53:05Z",
+      "authors": [
+        "Shizhe Lin",
+        "Ladan Tahvildari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Spherical Harmonics: Rethinking Appearance Models for Radiance Reconstruction",
+      "link": "https://arxiv.org/abs/2606.09794v1",
+      "summary": "View-dependent appearance modeling remains a challenging problem in novel-view synthesis and reconstruction. Accurately representing complex angular effects often requires substantial memory and computational resources. For new learning-based methods, a common approach is to rely on SH. However, capturing high-frequency phenomena such as specular reflections demands high-order expansions, which increase memory usage and computational cost. Consequently, most methods employ low-order SH, which li",
+      "published": "2026-06-08T17:50:41Z",
+      "authors": [
+        "Ewa Miazga",
+        "Jorge Condor",
+        "Piotr Didyk"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Deep learning reveals a stronger fossil fuel influence than biomass burning in shaping remote tropospheric ozone",
+      "link": "https://arxiv.org/abs/2606.09793v1",
+      "summary": "Tropospheric ozone (O3) is a key greenhouse gas and atmospheric oxidant, yet its sources in the remote troposphere remain strongly debated. Observation-based tracer analyses suggest that O3 attributed to biomass burning is much greater than that from fossil fuel sources (by a factor of ~2-10), contradicting state-of-the-art global models. Here we show that this discrepancy primarily arises from the strong sensitivity of tracer methods to differences in tracer lifetimes, especially after extended",
+      "published": "2026-06-08T17:49:41Z",
+      "authors": [
+        "Chaoqun Ma",
+        "Hang Su",
+        "Yafang Cheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "End-to-End Optimization of Incoherent Imaging for Classification Under Detector-Limited Readout",
+      "link": "https://arxiv.org/abs/2606.09792v1",
+      "summary": "End-to-end co-optimization of optical front-ends (e.g. metasurfaces) and neural network back-ends has been widely applied to imaging tasks, yet a formalism characterizing when and why such systems outperform conventional lens-based imaging is largely lacking. This paper focuses on object classification, a central imaging task, and asks when end-to-end optimization of a phase mask for incoherent imaging improves performance over a conventional focusing lens. We find that these gains arise primari",
+      "published": "2026-06-08T17:48:14Z",
+      "authors": [
+        "Archer Wang",
+        "Joshua Chen",
+        "Sachin Vaidya",
+        "Marin Soljačić"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Certified spectral functions from lattice Monte Carlo data",
+      "link": "https://arxiv.org/abs/2606.09791v1",
+      "summary": "The Monte Carlo method, applied to lattice quantum field theory, gives access to Euclidean correlation functions with well-understood error bars. Recovering the observables one cares about, such as the spectral density, requires solving an ill-posed inverse problem, usually tackled with heuristics that lose rigorous control of the error. Instead of trying to find the ``best'' spectral density $ρ(ω)$, we ask how small or large linear functionals $\\int_{\\mathbb{R}^+} G(ω) ρ(ω) \\mathrm{d} ω$ of it ",
+      "published": "2026-06-08T17:47:57Z",
+      "authors": [
+        "Sophie Mutzel",
+        "Antoine Tilloy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Principled Uncertainty in Clinical AI: End-to-End Bayesian Modelling and Algorithmic Equity Auditing Across Multimodal Patient Data",
+      "link": "https://arxiv.org/abs/2606.09789v1",
+      "summary": "Clinical artificial intelligence (AI) systems routinely produce predictions without principled quantification of uncertainty, limiting their trustworthiness in high-stakes medical environments. This paper presents an integrated research programme addressing two interconnected problems: (1) the development of a fully end-to-end Bayesian uncertainty modelling framework for multimodal clinical data, and (2) the application of calibrated uncertainty estimates as a formal measure of algorithmic equit",
+      "published": "2026-06-08T17:44:15Z",
+      "authors": [
+        "Oladimeji Anthonio",
+        "Dimeji Abdulsobur Olawuyi",
+        "Oloruntoba Ajayi",
+        "Temiloluwa Aderemi",
+        "Joseph Odamo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "POTATR: A Lightweight Image-to-Graph Model for Page-Level Table Extraction",
+      "link": "https://arxiv.org/abs/2606.09788v1",
+      "summary": "Large-scale document processing requires contextually aware table extraction (TE) that is both accurate and efficient. Yet current approaches require billions of parameters, hundreds of autoregressive steps, or costly API inference. Motivated by this, we introduce the Page-Object Table Transformer (POTATR), a lightweight 29M parameter image-to-graph model that extends the Table Transformer (TATR) for contextualized page-level TE. POTATR outperforms all models tested on the PubTables-v2 Single Pa",
+      "published": "2026-06-08T17:43:44Z",
+      "authors": [
+        "Brandon Smock",
+        "Libin Liang",
+        "Max Sokolov",
+        "Amrit Ramesh",
+        "Valerie Faucon-Morin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Zero Touch Predictive Orchestration: Automating Time-Series Models for the Cloud-Edge Continuum",
+      "link": "https://arxiv.org/abs/2606.09787v1",
+      "summary": "The Cloud-Edge Continuum (CEC) enables latency-critical applications by distributing resources to the far edge, but its extreme volatility makes proactive Zero Touch Management via time-series forecasting essential. However, orchestrators face a severe \"cold start\" problem: newly discovered nodes lack the historical data required to train localized predictive models, while generalized models fail to capture unique hardware and microservice behaviors. To solve this, we propose a fully automated t",
+      "published": "2026-06-08T17:43:41Z",
+      "authors": [
+        "Abd Elghani Meliani",
+        "Arora Sagar",
+        "Adlen Ksentini",
+        "Raymond Knopp"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mean field games with option to buy information",
+      "link": "https://arxiv.org/abs/2606.09784v1",
+      "summary": "We introduce a class of continuous time finite horizon mean field games where the objective function of the representative player depends on a hidden state, in addition to position, control, and the population distribution. While acting on the position dynamics, the agent has the option to pay for seeing the hidden state. We connect the original formulation of our model with a mean field model of optimal control with discretionary stopping, characterize solutions, and give a simple explicitly so",
+      "published": "2026-06-08T17:42:20Z",
+      "authors": [
+        "Bernardo D'Auria",
+        "Markus Fischer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On some geometrization of compact metric spaces: A solution to the Banach-Ulam conjecture",
+      "link": "https://arxiv.org/abs/2606.09783v1",
+      "summary": "We propose a geometrization of compact metric spaces that is based on ideas of S. Banach and J. Mycielski. Then we prove the following conjecture of S. Banach and S. Ulam from 1935: in every compact metric space there exists a finitely additive probability measure, invariant under congruences. Moreover, our techniques allow us to solve a problem of M. Talagrand related to the Marczewski problem and the Banach-Tarski paradox with pieces having the property of Baire. We give also a very simple pro",
+      "published": "2026-06-08T17:41:02Z",
+      "authors": [
+        "Grzegorz Tomkowicz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cohort-based Semantic Labeling: AI-Enabled Recovery of Visualization Semantics from Deployed SVGs",
+      "link": "https://arxiv.org/abs/2606.09782v1",
+      "summary": "Many web-based visualizations are deployed as Scalable Vector Graphics (SVG), a format that faithfully preserves visual appearance but typically omits the higher-level semantic structure needed for machine interpretation. Once rendered and published, information about a visualization's components, roles, and encodings is no longer explicitly available, limiting downstream operations such as querying, accessibility augmentation, explanation, personalization, and transformation. To address this ga",
+      "published": "2026-06-08T17:40:53Z",
+      "authors": [
+        "Jeongah Lee",
+        "Hima Varshini Surisetty",
+        "Durga Nirmaleswaran",
+        "Jahnavi Sharma",
+        "Srikiran Kavuri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quality-Diversity Search in Sound Generation: Investigating Innovation Engines for Audio Exploration",
+      "link": "https://arxiv.org/abs/2606.09780v1",
+      "summary": "This study addresses the challenges composers and sound designers face in creating and refining tools to achieve their musical goals. Using evolutionary processes to promote diversity and foster serendipitous discoveries, we automate the search through uncharted sonic spaces for sound discovery, arguing that diversity-promoting algorithms can bridge the gap between the theoretical realisation and practical accessibility of sounds. We describe a system for generative sound synthesis combining Qua",
+      "published": "2026-06-08T17:40:09Z",
+      "authors": [
+        "Björn Þór Jónsson",
+        "Çağrı Erdem",
+        "Stefano Fasciani",
+        "Kyrre Glette"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mapping Interstellar Ice Inventory toward Class 0 Protostars in Star-forming Region Orion A with JWST Data",
+      "link": "https://arxiv.org/abs/2606.09776v1",
+      "summary": "We present a detailed study of the spatial distribution and chemical composition of interstellar ices toward six Class 0 protostars (HOPS-56, HOPS-60, HOPS-73, HOPS-91, HOPS-96, and HOPS-108) in the Orion A molecular cloud. Using high-resolution spectroscopic data from the JWST NIRspec and MIRI MRS instruments (4.3 - 8.1 $μ$m), we have constructed the first pixel by pixel absorption maps with a resolution of $\\sim$100~AU for key ice species, including $^{13}$CO$_2$, OCN$^-$, CO, H$_2$O, NH$_4^+$",
+      "published": "2026-06-08T17:35:43Z",
+      "authors": [
+        "Igor Petrashkevich",
+        "Yaroslav Pavlyuchenkov",
+        "Anna Punanova",
+        "Maksim Ozhiganov",
+        "Ruslan Nakibov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation",
+      "link": "https://arxiv.org/abs/2606.09774v1",
+      "summary": "Advanced scientific simulators expose specialized input languages that turn simulation goals into executable configurations, but learning them can cost domain scientists hours to days. We study simulator setup as a problem of agent-tool interface grounding: what minimal simulator-specific adaptations are needed for an off-the-shelf coding agent to operate real scientific software? Our intuition is that coding agents already know how to navigate files, edit code, run commands, and repair outputs,",
+      "published": "2026-06-08T17:35:17Z",
+      "authors": [
+        "Matthew Ho",
+        "Brian Liu",
+        "Jixuan Chen",
+        "Audrey Wang",
+        "Lianhui Qin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Pauli Strings to Quantum Dynamics: A Unified Characterization",
+      "link": "https://arxiv.org/abs/2606.09773v1",
+      "summary": "Understanding the dynamical properties of quantum systems is an essential task in quantum computing, quantum control, and many-body physics. Tools such as representation theory and Lie theory provide crucial information on reachability and computational power. However, this information can be difficult to access exactly or compute efficiently for arbitrary generating sets. Here we focus on the setting of Pauli strings, which satisfy numerous exceptional properties that simplify the problem. We f",
+      "published": "2026-06-08T17:33:15Z",
+      "authors": [
+        "Roberto Gargiulo",
+        "Paul Herringer",
+        "Robert Zeier"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SemDINO: A DINOv3-Driven Network for Cross-Temporal Semantic Alignment in Change Detection",
+      "link": "https://arxiv.org/abs/2606.09772v1",
+      "summary": "Semantic change detection (SCD) aims to simultaneously locate land-cover changes and identify semantic categories before and after transition. However, existing methods suffer from insufficient cross-temporal alignment, weak multi-scale representation, and poor robustness to pseudo-changes caused by illumination, season, and registration noise. To address these issues, we propose a novel end-to-end semantic change detection network named SemDINO, which integrates a dual-branch encoder, multi-sca",
+      "published": "2026-06-08T17:32:31Z",
+      "authors": [
+        "Xinyu Tong",
+        "Meihua Zhou",
+        "Jinxiao Sun",
+        "Yingjie Tang",
+        "Lei Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fully-implicit Particle-in-Cell model of a Magnetic Nozzle with electromagnetic power deposition",
+      "link": "https://arxiv.org/abs/2606.09771v1",
+      "summary": "A fraction of the electromagnetic power used to generate and heat the plasma in helicon sources and electrodeless plasma thrusters can leak into the outer expansion region, interacting with the plasma in the magnetic nozzle and affecting the performance of the device. This work analyzes the properties of the plasma in a convergent-divergent magnetic nozzle when right-hand polarized waves of varying amplitude propagate into it. This is accomplished with a 1D3V fully-implicit, Vlasov-Darwin partic",
+      "published": "2026-06-08T17:31:50Z",
+      "authors": [
+        "Mario Merino",
+        "Juan Martín-Hernández",
+        "Pedro Jiménez-Jiménez",
+        "Luis Chacón"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Discovering Functionally Selective Brain Regions with a Deep Topographic Multimodal Model",
+      "link": "https://arxiv.org/abs/2606.09770v1",
+      "summary": "Nearby neurons in cortex share similar response profiles, producing systematic spatial organization across sensory and cognitive systems. Recent topographic models reproduce aspects of this structure but remain unimodal and spatially constrain each layer separately, yielding fragmented maps that capture neither the contiguity of cortical processing streams nor their integration across modalities. We introduce Topo-Omni, a topographic multimodal model in which visual, auditory, and language/cogni",
+      "published": "2026-06-08T17:31:50Z",
+      "authors": [
+        "Badr AlKhamissi",
+        "Johannes Mehrer",
+        "Lara Marinov",
+        "Ahmed Abdelaal",
+        "Abdulkadir Gokce"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dispersive analysis of the $\\boldsymbol{J/ψ\\to γπ^0 π^0}$ process",
+      "link": "https://arxiv.org/abs/2606.09768v1",
+      "summary": "We present a dispersive amplitude analysis of the low-energy $π^0π^0$ system in the radiative decay $J/ψ\\toγπ^0π^0$, using the mass-independent BESIII $0^{++}$ and $2^{++}$ intensities, the total spectrum, and the measured $0^{++}-2^{++}$ $E1$ phase difference. The isoscalar $S$-wave is described by a coupled-channel $ππ/K\\bar K$ Muskhelishvili-Omnès representation, which implements the strong final-state interactions associated with the $f_0(500)$ and $f_0(980)$. The $D$-wave is treated with a ",
+      "published": "2026-06-08T17:31:17Z",
+      "authors": [
+        "Bai-Long Hoid",
+        "Igor Danilkin",
+        "Anna Testa",
+        "Marc Vanderhaeghen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data Synthesis and Parameter-Efficient Fine-Tuning for Low-Resource NMT: A Case Study on Q'eqchi' Mayan",
+      "link": "https://arxiv.org/abs/2606.09767v1",
+      "summary": "Neural machine translation for digitally low-resource Indigenous languages is often hindered by extreme data scarcity, prompting reliance on extractive web-scraping. To ensure data sovereignty, this study introduces a data synthesis methodology to bootstrap NMT models without scraping target-language parallel text. Focusing on Q'eqchi' Mayan, we transformed community-sourced dictionaries into a massive synthetic corpus, utilizing Parameter-Efficient Fine-Tuning (PEFT) via LoRA adapters on an mT5",
+      "published": "2026-06-08T17:29:08Z",
+      "authors": [
+        "Alexander Chulzhanov",
+        "Soeren Eberhardt",
+        "Arjun Mukherjee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Modified Teukolsky Formalism for Extreme Mass-Ratio Inspirals in Higher-Derivative Gravity",
+      "link": "https://arxiv.org/abs/2606.09766v1",
+      "summary": "In this work, we study a model problem involving a point particle inspiraling into a non-rotating black hole in higher-derivative theories of gravity. In such theories, both the background spacetime and the generation and propagation of gravitational waves differ from those in General Relativity. We develop a modified Teukolsky formalism to describe gravitational waves sourced by the point particle and, as an illustrative example, compute the resulting fluxes to the black hole horizon and null i",
+      "published": "2026-06-08T17:29:05Z",
+      "authors": [
+        "Chaoyi Yang",
+        "Neev Khera",
+        "Dongjun Li",
+        "Huan Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "iOSWorld: A Benchmark for Personally Intelligent Phone Agents",
+      "link": "https://arxiv.org/abs/2606.09764v1",
+      "summary": "A useful phone agent needs to be personally intelligent. It should reason over a user's identity, history, and preferences as they exist on the device, not just follow isolated instructions in an impersonal sandbox. Existing mobile agent benchmarks lack this kind of personalization. We introduce iOSWorld, the first interactive native iOS simulator benchmark built around a persistent user identity spanning 26 newly built iOS apps. These apps contain connected data such as transactions, messages, ",
+      "published": "2026-06-08T17:27:13Z",
+      "authors": [
+        "Lawrence Keunho Jang",
+        "Mareks Woodside",
+        "Geronimo Carom",
+        "Andrew Keunwoo Jang",
+        "Jing Yu Koh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RPA as a Hessian Closure: Effective Functionals and Source-Variable Duality Across DFT, LR-TDDFT, 1RDMFT, and MBPT",
+      "link": "https://arxiv.org/abs/2606.09763v1",
+      "summary": "We present a variational formulation of the random phase approximation (RPA) that places density functional theory (DFT), linear-response time-dependent density functional theory (LR-TDDFT), one-body reduced density matrix functional theory (1RDMFT), and Green's function many-body perturbation theory (MBPT) into a common source-variable hierarchy. The central claim is that RPA is not best defined by any one problem-specific formula, diagrammatic resummation, or small-amplitude equation of motion",
+      "published": "2026-06-08T17:26:30Z",
+      "authors": [
+        "Nan Sheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Einstein-de Haas effect and induced rotation in an evolving magnetized QCD matter",
+      "link": "https://arxiv.org/abs/2606.09760v1",
+      "summary": "The Einstein-de Haas (EdH) effect describes the emergence of collective rotation driven by spin alignment under an external magnetic field. We investigate this effect in a dynamically expanding quark-gluon plasma (QGP) using a quasiparticle model (QPM). We compute the EdH-induced angular velocity $ω_{\\mathrm{EdH}}$ as a function of temperature, proper time, and fireball radius. Our results show that $ω_{\\mathrm{EdH}}$ grows with proper time and is consequently suppressed at higher temperatures. ",
+      "published": "2026-06-08T17:22:24Z",
+      "authors": [
+        "Dushmanta Sahu",
+        "Captain R. Singh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Suppressing the Motion of Rydberg Atoms in Inhomogeneous Electric Fields via Stark Echo",
+      "link": "https://arxiv.org/abs/2606.09759v1",
+      "summary": "Rydberg atoms possess strong electric dipole transitions and tunable energy levels, making them promising candidates for microwave to optical conversion on integrated superconducting atom chips. Achieving strong coupling of the atoms to e.g. the microwave field of an on-chip resonator requires placing the atoms within tens of micrometers from the chip surface. However, inhomogeneous stray electric fields originating from the surface can induce position-dependent Stark forces, resulting in atomic",
+      "published": "2026-06-08T17:19:33Z",
+      "authors": [
+        "Dominik Jakab",
+        "Manuel Kaiser",
+        "Conny Glaser",
+        "David Petrosyan",
+        "József Fortágh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Difference-Aware Retrieval Policies for Imitation Learning",
+      "link": "https://arxiv.org/abs/2606.09758v1",
+      "summary": "Parametric imitation learning via behavior cloning can suffer from poor generalization to out-of-distribution states due to compounding errors during deployment. We show that reusing the training data during inference via a semi-parametric retrieval-based imitation learning approach can alleviate this challenge. We present Difference-Aware Retrieval Policies for Imitation Learning (DARP), a semi-parametric retrieval-based imitation learning approach that addresses this limitation by reparameteri",
+      "published": "2026-06-08T17:18:19Z",
+      "authors": [
+        "Quinn Pfeifer",
+        "Ethan Pronovost",
+        "Paarth Shah",
+        "Khimya Khetarpal",
+        "Siddhartha Srinivasa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Partial Pressure Contributions of Hadron Families to the QCD Equation of State",
+      "link": "https://arxiv.org/abs/2606.09757v1",
+      "summary": "Lattice simulations provide the thermodynamics of quantum chromodynamics (QCD) as a function of the temperature, at zero-to-moderate values of the baryonic chemical potential. However, the contribution of single hadronic species cannot be directly isolated from lattice calculations. In this work, we find linear combinations of up to fourth order susceptibilities which isolate the contribution of hadrons to the QCD pressure according to their baryon number $B$, electric charge $Q$ and strangeness",
+      "published": "2026-06-08T17:17:05Z",
+      "authors": [
+        "Jonathan Gonzales",
+        "Alejandro Florez",
+        "Johannes Jahan",
+        "Angel R. Nava Acuna",
+        "Naman Mehndiratta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Radiowave-induced Resistance Oscillations",
+      "link": "https://arxiv.org/abs/2606.09755v1",
+      "summary": "Microwave-induced resistance oscillations (MIROs) \\cite{zudov:2001a} occur when a 2D electron gas is subjected to radiation of frequency $ω= 2 πf$ and varying magnetic field $B$. MIROs are periodic in $1/B$, with the period determined by the radiation frequency $ω$, and their amplitude scales with the radiation power. Stepping from single-photon transitions between Landau levels, MIROs are found on the lower-field side of the cyclotron resonance, $ω_c \\lesssim ω$, where $ω_c$ is the cyclotron fr",
+      "published": "2026-06-08T17:13:48Z",
+      "authors": [
+        "E. Bell",
+        "C. Hnatovsky",
+        "K. W. Baldwin",
+        "L. N. Pfeiffer",
+        "K. W. West"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Double-Current Deformations of Two-Dimensional QFTs with Anomalies",
+      "link": "https://arxiv.org/abs/2606.09752v1",
+      "summary": "We construct the double-current deformations of two-dimensional quantum field theories whose partition functions have background gauge-field anomalies. Extending the path integral construction of [1], we couple the seed theory to dynamical gauge fields and compact Stueckelberg fields and insert parallel transport in the anomaly line bundle. The deformed partition function then has the same anomaly as the undeformed one.   For flat background gauge fields the Stueckelberg non-zero modes localize ",
+      "published": "2026-06-08T17:11:46Z",
+      "authors": [
+        "Zhengyuan Du"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Collaborative Human-Agent Protocol (CHAP)",
+      "link": "https://arxiv.org/abs/2606.09751v1",
+      "summary": "Foundation models are moving from response generation into operational roles. They plan across steps, call tools, request human input, coordinate with other agents, and increasingly carry responsibility for work that affects customers, claims, code, contracts, and clinical decisions. Production deployments are no longer one human supervising one model. They are multi-human, multi-agent collaborations that cross teams, time zones, and trust boundaries. The technical surface for this collaboration",
+      "published": "2026-06-08T17:11:42Z",
+      "authors": [
+        "Arsalan Shahid",
+        "Gordon Suttie",
+        "Philip Black"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Your Model Already Knows: Attention-Guided Safety Filter for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2606.09749v1",
+      "summary": "Vision-Language-Action (VLA) models have demonstrated impressive end-to-end performance across a variety of robotic manipulation tasks. However, these policies offer no guarantees against collisions with task-irrelevant objects in the scene. Existing safety filters sidestep this problem by querying a vision-language model (VLM) to identify obstacles and their locations. This, however, is too slow to run in the control loop and can only be invoked at episode initialization, leaving the filter una",
+      "published": "2026-06-08T17:11:16Z",
+      "authors": [
+        "Seongbin Park",
+        "Fan Zhang",
+        "Baharan Mirzasoleiman",
+        "Shahriar Talebi",
+        "Nader Sehatbakhsh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+      "link": "https://arxiv.org/abs/2606.09748v1",
+      "summary": "Existing benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? To investigate this, we conduct a multi-turn evaluation of DRAs under two feedback settings: self-reflection, in which the agent revises its report without any external diagnostic signal, and process-level feedback, in which the agent receives guidance targeting gaps in its research strategy. To enable process-level feedback, we des",
+      "published": "2026-06-08T17:08:36Z",
+      "authors": [
+        "Rishabh Sabharwal",
+        "Hongru Wang",
+        "Amos Storkey",
+        "Jeff Z. Pan"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
