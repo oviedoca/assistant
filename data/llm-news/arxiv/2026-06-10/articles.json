@@ -1,0 +1,645 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "link": "https://arxiv.org/abs/2606.11190v1",
+      "summary": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in scientific domains like biomedicine or astrophysics, with heterogeneous instruments and multiple levels of organization and measurement, unable to diagnose why standard methods underperform the best s",
+      "published": "2026-06-09T17:59:58Z",
+      "authors": [
+        "Ilay Kamai",
+        "Hugues Van Assel",
+        "Aviv Regev",
+        "Hagai B. Perets",
+        "Randall Balestriero"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+      "link": "https://arxiv.org/abs/2606.11189v1",
+      "summary": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. Strictly fitting toward this one-hot target may be suboptimal, especially when the pretrained model encodes a rich knowledge prior. In this work, we reinterpret SFT as target distribution design: instead of studying only the loss objective, we analyze the token-level target that the loss drives the mo",
+      "published": "2026-06-09T17:59:54Z",
+      "authors": [
+        "Tong Xie",
+        "Yuanhao Ban",
+        "Yunqi Hong",
+        "Sohyun An",
+        "Yihang Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+      "link": "https://arxiv.org/abs/2606.11188v1",
+      "summary": "This paper introduces ARM, a discrete representation-based AutoRegressive Model that unifies image understanding, generation, and editing within a next-token prediction framework. ARM is built on three efforts: first, we train a discrete semantic visual tokenizer that maps images into compact token sequences. Our tokenizer is supervised with multiple objectives that jointly promote semantic discriminability, language alignment and faithful reconstruction, thereby supporting diverse tasks in a sh",
+      "published": "2026-06-09T17:59:28Z",
+      "authors": [
+        "Junke Wang",
+        "Xiao Wang",
+        "Jiacheng Pan",
+        "Xuefeng Hu",
+        "Feng Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+      "link": "https://arxiv.org/abs/2606.11187v1",
+      "summary": "Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without explicit signals about future dynamics; they also suffer from slow inference due to iterative video denoising. In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for cau",
+      "published": "2026-06-09T17:59:22Z",
+      "authors": [
+        "Gangwei Xu",
+        "Qihang Zhang",
+        "Jiaming Zhou",
+        "Xing Zhu",
+        "Yujun Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference",
+      "link": "https://arxiv.org/abs/2606.11186v1",
+      "summary": "Low-light video enhancement (LLVE) remains a challenging task due to severe information degradation under low-illumination conditions. Recent multimodal approaches have significantly improved enhancement performance by incorporating auxiliary modalities, such as event streams and infrared images. However, these methods typically assume the availability of these modalities at inference, which is often not feasible in real-world scenarios. To solve this problem, in this work, we propose AMNet, a u",
+      "published": "2026-06-09T17:59:05Z",
+      "authors": [
+        "Hangfeng Liang",
+        "Yutao Hu",
+        "Yanhan Hu",
+        "Xiaohan Wu",
+        "Wenqi Shao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation",
+      "link": "https://arxiv.org/abs/2606.11184v1",
+      "summary": "Contact-rich manipulation requires robots to continuously perceive and regulate evolving physical interactions under dynamic contact transitions or complex surface geometries. Recent imitation learning methods improve contact-aware control by incorporating tactile or force feedback, but they rarely model the asymmetric spatiotemporal roles of global force and local tactile sensing. To address this, we propose TacForeSight, a lightweight force-conditioned tactile foresight framework for real-time",
+      "published": "2026-06-09T17:59:03Z",
+      "authors": [
+        "Yujie Zang",
+        "Yuhang Zheng",
+        "Xian Nie",
+        "Yupeng Zheng",
+        "Shuai Tian"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonparametric Riemannian Empirical Bayes, and Denoising Measurements on Manifolds",
+      "link": "https://arxiv.org/abs/2606.11183v1",
+      "summary": "We initiate the study of nonparametric empirical Bayes denoising methods in the setting where both the latent variables and their measurements lie on a compact Riemannian manifold, and where the likelihood is a Riemannian Gaussian distribution. Our starting point is a novel Tweedie-Eddington formula for Riemannian Gaussian mixture models which identifies a certain surrogate oracle denoiser in terms of the marginal distribution of the measurements; it avoids the explicit computation of the poster",
+      "published": "2026-06-09T17:58:07Z",
+      "authors": [
+        "Adam Quinn Jaffe",
+        "Leonardo V. Santoro",
+        "Bodhisattva Sen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "link": "https://arxiv.org/abs/2606.11182v1",
+      "summary": "In this paper, we propose EEVEE, the first multi-dataset test-time prompt learning framework for LLM agents, enabling test-time prompt learning under real-world task streams. Existing methods are largely designed for single-dataset settings, while real-world applications require models to handle heterogeneous input streams drawn from multiple datasets, domains, and task distributions, limiting their practical applicability. To mitigate cross-dataset interference, EEVEE introduces a router that p",
+      "published": "2026-06-09T17:57:16Z",
+      "authors": [
+        "Weixian Xu",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Combined Analysis of Lattice QCD and Experimental Data on the Pion Transition Form Factor",
+      "link": "https://arxiv.org/abs/2606.11181v1",
+      "summary": "The evaluation of the hadronic light-by-light scattering contribution to the muon anomalous magnetic moment requires precise knowledge of the pion transition form factor (TFF). In this work, we present a feasibility study for a combined analysis of lattice QCD (LQCD) and experimental data. Our methodology is driven by the goal of combining complementary datasets to leverage their respective kinematic advantages: while LQCD provides robust predictions for the doubly-virtual TFF, $e^+e^-$ scatteri",
+      "published": "2026-06-09T17:56:53Z",
+      "authors": [
+        "Franziska Hagelstein",
+        "Danaheb Naomi Navarro Durán",
+        "Timon Esser",
+        "Vadim Lensky",
+        "Sotiris Pitelis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lip Forcing: Few-Step Autoregressive Diffusion for Real-time Lip Synchronization",
+      "link": "https://arxiv.org/abs/2606.11180v1",
+      "summary": "Diffusion-based lip synchronization models achieve strong visual quality and audio-visual alignment, but full-sequence bidirectional attention and many denoising steps make them impractical for real-time inference. We present Lip Forcing, to our knowledge the first autoregressive diffusion method for video-to-video (V2V) lip synchronization, which distills a 14B audio-conditioned bidirectional video diffusion teacher into causal students. At inference, the students generate each chunk in only tw",
+      "published": "2026-06-09T17:56:36Z",
+      "authors": [
+        "Paul Hyunbin Cho",
+        "Jinhyuk Jang",
+        "SeokYoung Lee",
+        "Joungbin Lee",
+        "Siyoon Jin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Equivariant Contact Darboux Quotients and Perversely Categorified Legendrian Correspondences",
+      "link": "https://arxiv.org/abs/2606.11179v1",
+      "summary": "Prior work has shown that shifted contact derived Artin stacks admit smooth Darboux atlases. However, establishing enumerative invariants and linearizing these categorical structures requires equivariant local models. We establish an equivariant Darboux theorem for $-1$-shifted contact derived Artin stacks. We prove that, in the smooth topology, these stacks admit smooth atlases by the derived contact Darboux scheme $Δ\\mathrm{loc}(s)$ associated to the derived discriminant locus of a relative se",
+      "published": "2026-06-09T17:56:01Z",
+      "authors": [
+        "Efe İzbudak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Proof of Nash-Williams' Conjecture",
+      "link": "https://arxiv.org/abs/2606.11178v1",
+      "summary": "A central open question in extremal design theory is Nash-Williams' Conjecture from 1970 that every triangle-divisible graph on $n$ vertices (for $n$ large enough) with minimum degree at least $0.75 n$ has a triangle decomposition. In this paper, we prove this conjecture in full.   In 2016, Barber, Kühn, Lo, and Osthus proved that if the fractional relaxation of Nash-Williams' Conjecture holds for minimum degree $cn$ for some constant $c\\ge 0.75$, then Nash-Williams' Conjecture holds for any con",
+      "published": "2026-06-09T17:55:22Z",
+      "authors": [
+        "Michelle Delcourt",
+        "Luke Postle"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "link": "https://arxiv.org/abs/2606.11176v1",
+      "summary": "Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for context, running statistics, choosing an angle, and designing visuals. Recent agents handle individual steps well: data-science agents close the analysis loop, while design agents synthesize beautiful websites. But can an agent serve as a data journalist end to end? We introduce Data Journalist Agent (",
+      "published": "2026-06-09T17:51:55Z",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Batu EI",
+        "Yuhong Shi",
+        "Pan Lu",
+        "Philip Torr"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Role of Feedback Alignment in Self-Distillation",
+      "link": "https://arxiv.org/abs/2606.11173v1",
+      "summary": "Conditioning a language model on additional context, such as feedback on a previous attempt, typically improves its response. Self-distillation trains the model to retain this improvement when the context is not present. The method works by matching the model's output distribution under two settings: a student that sees only the question, and a self-teacher that also sees the context. What the model learns therefore depends on what context the self-teacher receives, yet the design of this contex",
+      "published": "2026-06-09T17:50:09Z",
+      "authors": [
+        "Semih Kara",
+        "Oğuzhan Ersoy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Predicting Future Behaviors in Reasoning Models Enables Better Steering",
+      "link": "https://arxiv.org/abs/2606.11172v1",
+      "summary": "Deployed large reasoning models (LRMs) often behave unexpectedly. Test-time steering controls LRM outputs by intervening on their hidden representations, but it can degrade output quality. We argue that prior steering work implicitly relies on internal features that detect behavior in already generated text. We show that these detection features are poor predictors of future behavioral outcomes, and thus not the natural intervention target. Instead, we train activation probes to predict future b",
+      "published": "2026-06-09T17:49:24Z",
+      "authors": [
+        "Evgenii Kortukov",
+        "Piotr Komorowski",
+        "Florian Klein",
+        "Paula Engl",
+        "Gabriele Sarti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Algorithmic and Minimax Complexities in Kernel Bandits",
+      "link": "https://arxiv.org/abs/2606.11171v1",
+      "summary": "Gaussian-process upper confidence bound (GP-UCB) and decision-estimation-coefficient (DEC) methods may appear, at first sight, to belong to different theories. This paper places the two viewpoints in a common algorithmic-information language for frequentist RKHS bandits. GP-UCB fixes an algorithmic, rather than true, Gaussian-process prior and exploits realized-trajectory complexity together with computational tractability, whereas MAMS optimizes a robust class-wide MAIR/DEC envelope. Through th",
+      "published": "2026-06-09T17:49:09Z",
+      "authors": [
+        "Yunbei Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MATCHA: A Mathematica package for matching UV models onto HEFT",
+      "link": "https://arxiv.org/abs/2606.11170v1",
+      "summary": "We present MATChing HEFT Amplitudes (MATCHA), a Mathematica package designed for leading-order (LO) matching of an ultraviolet (UV) model to the Higgs Effective Field Theory (HEFT). MATCHA performs the matching of non-decoupling effects $\\mathcal{O}(1)$ to the LO HEFT lagrangian for an arbitrary number of Higgs fields. The main benefit of \\heftmatcha is that it is built on existing packages such as \\texttt{FeynArts} and \\texttt{FormCalc}, which are familiar to the user, and directly benefits fro",
+      "published": "2026-06-09T17:48:42Z",
+      "authors": [
+        "Raquel Gómez-Ambrosio",
+        "Carlos Quezada-Calonge"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Piper: A Programmable Distributed Training System",
+      "link": "https://arxiv.org/abs/2606.11169v1",
+      "summary": "Large-scale model training increasingly relies on composing multiple parallelism strategies, such as data, pipeline, and expert parallelism, together with memory-saving optimizations like ZeRO. Deployed systems for foundation model pretraining often rely on human experts to manually design a high-level parallelism strategy then implement the corresponding low-level execution strategy, making it difficult to adapt the system to new strategies. Meanwhile, many general-purpose frameworks are more f",
+      "published": "2026-06-09T17:48:41Z",
+      "authors": [
+        "Megan Frisella",
+        "Shubham Tiwari",
+        "Andy Ruan",
+        "Yi Pan",
+        "Parker Gustafson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models",
+      "link": "https://arxiv.org/abs/2606.11167v1",
+      "summary": "Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learning through token-level likelihood maximization, which does not directly optimize interaction-level behaviors, causing interactivity issues such as excessive silence and ill-timed turn-taking. Recent work has applied reinforcement learning (RL) to improve interactivity, but existing methods address o",
+      "published": "2026-06-09T17:46:55Z",
+      "authors": [
+        "Atsumoto Ohashi",
+        "Neil Zeghidour",
+        "Alexandre Défossez",
+        "Eugene Kharitonov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flaws in the LLM Automation Narrative",
+      "link": "https://arxiv.org/abs/2606.11166v1",
+      "summary": "Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tasks that measure average performance across standardized datasets. Primary limitations of many benchmarking tasks are that they often measure performance based on content directly included in LLM training data, and they frequently do not assess the reliability of LLM performance or the magnitude of L",
+      "published": "2026-06-09T17:46:10Z",
+      "authors": [
+        "George Perrett",
+        "Javae Elliott",
+        "Jennifer Hill",
+        "Marc Scott"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reassessing the low-$α$ massive sequence stars in Gaia RVS",
+      "link": "https://arxiv.org/abs/2606.11165v1",
+      "summary": "Recently, a chemically depleted young massive stellar population was identified using the spectroscopic catalogue of Gaia DR3. To explain its characteristics, a recent enhanced star formation event, via a third infall occurring within the last 2 Gyr, has been evoked. In this paper we reassess the low alpha sequence of massive stars identified in the Gaia spectroscopic catalog and investigate their presence in other Milky Way spectroscopic survey catalogs. We select massive sequence stars and RGB",
+      "published": "2026-06-09T17:45:59Z",
+      "authors": [
+        "G. Nandakumar",
+        "G. Kordopatis",
+        "M. Schultheis",
+        "N. Ryde",
+        "P. A. Palicio"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+      "link": "https://arxiv.org/abs/2606.11164v1",
+      "summary": "Long chain-of-thought (CoT) trajectories in large language model (LLM) reasoning cause severe inference bottlenecks due to rapid key-value (KV) cache growth. Current decoding-time compression methods mitigate this issue via token eviction, but typically assume a uniform budget distribution across all layers and heads. In contrast, existing non-uniform budget allocation methods are predominantly designed for the static prompt prefill phase, and they do not capture the stepwise context demands of ",
+      "published": "2026-06-09T17:44:23Z",
+      "authors": [
+        "Wenhao Liu",
+        "Hao Shi",
+        "Yunhe Li",
+        "Weizhi Fei",
+        "Xiangyuan Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "COGENT: Continuous Graph Emulators with Neural Ordinary Differential Equations for Long-Term Physical Forecasting",
+      "link": "https://arxiv.org/abs/2606.11162v1",
+      "summary": "In this work, we present COGENT, a continuous graph emulator with Neural Ordinary Differential Equations for long-term physical forecasting on irregular geospatial meshes. COGENT encodes a finite history of system states and associated forcing fields and external forcings with a graph-based history encoder, producing node-wise context vectors that capture both local spatial interactions and temporal evolution. These context vectors initialize and condition a latent Neural Ordinary Differential E",
+      "published": "2026-06-09T17:43:30Z",
+      "authors": [
+        "Zesheng Liu",
+        "Maryam Rahnemoonfar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AutoClassMK: A public neural network for automatic 2D MK classification of normal stars in basic Python",
+      "link": "https://arxiv.org/abs/2606.11161v1",
+      "summary": "We present AutoClassMK, a simple, fully-connected, five-layer double-headed neural network written entirely in Python and Numpy that classifies normal stellar spectra conforming to the libr18 MK atlas in the 2D MK classification system with a high degree of precision and recall. AutoClassMK has the distinction of having transparent basic code with no calls to specialized libraries. In this paper we take care to explicitly describe in detail the ideas and operations that enable the network. Train",
+      "published": "2026-06-09T17:43:03Z",
+      "authors": [
+        "C. Ian Short"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DarkAgents",
+      "link": "https://arxiv.org/abs/2606.11157v1",
+      "summary": "We present DarkAgents: a multi-agent system that leverages the reasoning and code-generation capabilities of large language models (LLMs), together with deterministic tested human-written code, to build orchestrated pipelines for theoretical astroparticle physics research. While related approaches have been proposed in collider physics and cosmology, DarkAgents targets the specific challenges of this domain, such as model building, complex pipeline computations, multiple constraints and assumpti",
+      "published": "2026-06-09T17:39:23Z",
+      "authors": [
+        "Michele Lucente",
+        "Silvia Pascoli",
+        "Filippo Sala",
+        "Matteo Zandi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Itô maps for any-step SDEs",
+      "link": "https://arxiv.org/abs/2606.11156v1",
+      "summary": "Recent one-step generative models accelerate sampling by learning deterministic flow maps of the underlying dynamics. These methods rely on learning from ordinary differential equations, leaving open how to define an exact distillation procedure for stochastic dynamics. We introduce the Itô map, an any-step stochastic flow map that takes an intermediate state and Brownian path and predicts future states in a single pass. The Itô map formulation yields novel estimators for inference-time control ",
+      "published": "2026-06-09T17:39:22Z",
+      "authors": [
+        "Zhengkai Pan",
+        "Peter Potaptchik",
+        "Wenxi Yao",
+        "Michael S. Albergo",
+        "Jakiw Pidstrigach"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mean Flow Distillation: Robust and Stable Distillation for Flow Matching Models",
+      "link": "https://arxiv.org/abs/2606.11155v1",
+      "summary": "Flow Matching models have demonstrated strong performance across a wide range of generative tasks. However, their reliance on ODE-based iterative sampling incurs substantial computational overhead in inference, which limits their applicability in real-time scenes. While distillation is a promising solution, existing approaches largely borrow from diffusion-based score matching, often failing to exploit the intrinsic geometric structure of flows and suffering from training instability, high varia",
+      "published": "2026-06-09T17:39:19Z",
+      "authors": [
+        "An Zhao",
+        "Shengyuan Zhang",
+        "Zhongjian Sun",
+        "Yixiang Zhou",
+        "Zejian Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Monte Carlo calculations of Zemach moments in $A\\leq 9$ nuclei",
+      "link": "https://arxiv.org/abs/2606.11153v1",
+      "summary": "Modern atomic spectroscopy has reached a level of precision at which nuclear-structure effects can no longer be neglected and must be quantified reliably. In particular, hyperfine splittings depend on the Zemach radius, which encodes the convolution of the nuclear charge and magnetization distributions. The third electric Zemach moment provides a related finite-size measure and enters the elastic two-photon-exchange contribution to the Lamb shift in muonic atoms. Here, we compute Zemach radii an",
+      "published": "2026-06-09T17:38:00Z",
+      "authors": [
+        "Garrett B. King",
+        "Sonia Bacca",
+        "Graham Chambers-Wall",
+        "Alex Gnech",
+        "Saori Pastore"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "P3D-Bench: Benchmarking MLLMs for Parametric 3D Generation and Structural Reasoning",
+      "link": "https://arxiv.org/abs/2606.11152v1",
+      "summary": "Multimodal large language models can write code to produce complex programs as well as use programs to do 3D modeling, which opens up a new avenue for 3D generation powered by their priors, world knowledge and reasoning. Yet existing benchmarks rarely evaluate 3D modeling through code. Such modeling demands more than runnable code: from a text or visual specification, a model must generate a parametric 3D program that is geometrically precise, semantically aligned and assembly-consistent. We int",
+      "published": "2026-06-09T17:36:34Z",
+      "authors": [
+        "Yikang Yang",
+        "Zhanpeng Hu",
+        "Youtian Lin",
+        "Mengqi Zhou",
+        "Jingxi Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JOIN: Anchor-Grasp-Conditioned Joining via Opposition, Inference, and Navigation for Bimanual Assistive Manipulation",
+      "link": "https://arxiv.org/abs/2606.11151v1",
+      "summary": "Assistive mobility and manipulation platforms have received increasing attention as a means of restoring independence to individuals with disabilities. While effective for many basic activities of daily living (ADLs), a significant percentage of everyday tasks such as opening a jar, pouring a liquid, lifting a tray, or basic meal preparation, is fundamentally bimanual and remains out of reach for any single-arm system. Adding a second arm to a wheelchair is impractical, due to the additional pow",
+      "published": "2026-06-09T17:36:06Z",
+      "authors": [
+        "Drake Moore",
+        "Matt Cheng",
+        "Xiang Zhi Tan",
+        "Taşkın Padır"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "link": "https://arxiv.org/abs/2606.11150v1",
+      "summary": "Large language models (LLMs) are rapidly acquiring capabilities relevant to biological research, from literature synthesis to interpretation of experimental data. Increasingly, LLM agents can also perform in silico biology tasks that previously required experienced human biologists. These emerging AI capabilities offer new opportunities for scientific discovery and biomedical advances, but they also shift the landscape of biosecurity risks. To address this, we introduce the Agentic Bio-Capabilit",
+      "published": "2026-06-09T17:35:37Z",
+      "authors": [
+        "Andrew Bo Liu",
+        "Samira Nedungadi",
+        "Bryce Cai",
+        "Alex Kleinman",
+        "Harmon Bhasin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MOFA-VTON: More Fashion Possibilities with Fine-Grained Adaptations in Virtual Try-On",
+      "link": "https://arxiv.org/abs/2606.11148v1",
+      "summary": "Virtual try-on aims to fit an in-shop clothing image onto a specific human body. An optimal virtual try-on method should provide diverse and flexible dressing options, accurately reflecting the varied wearing styles encountered in real-life scenarios, tailored to individual preferences and fashion aspirations. However, current methods predominantly perform a direct replacement of the original clothing with the target clothing, following the same dressing pattern. This limited control over clothi",
+      "published": "2026-06-09T17:34:25Z",
+      "authors": [
+        "Xiaoyu Han",
+        "Chenyang Wang",
+        "Jing Wang",
+        "Shunyuan Zheng",
+        "Quanling Meng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Yang-Baxter Equation for the Chiral Potts Model and Integrable Parafermions",
+      "link": "https://arxiv.org/abs/2606.11146v1",
+      "summary": "A new type of Yang-Baxter equation (YBE) for $R$-matrices parameterized by three spectral parameters is constructed from the star-triangle and star-star relations for the chiral Potts model. As the $Z_N$ symmetric generalization to the Ising model, its Boltzmann weights are known to depend on two variables describing a curve with genus larger than one for $N>2$, except for the self-dual point corresponding to the Fateev-Zamolodchikov chain. This combined with the fact that the quantum Hamiltonia",
+      "published": "2026-06-09T17:33:55Z",
+      "authors": [
+        "Zhao Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OpenPCC: Open and Confidential LLM Serving on Commodity TEEs",
+      "link": "https://arxiv.org/abs/2606.11145v1",
+      "summary": "Generative AI applications such as personal AI agents, image generators, and chat assistants offer advanced capabilities to improve user experience. Behind the scenes, Large Language Models (LLMs) that power these services require a massive amount of computation and are usually deployed in the cloud, available as APIs, meaning that a user's request has to be sent to a Cloud Inference Service (CIS) for processing. However, the strong capabilities of LLM also mean that user's requests now contain ",
+      "published": "2026-06-09T17:33:33Z",
+      "authors": [
+        "Haoling Zhou",
+        "Shixuan Zhao",
+        "Chao Wang",
+        "Zhiqiang Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OncoTraj: a public benchmark for longitudinal resistance prediction in EGFR-mutant non-small-cell lung cancer on osimertinib",
+      "link": "https://arxiv.org/abs/2606.11144v1",
+      "summary": "Resistance to first-line osimertinib in EGFR-mutant non-small-cell lung cancer (NSCLC) is the canonical example of predictable clonal evolution under therapeutic pressure, yet no public benchmark exists for training or evaluating computational models on the corresponding longitudinal patient trajectories. We introduce OncoTraj, a public benchmark of 813 EGFR-mutant NSCLC patients receiving first-line osimertinib, harmonized from three real-world clinical-genomic sources: MSK-CHORD (672 patients)",
+      "published": "2026-06-09T17:33:24Z",
+      "authors": [
+        "Abhijoy Sarkar",
+        "Aarchi Singh Thakur"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Strong Approximations for Markov Chains Weakly Converging to Diffusions",
+      "link": "https://arxiv.org/abs/2606.11142v1",
+      "summary": "In this paper, we construct strong approximations for discrete-time Markov chains weakly converging to continuous diffusion processes, as well as for their perturbed counterparts. Under the assumption of bounded coefficients, we construct closely coupled versions of these processes on a shared probability space. In particular, for both non-degenerate and degenerate cases, we maximize the probability of their exact pathwise coincidence on discrete time grids. Moreover, we construct such probabili",
+      "published": "2026-06-09T17:30:47Z",
+      "authors": [
+        "V. Konakov",
+        "D. Kucher",
+        "E. Mammen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data assimilation for subsurface flow using latent diffusion model parameterization: performance of ensemble-Kalman and Monte Carlo techniques",
+      "link": "https://arxiv.org/abs/2606.11140v1",
+      "summary": "Data assimilation (DA) in subsurface flow entails calibrating model parameters to match observed data, typically at wells, while preserving geological realism. Latent diffusion models (LDMs) provide efficient mappings from high-dimensional geological model space to a low-dimensional latent variable, reducing the dimensionality of the inverse problem while maintaining plausibility in posterior geomodels. However, the high nonlinearity in the LDM mapping may degrade the performance of Kalman-gain-",
+      "published": "2026-06-09T17:29:47Z",
+      "authors": [
+        "Guido Di Federico",
+        "Wenchao Teng",
+        "Louis J. Durlofsky"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "First-Order Trajectory Matching: Fast Ensemble Predictions of Chaotic, Turbulent, Stochastic Systems",
+      "link": "https://arxiv.org/abs/2606.11138v1",
+      "summary": "We introduce First-Order Trajectory Matching (FTM), a surrogate-modeling method that learns the first-order local transport of probability mass from trajectories of stochastic systems. By matching the symmetric first-order motion of trajectories, FTM learns the probability current velocity, whose flow preserves time marginals to match ensemble averages, while also capturing current-like trajectory quantities such as fluxes, circulations, and barrier-crossing currents. FTM learns the current velo",
+      "published": "2026-06-09T17:29:05Z",
+      "authors": [
+        "Shreya Jha",
+        "Timo Schorlepp",
+        "Nicholas Geissler",
+        "Jules Berman",
+        "Benjamin Peherstorfer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Conformal Prediction for Dyadic Regression Under Complex Missingness",
+      "link": "https://arxiv.org/abs/2606.11136v1",
+      "summary": "We develop a framework for conformal prediction in dyadic regression problems under complex missingness mechanisms. At the theoretical level, we establish super-uniformity of conformal prediction under distributional invariance conditions weaker than exchangeability. A key result handles the case where the sample itself is a random subset of the index set, a setting not covered by existing theory, via a novel bijection argument that constructs an explicit measure-preserving correspondence betwee",
+      "published": "2026-06-09T17:28:07Z",
+      "authors": [
+        "Robert Lunde",
+        "Minjie Yang",
+        "Elizaveta Levina",
+        "Ji Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pre-Fault Voltage Discrimination and Time-Domain Protection for Distribution Networks with Inverter-Based Resources",
+      "link": "https://arxiv.org/abs/2606.11135v1",
+      "summary": "The increasing proliferation of inverter-based resources (IBRs) in distribution networks is presenting a major challenge for phasor-based overcurrent protection. This challenge stems from IBRs' lack of short-circuit current sourcing capacity. As a result, traditional overcurrent protection functions (e.g., ANSI 51) are inadequate in such scenarios, and warrant alternative approaches. Time-domain protection, for example, shows promise in overcoming this challenge. In this paper we propose a pre-f",
+      "published": "2026-06-09T17:27:00Z",
+      "authors": [
+        "Junyuan Zhao",
+        "François Bouffard",
+        "Géza Joós"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resolving SLX 1744-299 and SLX 1744-300 in the hard X-ray band: implications for their ultracompact nature",
+      "link": "https://arxiv.org/abs/2606.11133v1",
+      "summary": "Persistent, low-luminosity low-mass X-ray binaries (LMXBs) offer a unique opportunity to study accretion in this poorly understood regime, as well as to unveil new members of the ultracompact X-ray binary (UCXB) family, characterised by orbital periods ($P_{\\rm orb}$) shorter than $\\sim 80$ min. We report on a NuSTAR archival observation that, for the first time above 10 keV, spatially resolves the Galactic Centre pair SLX 1744$-$299 and SLX 1744$-$300. We find SLX 1744$-$300 to be slightly brig",
+      "published": "2026-06-09T17:25:39Z",
+      "authors": [
+        "Enzo A. Saavedra",
+        "Montserrat Armas Padilla",
+        "Teo Muñoz-Darias"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniPET: a universal network for high-quality PET image denoising across varied dose reduction factors",
+      "link": "https://arxiv.org/abs/2606.11131v1",
+      "summary": "Most existing deep learning-based PET image denoising methods assume a fixed and known dose reduction factor (DRF) for low-dose PET images. However, these methods encounter significant performance degradation when the DRF varies beyond the assumed one in practical applications. To address the challenge posed by varied DRFs, several preliminary studies focus on the task of universal PET image denoising, aiming to train a universal model over low-dose data across DRFs. Nonetheless, these vanilla u",
+      "published": "2026-06-09T17:25:02Z",
+      "authors": [
+        "Zhiwen Yang",
+        "Yang Zhou",
+        "Haowei Chen",
+        "Hui Zhang",
+        "Dan Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WorldOlympiad: Can Your World Model Survive a Triathlon?",
+      "link": "https://arxiv.org/abs/2606.11129v1",
+      "summary": "We introduce WorldOlympiad, a benchmark for diagnosing video-based world models across physical faithfulness, geometric consistency, and interaction fidelity. While existing benchmarks often focus on visual quality, semantic alignment, or short-term temporal coherence, they provide limited insight into whether generated videos obey physical rules, preserve coherent 3D structure, and sustain controllable interactions over long horizons. To address this gap, WorldOlympiad decomposes world-model ev",
+      "published": "2026-06-09T17:24:36Z",
+      "authors": [
+        "Yuke Zhao",
+        "Wangbo Zhao",
+        "Weijie Wang",
+        "Zeyu Zhang",
+        "Dakai An"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation",
+      "link": "https://arxiv.org/abs/2606.11127v1",
+      "summary": "Synthetic post-training pipelines commonly filter generated samples with reward models or holistic LLM judges, yet two practices remain rarely examined together: whether the filtering signal is grounded in the source evidence that induced each generation, and whether rejected samples can be systematically recovered rather than permanently discarded. We present a controlled study of both questions across gate configurations, recovery strategies, and generator scales, using adversarially injected ",
+      "published": "2026-06-09T17:24:27Z",
+      "authors": [
+        "Soham Bhattacharjee",
+        "Karun Sharma",
+        "Vinay Kumar Sankarapu",
+        "Pratinav Seth"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DMT: Demographic Conditioning, Morphology-Enhanced Transformer for Cuffless Blood Pressure Estimation from PPG Signals",
+      "link": "https://arxiv.org/abs/2606.11125v1",
+      "summary": "Blood pressure (BP) is a key marker for cardiovascular risk assessment and therapeutic decision-making, and Photoplethysmography (PPG) enables low-cost, wearable-friendly cuffless BP estimation. However, even with recent progress, many PPG-based models are trained with BP regression alone and may rely on amplitude-dominated shortcuts. In addition, demographic covariates that systematically modulate vascular compliance are often incorporated only via late fusion, limiting subject-specific represe",
+      "published": "2026-06-09T17:23:07Z",
+      "authors": [
+        "Yidan Shen",
+        "Neville Mathew",
+        "Maham Rahimi",
+        "Deependra Dhakal",
+        "George Zouridakis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Well-posedness and stability for a thermoelectromagnetic system",
+      "link": "https://arxiv.org/abs/2606.11124v1",
+      "summary": "In this article we consider a system of coupled partial differential equations that mirrors the interconnection between the evolution of an electromagnetic field -- described by the Maxwell's system -- and that of the temperature distribution in a bounded region in three-dimension. A discussion of the mathematical model is provided. We establish the well-posedness of the initial-boundary value problems associated with the thermoelectromagnetic system, in an appropriate functional-analytic framew",
+      "published": "2026-06-09T17:23:06Z",
+      "authors": [
+        "Francesca Bucci",
+        "Matthias Eller",
+        "Nella Rotundo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Overcoming Rank Collapse in Feedback Alignment",
+      "link": "https://arxiv.org/abs/2606.11123v1",
+      "summary": "Backpropagation (BP) is widely viewed as biologically implausible, in part because it requires feedback weights to be the transpose of forward weights for error propagation. Interestingly, when training a network with fixed random feedback weights to circumvent this issue, learning aligns the forward weights with the feedback weights, leading the backpropagated error signal to become an approximation of the standard gradient used by BP. This process, called Feedback Alignment (FA), occurs in MLP",
+      "published": "2026-06-09T17:21:25Z",
+      "authors": [
+        "Gauthier Boeshertz",
+        "Razvan Pascanu",
+        "Claudia Clopath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Derived skein module",
+      "link": "https://arxiv.org/abs/2606.11122v1",
+      "summary": "We propose a model-independent axiomatic framework for the derived skein theory of oriented 3-manifolds with coefficients in a ribbon tensor category, especially focusing on the case where the input category is the category of finite-dimensional representations of a quantum group with quantum parameter not a root of unity. The axioms are designed so that the 0th homology recovers the ordinary skein module and gluing is governed by a bar construction. We establish several relationships between th",
+      "published": "2026-06-09T17:21:17Z",
+      "authors": [
+        "Chun-Yu Bai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GASTAG evolutionary tracks and isochrones from coupled 1D and 3D models: systematic temperature offsets in red giants",
+      "link": "https://arxiv.org/abs/2606.11121v1",
+      "summary": "Models of stellar structure and evolution describe the global and internal properties of stars throughout their lifetimes and are indispensable for studies of stellar clusters and Galactic evolution. However, most 1D evolutionary calculations rely on simplified treatment of convection, resulting in inaccurate near-surface structures and non-negligible uncertainties in the predicted fundamental parameters of low-mass stars. In a series of previous works, a novel approach was developed to couple 1",
+      "published": "2026-06-09T17:20:38Z",
+      "authors": [
+        "Yixiao Zhou",
+        "Jiaqi",
+        "Ying",
+        "Yaguang Li",
+        "Luca Casagrande"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Monte Carlo Pass Search: Using Trajectory Generation for 3D Counterfactual Pass Evaluation in Football",
+      "link": "https://arxiv.org/abs/2606.11120v1",
+      "summary": "We recast pass evaluation in football (soccer) as a Monte Carlo Tree Search (MCTS)-like evaluation problem whose components mostly exist in the literature under different names: a value model (possession value), a world model (multi-agent trajectories with ball interactions), and a policy over counterfactual actions (sampling pass variants with noise). Building on the first public high-fidelity tracking dataset with 3D ball trajectories from the Bundesliga, we introduce Monte Carlo Pass Search (",
+      "published": "2026-06-09T17:16:30Z",
+      "authors": [
+        "Andrew Kang",
+        "Priya Narasimhan"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
