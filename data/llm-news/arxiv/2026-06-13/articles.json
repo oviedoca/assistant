@@ -1,0 +1,644 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "link": "https://arxiv.org/abs/2606.13681v1",
+      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so",
+      "published": "2026-06-11T17:59:59Z",
+      "authors": [
+        "Jundong Xu",
+        "Qingchuan Li",
+        "Jiaying Wu",
+        "Yihuai Lan",
+        "Shuyue Stella Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "link": "https://arxiv.org/abs/2606.13680v1",
+      "summary": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different solution strategy, while a superficially different problem may share the same underlying reasoning pattern. We propose Retrieval-Augmented Reinforcement Fine-Tuning (RA-RFT), a post-training framework ",
+      "published": "2026-06-11T17:59:52Z",
+      "authors": [
+        "Zilin Xiao",
+        "Qi Ma",
+        "Chun-cheng Jason Chen",
+        "Xintao Chen",
+        "Avinash Atreya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "link": "https://arxiv.org/abs/2606.13679v1",
+      "summary": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation. Even the latest open-source Unified Multimodal Models (UMMs) exhibit limited performance in this regard. In this paper, we introduce InterleaveThinker, th",
+      "published": "2026-06-11T17:59:50Z",
+      "authors": [
+        "Dian Zheng",
+        "Harry Lee",
+        "Manyuan Zhang",
+        "Kaituo Feng",
+        "Zoey Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A model of local and global reciprocity",
+      "link": "https://arxiv.org/abs/2606.13678v1",
+      "summary": "We often decide how to treat friends based on observations of their past behavior, whereas actions toward strangers are typically guided by their public reputations. These two kinds of information underlie two classical mechanisms for the evolution of cooperation$\\unicode{x2014}$direct and indirect reciprocity$\\unicode{x2014}$which have largely been studied in isolation. They are not interchangeable: we can recall the past actions of only a small circle of close contacts, whereas for the far lar",
+      "published": "2026-06-11T17:59:49Z",
+      "authors": [
+        "Mari Kawakatsu",
+        "Yohsuke Murase",
+        "Taylor A. Kessinger",
+        "Joshua B. Plotkin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mana: Dexterous Manipulation of Articulated Tools",
+      "link": "https://arxiv.org/abs/2606.13677v1",
+      "summary": "Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexity and the difficulty of learning functional grasping and manipulation policies. We present Mana (Manipulation Animator), a general sim-to-real framework that reinterprets dexterous manipulation as an an",
+      "published": "2026-06-11T17:59:49Z",
+      "authors": [
+        "Zhao-Heng Yin",
+        "Guanya Shi",
+        "Pieter Abbeel",
+        "C. Karen Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+      "link": "https://arxiv.org/abs/2606.13675v1",
+      "summary": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus on flow matching generalists and propose Flow Reversal Steering (FRS): a method that takes suboptimal but ``reasonable'' actions, finds their latent noises by passing them through the flow policy in r",
+      "published": "2026-06-11T17:59:45Z",
+      "authors": [
+        "Andy Tang",
+        "William Chen",
+        "Andrew Wagenmaker",
+        "Chelsea Finn",
+        "Sergey Levine"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Modality Forcing for Scalable Spatial Generation",
+      "link": "https://arxiv.org/abs/2606.13676v1",
+      "summary": "Text-to-image (T2I) models contain rich spatial priors. Synthesizing photorealistic, cluttered scenes requires an understanding of geometry, including perspective and relative scale. Prior works adapt T2I models to leverage this prior for depth prediction, but they require dense depth data and involve complex recipes. We propose Modality Forcing, a simple, scalable post-training recipe for joint image-depth generation using a single DiT trained on sparse depth data. Modality Forcing enables cond",
+      "published": "2026-06-11T17:59:45Z",
+      "authors": [
+        "Bardienus Pieter Duisterhof",
+        "Deva Ramanan",
+        "Jeffrey Ichnowski",
+        "Justin Johnson",
+        "Keunhong Park"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+      "link": "https://arxiv.org/abs/2606.13674v1",
+      "summary": "This work presents RepWAM, a representation-centric world action model (WAM) built on representation visual-action tokenizers. Existing WAMs typically inherit reconstruction-oriented video tokenizers from pretrained video generation models. Although these tokenizers preserve visual fidelity, pixel reconstruction alone provides limited guidance for learning instruction-following dynamics that connect future prediction with robot control. To address this, we explore a semantic visual-action latent",
+      "published": "2026-06-11T17:59:43Z",
+      "authors": [
+        "Junke Wang",
+        "Qihang Zhang",
+        "Shuai Yang",
+        "Yiming Luo",
+        "Yujun Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "link": "https://arxiv.org/abs/2606.13673v1",
+      "summary": "Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attempt to address this by augmenting VLMs with specialist perception modules, yet their effectiveness is bounded by the action interface through which those tools are invoked. In this work, we study how the design of this interface shapes the agent's capacity for open-ended spatial reasoning. Existing sp",
+      "published": "2026-06-11T17:59:36Z",
+      "authors": [
+        "Seokju Cho",
+        "Ryo Hachiuma",
+        "Abhishek Badki",
+        "Hang Su",
+        "Byung-Kwan Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$\\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2606.13672v1",
+      "summary": "The potential impacts of world models (WMs, i.e., learned simulators) on robotics are far-reaching -- policy evaluation, policy improvement, and test-time planning -- all with limited real-world interaction. To unlock these downstream capabilities, a WM needs to jointly satisfy three desiderata: $\\textit{(i)}$ fidelity (i.e., producing simulated trajectories that correlate with reality), $\\textit{(ii)}$ consistency (i.e., producing simulated trajectories that are coherent over long horizons), an",
+      "published": "2026-06-11T17:59:15Z",
+      "authors": [
+        "Arnav Kumar Jain",
+        "Yilin Wu",
+        "Jesse Farebrother",
+        "Gokul Swamy",
+        "Andrea Bajcsy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "link": "https://arxiv.org/abs/2606.13670v1",
+      "summary": "Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. However, such approaches are resource-intensive and difficult to scale. Here, we show that large language models (LLMs) can automate reproducibility assessments. Using N=76 published studies with predefined claims from the behavioral and social sciences, we compare LLM-generated analysis with the origina",
+      "published": "2026-06-11T17:58:36Z",
+      "authors": [
+        "Tobias Holtdirk",
+        "Pietro Marcolongo",
+        "Anna Steinberg Schulten",
+        "Felix Henninger",
+        "Stefan Rose"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+      "link": "https://arxiv.org/abs/2606.13669v1",
+      "summary": "Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions, and flat \\texttt{cites} edges, omitting key entities, claims, evidence, mechanisms, and method lineages essential for scientific reasoning. To this end, we introduce \\textbf{Agents-K1}, an end-to-end knowledge orchestration pipeline that converts raw documents into agent-native scientific knowledge",
+      "published": "2026-06-11T17:58:35Z",
+      "authors": [
+        "Zongsheng Cao",
+        "Bihao Zhan",
+        "Jinxin Shi",
+        "Jiong Wang",
+        "Fangchen Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "link": "https://arxiv.org/abs/2606.13668v1",
+      "summary": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model to generate certain outputs. As an example, one might be interested in which samples in the data could be the source of toxic behavior after training the LLM. Many methods quantify this conditioning t",
+      "published": "2026-06-11T17:58:33Z",
+      "authors": [
+        "Dimitri Kachler",
+        "Damien Sileo",
+        "Pascal Denis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Centrally concentrated star formation in young clusters II: Jet feedback",
+      "link": "https://arxiv.org/abs/2606.13666v1",
+      "summary": "Protostellar jets are one of the earliest forms of stellar feedback, but their impact on star formation and cluster assembly in centrally concentrated molecular clouds remains poorly understood. We study how protostellar jets affect the star formation efficiency, the temporal variability of star formation, star cluster structure, and the early dynamical state of centrally concentrated, newly forming star clusters using the Torch star cluster formation framework. We adopt a centrally concentrated",
+      "published": "2026-06-11T17:57:59Z",
+      "authors": [
+        "Adilkhan Assilkhan",
+        "Sabrina M. Appel",
+        "Bekdaulet Shukirgaliyev",
+        "Ernazar Abdikamalov",
+        "Simon Portegies Zwart"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "link": "https://arxiv.org/abs/2606.13663v1",
+      "summary": "Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \\emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visible decisions, consuming context and forcing the model to manage low-level dataflow in the trace. We introduce \\textbf{HyperTool}, a unified executable MCP-style tool interface that changes the model-visi",
+      "published": "2026-06-11T17:56:36Z",
+      "authors": [
+        "Yaxin Du",
+        "Yifan Zhou",
+        "Yujie Ge",
+        "Jiajun Wang",
+        "Xianghe Pang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "link": "https://arxiv.org/abs/2606.13662v1",
+      "summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfac",
+      "published": "2026-06-11T17:56:35Z",
+      "authors": [
+        "Amy Xin",
+        "Jiening Siow",
+        "Junjie Wang",
+        "Zijun Yao",
+        "Fanjin Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation",
+      "link": "https://arxiv.org/abs/2606.13657v1",
+      "summary": "On-policy distillation (\\textsc{OPD}) has recently become a prominent post-training recipe as it combines two desirable ingredients: on-policy student trajectories and dense teacher supervision, yet how this hybrid changes a model's parameters remains unclear. Across several language and vision-language model pairs and use cases, our analysis yields two main findings. On sparsity, \\textsc{OPD}-style updates are small and coordinate-sparse. They are distributed across layers and are usually FFN-h",
+      "published": "2026-06-11T17:54:09Z",
+      "authors": [
+        "Guo Yu",
+        "Wenlin Liu",
+        "Yulan Hu",
+        "Hao-Xuan Ma",
+        "Jun-Peng Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction",
+      "link": "https://arxiv.org/abs/2606.13655v1",
+      "summary": "We present Flex4DHuman, a multi-view video diffusion model that transforms a monocular or sparse multi-view video of a dynamic subject into synchronized dense multi-view videos using only relative camera-pose conditioning. Unlike prior human-centric methods that rely on skeletons, depth maps, normals, or rendered target-view geometry, Flex4DHuman requires no explicit geometry priors and instead conditions generation through relative camera-pose positional encoding. The generated videos can be di",
+      "published": "2026-06-11T17:54:05Z",
+      "authors": [
+        "Jen-Hao Cheng",
+        "Yipeng Wang",
+        "Hao Zhang",
+        "Gengshan Yang",
+        "Jenq-Neng Hwang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A local bijection between alternating sign matrices and descending plane partitions and a Striker--Fulmek-type $q$-statistic",
+      "link": "https://arxiv.org/abs/2606.13653v1",
+      "summary": "We prove a local bijection between alternating sign matrices (ASMs) and descending plane partitions (DPPs) in the refined fibres of Behrend--Di Francesco--Zinn-Justin. The map is constructed by moving a boundary line through the ASM and DPP pictures. At each step only a bounded neighbourhood of that boundary is changed. In growth-diagram language, the boundary states are ordinary ASM row frontiers and shifted DPP path frontiers, and the elementary moves are reversible Fomin-type square rules. Th",
+      "published": "2026-06-11T17:53:29Z",
+      "authors": [
+        "Michael J. Schlosser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible",
+      "link": "https://arxiv.org/abs/2606.13652v1",
+      "summary": "Image-to-3D methods often trade off faithfulness and completeness: depth estimators are anchored to input pixels but stop at the visible surface, while image-to-3D models generate complete shapes that are often misaligned with the input. We introduce World Tracing, a generative pixel-aligned geometry representation that predicts 3D points aligned with observed pixels while completing geometry beyond the visible surface. For each input pixel, World Tracing predicts an ordered stack of camera-spac",
+      "published": "2026-06-11T17:52:48Z",
+      "authors": [
+        "Hao Zhang",
+        "Mohamed El Banani",
+        "Jen-Hao Cheng",
+        "Paul Zhang",
+        "Yi Hua"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
+      "link": "https://arxiv.org/abs/2606.13649v1",
+      "summary": "Detecting LLM reasoning failures at inference time without ground-truth labels has motivated a wide range of confidence baselines, including self-consistency, semantic entropy, and P(True), built on within-question sampling and self-evaluation. Operad theory, the formalism for systems built by iterated substitution, suggests a complementary diagnostic: a model's direct answer to a compositional query should agree with the answer it produces by composing a stated decomposition of the same query. ",
+      "published": "2026-06-11T17:50:40Z",
+      "authors": [
+        "Nathaniel Bottman",
+        "Yinhong Liu",
+        "Kyle Richardson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stochastic dominations for FK percolation and sharp thinning thresholds for the Ising energy field",
+      "link": "https://arxiv.org/abs/2606.13648v1",
+      "summary": "At first glance, one would imagine that the energy field of the Ising model, the set of edges whose endpoints share the same spin, is stochastically monotone as a function of the coupling constants. However, this is not generally the case. In this paper, we introduce two weaker notions of stochastic domination that make this result true: $p$--weak and $p$--weak$^\\dagger$ domination. Both of these notions depend on a parameter $p$ and we find the optimal values $p$ and $p^\\dagger$ so that these d",
+      "published": "2026-06-11T17:50:28Z",
+      "authors": [
+        "Paul Cahen",
+        "Avelio Sepúlveda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation",
+      "link": "https://arxiv.org/abs/2606.13647v1",
+      "summary": "We introduce SkMTEB, the first comprehensive MTEB-style text embedding benchmark for Slovak, a low-resource West Slavic language, comprising 31 datasets across 7 task types -- nearly 4$\\times$ the depth of existing multilingual benchmark coverage for Slovak. Our evaluation of 31 embedding models reveals that large instruction-tuned multilingual models achieve the strongest performance, while existing Slovak-specific models trained for NLU tasks transfer poorly to embedding tasks. To address the ",
+      "published": "2026-06-11T17:50:06Z",
+      "authors": [
+        "Marek Šuppa",
+        "Andrej Ridzik",
+        "Daniel Hládek",
+        "Natália Kňažeková",
+        "Viktória Ondrejová"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+      "link": "https://arxiv.org/abs/2606.13644v1",
+      "summary": "Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent methods commit to a fixed, low-resolution output. We introduce Surflo, which compresses a variable number of unposed RGB views into K latent tokens-one global state-and decodes oriented 3D surface points by",
+      "published": "2026-06-11T17:48:38Z",
+      "authors": [
+        "Antoine Guédon",
+        "Shu Nakamura",
+        "Nicolas Dufour",
+        "Jiahui Lei",
+        "Ko Nishino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Recursive Agent Harnesses",
+      "link": "https://arxiv.org/abs/2606.13643v1",
+      "summary": "Recursive language models (RLMs) showed that recursion over model calls is an effective strategy for long-context reasoning, and production coding agents have begun to write code that spawns subagents at scale, most recently in Anthropic's dynamic workflows. We name and study the pattern between these two lines of work, where the recursive unit is a full agent harness with filesystem tools, code execution, and planning rather than a model call with no tools. We call this the Recursive Agent Harn",
+      "published": "2026-06-11T17:47:30Z",
+      "authors": [
+        "Elias Lumer",
+        "Sahil Sen",
+        "Kevin Paul",
+        "Vamse Kumar Subbiah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Search for High-Frequency Gravitational Waves via Geomagnetic Conversion with Radio Telescopes",
+      "link": "https://arxiv.org/abs/2606.13642v1",
+      "summary": "The detection of high-frequency gravitational waves (HFGWs) above 10 kHz provides a crucial probe of exotic astrophysical phenomena and new physics. We report the first search for HFGWs via their conversion to electromagnetic radiation through the inverse Gertsenshtein effect in Earth's magnetic field, utilizing radio telescopes including the Very Large Array (VLA) and the Atacama Large Millimeter/submillimeter Array (ALMA). Since no statistically significant signal is observed, we obtain new up",
+      "published": "2026-06-11T17:47:11Z",
+      "authors": [
+        "Hongliang Tian",
+        "Lei Wu",
+        "Xiaolong Yang",
+        "Qiang Yuan",
+        "Bin Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generalized two-qubit Hamiltonian for Projective Quantum Feature Maps",
+      "link": "https://arxiv.org/abs/2606.13641v1",
+      "summary": "Projected quantum feature maps provide a strategy for using quantum processors as feature generators for classical machine-learning models. Building on counterdiabatic Ising-glass and one-dimensional Heisenberg PQFMs, we introduce a generalized two-qubit Hamiltonian-based PQFM that provides a unified way to encode classical features through local Pauli fields and pairwise two-qubit Pauli interactions. This construction allows distinct classical variables to be embedded along different Pauli axes",
+      "published": "2026-06-11T17:47:04Z",
+      "authors": [
+        "Rafael Simões do Carmo",
+        "Edson Amaro Junior",
+        "Felipe Fanchini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Moving Drone: Negotiating Agency Between the Voice and the Virtual",
+      "link": "https://arxiv.org/abs/2606.13640v1",
+      "summary": "Melodic material in Hindustani music is presented in relation to a tonic, usually sustained by the tanpura, a four-stringed drone instrument. Rooted in Hindustani music, 'The Moving Drone' sets the traditionally static drone into motion that, throughout the performance, gains increasing agency transitioning from reactive to more proactive roles. The work employs four independent loopers in Max/MSP to function as 'virtual' drones. They are populated cyclically in real-time as the vocalist improvi",
+      "published": "2026-06-11T17:47:01Z",
+      "authors": [
+        "Nithya Shikarpur",
+        "Victor Arul",
+        "Anna Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tuning Agent-Based Predator-Prey Models Toward Lotka-Volterra Dynamics",
+      "link": "https://arxiv.org/abs/2606.13639v1",
+      "summary": "Recent growth in compute power has made it increasingly feasible to use large-scale agent-based models to simulate complex adaptive systems. A central difficulty is that such models contain many local rules and parameters, where small changes can lead to runaway behaviour, population collapse, or saturation at artificial bounds. We study this problem in a continuous predator-prey system where sheep and wolves are active agents with local sensing, internal energy, and recurrent neural network-bas",
+      "published": "2026-06-11T17:46:59Z",
+      "authors": [
+        "Corinna Mandl",
+        "Siddharth Chaturvedi",
+        "Marcel van Gerven"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Stable Recovery Manifold: Geometric Principles Governing Recoverability in Continual Learning",
+      "link": "https://arxiv.org/abs/2606.13637v1",
+      "summary": "Catastrophic forgetting is often viewed as the destruction of previously learned knowledge during sequential learning. Building on the Accessibility Collapse framework, we investigate the geometric structure of recoverability in continual learning. Using Split CIFAR-100 and a sequentially trained ResNet-18, we analyze recoverability, representational drift, and recovery complexity across ten tasks. We introduce Recovery Subspace Dimensionality (k_t), a measure of the minimum number of singular d",
+      "published": "2026-06-11T17:45:41Z",
+      "authors": [
+        "Ayushman Trivedi",
+        "Bhavika Melwani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Operads for compositional reasoning in LLMs",
+      "link": "https://arxiv.org/abs/2606.13634v1",
+      "summary": "Question decomposition, i.e. breaking a complex query into simpler sub-queries whose answers are composed to produce a final answer, is a widely used strategy for improving LLM reasoning, yet it currently lacks a rigorous mathematical foundation. In this paper, we propose operads, mathematical structures that model many-in, one-out operations and compositions thereof, as a natural framework for describing question decomposition. We define the questions operad $Q$, in which operations correspond ",
+      "published": "2026-06-11T17:44:15Z",
+      "authors": [
+        "Nathaniel Bottman",
+        "Kyle Richardson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Aerial Wildfire Suppression Planning with a Hybrid CNN-Cellular Automata Fire Model",
+      "link": "https://arxiv.org/abs/2606.13633v1",
+      "summary": "Aerial wildfire suppression requires not only predicting fire spread, but also designing effective intervention strategies under operational and environmental uncertainty. We present a modeling and optimization framework for aerial wildfire suppression that combines a hybrid neural-cellular automaton wildfire model with gradient-based design of targeted aerial drops. The wildfire model predicts spatially varying spread behavior from terrain, fuel, and wind data, while the intervention module det",
+      "published": "2026-06-11T17:42:34Z",
+      "authors": [
+        "Ion Matei",
+        "Maksym Zhenirovskyy",
+        "Takuya Kurihana",
+        "Rohit Vupala",
+        "Anthony Wong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation",
+      "link": "https://arxiv.org/abs/2606.13630v1",
+      "summary": "The choice of speech representation is critical in speech-driven 3D facial animation. Representations differ in what they encode: SSL features emphasize segmental and semantic cues, neural codecs yield latents optimized for acoustic reconstruction, and ASR-style objectives produce label-based spaces. We evaluate four speech representation families for 3D facial synthesis, comparing their facial reconstruction quality across two facial decoders using objective metrics and a perceptual evaluation.",
+      "published": "2026-06-11T17:41:18Z",
+      "authors": [
+        "Pedro Correa",
+        "Olivier Perrotin",
+        "Samir Sadok",
+        "Paula Costa",
+        "Thomas Hueber"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Valid Inference with Synthetic Data via Task Exchangeability",
+      "link": "https://arxiv.org/abs/2606.13629v1",
+      "summary": "There is a proliferation of work arguing for the use of synthetic data in scientific research. For example, social scientists are arguing for the use of LLM-generated \"silicon samples\" in pilot studies; AI evaluations increasingly rely on \"LLM-as-a-judge\" outputs; and proteomics research is accelerated by generative models that produce synthetic protein structures. These developments raise an intriguing possibility: synthetic data may help researchers ask more questions, run more studies, and ac",
+      "published": "2026-06-11T17:41:09Z",
+      "authors": [
+        "Lezhi Tan",
+        "Tijana Zrnic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A near-quadratic lower bound on the border determinantal complexity of $\\sum_i x_i^n$ via conormal specialization",
+      "link": "https://arxiv.org/abs/2606.13628v1",
+      "summary": "The border determinantal complexity $\\dcb(f)$ of a polynomial $f$ is the least $m$ such that $f$ is a limit of determinants of $m\\times m$ matrices of affine-linear forms. We prove that for every $n\\ge3$, over $\\CC$, \\[   \\dcb\\Big(\\sum_{i=1}^n x_i^n\\Big)\\ \\ge\\ \\frac{(n-1)^2}{4e},   \\qquad   \\sdcb\\Big(\\sum_{i=1}^n x_i^n\\Big)\\ \\ge\\ \\frac{(n-1)^2}{2e} \\] in the ordinary and symmetric models respectively; both match the known $O(n^2)$ upper bounds up to the constant. To our knowledge these are the f",
+      "published": "2026-06-11T17:40:51Z",
+      "authors": [
+        "Karthik Sheshadri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generative Modeling of Bach-Style Symbolic Music: A Comparative Study of Autoregressive, Latent-Variable, and Adversarial Approaches",
+      "link": "https://arxiv.org/abs/2606.13626v1",
+      "summary": "We study generative modeling of Bach-style symbolic piano music using a shared MIDI corpus and three model families: autoregressive LSTMs with attention, latent-variable models including recurrent VAEs and vector-quantized VAEs, and generative adversarial networks. We compare their ability to model polyphonic note sequences, learn useful latent representations, and generate stylistically coherent compositions. Our experiments show that the autoregressive LSTM with attention produces the most mus",
+      "published": "2026-06-11T17:39:55Z",
+      "authors": [
+        "Kyuil Lee",
+        "Dezhi Yu",
+        "Yongkang Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Uniform Tokens: Adaptive Compression for Time Series Language Models",
+      "link": "https://arxiv.org/abs/2606.13624v1",
+      "summary": "Large language models (LLMs) have enabled time series (TS) analysis by jointly modeling numerical observations and textual context through a shared token interface. However, TS tokens and prompt tokens exhibit fundamentally different information structures, making uniform token processing inefficient. In this paper, we study token efficiency in TS language modeling from an asymmetric-token perspective. We show that TS tokens have highly uneven spectral contributions, where many tokens share redu",
+      "published": "2026-06-11T17:39:26Z",
+      "authors": [
+        "Jialin Gan",
+        "Xin Qiu",
+        "Guangzhe Chen",
+        "Xue Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Finding Conservation Laws of Large Dynamical Systems with Tasks and Futures: A Case Study in Utilizing Dynamic Data Dependencies",
+      "link": "https://arxiv.org/abs/2606.13623v1",
+      "summary": "As parallel workloads grow in complexity, managing fine-grained data dependencies becomes a critical challenge. Futures offer a promising model for handling these dependencies, particularly in irregular algorithms, but they also come with the restriction of value-immutability. This immutability limits the ability to perform in-place memory updates, a necessity for high-performance linear algebra where memory recycling is paramount.   In this paper, we address these limitations by introducing a n",
+      "published": "2026-06-11T17:36:54Z",
+      "authors": [
+        "Rüdiger Nather"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Electric-Field Mapping of Optically Perturbed CdTe Radiation Detectors",
+      "link": "https://arxiv.org/abs/2606.13622v1",
+      "summary": "In radiation detectors, the spatial distribution of the electric field plays a fundamental role in their operation. Access to this field distribution is of strategic importance, especially when investigating the perturbing effects induced by incident radiation. For example, one dangerous effect that prevents their proper operation is the accumulation of internal space charge. Here, we probe the two-dimensional electric field in a Schottky CdTe detector using the Pockels effect and report on its ",
+      "published": "2026-06-11T17:36:26Z",
+      "authors": [
+        "Adriano Cola",
+        "Lorenzo Dominici",
+        "Antonio Valletta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks",
+      "link": "https://arxiv.org/abs/2606.13621v1",
+      "summary": "Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions. We argue this is the wrong product. The same automata-theoretic machinery -- specification compilation, product game construction, attractor computation, and winning-region extraction -- is better read as a design-time analytical instrument whose outputs are structural insights about a system rather than runtime constraints",
+      "published": "2026-06-11T17:35:40Z",
+      "authors": [
+        "Achraf Hsain",
+        "Sultan Almuhammadi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Balancing label resolution and computational cost in dynamical models of lipid metabolism",
+      "link": "https://arxiv.org/abs/2606.13620v1",
+      "summary": "Lipid metabolism is a central biological process that is commonly studied using destructive mass-spectrometry experiments. A recently proposed strategy, uses multiple labels to extract temporal information about lipid metabolism from a single destructive measurement. However, the computational complexity of the model-based data analysis increases rapidly with the number of labels, creating a fundamental trade-off between the information content of the measurements and the cost of analysis. Here,",
+      "published": "2026-06-11T17:34:33Z",
+      "authors": [
+        "Paul Jonas Jost",
+        "Christoph Thiele",
+        "Jan Hasenauer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Split primes and the Elekes-Rónyai problem",
+      "link": "https://arxiv.org/abs/2606.13619v1",
+      "summary": "There exist an absolute constant $c>0$ and arbitrarily large finite sets $A\\subset \\mathbb{R}$ with $$\\left| \\left\\{x+y+(x-y)^2:\\ x, y \\in A\\right\\}\\right| \\le|A|^{2-c}.$$ Since $x+y+(x-y)^2 \\in \\mathbb{R}[x,y]$ is a polynomial which is neither additive nor multiplicative, this provides a counterexample for the Elekes-Rónyai problem.",
+      "published": "2026-06-11T17:31:36Z",
+      "authors": [
+        "Cosmin Pohoata"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Geometric formulation of state-dependent Langevin dynamics using scalar free energy",
+      "link": "https://arxiv.org/abs/2606.13617v1",
+      "summary": "Stochastic dynamics with state-dependent diffusion are widely used for Brownian motion in confined, anisotropic, and hydrodynamically coupled systems. The conventional Langevin formulation includes a spurious drift associated with multiplicative noise, but its free energy generally does not transform as a scalar, meaning that the covariance is not explicit. Here, we formulate a geometrically consistent Langevin equation by introducing a scalar free energy and using the diffusion tensor as a metr",
+      "published": "2026-06-11T17:29:55Z",
+      "authors": [
+        "Kento Yasuda",
+        "Zhongqiang Xiong",
+        "Zhanglin Hou",
+        "Kenta Ishimoto",
+        "Xinpeng Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data-driven subsampling rates for diffusion parameter estimation of SDEs",
+      "link": "https://arxiv.org/abs/2606.13615v1",
+      "summary": "We study the problem of diffusion parameter estimation for stochastic differential equation (SDE) models in scenarios where data and model are compatible only on specific scales that have yet to be determined. We introduce a simple and efficient method for selecting suitable rates at which given time series data should be subsampled in order to ensure that the statistical structure of the subsampled data is consistent with the behavior of the SDE model on an infinitesimal scale. Our approach is ",
+      "published": "2026-06-11T17:27:03Z",
+      "authors": [
+        "Felix Lindner",
+        "Andre Schmeißer",
+        "Felipe Trolldenier",
+        "Raimund Wegener"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cosmological Dynamics of the Thermal Scalar Near the Hagedorn Temperature",
+      "link": "https://arxiv.org/abs/2606.13611v1",
+      "summary": "We study the cosmological dynamics of the thermal scalar the winding string mode that becomes massless at the Hagedorn transition by coupling it to the string-frame gravi dilaton effective action. This provides a field-theoretic framework for investigating winding mode dynamics near the Hagedorn temperature and their role in string cosmology.   Below the Hagedorn temperature, the phase space contains static configurations in which the thermal scalar balances the shifted dilaton evolution. These ",
+      "published": "2026-06-11T17:24:53Z",
+      "authors": [
+        "Arnab Pradhan",
+        "Luis Rufino",
+        "Scott Watson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in Generative Recommenders",
+      "link": "https://arxiv.org/abs/2606.13610v1",
+      "summary": "Search-augmented LLMs increasingly mediate everyday consumer recommendations by retrieving live web content. This creates a new risk: generative recommenders may consume polluted web content, such as fake reviews and promotional pages crafted to mislead recommendations. We ask: to what extent do search-augmented LLMs become unwitting promoters of fake products when consuming polluted retrieval results? To answer this, we introduce FORGE (Fake Online Recommendations in Generative Environments), a",
+      "published": "2026-06-11T17:24:14Z",
+      "authors": [
+        "Minghao Luo",
+        "Liang Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility",
+      "link": "https://arxiv.org/abs/2606.13608v1",
+      "summary": "Agent systems are advancing quickly across domains, but their evaluation remains fragmented. Most benchmarks rely on fixed, LLM-centric harnesses that require heavy integration, create test-production mismatch, and limit fair comparison across diverse agent designs. The root problem is the lack of an open, agent-agnostic assessment interface. We advocate Agentified Agent Assessment (AAA), where evaluation is performed by judge agents and all participants interact through standardized protocols: ",
+      "published": "2026-06-11T17:23:54Z",
+      "authors": [
+        "Xiaoyuan Liu",
+        "Jianhong Tu",
+        "Yuqi Chen",
+        "Siyuan Xie",
+        "Sihan Ren"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reasoning as Pattern Matching: Shared Mechanisms in Human and LLM Everyday Reasoning",
+      "link": "https://arxiv.org/abs/2606.13607v1",
+      "summary": "When large language models (LLMs) fail to generalize or make haphazard errors in reasoning, it is often taken as evidence that LLMs are not truly reasoning, but rather performing a kind of pattern matching. The implication is that people's behavior does not exhibit the same types of failures because human reasoning uses principled and abstract world models. We evaluate human participants and 25 LLMs on their ability to engage in common-sense reasoning about a variety of everyday situations and o",
+      "published": "2026-06-11T17:23:10Z",
+      "authors": [
+        "Zach Studdiford",
+        "Gary Lupyan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch",
+      "link": "https://arxiv.org/abs/2606.13604v1",
+      "summary": "Dispatch in three-sided marketplaces provides a natural setting for reinforcement learning from world feedback: decisions are evaluated by delayed operational outcomes such as delivery speed, courier utilization, and merchant congestion. We present a deployed reinforcement learning system at DoorDash that adapts dispatch objective weights in a large-scale food-delivery marketplace using delayed signals. Rather than replacing the combinatorial assignment optimizer, a store-level policy learned fr",
+      "published": "2026-06-11T17:21:20Z",
+      "authors": [
+        "Haochen Wu",
+        "Yi Hou",
+        "Shiguang Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond the Commitment Boundary: Probing Epiphenomenal Chain-of-Thought in Large Reasoning Models",
+      "link": "https://arxiv.org/abs/2606.13603v1",
+      "summary": "Chain-of-thought (CoT) reasoning is the dominant paradigm for inference-time scaling in language models, yet the causal influence of individual steps on the final answer poorly understood. We estimate each step's causal importance via early exit and use this measure to study how answers form across the reasoning traces of several model families. Across diverse tasks, we find that reasoning typically crosses a \\emph{commitment boundary} -- a sharp transition from transient intermediate guesses to",
+      "published": "2026-06-11T17:21:16Z",
+      "authors": [
+        "Daniel Scalena",
+        "Sara Candussio",
+        "Luca Bortolussi",
+        "Elisabetta Fersini",
+        "Malvina Nissim"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
