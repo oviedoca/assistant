@@ -1,0 +1,643 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Superconductivity from interband coupling to ferroelectric quantum critical fluctuations in two dimensions",
+      "link": "https://arxiv.org/abs/2606.18251v1",
+      "summary": "Soft critical fluctuations associated with ferroelectric quantum phase transitions are typically transverse owing to their polar nature. This implies that the conventional density--density electron--phonon coupling to these modes is strongly suppressed, which is puzzling as a variety of materials exhibit enhanced superconductivity in the vicinity of ferroelectricity. An alternative coupling mechanism is an interband ``Stark''-like coupling that connects bands of opposite parity. In the limit whe",
+      "published": "2026-06-16T17:59:55Z",
+      "authors": [
+        "Sudip Kumar Saha",
+        "Jonathan Ruhman",
+        "Avraham Klein"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion",
+      "link": "https://arxiv.org/abs/2606.18250v1",
+      "summary": "Forecasting the evolution of dynamic environments is crucial for autonomous agents. While generative world models have recently achieved high photorealism in 2D video synthesis by mixing ego-motion and environmental dynamics within the image plane, they exhibit physical inconsistencies, such as morphing or vanishing objects, especially over long time horizons. In this paper, we propose FR3D, a world model that predicts a persistent 3D latent representation for future dynamic 3D reconstruction. U",
+      "published": "2026-06-16T17:59:46Z",
+      "authors": [
+        "Nils Morbitzer",
+        "Jonathan Evers",
+        "Artem Savkin",
+        "Thomas Stauner",
+        "Nassir Navab"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+      "link": "https://arxiv.org/abs/2606.18249v1",
+      "summary": "Unified Multimodal Modeling aims to integrate visual understanding and generation within a single system. However, existing approaches typically rely on two disparate visual tokenizers, which splits the representation space and hinders truly unified modeling. We propose UniAR, a unified autoregressive framework where a single discrete visual tokenizer serves as the key bridge between understanding and generation, enabling a shared context in which the model can directly interpret its own generat",
+      "published": "2026-06-16T17:59:22Z",
+      "authors": [
+        "Wujian Peng",
+        "Lingchen Meng",
+        "Yuxuan Cai",
+        "Xianwei Zhuang",
+        "Yuhuan Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Variable-Width Transformers",
+      "link": "https://arxiv.org/abs/2606.18246v1",
+      "summary": "Scaling model size, specifically depth and width, has driven significant progress in transformer-based language models. However, most architectures maintain a constant width across all layers, allocating a fixed parameter and computation budget evenly despite different layers potentially playing distinct computational roles. In this work, we empirically investigate nonuniform capacity allocation across network depth by proposing a $\\times$-shaped > <former architecture. This design maintains wid",
+      "published": "2026-06-16T17:59:03Z",
+      "authors": [
+        "Zhaofeng Wu",
+        "Oliver Sieberling",
+        "Shawn Tan",
+        "Rameswar Panda",
+        "Yury Polyanskiy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PAHSPECS: Spatially Resolved PAH Spectroscopy at cosmic noon with JWST MIRI MRS",
+      "link": "https://arxiv.org/abs/2606.18244v1",
+      "summary": "We present spatially resolved spectroscopy with JWST/MIRI MRS of a representative sample of normal star-forming galaxies at $z\\sim1.1$ as part of the PAHSPECS program. To extract emission from Polycyclic Aromatic Hydrocarbon (PAH) features, we forward model the data cubes with non-parametric spatial distributions, accounting for convolution with the PSF. With this method we are able to recover accurate spatial profiles of the 3.3 $μ$m, 6.2 $μ$m, 7.7 $μ$m, 11.3 $μ$m PAHs and [ArII] (6.98 $μ$m) em",
+      "published": "2026-06-16T17:58:59Z",
+      "authors": [
+        "Fergus R. Donnan",
+        "Karin Sandstrom",
+        "Irene Shivaei",
+        "Leindert A. Boogaard",
+        "Tanio Díaz-Santos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MOCHI: Motion Enhancement of Collaborative Human-object Interactions",
+      "link": "https://arxiv.org/abs/2606.18243v1",
+      "summary": "Collaborative human-object interaction shows dynamic and complex movements that require mutual anticipation and continuous adjustment between participants and the shared object. Modeling such collaborative multi-human object interaction (MHOI) scenarios requires high-quality data acquisition as a foundational step; however, this is challenging due to the inherent complexity of MHOI where human-human and human-object interactions occur simultaneously. Such complexity leads to noisy MHOI captures ",
+      "published": "2026-06-16T17:58:44Z",
+      "authors": [
+        "Jiye Lee",
+        "Yonghun Choi",
+        "Jungdam Won"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
+      "link": "https://arxiv.org/abs/2606.18242v1",
+      "summary": "Event cameras sense the world through asynchronous brightness changes with microsecond latency and high dynamic range, offering motion fidelity far beyond frame-based sensors and capturing temporal structure that conventional exposures often miss. These properties make events a powerful complement to RGB in autonomous driving, especially under blur, glare, and rapid motion, where frame-based perception can become unreliable. However, existing event-aware vision-language models remain limited to ",
+      "published": "2026-06-16T17:58:40Z",
+      "authors": [
+        "Dongyue Lu",
+        "Rong Li",
+        "Ao Liang",
+        "Lingdong Kong",
+        "Wei Yin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Joint Optimal Search for Gravitational Waves from Resolved and Unresolved Supermassive Binary Black Holes with Pulsar Timing Arrays",
+      "link": "https://arxiv.org/abs/2606.18241v1",
+      "summary": "We introduce, from first principles, a joint model of the gravitational wave background (GWB) and brightest supermassive black hole binary (SMBHB) sources that may be individually resolvable in Pulsar Timing Array (PTA) searches for gravitational waves. We propose the characteristic number of SMBHB sources, $N_{\\rm c}$, as a detection statistic for the astrophysical origin of the GWB. We then demonstrate how the brightest SMBHBs assist in resolving $N_{\\rm c}$. Applying our method to the simulat",
+      "published": "2026-06-16T17:58:37Z",
+      "authors": [
+        "Boris Goncharov",
+        "Gabriela Sato-Polito",
+        "Xiaoming Bi",
+        "Matias Zaldarriaga"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies",
+      "link": "https://arxiv.org/abs/2606.18239v1",
+      "summary": "We present EBench, a simulation benchmark that diagnoses generalist mobile manipulation policies beyond a single success-rate scalar. EBench comprises 26 diverse and challenging manipulation tasks annotated along 5 capability dimensions and 4 generalization dimensions. We evaluate state-of-the-art generalist manipulation models including $π_0$, $π_{0.5}$, XVLA, and InternVLA-A1, and reveal that models with near success rates exhibit strikingly different capability profiles: $π_{0.5}$ achieves th",
+      "published": "2026-06-16T17:58:22Z",
+      "authors": [
+        "Ning Gao",
+        "Jinliang Zheng",
+        "Xing Gao",
+        "Haoxiang Ma",
+        "Hanqing Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues",
+      "link": "https://arxiv.org/abs/2606.18237v1",
+      "summary": "Reproducing research results from papers and released code is central to scientific progress. Existing works have introduced benchmarks to evaluate whether LLM agents can assist with reproducibility, but they are difficult to scale due to their reliance on substantial manual effort for data curation and evaluation. We introduce ReproRepo, a scalable framework for reproducibility evaluation that leverages human-raised GitHub issues as naturally occurring supervision on realistic reproduction bloc",
+      "published": "2026-06-16T17:58:05Z",
+      "authors": [
+        "Shanda Li",
+        "Qiuhong Anna Wei",
+        "Jingwu Tang",
+        "Valerie Chen",
+        "Nihar B Shah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation",
+      "link": "https://arxiv.org/abs/2606.18235v1",
+      "summary": "Zero-Shot Object-Goal Navigation (ZS-OGN) requires embodied agents to explore and locate target objects without any prior training. To this end, recent methods leverage foundation models. But they typically rely on static priors and lack adaptation, which leads to repeated errors and costly trial and error. In this paper, we propose a self-evolving ZS-OGN framework that enables continuous test-time improvement. Specifically, we build an agentic rule memory by extracting actionable knowledge from",
+      "published": "2026-06-16T17:56:57Z",
+      "authors": [
+        "Qi Chai",
+        "Wenhao Shen",
+        "Nanjie Yao",
+        "Yue Xia",
+        "Kaiyong Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Twist-3 contributions to $γγ\\toπ^0π^0,\\,K_S^0K_S^0$ in $k_T$ factorization",
+      "link": "https://arxiv.org/abs/2606.18233v1",
+      "summary": "We compute the cross sections for the two-photon processes $γγ\\toπ^0π^0$ and $γγ\\to K_S^0K_S^0$ in $k_T$ factorization, including the chirally enhanced two-parton twist-3 light-cone distribution amplitudes. For these charge-suppressed neutral channels the twist-3 cross sections exceed the twist-2 ones by close to an order of magnitude in the intermediate-energy region, bringing the predictions much closer to the Belle data, the residual underestimate being plausibly attributable to higher-order ",
+      "published": "2026-06-16T17:56:13Z",
+      "authors": [
+        "Jun-Kang He",
+        "Cong Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
+      "link": "https://arxiv.org/abs/2606.18231v1",
+      "summary": "Accurate mechanical properties (or materials) Young's modulus ($E$), Poisson's ratio ($ν$) and density ($ρ$) are essential for reliable physics simulation of digital worlds, but most 3D assets lack this information. We propose AdaVoMP, a method for predicting accurate dense spatially-varying ($E$, $ν$, $ρ$) for input 3D objects across representations, improving the resolution, accuracy, and memory efficiency over the state-of-the-art. The foundation of our technique is a sparse and adaptive voxe",
+      "published": "2026-06-16T17:56:03Z",
+      "authors": [
+        "Rishit Dagli",
+        "Donglai Xiang",
+        "Vismay Modi",
+        "Xuning Yang",
+        "Gavriel State"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PAHSPECS: Polycyclic aromatic hydrocarbon properties at cosmic noon with JWST/MIRI MRS",
+      "link": "https://arxiv.org/abs/2606.18230v1",
+      "summary": "Context. Cosmic noon (z ~ 1-3) marks the peak of the cosmic star-formation rate density, when dust-obscured star formation dominated galaxy growth. Mid-infrared spectroscopy probes the interstellar medium through PAH emission, whose band ratios trace PAH charge, size, and local radiation-field conditions. Aims. We characterize the PAH properties of five z ~ 1.1 star-forming galaxies from the PAHSPECS survey and investigate how their PAH luminosities and band ratios relate to global galaxy proper",
+      "published": "2026-06-16T17:55:05Z",
+      "authors": [
+        "Cristina Maria Lofaro",
+        "Tanio Díaz Santos",
+        "Irene Shivaei",
+        "Leindert A. Boogaard",
+        "Karin Sandstrom"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An extreme ram-pressure stripping event in a protocluster at redshift 4.3",
+      "link": "https://arxiv.org/abs/2606.18229v1",
+      "summary": "In the nearby Universe, the environment plays a crucial role in suppressing star formation in dense regions. In particular, ram-pressure stripping (RPS) is a major mechanism for removing gas from galaxies in clusters, occurring when galaxies travel through a dense hot atmosphere and leave trailing gaseous wakes. By depleting the cold gas reservoir, RPS can drive outside-in quenching and is therefore thought to be an important route for transforming cluster galaxies. At earlier times, however, pr",
+      "published": "2026-06-16T17:55:03Z",
+      "authors": [
+        "Dazhi Zhou",
+        "Scott C. Chapman",
+        "Manuel Aravena",
+        "Roger Deane",
+        "Anthony H. Gonzalez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MAJIC: Leveraging Articulatory Motion for Speech-based Emotion Recognition",
+      "link": "https://arxiv.org/abs/2606.18228v1",
+      "summary": "We introduce MAJIC, a multimodal emotion recognition system that leverages articulatory motion of the jaw and facial muscles for speech-based emotion recognition (SER). While most SER systems perform well on datasets with strongly expressed emotional speech of trained actors, their performance often degrades when emotional expressions become more subtle. We explore this challenge by engineering features from articulatory motion and integrating them with audio features using a multi-task learning",
+      "published": "2026-06-16T17:53:34Z",
+      "authors": [
+        "Tanmay Srivastava",
+        "Paras Bhavnani",
+        "Benjir Alvee Islam",
+        "Shubham Jain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Field-level vs summaries: convergence of information in non-Gaussian density fields",
+      "link": "https://arxiv.org/abs/2606.18227v1",
+      "summary": "We elucidate the sources of information gain in weakly non-Gaussian cosmological fields at the field- vs. summary-statistic-level in a controlled setting. Specifically, we compare field-level inference (FLI) with the standard power spectrum plus bispectrum (P${+}$B), and a family of composite-operator correlators (OCs) built from auto- and cross-spectra of local powers of the galaxy density field. The forward model is a linear density field with a single local quadratic coupling $λ$ and Gaussian",
+      "published": "2026-06-16T17:53:06Z",
+      "authors": [
+        "Ivana Nikolac",
+        "Fabian Schmidt",
+        "Beatriz Tucci"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Strategies for preventing and reversing polarized online discourse",
+      "link": "https://arxiv.org/abs/2606.18226v1",
+      "summary": "Political polarization poses a variety of challenges for modern democracies. Entrenched disagreements on policy can prevent constructive discourse and compromise, and high levels of affective polarization threaten to undermine social cohesion and support for institutions. Finding ways to promote constructive discourse while maintaining free expression has proved a challenge for social media platforms, media outlets and policy makers alike. Here we develop a computational model -- based in psycho",
+      "published": "2026-06-16T17:52:19Z",
+      "authors": [
+        "Leon Klingborg",
+        "Kenneth Mavor",
+        "Alexander J. Stewart"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Coherent effects in quantum transport models and their classical counterparts",
+      "link": "https://arxiv.org/abs/2606.18224v1",
+      "summary": "We analyze the transport properties of quasiparticles locally excited at an initial time moment in several exactly solvable quantum models. It is revealed that, in the investigated quantum systems, the time-dependent probability distribution function (PDF) exhibits behavior similar to that of classical continuous-time random walk (CTRW) models, such as Lévy walks or diffusing diffusivity.",
+      "published": "2026-06-16T17:51:38Z",
+      "authors": [
+        "N. S. Maslova",
+        "V. N. Mantsevich",
+        "I. M. Sokolov",
+        "P. I. Arseyev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Darshana Graph: A Parallel Commentary Corpus for Comparative Indian Philosophy, with Stylometric and Exploratory Graph Analyses",
+      "link": "https://arxiv.org/abs/2606.18222v1",
+      "summary": "We introduce Darshana Graph, a corpus of over 125,000 text records spanning classical Hindu, Buddhist, and Jain philosophical traditions, drawn from public-domain and openly licensed translations of sources including the Bhagavad Gita, Brahma Sutras, principal Upanishads, the Pali Canon, and core Jain texts. Its distinctive contribution lies in a structurally unique subset of roughly 8,500 Hindu and Jain records in which the same root verse or sutra is aligned across eighteen historical commenta",
+      "published": "2026-06-16T17:49:15Z",
+      "authors": [
+        "Joy Bose"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LGNO: A Local-Global Neural Operator for Hyperbolic Conservation Laws",
+      "link": "https://arxiv.org/abs/2606.18221v1",
+      "summary": "Solutions of hyperbolic conservation laws exhibit both smooth structures across large scales and sharp localized features such as shocks and contact discontinuities, making them difficult to approximate accurately with existing neural operators. The Fourier Neural Operator (FNO) captures long-range interactions well but tends to smear localized structures through excessive numerical dissipation. To address this, we propose a Local-Global Neural Operator (LGNO) that learns a one-step discrete flo",
+      "published": "2026-06-16T17:49:09Z",
+      "authors": [
+        "Hao Wang",
+        "Chi-Wang Shu",
+        "Qi Tang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ice Giants Revisited: Uranus and Neptune as Magma Ocean Worlds",
+      "link": "https://arxiv.org/abs/2606.18219v1",
+      "summary": "Uranus and Neptune are commonly interpreted as volatile-rich \"ice giants\", an assumption that underpins most interior models. Here we show that their observed radii, bulk densities, gravitational harmonics, normalized moments of inertia, intrinsic luminosities, and key features of their atmospheric compositions are consistent with interiors comprising supercritical, hydrogen-rich magma oceans overlain by H2-rich envelopes. Our results, based on three fit parameters for each planet, provide a par",
+      "published": "2026-06-16T17:48:23Z",
+      "authors": [
+        "Edward D. Young",
+        "Sarah P. Marcum",
+        "Aaron Werlen",
+        "Paula N. Wulff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Finite-Time Queue Peak Laws in Stochastic Networks: Logarithmic Scaling After Geometric Thresholds",
+      "link": "https://arxiv.org/abs/2606.18218v1",
+      "summary": "We study finite-horizon queue peaks in generalized switches, a standard stochastic-network model in which many queues share constrained service resources. Arrivals may be dependent, time-varying, and adapted to the past; the standing load condition is uniform interior slack, meaning the conditional mean arrival vector stays in a fixed contraction of the capacity region. We show that this slack reshapes the finite-time peak law for drift-minimizing scheduling policies such as MaxWeight. The squar",
+      "published": "2026-06-16T17:47:47Z",
+      "authors": [
+        "Hao Liang",
+        "Cheng Tang",
+        "Yunzong Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+      "link": "https://arxiv.org/abs/2606.18216v1",
+      "summary": "Knowledge distillation transfers a teacher's competence to a small student but is brittle in the small-student regime: forcing the student to imitate logits from a much larger teacher concentrates it on the teacher's sharpest modes, hurting generalization on benchmark families beyond the training corpus. Reinforcement learning (RL) avoids logit imitation by training on the student's own rollouts. However, on questions where every rollout fails-yielding zero advantage and being silently discarded",
+      "published": "2026-06-16T17:46:02Z",
+      "authors": [
+        "Byung-Kwan Lee",
+        "Ximing Lu",
+        "Shizhe Diao",
+        "Minki Kang",
+        "Saurav Muralidharan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A benchmark suite of intracellular Boolean model variants and multiscale simulations for computational biology",
+      "link": "https://arxiv.org/abs/2606.18215v1",
+      "summary": "We present PhysiBench, an open resource for developing and evaluating computational methods in systems biology including a benchmark suite of 612 executable intracellular Boolean regulatory network variants and a dataset of 120,000 time-resolved multiscale stochastic simulations. The benchmark models are derived from seven published Boolean networks spanning cell-cycle control, developmental patterning, cancer signaling, immune response, and cell-fate decisions, and are executable in the PhysiBo",
+      "published": "2026-06-16T17:45:05Z",
+      "authors": [
+        "Marco Masera",
+        "Riccardo Smeriglio",
+        "Roberta Bardini",
+        "Alessandro Savino",
+        "Stefano Di Carlo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking Dataset Distillation for Classification: Do Distilled Sets Outperform Coresets?",
+      "link": "https://arxiv.org/abs/2606.18209v1",
+      "summary": "Dataset distillation (DD) has emerged as a prominent approach in data centric machine learning, aiming to synthesize compact training sets for efficient training by compressing the information in large datasets into a small number of synthetic samples. However, DD methods are often evaluated under inconsistent evaluation protocols, ranging from standard ERM to single/multi-teacher supervision, making it difficult to isolate the effectiveness of distilled data from evaluation. Moreover, many prio",
+      "published": "2026-06-16T17:37:49Z",
+      "authors": [
+        "Trisha Mittal",
+        "Akshay Mehra",
+        "Joshua Kimball"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Looped World Models",
+      "link": "https://arxiv.org/abs/2606.18208v1",
+      "summary": "Current world models face a fundamental tension: faithful long-horizon simulation demands deep computation, but deeper models are expensive to deploy and prone to compounding errors. We resolve this by introducing Looped World Models (LoopWM), which are the first looped architectures for world modelling. Our method iteratively refines latent environment states through a parameter-shared transformer block. This yield up to 100x parameter efficiency over conventional approaches with adaptive compu",
+      "published": "2026-06-16T17:37:27Z",
+      "authors": [
+        "Hongyuan Adam Lu",
+        "Z. L. Victor Wei",
+        "Qun Zhang",
+        "Jinrui Zeng",
+        "Bowen Cao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+      "link": "https://arxiv.org/abs/2606.18206v1",
+      "summary": "Looped architectures provide an inductive bias toward learning step-by-step procedures for tasks that require compositional reasoning. The number of effective layers reached by looping determines the quality of the solution these models find. Like deep architectures, looped architectures are prone to a signal propagation problem induced by depth as the halting decision is postponed. In this paper, we address this signal propagation issue using pre-norm layers and residual scaling. Building on th",
+      "published": "2026-06-16T17:36:33Z",
+      "authors": [
+        "Sajad Movahedi",
+        "Vera Milovanović",
+        "Shlomo Libo Feigin",
+        "Alexander Theus",
+        "Thomas Hofmann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analyzing and Encoding the Al-Mawrid Arabic-English Dictionary with the ISO Language Markup Framework and TEI Lex-0",
+      "link": "https://arxiv.org/abs/2606.18205v1",
+      "summary": "This paper presents a robust methodology for the systematic digitization and encoding of the Al-Mawrid Arabic-English dictionary, transforming it from a legacy print resource into a standardized computational lexicon. Addressing a significant gap in Arabic lexical infrastructure, the study adopts a dual-standard framing that aligns the ISO Lexical Markup Framework (LMF) with the Text Encoding Initiative TEI Lex-0 guidelines. By applying an editorial view to the dictionary's macro- and microstruc",
+      "published": "2026-06-16T17:35:11Z",
+      "authors": [
+        "Diaa Fayed",
+        "Laurent Romary"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cartan subalgebras in self-similar graph $C^*$-algebras",
+      "link": "https://arxiv.org/abs/2606.18204v1",
+      "summary": "For a self-similar graph $(G, E)$, we find a distinguished subgroupoid of the associated path groupoid $\\mathcal{G}_{G,E}$ -- the symmetric cycline subgroupoid $\\mathcal{S}_{\\text{sym}}$. If the acting group $G$ is abelian, we show that $\\mathcal{S}_{\\text{sym}}$ is open, abelian, and normal. For $G=\\mathbb{Z}$, we describe the dual bundle $\\hat{\\mathcal{S}}_{\\text{sym}}$ of $\\mathcal{S}_{\\text{sym}}$ which can be used to provide a different groupoid model for the self-similar graph $C^*$-algebr",
+      "published": "2026-06-16T17:35:06Z",
+      "authors": [
+        "Dawn Archey",
+        "Anna Duwenig",
+        "Shanshan Hua",
+        "Kathryn McCormick",
+        "Rachael Norton"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "link": "https://arxiv.org/abs/2606.18203v1",
+      "summary": "The LLM-empowered personal health agents with user health (sensor) metrics have offered a promising pathway to alleviate global disparities in healthcare access. However, large-scale clinical deployment remains constrained by an open-ended evaluation bottleneck: physician annotation is reliable but costly and unscalable, while LLM-as-a-judge evaluators are scalable but subjective, inconsistent, and sometimes clinically misaligned. We introduce RubricsTree, a scalable evaluation framework with an",
+      "published": "2026-06-16T17:34:53Z",
+      "authors": [
+        "Weizhi Zhang",
+        "Zechen Li",
+        "Hamid Palangi",
+        "Ben Graef",
+        "A. Ali Heydari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Diagnostic Software Suite for Auditing Learned PDE Simulators",
+      "link": "https://arxiv.org/abs/2606.18200v1",
+      "summary": "Learned PDE simulators are increasingly used as low-cost replacements for expensive numerical solvers, but standard relative $L^2$ error does not determine whether a learned model behaves as a coherent numerical time propagator. This paper presents a diagnostic software suite for auditing learned PDE simulators as approximate evolution operators. The suite provides architecture-independent, post hoc diagnostics for relative state error, semigroup consistency, finite-difference generator discrepa",
+      "published": "2026-06-16T17:30:25Z",
+      "authors": [
+        "Lennon J. Shikhman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Seeing Is Not Screening: Multimodal Hidden Instruction Attacks on Agent Skill Scanners",
+      "link": "https://arxiv.org/abs/2606.18198v1",
+      "summary": "Agent skills are emerging as an important attack surface in LLM-based systems. Through an empirical study of existing skill scanners, we find that current defenses primarily rely on textual descriptions, manifests, and source code as the main signals for security analysis, which can leave visually conveyed malicious intent insufficiently examined. This creates a practical blind spot: harmful operational instructions hidden in images may bypass scanning while still being recoverable by multimodal",
+      "published": "2026-06-16T17:29:11Z",
+      "authors": [
+        "Xiaojun Jia",
+        "Jie Liao",
+        "Simeng Qin",
+        "Ke Ma",
+        "Wenbo Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Sensitivity Framework for Identifying Contagion under Latent Homophily for Fixed-in-Time Network Analyses, with an Application to U.S. House Congressional Voting",
+      "link": "https://arxiv.org/abs/2606.18197v1",
+      "summary": "Whether connected units are similar because influence spreads across ties or because similar units form ties, is a long-standing problem. Contagion or influence is generically unidentified from observational network data. We consider the minimal and common setting of a single network, fixed over time, with two waves of a binary nodal outcome. Rather than positing a parametric model for network formation, we reframe identification of contagion as a selection-bias problem and develop a sensitivity",
+      "published": "2026-06-16T17:26:50Z",
+      "authors": [
+        "Duncan A. Clark"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+      "link": "https://arxiv.org/abs/2606.18195v1",
+      "summary": "On-policy self-distillation (OPSD) has proven effective for post-training large language models (LLMs), yet its application to diffusion LLMs (dLLMs) remains unexplored. Existing OPSD methods are inherently autoregressive-centric. They inject privileged information via left-to-right prefix conditioning with token-level divergence supervision, a design that fundamentally conflicts with the arbitraryorder generation of dLLMs. We introduce d-OPSD, the first OPSD framework tailored for dLLMs. Our ap",
+      "published": "2026-06-16T17:24:57Z",
+      "authors": [
+        "Yifu Luo",
+        "Zeyu Chen",
+        "Haoyu Wang",
+        "Xinhao Hu",
+        "Yuxuan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ergodic Deviation-Robust Equilibrium under Mirror Descent Learning in Finite Games",
+      "link": "https://arxiv.org/abs/2606.18194v1",
+      "summary": "We introduce Ergodic Deviation-Robust Equilibrium (EDRE), a dynamics-relative equilibrium concept for repeated finite games in which agents learn via entropic mirror descent (EMD). EDRE requires three properties to hold simultaneously for the same profile and learning run: (E1) the limit profile is an $\\varepsilon$-Nash equilibrium at a product distribution; (E2) along the entire learning trajectory, every fixed coalition's cumulative aggregate (summed-unilateral) deviation gain is $\\tilde{\\math",
+      "published": "2026-06-16T17:24:14Z",
+      "authors": [
+        "Joshua Steier"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+      "link": "https://arxiv.org/abs/2606.18193v1",
+      "summary": "We evaluate the adversarial robustness of two frontier large language models (LLMs) developed by Anthropic, Fable 5 and Opus 4.8, against four families of automated jailbreak attack across 7 826 harmful intents spanning a ten-category harm taxonomy. Using the HackAgent red-teaming framework, hundreds of thousands of adversarial attempts were generated and every apparent success was independently re-adjudicated by a panel of three judge models (majority vote). Both models resist the majority of a",
+      "published": "2026-06-16T17:23:58Z",
+      "authors": [
+        "Nicola Franco"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Stanford EDGAR Filings Dataset: Reconstructing U.S. Corporate and Financial Disclosures into Layout-Faithful and Token-Efficient Pretraining Data",
+      "link": "https://arxiv.org/abs/2606.18192v1",
+      "summary": "As high-quality public web corpora become increasingly exhausted, clean long-context documents have become a scarce and expensive source of training data for large language models (LLMs). Existing long-context corpora are often proprietary and costly to acquire, synthetically generated, or concentrated in narrow domains such as programming. We introduce the Stanford EDGAR Filings Dataset (SEFD), an open reconstruction of SEC filings into layout-faithful MultiMarkdown for financial language model",
+      "published": "2026-06-16T17:22:34Z",
+      "authors": [
+        "Nick Bettencourt",
+        "Xiaowei Ding",
+        "Kay Giesecke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-Source Cybersecurity Logs: An ATT&CK-Labeled Dataset and SLM Evaluation",
+      "link": "https://arxiv.org/abs/2606.18190v1",
+      "summary": "Multi-stage cyberattacks span system, network, and browser logs. Detecting them requires correlating events across all three sources. Machine learning methods can learn these cross-source patterns, but they need labeled multi-source data. Existing public datasets fall short. Network-only datasets such as CICIDS and UNSW-NB15 miss host and browser activity. Host-focused datasets such as LMDG and CICAPT-IIoT lack browser telemetry. ATLAS includes all three sources but labels events only as malicio",
+      "published": "2026-06-16T17:21:58Z",
+      "authors": [
+        "Abir Ashab Niloy",
+        "Ahmed Ryan",
+        "Imamul Hossain Rafi",
+        "Md Erfan",
+        "Md Rayhanur Rahman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Failure Recovery: An Engagement-Aware Human-in-the-loop Framework for Robotic Systems",
+      "link": "https://arxiv.org/abs/2606.18189v1",
+      "summary": "Conventional human-in-the-loop approaches typically involve users only when a robot encounters failure or uncertainty, treating humans primarily as tools for improving robot performance. However, in many human-centered robotics settings, interaction should support engagement by keeping users involved in decision-making rather than limiting them to failure-driven interventions. This is particularly compelling in physical caregiving, where mobility limitations can reduce users' ability to interven",
+      "published": "2026-06-16T17:21:43Z",
+      "authors": [
+        "Jiaying Fang",
+        "Joyce Yang",
+        "Zhanxin Wu",
+        "Bohan Yang",
+        "Tapomayukh Bhattacharjee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Group Commit Self-Clocks: Why Tuning Is Unnecessary Above a Device-Set Load Threshold",
+      "link": "https://arxiv.org/abs/2606.18187v1",
+      "summary": "Group commit amortizes the fixed cost of a durable log flush across many committing transactions; the release rule - a timer, a batch size, or an adaptive policy - is a classic tuning knob. The textbook theory is open-loop: for Poisson arrivals the optimal timer is the EOQ square-root rule, and the wait-or-flush decision is ski-rental 2-competitive. We ask when that tuning is worth its machinery, and show that in closed-loop OLTP it usually is not. Real commit arrivals are closed-loop: a client ",
+      "published": "2026-06-16T17:19:06Z",
+      "authors": [
+        "Madhulatha Mandarapu",
+        "Sandeep Kunkunuru"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Kolmogorov Regression for Robust Diffusion Policies",
+      "link": "https://arxiv.org/abs/2606.18186v1",
+      "summary": "Finite-dimensional (FD) diffusion policies exhibit temporal drift owing to discretization artifacts that degrade long-horizon performance (when deployed on physical systems). We introduce a backward Kolmogorov equation that lifts diffusion policies to a Cameron-Martin space -- a subset of the Hilbert space. Essentially, replacing stochastic score matching with a deterministic boundary-value PDE problem. Our core innovation thrives on Gaussian measure theory whereupon the diffusion noise covarian",
+      "published": "2026-06-16T17:18:54Z",
+      "authors": [
+        "Lekan Molu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Encoder-Transformer Architecture for Recognition of the Jordan Structure of a Matrix",
+      "link": "https://arxiv.org/abs/2606.18185v1",
+      "summary": "We propose a machine-learning framework for detecting whether a given matrix is a perturbation of a matrix with a large Jordan block. The proposed model achieves high classification accuracy on synthetically generated, robustly perturbed data and outperforms a classical numerical baseline. Moreover, we demonstrate that the learned model generalizes to several classes of matrices not seen during training. These results suggest that the architecture captures structural properties associated with m",
+      "published": "2026-06-16T17:17:23Z",
+      "authors": [
+        "Michał Trojanowski",
+        "Michał Wojtylak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Plane Waves: Coherent Network Response to Collimated Gravitational-Wave Wavepackets",
+      "link": "https://arxiv.org/abs/2606.18184v1",
+      "summary": "We present a paraxial wavepacket model for collimated gravitational-wave bursts and derive the coherent response of detector networks to these structured signals. For current LIGO-Virgo baselines, analytic mismatch estimates and overlaps show that PWM waveforms are effectively indistinguishable from standard sine-Gaussian bursts, validating the plane-wave approximation. We then identify a regime relevant to third-generation networks in which finite transverse structure produces non-negligible ge",
+      "published": "2026-06-16T17:17:06Z",
+      "authors": [
+        "S. D. Campos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise",
+      "link": "https://arxiv.org/abs/2606.18183v1",
+      "summary": "Temporal difference (TD) learning with linear function approximation is a core method for policy evaluation. Its classical continuous-time description is an ordinary differential equation (ODE), which captures the asymptotic mean dynamics but neglects stochastic fluctuations determining the error floor. We introduce a stochastic differential equation (SDE) approximation for linear TD(0) under Markovian noise. The resulting model distinguishes the contraction dynamics governed by the projected Be",
+      "published": "2026-06-16T17:16:52Z",
+      "authors": [
+        "M. Forzo",
+        "E. Monzio Compagnoni",
+        "A. Russo",
+        "A. Pacchiano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "IUU+DB: Tracking Illegal, Unreported, and Unregulated Fishing, Seafood Fraud, and Labor Abuse through LLM-driven Information Extraction",
+      "link": "https://arxiv.org/abs/2606.18181v1",
+      "summary": "Illegal, unreported, and unregulated fishing (IUU) traditionally refers to fishing activities that violate applicable laws or occur in areas that lack applicable laws. We propose the term IUU+ to capture a broader suite of fisheries sector environmental and associated supply chain trade-related crimes and behaviors. Although IUU+ activity is widely recognized as a serious threat to marine ecosystems, markets, and livelihoods, a quantitative understanding of these incidents, e.g., their frequency",
+      "published": "2026-06-16T17:16:05Z",
+      "authors": [
+        "Henry Bodwell",
+        "Hong Yang",
+        "John C. Simeone",
+        "Kelvin Gorospe",
+        "Bella Sullivan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EgoCS-400K: An Egocentric Gameplay Dataset for World Models",
+      "link": "https://arxiv.org/abs/2606.18180v1",
+      "summary": "The shift from video generation to interactive world modeling places new demands on data: beyond captioned videos, world models require temporally aligned video-action-language trajectories grounded in the actions, camera motion, states, and events that drive future scene changes. However, such data is difficult to obtain at scale. Web video datasets offer broad visual coverage but lack executable actions and reliable states; robotic datasets provide action and state supervision but are costly a",
+      "published": "2026-06-16T17:13:58Z",
+      "authors": [
+        "Rongjin Guo",
+        "Dong Liang",
+        "Yuhao Liu",
+        "Fang Liu",
+        "Tianyu Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resolving the smallest scales of massive star formation: A case for next-generation thermal-infrared interferometers",
+      "link": "https://arxiv.org/abs/2606.18178v1",
+      "summary": "This white paper was submitted to the European Southern Observatory (ESO) as part of the \"Expanding horizons: transforming astronomy in the 2040s\" call. Understanding how massive stars assemble their mass is a major astrophysical challenge, primarily because the critical accretion, ejection, and fragmentation processes occurring within the innermost 100 au remain largely inaccessible. Current facilities, such as ALMA and near-infrared interferometers, either lack the resolution to probe the comp",
+      "published": "2026-06-16T17:12:02Z",
+      "authors": [
+        "Emma Bordier",
+        "Evgenia Koumpia",
+        "Lucas Labadie",
+        "Joel Sanchez-Bermudez",
+        "Alvaro Sanchez-Monge"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Multipath Reliable Connection (MRC) Transport",
+      "link": "https://arxiv.org/abs/2606.18170v1",
+      "summary": "MRC is an open, production-grade transport designed for large-scale AI/ML training over best-effort Ethernet. It extends RoCEv2 with explicit, composable primitives for per-packet multipath and sender-based congestion control, decouples packet delivery from semantic processing, adds multiple new capabilities for accelerated packet-loss recovery and adds resilience against port and path failures. This paper presents MRC and details its core capabilities and mechanisms.",
+      "published": "2026-06-16T17:07:00Z",
+      "authors": [
+        "Rip Sohan",
+        "Eric Spada",
+        "Eric Davis",
+        "Mark Handley",
+        "Idan Burstein"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+      "link": "https://arxiv.org/abs/2606.18168v1",
+      "summary": "Software practitioners increasingly use AI coding agents that generate test code alongside production code in open source pull requests (PRs). Recent studies report more than 932,000 agent-authored PRs across more than 116,000 repositories, yet whether their test files contain meaningful verification logic remains underexplored. Test files lacking explicit assertions execute code without verifying behavior, so quality gates based on test-file presence overestimate verification strength. The goal",
+      "published": "2026-06-16T17:06:51Z",
+      "authors": [
+        "Dipayan Banik",
+        "Kowshik Chowdhury",
+        "Shazibul Islam Shamim"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
