@@ -1,0 +1,14 @@
+{
+  "source": "huggingface",
+  "article_count": 0,
+  "articles": [
+    {
+      "section": "blog",
+      "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "section": "papers",
+      "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/papers/rss"
+    }
+  ]
+}
