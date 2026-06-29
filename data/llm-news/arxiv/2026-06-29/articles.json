@@ -1,0 +1,629 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "link": "https://arxiv.org/abs/2606.28322v1",
+      "summary": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over 12,000 instance-specific rubrics. These criteria are derived from golden captions constructed via a novel Circular Peer-Review consensus pipeline and then distilled into a dual-stream system of Must-R",
+      "published": "2026-06-26T17:59:15Z",
+      "authors": [
+        "Yana Wei",
+        "Hongbo Peng",
+        "Yanlin Lai",
+        "Liang Zhao",
+        "Kangheng Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views",
+      "link": "https://arxiv.org/abs/2606.28321v1",
+      "summary": "We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is to adopt a structured representation that organizes geometry, semantic, and texture cues with expli",
+      "published": "2026-06-26T17:59:06Z",
+      "authors": [
+        "Jia-Chen Zhao",
+        "Beiqi Chen",
+        "Xinyang Chen",
+        "Guangcong Wang",
+        "Liqiang Nie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
+      "link": "https://arxiv.org/abs/2606.28320v1",
+      "summary": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxies that suffer from label noise, or require costly human annotations to define subtask boundaries. We present WARP (Warp-Augmented Relative Progress), a novel fully self-supervised algorithm for learning dense, signed relative progress magnitudes dir",
+      "published": "2026-06-26T17:58:06Z",
+      "authors": [
+        "Justin Yu",
+        "Andrew Goldberg",
+        "Kavish Kondap",
+        "Karim El-Refai",
+        "Ethan Ransing"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Near-threshold scattering of proton and Omega baryon and possible bound states",
+      "link": "https://arxiv.org/abs/2606.28319v1",
+      "summary": "We study the near-threshold scattering and bound-state structure of the $NΩ$ system by solving the Lippmann-Schwinger (L-S) equation within the framework of the meson exchange model and the Pomeron exchange model. The numerical results indicate that after incorporating the Pomeron exchange mechanism, the observables of the ${^5}S{_2}$ channel, such as the binding energy, scattering length, and effective range, agree better with the experimental measurements. In addition, The Pomeron exchange can",
+      "published": "2026-06-26T17:58:02Z",
+      "authors": [
+        "Yu-Jie Feng",
+        "Qian Wang",
+        "Qiang Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Drift Behavior in a Bounded-Confidence Opinion Model with Media Influence",
+      "link": "https://arxiv.org/abs/2606.28318v1",
+      "summary": "People's opinions can change both from their interactions with each other and from their interactions with media sources. Bounded-confidence models (BCMs) of opinion dynamics provide one framework to study such dynamics. In a BCM, the nodes of a network are agents with continuous-valued opinions, and these agents interact with each other via the edges of the network. In this paper, we extend the original Deffuant--Weisbuch (DW) BCM by incorporating influence from two media sources -- one with a ",
+      "published": "2026-06-26T17:57:59Z",
+      "authors": [
+        "Oliver Zheng",
+        "Mason A. Porter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pairwise Reflection Symmetry in Generalized Latin Rectangles",
+      "link": "https://arxiv.org/abs/2606.28315v1",
+      "summary": "Many combinatorial designs ask for equal distribution of given symbols across the entries of a matrix. The paramount examples are Latin squares, where each symbol from $\\{1,\\dots,n\\}$ appears once per row and column of an $n\\times n$ matrix. Generalized Latin rectangles extend this to $λn \\times n$ matrices with repeated symbols under controlled column frequencies. In this more general setting, we examine structural properties of pairwise reflection-symmetry, which requires that, on every pair o",
+      "published": "2026-06-26T17:57:13Z",
+      "authors": [
+        "Enrico Iurlano",
+        "Günther R. Raidl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Role of Scintillation in Detecting HI Absorption in FRB Spectra",
+      "link": "https://arxiv.org/abs/2606.28314v1",
+      "summary": "The 21-cm absorption line of neutral hydrogen has been a long hypothesized observational feature of the spectra of Fast Radio Bursts (FRBs). The difficulties associated with detector noise in extracting HI absorption have been previously studied. We test the role that scintillation plays in the HI absorption line's detectability, and characterize the regimes where a realistic FRB may yield the 21-cm line. We build an efficient model to simulate diffractive scintillation arising from FRB passage ",
+      "published": "2026-06-26T17:56:50Z",
+      "authors": [
+        "Om Gupta",
+        "Pawan Kumar",
+        "Paz Beniamini",
+        "Edward L. Robinson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Diameter truncated operator evolution",
+      "link": "https://arxiv.org/abs/2606.28313v1",
+      "summary": "We present a method for simulating operator dynamics in out-of-equilibrium quantum systems. Due to the rapid growth of complexity in these systems, this is typically speaking an intractable task. However, exceptional progress has been made in recent years to sidestep this barrier, with the introduction of a number of methods that make use of a truncation of the simulation to low-weight (the number of non-trivial terms in a Pauli string basis expansion) observables, which turns out to be a good a",
+      "published": "2026-06-26T17:56:45Z",
+      "authors": [
+        "Tom Holden-Dye",
+        "Max Marvell",
+        "Joel Mills",
+        "Christoper J. Turner",
+        "Arijeet Pal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Deployment of Electric Aircraft for Canadian Domestic Flights",
+      "link": "https://arxiv.org/abs/2606.28312v1",
+      "summary": "This paper presents a multi-period mixed-integer linear programming (MILP) framework for planning the transition from conventional to electric aircraft in regional aviation. The model jointly optimizes fleet acquisition, infrastructure deployment, and service allocation over time, while accounting for policy constraints such as emissions reduction targets, electric service share, and budget limits. A real-world case study based on Helijet's short-haul network in British Columbia demonstrates the",
+      "published": "2026-06-26T17:55:35Z",
+      "authors": [
+        "Elham Soufiani",
+        "Mehrdad Pirnia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Kinematic detection of dusty outflows from AGN: PAH kinematics of type 2 quasars with JWST/MIRI spectroscopy",
+      "link": "https://arxiv.org/abs/2606.28311v1",
+      "summary": "Active galactic nuclei (AGN) are thought to have dusty outflows; however, unlike the gas phase, measuring the kinematics of dust is challenging. We present the detection and analysis of the kinematics of dust in five type 2 quasars (QSO2s) at $z\\sim0.1$ from the Quasar Feedback (QSOFEED) sample observed with JWST/MIRI spectroscopy. We use Principal Component Analysis (PCA) tomography to produce velocity maps of Polycyclic Aromatic Hydrocarbon (PAH) features, which are the smallest carbonaceous d",
+      "published": "2026-06-26T17:55:09Z",
+      "authors": [
+        "Fergus R. Donnan",
+        "Cristina Ramos Almeida",
+        "Omaira González Martín",
+        "Karin Sandstrom",
+        "Anelise Audibert"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constraining primordial oscillations and inflationary particle production with Planck, ACT DR6, and DESI DR2",
+      "link": "https://arxiv.org/abs/2606.28310v1",
+      "summary": "Non-standard inflationary models often predict oscillatory features in the primordial power spectrum. We present constraints on general oscillatory templates for primordial power spectra, including those that vary linearly and logarithmically with wavenumber, as well as oscillations induced by inflationary particle production. We utilize the Planck 2018 and Atacama Cosmology Telescope Data Release 6 cosmic microwave background data as well as large-scale structure data from the Dark Energy Spect",
+      "published": "2026-06-26T17:54:48Z",
+      "authors": [
+        "Simran K. Nerval",
+        "Renee Hlozek",
+        "Hidde T. Jense",
+        "J. Richard Bond"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Surprises in Proper Positive-Only Learning",
+      "link": "https://arxiv.org/abs/2606.28309v1",
+      "summary": "Binary classification from positive-only samples is a variant of PAC learning in which the learner receives i.i.d. samples from the positive region of an unknown target concept, but is evaluated under the original distribution (which places mass on both positive and negative regions). This model dates back to Natarajan [1987, STOC], and the characterization of improper learning is well-known -- it even appears in textbooks. The characterization of proper positive-only learning, however, has long",
+      "published": "2026-06-26T17:54:13Z",
+      "authors": [
+        "Shai Ben-David",
+        "Farnam Mansouri",
+        "Anay Mehrotra",
+        "Manolis Zampetakis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Second-Order KKT Guarantees for Bregman ADMM in Nonconvex and Non-Lipschitz Optimization",
+      "link": "https://arxiv.org/abs/2606.28307v1",
+      "summary": "We analyze Bregman ADMM for nonconvex linearly constrained problems under two-sided relative smoothness, a condition that replaces the standard Lipschitz gradient assumption with a Hessian comparison relative to a Bregman kernel. This setting covers polynomial objectives arising in matrix and tensor models for which a global Lipschitz-gradient constant need not exist. We show that on an invariant open state-space domain, one iteration of Bregman ADMM defines a smooth primal--dual fixed-point map",
+      "published": "2026-06-26T17:52:39Z",
+      "authors": [
+        "Shuang Li",
+        "Zhihui Zhu",
+        "Qiuwei Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Excitation of Collective Modes in a Chiral Superfluid by Thermal Quench",
+      "link": "https://arxiv.org/abs/2606.28306v1",
+      "summary": "Based on time-dependent Ginzburg-Landau field theory we show that rapid cooling through the second-order phase transition into superfluid \\Hea\\ excites collective modes of newly formed chiral domains, in addition to topological defects that are formed via the Kibble-Zurek mechanism. Simulations of temperature quenches in the presence of Gaussian space-time white noise generate a highly excited inhomogeneous condensate. Large-scale simulations exhibit a complex network of domain walls and vortice",
+      "published": "2026-06-26T17:50:06Z",
+      "authors": [
+        "Noble Gluscevich",
+        "J. A. Sauls"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SKA$-$VLBI view of AGN jets in the early Universe",
+      "link": "https://arxiv.org/abs/2606.28304v1",
+      "summary": "Active Galactic Nuclei (AGN) are among the brightest sources in the Universe, and those that are also jetted are uniquely valuable at the earliest epochs, because their relativistic outflows can regulate the gas supply of their host galaxies, potentially affecting both early star formation and the rapid growth of supermassive black holes (SMBHs). Their compact, high-brightness-temperature radio cores provide the sharpest beacons for very long baseline interferometry (VLBI), enabling direct const",
+      "published": "2026-06-26T17:48:38Z",
+      "authors": [
+        "C. Spingola",
+        "M. Mezcua",
+        "Y. Liu",
+        "S. Frey",
+        "S. Belladitta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A perfectly matched layer for damping vertically propagating waves in the compressible Boussinesq equations",
+      "link": "https://arxiv.org/abs/2606.28303v1",
+      "summary": "This paper introduces a new application of the perfectly matched layer (PML) for mitigating model top wave reflections in geophysical fluid models. Typically, a strong Laplacian or Rayleigh damping sponge layer is used near the upper boundary, but these often need many vertical levels or a high model top to be sufficiently effective. An advantage of the PML is that, at the continuous level, it is free of wave reflection at the onset of the damping layer. This enables the PML to be effective even",
+      "published": "2026-06-26T17:48:18Z",
+      "authors": [
+        "Timothy C. Andrews",
+        "Kenneth Duru",
+        "David Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
+      "link": "https://arxiv.org/abs/2606.28301v1",
+      "summary": "Inference-time scaling is a promising paradigm to improve generative models, especially when outputs must satisfy structural constraints or optimize downstream rewards. We consider Masked Diffusion Model (MDM) and introduce MDM-VGB, a discrete diffusion sampler that augments unmasking generation with theoretically principled reward-guided remasking. Inspired by the recent success of the classical Jerrum-Sinclair backtracking Markov chain in reward-tilted generation, MDM-VGB extends the backtrack",
+      "published": "2026-06-26T17:47:09Z",
+      "authors": [
+        "Kijung Jeon",
+        "Thuy-Duong Vuong",
+        "Molei Tao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CacheMPC: Certified Cached Model Predictive Control for Quadruped Locomotion",
+      "link": "https://arxiv.org/abs/2606.28300v1",
+      "summary": "Model Predictive Control (MPC) is the standard predictive layer in hierarchical quadruped controllers, but the per-cycle QP solve limits the update rate achievable on embedded processors. Because legged gaits revisit a bounded region of state space, MPC solutions admit caching and reuse. This paper proposes \\emph{Certified CacheMPC}: a Locality-Sensitive-Hashed cache of horizon contact-force trajectories, partitioned by contact mode, retrieved at query time and accepted only when an a-posteriori",
+      "published": "2026-06-26T17:47:05Z",
+      "authors": [
+        "Nimesh Khandelwal",
+        "Mehul Anand",
+        "Shakti S. Gupta",
+        "Mangal Kothari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The impact of stellar binaries and star cluster dynamics on pair-instability supernovae",
+      "link": "https://arxiv.org/abs/2606.28299v1",
+      "summary": "Pair-instability supernovae (PISNe) are among the most luminous transients in the Universe. However, they have never been confidently observed. Solving this puzzle would have key implications for several astrophysical topics, including galaxy chemical enrichment, the interpretation of gravitational waves from binary black hole mergers, and the nature of red dropout sources seen by JWST. With this aim, we present the first in-depth study of PISN occurrence in binary stars, both in isolation and i",
+      "published": "2026-06-26T17:46:58Z",
+      "authors": [
+        "Francesco Gabrielli",
+        "Cristiano Ugolini",
+        "Lavinia Paiella",
+        "Benedetta Mestichelli",
+        "Manuel Arca Sedda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stationary point complexity via minimal supersymmetry breaking",
+      "link": "https://arxiv.org/abs/2606.28298v1",
+      "summary": "The statistics of stationary points are a powerful way to understand mean-field random landscapes, and the Kac--Rice formula is a general way to compute them. A longstanding technical barrier to these calculations is the presence of the absolute value of the determinant of the Hessian. Neglecting the absolute value produces an elegant 2-index supersymmetric representation of the problem, but is often incorrect. We develop an expanded 4-index supersymmetric representation of the complexity proble",
+      "published": "2026-06-26T17:41:03Z",
+      "authors": [
+        "Jaron Kent-Dobias"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Particle Production from Inhomogeneities: the off-shell side of gravitational waves",
+      "link": "https://arxiv.org/abs/2606.28297v1",
+      "summary": "We continue the study of particle production from gravitational inhomogeneities in the early Universe. Focusing on sources active on sub-horizon scales, we derive general expressions relating particle production to the unequal-time two-point function of the stress-energy tensor sourcing scalar, vector and tensor metric perturbations. The resulting particle yield probes the time-like support of this correlator, and in the tensor case the same object controls gravitational wave emission when evalu",
+      "published": "2026-06-26T17:40:13Z",
+      "authors": [
+        "Michele Redi",
+        "Andrea Tesi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
+      "link": "https://arxiv.org/abs/2606.28294v1",
+      "summary": "Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final choice rather than the considerations that shape preferences. Inverse Constitutional AI (ICAI) improves interpretability in decision making by summarizing preferences into natural-language principles, but its single-pass explanations miss much of the nuance involved in complex decisions. We introduce ",
+      "published": "2026-06-26T17:38:47Z",
+      "authors": [
+        "Kevin Kingslin",
+        "Anish Natekar",
+        "Ashutosh Ranjan",
+        "Vivek Srivastava",
+        "Savita Bhat"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Accretion-Driven Evolution of Compact-Object Populations in Gas-Rich Environments and the Origin of Massive Gravitational-Wave Sources",
+      "link": "https://arxiv.org/abs/2606.28293v1",
+      "summary": "The origin of the most massive gravitational-wave sources remains elusive. We show that gas accretion can be understood as a transport process in mass space, causing compact objects to migrate through a population at rates determined by the underlying growth law. Using a continuity-equation framework, we demonstrate that population evolution is governed primarily by the mass dependence of the accretion rate, $\\dot m \\propto m^β$. Accretion laws with $β>1$ naturally produce divergent evolution an",
+      "published": "2026-06-26T17:38:09Z",
+      "authors": [
+        "Mor Rozner",
+        "Alejandra Rosselli-Calderon",
+        "Enrico Ramirez-Ruiz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unconditional Well-posedness for the MMT Equation on the Torus",
+      "link": "https://arxiv.org/abs/2606.28290v1",
+      "summary": "We consider the initial value problem (IVP) for a two-parameter family of derivative nonlinear Schrödinger equations on the torus, known as the Majda-McLaughlin-Tabak (MMT) model arising in weak wave turbulence theory. For positive derivative order, we show that the flow map is not $C^3$ at the origin. Using an enhanced energy method, we prove unconditional local well-posedness in Sobolev spaces. At the energy regularity, conservation of the Hamiltonian and a mass-type quantity yields unconditio",
+      "published": "2026-06-26T17:35:24Z",
+      "authors": [
+        "Mahendra Panthee",
+        "James Patterson",
+        "Yuzhao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal parameterization of nonequilibrium generalized master equations from discrete-time experimental data",
+      "link": "https://arxiv.org/abs/2606.28289v1",
+      "summary": "Kinetic analyses of experiments often require coarse-grained descriptions, but complex systems rarely conform to the widely used modeling assumptions of Markovianity and thermodynamic equilibrium. Memory is indeed a general and often inevitable consequence of coarse-graining. Markov state models (MSMs) are a popular choice of coarse-grained description, but require microstate assignments -- which are rarely experimentally tunable -- to macrostates that minimize memory. Generalized master equatio",
+      "published": "2026-06-26T17:34:16Z",
+      "authors": [
+        "Chih-Wei Joshua Liu",
+        "Jérémie Klinger",
+        "Grant M. Rotskoff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generalizing the interacting dilatonic ghost condensate as a dark energy model",
+      "link": "https://arxiv.org/abs/2606.28288v1",
+      "summary": "In this article, we study the cosmic evolution of a generalized dilatonic ghost condensate field as a dark energy candidate, formulated from a Lagrangian density with two dominant kinetic terms; one linear and one of arbitrary integer $n>2$ in combination with an exponential potential, which interacts with dark matter through a source term. We analyzed three scenarios: the non-interacting situation $Q=0$ and two different interaction models, $Q\\proptoρ_m\\dotφ$ and $Q\\propto ρ_m H$ to describe th",
+      "published": "2026-06-26T17:33:53Z",
+      "authors": [
+        "Manuel Gonzalez-Espinoza",
+        "Ramon Herrera",
+        "Johan Casimiro"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bridging Ab Initio Symmetries and Global Nuclear Masses with Interpretable Neural Networks",
+      "link": "https://arxiv.org/abs/2606.28287v1",
+      "summary": "Ab initio modeling has established Wigner's SU(4) and Elliott's SU(3) as dominant symmetries of the nuclear force in light and intermediate-mass nuclei. We ask whether they also govern nuclear binding across the entire chart. Our aim is not high-precision prediction but physical insight, through interpretable, symmetry-based models. From the SU(3) and SU(4) Casimir operators we construct three neural-network (NN) mass models: Feature-Informed NN (FINN) for point predictions, Gaussian-Informed NN",
+      "published": "2026-06-26T17:31:34Z",
+      "authors": [
+        "Phong Dang",
+        "Evander Espinoza",
+        "Xiaoliang Wan",
+        "Michela Negro",
+        "Jerry P. Draayer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JWST observations support the jittering-jets explosion mechanism (JJEM) for the core-collapse supernova remnant SNR 0540-69.3",
+      "link": "https://arxiv.org/abs/2606.28286v1",
+      "summary": "We examine published JWST observations of the core-collapse supernova (CCSN) remnant SNR 0540-69.3 and identify a point-symmetric morphology in its inner ejecta. Within the framework of the jittering jets explosion mechanism (JJEM), we interpret this morphology as evidence that the ejecta were shaped by two, and likely three or more, pairs of jets during the explosion process. Both visual inspection and a recently developed quantitative symmetry-identification method for astrophysical imaging re",
+      "published": "2026-06-26T17:30:38Z",
+      "authors": [
+        "Dmitry Shishkin",
+        "Noam Soker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "QCD critical surface from constant entropy contours",
+      "link": "https://arxiv.org/abs/2606.28282v1",
+      "summary": "We provide the first mapping of the critical surface in (2+1)-flavor QCD in the full $(T,μ_B,μ_Q,μ_S)$ space, anchored on lattice QCD results at vanishing chemical potentials and obtained within an expansion along contours of constant entropy density. In the pure $μ_B$ direction, this framework yields a critical point at $(T_c,μ_{B,c}) \\simeq (114,\\, 602)$ MeV. Here we extend the construction to arbitrary directions in the three-dimensional chemical-potential space, parametrized by spherical coo",
+      "published": "2026-06-26T17:26:15Z",
+      "authors": [
+        "Hitansh Shah",
+        "Tristan Gyure",
+        "Anabella Leon",
+        "Francesco Di Clemente",
+        "Mauricio Hippert"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PAC-Bayesian Certificates for Quadratic Closed-Loop Control",
+      "link": "https://arxiv.org/abs/2606.28281v1",
+      "summary": "PAC-Bayesian bounds provide finite-sample guarantees for data-dependent randomized predictors, but applying them to learning-based control is difficult because the natural objective is a quadratic trajectory cost. Such losses are unbounded, non-Lipschitz , and lead to response-dependent Chernoff terms. We employ System Level Synthesis parameterization, which exposes the closed-loop trajectory map of a linear system directly and makes the quadratic control loss amenable to explicit certification.",
+      "published": "2026-06-26T17:24:21Z",
+      "authors": [
+        "Domagoj Herceg"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sharp First-Order Lower Bounds under Sublevel $α$-Polyak-Lojasiewicz Conditions",
+      "link": "https://arxiv.org/abs/2606.28278v1",
+      "summary": "We study the optimal complexity of first-order methods under the $α$-Polyak-Lojasiewicz condition with $α\\in[1,2)$. This condition bounds the suboptimality gap by a power $α$ of the gradient norm; $α=2$ recovers the classical Polyak-Lojasiewicz condition, $α=1$ corresponds to a Holder error-bound regime, and intermediate exponents arise near degenerate minima in local Kurdyka-Lojasiewicz geometry. We first prove a structural obstruction: if global smoothness and a global $α$-Polyak-Lojasiewicz i",
+      "published": "2026-06-26T17:19:55Z",
+      "authors": [
+        "Saeed Masiha",
+        "Negar Kiyavash",
+        "Patrick Thiran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "link": "https://arxiv.org/abs/2606.28277v1",
+      "summary": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assisted science. Ultimately, to resolve this tension, we must also deploy AI to accelerate the verification and review process itself. To frame the discussion around this transition, we propose a taxonomy c",
+      "published": "2026-06-26T17:19:17Z",
+      "authors": [
+        "Rajesh Jayaram",
+        "Drew Tyler",
+        "David Woodruff",
+        "Corinna Cortes",
+        "Yossi Matias"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Revealing precision bounds on neutrino oscillation parameters with quantum estimation theory",
+      "link": "https://arxiv.org/abs/2606.28275v1",
+      "summary": "Quantum estimation theory provides ultimate precision bounds on parameter estimation, independent of experimental setups. In this article, we apply this theoretical framework to neutrino oscillations, aiming to clarify some subtle issues and reveal the maximum achievable precision of oscillation parameters. First, taking the example of two-flavor oscillations, we clarify how the quantum Fisher information (QFI) depends on the choice of bases when the basis transformation itself involves the para",
+      "published": "2026-06-26T17:17:40Z",
+      "authors": [
+        "Jihong Huang",
+        "Tommy Ohlsson",
+        "Sampsa Vihonen",
+        "Shun Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Parameter Efficient Hybrid Transformer (PEHT) for Network Traffic Prediction via Dynamic Urban Congestion Integration",
+      "link": "https://arxiv.org/abs/2606.28274v1",
+      "summary": "Accurate network traffic prediction is a critical element for efficient resource allocation in dynamic urban cellular networks. However, prediction remains challenging because network demand is influenced by complex mobility patterns, congestion dynamics, and heterogeneous user behavior. This paper introduces the Parameter-Efficient Hybrid Transformer (PEHT), a network traffic prediction framework that integrates urban mobility and congestion information into a Transformer-based architecture. PE",
+      "published": "2026-06-26T17:17:17Z",
+      "authors": [
+        "Abdolazim Rezaei",
+        "Mehdi Sookhak",
+        "Mahboobeh Haghparast"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vision-Default, Prior-Override: Causal Mechanisms of Perception-Knowledge Conflict in Vision-Language Models",
+      "link": "https://arxiv.org/abs/2606.28273v1",
+      "summary": "Vision-language models must reconcile visual evidence with memorized world knowledge when the two conflict. How they resolve this conflict shapes the reliability of multimodal systems, yet prior work characterizes it behaviorally without a component-level causal account. We combine activation patching across three granularities (residual stream, attention heads, and MLP sublayers) with model-component ablation studies and mechanistic analysis. Across three VLM families, we find that visual groun",
+      "published": "2026-06-26T17:16:04Z",
+      "authors": [
+        "Niclas Lietzow",
+        "Danielle Bitterman",
+        "Carsten Eickhoff",
+        "William Rudman",
+        "Michal Golovanevsky"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neutrino oscillation data and a pseudo-Dirac heavy neutral lepton",
+      "link": "https://arxiv.org/abs/2606.28272v1",
+      "summary": "Symmetry-protected seesaw models can accommodate light-neutrino oscillation data while keeping heavy neutral leptons (HNLs) within collider reach. In these models, the smallness of the light-neutrino masses is protected by an approximate lepton number (LN)-like symmetry that is broken only by small parameters. We study the minimal scenario in which the new states form one pseudo-Dirac HNL pair. The exact LN-conserving Dirac limit is diagonalised without expanding in the active-sterile mixing, an",
+      "published": "2026-06-26T17:13:23Z",
+      "authors": [
+        "Jan Hajer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+      "link": "https://arxiv.org/abs/2606.28270v1",
+      "summary": "The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Current defense mechanisms, such as perimeter security and training-time alignment, remain external to the agent's active reasoning loop. Consequently, they fall short: a fully aligned agent remains highly vulnerable to runtime hijacking via memory poisoning, tool-chain manipulation, or multi-agent proto",
+      "published": "2026-06-26T17:08:06Z",
+      "authors": [
+        "Bo Shen",
+        "Lifeng Chang",
+        "Tianyuan Wei",
+        "Yunpeng Li",
+        "Feng Shi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning Topology-Aware Representations via Test-Time Adaptation for Anomaly Segmentation",
+      "link": "https://arxiv.org/abs/2606.28268v1",
+      "summary": "Test-time adaptation (TTA) has emerged as a promising paradigm for mitigating distribution shifts in deep models. However, existing TTA approaches for anomaly segmentation remain limited by their reliance on pixel-level heuristics, such as confidence thresholding or entropy minimisation, which fail to preserve structural consistency under noise and texture variation. Moreover, they typically treat anomaly maps as flat intensity fields, ignoring the higher-order spatial relationships that charact",
+      "published": "2026-06-26T17:04:42Z",
+      "authors": [
+        "Ali Zia",
+        "Usman Ali",
+        "Abdul Rehman",
+        "Umer Ramzan",
+        "Kang Han"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning",
+      "link": "https://arxiv.org/abs/2606.28266v1",
+      "summary": "Remote Sensing Image Change Captioning (RSICC) aims to describe changes between bi-temporal remote sensing images and holds significant research and application value. However, most existing methods rely on conventional deep learning architectures, and the limited model capacity constrains performance. Although large-model post-training techniques have achieved great success in general domains, their direct transfer to RSICC remains challenging due to data scarcity and the need for fine-grained ",
+      "published": "2026-06-26T16:57:40Z",
+      "authors": [
+        "Yelin Wang",
+        "Zijia Song",
+        "Shuo Ye",
+        "Chuanguang Yang",
+        "Miaoyu Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Some geometric perspectives on Contact Hamiltonian Dynamics",
+      "link": "https://arxiv.org/abs/2606.28265v1",
+      "summary": "This article presents a unified overview of contact Hamiltonian geometry as a natural framework for the description of dissipative and non-conservative systems. Starting from the symplectic cover of a contact manifold, we clarify the structural relation between contact and symplectic dynamics and show how dissipation is geometrically encoded through the contact structure and the Reeb vector field. Following the introduction, which provides a guided overview of the subject through key references,",
+      "published": "2026-06-26T16:56:09Z",
+      "authors": [
+        "Javier Pérez Álvarez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Two-Step Ensemble Score Filter for Data Assimilation in Partially Observed Systems",
+      "link": "https://arxiv.org/abs/2606.28264v1",
+      "summary": "Data assimilation blends model forecasts with observations to estimate the evolving state of complex dynamical systems, but sparse observing networks remain challenging because unobserved state variables are not directly constrained by observations. In this work, we introduce the Ensemble Score Filter with Linear Regression (EnSF-LR), a two-step filtering method for partially observed nonlinear systems. At each analysis time, EnSF-LR first applies the Ensemble Score Filter (EnSF) to update the o",
+      "published": "2026-06-26T16:55:42Z",
+      "authors": [
+        "Zixiang Xiong",
+        "Feng Bao",
+        "Hristo G. Chipilski",
+        "Siming Liang",
+        "Jingqiao Tang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Classical versus quantum Anderson localization in disordered systems",
+      "link": "https://arxiv.org/abs/2606.28262v1",
+      "summary": "We investigate Anderson localization in three-dimensional disordered systems by comparing scalar classical waves with mass and force-constant disorder to electronic tight-binding models with diagonal and off-diagonal disorder. We show that the commonly employed mapping between classical-wave localization and the electronic Anderson model with diagonal disorder is not mathematically justified. Instead, the correct modulus-type formulation reveals that classical-wave systems constitute a distinct ",
+      "published": "2026-06-26T16:48:05Z",
+      "authors": [
+        "Stefano Mossa",
+        "Giancarlo Ruocco",
+        "Walter Schirmacher"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Habitual lifestyle timing explains circadian timing, but daily lifestyle changes do not, in free-living humans across 2000 days",
+      "link": "https://arxiv.org/abs/2606.28261v1",
+      "summary": "Background: Both between- and within-subject variations in circadian timing matter for health. If lifestyle changes could be used to regulate circadian timing, they would offer accessible and scalable routes to chronotherapy, but this link remains unclear under real-life conditions. Here, we explore how lifestyle 'traits' (such as typical wake time) and 'states' (day-to-day deviations from traits, such as waking up later than typical) explain between- and within-subject variation in acrophase (p",
+      "published": "2026-06-26T16:47:04Z",
+      "authors": [
+        "Billy C. Smith",
+        "Zeel Pansara",
+        "Rosanne H. Timmerman",
+        "Emmanuel Molefi",
+        "Tiago Da Silva Costa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Allee Effect in Compressible Flows",
+      "link": "https://arxiv.org/abs/2606.28260v1",
+      "summary": "Microbes in marine environments are often confined to thin near-surface layers while being advected by turbulent flows. Because such constrained advection generates an effectively compressible flow, reproduction and transport interact in a nontrivial way. Here, we focus on populations whose growth is governed by an Allee effect and show that sinks and sources, generated by the compressible flow, have dramatic consequences for the survival of such species. We derive analytical expressions for the",
+      "published": "2026-06-26T16:43:03Z",
+      "authors": [
+        "Jonathan Bauermann",
+        "Roberto Benzi",
+        "David R. Nelson",
+        "Federico Toschi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Numerical model of fast electron energy deposition in interstellar molecular gas",
+      "link": "https://arxiv.org/abs/2606.28259v1",
+      "summary": "The energy deposition of fast electrons in interstellar molecular gas is considered. We use the rotationally resolved cross sections for electron-impact excitation of H$_2$ molecule that were calculated using the adiabatic-nuclei molecular convergent close-coupling method. The initial electron energy distribution is assumed mono-energetic, and the differential equation for electron energy distribution is solved. We compare calculated energy deposition parameters with the results of similar studi",
+      "published": "2026-06-26T16:42:40Z",
+      "authors": [
+        "Aleksandr Nesterenok"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Jets Don't Quench: Near-Infrared H$_{2}$ in Star Forming Low-Excitation Radio Galaxies",
+      "link": "https://arxiv.org/abs/2606.28257v1",
+      "summary": "We present new Gemini/GNIRS near-infrared spectroscopic observations of eight low-redshift ($z < 0.1$) blue low-excitation radio galaxies (BLERGs), a rare subset ($\\sim 2.5\\%$ of low-excitation radio galaxies; LERGs) that complicate the classical jet-mode AGN picture by combining radio activity with star-forming, gas-rich hosts. These star-forming BLERGs exhibit significant warm H$_2$ emission traced via ro-vibrational transitions at $T \\sim 2000$--$4000$ K. We find that BLERGs span a broad rang",
+      "published": "2026-06-26T16:41:55Z",
+      "authors": [
+        "Swetha Sankar",
+        "Andreea O. Petric",
+        "Debora Pelliccia",
+        "Timothy M. Heckman",
+        "Reiner M. J. Janssen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient targeting of arbitrary excited states with quantum inverse power iteration through filtering polynomials",
+      "link": "https://arxiv.org/abs/2606.28255v1",
+      "summary": "In this work, we introduce a quantum inverse power iteration (QIPI) algorithm based on the quantum singular value transformation (QSVT) to target arbitrary excited states. Given an energy shift $ω$, QIPI prepares the target excited state by iteratively applying an approximation of the shifted inverse Hamiltonian $(H-ωI)^{-1}$ to a trial state. Prior quantum inverse power approaches typically relied on Fourier decompositions of the inverse Hamiltonian, with numerical quadrature used to reconstruc",
+      "published": "2026-06-26T16:41:00Z",
+      "authors": [
+        "Srushti Patil",
+        "Nina Glaser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Graphon Mean Field Game of mutual holding",
+      "link": "https://arxiv.org/abs/2606.28254v1",
+      "summary": "This paper studies the mean field game of mutual holding proposed by Djete and Touzi(AAP, 2024), and consider the case where the interactions among agents are described by a graphon. We adopt the formulation on the enlarged space which is modeled using the joint law of the value process and the graphon label, as in Lacker and Soret(MOR, 2023). Under suitable conditions on the graphon function, we are able to provide the explicit characterization of the optimal strategy, prove the wellposedness o",
+      "published": "2026-06-26T16:40:55Z",
+      "authors": [
+        "Daorong Cui",
+        "Shuoqing Deng",
+        "Yang Xiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Parameter-Efficient Continuous-Variable Photonic Quantum Neural Networks for Edge Quantum AI: Demonstration in Oral Cancer Detection",
+      "link": "https://arxiv.org/abs/2606.28252v1",
+      "summary": "Early detection of oral cancer markedly improves clinical outcomes, yet specialized diagnostic tools remain scarce in low-resource settings. Smartphone-based screening is a scalable alternative but needs lightweight models that run within edge-hardware constraints. Hybrid classical-quantum architectures are emerging candidates for parameter-efficient learning, yet most rely on qubit hardware that needs cryogenic operation, unsuitable for edge deployment. Continuous-variable (CV) photonic quantum",
+      "published": "2026-06-26T16:37:53Z",
+      "authors": [
+        "Akshay Bhagwan Sonawane",
+        "Sophie Choe",
+        "Lakshman Tamil"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Push Puppet Networks: Structured Bayesian Pruning Algorithm for Language Model Compression",
+      "link": "https://arxiv.org/abs/2606.28251v1",
+      "summary": "This paper presents push puppet networks, a novel Bayesian algorithm for structured pruning of large language models. The push puppet network learns a hierarchical function during training that can optimally determine specific network layers to keep for a given target size. By adding a small number of gating parameters via a hierarchical penalty function, the learned smooth function can allow for a network to be resized to very specific sizes without loading the full model into memory or requiri",
+      "published": "2026-06-26T16:37:06Z",
+      "authors": [
+        "Robert Kubinec"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
