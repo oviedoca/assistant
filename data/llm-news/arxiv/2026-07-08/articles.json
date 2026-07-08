@@ -1,0 +1,650 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Skipping the rungs! Calibrating distance indicators through their clustering with galaxies",
+      "link": "https://arxiv.org/abs/2607.06567v1",
+      "summary": "We show that angular cross-correlations between distance indicators and galaxy redshift catalogues, when interpreted within an assumed cosmological model, can constrain potential biases in distance measurements induced by calibration systematics. As a test case, we consider a simple scenario in which a constant calibration offset $ΔM$ shifts all observed distances by a multiplicative factor, and we produce Fisher forecasts for the constraining power on $ΔM$ and $H_0$ from existing and upcoming s",
+      "published": "2026-07-07T17:59:59Z",
+      "authors": [
+        "Madeline L. Cross-Parkin",
+        "Leonardo Giani",
+        "Cullan Howlett",
+        "Tamara M. Davis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function",
+      "link": "https://arxiv.org/abs/2607.06566v1",
+      "summary": "I construct a microscopic ADHM/chiral-Wishart representative of the reduced charge-sector coefficient $W_ν[b]$ that enters the Type-IIB axion--dilaton wormhole partition function $Z_{\\rm wh}(θ;b)$. I fix the axion-charge sector, equivalently the form-field-flux sector, which plays the exact same structural role as a fixed-topology sector in QCD: it supplies the domain where I compute the microscopic coefficient before forming the final theta sum. At $E=0$, the axion--dilaton radial family reache",
+      "published": "2026-07-07T17:59:56Z",
+      "authors": [
+        "Soo-Jong Rey"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+      "link": "https://arxiv.org/abs/2607.06565v1",
+      "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometri",
+      "published": "2026-07-07T17:59:50Z",
+      "authors": [
+        "Tianjiao Yu",
+        "Xinzhuo Li",
+        "Yifan Shen",
+        "Onkar Susladkar",
+        "Yuanzhe Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
+      "link": "https://arxiv.org/abs/2607.06564v1",
+      "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D information, they are constrained by limited data availability and geometric information loss in current 3D encoding pipelines, and fail to jointly capture 3D geometry and temporally structured actions in ",
+      "published": "2026-07-07T17:59:47Z",
+      "authors": [
+        "Jiaming Liu",
+        "Qingpo Wuwu",
+        "Nuowei Han",
+        "Hao Chen",
+        "Zhuoyang Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects",
+      "link": "https://arxiv.org/abs/2607.06562v1",
+      "summary": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer. This relative simplicity makes them attractive targets to study the launching and evolution of relativistic jets. We use radio surveys and spatially resolved VLBA observations to estimate the minimum energies and magnetic field strengths of a subset of edge-brightened CSOs (CSO-2s). These are necessary to test models ",
+      "published": "2026-07-07T17:59:21Z",
+      "authors": [
+        "Tirth D. Surti",
+        "Martijn S. S. L. Oei",
+        "Anthony C. S. Readhead",
+        "Andrew G. Sullivan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vision as Unified Multimodal Generation",
+      "link": "https://arxiv.org/abs/2607.06560v1",
+      "summary": "We formulate computer vision as unified multimodal generation, where heterogeneous visual tasks are expressed in the native text and image generation spaces of a unified multimodal model, without task-specific architectures. Under this formulation, SenseNova-Vision uses natural-language instructions and optional visual prompts to specify tasks, target regions or views, and decoding conventions, and generates responses as text for symbolic outputs, images for dense spatial predictions, or mixed t",
+      "published": "2026-07-07T17:58:33Z",
+      "authors": [
+        "Xiaoyang Han",
+        "Jianhua Li",
+        "Kewang Deng",
+        "Zukai Chen",
+        "Xuanke Shi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2607.06559v1",
+      "summary": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physically grounded representation that captures the underlying 4D dynamics of a scene. Compared to 2D pixel videos, this multi-modal synergy aligns visual appearance with geometric structure and temporal motion, creating a representation space significant",
+      "published": "2026-07-07T17:58:15Z",
+      "authors": [
+        "Haoyu Zhao",
+        "Xingyue Zhao",
+        "Siteng Huang",
+        "Xin Li",
+        "Deli Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+      "link": "https://arxiv.org/abs/2607.06558v1",
+      "summary": "Scaling robot learning requires massive, diverse trajectory data, yet collection is currently bottlenecked by physical teleoperation, where every demonstration binds operator time to specific hardware and workspaces. We introduce digital teleoperation, a paradigm that decouples data collection from physical constraints by replacing the real robot with a generative world model. In this framework, an operator's hand-pose stream drives a robot-centric generative world model to synthesize high-fidel",
+      "published": "2026-07-07T17:58:11Z",
+      "authors": [
+        "Haoyu Zhao",
+        "Xingyue Zhao",
+        "Hangyu Li",
+        "Biao Gong",
+        "Kehan Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Channel Polynomial Processing",
+      "link": "https://arxiv.org/abs/2607.06557v1",
+      "summary": "We introduce a quantum algorithmic framework based on probabilistic mixtures of unitary channels that, similar to the framework of quantum singular value transformations, enables the application of arbitrary polynomials of hermitian operators onto arbitrary initial states. We show that our framework supports a flexible tradeoff between sample- and query complexity ranging from optimal query complexity, meaning logarithmic in the error, and exponentially scaling sample complexity to sub-polynomia",
+      "published": "2026-07-07T17:57:48Z",
+      "authors": [
+        "Tianhan Liu",
+        "Fedor Simkovic",
+        "Martin Leib"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ProxyPose: 6-DoF Pose Tracking via Video-to-Video Translation",
+      "link": "https://arxiv.org/abs/2607.06555v1",
+      "summary": "Tracking the six-degree-of-freedom (6-DoF) pose of objects and surfaces from monocular video is a long-standing problem in computer vision. To tackle this problem, existing methods require inputs beyond the video itself-such as 3D models, depth maps, object masks, or task-specific learned features-and they struggle with textureless, transparent, reflective, or deformable surfaces. Here, we introduce ProxyPose, which recasts 6-DoF pose tracking as video-to-video translation. Given only a video an",
+      "published": "2026-07-07T17:56:07Z",
+      "authors": [
+        "Ruihang Zhang",
+        "Felix Taubner",
+        "Pooja Ravi",
+        "Kiriakos N. Kutulakos",
+        "David B. Lindell"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+      "link": "https://arxiv.org/abs/2607.06553v1",
+      "summary": "Large-scale text-to-image models are attractive backbones for dense prediction because RGB generation pretraining learns rich semantic, structural, and geometric priors. Existing generative and editing approaches reuse these priors by casting dense prediction as target generation: annotations such as depth, normals, alpha mattes, masks, and heatmaps are encoded into an RGB-trained VAE latent space and decoded back as image-like targets. We argue this inherits more of the generative output interf",
+      "published": "2026-07-07T17:54:28Z",
+      "authors": [
+        "Zanyi Wang",
+        "Xin Lin",
+        "Haodong Li",
+        "Dengyang Jiang",
+        "Yijiang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MonoIR-RS: Infrared Remote Sensing Vision-Language Learning with CLIP and VLM Adaptation",
+      "link": "https://arxiv.org/abs/2607.06552v1",
+      "summary": "Infrared remote-sensing imagery captures intensity structure, object-background contrast, and illumination-invariant cues often invisible in RGB imagery. Yet, most remote-sensing vision-language resources and models focus on visible-band semantics, leaving infrared vision-language understanding underexplored. We introduce MonoIR-RS, a large-scale infrared remote-sensing vision-language dataset and benchmark that couples IR-aware data construction with CLIP-style contrastive adaptation and VLM in",
+      "published": "2026-07-07T17:53:58Z",
+      "authors": [
+        "Jiaju Han",
+        "Ma Yaqi",
+        "Yahui Chai",
+        "Xuemeng Sun",
+        "Xin Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum combinatorial games",
+      "link": "https://arxiv.org/abs/2607.06550v1",
+      "summary": "A combinatorial game is a deterministic game with no hidden information played between two opponents such as tic-tac-toe, checkers or chess. In this paper we extend combinatorial games to the quantum setting, by first revisiting and reformulating existing theory of classical combinatorial games. We investigate in which case a quantum opponent has an advantage over a classical one. Surprisingly, our instantiation of Zermelo's classical theorem in the quantum setting shows that the effects of quan",
+      "published": "2026-07-07T17:53:52Z",
+      "authors": [
+        "Dieks Scholten",
+        "Bram Westerbaan",
+        "Simona Samardjiska"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Calcification Classification in Mammography Across Multi-Site Datasets",
+      "link": "https://arxiv.org/abs/2607.06549v1",
+      "summary": "Deep learning-based computer-aided diagnosis (CAD) systems have shown strong performance in breast cancer diagnosis, particularly for classification tasks in mammography. However, domain shifts across multi-site datasets remain a challenge, especially when models are applied to unseen domains. In this work, we proposed a calcification classification framework to improve malignant versus benign breast disease classification across multi-site mammography datasets. The framework consisted of two co",
+      "published": "2026-07-07T17:53:49Z",
+      "authors": [
+        "Xuan Liu",
+        "Derek L. Nguyen",
+        "Emily C. Barre",
+        "Jennifer Thomas",
+        "Thomas Lynch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
+      "link": "https://arxiv.org/abs/2607.06546v1",
+      "summary": "Denoising graphs is a fundamental problem in graph learning and the core operation of graph diffusion models. Attention-based architectures like graph transformers have recently shown promise in denoising graphs. However, our principled understanding of attention-based graph denoising remains limited, making it unclear whether standard attention is the right mechanism for this task. Here we show that, under a denoising objective, linear attention is suboptimal and can only learn an average spect",
+      "published": "2026-07-07T17:52:17Z",
+      "authors": [
+        "Shervin Khalafi",
+        "Igor Krawczuk",
+        "Sergio Rozada",
+        "Charilaos Kanatsoulis",
+        "Antonio G Marques"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
+      "link": "https://arxiv.org/abs/2607.06544v1",
+      "summary": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and inclusion for a large population, on the other, it can homogenize worldviews and exclude underrepresented languages and worldviews. In this paper, we try to characterize this problem by addressing th",
+      "published": "2026-07-07T17:51:10Z",
+      "authors": [
+        "Aparna Madva",
+        "Sharath Srivatsa",
+        "Srinath Srinivasa",
+        "Tulika Saha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the feasibility of dependency parsing of non-human sequences without a gold standard. Is evaluation possible in other species?",
+      "link": "https://arxiv.org/abs/2607.06542v1",
+      "summary": "Dependency parsing consists of finding a tree representation for a sequence. Unsupervised dependency parsing aims to develop parsing methods without a gold standard during model training. In human languages, an unsupervised parser can be evaluated because some gold standard is usually available or can be created. For other species, a gold standard is unknown. Thus one may conclude that it is impossible to determine the accuracy of an unsupervised parser and, consequently, dependency parsing is u",
+      "published": "2026-07-07T17:47:26Z",
+      "authors": [
+        "Ramon Ferrer-i-Cancho",
+        "Catherine Hobaiter",
+        "Thore Bergman",
+        "Morgan Gustison"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "High $^{12}$C/$^{13}$C isotopic ratios toward G+0.693-0.027: evidence for gas inflow to the Central Molecular Zone",
+      "link": "https://arxiv.org/abs/2607.06541v1",
+      "summary": "Isotopic ratios are key tracers of Galactic chemical evolution because different isotopes are synthesized through distinct stellar nucleosynthesis processes. While the $^{12}$C/$^{13}$C ratio increases with galactocentric distance across the Galactic disc, measurements in the Central Molecular Zone (CMZ) have historically yielded low values ($\\sim$3-30), often affected by high optical depths. We aim to determine the initial $^{12}$C/$^{13}$C ratio of the parent material of the CMZ molecular clou",
+      "published": "2026-07-07T17:44:36Z",
+      "authors": [
+        "L. Colzi",
+        "O. Sipilä",
+        "I. Jiménez-Serra",
+        "V. M. Rivilla",
+        "M. Sanz-Novo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
+      "link": "https://arxiv.org/abs/2607.06540v1",
+      "summary": "Developing seamless, high-performance, native intelligent full-duplex Spoken Language Models (SLMs) remains a critical challenge and long-standing goal for the speech and NLP community. Despite notable progress, recent endeavors are fundamentally constrained by severe modality interference, which causes substantial knowledge degradation and compromises semantic integrity -- ultimately making full-duplex SLMs feel unnatural and unintelligent. In this paper, through an exhaustive fine-grained anal",
+      "published": "2026-07-07T17:43:36Z",
+      "authors": [
+        "Zhenyu Liu",
+        "Yunxin Li",
+        "Xuanyu Zhang",
+        "Qixun Teng",
+        "Shenyuan Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum state localization in dipole-dipole interacting disordered networks",
+      "link": "https://arxiv.org/abs/2607.06539v1",
+      "summary": "We study the localization of excitations in positionally disordered spin or atom networks coupled via the realistic resonant dipole-dipole interaction (RDDI), which does not conform to a simple power law, as the spatial dependence and dissipative character distinguish it from conventional short or long-range models. Despite its partially long-ranged and radiative nature, positional disorder in the RDDI coupling leads to strong spatial localization of excitations. The interplay between coherent a",
+      "published": "2026-07-07T17:42:42Z",
+      "authors": [
+        "Pritam Chattopadhyay",
+        "Saikat Sur",
+        "Avijit Misra",
+        "David Petrosyan",
+        "Arti Garg"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniLM-Nav: A Unified Framework for Zero-Shot Last-Mile Navigation",
+      "link": "https://arxiv.org/abs/2607.06537v1",
+      "summary": "Mobile manipulation requires a robot to navigate to a target object or receptacle and then perform intended manipulation. However, reaching the vicinity of the target does not guarantee a manipulation-ready base pose, a problem known as last-mile navigation. Prior methods for last-mile navigation either rely on manual pose annotation or task-specific training, limiting their scalability to open-vocabulary settings with fine-grained spatial constraints. We propose UniLM-Nav, a unified framework f",
+      "published": "2026-07-07T17:42:08Z",
+      "authors": [
+        "Zhuofan Zhang",
+        "Tianxu Wang",
+        "Guoxi Zhang",
+        "Yixiong Lin",
+        "Xilin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Right Space for Dynamics: Numerics with Diffeomorphism Equivariance",
+      "link": "https://arxiv.org/abs/2607.06536v1",
+      "summary": "Among many (equivalent, via invertible transformations) representations of the evolution of a dynamical system, which one is to be preferred? Here we show how the use of infinite-dimensional Lie group theory (and its numerical implementation) allows us to single out one representation, by selecting an element of the group of diffeomorphisms acting on the dynamical system. We present and discuss several types of ``phase conditions\" defining the selected representation, and illustrate their comput",
+      "published": "2026-07-07T17:41:46Z",
+      "authors": [
+        "Wolf-Juergen Beyn",
+        "Michail E. Kavousanakis",
+        "Yannis G. Kevrekidis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neural-ESO: A Dual-Pathway Architecture for Provably Robust Learning-Based Control",
+      "link": "https://arxiv.org/abs/2607.06535v1",
+      "summary": "A learning-enabled disturbance-rejection framework based on a Neural Extended State Observer (Neural-ESO) is presented in this letter. Unlike existing learning-based control methods that largely rely on the learned model once deployed, Neural-ESO adopts a dual-pathway architecture: a predictive pathway uses a neural network to provide a feedforward disturbance estimate that accelerates convergence, while a corrective pathway employs a conventional ESO to compensate prediction errors and prevent ",
+      "published": "2026-07-07T17:41:38Z",
+      "authors": [
+        "Fan Zhang",
+        "Richie Suganda",
+        "Jinfeng Chen",
+        "Wenhua Liu",
+        "Hantao Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CAIRN: Cross-Room 3D Scene Understanding with Topology-Aware Large Multimodal Models",
+      "link": "https://arxiv.org/abs/2607.06534v1",
+      "summary": "Existing 3D scene-grounded Large Language Models (3D-LLMs) focus on answering questions grounded in simplified single-room 3D scenes, lacking the ability to reason over real-world household environments containing multiple interconnected rooms and diverse object categories. We introduce CAIRN, a topology-aware 3D-LLM for multi-room 3D scene understanding. CAIRN aligns transformer attention with scene hierarchy, giving the model explicit awareness of object-level relations and room-level connecti",
+      "published": "2026-07-07T17:39:41Z",
+      "authors": [
+        "He Liang",
+        "Chenyang Ma",
+        "Yiming Zhang",
+        "Sangyun Shin",
+        "Andrew Markham"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
+      "link": "https://arxiv.org/abs/2607.06532v1",
+      "summary": "Mixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines. A generator must keep the structure that solvers and learned policies rely on. Existing general generators usually choose their generation unit from a formulation template, summary statistics, local graph edits, or blocks found after recombination. These units do not explicitly record how a local part of the MILP is coupled to the rest ",
+      "published": "2026-07-07T17:39:06Z",
+      "authors": [
+        "Xiaolei Guo",
+        "Chenyu Zhou",
+        "Jianghao Lin",
+        "Dongdong Ge"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+      "link": "https://arxiv.org/abs/2607.06531v1",
+      "summary": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference. To address this inflexibility, we propose the Large Cancer Assistant (LCA), a model-agnostic, post-hoc orchestration framework designed for scalable clinical decision support. - Methods: The LCA is mathematically formalized as a 7-tuple architecture grounded in the principle of Algorithmic Impermeabi",
+      "published": "2026-07-07T17:38:47Z",
+      "authors": [
+        "Ghassen Marrakchi",
+        "Basarab Matei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Life Style Levels: Neighborhood Delineation using Geospatial Data",
+      "link": "https://arxiv.org/abs/2607.06529v1",
+      "summary": "Fine-scale socioeconomic information is often unavailable across rapidly ur-banizing regions of the developing world, like India, limiting the ability to delineate intra-urban variations in affluence and deprivation. This study pro-poses a scalable, grid-based urban delineation framework using building morphology derived from open-source satellite imagery. Urban areas across 59 Indian cities and towns are partitioned into high-resolution spatial grids and characterized using interpretable morpho",
+      "published": "2026-07-07T17:37:03Z",
+      "authors": [
+        "Srivatsa Kulkarni",
+        "Debarag Banerjee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Trust-Aware Citation Cartel Ranking in Scholarly Knowledge Graphs",
+      "link": "https://arxiv.org/abs/2607.06528v1",
+      "summary": "Citation-based systems usually treat each citation as an equal signal of scholarly influence, although citations can express very different relationships: direct method use, result comparison, broad background, or weak ceremonial acknowledgement. This distinction is crucial for citation-cartel analysis because dense internal citation alone is not suspicious; legitimate research communities are also densely connected. We present a trust-aware pipeline that combines citation graph structure with s",
+      "published": "2026-07-07T17:33:12Z",
+      "authors": [
+        "Pratyush Gupta",
+        "Vikranth Udandarao",
+        "Syam Sai Santosh Bandi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
+      "link": "https://arxiv.org/abs/2607.06527v1",
+      "summary": "Multi-hop Question Answering over Knowledge Graphs faces a critical challenge: traditional retrieve-then-read pipelines break differentiability, preventing the retriever from learning to bridge the semantic gap where intermediate nodes lack lexical overlap with the query. To address this, we propose RSF-GLLM, a framework decoupling differentiable graph reasoning from answer generation. Our Recurrent Soft-Flow (RSF) module employs a GRU-guided query updater to propagate continuous relevance score",
+      "published": "2026-07-07T17:32:36Z",
+      "authors": [
+        "Sambaran Bandyopadhyay",
+        "Ananth Muppidi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One with HI: Modelling HI Intensity Mapping one-point statistics including systematics",
+      "link": "https://arxiv.org/abs/2607.06526v1",
+      "summary": "Neutral hydrogen (HI) traces the dark matter distribution of the Universe. Upcoming surveys such as the Square Kilometre Array Observatory (SKAO) will trace neutral hydrogen up to z < 6 using several detection techniques including Intensity Mapping, which offers a unique window to explore the post-reionization Universe. Beyond two-point statistics promise to extract additional non-Gaussian information but require an accurate modelling of observational systematics such as foregrounds and the tele",
+      "published": "2026-07-07T17:32:04Z",
+      "authors": [
+        "Bernhard Vos-Gines",
+        "Cora Uhlemann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Crossroads: A Smart Contract Layer for Chain-Abstracted Assets",
+      "link": "https://arxiv.org/abs/2607.06525v1",
+      "summary": "This paper introduces Crossroads, a smart contract layer for chain-abstracted assets. In Crossroads, assets from nearly any chain are represented on a single backend blockchain as ERC-20 tokens. As a result, any asset can participate in smart-contract-based exchange, lending, or privacy applications on a single unified platform. So while Crossroads offers cross-chain bridging, a common, partial approach to alleviating the fragmentation of the blockchain ecosystem today, this is just one service ",
+      "published": "2026-07-07T17:31:30Z",
+      "authors": [
+        "James Austgen",
+        "Dani Vilardell",
+        "Ari Juels"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
+      "link": "https://arxiv.org/abs/2607.06523v1",
+      "summary": "Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues and semantic states require different preservation. We introduce DepthWeave-KV, a token-adaptive cache compression method that factorizes key and value states across neighboring transformer layers using shared low-rank channel bases while r",
+      "published": "2026-07-07T17:29:01Z",
+      "authors": [
+        "Anna Cordoba",
+        "Adam Puente Tercero",
+        "Nerea Angulo Hijo",
+        "Mar Linares Tercero",
+        "Julia Barrientos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bridging Physical Reasoning and Task Generalization via Visual Action Outcome Reasoning Alignment",
+      "link": "https://arxiv.org/abs/2607.06522v1",
+      "summary": "Vision-language models (VLMs) struggle to generalize in interactive physical reasoning, particularly under unseen tasks and environments. Two key failure modes are prominent: hallucinated chain-of-thought (CoT) reasoning that contradicts physical reality, and misalignment between the model's reasoning and actions. We present VAORA (Visual Action Outcome Reasoning Alignment), a novel reward design that directly addresses both issues. VAORA introduces two complementary rewards: Visual Alignment Re",
+      "published": "2026-07-07T17:27:59Z",
+      "authors": [
+        "Han-Jun Ko",
+        "Jr-Jen Chen",
+        "Haobo Yuan",
+        "Hsin-Ying Lee",
+        "Tiancheng Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
+      "link": "https://arxiv.org/abs/2607.06519v1",
+      "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introduce FreqDepthKV, an inference-time cache compression method that factorizes adjacent-layer KV states into shared low-frequency depth components and sparse high-frequency residuals. A lightweight online probe assigns attention heads to shared-depth, residual-depth, or exact cache ",
+      "published": "2026-07-07T17:26:28Z",
+      "authors": [
+        "Anna Córdoba",
+        "Adam Puente Tercero",
+        "Nerea Angulo Hijo",
+        "Mar Linares Tercero",
+        "Julia Barrientos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tree suspensions and transfer functions for single degree Turán spectra",
+      "link": "https://arxiv.org/abs/2607.06518v1",
+      "summary": "For integers $1\\le \\ell<k$, let $Π^k_\\ell$ denote the single-forbidden $\\ell$-degree Turán spectrum of $k$-uniform hypergraphs. We introduce transfer functions for this spectrum: explicit functions $f$ such that, for every $F$, there is another single $k$-graph $F^*$ with $π_\\ell(F^*)=f(π_\\ell(F))$. This gives a mechanism for producing new single-forbidden densities while retaining full control of the resulting value.   Our transfer functions are realized by a new family of suspension-type opera",
+      "published": "2026-07-07T17:26:18Z",
+      "authors": [
+        "Jiangdong Ai",
+        "Laihao Ding",
+        "Hong Liu",
+        "Haotian Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interplay of CPT-Violating and CPT-Conserving Lorentz Invariance Violation at DUNE",
+      "link": "https://arxiv.org/abs/2607.06513v1",
+      "summary": "We present a study of Lorentz invariance violation (LIV) in neutrino oscillations, with primary emphasis on the interplay between CPT-violating and CPT-conserving Standard Model Extension (SME) coefficients. We find that $a_{ee}$ and $a_{ττ}$ dominate among the diagonal LIV coefficients, whereas $a_{eμ}$ and $a_{eτ}$ provide the most significant off-diagonal contributions. In contrast, the corresponding $c_{αβ}$ coefficients have comparatively sub-leading effects. Taking DUNE as a representative",
+      "published": "2026-07-07T17:17:09Z",
+      "authors": [
+        "Priyankush Deka",
+        "Arnab Sarker",
+        "Moon Moon Devi",
+        "Sushant K. Raut"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sedimentation equilibrium and gravity dependent stiffness coefficients of colloidal hard-spheres",
+      "link": "https://arxiv.org/abs/2607.06510v1",
+      "summary": "Spherical colloids with harsh repulsive forces have long been used as experimental analogs of the hard sphere model, with demonstrated good agreement with computer simulations for bulk and structural properties of the fluid, glass and crystal phases. However, an enigmatic discrepancy remains for the crystal-melt stiffness coefficient. Here we perform computer simulations of colloidal hard spheres under tunable buoyant mass and show that the long-standing discrepancy can be traced to a hitherto u",
+      "published": "2026-07-07T17:12:19Z",
+      "authors": [
+        "Luis G. MacDowell",
+        "Eva G. Noya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DynaKRAG: A Unified Framework for Learnable Evidence Control in Multi-Hop Retrieval-Augmented Generation",
+      "link": "https://arxiv.org/abs/2607.06507v1",
+      "summary": "Multi-hop retrieval-augmented generation (RAG) acquires evidence sequentially, with each new document potentially revealing missing facts, bridge entities, query defects, or sufficient support for answering. Existing methods provide useful operations such as iterative retrieval, query reformulation, evidence critique, and sufficiency judging, but typically organize them within method-specific pipelines or predefined control topologies. This leaves underexplored how to learn a shared state-condit",
+      "published": "2026-07-07T17:09:36Z",
+      "authors": [
+        "Yaqi Wu",
+        "Xiaolei Guo",
+        "Chenyu Zhou",
+        "Jiaqi Huang",
+        "Xianfa Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Embracing Spillover: Spatial Effects in Experiments",
+      "link": "https://arxiv.org/abs/2607.06506v1",
+      "summary": "Interventions delivered in space generate effects that spill over between experimental units. We develop a framework for spatial experiments in which causal estimands, inclduing direct, indirect, total, and dose--response effects, are linear functionals of a spillover kernel. Under cluster randomisation with a fixed exposure set size, the data identify the shape of the kernel but not its level: the level is aliased with the intercept and direct effect, at any sample size and under any outcome mo",
+      "published": "2026-07-07T17:08:54Z",
+      "authors": [
+        "Samuel I. Watson",
+        "Penny Hancock",
+        "Jack Fraser-Govil",
+        "Kieran DeWalt",
+        "Thomas A. Smith"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Industry Classification of GitHub Repositories Using the North American Industry Classification System (NAICS)",
+      "link": "https://arxiv.org/abs/2607.06505v1",
+      "summary": "GitHub hosts hundreds of millions of public repositories, but the platform exposes no native mapping from repositories to standardized industry sectors. This gap limits empirical work on the geography of innovation, the industrial composition of open-source production, and the diffusion of new technologies across economic sectors. We present NAICS-GH, a publicly released corpus of 6,588 GitHub repositories drawn from source pools covering the United States, the European Union, and Australia, eac",
+      "published": "2026-07-07T17:06:32Z",
+      "authors": [
+        "Kevin Xu",
+        "Alexander Quispe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RMISC: A Large-scale Real-world Multivariate Corpus for Time Series Foundation Models",
+      "link": "https://arxiv.org/abs/2607.06504v1",
+      "summary": "Recent years have witnessed the emergence of multivariate modeling using time series foundation models (TSFMs), which achieve advanced zero-shot generalization. Modern multivariate TSFMs are predominantly pretrained on multivariate synthetic data, which is easier to scale but may fail to capture the complex temporal dynamics and cross-variable relationships present in real-world time series. This raises a key question: Whether and to what extent the leading TSFMs trained with the real-world corp",
+      "published": "2026-07-07T17:04:44Z",
+      "authors": [
+        "Qian Sun",
+        "Yong-Ming Tian",
+        "Jia-Wei Huang",
+        "Cheng Feng",
+        "Shao-Qun Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade",
+      "link": "https://arxiv.org/abs/2607.06503v1",
+      "summary": "Large language model (LLM) agents solving multi-step tasks frequently commit to trajectories that are doomed to fail, yet continue to consume substantial inference compute before the failure becomes observable. We show that failure is predictable early from the agent's internal representations: lightweight per-round probes on hidden activations anticipate eventual episode failure as early as the first interaction round, where scorers reading only the agent's observable behavior are barely better",
+      "published": "2026-07-07T17:03:55Z",
+      "authors": [
+        "Kai Ruan",
+        "Zihe Huang",
+        "Ziqi Zhou",
+        "Qianshan Wei",
+        "Xuan Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
+      "link": "https://arxiv.org/abs/2607.06501v1",
+      "summary": "We consider an open-world planning setting in which service robots must operate in unknown environments with incomplete knowledge of objects and actions. Traditional closed-world approaches with pre-programmed knowledge bases fail when robots encounter unexpected situations and tasks, posing a fundamental challenge for autonomous knowledge expansion in human environments. In this work, we propose an open-world planning framework that enables robots to automatically generate, verify, and update h",
+      "published": "2026-07-07T17:02:09Z",
+      "authors": [
+        "Anxing Xiao",
+        "Hanbo Zhang",
+        "Tianrun Hu",
+        "David Hsu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Clustering-Embedded Model Predictive Path Integral Control: Avoiding Averaging-Induced Failure and Enabling Efficient Cluster Selection for Dynamic Obstacles",
+      "link": "https://arxiv.org/abs/2607.06499v1",
+      "summary": "With the widespread availability of parallel computing hardware, sampling-based motion planning methods such as Model Predictive Path Integral (MPPI) control have become increasingly powerful for complex nonlinear systems in non-smooth task spaces. However, the sampling and forward-simulation pipeline in MPPI suffers from averaging-induced failure in cluttered environments, where the importance-weighted update averages incompatible rollouts and leads to hesitation or even collision when an obsta",
+      "published": "2026-07-07T17:01:00Z",
+      "authors": [
+        "Zidong Liu",
+        "Kaixin Chang",
+        "Xu Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constrained Capacity Analysis for Faster-than-Nyquist Signaling",
+      "link": "https://arxiv.org/abs/2607.06496v1",
+      "summary": "This paper studies the constrained-capacity for precoded faster-than-Nyquist (FTN) signaling with finite-alphabet inputs. Despite the promise of accelerated transmission, the fundamental rate limit of precoded FTN signaling under practical finite-alphabet constraints remains unclear. By introducing cyclic prefix (CP) and cyclic suffix (CS), the FTN channel is decomposed into a set of parallel eigenchannels by the discrete Fourier transform (DFT) matrix, based on which the constrained capacity is",
+      "published": "2026-07-07T16:57:51Z",
+      "authors": [
+        "Zichao Zhang",
+        "Melda Yuksel",
+        "Gokhan M. Guvensen",
+        "Halim Yanikomeroglu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pitwall: Faithful Natural-Language Race-Strategy Briefings from a Calibrated Real-Time Monte Carlo Engine",
+      "link": "https://arxiv.org/abs/2607.06495v1",
+      "summary": "Live sports commentary is grounded generation under a deadline: statements concern real, named athletes, the grounding state changes every few seconds, and no reference text exists at generation time. We present Pitwall, a production system that generates natural-language Formula 1 strategy briefings in English, Spanish, and Portuguese, treating faithfulness as an architectural property rather than an aspiration: every published sentence is decomposed into typed factual claims (positions, gaps, ",
+      "published": "2026-07-07T16:55:39Z",
+      "authors": [
+        "Juan S. Santillana"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Holographic Tests of the $μ$ Ensemble",
+      "link": "https://arxiv.org/abs/2607.06493v1",
+      "summary": "We study in detail a recent proposal stating that M-theory observables arising from the quantisation of M2-branes are naturally computed in a fixed $A_3$ ensemble. In a holographic setting this implies that in a semiclassical approximation 11d bulk observables in an asymptotically AdS$_4$ background are computed in a grand canonical ensemble of fixed chemical potential $μ$ conjugate to the integer $N$ determining the rank of the gauge group in the dual CFT. We provide detailed precision tests of",
+      "published": "2026-07-07T16:53:30Z",
+      "authors": [
+        "Nikolay Bobev",
+        "Fridrik Freyr Gautason",
+        "Jesse van Muiden"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A parameterised approach to disequilibrium retrievals in the JWST era: Application to NIRCam observations of HD 189733b",
+      "link": "https://arxiv.org/abs/2607.06491v1",
+      "summary": "Atmospheric retrievals are a widely used technique for inferring the physical and chemical properties of exoplanetary atmospheres from observed spectra. A common simplifying assumption in such analyses is that the atmosphere is in thermochemical equilibrium, which allows the use of precomputed chemical abundance grids as a function of pressure, temperature, metallicity ([M/H]), and carbon-to-oxygen ratio (C/O). However, exoplanet atmospheres often deviate from equilibrium, particularly at lower ",
+      "published": "2026-07-07T16:52:22Z",
+      "authors": [
+        "Jake Taylor",
+        "Shang-Min Tsai",
+        "Vivien Parmentier",
+        "Chloe Fisher",
+        "Michael Line"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Multi Objective Battery Management in Dairy Farms",
+      "link": "https://arxiv.org/abs/2607.06489v1",
+      "summary": "The dairy industry in Ireland has a large potential for the integration of renewable energy and the reduction of carbon emissions. However, researchers of distributed generation control are mainly focused on residential and commercial applications. To contribute to the effective integration of renewable energy in the dairy sector, this paper presents a multi-objective optimisation control system based on differential evolution and multi agent Deep Reinforcement Learning. The proposed control is ",
+      "published": "2026-07-07T16:48:27Z",
+      "authors": [
+        "Marcos Eduardo Cruz Victorio",
+        "Karl Mason"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dual imaginary vectors, tight monomial cones and quantum Frobenius morphism",
+      "link": "https://arxiv.org/abs/2607.06487v1",
+      "summary": "We show that the quantum Frobenius morphism and its splitting are not fully compatible with the canonical basis for any finite-dimensional simple Lie algebra if the rank is sufficiently large. The incompatibility occurs at same place where Leclerc found his imaginary vectors, and where there are monomials in the tight monomial cone which do not belong to the canonical basis.",
+      "published": "2026-07-07T16:47:25Z",
+      "authors": [
+        "Felix Röhrich"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
