@@ -1,0 +1,609 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "link": "https://arxiv.org/abs/2607.07708v1",
+      "summary": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint ch",
+      "published": "2026-07-08T17:59:59Z",
+      "authors": [
+        "Chen Tang",
+        "Yizhou Wang",
+        "Jianyu Wu",
+        "Lintao Wang",
+        "Shixiang Tang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Subversive Role of Excessive External Shear in Concealing Lensing Anomalies",
+      "link": "https://arxiv.org/abs/2607.07709v1",
+      "summary": "To best reproduce observed multiply-lensed lensed images, lens models usually incorporate shear attributed to objects unrelated to the lensing galaxy (i.e., external shear): whether it be neighbouring galaxies not explicitly included in the lens model or other cosmic structures along the sightline. When constrained solely by the positions of image counterparts, such lens models, even those utilising simple ellipsoidal mass distributions, can satisfactorily -- if not near perfectly -- reproduce t",
+      "published": "2026-07-08T17:59:59Z",
+      "authors": [
+        "Amruth Alfred",
+        "Shashpal Singh",
+        "Rommulus Francis Lewis",
+        "Alex Chow",
+        "Jeremy Lim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "link": "https://arxiv.org/abs/2607.07707v1",
+      "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant ",
+      "published": "2026-07-08T17:59:45Z",
+      "authors": [
+        "Yair Feldman",
+        "Linxi Zhao",
+        "Nathan Godey",
+        "Dongyoung Go",
+        "Yilun Hua"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "link": "https://arxiv.org/abs/2607.07706v1",
+      "summary": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of ",
+      "published": "2026-07-08T17:59:09Z",
+      "authors": [
+        "Anna Kuzina",
+        "Paul N. Whatmough",
+        "Babak Ehteshami Bejnordi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Radio emission from close-in exoplanets: Can we extend the radio-magnetic scaling law to the sub-Alfvénic stellar wind regime?",
+      "link": "https://arxiv.org/abs/2607.07704v1",
+      "summary": "Observations of exoplanetary radio aurora can directly probe planetary magnetic fields and magnetic star-planet interactions. However, the search for exoplanetary radio aurora has been without confirmed detections despite favorable predictions based on extrapolations of the radio-magnetic scaling law (RMSL). The RMSL is based on solar system planets in the super-Alvenic solar wind and it is unclear whether the RMSL holds for close-in exoplanets in more magnetic, sub-Alfvenic winds. We aim to tes",
+      "published": "2026-07-08T17:58:18Z",
+      "authors": [
+        "Filip Elekes",
+        "Aline A. Vidotto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+      "link": "https://arxiv.org/abs/2607.07702v1",
+      "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real execution traces are difficult to use directly for optimization: large trace collections are often redundant and heterogeneous, making optimization inefficient and prone to overfitting to low-value failures; meanwhile, each individual trajectory also contains many irrelevant steps, ",
+      "published": "2026-07-08T17:57:27Z",
+      "authors": [
+        "Ying Chang",
+        "Jiahang Xu",
+        "Xuan Feng",
+        "Chenyuan Yang",
+        "Peng Cheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Coherent Signal Detection with Pruning -- I. Finding Short-Period Binary Pulsars in Circular Orbits",
+      "link": "https://arxiv.org/abs/2607.07700v1",
+      "summary": "Detecting pulsars in short-period binary systems, which are unparalleled laboratories for fundamental physics and tests of general relativity, is a prime objective of radio astronomy. Their rapid orbital motion, however, presents a formidable computational challenge. Conventional searches are therefore limited to simplified signal models (e.g., constant acceleration) that remain valid for only short integrations ($\\lesssim 4$-$10$% of an orbital period). This fundamental limitation severely degr",
+      "published": "2026-07-08T17:56:53Z",
+      "authors": [
+        "Pravir Kumar",
+        "Barak Zackay"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tracing the Evolution of the Balmer Break from Cosmic Dawn to Cosmic Noon with JWST",
+      "link": "https://arxiv.org/abs/2607.07698v1",
+      "summary": "The Balmer break (BB) is a key spectral feature for constraining stellar population ages, star formation histories, and redshifts of high-redshift sources. The redshift evolution and distribution of BB strength, together with the properties of BB galaxies, constrain stellar population characteristics and the nature of star formation across cosmic epochs. However, a systematic and unbiased characterization of BB strengths across the full galaxy population remains limited with the James Webb Space",
+      "published": "2026-07-08T17:55:36Z",
+      "authors": [
+        "Adarsh Kuruvanthodi",
+        "Daniel Schaerer",
+        "Rui Marques-Chaves",
+        "Andrea Weibel",
+        "Damien Korber"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+      "link": "https://arxiv.org/abs/2607.07696v1",
+      "summary": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query execution and other driver layers that are not designed for bulk columnar analytics. We present Jailbreak, an approach that bypasses the database engine entirely by reading storage files directly and materializing data as in-memory columnar buffers. Jailbreak's key insight is that datab",
+      "published": "2026-07-08T17:55:00Z",
+      "authors": [
+        "Victor Giannakouris",
+        "Immanuel Trummer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+      "link": "https://arxiv.org/abs/2607.07695v1",
+      "summary": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contexts, five canonical rules, and seven model populations (33,924 games), with a normative cooperative reference and auto-labelled reasoning traces",
+      "published": "2026-07-08T17:53:56Z",
+      "authors": [
+        "Yujiao Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+      "link": "https://arxiv.org/abs/2607.07693v1",
+      "summary": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations. This limitation reduces the practicality of diffusion RLHF in realworld settings where feedback is the primary bottleneck. In this paper, we propose two complementary strategies that subs",
+      "published": "2026-07-08T17:49:49Z",
+      "authors": [
+        "Eric Zhu",
+        "Abhinav Shrivastava",
+        "Soumik Mukhopadhyay"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Faster quantum linear system solver beyond the condition number",
+      "link": "https://arxiv.org/abs/2607.07691v1",
+      "summary": "The spectral condition number is a widely adopted measure of worst-case cost for quantum linear system solvers. Yet it can significantly overestimate the actual runtime for a typical problem instance. We present two quantum algorithms that produce the normalized solution $|x\\rangle$ of linear system $Ax=| b \\rangle$ to accuracy $ε$ with complexity independent of the condition number $κ=\\lVert A^{-1}\\rVert$. We focus on the standard input model where $A$ is accessed through a block encoding and $",
+      "published": "2026-07-08T17:49:40Z",
+      "authors": [
+        "Alexander M. Dalzell",
+        "Jianqiang Li",
+        "Yuan Su"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
+      "link": "https://arxiv.org/abs/2607.07690v1",
+      "summary": "Reinforcement learning from verifiable rewards (e.g. GRPO) is the engine behind today's reasoning models, yet it grades only the final answer. On hard problems this trains models to write more rather than to think better, since the trace itself is never graded and no label for good thinking exists. We introduce Agon, which makes two competing models each other's graders. Both attempt the same problem; in alternating roles, one drafts a solution and the other reads it while solving, and each is r",
+      "published": "2026-07-08T17:49:14Z",
+      "authors": [
+        "Vladislav Beliaev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agent Delivery Engineering Predictive Reliability Framework",
+      "link": "https://arxiv.org/abs/2607.07689v1",
+      "summary": "Long-horizon LLM multi-agent systems face reliability risks invisible to infrastructure monitoring. We propose the ADE Predictive Reliability Framework (ADE-PRF), enabling proactive health trajectory prediction from passive degradation detection. ADE-PRF aggregates 20 heterogeneous signals across five layers into a Trust Margin (TM) metric (39.2-point dynamic range). Triple-method parallel prediction enables 8-hour forecasts: the Exponential method achieves MAE=1.228, Direction Accuracy=76.8%, w",
+      "published": "2026-07-08T17:49:08Z",
+      "authors": [
+        "Dexing Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Small Matrices with Large Inverses: Unimodular $4 \\times 4$ Cases",
+      "link": "https://arxiv.org/abs/2607.07688v1",
+      "summary": "How close to singularity can an $n \\times n$ unimodular matrix be? For ternary cases as $n$ increases, exact expressions are unlikely, but upon fixing $n=4$ and assessing $(2k+1)$-ary cases as $k$ increases, we make significant progress; similarly for $(k+1)$-ary cases of $4\\times 4$ nonnegative unimodular matrices.",
+      "published": "2026-07-08T17:47:54Z",
+      "authors": [
+        "Steven Finch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unification of polynomial and exponential cosmological attractors",
+      "link": "https://arxiv.org/abs/2607.07684v1",
+      "summary": "We introduce a family of simple $α$-attractor models that can interpolate between exponential and polynomial cosmological attractors. By varying the interpolation parameter $μ$ in these models, one can scan a wide range of values of the spectral index $n_{s}$ matching any combination of CMB and DESI data.",
+      "published": "2026-07-08T17:43:36Z",
+      "authors": [
+        "Renata Kallosh",
+        "Andrei Linde"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ECGLight: Compute-Light Framework For Paper ECG Digitization and Myocardial Infarction Screening",
+      "link": "https://arxiv.org/abs/2607.07683v1",
+      "summary": "Electrocardiography (ECG) is one of the most widely used tests for diagnosing cardiovascular disease. Yet several remote clinics still utilize paper ECG printouts for their analysis due to limited connectivity and computational capacity. As a result, vast numbers of physical ECGs obtained in remote areas still remain incapable of being accessed by contemporary artificial-intelligence (AI)-based decision support as they require high computational resources or strong high-speed internet connectivi",
+      "published": "2026-07-08T17:42:00Z",
+      "authors": [
+        "Shreyasvi Natraj",
+        "Cyrus Achtari",
+        "Felice Gragnano",
+        "Andrea Milzi",
+        "Marco Valgimigli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neural Operator-enabled Topology-informed Evolutionary Strategy for PDE-Constrained Optimization",
+      "link": "https://arxiv.org/abs/2607.07682v1",
+      "summary": "The inverse design of physical systems governed by partial differential equations is computationally demanding due to the high dimensionality and non-convexity of design spaces. Generative models for inverse design often lack robustness and transferability, whereas evolutionary strategies are robust but struggle in high-dimensional spaces. This paper introduces a Neural Operator-enabled Topology-informed Evolutionary Strategy (NOTES) that integrates dimensionality reduction, representation learn",
+      "published": "2026-07-08T17:41:56Z",
+      "authors": [
+        "Xiangming Huang",
+        "Guannan Zhang",
+        "Lu Lu",
+        "Raphaël Pestourie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Any-Dimensional Learning by Sampling",
+      "link": "https://arxiv.org/abs/2607.07680v1",
+      "summary": "Many machine learning models are defined for inputs of different sizes, such as point clouds containing different numbers of points, sequences of tokens of different lengths, and graphs on different numbers of nodes. Such models are trained on finitely-many examples of necessarily limited sizes. How well do these models generalize from inputs of small size to larger inputs of size not seen during training? Furthermore, evaluating such models on large inputs is often expensive. How can we sketch ",
+      "published": "2026-07-08T17:38:29Z",
+      "authors": [
+        "Eitan Levin",
+        "Venkat Chandrasekaran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Data Shapes RoPE Frequency Usage: From Positional Scale Matching to Length Generalization",
+      "link": "https://arxiv.org/abs/2607.07678v1",
+      "summary": "Rotary Position Embeddings (RoPE) provide transformers with a fixed grid of positional frequencies, yet trained models use these frequencies highly non-uniformly. We study what determines this frequency usage and propose a data-centered explanation: RoPE frequencies are selected to match the relative-distance structure of the training data. Viewing each frequency as a positional lens, we formalize a field-resolution tradeoff and show that, for a data-induced dependency profile of width $W$, the ",
+      "published": "2026-07-08T17:38:14Z",
+      "authors": [
+        "Xinyi Wu",
+        "Siyuan Liu",
+        "Ali Jadbabaie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
+      "link": "https://arxiv.org/abs/2607.07677v1",
+      "summary": "Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mimics rational decision-making. The matching rule was later shown to be optimal under general assumptions about the underlying return-on-investment structure, yet the specific objective the cell maximizes, and the constraints bounding that choice, were never written down as an explicit economic decision. Here we supply that missing",
+      "published": "2026-07-08T17:36:33Z",
+      "authors": [
+        "Jeffrey D. Varner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents",
+      "link": "https://arxiv.org/abs/2607.07676v1",
+      "summary": "Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable. We introduce SkillCenter, to our knowledge the largest open skill library for agents by total count: 216,938 structured skills across 24 domain bundles. A SkillGate-filtered pipeline contributes 114,565 source-grounded skills from peer-reviewed journals, ArXiv, and over 24,000 technical so",
+      "published": "2026-07-08T17:34:28Z",
+      "authors": [
+        "Tianming Sha",
+        "Yue Zhao",
+        "Lichao Sun",
+        "Yushun Dong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "link": "https://arxiv.org/abs/2607.07675v1",
+      "summary": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, f",
+      "published": "2026-07-08T17:33:40Z",
+      "authors": [
+        "Shuailei Ma",
+        "Jiaqi Liao",
+        "Xinyang Wang",
+        "Jingjing Wang",
+        "Chaoran Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Max Out GRPO Signal: Adaptive Trace Prefix Control for Hard Reasoning Problems",
+      "link": "https://arxiv.org/abs/2607.07674v1",
+      "summary": "Group Relative Policy Optimization (GRPO) stalls on a model's hardest problems: when no rollout in a group succeeds, the group-relative advantages vanish and the problem contributes no gradient, wasting the frontier examples we most want to learn from. Prepending a correct prefix of a reference solution raises the success rate, making prefix length a continuous knob on difficulty. Concurrent methods set the knob once; AdaPrefix-GRPO turns it into a feedback controller: throughout training it adj",
+      "published": "2026-07-08T17:32:58Z",
+      "authors": [
+        "Vladislav Beliaev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+      "link": "https://arxiv.org/abs/2607.07673v1",
+      "summary": "Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data. Although PubMed Central (PMC) offers a complementary source of expert-authored image-text data, existing PMC-derived resources remain limited in fidelity, reproducibility, and clinical validation. We introduce MedPMC, an automated, continuously updatable frame",
+      "published": "2026-07-08T17:26:49Z",
+      "authors": [
+        "Hyunjae Kim",
+        "Dain Kim",
+        "Pan Xiao",
+        "Serina S. Applebaum",
+        "Younjoon Chung"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PeTeR: Post-Training Robustification of Probabilistic Circuits",
+      "link": "https://arxiv.org/abs/2607.07671v1",
+      "summary": "Probabilistic circuits (PCs) can model complex joint distributions while supporting exact and efficient computation of many inference queries. However, standard likelihood-based PC learning is vulnerable to overfitting and fragile generalization when confronted with data noise, small sample sizes, or distribution shifts. This can be mitigated using distributionally-robust optimization which consider worst-case distributions within a Wasserstein ball of the empirical distribution, but current met",
+      "published": "2026-07-08T17:25:20Z",
+      "authors": [
+        "Adrian Ciotinga",
+        "Yeming Dai",
+        "YooJung Choi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Does Bielik Know What It Doesn't Know? Activation Dispersion Separates Entity Familiarity from Factual Reliability Across Model Scale",
+      "link": "https://arxiv.org/abs/2607.07670v1",
+      "summary": "Large language models hallucinate most about entities they have never seen. We ask whether a model's activations betray entity familiarity before a single answer token is generated, and whether that signal predicts the factual reliability of the answers. On four Polish Bielik models (1.5B-11B parameters), we probe four entity domains (athletes, cities, writers, musicians), each with 42 well-known, 42 obscure-but-real, and 42 fabricated entities addressed by a one-sentence question (504 prompts p",
+      "published": "2026-07-08T17:24:43Z",
+      "authors": [
+        "Grzegorz Brzezinka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DiaLLM: An Investigation into the Robustness-Generation Gap in English Dialect Adaptation",
+      "link": "https://arxiv.org/abs/2607.07669v1",
+      "summary": "Large language models increasingly \\emph{understand} dialectal English, yet still \\emph{produce} only standard, US-leaning English, leaving dialectal generation, the harder half of the problem, largely unaddressed. We introduce \\textbf{DiaLLM}, which continually pretrains three open-weight language model families on the International Corpus of English and applies implicit and explicit post-training paradigms, each combined with three model alignment strategies, giving the first controlled compar",
+      "published": "2026-07-08T17:24:27Z",
+      "authors": [
+        "Jordan Painter",
+        "Dipankar Srirag",
+        "Adarsh Kappiyath",
+        "Diptesh Kanojia",
+        "Aditya Joshi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Subsolar-mass binary mergers of strange stars and neutron stars: gravitational waves and ejecta",
+      "link": "https://arxiv.org/abs/2607.07668v1",
+      "summary": "We present the first numerical-relativity simulations of subsolar-mass binary strange star (SS) mergers and compare with binary neutron star (NS) mergers across equations of state, masses, and mass ratios. The self-bound nature of SSs makes them less deformed during the inspiral and keeps a sharp surface up to contact, driving strong shock heating and a large radial bounce that are far weaker in the NS. The more compact SS thus reaches a higher gravitational-wave cutoff frequency $f_\\mathrm{cut}",
+      "published": "2026-07-08T17:23:41Z",
+      "authors": [
+        "Yong Gao",
+        "Ming-Zhe Han",
+        "Kenta Kiuchi",
+        "Masaru Shibata",
+        "Enping Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
+      "link": "https://arxiv.org/abs/2607.07666v1",
+      "summary": "Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workflows requiring multi-session continuity and quantitative rigor. Here we present Ensemble QSP, a multi-agent framework featuring a three-layer hierarchical memory architecture that keeps injected context bounded and constant in project duration (mid-term project state: median 301 tokens, max 4,050, across 104 runs) by capping ea",
+      "published": "2026-07-08T17:22:28Z",
+      "authors": [
+        "Shivendra G. Tewari",
+        "Holly Kimko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Guidance Breaks the Fitted Operator: A Terminal-Fitted Repair for Classifier-Free Guidance",
+      "link": "https://arxiv.org/abs/2607.07665v1",
+      "summary": "Classifier-free guidance (CFG) is the standard way to strengthen class-conditioning in diffusion and flow-matching samplers, yet at large guidance it oversaturates and destabilizes, symptoms practitioners suppress with more steps or limited-interval schedules. We analyze CFG through an asymptotic-preserving, numerical-analysis lens. Building on a recent result that the deterministic DDIM step is the unique fitted operator for the unguided terminal layer, exact on the final small-sigma stretch of",
+      "published": "2026-07-08T17:21:51Z",
+      "authors": [
+        "Shiheng Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Single inclusive hadron and jet production in lepton-hadron scattering",
+      "link": "https://arxiv.org/abs/2607.07664v1",
+      "summary": "We present the first calculation of single inclusive hadron and jet production at large transverse momentum in lepton-hadron scattering in a joint QCD+QED factorization approach. The scattering cross section is factorized into a convolution of infrared-safe hard coefficient functions with universal lepton distribution functions (LDFs) and parton distribution functions (PDFs) of the colliding lepton and hadron, respectively, together with fragmentation functions (FFs) of the observed hadron (or j",
+      "published": "2026-07-08T17:21:44Z",
+      "authors": [
+        "Jian-Wei Qiu",
+        "Kazuhiro Watanabe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+      "link": "https://arxiv.org/abs/2607.07663v1",
+      "summary": "AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting AI research itself. This literature is described under a vocabulary (\"self-refine,\" \"self-reward,\" \"self-play,\" \"self-evolve\") that conflates fundamentally different ambitions. We survey 1,250 arXiv papers (2024-2026) along two axes: what the system improves -- its behavior in deployment, its policy thr",
+      "published": "2026-07-08T17:19:50Z",
+      "authors": [
+        "Mingguang Chen",
+        "Licheng Wang",
+        "Bo Qu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Impact of Channel Dynamics on Higher-order Interactions of Oscillators",
+      "link": "https://arxiv.org/abs/2607.07662v1",
+      "summary": "Modeling higher-order interactions (HOIs) in nonlinear networks with static topologies is often physically restrictive. We demonstrate that standard 3-body Kuramoto couplings are mathematically equivalent to pairwise connections modulated by latent variables of transmission channels. While standard HOI topologies emerge in the adiabatic limit of these variables, relaxing this constraint reveals that latent channel timescales dictate collective macroscopic states. Specifically, transmission inert",
+      "published": "2026-07-08T17:19:36Z",
+      "authors": [
+        "Gabriel Marghoti",
+        "Isabela A. Martins",
+        "Giovana S. Spezzatto",
+        "Emanuel B. S. A. Cambraia",
+        "Sergio R. Lopes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Six-Pole Dual-band Bandpass Filter for WiMAX Applications",
+      "link": "https://arxiv.org/abs/2607.07661v1",
+      "summary": "Recent advances in multi-band wireless communication systems have driven the increasing need for dual-band bandpass filters. These types of filters are capable of isolating a small section of the frequency spectrum within a broader spectrum. Over the years, coplanar waveguide, microstrip, slotline, stripline, and other planar transmission line technologies have been widely employed in the design of microwave circuits and systems. This work employs a Folded-Arms Square Open-Loop Resonator (FASOLR",
+      "published": "2026-07-08T17:17:17Z",
+      "authors": [
+        "Halimat Olamide Yusuf",
+        "Augustine O. Nwajana"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wavelength-resolved small-angle neutron spectroscopy of spin waves in MnSi under pressure",
+      "link": "https://arxiv.org/abs/2607.07660v1",
+      "summary": "We report wavelength-resolved spin-wave small-angle neutron scattering (SWSANS) on the time-of-flight SANS instrument BL01 at the China Spallation Neutron Source and extend the method to pressure-cell measurements of MnSi. MnSi is used as a benchmark B20 helimagnet because its helimagnetic order and spin-wave stiffness are well characterized at ambient pressure. In a fixed magnetic field, the time-of-flight measurement provides a spectrum of neutron wavelengths. For each detector branch $s=\\pm1$",
+      "published": "2026-07-08T17:16:14Z",
+      "authors": [
+        "E. V. Altynbaev",
+        "D. O. Skanchenko",
+        "Z. Xie",
+        "Y. Ke",
+        "Y. Bao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Predicting Multi-Order Magnetic Polariton Resonances for Radiative Properties Tailoring by Distributed Circuit Model",
+      "link": "https://arxiv.org/abs/2607.07657v1",
+      "summary": "Surface plasmon polaritons (SPPs) and magnetic polaritons (MPs) are fundamental resonance modes that are widely used to tailor the thermal radiation properties of micro/nanostructured metamaterials. Lumped circuit models (LCMs) are usually constructed empirically to describe the MP resonance conditions, and different LCMs have to be constructed for different orders of MPs, but these are difficult to be built for high-order MP modes due to the complex electromagnetic field distribution. This work",
+      "published": "2026-07-08T17:13:54Z",
+      "authors": [
+        "Hangjie Li",
+        "Junming Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ordering and Defect Dynamics in Passive and Active Nematopolars",
+      "link": "https://arxiv.org/abs/2607.07656v1",
+      "summary": "The coexistence of polar and nematic interactions, observed in a broad range of biological and synthetic active systems, gives rise to a rich phenomenology that continues to challenge our theoretical understanding of non-equilibrium collective behaviour. In this paper, we numerically investigate phase ordering and defect dynamics in a newly introduced minimal single-field model for dry nematopolar systems, where competing polar and nematic contributions enter the free energy, and activity is imp",
+      "published": "2026-07-08T17:13:16Z",
+      "authors": [
+        "Fabio Aprile",
+        "Massimiliano Semeraro",
+        "Giuseppe Gonnella"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robustness to Model Uncertainties Drives More Rapid CO2 Emissions Reductions",
+      "link": "https://arxiv.org/abs/2607.07655v1",
+      "summary": "Evaluating the economic impacts of climate policies is important for designing a response to climate change. One typical approach to assessing mitigation policy options uses integrated climate-economy models to analyze tradeoffs between the costs of reducing greenhouse gas emissions and the benefits of reducing climate damages. However, the uncertainty characterizing these models poses significant challenges for policymakers. We address this difficulty using a robust decision-making framework to",
+      "published": "2026-07-08T17:12:33Z",
+      "authors": [
+        "Lisa Rennels",
+        "Frank Errickson",
+        "David Smith",
+        "Bryan Parthum",
+        "Klaus Keller"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Athinization of irreducible $\\widehat{\\mathfrak{gl}}_n$-modules with dominant highest weights",
+      "link": "https://arxiv.org/abs/2607.07653v1",
+      "summary": "We study the Gelfand-Tsetlin realization of generic Verma modules for the affine Lie algebra $\\widehat{\\mathfrak{gl}}_n$ by viewing them as thin modules over the affine Yangian $Y(\\widehat{\\mathfrak{sl}}_n)$. By results of arXiv:0812.4656, these modules admit a basis indexed by periodic Gelfand-Tsetlin patterns with explicit formulas for the Yangian action, and we identify them with the evaluation modules introduced by Kodera arXiv:1806.09884.   Our main result describes the specialization from ",
+      "published": "2026-07-08T17:09:36Z",
+      "authors": [
+        "Mikhail Bershtein",
+        "Evgeny Mukhin",
+        "Leonid Rybnikov",
+        "Aleksandr Trufanov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pic2Spec: Generative Modeling Reconstructs Single Cell Raman Fingerprints from Brightfield Images",
+      "link": "https://arxiv.org/abs/2607.07651v1",
+      "summary": "Single-cell molecular characterization remains a bottleneck in scalable biological analysis because of labeling requirements, limited multiplexing, and reagents that perturb physiology. Raman spectroscopy addresses these limits by providing chemically specific, label-free vibrational fingerprints, but long acquisition times and specialized instruments restrict high-throughput use. Here, we overcome this barrier by showing that spectral fingerprints can be reconstructed from brightfield microscop",
+      "published": "2026-07-08T17:06:48Z",
+      "authors": [
+        "Srilakshmi Premachandran",
+        "Amit Kumar Bhuyan",
+        "Loza F. Tadesse"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Modeling Failure Dynamics in Time-Constrained Authentication Systems: Evidence of a Success Cliff in USSD Workflows",
+      "link": "https://arxiv.org/abs/2607.07650v1",
+      "summary": "Time-constrained interactive systems such as USSD (Unstructured Supplementary Service Data)-based financial services operate under strict session limits and sequential user interaction. While stronger authentication mechanisms improve security, they also increase interaction complexity and time burden, potentially reducing transaction completion. In this work, we model the failure dynamics of such systems and investigate how authentication complexity interacts with user response time and network",
+      "published": "2026-07-08T17:06:30Z",
+      "authors": [
+        "Aklile Seyoum Mamo",
+        "Amanuel Kebede",
+        "Anny Christelle Irakoze",
+        "Jema Ndibwile"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semilocal exchange functionals from the exact-exchange condition for the hydrogen atom: Hydrogenic exactness and recovery of Rydberg-like bound states",
+      "link": "https://arxiv.org/abs/2607.07648v1",
+      "summary": "In semilocal density functionals the exchange potential decays too rapidly outside atoms and molecules and lacks the correct $-1/r$ tail; as a consequence, functionals from PBE to modern meta-GGAs such as SCAN support no bound Rydberg-like state of an atom. We revisit the gradient-corrected exchange functional that Gill and Pople (GP93) constructed to reproduce the exact exchange potential of the hydrogen atom, solve their equation as an inverse problem, and use the resulting enhancement factor ",
+      "published": "2026-07-08T17:05:31Z",
+      "authors": [
+        "Fumihiro Imoto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RL Post-Training Builds Compositional Reasoning Strategies",
+      "link": "https://arxiv.org/abs/2607.07646v1",
+      "summary": "Does RL post-training merely amplify primitive skills already latent in a base model, or can it compose primitive skills into new higher-level strategies? We study this question in a fully observable rewrite-grammar environment where the pretraining distribution is known and every generated rewrite can be audited. A Transformer is pretrained on primitive symbol-rewrite chains and post-trained on a Trace-based reasoning task with only a binary final-answer reward. RL solves held-out problems that",
+      "published": "2026-07-08T17:04:42Z",
+      "authors": [
+        "Azwar Abdulsalam",
+        "Nishil Patel",
+        "Andrew Saxe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models",
+      "link": "https://arxiv.org/abs/2607.07647v1",
+      "summary": "Most MLIP benchmarks reward static accuracy while ignoring inference efficiency and hardware scalability -- driving model bloat with unclear real-world value. We benchmark 23 mainstream open-source MLIPs on a low-cost NVIDIA DGX Spark (128 GB native memory, capped at 80 GB to mimic ordinary lab hardware), using a fixed 192-atom system under a unified ASE-based pipeline. We evaluate three dimensions: predictive accuracy, MD simulation throughput, and atomic scalability. Our results expose a sharp",
+      "published": "2026-07-08T17:04:42Z",
+      "authors": [
+        "Hanwen Kang",
+        "Tenglong Lu",
+        "Sheng Meng",
+        "Miao Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ATLAS: Automated HLS for DL-Optimized FPGAs",
+      "link": "https://arxiv.org/abs/2607.07643v1",
+      "summary": "FPGA architectures increasingly incorporate domain-specific in-fabric hardblocks to accelerate DL inference, particularly GEMM, which dominates DL computation. To realize the performance gains of these hardblocks, manual RTL design is required: the programmer must understand the hardblock microarchitecture, instantiate them in RTL, and manage tiling and control logic. While programming in C/C++ and using HLS tools has increased the abstraction level and productivity of FPGA engineers, HLS tools ",
+      "published": "2026-07-08T17:00:41Z",
+      "authors": [
+        "Ruthwik Reddy Sunketa",
+        "Aman Arora"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ALER-TI: Aligned Latent Embedding Retrieval for Time Series Imputation",
+      "link": "https://arxiv.org/abs/2607.07640v1",
+      "summary": "Deep learning has significantly advanced time series imputation, yet most existing architectures primarily rely on localized temporal context within the corrupted input sequence. This reliance can be limiting in real-world scenarios, where time series often exhibit non-stationary dynamics, weak temporal correlations, and infrequent patterns that are difficult to reconstruct from nearby observations alone. In this paper, we propose ALER-TI, Aligned Latent Embedding Retrieval for Time Series Imput",
+      "published": "2026-07-08T16:59:38Z",
+      "authors": [
+        "Xuan-Thong Truong",
+        "Trung-Kien Le",
+        "Tung Kieu",
+        "Thi-Thu Nguyen",
+        "Nhat-Hai Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unlearning to Protect: A Distilled Reinforcement Learning Framework with Privacy-Preserving Feature Unlearning and XAI for IoT Security",
+      "link": "https://arxiv.org/abs/2607.07635v1",
+      "summary": "Botnets pose a significant cybersecurity threat, enabling attacks such as DDoS, data theft, and service disruptions on IoT devices. These devices often lack built-in botnet traffic filtering, leaving them highly exposed. Existing AI-based solutions improve detection capabilities but have limitations: (i) they are too heavy for IoT deployment, and (ii) they lack unlearning capabilities to forget sensitive or outdated features without retraining. To address these challenges, we propose DiRLU, a li",
+      "published": "2026-07-08T16:52:35Z",
+      "authors": [
+        "Md. Nahid Hasan",
+        "Golam Rabiul Alam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Distributed Circuit Model for Predicting the Quality Factor of Magnetic Polariton Resonance",
+      "link": "https://arxiv.org/abs/2607.07633v1",
+      "summary": "Existing RLC circuit model leads to inaccurate predictions of the quality factor (Q-factor) of magnetic polariton (MP) resonances under imperfect absorption conditions due to the omission of radiation loss. Moreover, the lumped-parameter nature of RLC models also limits their applicability for predicting higher-order MP modes. In this letter, we propose a distributed circuit model (DCM) for predicting the Q-factor of MP resonances, which overcomes these limitations. By introducing a radiation re",
+      "published": "2026-07-08T16:49:43Z",
+      "authors": [
+        "Hangjie Li",
+        "Junming Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Custom-Fit to Portable: Bridging the Gap Between Synthesized and Engineered GPU Query Execution",
+      "link": "https://arxiv.org/abs/2607.07632v1",
+      "summary": "GPUs are increasingly used for analytical query processing, but developing GPU-based database engines that achieve the peak performance of the underlying hardware requires substantial research and engineering effort. A recent line of work argues that query processing should be synthesized, not engineered. In this scenario, instead of tuning a general-purpose engine to fit a workload, a large language model (LLM) generates code specialized to one query, one dataset, and one machine, thereby achie",
+      "published": "2026-07-08T16:47:31Z",
+      "authors": [
+        "Ivan Donchev Kabadzhov",
+        "Eugenio Marinelli",
+        "Raja Appuswamy"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
