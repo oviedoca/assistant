@@ -1,0 +1,628 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "link": "https://arxiv.org/abs/2607.13034v1",
+      "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edit into a small code-base audit. We argue the missing capability is task-aware execution-scope estimation: judging a task's difficulty, the information it truly needs, and the shortest reliable path be",
+      "published": "2026-07-14T17:59:31Z",
+      "authors": [
+        "Junjie Yin",
+        "Xinyu Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2607.13033v1",
+      "summary": "Reinforcement learning holds great promise for improving robot policies beyond the limits of imitation learning. However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informative feedback. Two key challenges remain: acquiring diverse failure data at scale and obtaining fine-grained reward signals beyond sparse trajectory-level success labels. Collecting failure trajectories typically requires laborious human effort, whil",
+      "published": "2026-07-14T17:59:29Z",
+      "authors": [
+        "Yu Fang",
+        "Wanxi Dong",
+        "Jiaqi Liu",
+        "Yue Yang",
+        "Mingxiao Huo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Seriality Gap in Video Diffusion Models",
+      "link": "https://arxiv.org/abs/2607.13031v1",
+      "summary": "When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided more denoising steps. In a length-matched single-ball control, where ball-ball interactions are absent, the degradation largely disappears, isolating dependent-event structure rather than video length a",
+      "published": "2026-07-14T17:59:22Z",
+      "authors": [
+        "Jorge Diaz Chao",
+        "Konpat Preechakul",
+        "Yuxi Liu",
+        "Yutong Bai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "link": "https://arxiv.org/abs/2607.13028v1",
+      "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a procedural driving simulator and self-play training stack. A configurable C engine runs simulation on the CPU and policy inference on the GPU over a zero-copy path, sustaining 1.3M agent-steps per se",
+      "published": "2026-07-14T17:59:02Z",
+      "authors": [
+        "Zhouchonghao Wu",
+        "Akshay Rangesh",
+        "Weixin Li",
+        "Wei-Jer Chang",
+        "Zachary Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "link": "https://arxiv.org/abs/2607.13027v1",
+      "summary": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also important agent environments because they are widely accessible and contain users' data, sensors, and daily-use applications. Existing mobile agents mainly operate smartphones through graphical user ",
+      "published": "2026-07-14T17:58:57Z",
+      "authors": [
+        "Hongru Cai",
+        "Yongqi Li",
+        "Ran Wei",
+        "Wenjie Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Simulating the convection in red super-giant stars: wobbling jets in common envelope evolution",
+      "link": "https://arxiv.org/abs/2607.13023v1",
+      "summary": "We use our newly constructed three-dimensional red supergiant (RSG) stellar model, which also mimics nuclear energy production and photospheric emission, to calculate the stochastic component of the angular momentum of the mass that a companion spiraling within the RSG's envelope accretes during common envelope evolution (CEE). The accreted mass has a fixed-direction angular-momentum component arising from the density gradient in the RSG envelope and orbital motion. The angular momentum componen",
+      "published": "2026-07-14T17:58:19Z",
+      "authors": [
+        "Shlomi Hillel",
+        "Ron Schreier",
+        "Noam Soker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
+      "link": "https://arxiv.org/abs/2607.13022v1",
+      "summary": "Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of primary interest, direct numerical simulations must resolve the full transient dynamics before reaching it, incurring significant computational cost. In Computational Fluid Dynamics, reduced-order approaches such as Large Eddy Simulation mitigate computational cost by modeling small-scale dynamics, ena",
+      "published": "2026-07-14T17:58:13Z",
+      "authors": [
+        "Gianluca Galletti",
+        "Gerald Gutenbrunner",
+        "William Hornsby",
+        "Lorenzo Zanisi",
+        "Naomi Carey"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gamma-ray Modes in a Transitional Pulsar",
+      "link": "https://arxiv.org/abs/2607.13019v1",
+      "summary": "Transitional millisecond pulsars (tMSPs) exhibit a unique sub-luminous disk state, at the cross-roads between accretion and rotation power, where they switch between two distinct X-ray modes. We present the discovery of gamma-ray modes in PSR J1023+0038, the first confirmed tMSP, from stacking Fermi-LAT data during the modes (which we identify using simultaneous X-ray observations). Surprisingly, we find that gamma-rays and X-rays are anti-correlated during this mode switching: the gamma-ray flu",
+      "published": "2026-07-14T17:57:41Z",
+      "authors": [
+        "Maksat Satybaldiev",
+        "Manuel Linares"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Antikick Relation in High-Energy Head-On Collisions of Spinning Black Holes",
+      "link": "https://arxiv.org/abs/2607.13018v1",
+      "summary": "The collision of black holes at relativistic speeds probes gravity in its most extreme dynamical regime. While the maximum gravitational recoil from \\emph{grazing} high-energy collisions ($\\approx28\\,562$~km/s, i.e., $\\sim0.1c$) and the maximum radiated energy $E_{\\rm rad}$ and remnant spin $α_f^{\\max}$ from such encounters ($E_{\\rm rad}/M_{\\rm ADM}\\approx32\\%$ where $M_{\\rm ADM}$ is the ADM mass, and $α_f^{\\max}\\approx0.987$) have been established previously~\\cite{Healy:2022jbh,Healy:2024lhl}, ",
+      "published": "2026-07-14T17:57:21Z",
+      "authors": [
+        "Carlos O. Lousto",
+        "James Healy",
+        "Alessandro Ciarfella",
+        "Hiroyuki Nakano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+      "link": "https://arxiv.org/abs/2607.13017v1",
+      "summary": "World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control. Existing numerical actions fail to satisfy the former, and prior visual action representations overlook the temporal motion structure across fram",
+      "published": "2026-07-14T17:57:12Z",
+      "authors": [
+        "Yixiang Chen",
+        "Peiyan Li",
+        "Yuan Xu",
+        "Qisen Ma",
+        "Jiabing Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Topological characterization of multifold band degeneracies in Altland-Zirnbauer symmetry classes",
+      "link": "https://arxiv.org/abs/2607.13016v1",
+      "summary": "Topological band degeneracies are conventionally characterized by invariants defined on enclosing spheres over which the energy spectrum remains gapped. This program has been completed for minimal degeneracies in all ten Altland-Zirnbauer (AZ) symmetry classes, whereas higher-order degeneracies have been studied almost exclusively under crystalline-symmetry protection. In this work, we characterize generic n-fold band degeneracies whose stability derives solely from AZ symmetries acting locally ",
+      "published": "2026-07-14T17:56:46Z",
+      "authors": [
+        "Askar Iliasov",
+        "Zoltán Guba",
+        "Tsuneya Yoshida",
+        "Apoorv Tiwari",
+        "Tomáš Bzdušek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
+      "link": "https://arxiv.org/abs/2607.13013v1",
+      "summary": "Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for DiffusionGemma, a 26B mixture-of-experts model that generates text by uniform, random-token discrete diffusion rather than the absorbing-mask scheme common to recent diffusion language models. A froz",
+      "published": "2026-07-14T17:53:22Z",
+      "authors": [
+        "Harsha Vardhan Khurdula",
+        "Abhinav Kumar Singh",
+        "Yoeven D Khemlani",
+        "Vineet Agarwal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Prism Effect in Quantum Gravity",
+      "link": "https://arxiv.org/abs/2607.13012v1",
+      "summary": "Modifications to the dispersion relation of electromagnetic (EM) waves are a central probe in the search for quantum gravitational effects. In this work, we construct a general framework for the interaction between the EM field and a quantum background geometry, employing an extended Born-Oppenheimer approximation. This leads to a quasi-phenomenological model for EM wave propagation in curved spacetime. Unlike previous semi-classical approaches for mode-dependent dispersion relations, our framew",
+      "published": "2026-07-14T17:53:07Z",
+      "authors": [
+        "Aliasghar Parvizi",
+        "Tomasz Pawłowski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology",
+      "link": "https://arxiv.org/abs/2607.13010v1",
+      "summary": "Dermatological practice routinely involves measuring and tracking lesion size, morphology and texture, as critical components of wound or skin cancer screening, monitoring and diagnosis. To accomplish this task, practitioners often image the skin surface with commonly available off-the-shelf camera sensors. This has led to an overwhelming research focus on 2D methods while these objectives naturally benefit from 3D information. In this paper, we demonstrate that dense monocular 3D reconstruction",
+      "published": "2026-07-14T17:51:37Z",
+      "authors": [
+        "Héctor Carrión",
+        "Narges Norouzi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Model-Independent Indication for a Localized Anomaly in the Late-Time Expansion History",
+      "link": "https://arxiv.org/abs/2607.13009v1",
+      "summary": "We investigate the late-time expansion history of the Universe using a model-independent spline reconstruction of cosmological distances based on the latest DESI DR2 baryon acoustic oscillation (BAO) measurements and the DES Dovekie Type Ia supernova compilation. Comparing the reconstructed expansion history with the prediction of the Planck 2018 $Λ$CDM model, we identify a localized deviation over the redshift interval $0.3\\lesssim z\\lesssim0.6$, reaching a maximum significance of approximately",
+      "published": "2026-07-14T17:51:30Z",
+      "authors": [
+        "Shibendu Gupta Choudhury",
+        "Purba Mukherjee",
+        "Eleonora Di Valentino",
+        "Anjan A Sen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting",
+      "link": "https://arxiv.org/abs/2607.13006v1",
+      "summary": "A growing family of indices scores how predictable a series is from its spectrum. Practitioners increasingly read these scores as answering a different question: whether \\emph{adding context}, a longer lookback, a retrieval plug-in, or a pretrained model, will help. These are not the same question. The value of context is a property of the operating point, not of the series. Any index built from the power spectrum is invariant under phase randomization, whereas the beyond-second-order value that",
+      "published": "2026-07-14T17:50:28Z",
+      "authors": [
+        "Mert Onur Cakiroglu",
+        "Mehmet Dalkilic",
+        "Hasan Kurban"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Alignment of the Milky Way and M31 with their cosmic environment. New insights from constrained Local Group simulations",
+      "link": "https://arxiv.org/abs/2607.13005v1",
+      "summary": "The large-scale environment is thought to play an important role in setting galaxy properties. The Milky Way (MW) and Andromeda (M31) reside in the Local Group, embedded in the Local Sheet (LS). To study the sheet's influence on the dark matter (DM) halo shapes, spins, and disks orientations of MW and M31 analogues, we use a new suite of constrained Local Group simulations that reproduce the observed configuration of the two main halos and the LS. We determine their shapes and alignments relativ",
+      "published": "2026-07-14T17:50:06Z",
+      "authors": [
+        "Hanneke C. Woudenberg",
+        "Amina Helmi",
+        "Ewoud Wempe",
+        "Anna Genina",
+        "Simon D. M. White"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
+      "link": "https://arxiv.org/abs/2607.13003v1",
+      "summary": "A watermark in a generative model's output is usually asked only whether a text is machine-made. The same mark can do more: attribute it to the user who produced it, extract a hidden payload, or localize the part that survives editing. These form a forensic ladder, and we ask what each rung costs in the sample length $n$.   One object organizes the answers. Let $S$ be the secret the mark carries (a user's identity or payload), and let the information profile $ν(t)=I(S;X_t\\mid X_{<t})$ record how",
+      "published": "2026-07-14T17:49:52Z",
+      "authors": [
+        "Xiaoyu Li",
+        "Zheng Gao",
+        "Xiaoyan Feng",
+        "Jiaojiao Jiang",
+        "Yulei Sui"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Surface Phase-Field-Crystal-Helfrich model for out-of-plane deformations in thin crystalline sheets with lattice mismatch",
+      "link": "https://arxiv.org/abs/2607.12997v1",
+      "summary": "Thin, flexible crystalline sheets exhibit unique elastic properties due to their ability to undergo out-of-plane deformations. Understanding this behavior requires a description that couples in-plane elasticity, out-of-plane deformation, and their coupling, taking the crystalline structure and its defects into account. We develop a multiscale description for these systems by extending the surface Phase-Field-Crystal-Helfrich model. The extension permits a spatially varying equilibrium lattice sp",
+      "published": "2026-07-14T17:48:22Z",
+      "authors": [
+        "Emma Radice",
+        "Ingo Nitschke",
+        "Marco Salvalaglio",
+        "Axel Voigt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Shot, Twenty-One Balls: Existence and Rarity of a Total Clearance in a Single Stroke of Snooker",
+      "link": "https://arxiv.org/abs/2607.12995v1",
+      "summary": "Snooker folklore holds that no single stroke can pocket all twenty-one object balls. We examine the claim in an idealized but fully specified model of billiard dynamics. Within the model we exhibit an admissible configuration of the twenty-two balls and a stroke of the cue ball that pockets all twenty-one object balls, and we show that the set of such strokes has positive Lebesgue measure in the natural shot space: total clearances are not flukes of measure zero but open events. For the regulati",
+      "published": "2026-07-14T17:47:24Z",
+      "authors": [
+        "Avner Kantor"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "X-Lens: Real-Time Metric Depth Estimation with Heterogeneous Cameras",
+      "link": "https://arxiv.org/abs/2607.12993v1",
+      "summary": "We present X-lens, a compact feed-forward model for metric depth estimation from a variable number of calibrated fisheye and pinhole views. To support real-time downstream perception, X-lens is built around a geometry-aware heterogeneous camera formulation with two key components. Learnable calibration tokens provide a coarse alignment between fisheye and pinhole projective spaces, while a Jacobian-parameterized distortion bias injected into cross-attention models local projection changes and pr",
+      "published": "2026-07-14T17:45:50Z",
+      "authors": [
+        "Heng Zhou",
+        "Shuhong Liu",
+        "Yonghao He",
+        "Bohao Zhang",
+        "Fa Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ChunkFlow: Towards Continuity-Consistent Chunked Policy Learning",
+      "link": "https://arxiv.org/abs/2607.12992v1",
+      "summary": "Vision-language action (VLA) models increasingly adopt chunked action heads to satisfy real-time constraints; however, this introduces boundary jitter: overlapping regions between consecutive chunks often yield inconsistent predictions, degrading temporal coherence and the task success rate. Existing methods, such as inference-time blending, merely reweight mismatched proposals without correcting underlying errors, leading to residual accumulation under biased or noisy histories. We propose Chun",
+      "published": "2026-07-14T17:43:25Z",
+      "authors": [
+        "Zhao Yang",
+        "Yinan Shi",
+        "Mingyuan Yao",
+        "Wenyao Xue",
+        "Yawei Jueluo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Noise-Aware Quantum Algorithm for Credit Valuation Adjustments on Real Quantum Hardware",
+      "link": "https://arxiv.org/abs/2607.12990v1",
+      "summary": "Credit Valuation Adjustment (CVA) requires repeated risk-neutral expectation estimation, making it a natural test bed for quantum amplitude estimation, whose coherent amplification can in principle reduce Monte Carlo sampling cost. Whether this advantage survives realistic financial encoding and noisy hardware remains open. We develop an end-to-end, noise-aware quantum workflow for CVA, covering market calibration, discretisation, oracle construction, hardware execution and error-budget analysis",
+      "published": "2026-07-14T17:41:11Z",
+      "authors": [
+        "Guillem Borràs Espert",
+        "Francisco Gómez Casanova",
+        "Luis de Pedro Sánchez",
+        "Senaida Hernández Santana",
+        "Pablo Serrano Molinero"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification",
+      "link": "https://arxiv.org/abs/2607.12987v1",
+      "summary": "Accurate dermatological diagnosis naturally necessitates equitable performance across diverse populations, yet a systematic lack of expertly annotated images, especially for underrepresented skin tones and rare diseases, impedes progress toward measurably fair methods. We introduce cgDDI (Controllable Generation of Diverse Dermatological Imagery), a hybrid framework that (1) synthesizes realistic healthy skin samples without disturbing other input properties, (2) maps single-sample rare lesions ",
+      "published": "2026-07-14T17:32:13Z",
+      "authors": [
+        "Héctor Carrión",
+        "Narges Norouzi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation",
+      "link": "https://arxiv.org/abs/2607.12986v1",
+      "summary": "Plan evaluators can reward a strategic plan for becoming less explicit. This paper studies that failure in a staged expected-value scorer for LLM-generated venture routes. Proposition 1 gives the score change from deleting an interior transition while retargeting its predecessor and retaining downstream value: Delta_k = (prod_{i<k} p_i)[c_k + (1 - p_k)R_{k+1}]. On a frozen 26-route cohort, all 57 admissible deletions matched the analytic identity and threshold sign, and every route had at least ",
+      "published": "2026-07-14T17:29:28Z",
+      "authors": [
+        "Aleh Manchuliantsau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs",
+      "link": "https://arxiv.org/abs/2607.12985v1",
+      "summary": "Aligned language models routinely misreport under non-evidential incentive pressure: they agree with a confident user or overstate certainty even when their internal belief is unchanged. We cast this as a failure of internal incentive-compatibility (IC) and present a method for learning and certifying counterfactual report mediators that hold a model's reports to a causal contract: invariant to forbidden influences (pressure, prestige, restyling) and responsive to licensed ones (genuine evidence",
+      "published": "2026-07-14T17:28:25Z",
+      "authors": [
+        "Sen Yang",
+        "Yuen-Hei Yeung"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Single-Shot High-Energy Muon and Particle Radiography with a Multi-GeV Laser-Wakefield-Accelerator-Driven Source",
+      "link": "https://arxiv.org/abs/2607.12984v1",
+      "summary": "We report the first demonstration of single-shot particle radiography using a 1-10 GeV laser-wakefield-generated beam of muons, pions, and neutrons. The test objects were imaged ~15 m from the beam source, through dense lead shielding followed by the walls of a building and a truck. The muon content of the beam was directly confirmed using large volume scintillator-based detectors, which recorded particle decay events with timing delays consistent with the muon lifetime. Simulations confirm that",
+      "published": "2026-07-14T17:26:12Z",
+      "authors": [
+        "Kaixin Zhu",
+        "G. Jackson Williams",
+        "Roberto Versaci",
+        "Ela Rockafellow",
+        "Anna Cimmino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+      "link": "https://arxiv.org/abs/2607.12982v1",
+      "summary": "Math reasoning has achieved significant progress with the rapid advancement of Multimodal Large Language Models (MLLMs), however analytic geometry remains largely underexplored, primarily due to the scarcity of annotated samples. Existing diagram generation approaches struggle with analytic geometry: template methods cannot handle constraint-driven layouts, and generative models lack the geometric precision to render annotated conic curves correctly. We present FormalAnalyticGeo, a scalable fram",
+      "published": "2026-07-14T17:24:57Z",
+      "authors": [
+        "Ruoran Xu",
+        "Wending Gao",
+        "Qiufeng Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Agentic Formalization for Certified Quantum Neural Network Design",
+      "link": "https://arxiv.org/abs/2607.12981v1",
+      "summary": "A central model in quantum machine learning is the quantum neural network (QNN), whose design requires balancing expressivity and trainability. Technically, expressivity is studied through circuit-function analysis, such as quantum signal processing, while trainability is analyzed using dynamical-Lie-algebra (DLA) methods. To support certified QNN design, we formalize these major components of QNN theory in a connected lean 4 development checked by a proof kernel, where every analytic input is e",
+      "published": "2026-07-14T17:23:31Z",
+      "authors": [
+        "Mingrui Jing",
+        "Lei Zhang",
+        "Yusheng Zhao",
+        "Hongshun Yao",
+        "Xin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Even smaller universal posets",
+      "link": "https://arxiv.org/abs/2607.12980v1",
+      "summary": "We show that for every $η>0$ and sufficiently large $n$, there exists a poset of size $2^{(1+η)n/2}$ containing all the $n$-element posets as induced subposets. This improves a recent result of Bastide, Groenland and Nenadov. Our proof provides a labeling scheme preserving transitivity, inspired by the Boolean lattice. Among other tools, we use the Szemerédi Regularity Lemma.",
+      "published": "2026-07-14T17:22:26Z",
+      "authors": [
+        "József Balogh",
+        "Ramon I. Garcia",
+        "Marcelo Sales"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ensemble Controlled-Flow Filtering for Implicit Data Assimilation",
+      "link": "https://arxiv.org/abs/2607.12975v1",
+      "summary": "Data assimilation estimates the state of a dynamical system from model forecasts and incoming observations. Many observation mechanisms, however, are many-to-one, implicit, non-smooth, or accessible only through simulation, and need not provide the residual structures or likelihood guidance required by existing ensemble filters. We introduce implicit data assimilation, in which the analysis law is defined as an energy tilt of the forecast distribution. We then propose the Ensemble Controlled-flo",
+      "published": "2026-07-14T17:16:37Z",
+      "authors": [
+        "Zhuoyuan Li",
+        "Yue Zhao",
+        "Ming Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Models with Non-minimal Coupling in Primordial Universe and Cosmological Observations",
+      "link": "https://arxiv.org/abs/2607.12974v1",
+      "summary": "A non-minimal coupling between gravity and the inflaton field is a generic contribution in inflationary cosmology. In this work, we consider models of inflation with a non-minimal coupling $-ξφ^2 R$ and study their observational predictions for the tensor-to-scalar ratio $r$ and the spectral index $n_s$. Unlike the conventional approach of working in the Einstein frame, we perform the analysis in the Jordan frame where the underlying dynamics, particularly the competition between the potential f",
+      "published": "2026-07-14T17:16:21Z",
+      "authors": [
+        "Alireza Talebian",
+        "Hassan Firouzjahi",
+        "Fereshteh Felegary"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Stabilizing Feedbacks Wreak Havoc in Habitable Planets: Chaos at the Freezing Point in a Four-Feedback Climate Model",
+      "link": "https://arxiv.org/abs/2607.12972v1",
+      "summary": "The long-term habitability of Earth-like planets is governed by the balance of positive and negative climate feedbacks that regulate surface temperature and atmospheric composition. While some feedbacks, such as ice-albedo and silicate weathering, are thought to operate on many terrestrial planets, the number and strength of additional climate feedbacks may vary substantially from world to world. An important open question is whether and how the introduction of an additional climate feedback inf",
+      "published": "2026-07-14T17:15:13Z",
+      "authors": [
+        "Chaucer Langbert",
+        "Dániel Apai",
+        "Renu Malhotra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A new model for the continuum spectra of AM CVn binaries and multi-messenger inference with normalizing flows",
+      "link": "https://arxiv.org/abs/2607.12971v1",
+      "summary": "Future electromagnetic telescopes, such as $\\textit{NewAthena}$, $\\textit{CASTOR}$, and an $\\textit{AXIS}$-like mission, along with milli-Hz gravitational-wave (GW) detectors such as $\\textit{LISA}$, are expected to unearth the population of Galactic ultra-compact binaries (UCBs). Joint multi-messenger detections will probe the uncertain formation, evolution, and observables of mass-transferring UCBs such as AM CVns, but theoretical tools need to be advanced to anticipate future data challenges.",
+      "published": "2026-07-14T17:14:59Z",
+      "authors": [
+        "Nathan Steinle",
+        "Samar Safi-Harb",
+        "Austin MacMaster",
+        "Liliana Rivera Sandoval",
+        "Katelyn Breivik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "High-Resolution Numerical Calculations of GRB Afterglow Plateaus arising from Stratified Ejecta",
+      "link": "https://arxiv.org/abs/2607.12967v1",
+      "summary": "Since the discovery of plateaus in GRB afterglows by Swift, they have been modeled predominantly by late-time energy injection. However, many studies have suggested that the plateau may be modeled by an early phase before reverse shock crossing (either coasting with constant Lorentz factor or decelerating very slowly as the reverse shock crosses the ejecta). The slope of the early plateau provides some constraints the stratification of the fastest-moving ejecta, which could be the ejecta respons",
+      "published": "2026-07-14T17:07:40Z",
+      "authors": [
+        "Paul C. Duffell",
+        "Ranadeep Ghosh Dastidar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dynamical modelling of giant radio quasars in the HETDEX Spring Field",
+      "link": "https://arxiv.org/abs/2607.12964v1",
+      "summary": "Giant radio sources are defined as extragalactic radio sources, hosted by galaxies or quasars, with linear sizes $\\geq 0.7$ Mpc. They are thought to represent the final stage of the evolution of radio galaxies whose sizes range from pc to Mpc scales. We analyse in detail the radio morphology and spectra between 54 MHz and 4.85/15.5 GHz of 15 giant radio quasars (GRQs) in the HETDEX Spring Field, and fit dynamical evolution models to the sources' observational properties to study their physical p",
+      "published": "2026-07-14T17:03:24Z",
+      "authors": [
+        "T. M. O. Franzen",
+        "J. Machalski",
+        "M. Jamrozy",
+        "R. Morganti",
+        "D. A. Green"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+      "link": "https://arxiv.org/abs/2607.12963v1",
+      "summary": "As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find that state-of-the-art models often appear robust to task-irrelevant context at the aggregate level: prepending it to benchmark questions causes little change in overall accuracy. This aggregate stability, however, masks significant per-example instability. Even semantically meanin",
+      "published": "2026-07-14T17:01:12Z",
+      "authors": [
+        "Yanzhe Zhang",
+        "Sanmi Koyejo",
+        "Diyi Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Prompts and Weights in Frozen Small Code Models",
+      "link": "https://arxiv.org/abs/2607.12962v1",
+      "summary": "Frozen small code LLMs are deployed locally, yet the information guiding a retry after a failed attempt is still measured without placebo controls in the self-repair literature. We treat a failed program as a conjecture and an execution counterexample as an oracle-relative refutation, and introduce PoPE (Popperian Placebo-controlled Evaluation): a methodology for measuring whether evidence that falsifies LLM-generated code can be used operationally by that same model. In PoPE, error content is p",
+      "published": "2026-07-14T16:59:42Z",
+      "authors": [
+        "Mehmet Iscan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Decoupling Strain-Rate Sensitivity and Deformation Length Scale Effects in Neutron-Irradiated Tungsten: A Coupled Nano-Indentation, HR-EBSD and Crystal Plasticity Study",
+      "link": "https://arxiv.org/abs/2607.12960v1",
+      "summary": "Plastic deformation during strain-rate-controlled spherical nanoindentation is governed by the coupled evolution of constitutive strain-rate sensitivity and deformation length scale, making the intrinsic influence of strain rate difficult to isolate experimentally. This coupling is investigated in unirradiated and neutron-irradiated single-crystal tungsten using spherical nanoindentation, atomic force microscopy, high-resolution electron backscatter diffraction (HR-EBSD), and crystal plasticity ",
+      "published": "2026-07-14T16:57:43Z",
+      "authors": [
+        "Prashil S. Joshi",
+        "Bethany Jim",
+        "Chris Hardie",
+        "Angus Wilkinson",
+        "David EJ Armstrong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ViCo3D: Empowering LiDAR-based Collaborative 3D Object Detection with Vision Foundation Models",
+      "link": "https://arxiv.org/abs/2607.12959v1",
+      "summary": "LiDAR-based collaborative 3D perception in Vehicle-to-Everything (V2X) systems typically relies on fusing bird's-eye-view (BEV) features across agents. However, current BEV representations, typically extracted by LiDAR backbones trained from scratch, are geometry-dominated and lack general semantic priors, inherently limiting the efficacy of feature-level collaboration. Meanwhile, vision foundation models (VFMs) pretrained on large-scale image data have demonstrated strong capability in learning",
+      "published": "2026-07-14T16:56:10Z",
+      "authors": [
+        "Haojie Ren",
+        "Songrui Luo",
+        "Lingfeng Wang",
+        "Yan Xia",
+        "Yao Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CD-MED: Cross-Domain Multimodal Emotion Descriptor for Visual Comparison of Digital Objects",
+      "link": "https://arxiv.org/abs/2607.12958v1",
+      "summary": "Digital objects express emotions through different modalities. For example, a movie may include visual scenes, audio, dialogue, and facial expressions, while a song may contain melody, rhythm, lyrics, and vocal tone. Because existing emotion recognition models are usually modality-specific, it is difficult to compare such objects directly. This paper proposes CD-MED, a Cross-Domain Multimodal Emotion Descriptor for representing heterogeneous digital objects in a common emotional space. Each moda",
+      "published": "2026-07-14T16:54:51Z",
+      "authors": [
+        "Elnara Kadyrgali",
+        "Muragul Muratbekova",
+        "Pakizar Shamoi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Naturally quality-safe GeV axion with charm coupling",
+      "link": "https://arxiv.org/abs/2607.12956v1",
+      "summary": "The GeV-scale QCD axion -- where Peccei-Quinn (PQ) symmetry is broken by the QCD condensate at $f_a\\sim\\mathcal{O}(1)$~GeV -- faces a structural isospin problem: the PQ spurion coupling to light quarks ($u,d,s$) breaks $\\mathrm{SU}(2)$ isospin, generating an unacceptable $\\sim 15\\%$ $π^0$--$π^\\pm$ mass splitting. We show that coupling the PQ scalar to the charm quark instead eliminates this violation entirely, and lowering $m_φ\\sim 3$--$4$~MeV makes the charm Yukawa $κ_c\\propto m_φ$ perturbative",
+      "published": "2026-07-14T16:51:14Z",
+      "authors": [
+        "Bo-Qiang Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robustness of Deep Learning Models for PV Power Forecasting under NWP Forecast Errors: A Spatiotemporal and Physically Interpretable Analysis",
+      "link": "https://arxiv.org/abs/2607.12954v1",
+      "summary": "Engineering use of AI forecasting models requires not only high nominal accuracy but also predictable behavior under uncertain inputs. In photovoltaic (PV) forecasting, this requirement is especially challenging because numerical weather prediction (NWP) errors are temporally correlated, state dependent, and physically coupled across variables. Existing evaluations, however, often rely on perfect forecast assumptions or simplistic perturbations that do not reflect these characteristics. This stu",
+      "published": "2026-07-14T16:48:07Z",
+      "authors": [
+        "Dandan Chen",
+        "Yan Zhao",
+        "Xuepeng Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SMA Observations of the Archetypal Compact Steep-spectrum Radio Source 3C 303.1",
+      "link": "https://arxiv.org/abs/2607.12952v1",
+      "summary": "AGN (active galactic nuclei) feedback plays a crucial role in shaping galaxy evolution. Numerical simulations show that the kinetic energy transfer efficiency from radio jets to interstellar medium (ISM) is relatively high, suggesting a significant role of radio jets in the feedback. We investigate AGN feedback on cold gas in the compact steep-spectrum (CSS) radio source 3C 303.1. CSS sources are largely young radio galaxies evolving through dense environments of their host galaxies. This early ",
+      "published": "2026-07-14T16:47:02Z",
+      "authors": [
+        "Rushikesh Bhutkar",
+        "Mark Gurwell",
+        "Christopher O'Dea",
+        "Mojegan Azadi",
+        "Belinda Wilkes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Assembly of Repurposed Lithium-Ion Battery Packs under Cell Heterogeneity and Screening Uncertainty",
+      "link": "https://arxiv.org/abs/2607.12951v1",
+      "summary": "The growing supply of retired electric vehicle batteries presents an opportunity for second-life stationary energy storage, but assembling heterogeneous retired cells into reliable packs is challenging due to substantial variation in capacity, DC internal resistance (DCIR), and self-discharge. This paper proposes a robust optimization framework for cell-to-pack assembly of second-life batteries. A topology-screening stage first identifies minimum-cell series-parallel configurations satisfying in",
+      "published": "2026-07-14T16:46:38Z",
+      "authors": [
+        "Hassan Zahid Butt",
+        "Xingpeng Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Structure and Dynamics of the Inner Corona Measured from the DEB Initiative 2024 Eclipse Image Sequence",
+      "link": "https://arxiv.org/abs/2607.12950v1",
+      "summary": "The Dynamic Eclipse Broadcast (DEB) Initiative citizen science program observed coronal visible continuum brightness during the 2024 April 8 total eclipse from locations across North America. We present results from 11 DEB sites spanning 2700 km of distance and showing 49 minutes of evolution. The coronal brightness radial profiles from these telescopes are tightly correlated from 1.2 to 4.0 solar radii and comparable to published photometric coronal intensities. The coronal flattening parameter",
+      "published": "2026-07-14T16:44:58Z",
+      "authors": [
+        "Matthew J Penn",
+        "Robert Baer",
+        "Chris Mandrell",
+        "Corinne Brevik",
+        "Castor Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Unified Gradient Theory for Frame-Indifferent Rates of Tensorial Internal Variables",
+      "link": "https://arxiv.org/abs/2607.12949v1",
+      "summary": "We develop a thermodynamically consistent framework for weakly nonlocal continua with tensor-valued internal variables. Let $\\boldsymbol{L}=\\operatorname{grad}\\boldsymbol{v}$, with stretching tensor $\\boldsymbol{D}=\\operatorname{sym}\\boldsymbol{L}$ and spin tensor $\\boldsymbol{W}=\\operatorname{skw}\\boldsymbol{L}$. We introduce the generators $\\boldsymbolΓ_α=\\boldsymbol{W}+α\\boldsymbol{D}$, $α\\in\\{0,1\\}$, which unify corotational and upper-convected transport. The resulting kinematic structure in",
+      "published": "2026-07-14T16:38:07Z",
+      "authors": [
+        "Luis Espath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark",
+      "link": "https://arxiv.org/abs/2607.12946v1",
+      "summary": "Recommender-system research for Vietnamese remains limited by the absence of a public, well-documented hotel interaction resource. Building such a resource is challenging for three reasons: cross-platform hotel names must be reconciled before interactions are comparable; quality must be audited with reproducible metrics rather than ad hoc cleaning; and public release must preserve privacy while remaining benchmarkable under realistic cold-start conditions. We introduce ViHoRec, a quality-control",
+      "published": "2026-07-14T16:28:40Z",
+      "authors": [
+        "Minh Hoang Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RecRec: Latent Interests Recursive Reasoning for Sequential Recommendation",
+      "link": "https://arxiv.org/abs/2607.12945v1",
+      "summary": "Sequential recommender systems rely on a single forward pass to encode user interaction histories and predict the next item. Increasing inference-time computation through latent reasoning, with the model proceeding step by step before the final prediction, has been recently explored in sequential recommendation with promising results. However, how to structure the reasoning process for sequential recommendation remains an open question. Existing approaches couple reasoning and prediction in a si",
+      "published": "2026-07-14T16:28:28Z",
+      "authors": [
+        "Wenhao Deng",
+        "Junchen Fu",
+        "Hanwen Du",
+        "Alexandros Karatzoglou",
+        "Ioannis Arapakis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Salesforce Messaging Architecture: Platform Events, Async Sends, and Multi-Tenancy at Scale",
+      "link": "https://arxiv.org/abs/2607.12943v1",
+      "summary": "Most enterprise messaging integrations function as external connectors. They reside outside the Customer Relationship Management (CRM) platform, receive webhooks, write peripheral logs, and consider the process integrated. Consequently, messages are isolated within the messaging platform while CRM records remain strictly inside the CRM, bridged only by fragile sync jobs, rigid field mappings, and eventual consistency windows. This paper outlines an alternative architectural paradigm: constructin",
+      "published": "2026-07-14T16:23:28Z",
+      "authors": [
+        "Devam Gupta"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
