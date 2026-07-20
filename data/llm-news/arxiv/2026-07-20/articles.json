@@ -1,0 +1,636 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs",
+      "link": "https://arxiv.org/abs/2607.16193v1",
+      "summary": "Multimodal large language models have achieved strong performance across diverse vision-language tasks, yet their capabilities in UAV scenarios remain insufficiently explored. Recent UAV-oriented benchmarks have begun to evaluate MLLMs in aerial scenarios, but they typically focus on scene understanding, event recognition, or navigation completion, rather than jointly assessing the dual-cognition capability required for UAV agents: reasoning about both the UAV's own state and the external enviro",
+      "published": "2026-07-17T17:59:56Z",
+      "authors": [
+        "Like Liu",
+        "Zhengzheng Xu",
+        "Haitao He",
+        "Hongzhe Li",
+        "Shuchang Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction",
+      "link": "https://arxiv.org/abs/2607.16192v1",
+      "summary": "Humans can infer how objects are likely to move from passive observation: a cup may be lifted, a drawer may slide, and a lid may rotate shut. Such predictions expose the physical consequences of interaction needed to act in the real world. We study how to learn this anticipation from ordinary monocular videos of human-object interaction. Given a short observed video context, MotionForesight predicts future 3D trajectories for points on the manipulated object. This casts interaction prediction as",
+      "published": "2026-07-17T17:59:38Z",
+      "authors": [
+        "Homanga Bharadhwaj",
+        "Yash Jangir"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cosmological Evidence for Dark Axion-Dark Baryon Interactions from Apparent Phantom Crossing",
+      "link": "https://arxiv.org/abs/2607.16191v1",
+      "summary": "Interactions between dark matter and dark energy can lead to an apparent phantom-crossing behavior that mimics the expansion history preferred by the latest cosmological observations from DESI baryon acoustic oscillations (BAO), Cosmic Microwave Background (CMB), and Type Ia supernovae (SNe Ia) data. In a previous paper [Khoury, Lin, and Trodden 2025 arXiv:2503.16415], we proposed a concrete particle physics realization of this idea, consisting of a strongly coupled dark sector in which a dark a",
+      "published": "2026-07-17T17:59:37Z",
+      "authors": [
+        "Justin Khoury",
+        "Meng-Xiang Lin",
+        "Mark Trodden"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FVAttn: Adaptive Sparse Attention with Runtime Load Balancing for Video Generation",
+      "link": "https://arxiv.org/abs/2607.16190v1",
+      "summary": "Video Diffusion Transformers process long spatio-temporal sequences, making self-attention the main bottleneck in high-resolution video generation. Training-free sparse attention reduces this cost, but adaptive Top-$p$ routing creates uneven per-head workloads under multi-GPU sequence parallelism. The resulting workload heterogeneity turns sparse attention into a rank-level straggler problem. We present \\method{}, a training-free sparse-attention system that improves the distributed execution ef",
+      "published": "2026-07-17T17:59:32Z",
+      "authors": [
+        "Hao Liu",
+        "Chenghuan Huang",
+        "Ye Huang",
+        "Zhiying Wen",
+        "Hao Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal control of symmetry-breaking dynamics near criticality",
+      "link": "https://arxiv.org/abs/2607.16188v1",
+      "summary": "We study the problem of optimal control for dynamical systems near a pitchfork bifurcation, motivated by the role of external cues in guiding symmetry-breaking transitions in cell-fate selection and other natural processes. Using an asymptotic expansion of the optimality conditions obtained from the Pontryagin maximum principle, the leading-order optimal control law for a general n-dimensional system is examined across three dynamical regimes distinguished by scaling of control strength with res",
+      "published": "2026-07-17T17:59:13Z",
+      "authors": [
+        "Pearson W. Miller"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sharp decay estimates for $(2+1)$-dimensional oscillatory integral operators via Newton height",
+      "link": "https://arxiv.org/abs/2607.16185v1",
+      "summary": "We study $(2+1)$-dimensional oscillatory integral operators of the form \\[ T_λf(x,y)=\\int_{\\mathbb{R}}e^{iλP(x,y)t^k}ψ(x,y,t)f(t)dt,\\qquad k\\geq 1, \\] where the phase $P$ is a real-analytic function with a critical point at the origin. We establish the sharp $L^2\\to L^2$ decay rate of $\\frac12\\min\\{1/h_{P}, 1/k\\}$, where $h_{P}$ denotes Varchenko's Newton height of $P$. The two terms in the minimum reflect a natural competition between the spatial degeneracy of $P$ and the temporal degeneracy of",
+      "published": "2026-07-17T17:58:32Z",
+      "authors": [
+        "Shaozhen Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
+      "link": "https://arxiv.org/abs/2607.16184v1",
+      "summary": "Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight, a novel management method for MoE LLM serving that dynamically quantizes MoE model's weights at runtime and balances expert-weight precision with the KV cache sizes. PagedWeight exposes and effectiv",
+      "published": "2026-07-17T17:58:29Z",
+      "authors": [
+        "Yuchen Yang",
+        "Yifan Zhao",
+        "Anisha Dasgupta",
+        "Sasa Misailovic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
+      "link": "https://arxiv.org/abs/2607.16183v1",
+      "summary": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic analog processes in physical hardware. In this work, we focus on energy-based thermodynamic computing where the stochastic process is well described by Langevin dynamics with tunable energy potentials. The implementation of such potentials in physical hardware enables us to generate and sample from ba",
+      "published": "2026-07-17T17:57:49Z",
+      "authors": [
+        "Owen Lockwood",
+        "Jérémy Béjanin",
+        "Joost Bus",
+        "Christopher Chamberland",
+        "Patrick Huembeli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
+      "link": "https://arxiv.org/abs/2607.16181v1",
+      "summary": "This study introduces a vision-language pipeline that detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. Although vision-language models have advanced perception and reasoning in autonomous driving, existing systems rarely consider the emotional dimension or real-world user experience. Keep Yelling Assistant (KYA) detects high-risk driving maneuvers in real time, such as sudden cut-ins. It then produces emotional responses thro",
+      "published": "2026-07-17T17:57:27Z",
+      "authors": [
+        "Harine Choi",
+        "Eun Hak Lee",
+        "Zhengzhong Tu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Dynamical Phase-Field Model for the Optical Properties of Ferroelectrics",
+      "link": "https://arxiv.org/abs/2607.16180v1",
+      "summary": "Ferroelectric materials are promising platforms for controllable photonic devices because of the strong coupling between their spontaneous polarization and optical properties. Yet, these materials remain challenging to design because of the close connection between the ferroelectric domain structure and optical response, which no existing theoretical approach can capture. Here, we develop a dynamical phase-field model that directly couples the ferroelectric order to the local optical response by",
+      "published": "2026-07-17T17:57:03Z",
+      "authors": [
+        "Aiden Ross",
+        "Anya Frazer",
+        "Venkatraman Gopalan",
+        "Long-Qing Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dressed States Call for Logarithmic Asymptotic Symmetries",
+      "link": "https://arxiv.org/abs/2607.16179v1",
+      "summary": "Inspired by Wigner's classification of elementary particles as irreducible unitary representations of a spacetime symmetry group, we ask what group can give rise in this way to the quantum states of a particle dressed with clouds of infrared gauge bosons. We show that the answer is given by standard asymptotic symmetries (such as BMS in the gravitational case), supplemented by the logarithmic symmetries identified in arXiv:2305.05436. A corollary is the factorization of the Hilbert space of a dr",
+      "published": "2026-07-17T17:56:51Z",
+      "authors": [
+        "Jorrit Bosma",
+        "Jeremy A. Mann",
+        "Charles Marteau",
+        "Blagoje Oblak",
+        "Marios Petropoulos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems",
+      "link": "https://arxiv.org/abs/2607.16177v1",
+      "summary": "Reinforcement learning (RL) has recently emerged as a promising feedback control strategy for nonlinear and complex dynamical systems. However, RL algorithms are sample inefficient and require a large number of interaction with the environment to synthesize optimal control strategies. Consequently, applications of RL are typically limited to sparse sensors and actuators due to the curse of dimensionality entailed by the exploration-exploitation dilemma in high-dimensional spaces. In this work, w",
+      "published": "2026-07-17T17:56:05Z",
+      "authors": [
+        "Matteo Tomasetto",
+        "Nicolò Botteghi",
+        "Gabriele Bruni",
+        "Andrea Manzoni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
+      "link": "https://arxiv.org/abs/2607.16175v1",
+      "summary": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, where vulnerabilities can compromise assets, users, and vehicle operations. These vulnerabilities are commonly documented as plain text in the Common Vulnerabilities and Exposures (CVE) database; however, security practitioners require structured information about affected assets, types of weaknesses,",
+      "published": "2026-07-17T17:55:19Z",
+      "authors": [
+        "Md Erfan",
+        "Ahmed Ryan",
+        "Md Kamal Hossain Chowdhury",
+        "Md Rayhanur Rahman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rapid structural evolution of neutron-rich silicon isotopes toward N = 28",
+      "link": "https://arxiv.org/abs/2607.16174v1",
+      "summary": "Neutron-rich Si isotopes represent a unique case of shell evolution, exhibiting a robust shell closure at $N=20$ and pronounced quadrupole collectivity at $N = 28$. We report lifetime measurements of excited states in $^{40}$Si and the first simultaneous lifetime and heavy-ion inelastic-scattering measurements in $^{41}$Si. In $^{40}$Si, the extracted lifetimes for the $2_1^+$ and $(2_2^+)$ states indicate moderate quadrupole collectivity at $N=26$, together with signatures of triaxiality. In $^",
+      "published": "2026-07-17T17:54:38Z",
+      "authors": [
+        "G. L. Zimba",
+        "H. Iwasaki",
+        "B. A. Brown",
+        "Y. Utsuno",
+        "N. Shimizu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vision-Language-Motion Maps: An Open-Vocabulary, Uncertainty-Aware, Queryable Motion Attribute for 3D Scene Maps",
+      "link": "https://arxiv.org/abs/2607.16173v1",
+      "summary": "Open-vocabulary 3D maps let robots answer language queries about what and where, but they assume a static world and cannot answer queries about how scene elements behave. We introduce Vision-Language-Motion Maps (VLMM), an open-vocabulary, natural-language-queryable 3D map in which each element carries a fused motion attribute: a VLM/LLM semantic movability prior combined with geometrically observed cross-frame motion, together with a per-element uncertainty. Queries reduce to attribute filters ",
+      "published": "2026-07-17T17:53:13Z",
+      "authors": [
+        "Dibyendu Ghosh",
+        "Ayushi Shakya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Morphologies of SAGAbg low-mass galaxies in Legacy Survey multi-band imaging: dependence on stellar masses, star-formation rates and low-redshift evolution",
+      "link": "https://arxiv.org/abs/2607.16170v1",
+      "summary": "The optical morphologies of low-mass galaxies can be used to directly trace their assembly and constrain models of galaxy evolution. We select a sample of 6211 low-mass ($7\\lesssim {\\rm log}(M_{\\ast}/M_{\\odot})\\lesssim 10$) star-forming galaxies from the SAGAbg catalog that has high-completeness at low-redshifts ($z<0.1$). We obtain their galaxy maps in the $griz$ - bands of the Legacy Surveys and apply STATMORPH to calculate non-parametric morphological measures including the Gini index, $M_{20",
+      "published": "2026-07-17T17:49:14Z",
+      "authors": [
+        "Joy Bhattacharyya",
+        "Guinevere Herron",
+        "Yasmeen Asali",
+        "Abby Mintz",
+        "Mithi A. C. de los Reyes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Does Muon Help Agentic Reinforcement Learning?",
+      "link": "https://arxiv.org/abs/2607.16169v1",
+      "summary": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. Under Group-in-Group Policy Optimization (GiGPO), applying Muon only to hidden weight matrices raises final-window validation success from 0.290 to 0.546 (+88%); high-rate AdamW controls retain no post-update success. The",
+      "published": "2026-07-17T17:49:05Z",
+      "authors": [
+        "Kai Ruan",
+        "Jinghao Lin",
+        "Zihe Huang",
+        "Ziqi Zhou",
+        "Qianshan Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Behaviour-Conditioned Neural Processes for Adaptive Residential Short-Term Load Forecasting",
+      "link": "https://arxiv.org/abs/2607.16168v1",
+      "summary": "Residential short-term load forecasting (STLF) is challenging because household demand is heterogeneous, temporally variable, and shaped by diverse behavioural routines. This work investigates whether inferred behavioural structure can be embedded within the forecasting mechanism of a Neural Process-based probabilistic model, rather than used only as an external grouping signal, for context-conditioned residential STLF. We propose a behaviour-conditioned Attentive Neural Process framework that t",
+      "published": "2026-07-17T17:48:22Z",
+      "authors": [
+        "Ramin Soleimani",
+        "Andrea Visentin",
+        "Dirk Pesch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Exam for Active Observers",
+      "link": "https://arxiv.org/abs/2607.16165v1",
+      "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (MLLMs) exercise active observation is an empirical question that current vision-language benchmarks do not answer. We introduce ActiveVision, a benchmark that makes active observation measurable for ML",
+      "published": "2026-07-17T17:46:23Z",
+      "authors": [
+        "Jiarui Zhang",
+        "Muzi Tao",
+        "Shangshang Wang",
+        "Ollie Liu",
+        "Xuezhe Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Euclid: Calibrating distances from surface brightness fluctuations with Early Release Observations of the Fornax cluster",
+      "link": "https://arxiv.org/abs/2607.16164v1",
+      "summary": "Surface brightness fluctuations (SBF), the pixel-to-pixel variations in flux that arise from the statistical distribution of stars in galaxy images, provide a powerful tool to measure redshift-independent distances from photometric data alone. This method is particularly important in the era of large imaging surveys, such as those carried out during the Euclid mission. Here we present the first application of SBF to Euclid data, using the FAST-SBF code to measure stellar fluctuation amplitudes i",
+      "published": "2026-07-17T17:43:55Z",
+      "authors": [
+        "R. Habas",
+        "M. Cantiello",
+        "G. Riccio",
+        "G. Raimondo",
+        "N. Hazra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Revisiting Real-Time Interval and Throughput Maximization",
+      "link": "https://arxiv.org/abs/2607.16163v1",
+      "summary": "Job throughput maximization is the central maximization problem in scheduling. Interval scheduling is the special case of throughput maximization when jobs are intervals and therefore there is no slack available in which to schedule a job. It is interesting to know to what extent results for interval scheduling can be extended to the more general throughput problem in the real-time model. For the unweighted and proportionally weighted throughput problem (where the weight or value $w_i$ of a job ",
+      "published": "2026-07-17T17:43:35Z",
+      "authors": [
+        "Allan Borodin",
+        "Changdao He",
+        "Nadim Mottu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Fault Injection Planning for Multi-Layer Self-Healing AI Infrastructure",
+      "link": "https://arxiv.org/abs/2607.16161v1",
+      "summary": "Modern GPU-accelerator platforms rely on multi-layer self-healing pipelines that span hardware, firmware, management software, and orchestration. When faults propagate across layer boundaries, they can bypass detection, corrupt diagnosis, or trigger conflicting remediations--yet conventional fault-injection campaigns test each layer in isolation. We present ADA-ST, an adaptive fault-injection methodology that uses a weighted fault-propagation graph to guide cross-layer scenario selection. We con",
+      "published": "2026-07-17T17:40:46Z",
+      "authors": [
+        "Saurabh Kulkarni",
+        "Yuxin Yang",
+        "Rohan Kulkarni",
+        "Gautam Nayak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SEP-PRISM Data: A multi-source dataset for solar energetic particle forecasting",
+      "link": "https://arxiv.org/abs/2607.16160v1",
+      "summary": "Solar energetic particle (SEP) event forecasting often involves integrating heterogeneous observations that differ in cadence, temporal coverage, format, and historical availability, posing challenges for reproducible analysis of data-driven approaches. This paper presents SEP-PRISM Data, a curated multi-source dataset designed for 24-hour ahead forecasting of operational SEP events, defined by proton flux exceeding 10 pfu in the GOES > 10 MeV channel. SEP-PRISM Data integrates flare records, ac",
+      "published": "2026-07-17T17:39:52Z",
+      "authors": [
+        "Yian Yu",
+        "Yang Chen",
+        "Lulu Zhao",
+        "Kathryn Whitman",
+        "Ward Manchester"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Defining reduction types of curves via minimal regular and minimal normal crossings models",
+      "link": "https://arxiv.org/abs/2607.16159v1",
+      "summary": "We propose a definition of the reduction type of a curve over a discretely valued field in terms of the special fibre of an arbitrary regular model. We show that under this definition, the reduction type in terms of the minimal regular model determines and reduction type in terms of the minimal regular normal crossings model and vice versa. We also show that our definition is compatible with earlier classification results in low genus, namely the Kodaira-Néron classification for elliptic curves ",
+      "published": "2026-07-17T17:39:09Z",
+      "authors": [
+        "Jakab Schrettner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comparison of $f(R,T)$ Gravity with Multiple Datasets",
+      "link": "https://arxiv.org/abs/2607.16158v1",
+      "summary": "We examine $f(R,T)=R+λT^ε$ gravity models by finding the best fit parameters for various values of $ε$. This is accomplished by analyzing data from the cosmic microwave background, baryon acoustic oscillation observations, cosmic chronometer, and Type Ia supernovae introducing correlations and radiation effects to our previous work. We find the probability distribution for the best fit model around the value of $ε=0.010^{+0.013}_{-0.021}$, consistent with the standard cosmological model value of",
+      "published": "2026-07-17T17:39:05Z",
+      "authors": [
+        "Vincent R. Siggia",
+        "Eric D. Carlson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Broadband Multi-Aperture Passive Scholte-Wave Imaging Using Seabed Distributed Acoustic Sensing",
+      "link": "https://arxiv.org/abs/2607.16157v1",
+      "summary": "Shallow-water ocean forcing provides strong broadband passive Scholte-wave illumination along a seabed distributed acoustic sensing cable on the Texas Gulf Coast. We exploit this illumination through direct processing of the uncorrelated wavefield, long-duration frequency-wavenumber stacking, and a multi-aperture strategy that preserves high-frequency spatial localization while resolving low-frequency modes. Constant-wavenumber slices enable spatially consistent multimode tracking across success",
+      "published": "2026-07-17T17:38:14Z",
+      "authors": [
+        "Anna Titova",
+        "Andrey Bakulin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment",
+      "link": "https://arxiv.org/abs/2607.16156v1",
+      "summary": "Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of multi-agent interactions demands continuous, real-time monitoring systems capable of anticipating conflicts before they escalate into crashes. We present PRISA, a modular infrastructure LiDAR framework leveraging privacy-preserving, low-light-robust roadside sensors for long-term traffic observation ",
+      "published": "2026-07-17T17:35:23Z",
+      "authors": [
+        "Tam Bang",
+        "Hussam Abubakr",
+        "Emiliano de la Garza Villarreal",
+        "Truc Phuong Nguyen",
+        "Austin Harris"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Large deviations for halos and voids: beyond perturbative non-gaussianities",
+      "link": "https://arxiv.org/abs/2607.16152v1",
+      "summary": "The excursion-set formalism provides a key connection between primordial density fluctuations and the abundance of cosmic structures such as dark matter halos and voids, traditionally assuming Gaussian random walks. In this work, we extend this framework to fluctuations whose distribution presents strongly non-Gaussian tails. Such tails are beyond the reach of perturbative approaches to primordial non-Gaussianity based on moment expansion. We address the problem with rigorous, analytical derivat",
+      "published": "2026-07-17T17:34:18Z",
+      "authors": [
+        "Martin Teuscher",
+        "Ruth Durrer",
+        "Julien Grain",
+        "Killian Martineau",
+        "Aurélien Barrau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Fisher information of magnetic quantum phase transition on Kondo lattice",
+      "link": "https://arxiv.org/abs/2607.16150v1",
+      "summary": "Strange metals exemplify highly collective quantum many-body systems that call for new means of characterization, and there is considerable potential for quantum information approaches contributing to the cause. We investigate multipartite entanglement across the quantum phase transition of a Kondo lattice model using the quantum Fisher information (QFI). We show that the QFI associated with the spin components transverse to the order parameter characterizes the destruction of heavy quasiparticl",
+      "published": "2026-07-17T17:32:53Z",
+      "authors": [
+        "Yuan Fang",
+        "Lei Chen",
+        "Mounica Mahankali",
+        "Fang Xie",
+        "Yiming Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Order-reversed Kubo formulas in relativistic kinetic theory",
+      "link": "https://arxiv.org/abs/2607.16148v1",
+      "summary": "Using the stress-energy tensor response functions obtained in the Anderson-Witting model of kinetic theory with non-zero mass, we verify that these response functions satisfy the required analytic conditions and are fully consistent with the recently derived Kubo formulas in Ref.[1].",
+      "published": "2026-07-17T17:29:32Z",
+      "authors": [
+        "Sangyong Jeon",
+        "Juhee Hong",
+        "Alina Czajka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Memoryless Best-Choice Problem",
+      "link": "https://arxiv.org/abs/2607.16145v1",
+      "summary": "A random sequence sampled from a known continuous distribution is observed with the objective to choose an item with the overall rank one. A rejected item cannot be recalled and is immediately erased from the memory. Under this memory constraint, the choice problem is not amenable to recursive methods of optimal stopping and becomes a global optimisation task. We focus on a heavy-traffic form of the problem with infinitely many choice opportunities, which we state in terms of a planar Poisson pr",
+      "published": "2026-07-17T17:23:48Z",
+      "authors": [
+        "Alexander Gnedin",
+        "Marcos C. S. Carreira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning Standard Model structure from LHC data with Riemannian flow matching",
+      "link": "https://arxiv.org/abs/2607.16144v1",
+      "summary": "In this work we demonstrate that a single transformer-based generative model can capture Standard Model structure spanning five decades of invariant mass, from the sub-GeV regime to the TeV continuum, a range that no single Monte Carlo sample covers. To achieve this we design \\textsc{ShellFlow}, a Riemannian conditional flow matching model that, given the recorded event composition, generates each particle on its on-shell manifold. Its only physics priors are the on-shell condition and the invar",
+      "published": "2026-07-17T17:23:22Z",
+      "authors": [
+        "Midori Kato",
+        "Kevin A. Urquía-Calderón",
+        "Inar Timiryasov",
+        "Oleg Ruchayskiy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Excitonic structure in CsPbBr$_3$ nanocubes, nanorods and nanoplatelets: the effect of dimensionality",
+      "link": "https://arxiv.org/abs/2607.16142v1",
+      "summary": "We present a theoretical study comparing the excitonic ground state properties of CsPbBr$_3$ nanocrystals with different dimensionality: nanorods (1D), nanoplatelets (2D) and nanocubes (3D). All three systems are described on equal footing, by means of a general variational effective mass model, which captures the influence of quantum confinement, dielectric confinement, electron-hole correlations and polaronic effects (within a Haken model). The strongly confined directions squeeze the exciton ",
+      "published": "2026-07-17T17:22:55Z",
+      "authors": [
+        "Jose L. Movilla",
+        "Josep Planelles",
+        "Juan I. Climente"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "X-ray polarization of Z-type neutron star low-mass X-ray binaries -- II. Spectropolarimetric analysis",
+      "link": "https://arxiv.org/abs/2607.16140v1",
+      "summary": "IXPE has provided for the first time detailed energy- and time-resolved X-ray polarimetry of Z-type neutron star low-mass X-ray binaries (NS-LMXBs) as they move along their color-color diagrams (CCDs). These sources can reach the highest polarization observed for NS-LXMBs in the 2-8 keV range when they move along the horizontal branch. In a previous paper, we characterized the spectral state of a sample of Z-sources using the CCD and estimated the polarization with model-independent analysis. He",
+      "published": "2026-07-17T17:21:10Z",
+      "authors": [
+        "Andrea Gnarini",
+        "Francesco Ursini",
+        "Giorgio Matt",
+        "Stefano Bianchi",
+        "Fiamma Capitanio"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Impact of eccentricity and higher-modes on neutron star-black hole parameter estimation",
+      "link": "https://arxiv.org/abs/2607.16135v1",
+      "summary": "Detections of gravitational waves from neutron star-black hole systems provide avenues for studying extreme matter, constraining binary formation channels, and testing the nature of compact objects in strong gravity. Eccentric signatures in the signal further enhance this potential by improving parameter estimation and offering clues about binary formation. Because eccentricity is primarily imprinted during the inspiral phase, it is often weakly constrained or missed entirely in binary black hol",
+      "published": "2026-07-17T17:16:31Z",
+      "authors": [
+        "Snehal Tibrewal",
+        "Aasim Jan",
+        "Aaron Zimmerman",
+        "Hsin-Yu Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Do Multi-Agent Systems Help? An Information Bottleneck Perspective",
+      "link": "https://arxiv.org/abs/2607.16133v1",
+      "summary": "LLM powered multi-agent systems (MAS) have emerged as a promising paradigm for complex tasks. However, their advantages over single-agent systems (SAS) remain unclear, with performance varying inconsistently across settings. Here, we provide an information bottleneck perspective on elucidating the differences between MAS and SAS. Specifically, our key observation is that a SAS accumulates its full reasoning trace in one shared context, while a MAS uses isolated local contexts connected by bounde",
+      "published": "2026-07-17T17:13:44Z",
+      "authors": [
+        "Wendi Yu",
+        "Lianhao Zhou",
+        "Xiangjue Dong",
+        "Sai Sudarshan Barath",
+        "Declan Staunton"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fluctuation dynamics in randomly advected Navier-Stokes equations below critical scaling",
+      "link": "https://arxiv.org/abs/2607.16132v1",
+      "summary": "We study randomly advected incompressible Navier-Stokes equations, where the advecting field is a mean-zero, divergence-free, space-time stationary velocity field with smooth order-one correlations. We introduce a two-parameter family of models in which the advection is accelerated on a fast temporal scale $\\varepsilon^2$ and has spatial correlation length $δ$; the critical regime $\\varepsilon = δ$ corresponds to the natural parabolic scaling of the Navier-Stokes equation. In the full subcritica",
+      "published": "2026-07-17T17:12:35Z",
+      "authors": [
+        "Arnaud Debussche",
+        "Martina Hofmanová"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ToolSciVer: Multimodal Scientific Claim Verification with Visual Tool Augmented Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2607.16131v1",
+      "summary": "Multimodal Scientific Claim Verification (MSCV) requires models to verify scientific claims using visually grounded evidence from papers, including figures, tables, charts, and textual context. However, existing methods often fail because they struggle to locate decisive visual evidence, accurately read structured scientific visuals, and integrate multimodal observations into reliable reasoning. We introduce ToolSciVer, the first tool-augmented framework for MSCV to our knowledge. ToolSciVer equ",
+      "published": "2026-07-17T17:11:50Z",
+      "authors": [
+        "Binglin Zhou",
+        "Peng Shi",
+        "Ryo Kamoi",
+        "Nan Zhang",
+        "Rui Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Methodology for Auditable Trustworthiness Levels in AI Lifecycle Governance",
+      "link": "https://arxiv.org/abs/2607.16130v1",
+      "summary": "AI governance increasingly requires judgments about whether an AI system remains adequately trustworthy over time, whether observed changes are tolerable, and how such judgments should be documented in a transparent and contestable way. Yet existing work on AI trustworthiness remains either too high-level to support lifecycle monitoring and reassessment or too narrowly metric-driven to connect with governance needs. We therefore propose a lightweight methodology for auditable trustworthiness lev",
+      "published": "2026-07-17T17:11:22Z",
+      "authors": [
+        "Andrea Ferrario"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonadiabatic excited-state dynamics with quantum Monte Carlo-trained machine learning: azomethane as a stringent test",
+      "link": "https://arxiv.org/abs/2607.16129v1",
+      "summary": "We introduce quantum Monte Carlo (QMC)-trained multi-state machine-learned (ML) force fields for nonadiabatic excited-state dynamics, targeting photochemical processes in which the electronic character changes along the reaction path and a consistent correlated description is required. In this framework, variational Monte Carlo wave functions combine compact selected configuration-interaction expansions with a Jastrow factor that explicitly accounts for dynamical correlation, while neural networ",
+      "published": "2026-07-17T17:10:29Z",
+      "authors": [
+        "Alfonso Annarelli",
+        "Emiel Slootman",
+        "Claudia Filippi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CADAQUES: A Cost-Aware Dual Architecture for Query-Efficient Autonomous Discovery",
+      "link": "https://arxiv.org/abs/2607.16127v1",
+      "summary": "Autonomous discovery systems couple a resource that answers queries (a simulator, instrument, or analytic model) to an algorithm that selects what to query next. Most software frameworks for this loop inherit the control structure of numerical optimization: campaigns run for a fixed number of iterations, query costs are absent from the programming interface, and decision-making is treated as free. In practice, queries may differ in cost by orders of magnitude, and planners built on large languag",
+      "published": "2026-07-17T17:04:20Z",
+      "authors": [
+        "Jorge Bravo-Abad"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Unified Theory of Sparsification",
+      "link": "https://arxiv.org/abs/2607.16126v1",
+      "summary": "We study the sparsifiability of \\emph{real-valued codes}, a unifying abstraction that generalizes both combinatorial and continuous notions of sparsification, including spectral sparsification. In our setting, a code $C \\subseteq \\mathbb{R}_{\\geq 0}^m$ is simply a collection of nonnegative real-valued vectors, and for a parameter $ε> 0$, a \\emph{$(1 \\pm ε)$-sparsifier} of $C$ is a subset $T \\subseteq [m]$, together with weights $w \\in \\mathbb{R}_{\\geq 0}^T$, such that, for every $c \\in C$, $\\sum",
+      "published": "2026-07-17T17:03:53Z",
+      "authors": [
+        "Sanjeev Khanna",
+        "Aaron Putterman",
+        "Madhu Sudan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Global kilometer-scale climate simulations: new opportunities for climate services",
+      "link": "https://arxiv.org/abs/2607.16125v1",
+      "summary": "Climate services are essential for risk management and economic planning. This paper presents a century-long simulation performed with the ARP-GEM global atmosphere model at 2.6 km horizontal resolution. This simulation was specifically designed to complement and extend the set of simulations used in the latest version of the French climate services. A key feature is its global coverage at kilometer-scale resolution, enabling the representation of phenomena that depend on such fine scales. This ",
+      "published": "2026-07-17T17:03:45Z",
+      "authors": [
+        "David Saint-Martin",
+        "Olivier Geoffroy",
+        "Gildas Dayon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BayesContact: Uncertain Pose Estimation via Visuo-Tactile Proposals and Simulation-based Inference",
+      "link": "https://arxiv.org/abs/2607.16123v1",
+      "summary": "Contact-rich manipulation requires pose estimates that are often more accurate than what depth-only sensing provides. Existing methods, relying on vision and contact, employ costly offline training procedures that need to be retrained for new environments and geometries. We propose BayesContact, a Simulation-Based Inference framework for visuo-tactile pose estimation in peg-in-hole insertion. BayesContact maintains a particle belief over object pose and fuses depth observations with force/torque",
+      "published": "2026-07-17T17:00:42Z",
+      "authors": [
+        "Aditya Kamireddypalli",
+        "Matias Mattamala",
+        "Joao Moura",
+        "Russell Buchanan",
+        "Sethu Vijayakumar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CRAFT: Clustering Rubrics to Diagnose Weak LLM Capabilities and Generate Targeted Fine-Tuning Data",
+      "link": "https://arxiv.org/abs/2607.16122v1",
+      "summary": "Evaluations should do more than measure a models current performance. They should tell us what to fix for the next model iteration and provide a way to generate targeted post training data. Most evaluation pipelines identify weak examples, topics, or categories, but they leave the underlying capability failure implicit: they say where a model fails, not why. We introduce CRAFT, a method that converts any rubric based evaluation dataset into a model specific diagnosis of weak capabilities. CRAFT ",
+      "published": "2026-07-17T17:00:38Z",
+      "authors": [
+        "Vipul Gupta",
+        "Zihao Wang",
+        "Razvan-Gabriel Dumitru",
+        "MohammadHossein Rezaei",
+        "Aakash Sabharwal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comparison of Energy System Optimization Software and Evaluation of Selected Frameworks",
+      "link": "https://arxiv.org/abs/2607.16121v1",
+      "summary": "Optimizing energy systems is a crucial step toward achieving a carbon-neutral future, with software tools playing a major role in the process. However, selecting the most suitable tool for specific optimization challenges can be complex, given the diverse objectives and requirements of various energy systems. In this study, we aim to address this issue by evaluating five preselected software tools-REMix, MTRESS, COMANDO, OEMOF, and HOMER PRO-to identify the scenarios for which they are most suit",
+      "published": "2026-07-17T16:58:00Z",
+      "authors": [
+        "Pedro Caixeta",
+        "David Gawron",
+        "Hüseyin K. Çakmak",
+        "Haozhen Cheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Localized Vector Modes on Local Cosmic Strings",
+      "link": "https://arxiv.org/abs/2607.16120v1",
+      "summary": "We investigate the dynamics of vector excitations localized on cosmic strings in the Abelian-Higgs model. These confined gauge field fluctuations behave as massive vector degrees of freedom propagating along the string. We show that they remain bounded for all values of the scalar self coupling $λ$, including parameter regimes in which the previously studied conventional shape mode is no longer present. After determining their spectra and spatial profiles, we analyze their decay through nonlinea",
+      "published": "2026-07-17T16:57:40Z",
+      "authors": [
+        "Sergio Alameda-Calvo",
+        "Jose J. Blanco-Pillado",
+        "Jose Queiruga"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Discovery of $γ$-Ray Pulsations from the Extreme-Spin-Down Millisecond Pulsar PSR J0435+3233",
+      "link": "https://arxiv.org/abs/2607.16119v1",
+      "summary": "Motivated by the recent discovery of PSR~J0435+3233, a millisecond pulsar with an exceptionally large period derivative of $\\dot{P}=4.9\\times10^{-17}\\ {\\rm s\\,s^{-1}}$ and a high spin-down luminosity of $\\dot{E}=5.89\\times10^{37}\\ {\\rm erg\\,s^{-1}}$, we analyze $\\sim$17~yr of observations obtained with the \\textit{Fermi} Large Area Telescope for the pulsar. We identify the cataloged source 4FGL~J0435.5+3232, located only $0.01^{\\circ}$ from the radio timing position, as the $γ$-ray counterpart o",
+      "published": "2026-07-17T16:57:02Z",
+      "authors": [
+        "Mengqing Zhang",
+        "Shengbin Pei",
+        "Pengfei Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rate-Utility Frontiers for Language Encodings: Comparing Tokens, Bytes, and Pixels Under Controlled Linguistic Content",
+      "link": "https://arxiv.org/abs/2607.16117v1",
+      "summary": "Language models encode text as subword tokens, raw bytes, or rendered pixels, but these encodings are usually compared under modeling constraints that expose different amounts of linguistic content to models across different languages. We instead ask what each encoding preserves when both the content and the downstream capacity are controlled. Using verified parallel sentences across thirteen languages and five scripts, we compare tokens, bytes, and pixels through a shared bottleneck whose width",
+      "published": "2026-07-17T16:55:27Z",
+      "authors": [
+        "Ingo Ziegler",
+        "Martin Krebs",
+        "Desmond Elliott"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum-classical crossover in fault-tolerant quantum dynamics simulation",
+      "link": "https://arxiv.org/abs/2607.16116v1",
+      "summary": "While quantum computers promise to solve classically intractable problems, identifying the point at which fault-tolerant quantum computation outperforms the best classical algorithms for practical applications remains an outstanding challenge. Here we establish a concrete quantum-classical crossover for quantum many-body dynamics under realistic hardware conditions. We introduce a scalable fault-tolerant framework that combines coherent observable estimation with a space-time-efficient implement",
+      "published": "2026-07-17T16:54:25Z",
+      "authors": [
+        "Jinzhao Sun",
+        "Bozhen Zhou",
+        "Jue Xu",
+        "Yuan Yao",
+        "Zhenyu Du"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
