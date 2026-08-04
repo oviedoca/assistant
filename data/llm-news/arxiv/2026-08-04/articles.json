@@ -1,0 +1,620 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
+      "link": "https://arxiv.org/abs/2608.02603v1",
+      "summary": "Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existing benchmarks mainly assess visual quality or explicit instruction fulfillment by checking whether re",
+      "published": "2026-08-03T17:59:54Z",
+      "authors": [
+        "Yuxue Yang",
+        "Shuyao Shang",
+        "Jiahe Wang",
+        "Zitong Zhou",
+        "Liang Tan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "link": "https://arxiv.org/abs/2608.02602v1",
+      "summary": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity. Instead of simplifying the representation to suit the generative model, we preserve a high-capacity",
+      "published": "2026-08-03T17:59:50Z",
+      "authors": [
+        "Jiajun Liang",
+        "Yucheng Liao",
+        "Yukang Cao",
+        "Jiazhe Wei",
+        "Ken Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "link": "https://arxiv.org/abs/2608.02599v1",
+      "summary": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineering-grounded AI (EGAI), in which AI workflows follow established engineering and power-system domain ",
+      "published": "2026-08-03T17:59:09Z",
+      "authors": [
+        "Junjie Yin",
+        "Buxin She",
+        "Xinyu Feng",
+        "Fangxing",
+        "Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SDSS-V Local Volume Mapper (LVM): Dithered Data Cube Reconstruction with 3dcubegen",
+      "link": "https://arxiv.org/abs/2608.02597v1",
+      "summary": "The Sloan Digital Sky Survey V (SDSS-V) Local Volume Mapper (LVM) is conducting an unprecedented wide-field integral field spectroscopic survey of the Milky Way, the Magellanic Clouds, and nearby galaxies using a strategy based on multiple dithered observations to achieve full spatial coverage, improved spatial sampling, and enhanced spectral depth. However, the scientific exploitation of these observations requires a robust methodology to combine the individual row-stacked spectra (RSS) into ho",
+      "published": "2026-08-03T17:58:55Z",
+      "authors": [
+        "H. J. Ibarra-Medel",
+        "A. Z. Lugo-Aranda",
+        "R. de J. Zermeño",
+        "Sebastián F. Sánchez",
+        "Lesly Castañeda-Carlos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Staying Productive Under the Palm Trees. On Graded Coeffect Typing in the Tropical Semiring",
+      "link": "https://arxiv.org/abs/2608.02596v1",
+      "summary": "We show that the tropical semiring over the natural numbers, when used as the grading space in graded coeffect typing, faithfully models the passage of time while simultaneously guaranteeing productivity of well-typed programs. A grade a, when assigned to a function parameter, indicates that the parameter is not necessarily available immediately, but will become available after a time steps. We investigate this idea through two formal systems. We first introduce a graded type system featuring re",
+      "published": "2026-08-03T17:58:34Z",
+      "authors": [
+        "Rémy Cerda",
+        "Ugo Dal Lago"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
+      "link": "https://arxiv.org/abs/2608.02595v1",
+      "summary": "Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and domain-specific intuition. Existing evaluations rarely measure the capabilities required to make reliable decisions in a physical laboratory and often rely on public data that may have appeared in mo",
+      "published": "2026-08-03T17:58:27Z",
+      "authors": [
+        "Brandon Wang",
+        "Andrei S. Tyrin",
+        "Daniil A. Boiko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exact Likelihood and Sampling for Riemannian Gaussian Distributions on Correlation Matrices",
+      "link": "https://arxiv.org/abs/2608.02593v1",
+      "summary": "Correlation matrices arise when marginal scales are removed from covariance matrices, yet a normalized likelihood must account for both quotient distance and quotient volume. We propose a Riemannian Gaussian model for full-rank correlation matrices under quotient-affine geometry. The distribution is proper and has finite radial moments. We derive exact score and profiled-scale equations and recover Fisher-transformed Gaussian inference for two-dimensional matrices. In higher dimension, a curvatu",
+      "published": "2026-08-03T17:57:59Z",
+      "authors": [
+        "Kisung You"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Testing for subgroup treatment effect consistency in the Cox model",
+      "link": "https://arxiv.org/abs/2608.02591v1",
+      "summary": "An overall treatment effect in a clinical trial may inadequately represent particular patient subgroups, creating uncertainty about whether a population-level efficacy conclusion can legitimately be transferred to them. Conventional interaction tests only investigate whether subgroup-specific treatment effects are exactly equal or not, but cannot detect whether the differences are small enough to be clinically negligible. We develop a formal framework for assessing subgroup treatment effect cons",
+      "published": "2026-08-03T17:57:22Z",
+      "authors": [
+        "Lukas Koletzko",
+        "Holger Dette",
+        "Björn Bornkamp",
+        "Frank Bretz",
+        "Zoe Kristin Lange"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CAPEval: A Decoupled Caption Evaluation across Understanding and Generation",
+      "link": "https://arxiv.org/abs/2608.02589v1",
+      "summary": "Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However, previous evaluations treat the caption quality as a single scalar objective, which conflates two distinct properties: (1) how much visual information a caption covers and (2) how reliably the image supports its stated claims. To this end, we design a decoupled caption evaluation benchmark, CAPEval (Coverage And Precision Evaluation), with human-written ground-truth captions and",
+      "published": "2026-08-03T17:57:03Z",
+      "authors": [
+        "Zhipeng Liu",
+        "Haochen Wang",
+        "Zhaoxiang Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Entanglement of flower states",
+      "link": "https://arxiv.org/abs/2608.02587v1",
+      "summary": "The mysterious nature of entanglement, one of the most prominent exquisitely quantum phenomena, is reflected in its intricate operational structure, with a hierarchy of classes of free operations that enable its manipulation at different levels of effectiveness. Here we use the class of 'flower states', parametrised by their (even) local dimension $2k$, to shine light on some aspects of this varied landscape. We compute all the main entanglement measures for flower states, uncovering a large gap",
+      "published": "2026-08-03T17:56:25Z",
+      "authors": [
+        "Samrat Sen",
+        "Ludovico Lami"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "link": "https://arxiv.org/abs/2608.02585v1",
+      "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We introduce GradCuit (gradient through circuit), which inserts optimizable latent states at a selected ",
+      "published": "2026-08-03T17:55:24Z",
+      "authors": [
+        "Zhaoxin Yu",
+        "Qi Shen",
+        "Hengli Li",
+        "Zhaowei Zhang",
+        "Song-Chun Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generation of Correlated Time Series for X-ray Astronomy Applications",
+      "link": "https://arxiv.org/abs/2608.02584v1",
+      "summary": "Cross-spectral methods have become essential for studying accretion physics in X-ray binaries and active galactic nuclei, where coherence and phase lag measurements constrain physical models and reveal variability components invisible in power spectra alone. Recent multi-Lorentzian fitting techniques have uncovered new quasi-periodic features through joint analysis of power spectra and cross-spectra, but testing these methods requires synthetic data with realistic statistical properties. We pres",
+      "published": "2026-08-03T17:54:38Z",
+      "authors": [
+        "Seth Rowan Larner",
+        "Michael A. Nowak",
+        "Jörn Wilms"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "link": "https://arxiv.org/abs/2608.02583v1",
+      "summary": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching toward richer semantics. Yet LSR has so far remained tied to encoder-style bidirectional architectures, and its extension to multimodal settings still relies heavily on auxiliary cross-modal modules. To address these limitations, we introduce UEmbed (Unified Embedding), a decoder-only multimodal embe",
+      "published": "2026-08-03T17:54:11Z",
+      "authors": [
+        "Tingyu Song",
+        "Mingxin Li",
+        "Yanzhao Zhang",
+        "Dingkun Long",
+        "Pengjun Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ACEM: A Cost Estimation Model for Agentic Software Engineering",
+      "link": "https://arxiv.org/abs/2608.02582v1",
+      "summary": "Traditional software cost estimation models, such as COCOMO II, Function Points, and Story Points, assume that development effort is primarily driven by human labor in design, coding, and testing. Agentic software engineering, where autonomous AI agents perform substantial implementation work and humans focus on planning, specification, and validation, challenges this assumption. New cost dimensions arise: large language model (LLM) token consumption across agent actions, Human-in-the-Loop (HITL",
+      "published": "2026-08-03T17:54:11Z",
+      "authors": [
+        "Mohammad El-Ramly"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+      "link": "https://arxiv.org/abs/2608.02580v1",
+      "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric human manipulation videos offer rich scene and task diversity, and prior work has shown that retargeting and rendering such videos into robot-format data can yield effective per-task policies at small scale. However, whether this approach can provide pretraining benefits for vision-language-action models at scale remains unexplored. We present \\textbf{Ego2Robot}, a scalable pipeline",
+      "published": "2026-08-03T17:52:26Z",
+      "authors": [
+        "Ye Wang",
+        "Pei Lin",
+        "Xiong-Hui Chen",
+        "Haoqi Yuan",
+        "Zhixuan Liang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
+      "link": "https://arxiv.org/abs/2608.02578v1",
+      "summary": "World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We present CoWAM, a selective intervention layer that expresses synchronization, role compatibility, and collision convergence as coordination contracts. Each contract combines typed admissibility checks with event-conditioned verification and calibrated intervention gates. CoWAM preserves the nominal ",
+      "published": "2026-08-03T17:51:58Z",
+      "authors": [
+        "Shuaijun Liu",
+        "Qifu Wen",
+        "Shuyang Hao",
+        "Qi Luo",
+        "Chenglong Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rotation, spectral type, and albedo of the potentially hazardous asteroid (153814) 2001 WN$_{\\text 5}$ Prior to the 2028 June close approach",
+      "link": "https://arxiv.org/abs/2608.02577v1",
+      "summary": "The potentially hazardous asteroid (153814) 2001 WN$_5$ will pass inside the lunar distance on June 26, 2028, offering a rare opportunity to characterize a kilometer-scale near-Earth asteroid at high angular resolution. We aim to constrain the rotation state, shape, visible colors, geometric albedo, and taxonomy of 2001 WN$_5$ before its 2028 close approach. We combined new photometry from the 1.54 m Danish Telescope (DK154) with archival and survey observations from the Transiting Exoplanet Sur",
+      "published": "2026-08-03T17:51:51Z",
+      "authors": [
+        "Jin Beniyama",
+        "Alexey V. Sergeyev",
+        "Konstantinos Odysseas Xenos",
+        "Benoit Carry",
+        "Petr Pravec"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
+      "link": "https://arxiv.org/abs/2608.02575v1",
+      "summary": "Diffusion models rely on stochastic inputs, yet on finite-precision hardware, the \"randomness\" they consume is realized as deterministic numerical orbits generated by pseudorandom rules. Accessible orbit structure can become a learnable input and affect both training and generation because the realized loss and its gradient depend on the concrete pseudorandom values consumed at each optimization step. A small multilayer perceptron predicts the next value of an orbit from its recent history, meas",
+      "published": "2026-08-03T17:50:54Z",
+      "authors": [
+        "Shengzhi Deng",
+        "Chenqi Ye",
+        "Yanze Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Foundation Models for Astrophysics",
+      "link": "https://arxiv.org/abs/2608.02573v1",
+      "summary": "Foundation models are high-capacity networks pretrained once on broad data and then reused across many tasks. This chapter introduces them through the idea of a transferable representation, the internal description a network forms during training, which, rather than the fitted task, is what carries over to new problems. We develop the idea from first principles for an astronomical reader, starting from why a representation matters and what makes one useful, and then surveying the architectures, ",
+      "published": "2026-08-03T17:49:40Z",
+      "authors": [
+        "Xiaosheng Zhao",
+        "Yuan-Sen Ting"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+      "link": "https://arxiv.org/abs/2608.02569v1",
+      "summary": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable statement of the problem, the search has little structure to exploit and hard constraints are not guaran",
+      "published": "2026-08-03T17:45:58Z",
+      "authors": [
+        "Qiushi Lin",
+        "Chaojie Zhang",
+        "Íñigo Goiri",
+        "Aditya Akella",
+        "Ricardo Bianchini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Additive decompositions of multiplicative subgroups in prime fields: a self-contained approach",
+      "link": "https://arxiv.org/abs/2608.02568v1",
+      "summary": "Sárközy conjectured that the nonzero quadratic residues modulo a sufficiently large prime have no nontrivial additive decomposition. Hanson and Petridis proved the conjecture for almost all primes, and Kalmynin completed the proof. Kalmynin also developed a general framework for additive decompositions of multiplicative subgroups. More recently, Rudnev and Tyrrell used this framework to classify all additive decompositions of proper multiplicative subgroups of prime fields, showing that the only",
+      "published": "2026-08-03T17:45:44Z",
+      "authors": [
+        "Chi Hoi Yip",
+        "Semin Yoo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Talbot effect for the periodic Benjamin--Ono equation",
+      "link": "https://arxiv.org/abs/2608.02567v1",
+      "summary": "We study the Talbot effect for the periodic Benjamin--Ono equation with rough initial data. Using the smoothing theorem of Gérard--Kappeler--Topalov for Tao's gauge transform, we reduce the singularity analysis to an explicit quadratic gauge profile. For general bounded-variation data we obtain a rational-time gauge-Hardy representation. For a natural subclass of Talbot-admissible data, whose initial gauge profile has only finitely many edge singularities, this representation becomes a finite su",
+      "published": "2026-08-03T17:45:43Z",
+      "authors": [
+        "Xi Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pairwise-Independent Dithering for Single-Stage Hadamard Quantization",
+      "link": "https://arxiv.org/abs/2608.02564v1",
+      "summary": "Quantizing high-dimensional vectors is fundamental to similarity search, distributed learning, and model compression. Feng, Indyk, Kapralov, Krachun, and Prokhorov established sharp guarantees for an unbiased dithered quantizer based on a randomized Hadamard transform [FIK+26]. Their $1/d$-scale inner-product estimator, however, uses a second randomized transform and residual quantization, increasing both communication and the leading constant in the proved bound. We show that this extra stage i",
+      "published": "2026-08-03T17:44:45Z",
+      "authors": [
+        "Honghao Lin",
+        "Vahab Mirrokni",
+        "David P. Woodruff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Radial abundance gradients of 18 elements in Galactic open clusters from infrared MWM spectra A detailed analysis of 655 giants in 133 clusters",
+      "link": "https://arxiv.org/abs/2608.02563v1",
+      "summary": "Open clusters are powerful tools for studying the Milky Way. While large spectroscopic surveys now provide spectra for many cluster members, automated pipelines and heterogeneous membership selections can introduce systematics and inflate apparent cluster scatter. Therefore, a homogeneous re-analysis with careful membership control and an explicit treatment of departures from Local Thermodynamic Equilibrium is valuable for establishing robust abundance gradients. The aim is to derive precise Gal",
+      "published": "2026-08-03T17:44:09Z",
+      "authors": [
+        "S. Bijavara Seshashayana",
+        "H. Jönsson",
+        "V. D'Orazi",
+        "K. Cunha",
+        "P. Frinchaboy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A curvature-based criterion for harmonic circadian waveforms",
+      "link": "https://arxiv.org/abs/2608.02562v1",
+      "summary": "Experimental and theoretical studies of circadian rhythms have focused largely on the period, on mutants that alter it and on phase shifts, and this focus has driven the identification of clock genes and clarified how clocks entrain to light--dark cycles. The waveform of the oscillation itself, by contrast, has attracted little attention as an indicator of the properties of the underlying oscillator. To assess the waveform directly, we focus on whether the trajectory in the plane spanned by a va",
+      "published": "2026-08-03T17:43:58Z",
+      "authors": [
+        "Yusuke Yamada",
+        "Yutaro Kabata",
+        "Ryoya Fukasaku",
+        "Hiroshi Ito"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection",
+      "link": "https://arxiv.org/abs/2608.02560v1",
+      "summary": "Retrieval-augmented generation (RAG) imposes a prefill cost proportional to retrieved context length, and -- with Transformer backbones -- a KV-cache that grows with each generated token. State-Space Models (SSMs) avoid the second cost by construction; we eliminate the first, collapsing prefill from $O(L_{context})$ to $O(1)$ per query. We introduce PRECOG (Pre-Computed Context Injection), a retrieval mechanism that exploits a property unique to SSMs: the fixed-size, position-agnostic recurrent ",
+      "published": "2026-08-03T17:43:36Z",
+      "authors": [
+        "Anusha Madan Gopal",
+        "Aras Pirbadian",
+        "Kristofor D. Carlson",
+        "M Anthony Lewis",
+        "Jonathan Tapson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "House-monotone multi-level apportionment has logarithmic quota discrepancy",
+      "link": "https://arxiv.org/abs/2608.02559v1",
+      "summary": "Multi-level apportionment allocates integer seats through a hierarchy of groups. Schmidt-Kraepelin, Suksompong, and Wijaya proved that, at every fixed house size, lower and upper quota can be satisfied simultaneously; they also constructed house-monotone rules satisfying either quota separately. They left open whether one rule can satisfy lower quota, upper quota, and house monotonicity together, even when quota is required only relative to the root. We give a negative answer. For a full binary ",
+      "published": "2026-08-03T17:42:18Z",
+      "authors": [
+        "Lav R. Varshney"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond the Final Prompt: Measuring the Effect of Within-Conversation Context on AI Answers",
+      "link": "https://arxiv.org/abs/2608.02556v1",
+      "summary": "An isolated final user message is often treated as the query in evaluations of AI systems. In a conversation, however, the actionable request may be distributed across preceding turns. We directly test whether that omitted within-conversation context changes answers. For each of 180 English multi-turn conversations sampled from a governed commercial corpus and the public PRISM dataset, we hold the final user message and requested answer model constant while generating three answers: one from the",
+      "published": "2026-08-03T17:40:46Z",
+      "authors": [
+        "Benjamin Tannenbaum"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Romanized Arabic Across Dialects: Views, Usage Patterns, and Linguistic Variation",
+      "link": "https://arxiv.org/abs/2608.02555v1",
+      "summary": "Arabizi refers to Arabic written in Latin script. Although previous studies have shown that the prevalence and usage of Arabizi vary by factors such as region and age group, most NLP research on Arabic texts treats it as a temporary phenomenon resulting from limited technological support for the Arabic script. In this work, we engage with Arabic speakers to collect insights on their perceptions and usage of Arabizi. We further examine writing norms among speakers of different dialects, focusing ",
+      "published": "2026-08-03T17:39:45Z",
+      "authors": [
+        "Amr Keleg",
+        "Ahmed Amine Ben Abdallah",
+        "Taha Yassine",
+        "Chadi Helwe",
+        "Imane Guellil"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dual volume approximation of the Euclidean ball by polytopes with a fixed number of $k$-faces",
+      "link": "https://arxiv.org/abs/2608.02554v1",
+      "summary": "We study dual volume approximation of the Euclidean ball by polytopes with a prescribed number of $k$-dimensional faces. This continues the authors' previous work on intrinsic volume approximation of the ball by polytopes with a fixed number of $k$-faces, and develops the corresponding dual radial theory. Our first main result gives a nonasymptotic lower bound for the volume deficit of an inscribed polytope $P_M\\subset B_d$ with at most $M$ $k$-faces, for $0\\leq k\\leq \\lfloor d/2\\rfloor$. The es",
+      "published": "2026-08-03T17:38:29Z",
+      "authors": [
+        "Steven Hoehner",
+        "Carsten Schütt",
+        "Elisabeth M. Werner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+      "link": "https://arxiv.org/abs/2608.02553v1",
+      "summary": "Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of sustained reasoning, adaptive behavior, persistent memory, and self-regulation. While generative and agentic AI have demonstrated impressive capabilities across a wide range of tasks, many fundamental cognitive functions remain fragmented or weakly developed, limiting reliable operation over extended time horizons. This paper presents a taxonomy-driven survey of the major cognitive capab",
+      "published": "2026-08-03T17:37:38Z",
+      "authors": [
+        "Taye Akinrele",
+        "Sindhuja Penchala",
+        "Noorbakhsh Amiri Golilarz",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Who Should Be Generated? Justifying Demographic Targets in Open-Ended Generation",
+      "link": "https://arxiv.org/abs/2608.02551v1",
+      "summary": "Fairness evaluation concerns not only what a model produces, but also what its outputs ought to be compared against. When a model generates \"a CEO in the United States,\" the prompt leaves demographic realization to the model. Existing group fairness definitions assume that sensitive attributes are given on the input side. Generative audits instead examine output-side demographic composition, yet the targets they compare it against are typically supplied rather than justified. The upstream questi",
+      "published": "2026-08-03T17:35:31Z",
+      "authors": [
+        "Zeshen Zheng",
+        "Yujia He",
+        "Qianmian Lin",
+        "Xiangyue Huang",
+        "Wenqing Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Joint Bayesian Boolean Matrix Factorization with Application to Chromosomal Copy Number Alterations in Multiple Myeloma",
+      "link": "https://arxiv.org/abs/2608.02550v1",
+      "summary": "Boolean matrix factorization provides an interpretable framework for discovering latent binary patterns in high-dimensional data, yet existing methods typically analyze a single binary matrix or factorize multiple matrices independently, failing to exploit shared latent structure across related datasets. We propose Joint Bayesian Boolean Matrix Factorization (JBBMF), a model that simultaneously factorizes two related binary matrices through a shared latent Boolean pattern matrix and dataset-spec",
+      "published": "2026-08-03T17:35:13Z",
+      "authors": [
+        "Adolphus Wagala",
+        "Samur Mehmet",
+        "Giovanni Parmigiani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Estimating SSIM from MSE for DCT-Based Compressed Images",
+      "link": "https://arxiv.org/abs/2608.02549v1",
+      "summary": "Efficient and perceptually meaningful quality assessment is a fundamental requirement for image and video processing, compression, and streaming systems. This article shows that, in the context of Discrete Cosine Transform ( DCT)-based compressed images, Structural Similarity Index ( SSIM ) can be approximated from global Peak Signal to Noise Ratio (PSNR) or Mean Square Error ( MSE) using local statistics derived only from the reference image. While prior work assumes access to local MSE, we pro",
+      "published": "2026-08-03T17:33:36Z",
+      "authors": [
+        "Luc Trudeau",
+        "Maria G. Martini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Between-User Collapse Under Popularity-Biased Feedback: A Centered-Covariance Theorem and Computable Phase Boundary",
+      "link": "https://arxiv.org/abs/2608.02548v1",
+      "summary": "We study how popularity-biased BPR training reshapes the between-user geometry of collaborative-filtering embeddings. We work with the mean-centered user covariance $C=\\tfrac1n U^\\top H U$, the object that measures how distinguishable users are from one another, as opposed to the uncentered second moment used in prior work. We prove that under popularity-biased feedback with stationary items, $C$ converges to a steady state proportional to the item-noise covariance $Q$. Thus between-user spread ",
+      "published": "2026-08-03T17:33:25Z",
+      "authors": [
+        "Sahil Medepalli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
+      "link": "https://arxiv.org/abs/2608.02547v1",
+      "summary": "Action chunking---predicting and executing multiple actions instead of a single action---has proven to be a critical component for learning effective robotic control policies. However, our precise understanding of why action chunking improves performance has remained limited. In this work we seek to close this gap. Through rigorous experimental evaluations in both simulated and real-world settings, we show that existing hypotheses for the success of action chunking---temporal consistency, horizo",
+      "published": "2026-08-03T17:32:45Z",
+      "authors": [
+        "Filippo Lazzati",
+        "Kyle Stachowicz",
+        "William Chen",
+        "Alberto Maria Metelli",
+        "Andrew Wagenmaker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Variable-Radius Disk Transforms and an Area-Integral Problem of Zalcman",
+      "link": "https://arxiv.org/abs/2608.02546v1",
+      "summary": "For $0<α\\leq1$, define $(\\mathcal T_αf)(z)   :=\\int_{B(z,α(1-|z|))}f(ζ)\\,dA(ζ)$ for $z\\in\\mathbb D$, where $dA$ is planar Lebesgue measure. We prove that $\\mathcal T_α$ is injective on $C(\\mathbb D)\\cap L^\\infty(\\mathbb D)$ for $0<α<1$, and that $\\mathcal T_1$ is injective on $L^1(\\mathbb D)$. In contrast, for each $0<α<1$ there is an injective linear map from $C_c^\\infty((0,α))$ into the kernel of $\\mathcal T_α$ on $C^\\infty(\\mathbb D)$; every nonzero function in its image is necessarily unboun",
+      "published": "2026-08-03T17:32:36Z",
+      "authors": [
+        "Qiteng Guo",
+        "Yixin He"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Probabilistic Reachable-Action Verification of Visuomotor Policies via Set-Based Training",
+      "link": "https://arxiv.org/abs/2608.02545v1",
+      "summary": "Reachability analysis for visuomotor policies is difficult because large visual encoders make end-to-end set propagation computationally expensive and excessively conservative. We therefore freeze the visual encoder and confine set propagation to a low-dimensional interface between it and the downstream policy, with the interface set calibrated from held-out camera-pose perturbations. Propagating this set through the policy with zonotopes yields a terminal output-enclosure width that set-based t",
+      "published": "2026-08-03T17:32:08Z",
+      "authors": [
+        "Yanliang Huang",
+        "Zhuocheng Zhang",
+        "Peng Xie",
+        "Zhen Zhang",
+        "Wenyuan Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the local conformal structure of Imaginary Liouville theory",
+      "link": "https://arxiv.org/abs/2608.02543v1",
+      "summary": "Imaginary Liouville theory was recently proposed as a path integral construction of a non-rational conformal field theory (CFT) with central charge less than one (Usciati et al. 2026). In the present work, we establish Ward identities and Belavin-Polyakov-Zamolodchikov differential equations in this framework, assuming a precise conjecture on the decay of the Laplace transform of Imaginary Gaussian multiplicative chaos. These results provide a first step towards a rigorous implementation of the ",
+      "published": "2026-08-03T17:30:27Z",
+      "authors": [
+        "Baptiste Cerclé",
+        "Romain Usciati"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gauge and Metaphysics of Spacetime",
+      "link": "https://arxiv.org/abs/2608.02542v1",
+      "summary": "Some authors have argued that spacetime in general relativity should be given a radically different interpretation from the ones given to spacetime in other theories in virtue of it being a gauge theory. In this article I review this sort of argument and argue against this view. That is, I argue that spacetime in general relativity can be understood analogously to spacetime in other models and that the argument from the diffeomorphism invariance of the theory misapplies the concepts of gauge the",
+      "published": "2026-08-03T17:30:13Z",
+      "authors": [
+        "Álvaro Mozota Frauca"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "You're Gonna Need a Bigger Core: Calibrating Massive Star Models against Galactic OB-type Stars",
+      "link": "https://arxiv.org/abs/2608.02540v1",
+      "summary": "The evolution of massive stars above 8 M$_\\odot$ depends critically on the amount of mixing above the convective core during the main sequence. However, current models typically extrapolate results from lower-mass stars, where constraints from asteroseismology and eclipsing binary systems are more readily available. A new opportunity to study the evolution of massive stars and their distribution in the Hertzsprung--Russell diagram arises by combining the IACOB spectroscopic sample of over 900 Ga",
+      "published": "2026-08-03T17:28:42Z",
+      "authors": [
+        "Thibault Lechien",
+        "Selma E. de Mink",
+        "Stephen Justham",
+        "Abel de Burgos",
+        "Ruggero Valli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Simple Approximation to the Distribution of the Ridge Regression Estimator",
+      "link": "https://arxiv.org/abs/2608.02539v1",
+      "summary": "We present a simple Gaussian approximation to the finite-sample distribution of the classical ridge regression estimator. Our approximation captures the fact that, in finite samples, the ridge regression estimator trades off bias and variance to reduce estimation and prediction error. Our approximation is based on nonstandard asymptotics where $i)$ we let the estimator's regularization parameter grow proportionally to the sample size; and $ii)$ we treat the population regression coefficients as ",
+      "published": "2026-08-03T17:28:17Z",
+      "authors": [
+        "José Luis Montiel Olea",
+        "Ryan Strong",
+        "Amilcar Velez",
+        "Zhuoheng Xu",
+        "Haomin Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Do I Even Need a Multilevel Model? Negligible Effect Significance Testing for Intraclass Correlation Coefficients",
+      "link": "https://arxiv.org/abs/2608.02535v1",
+      "summary": "In applied research, the decision to utilize multilevel modeling (MLM) is commonly guided by comparing a point estimate of the unconditional intraclass correlation coefficient (ICC) against some recommended threshold (e.g., 0.05). This naive approach, however, fails to account for sampling uncertainty and provides no formal inferential justification for a decision. The current work introduces negligible effect significance testing (NEST; or equivalence testing) for the ICC, proposing a framework",
+      "published": "2026-08-03T17:27:31Z",
+      "authors": [
+        "Dayeon Lee",
+        "Gregory R. Hancock"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rewriting and presentations of quasicategories",
+      "link": "https://arxiv.org/abs/2608.02529v1",
+      "summary": "We show that the methods of rewriting theory to establish coherence theorems can applied at the level of quasicategories. More precisely, for any category C which admits a presentation by a convergent rewrite system, we show that the corresponding weak (infinity,1)-category admits an Amick-Groves-Squier style presentation whose generators correspond to (some of) the critical branchings of the rewrite system. This follows entirely from reinterpreting K. Brown's simplicial proof of the usual homol",
+      "published": "2026-08-03T17:24:58Z",
+      "authors": [
+        "Simon Henry"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On calculating polar solvation energy of nonrigid proteins in the Poisson-Boltzmann theory",
+      "link": "https://arxiv.org/abs/2608.02525v1",
+      "summary": "The Poisson-Boltzmann (PB) theory is a cornerstone of implicit solvent models for electrostatic analysis, and has found a great success in various biomolecular applications. However, in calculating polar solvation energy, one should consider that the structure of the protein changes upon transition from vacuum to water phases. To address this, here we report for the first time a generalized PB framework capable of accommodating nonrigid conformational changes without suffering from self-energy a",
+      "published": "2026-08-03T17:21:15Z",
+      "authors": [
+        "Matthias Dogbatsey",
+        "Yuanzhen Shao",
+        "Emil Alexov",
+        "Shan Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Approximating two-terminal network reliability",
+      "link": "https://arxiv.org/abs/2608.02523v1",
+      "summary": "We present a fully polynomial-time randomised approximation scheme (FPRAS) for the two-terminal reliability problem on general graphs, both directed and undirected. We also show that the complementary unreliability question is \\BIS-hard. The key idea of the algorithm was discovered by GPT-5.6 Sol Ultra.",
+      "published": "2026-08-03T17:18:07Z",
+      "authors": [
+        "Weiming Feng",
+        "Yucheng Fu",
+        "Heng Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Squeezing-Fueled Quantum Otto Engine via Measurement-Induced Cooling: The Two-Qubit Quantum Rabi Model",
+      "link": "https://arxiv.org/abs/2608.02521v1",
+      "summary": "We investigate a quantum Otto engine (QOE) constructed from the two-qubit quantum Rabi model, operating within a cavity quantum electrodynamics (QED) architecture. The engine operates with two qubits as the working substance and a single non-Markovian hot thermal bath, modeled via the hierarchical equations of motion (HEOM) formalism. In place of a conventional cold thermal reservoir, the cooling stroke is realized through a projective measurement protocol on the cavity mode, which acts as an an",
+      "published": "2026-08-03T17:17:31Z",
+      "authors": [
+        "S R Rathnakaran",
+        "Asoka Biswas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs",
+      "link": "https://arxiv.org/abs/2608.02520v1",
+      "summary": "Large language models (LLMs) are increasingly used for health-related advice. Existing research measures their safety with static questions rather than pressured patient-facing conversations. We introduce MedPRESS, a multi-turn benchmark for measuring patient-pressure-induced sycophancy in LLMs. MedPRESS contains 600 medically grounded five-turn dialogues across three scenario families: medication and treatment demand, personal health self-care, and symptom triage and care resistance. Each dialo",
+      "published": "2026-08-03T17:17:29Z",
+      "authors": [
+        "Saman Sarker Joy",
+        "Niloy Farhan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analytic Planning under Uncertainty with Moment Closure",
+      "link": "https://arxiv.org/abs/2608.02519v1",
+      "summary": "Effective model-based reinforcement learning in stochastic environments requires planning that accounts for predictive uncertainty. Propagating full state distributions analytically offers a principled way to do this, but has traditionally required restrictive policy or reward structures to remain tractable. Consequently, modern deep reinforcement learning has largely retreated to either stochastic sampling, which introduces significant target variance, or deterministic point estimates that igno",
+      "published": "2026-08-03T17:17:00Z",
+      "authors": [
+        "Shishir Sharma",
+        "Doina Precup"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+      "link": "https://arxiv.org/abs/2608.02518v1",
+      "summary": "The most capable AI deployments are not single models but ensembles of specialized agents that delegate and act in coordination. This architecture unlocks powerful new capabilities, and it also introduces risks that existing frameworks for monitoring, detection, and mitigation were not designed to address. Most state-of-the-art AI abuse detection literature focuses on single-turn or multi-turn (single-session) threat models. This leaves a critical gap: an attacker can decompose a harmful goal in",
+      "published": "2026-08-03T17:15:55Z",
+      "authors": [
+        "Natalie Isak",
+        "Matthew Dressman"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
