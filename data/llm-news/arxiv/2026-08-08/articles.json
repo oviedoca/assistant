@@ -1,0 +1,630 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "link": "https://arxiv.org/abs/2608.06377v1",
+      "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-contex",
+      "published": "2026-08-06T17:59:58Z",
+      "authors": [
+        "Xian Sun",
+        "Wei Chow",
+        "Yingshuo Wang",
+        "Junhao Liu",
+        "Wei Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Tale of Two Compact Bosons",
+      "link": "https://arxiv.org/abs/2608.06376v1",
+      "summary": "Neural network field theory (NN-FT) defines a field theory by a network architecture together with a probability density on its latent variables. For compact theories the local Gaussian sector is only part of the story: one must also sum over discrete topological sectors. We review a mixed continuous/discrete latent-variable construction and apply it to two compact bosons. For the Berezinskii--Kosterlitz--Thouless transition, a random Fourier feature spin-wave sampler supplemented by an explicit",
+      "published": "2026-08-06T17:59:35Z",
+      "authors": [
+        "Christian Ferko",
+        "Vishnu Jejjala",
+        "Brandon Robinson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+      "link": "https://arxiv.org/abs/2608.06375v1",
+      "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered. We present $ω$-0, a latent predictive whole-body world-action model for real-world humanoid concurrent loco-manipulation. Given a language instruction, cur",
+      "published": "2026-08-06T17:59:31Z",
+      "authors": [
+        "Zhe Li",
+        "Zhenzhe Zhang",
+        "Yangyang Wei",
+        "Wenjie Zhang",
+        "Xichen Yuan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "link": "https://arxiv.org/abs/2608.06374v1",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitati",
+      "published": "2026-08-06T17:59:20Z",
+      "authors": [
+        "Junfeng Li",
+        "Junjie He",
+        "Zhide Zhong",
+        "Yangyang Zheng",
+        "Pingyue Sheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Global weak solutions to the Cahn-Hilliard equation with degenerate mobility and singular diffusion",
+      "link": "https://arxiv.org/abs/2608.06371v1",
+      "summary": "We study the initial-boundary value problem for the Cahn-Hilliard equation with degenerate mobility and singular diffusion at pure phases. This model describes the dynamics of phase separation in polymer blends with associated Flory-Huggins-de Gennes free energy. We prove the existence of suitable global weak solutions in three-dimensional bounded, smooth, and convex domains, assuming that the initial datum has finite energy. A key novelty of our analysis is the derivation of $L^4(0,T; H^2(Ω))$ ",
+      "published": "2026-08-06T17:58:36Z",
+      "authors": [
+        "Monica Conti",
+        "Andrea Giorgini",
+        "Greta Ricchi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Bitter Lesson of Tool Calling",
+      "link": "https://arxiv.org/abs/2608.06370v1",
+      "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool ca",
+      "published": "2026-08-06T17:58:32Z",
+      "authors": [
+        "Ishan Patel",
+        "Sahil Sen",
+        "Elias Lumer",
+        "Vamse Kumar Subbiah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A proof of Andersen's rainbow path conjecture for large $n$",
+      "link": "https://arxiv.org/abs/2608.06369v1",
+      "summary": "We show that, for sufficiently large $n$, every properly edge-coloured $n$-vertex complete graph contains a path with $n-1$ vertices which uses each colour at most once (that is, a rainbow path). This resolves a conjecture of Andersen from 1989 for all large $n$ and improves previous results of Alon-Pokrovskiy-Sudakov, and then Balogh-Molla, which showed that rainbow paths/cycles of length $n-O(n^{1/2}\\log n)$ exist in this setting. Furthermore, with related methods, we show that, for every suff",
+      "published": "2026-08-06T17:58:27Z",
+      "authors": [
+        "Candida Bowtell",
+        "Richard Montgomery",
+        "Alp Müyesser",
+        "Alexey Pokrovskiy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "link": "https://arxiv.org/abs/2608.06366v1",
+      "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence tra",
+      "published": "2026-08-06T17:57:37Z",
+      "authors": [
+        "Soorya Ram Shimgekar",
+        "Michelle Hu",
+        "Dorisa Shehi",
+        "Daniel Kang",
+        "Roy Ka-Wei Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "link": "https://arxiv.org/abs/2608.06362v1",
+      "summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact",
+      "published": "2026-08-06T17:57:11Z",
+      "authors": [
+        "Boning Li",
+        "Yu Chen",
+        "Longbo Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "link": "https://arxiv.org/abs/2608.06361v1",
+      "summary": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks",
+      "published": "2026-08-06T17:57:06Z",
+      "authors": [
+        "Sarvesh Baskar",
+        "Zikui Cai",
+        "Shayan Shabihi",
+        "Anirudh Satheesh",
+        "Muhammad R. Islam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PyOMES: an open-source framework for biochemical process modelling",
+      "link": "https://arxiv.org/abs/2608.06360v1",
+      "summary": "PyOMES is a Python-based, Open-source Modelling Environment for (bio)chemical process Simulation that aims to simplify the modelling of dynamic (including steady state) processes. This is done in a generalied, modular way to facilitate modelling a broad range of biological, chemical, and biochemical systems under a single modelling framework. PyOMES has been built to be accessible to a broad range of users - ranging from those with little modelling experience, such as experimentalists and studen",
+      "published": "2026-08-06T17:56:40Z",
+      "authors": [
+        "Ethan Errington",
+        "Tom Vinestock",
+        "Jaewook Lee",
+        "Miao Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Phonon spectral functions of low-density polaron metals",
+      "link": "https://arxiv.org/abs/2608.06357v1",
+      "summary": "We use the density matrix renormalization group (DMRG) to compute the phonon spectral function of a one-dimensional spinless Holstein model doped with a low but finite carrier concentration, $x \\leq 0.15$, as a function of the electron-phonon coupling $λ$. To the best of our knowledge, these are the first such results in this regime, complementing extensive prior work at the single-polaron level ($x\\to 0$). We find that significant phonon spectral weight is transferred both below, all the way do",
+      "published": "2026-08-06T17:55:23Z",
+      "authors": [
+        "Luis Walther",
+        "Alberto Nocera",
+        "Mona Berciu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On generalised d'Alembert-type integral representations for damped wave equations on the quarter-plane",
+      "link": "https://arxiv.org/abs/2608.06355v1",
+      "summary": "We rigorously construct and verify a posteriori new closed-form solutions for the forced Maxwell-Cattaneo-Vernotte equation (also broadly known as the damped wave equation, hyperbolic heat, and telegrapher's equation on lossy transmission lines) posed on the spatiotemporal quarter-plane with general initial and boundary data in classical function spaces. For this purpose, the modern complex-analytic unified transform method of Fokas (originally developed for elliptic PDE and evolution equations ",
+      "published": "2026-08-06T17:53:49Z",
+      "authors": [
+        "Andreas Chatziafratis",
+        "Claudio Giorgi",
+        "Alain Miranville",
+        "Federico Zullo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "link": "https://arxiv.org/abs/2608.06353v1",
+      "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form gam",
+      "published": "2026-08-06T17:53:24Z",
+      "authors": [
+        "Praphul Chandra",
+        "Sujit Gujar",
+        "Ganesh Ghalme"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "link": "https://arxiv.org/abs/2608.06352v1",
+      "summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solver setting. In this paper, we present CalibForge, an autonomous terminal-task synthesis system that uses verified solver behavior to revise candidate tasks through adversarial solver calibration. Multi-solver calibration targets disagreement within a",
+      "published": "2026-08-06T17:53:18Z",
+      "authors": [
+        "Fanzhe Meng",
+        "Guoxin Chen",
+        "Jiale Zhao",
+        "Shuang Sun",
+        "Zhiyu Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+      "link": "https://arxiv.org/abs/2608.06351v1",
+      "summary": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this pr",
+      "published": "2026-08-06T17:53:10Z",
+      "authors": [
+        "Jerzy Stefanowski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Clump Migration in Disk Galaxies: Revisiting Chandrasekhar's Dynamical Friction",
+      "link": "https://arxiv.org/abs/2608.06350v1",
+      "summary": "Massive stellar clumps are thought to migrate toward galactic centers through dynamical friction, contributing to bulge growth and the structural evolution of disk galaxies. While the classical Chandrasekhar formalism is widely used to estimate clump inspiral times, its validity for extended, evolving clumps embedded in realistic galactic disks remains uncertain. We test this formalism using an isolated disk galaxy simulation by identifying and tracking individual stellar clumps over multiple or",
+      "published": "2026-08-06T17:53:02Z",
+      "authors": [
+        "Pushpak Pandey",
+        "Kanak Saha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+      "link": "https://arxiv.org/abs/2608.06347v1",
+      "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense token-level supervision on student-generated rollouts, yet their objectives do not explicitly prioritize reasoning signals most critical to cross-lingual transfer. We characterize that target-language reasoning comprises the generation of both surfac",
+      "published": "2026-08-06T17:52:06Z",
+      "authors": [
+        "Xinye Wang",
+        "Junxiao Liu",
+        "Shujian Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+      "link": "https://arxiv.org/abs/2608.06346v1",
+      "summary": "LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a failed trajectory that is responsible for the final failure. However, progress faces two main challenges. First, long trajectories make it difficult to identify individual errors, since the evidence for judging a step may be scattered across distant instructions, observations, and p",
+      "published": "2026-08-06T17:51:20Z",
+      "authors": [
+        "Yunjia Qi",
+        "Zehua Yin",
+        "Xintong Shi",
+        "Hao Peng",
+        "Songyuanyi Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vector Edge Solitons and Domain Walls in a Nonlinear Mechanical Topological Insulator",
+      "link": "https://arxiv.org/abs/2608.06342v1",
+      "summary": "We report nonlinear edge waves in a 2D mechanical topological insulator. A bulk lattice consists of pendulums with on-site cubic nonlinearity connected by linear springs realizing quantum spin Hall effect. We show that the nonlinear interaction between two edge modes with equal group velocities (EGV) is described by a 1D two-component coupled nonlinear Schrödinger (CNLS) equation. On the interface separating two bulk lattices with opposite spin Chern numbers, we construct linear springs such tha",
+      "published": "2026-08-06T17:50:26Z",
+      "authors": [
+        "David D. J. M. Snee",
+        "Yi-Ping Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Distributed coordination for transmission-distribution systems with nonlinear flexibility aggregation",
+      "link": "https://arxiv.org/abs/2608.06341v1",
+      "summary": "High shares of distributed energy resources (DERs) transform distribution systems into active participants in integrated transmission and distribution (ITD) operations. Linear models enable scalable distribution-level flexibility aggregation but can misclassify AC feasible operating points, whereas direct nonlinear aggregation becomes costly, especially in multiperiod ITD coordination. This paper reformulates transmission-distribution coordination within a hierarchical optimization framework and",
+      "published": "2026-08-06T17:50:06Z",
+      "authors": [
+        "Xinliang Dai",
+        "Yanlin Jiang",
+        "Frederik Zahn",
+        "Yi Guo",
+        "Veit Hagenmeyer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scalable estimation of VARMA models",
+      "link": "https://arxiv.org/abs/2608.06340v1",
+      "summary": "Vector autoregressive moving-average (VARMA) models have long been considered impractical beyond moderate dimensions: the likelihood is non-convex, the parametrization is identified only up to equivalence, and every evaluation costs a pass over the entire series. Yet their moving-average term captures with a few parameters what a pure autoregression matches only with many lags. We introduce an estimation framework that removes this computational barrier: each optimization iteration is independen",
+      "published": "2026-08-06T17:49:58Z",
+      "authors": [
+        "Daniel Paulin",
+        "Victor Elvira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nuclear-Spin Statistical Weights from Young Diagrams",
+      "link": "https://arxiv.org/abs/2608.06339v1",
+      "summary": "Nuclear-spin statistical weights and selection rules in molecular spectroscopy are governed by the permutation symmetry of identical nuclei, although rigid and semi-rigid molecules typically realize only a proper subgroup of the full symmetric group. Building on the Schur-Weyl framework of Schmiedt, Jensen, and Schlemmer, we extend this approach to molecular geometries whose rovibrational motion realizes cyclic and dihedral permutation subgroups. By combining the Schur-Weyl decomposition of the ",
+      "published": "2026-08-06T17:49:43Z",
+      "authors": [
+        "Eric Kubischta",
+        "Ian Teixeira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Circular sorting in the alternating group",
+      "link": "https://arxiv.org/abs/2608.06338v1",
+      "summary": "The symmetric group $S_n$ is generated by transpositions, and problems of sorting permutations using transpositions are well studied. In recent work, Adin, Alon, and Roichman studied the related problem of sorting $n$ points on a circle, and gave a formula for the maximum number of adjacent swaps required. This is equivalent to the number of adjacent transpositions required to transform any permutation into a power of the cyclic permutation $(1,2,\\ldots, n)$.   The focus of this work is an analo",
+      "published": "2026-08-06T17:49:22Z",
+      "authors": [
+        "Melanie Ferreri",
+        "Eric Swartz",
+        "Nicholas J. Werner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Rates for Learning with Monotone Adversaries",
+      "link": "https://arxiv.org/abs/2608.06337v1",
+      "summary": "A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not exchangeable. Larsen, Pabbaraju, and Shetty, who introduced this model, showed that empirical risk minimi",
+      "published": "2026-08-06T17:45:32Z",
+      "authors": [
+        "Anay Mehrotra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On number of cyclic $n$-roots and disjointness of Fourier supports",
+      "link": "https://arxiv.org/abs/2608.06335v1",
+      "summary": "A cyclic $n$-root is an $n$-dimensional complex vector that solves a particular set of multivariate homogeneous polynomial equations. There is a one-to-one correspondence between unimodular cyclic $n$-roots and bi-unimodular vectors (CAZAC sequences) with leading entry one. It was conjectured by Björck and Saffari that the set of cyclic $n$-roots is finite if and only if $n$ is square free. It is known that such a set is infinite if $n$ is not square free, and finite if $n$ is prime. A critical ",
+      "published": "2026-08-06T17:41:34Z",
+      "authors": [
+        "Weiqi Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Regression-Based Framework for the ACF, PACF, Durbin-Levinson Recursion, and One-Step-Ahead Prediction",
+      "link": "https://arxiv.org/abs/2608.06334v1",
+      "summary": "The autocorrelation function (ACF) and partial autocorrelation function (PACF) are foundational tools for identifying autoregressive moving-average (ARMA) models, yet they are often introduced to students as computational recipes disconnected from the regression framework students already know. This note develops a unified, regression-based instructional framework for the ACF, the PACF, the Durbin-Levinson recursion, and one-step-ahead prediction in stationary time series. We show that the ACF i",
+      "published": "2026-08-06T17:40:59Z",
+      "authors": [
+        "Kellen Gong",
+        "Fang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+      "link": "https://arxiv.org/abs/2608.06332v1",
+      "summary": "Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challenging. Action-conditioned world models offer a promising alternative, but they often suffer from limited action controllability and poor generalization to out-of-distribution (OOD) scenarios. To this end, we present GeniWorld, an interactive world model for robots that gene",
+      "published": "2026-08-06T17:40:32Z",
+      "authors": [
+        "Chenghao Gu",
+        "Hanyang Yu",
+        "Jingbo Zhang",
+        "Haitao Lin",
+        "Wenyao Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+      "link": "https://arxiv.org/abs/2608.06331v1",
+      "summary": "From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how tables connect into units of analysis. Today, this semantic layer is usually written by hand. This is a knowledge-acquisition bottleneck that limits the scalability of analytic systems, keeps non-technical users dependent on experts, and is itself error-prone. We present TYTAN, a ",
+      "published": "2026-08-06T17:40:26Z",
+      "authors": [
+        "Donna Hooshmand",
+        "Shubham Shahi",
+        "Cameron Barrie",
+        "Abhratanu Dutta",
+        "Marko Sterbentz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+      "link": "https://arxiv.org/abs/2608.06329v1",
+      "summary": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading to unreliable evaluations. We introduce a reference-free framework that uses LLM judges to assess benchmark consistency, complexity, and policy coverage, while providing actionable diagnostics of weaknesses. We validate the framework by demonstratin",
+      "published": "2026-08-06T17:39:21Z",
+      "authors": [
+        "Noam Koren",
+        "Roy Bar-Haim",
+        "Abigail Goldsteen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A unified modeling of X-ray and gamma-ray spectro-polarimetric data: the case of Cygnus X-1",
+      "link": "https://arxiv.org/abs/2608.06328v1",
+      "summary": "Recent X-ray and soft gamma-ray spectro-polarimetric observations of black hole X-ray binaries, such as Cygnus X-1, reveal discrepancies that challenge current models of accretion and high-energy emission. We present a general framework for broadband spectro-polarimetric modeling that simultaneously fits spectral and polarization data from independent instruments across different energy bands. The method robustly combines measurements with different energy binning and statistical significance wh",
+      "published": "2026-08-06T17:39:04Z",
+      "authors": [
+        "Tristan Bouchet",
+        "Thomas Siegert",
+        "Victoria Grinberg",
+        "Jérôme Rodriguez",
+        "Floriane Cangemi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-State Geometry of Density Matrices and Rectification Sum Rules",
+      "link": "https://arxiv.org/abs/2608.06326v1",
+      "summary": "The geometry of quantum states has emerged as a key ingredient in understanding the linear and nonlinear responses of quantum materials. To date, however, the connection between geometry and nonlinear response is best understood for clean, noninteracting systems at zero temperature. In this work, we develop a theory of multi-state geometry for density matrices and use it to derive sum rules for second-order rectification, making no assumptions about the strength of disorder or interactions. We f",
+      "published": "2026-08-06T17:38:53Z",
+      "authors": [
+        "Barry Bradlyn"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fair and Efficient Balanced Allocations for Additive Valuations",
+      "link": "https://arxiv.org/abs/2608.06325v1",
+      "summary": "We study the existence of fair and efficient allocations of indivisible goods under the balancedness constraint, which requires that any two agents' bundles differ in size by at most one. Our main result establishes the existence of balanced allocations that satisfy envy-freeness up to one good (EF1) and fractional Pareto optimality (fPO) for arbitrary additive valuations. This generalizes a recent result of Kawase et al. (2026), which establishes existence only for personalized bivalued valuati",
+      "published": "2026-08-06T17:38:41Z",
+      "authors": [
+        "Benjamin Cookson",
+        "Nisarg Shah",
+        "Paritosh Verma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Precision Medicine to Precision Education: A Vision for AI-Powered Student Digital Twins, Preventive Student Success, and Career-Aligned Academic Pathways",
+      "link": "https://arxiv.org/abs/2608.06322v1",
+      "summary": "Higher education remains largely reactive in its approach to student success. Institutions frequently identify academic problems only after students have failed courses, fallen behind in degree progression, accumulated excessive debt, or departed without a credential. Healthcare faced a similar challenge decades ago. It responded by shifting from reactive treatment to preventive care powered by predictive models, risk stratification, electronic health records, and artificial intelligence (AI). T",
+      "published": "2026-08-06T17:36:56Z",
+      "authors": [
+        "Kaushik Dutta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An open-source framework for predicting ultrasound neuromodulation: bridging tissue elastomechanics and neuron firing dynamics",
+      "link": "https://arxiv.org/abs/2608.06321v1",
+      "summary": "Transcranial focused ultrasound is a non-invasive neuromodulation modality with millimetre-scale resolution, but its biophysical mechanism of action remains unresolved. Exposure is conventionally specified by transducer surface or derated focal pressure, quantities only indirectly related to what matters for therapy: which neurons fire and through which pathway. We address this gap with an end-to-end computational framework that maps a transcranial acoustic field to per-voxel neural firing maps ",
+      "published": "2026-08-06T17:36:20Z",
+      "authors": [
+        "Gianmarco Pinton"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Quantum Mechanics of Rare Events: From Quantum Walks to Stochastic Inflation",
+      "link": "https://arxiv.org/abs/2608.06319v1",
+      "summary": "Rare fluctuations in physical systems depend on the detailed microphysics responsible for the fluctuations. In classical statistical systems, the large deviation principle has elucidated the role of semi-classics in describing this regime, and has simultaneously provided a the mathematical foundation of statistical mechanics. Large deviation theory for quantum system is considerably less developed. As all physical systems are fundamentally quantum mechanical, this leaves a major gap in our under",
+      "published": "2026-08-06T17:33:55Z",
+      "authors": [
+        "Daniel Green",
+        "Kshitij Gupta",
+        "Akhil Premkumar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Sound Translation from Tamarin to ProVerif: Enabling Comparative Analysis",
+      "link": "https://arxiv.org/abs/2608.06315v1",
+      "summary": "Tamarin and ProVerif are two prominent tools for the formal verification of security protocols. They share the same high-level goal but differ significantly in their underlying formalisms and verification techniques, making a systematic comparison challenging: Tamarin uses multiset rewrite rules with sound and complete verification, whereas ProVerif employs an extension of the applied-pi calculus that provides fast but potentially incomplete results.   We present a sound translation from Tamarin",
+      "published": "2026-08-06T17:28:50Z",
+      "authors": [
+        "Kevin Morio",
+        "Yavor Ivanov",
+        "Robert Künnemann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Three-layer water flows: Dirichlet-Neumann operators and approximations",
+      "link": "https://arxiv.org/abs/2608.06314v1",
+      "summary": "The object of investigation in this paper are the nonlinear equations of motion for two-dimensional inviscid water flows with piecewise constant density stratification in a three-layer fluid with a flat bottom, a free surface and two interfaces. We establish a Hamiltonian formulation for the nonlinear governing equations in this setup. The Hamiltonian of the system and the equations of motion of the surface and of the interfaces are expressed with the help of the Dirichlet-Neumann (DN) operators",
+      "published": "2026-08-06T17:28:13Z",
+      "authors": [
+        "Rossen Ivanov",
+        "Calin-Iulian Martin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+      "link": "https://arxiv.org/abs/2608.06312v1",
+      "summary": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and governed by explicit rules for scope, terminology, normative wording, and cross-section consistency. Existing benchmarks focus on domain knowledge and question answering, largely overlooking intrinsic",
+      "published": "2026-08-06T17:27:23Z",
+      "authors": [
+        "Tao Wang",
+        "Qihao Yang",
+        "Rongjiao Liang",
+        "Lianghong Lin",
+        "Haitao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
+      "link": "https://arxiv.org/abs/2608.06311v1",
+      "summary": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices in clinical settings, giving it poor through-plane resolution. Super-resolution (SR) is a widely used method for recovering an isotropic volume from an anisotropic scan. Yet whether applying it prior to WMH segmentation preserves lesion content remains unknown: a model may erase sm",
+      "published": "2026-08-06T17:26:01Z",
+      "authors": [
+        "Zahra Khodakarami",
+        "Yue Li",
+        "Pulkit Khandelwal",
+        "John Detre",
+        "Sandhitsu Das"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
+      "link": "https://arxiv.org/abs/2608.06310v1",
+      "summary": "Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not realized their potential in reinforcement learning (RL). Our analysis reveals that this limitation arises from a mismatch between the comparative nature of generative reward modeling and the scalar scoring paradigm adopted by existing RL algorithms. To bridge this gap, we propose a",
+      "published": "2026-08-06T17:24:36Z",
+      "authors": [
+        "Chenglong Wang",
+        "Ziming Zhu",
+        "Yifu Huo",
+        "Bei Li",
+        "Qiaozhi He"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the degeneracy of solutions from stellar spectropolarimetric data",
+      "link": "https://arxiv.org/abs/2608.06306v1",
+      "summary": "In this work we investigate the inversion accuracy of stellar magnetic fields through the analysis of spectropolarimetric data. We performed several noise free tests to untangle the impact among the atmospheric and magnetic parameters in the data analysis. Using a single spectral line, we found that under ideal scenario, without noise, the magnetic parameters can be recovered with very high accuracy, while some of the atmospheric ones show a considerable incertitude. If multi-line profiles are c",
+      "published": "2026-08-06T17:23:16Z",
+      "authors": [
+        "J. C. Ramirez Velez",
+        "J. M. Raygoza-Romero",
+        "I. H. Lopez-Nava",
+        "R. Lopez-Valdivia",
+        "M. F. Arenas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+      "link": "https://arxiv.org/abs/2608.06305v1",
+      "summary": "Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is structurally unsound, and we make the argument measurable. On a 780-page government financial report, 86.8% of content lines are table rows, thousands of near-identical figures compete in one embedding spa",
+      "published": "2026-08-06T17:23:13Z",
+      "authors": [
+        "Sagar Tamang",
+        "Ayush Vyas",
+        "Tabarakul Hazarika"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Impact of Nonlinearities on Local Kinetic and Thermokinetic Uncertainty Relations in Bosonic Transport",
+      "link": "https://arxiv.org/abs/2608.06303v1",
+      "summary": "The precision of transport observables can be bounded by the entropy production and the activity of the transport process via kinetic and thermokinetic uncertainty relations. In linear bosonic systems, such uncertainty relations can provide tight bounds when the activity is replaced by a local activity of the measurement contact of interest---even in the strong-coupling regime. How much nonlinearities (or interactions) impact the validity and predictiveness of these local bounds and how much thi",
+      "published": "2026-08-06T17:21:51Z",
+      "authors": [
+        "Didrik Palmqvist",
+        "Luca Magazzù",
+        "Milena Grifoni",
+        "Janine Splettstoesser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "link": "https://arxiv.org/abs/2608.06301v1",
+      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measu",
+      "published": "2026-08-06T17:21:05Z",
+      "authors": [
+        "Varun Ursekar",
+        "Apaar Shanker",
+        "Yash Maurya",
+        "Shehab Yasser",
+        "Vijay S. Kalmath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bias Analysis of L2 Speaking Assessment Systems Using Concept Activation Vectors",
+      "link": "https://arxiv.org/abs/2608.06300v1",
+      "summary": "Automatic speaking assessment systems are increasingly deployed in high-stakes settings to mark second language (L2) learners' speaking tests, making it critical to show that their scores depend on speaking proficiency rather than irrelevant speaker attributes such as first language (L1) or age. Transformer-based foundation models have improved the accuracy of these L2 speaking graders, but their black-box representations make fairness and interpretability analysis more difficult. Building on pr",
+      "published": "2026-08-06T17:20:58Z",
+      "authors": [
+        "Arya Labroo",
+        "Mengjie Qian",
+        "Kate Knill"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sub-critical well-posedness for the intermediate nonlinear Schrödinger equation on the line",
+      "link": "https://arxiv.org/abs/2608.06298v1",
+      "summary": "We continue our study of the well-posedness theory for the intermediate nonlinear Schrödinger equation (INLS). Firstly, we prove that INLS is locally well-posed in $H^s (\\mathbb{R})$ for any $s>0$. This improves on our previous result of local well-posedness for any $s>\\frac 14$, and covers the full scaling-subcritical range for INLS. In particular, we also obtain the local well-posedness for the continuum Calogero-Moser equation without chirality assumption in the full scaling-subcritical range",
+      "published": "2026-08-06T17:19:35Z",
+      "authors": [
+        "Andreia Chapouto",
+        "Justin Forlano",
+        "Thierry Laurens"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On-Policy Self-Distillation without Any Supervision",
+      "link": "https://arxiv.org/abs/2608.06296v1",
+      "summary": "On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and therefore fall short of genuine \"self\"-distillation. In this study, we show that on-policy self-distillation can be achieved using only a model's own generations via internal consistency. We propose Unsupervised On-Polic",
+      "published": "2026-08-06T17:18:23Z",
+      "authors": [
+        "Yijiang Li",
+        "Bingyang Wang",
+        "Yijun Liang",
+        "Yunjie Tian",
+        "Di Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction",
+      "link": "https://arxiv.org/abs/2608.06294v1",
+      "summary": "Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population largely depend on static summaries derived from early admission. Such approaches ignore the temporal progression of physiological deterioration and recovery that unfolds throughout a patient's ICU stay. To address this limitation, we introduce QuanTiMedAI, a quantum-agentic framewo",
+      "published": "2026-08-06T17:18:03Z",
+      "authors": [
+        "Mutasim Fuad Sarker",
+        "Adiba Rahman Namira",
+        "Wafa Binte Alam",
+        "Md Adnan Arefeen",
+        "Mahzabeen Emu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonconvex Sublevel Sets For The Planar Translating Mean Curvature Equation",
+      "link": "https://arxiv.org/abs/2608.06293v1",
+      "summary": "Translating solitons arise as models for type~II singularities of mean-convex mean curvature flow. We construct a smooth bounded uniformly convex domain \\(\\Om\\Subset\\R^2\\) such that the zero-Dirichlet solution of the planar translating mean curvature equation has a nonconvex sublevel set. The construction is based on a corrected near-critical grim-reaper profile and explicit barriers on a long convex channel.",
+      "published": "2026-08-06T17:17:11Z",
+      "authors": [
+        "Jiahuan Li",
+        "Yilu Liu",
+        "Xi-Nan Ma",
+        "Guohuan Qiu"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
