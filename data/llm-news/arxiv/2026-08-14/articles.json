@@ -1,0 +1,640 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "link": "https://arxiv.org/abs/2608.13560v1",
+      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive self-improvement, existing paradigms remain static and fall short of this capability. In this paper, we present AutoDesign, a framework that aligns with human design ",
+      "published": "2026-08-13T17:59:57Z",
+      "authors": [
+        "Yaxin Luo",
+        "Haobin Jiang",
+        "Jialv Zou",
+        "Xu Huang",
+        "Wenhao Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "link": "https://arxiv.org/abs/2608.13558v1",
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the ag",
+      "published": "2026-08-13T17:59:52Z",
+      "authors": [
+        "Bobo Li",
+        "Hao Fei",
+        "Tianjie Ju",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Localised Horizons and Holographic Thermodynamics: Supercooling in the 1/D Expansion",
+      "link": "https://arxiv.org/abs/2608.13557v1",
+      "summary": "In holography, four-dimensional confining gauge theories are often modelled by five-dimensional Einstein--scalar gravity by choosing a specific form of the scalar potential. In a large class of non-conformal theories, we show that a predictive structure emerges for the thermal confinement transition by generalising the gravitational dual to $D+1$ dimensions and using a $1/D$ expansion. These results are independent of the details of the scalar potential, hinting towards universality. The black b",
+      "published": "2026-08-13T17:59:44Z",
+      "authors": [
+        "Prateek Agrawal",
+        "Gaurang Ramakant Kane",
+        "Vazha Loladze"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "link": "https://arxiv.org/abs/2608.13556v1",
+      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although video autoencoder architectures have evolved substantially, their latent spaces are still optimized primarily for pixel-level reconstruction and provide limited high-level semantic organization. A reconstruction-optimal latent space, however, need not be well suited to generative modeling. We propose V-RAE, a video representation autoencoder that builds compact generative latents",
+      "published": "2026-08-13T17:59:43Z",
+      "authors": [
+        "Minghui Guo",
+        "Shengqiong Wu",
+        "Hao Fei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Defensive Boosting for Online Probabilistic Forecasting",
+      "link": "https://arxiv.org/abs/2608.13554v1",
+      "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide separately. Online gradient boosting competes in Brier score with the best predictor induced by the span of $H$ on every sequence, but promises nothing when the span does not contain an accurate predictor. Online weak-to-stro",
+      "published": "2026-08-13T17:59:35Z",
+      "authors": [
+        "Georgy Noarov",
+        "Aaron Roth"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "link": "https://arxiv.org/abs/2608.13552v1",
+      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or w",
+      "published": "2026-08-13T17:59:30Z",
+      "authors": [
+        "Kaixin Ding",
+        "Xi Chen",
+        "Minghong Cai",
+        "Zhiyuan Xu",
+        "Yiyang Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Every PPT channel has finite entanglement-breaking index",
+      "link": "https://arxiv.org/abs/2608.13551v1",
+      "summary": "We prove that every PPT linear map has finite entanglement-breaking index, thereby establishing the eventual entanglement-breaking property of PPT channels in full generality. Furthermore, by utilizing completely positive maps with low entanglement dimensionality, we show that a large family of PPT maps, which strictly containing the class of 2-superpositive maps, has entanglement-breaking index bounded above by 3, uniformly in the dimension. In particular, these results provide strong evidence ",
+      "published": "2026-08-13T17:59:28Z",
+      "authors": [
+        "Sang-Jun Park"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "link": "https://arxiv.org/abs/2608.13547v1",
+      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 56 one-shot tasks from 14 incident-derived families, crossing the generation contract with the execution transport around one deliberately unescaped added parser. Escaping at the interpolation point re",
+      "published": "2026-08-13T17:57:20Z",
+      "authors": [
+        "Shangao Li",
+        "Yao Zhang",
+        "Volker Tresp",
+        "Yuanyuan Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+      "link": "https://arxiv.org/abs/2608.13546v1",
+      "summary": "Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these requirements place conflicting demands on the model. Maintaining history in the denoiser context or key-value cache incurs growing cost, forcing a trade-off between session length and retained memory, while low-latency interaction relies on few-step generation whose capabilities are bounded by its teacher. Evoke addresses both limitations by externalizing persistent world state",
+      "published": "2026-08-13T17:57:00Z",
+      "authors": [
+        "Yuanyang Yin",
+        "Gongxuan Wang",
+        "Yifan Zhan",
+        "Chuanhao Li",
+        "Kaipeng Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "link": "https://arxiv.org/abs/2608.13545v1",
+      "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining corpus tailored to U.S. elementary school material, explicitly excluding concepts, facts, and vocabulary taught above Grade 5. Training a 5B-parameter LLM from scratch on LITTLECURRICULUM yields LITTLELE",
+      "published": "2026-08-13T17:56:12Z",
+      "authors": [
+        "Fanfei Li",
+        "Jana Zeller",
+        "Manuel Prada-Corral",
+        "Thaddäus Wiedemer",
+        "Prasanna Mayilvahanan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Skew Hives, Skew Skeps, Skew Schur Log-Concavity",
+      "link": "https://arxiv.org/abs/2608.13544v1",
+      "summary": "Knutson and Tao's hives is a combinatorial model to compute Littlewood--Richardson coefficients. Similar to hives, Speyer introduced skeps and used them to prove a Schur log-concavity conjecture by Lam--Postnikov--Pylyavskyy. We first introduce skew hive and skew skep models, which specialize to both hives and skeps, and use this to prove a skew Schur log-concavity result generalizing Lam--Postnikov--Pylyavskyy conjecture. As a consequence, we obtain some log-concavity results concerning Newell-",
+      "published": "2026-08-13T17:55:43Z",
+      "authors": [
+        "Tuong Le",
+        "Son Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Clifford Circuit Synthesis for Distributed Quantum Architectures with Arbitrary Network Topology",
+      "link": "https://arxiv.org/abs/2608.13543v1",
+      "summary": "To achieve large-scale fault-tolerant quantum computation, it may be easier to combine many small sets of qubits than to construct a single large set. For example via quantum error correction with block codes, or distributed quantum processors utilizing shared entanglement. In these regimes, the time or error budget of the overall quantum computation may be dominated by non-local operations. Hence, it is worthwhile to minimize the number of these operations. We consider the case where both non-l",
+      "published": "2026-08-13T17:55:40Z",
+      "authors": [
+        "Tuomas Laakkonen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+      "link": "https://arxiv.org/abs/2608.13538v1",
+      "summary": "Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This reliance leads to superficial explanations inferred from observed model behavior and computational inefficiency from collecting such behavioral evidence at scale. We introduce SAEVerbalizer, a framework that injects SAE decoder directions into an LLM's representations and fine-tunes the LLM's downs",
+      "published": "2026-08-13T17:54:11Z",
+      "authors": [
+        "Weihan Meng",
+        "Hongzhu Guo",
+        "Yi Jing",
+        "Dewen Liu",
+        "Zijun Yao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Kinematic Fingerprints of a Nucleon-Triggered $V_{\\mathcal{B}}$ in Rare $η^{(\\prime)}\\toπ^0(η)γγ$ Decays on Nucleon Targets",
+      "link": "https://arxiv.org/abs/2608.13537v1",
+      "summary": "The nucleon-triggered vector-boson scenario $V_{\\mathcal B}$ was motivated by a statistically significant discrepancy between the KLOE measurement, $\\mathrm{BR}^{η\\rightarrowπ^{0}γγ}_{\\text{KLOE}} = \\left(0.98\\pm0.11_{\\text{stat}}\\pm0.14_{\\text{syst}}\\right)\\times10^{-4}$, and the current world average, $\\left(2.55\\pm0.22\\right)\\times10^{-4}$, dominated by MAMI photoproduction data. In this model, the new interaction is activated by external nucleons, which causes deviations from the Standard Mo",
+      "published": "2026-08-13T17:53:11Z",
+      "authors": [
+        "Yaroslav Balytskyi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Surfaces with nonpositive magnetic curvature",
+      "link": "https://arxiv.org/abs/2608.13534v1",
+      "summary": "We study weakly hyperbolic magnetic (or twisted geodesic) flows of negatively curved surfaces (with nonpositive ''magnetic curvature\") with a view to topological dynamics and ergodic theory, using their large-scale geometry on the universal cover.",
+      "published": "2026-08-13T17:50:07Z",
+      "authors": [
+        "Boris Hasselblatt",
+        "JinCheng Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inductively-protected Andreev (IPA) spin qubit",
+      "link": "https://arxiv.org/abs/2608.13530v1",
+      "summary": "The spin of a quasiparticle trapped in a quantum dot Josephson junction forms the basis of an Andreev spin qubit (ASQ): a semiconductor-superconductor device where the interplay between a localized spin degree of freedom and superconductivity leads to a spin-resolved Josephson potential. In this work, we show that shunting an ASQ with a linear inductor enhances its relaxation time by separating the spin-qubit states into distinct potential wells in phase space, nearly eliminating wavefunction ov",
+      "published": "2026-08-13T17:47:31Z",
+      "authors": [
+        "J. L. del Olmo N.",
+        "F. J. Matute-Cañadas",
+        "A. Levy Yeyati",
+        "R. Seoane Souto",
+        "R. Aguado"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+      "link": "https://arxiv.org/abs/2608.13524v1",
+      "summary": "Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditioned on tokens selected along each draft path. Existing recurrent correction incorporates causal information along a single draft chain, whereas diffusion-based tree construction broadens candidate cov",
+      "published": "2026-08-13T17:43:44Z",
+      "authors": [
+        "Tianyi Li",
+        "Yaxin Luo",
+        "Xinyi Shang",
+        "Zhiqiang Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exponential quantum advantage for learning signals with a single qubit",
+      "link": "https://arxiv.org/abs/2608.13521v1",
+      "summary": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms. We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the number of measurements required to learn classical signals. These rigorous quantum advantages apply to fundamental sensing tasks, including learning Fourier coefficients, extracting temporal correlations",
+      "published": "2026-08-13T17:40:39Z",
+      "authors": [
+        "Ishaan Kannan",
+        "Sridhar Prabhu",
+        "Saeed A. Khan",
+        "Mandar M. Sohoni",
+        "Xingrui Song"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
+      "link": "https://arxiv.org/abs/2608.13518v1",
+      "summary": "Many clinical prediction models treat post-intervention outcomes as a one-step mapping from baseline measurements to a future endpoint. However, recovery after a procedure often unfolds as an irregular trajectory: clinical observations, medication changes, repeat interventions, and physiological measurements are recorded asynchronously and can change risk assessment over time. We propose an intervention-aware clinical world model that represents each patient with a structured latent state and ev",
+      "published": "2026-08-13T17:38:13Z",
+      "authors": [
+        "Yunsung Chung",
+        "Yingshuo Liu",
+        "Abboud F. Hassan",
+        "Han Feng",
+        "Mary M. Maleckar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "link": "https://arxiv.org/abs/2608.13517v1",
+      "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, that is trained from scratch and delivers highly competitive performance for English and sets a new state of the art for Danish using only permissible post-training data. Trained on a mixture o",
+      "published": "2026-08-13T17:37:53Z",
+      "authors": [
+        "Peter Schneider-Kamp",
+        "Jacob Nielsen",
+        "Gianluca Barmina",
+        "Kenneth Enevoldsen",
+        "Lukas Galke Poech"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Numerical Model Simulation of the Carruthers GCI Images",
+      "link": "https://arxiv.org/abs/2608.13516v1",
+      "summary": "The Carruthers Geocorona Observatory, launched in September 2025, is NASA's first mission devoted to investigating the fundamental nature of Earth's exosphere from its distant vantage in halo orbit around the Earth-Sun Lagrange (L1) point. Its primary payload, the GeoCoronal Imager, consists of two coaligned photometric imagers that measure the radiance of ultraviolet emission at 121.6 nm (Lyman-$α$, or Ly-$α$) from exospheric hydrogen atoms simultaneously at wide and narrow fields of view. In o",
+      "published": "2026-08-13T17:37:02Z",
+      "authors": [
+        "Heather Filippini",
+        "Alex Zhang",
+        "Evan Widloski",
+        "Jason McPhate",
+        "Lara Waldrop"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bagging Robustly Learns VC Classes with Linear Sample Complexity",
+      "link": "https://arxiv.org/abs/2608.13514v1",
+      "summary": "We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke, and Srebro (2019). Remarkably, this result is achieved with a simple improper algorithm that combines the classic heuristic bagging (bootstrap aggregation) of Breiman (1996) with robust empirical risk m",
+      "published": "2026-08-13T17:36:49Z",
+      "authors": [
+        "Omar Montasser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining",
+      "link": "https://arxiv.org/abs/2608.13515v1",
+      "summary": "Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons across training. We propose a measure of training data influence that does not require selecting a downstream task or validation set as the attribution target. Specifically, we define an example's influence",
+      "published": "2026-08-13T17:36:49Z",
+      "authors": [
+        "Yuto Nishida",
+        "Hirokazu Kiyomaru",
+        "Yusuke Oda",
+        "Takashi Kodama",
+        "Chaoran Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TabSOM: A tabular-to-image encoding method based on self-organizing maps",
+      "link": "https://arxiv.org/abs/2608.13513v1",
+      "summary": "Tabular-to-image methods have emerged as novel approaches to leverage the high predictive performance of convolutional neural networks and vision transformers. They convert tabular data into image representations, mapping each feature at a fixed pixel location derived from a dimensionality-reduction method (e.g., t-SNE, UMAP, PCA). However, they encode only the marginal value of each feature and discard information about feature relationships. We propose TabSOM, a tabular-to-image encoding built",
+      "published": "2026-08-13T17:35:37Z",
+      "authors": [
+        "David Chushig-Muzo",
+        "María Ángeles Rodríguez de Cara",
+        "Eva Milara",
+        "Francisco J. Lara-Abelenda",
+        "Luis Zhinin-Vera"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Browser-Native Digital Test Range for Benchmarking 4D Ocean-Glider Planning Algorithms",
+      "link": "https://arxiv.org/abs/2608.13511v1",
+      "summary": "Repeated in-situ evaluation of ocean-glider planners requires scarce vehicles, operators, deployment and recovery resources, and ocean conditions that cannot be reset for competing algorithms. We present a guided, installation-free browser-native digital test range that transforms a selected region into a reproducible four-dimensional experiment. The system leads users from regional domain selection through mission-scoped bathymetry, time/depth forcing, science objectives, optional task decompos",
+      "published": "2026-08-13T17:34:50Z",
+      "authors": [
+        "Edward Holmberg",
+        "Elias Ioup",
+        "Mahdi Abdelguerfi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Structural Limits of Machine Learning Decision Systems: An Information-Theoretic, Interaction-Based, and Stochastic-Dynamical Perspective",
+      "link": "https://arxiv.org/abs/2608.13510v1",
+      "summary": "Machine learning procedures are commonly evaluated in terms of predictive accuracy and computational efficiency. However, their achievable performance is fundamentally constrained by structural properties of the underlying data-generating process, which are formalized in terms of informational bounds. In this work we examine intrinsic limits of data-driven decision systems from an information-theoretic and interaction-based perspective. We analyze minimal achievable error in classification throu",
+      "published": "2026-08-13T17:34:41Z",
+      "authors": [
+        "Nestor R. Barraza",
+        "Gabriel Pena"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The distribution of $k$-free ideals in ray class groups",
+      "link": "https://arxiv.org/abs/2608.13509v1",
+      "summary": "In this paper, we extend the classical problem of studying the distribution of $k$-free integers in arithmetic progressions to the setting of arbitrary number fields. Using the language of ray class groups, we establish asymptotic formulas, together with error terms, for the number of $k$-free ideals of bounded norm lying in a given ray class. In particular, our results show that $k$-free ideals are equidistributed among ray classes. We also obtain improved error estimates in the cases of ideal ",
+      "published": "2026-08-13T17:34:15Z",
+      "authors": [
+        "Adrian Barquero-Sanchez",
+        "Jack Heimrath",
+        "Bernd Sing",
+        "Nicolás Sirolli",
+        "Caylee Spivey"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Safety-Critical Control for Quadrotor UAVs via Decentralized Navigation Functions",
+      "link": "https://arxiv.org/abs/2608.13507v1",
+      "summary": "We study safety-critical control for teams of quadrotor UAVs driven by decentralized navigation functions under learned model uncertainty. These functions generate fully actuated translational reference forces, while quadrotors can only produce thrust along their body-fixed vertical axes. We construct a thrust-attitude implementation of the induced navigation forces and quantify its error with respect to the fully actuated reference dynamics. An aggregated robust HOCBF-QP safety filter minimally",
+      "published": "2026-08-13T17:32:55Z",
+      "authors": [
+        "Omayra Yago Nieto",
+        "Alexandre Anahory Simoes",
+        "Leonardo Colombo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Equivariant learning of a transferable three-dimensional classical density functional",
+      "link": "https://arxiv.org/abs/2608.13506v1",
+      "summary": "Liquids exhibit collective behavior that depends sensitively on thermodynamic conditions, interfaces and confinement, yet predicting each new state commonly requires a separate atomistic simulation. Classical density functional theory offers a reusable variational description, but its central excess free-energy functional is generally unknown, and learned approximations have largely remained restricted to planar or lower-dimensional settings. Here we show that this functional can be learned dire",
+      "published": "2026-08-13T17:32:45Z",
+      "authors": [
+        "Bingqing Cheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "link": "https://arxiv.org/abs/2608.13505v1",
+      "summary": "Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalities, interact with scientific tools and environments, and sustain progress across long task horizons. We present Intern-S2-Preview, a series of scientific agentic foundation models designed to support multimodal scientific understanding, reasoning, generation, and long-horizon tasks. The training pipeline begins with scientific multimodal pre-training over rendered scientific do",
+      "published": "2026-08-13T17:31:28Z",
+      "authors": [
+        "Lei Bai",
+        "Jiaqi Cao",
+        "Chiyu Chen",
+        "Guanzhou Chen",
+        "Kai Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+      "link": "https://arxiv.org/abs/2608.13504v1",
+      "summary": "We develop the Sparse Orthogonal Regression Technique (SORT), a sparse spectral framework for learning orthonormal-basis expansions from noisy and irregularly sampled data. SORT estimates expansion coefficients directly from observations using L1-regularized regression, avoiding explicit quadrature or analytic inner-product evaluation. The central application is data-driven discovery of ordinary differential equations: vector fields are represented in chosen orthogonal bases and learned as spars",
+      "published": "2026-08-13T17:31:27Z",
+      "authors": [
+        "Sabin Roman",
+        "Ljupco Todorovski",
+        "Saso Dzeroski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "In-situ Adjoint Wave Control in Reconfigurable Non-Hermitian Nonlinear Systems",
+      "link": "https://arxiv.org/abs/2608.13503v1",
+      "summary": "Complex multipath environments are usually avoided in wave-based information processing because repeated scattering creates many interfering propagation paths, obscuring controllability and generating extreme sensitivity to perturbations. The addition of nonlinear mechanisms fundamentally alters the wave-control landscape by breaking the superposition principle that underpins most wave-management strategies. Here, we show that these two apparent impediments -- multipath complexity and nonlineari",
+      "published": "2026-08-13T17:30:19Z",
+      "authors": [
+        "John Guillamon",
+        "William Tuxbury",
+        "Cheng-Zhen Wang",
+        "Owen Miller",
+        "Zin Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors",
+      "link": "https://arxiv.org/abs/2608.13502v1",
+      "summary": "Snapshot Compressive Imaging (SCI) offers an efficient solution for high-speed video acquisition and, under exposure-time camera--scene relative motion, multi-view scene capture by compressing temporal or spatial information into a single 2D measurement. While recent studies have explored SCI for 3D scene reconstruction, existing methods struggle with significant challenges due to information loss, limited viewpoint diversity, and the computational burden of jointly optimizing 3D representations",
+      "published": "2026-08-13T17:29:53Z",
+      "authors": [
+        "Yanming Yang",
+        "Chenxi Song",
+        "Ping Wang",
+        "Xin Yuan",
+        "Chi Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Symmetry Emergence in Self-Organized Criticality",
+      "link": "https://arxiv.org/abs/2608.13500v1",
+      "summary": "We describe a mechanism of affine symmetry emergence in the maximal density regime of the prototypical model of self-organized criticality when the inverse square of the mesh of the underlying lattice is much larger than the number of random perturbation points distributed according to a prescribed probability measure supported in the interior of the ambient convex domain. Moreover, an appropriate scaling limit of the toppling function (aka odometer), which counts the number of operations per si",
+      "published": "2026-08-13T17:29:15Z",
+      "authors": [
+        "Ernesto Lupercio",
+        "Mikhail Shkolnikov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OpScale: Operator-level Provisioning and Autoscaling for LLM Serving",
+      "link": "https://arxiv.org/abs/2608.13499v1",
+      "summary": "Achieving cost efficiency while meeting strict user-facing SLOs (e.g., time-to-first-token) remains a fundamental challenge for cloud GPU clusters serving large language models (LLMs). Autoscaling is the key mechanism for cluster resource management, yet a basic system design question is open for serving LLMs: what should be the unit of scaling? Existing approaches primarily treat the entire model as a monolithic scaling unit--simple but unable to capture the fine-grained dynamics of inference w",
+      "published": "2026-08-13T17:28:54Z",
+      "authors": [
+        "Xingqi Cui",
+        "Chieh-Jan Mike Liang",
+        "Ziang Tang",
+        "Jiarong Xing",
+        "Haoran Qiu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory",
+      "link": "https://arxiv.org/abs/2608.13496v1",
+      "summary": "Secure, private multi-tenant execution spanning processors, memory, and accelerators remains one of the most significant challenges in modern edge computing systems. Simultaneously, processing-in-memory (PIM) has emerged as an effective approach for reducing the Von Neumann bottleneck by moving computation closer to data. Existing trusted execution environments (TEEs) establish trust only within the processor, protecting data while it traverses untrusted resources such as the memory bus. Consequ",
+      "published": "2026-08-13T17:25:44Z",
+      "authors": [
+        "Shouzhi Fang",
+        "William C. Tegge",
+        "Md Omar Faruque",
+        "Peipei Zhou",
+        "Endadul Hoque"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval",
+      "link": "https://arxiv.org/abs/2608.13495v1",
+      "summary": "Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis. Structured and rule-based retrieval systems can explicitly target driving events, but typically require expert-defined rules, auxiliary data, and multi-stage perception pipelines. Multimodal embedding models offer a simpler and more efficient alternative by representing each video with a single searchable vector. However, general-purpose models often rely on",
+      "published": "2026-08-13T17:24:23Z",
+      "authors": [
+        "Yi-Chung Chen",
+        "Philip Jacobson",
+        "Tom Lampo",
+        "Yiren Lu",
+        "Jin Yao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Paleoclimate Boundary Conditions as an Out-of-Sample Test for the Forced Response of Ocean Climate Emulators",
+      "link": "https://arxiv.org/abs/2608.13494v1",
+      "summary": "AI weather emulators benefit from clear objectives and metrics, which have led to the rapid development of models that outperform traditional benchmarks. In contrast, long-term climate emulators must reliably reproduce forced responses over months to centuries, while relying on training objectives that span a small number of model time steps. We assess autoregressive, full-depth ocean emulators using data from the midHolocene experiment of a numerical climate model to examine their skill in resp",
+      "published": "2026-08-13T17:23:16Z",
+      "authors": [
+        "Adam Subel",
+        "Laure Zanna"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum correlations and Basis-Independent Coherence Distribution in Two Gravitational Cat States",
+      "link": "https://arxiv.org/abs/2608.13493v1",
+      "summary": "We study the distribution of quantum correlations and basis-independent coherence in a pair of massive particles confined in a double-well potential and coupled through their mutual Newtonian gravitational interaction. Non-classical correlations are characterized using Bures distance of entanglement and quantum discord, while coherence is quantified through the square root of the quantum Jensen--Shannon divergence (QJSD) from the maximally mixed state, yielding a measure that is invariant under ",
+      "published": "2026-08-13T17:23:04Z",
+      "authors": [
+        "Mostafa Mansour",
+        "Mansoura Oumennana"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
+      "link": "https://arxiv.org/abs/2608.13492v1",
+      "summary": "This report presents an improved version of AlayaWorld. While the backbone architecture, chunk-wise autoregressive generation scheme, and training data remain unchanged from the previous release, we substantially revise how conditioning signals are represented and integrated into the model. The new design is guided by a simple principle: conditioning signals should match the generated content as closely as possible in both latent representation and temporal structure. To this end, we make two ma",
+      "published": "2026-08-13T17:21:03Z",
+      "authors": [
+        "AlayaWorld Team",
+        "Kaipeng Zhang",
+        "Chuanhao Li",
+        "Yifan Zhan",
+        "Yongtao Ge"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2608.13489v1",
+      "summary": "We present \\textbf{DreamX-Phi 1.0}, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts the resulting future observations. Yet realism alone does not guarantee faithfulness: a convincing rollout can still move the wrong arm or lose the manipulated object. To ensure the prediction respects each arm's commanded path, we inject per-arm $\\mat",
+      "published": "2026-08-13T17:18:09Z",
+      "authors": [
+        "DreamX Team",
+        "Rui Chen",
+        "Xiangxiang Chu",
+        "Geng Li",
+        "Jifan Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Higher-Order Analytical Expansion of Thawing Dark Energy with an Exponential Potential",
+      "link": "https://arxiv.org/abs/2608.13488v1",
+      "summary": "Motivated by recent DESI results suggesting dynamical dark energy, we investigate the thawing scenario in quintessence with an exponential potential, $V=V_0e^{-λφ/m_{\\mathrm{pl}}}$, by analytically expanding the deviation of the equation of state parameter $w_φ$ from $-1$ in powers of $λ$. In addition to the previously known leading-order result at $O(λ^2)$, we derive the $O(λ^4)$ correction as a function of the density parameter $Ω_φ$. We show that a consistent determination of the redshift dep",
+      "published": "2026-08-13T17:16:23Z",
+      "authors": [
+        "Naoto Maki",
+        "Kazunori Kohri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
+      "link": "https://arxiv.org/abs/2608.13484v1",
+      "summary": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats up the specificity hierarchy, trading informativeness for truthfulness. We ask whether LLMs have the ingredients to perform this retreat. Using a T-REx-based benchmark that varies entity familiarity and referent specificit",
+      "published": "2026-08-13T17:13:41Z",
+      "authors": [
+        "Dananjay Srinivas",
+        "Saksham Khatwani",
+        "Maria Pacheco"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Landau theory and exchange instabilities in Mn$_5$Si$_3$: A case against altermagnetism",
+      "link": "https://arxiv.org/abs/2608.13483v1",
+      "summary": "Thin-film Mn$_5$Si$_3$ is one of the most studied altermagnetic candidates thanks to its metallicity, demonstrated anomalous transport properties, and assumed $d$-wave exchange splitting pattern enabling spin-polarized transport and various spintronic applications. Its postulated altermagnetic structure has zero propagation vector, in contrast to the collinear antiferromagnetic bulk phase (AFM2) which orders at the $M$ star. In this work, the two phases are analyzed using Landau theories, first-",
+      "published": "2026-08-13T17:12:49Z",
+      "authors": [
+        "K. D. Belashchenko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+      "link": "https://arxiv.org/abs/2608.13482v1",
+      "summary": "As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical. Today, alignment, and the assistant identity itself, are typically introduced only after pretraining, once behavioral priors are already established. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment. Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the d",
+      "published": "2026-08-13T17:12:04Z",
+      "authors": [
+        "Julian Minder",
+        "Viktor Moskvoretskii",
+        "Raghav Singhal",
+        "Difan Jiao",
+        "Andy Arditi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Compact Path Representation in DAGs via Colored Edge Pebbling",
+      "link": "https://arxiv.org/abs/2608.13480v1",
+      "summary": "Compactly representing a variation graph is a core problem in computational pangenomics that is usually attacked with techniques that have been originated on texts and adapted to graphs. In this paper we propose a new framework that takes a topology-centric perspective instead. A variation graph is modeled as a directed acyclic graph (DAG) together with a set of distinguished paths, where each path is assigned a distinct color. Our compact representation is centered on pebbling the graph, i.e. p",
+      "published": "2026-08-13T17:11:38Z",
+      "authors": [
+        "Paola Bonizzoni",
+        "Alessio Conte",
+        "Gianluca Della Vedova",
+        "Younan Gao",
+        "Roberto Grossi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MapRoute++: Surrogate-Guided Semantic Routing for Visual Concept Unlearning",
+      "link": "https://arxiv.org/abs/2608.13478v1",
+      "summary": "We present our submission to Task 3 of the Gen$μ$ 2.0 Challenge on visual concept unlearning. Building on MapRoute, we introduce task-specific training objectives, richer concept representations, and semantic routing for concept-specific mapper selection. Our approach improves robust concept removal while preserving unrelated and semantically adjacent concepts. On the official benchmark, evaluated using the Erasing-Retention-Robustness (ERR) metric on Stable Diffusion v1.4, our method outperform",
+      "published": "2026-08-13T17:10:42Z",
+      "authors": [
+        "Ashok Urlana",
+        "L. D. M. S. Sai Teja",
+        "Vivek Hruday Kavuri",
+        "Ponnurangam Kumaraguru"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Imaginary-time correlations in time-sliced stochastic series expansion",
+      "link": "https://arxiv.org/abs/2608.13477v1",
+      "summary": "Combined with numerical analytic continuation techniques, quantum Monte Carlo (QMC) methods enable the extraction of real-frequency dynamical properties from imaginary-time correlation functions. However, the efficient computation of imaginary-time correlation functions by QMC simulations can (depending on the particular model used) be challenging, particularly for operators that are off-diagonal in the computational basis. In this work, we present an efficient and general algorithm within the s",
+      "published": "2026-08-13T17:03:56Z",
+      "authors": [
+        "Ryan Flynn",
+        "Adam Iaizzi",
+        "Sibin Yang",
+        "Ying-Jer Kao",
+        "Anders W. Sandvik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+      "link": "https://arxiv.org/abs/2608.13476v1",
+      "summary": "We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. We additionally introduce a Decomposer module that generates task-specific agent prompts from a pla",
+      "published": "2026-08-13T17:00:08Z",
+      "authors": [
+        "Saisha Shetty",
+        "Satvik Tripathi",
+        "Austin Lin",
+        "Colin Zhao",
+        "Theodore Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hidden Dyson Universality in Inverse-Spectral Geometry",
+      "link": "https://arxiv.org/abs/2608.13475v1",
+      "summary": "Dyson universality typically manifests itself in local eigenvalue statistics. Here we show that its signature survives a nonlinear inverse-spectral reconstruction and reappears in the matrix geometry of the reconstructed operator. Using a dressing transformation, we map each unfolded spectrum to a deformation $f(x)$ of a fixed harmonic oscillator and represent it in the common oscillator basis by $F_{mn}=\\bra m|f|n\\ket$. We resolve the matrix-element weight into shells of fixed distance $d=|m-n|",
+      "published": "2026-08-13T16:59:59Z",
+      "authors": [
+        "Momo Hayashi",
+        "Kazumitsu Sakai"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
