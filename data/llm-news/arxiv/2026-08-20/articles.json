@@ -1,0 +1,625 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "link": "https://arxiv.org/abs/2608.19197v1",
+      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments a",
+      "published": "2026-08-19T17:58:56Z",
+      "authors": [
+        "Bo Liu",
+        "Simon Yu",
+        "Yiding Jiang",
+        "Ao Qu",
+        "Andrew Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
+      "link": "https://arxiv.org/abs/2608.19194v1",
+      "summary": "Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state the legal character of the interaction, identify the provisions supporting it, preserve its conditions, and remain consistent when reached from either instrument. This paper presents a provision-level model and a construction protocol for qualified cross-references, developed through a biling",
+      "published": "2026-08-19T17:58:05Z",
+      "authors": [
+        "Nicola Fabiano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SiNMULI: Novel Signed Network Approach for Malicious URL Identification",
+      "link": "https://arxiv.org/abs/2608.19190v1",
+      "summary": "In today's era of rapid advancements in artificial intelligence, computer security and online safeguarding measures have undergone significant improvements. However, malicious websites continue to facilitate the spread of phishing schemes, fraudulent activities and unsolicited communications. Conventional methodologies in machine learning, deep learning and counterfeit website detection predominantly depend on static data analysis, which frequently proves ineffective against the evolving nature ",
+      "published": "2026-08-19T17:57:05Z",
+      "authors": [
+        "Avijit Gayen",
+        "Sayan Mondal",
+        "Angshuman Jana"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Entry growth in Gaussian elimination",
+      "link": "https://arxiv.org/abs/2608.19189v1",
+      "summary": "Gaussian elimination is one of the oldest algorithms in mathematics, and the most popular method for solving an unstructured linear system. Its stability in finite precision is controlled by its growth factor, which measures how large the entries produced during elimination can become. Understanding the worst-case behavior of this quantity has been a central problem in numerical analysis since the 1940s.   Here we make a significant leap in that understanding, settling several open problems. In ",
+      "published": "2026-08-19T17:56:27Z",
+      "authors": [
+        "Rikhav Shah",
+        "John Urschel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+      "link": "https://arxiv.org/abs/2608.19188v1",
+      "summary": "Dual-arm robotic grasping is essential for manipulating large, heavy, and geometrically complex objects that cannot be reliably handled using a single manipulator. These large objects often contain only sparse graspable regions determined by local geometric properties such as thickness, edge structure, and gripper clearance. Prior bimanual grasping methods assume access to a full point cloud of the object which inherently contains this geometric information, but may not be accessible in real sce",
+      "published": "2026-08-19T17:56:11Z",
+      "authors": [
+        "Ayush Kaura",
+        "Vignesh Vembar",
+        "Md Faizal Karim",
+        "Keshab Patra",
+        "K Madhava Krishna"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Diffuse HI emission in the circumgalactic medium of NGC891 and NGC4565 - III: azimuthal profiles",
+      "link": "https://arxiv.org/abs/2608.19186v1",
+      "summary": "Diffuse HI emission in the circumgalactic medium (CGM) of NGC891 and NGC4565 has been previously shown to trace an inflow along minor axes pointings and to co-rotate with the HI disk along major axes pointings out to ~100 kpc (Das2020b,Das2024a). To obtain a 360$^\\circ$ view of the inner neutral CGM ($\\rm < 25 kpc$ for NGC891, $\\rm < 30 kpc$ for NGC4565), we perform deep stare observations with the Green Bank Telescope (GBT) along the off-axes, 45$^\\circ$ between principal axes, achieving a 5$σ$",
+      "published": "2026-08-19T17:55:51Z",
+      "authors": [
+        "Mary Rickel",
+        "Sanskriti Das",
+        "Nickolas M. Pingel",
+        "D. J. Pisano",
+        "Adam Leroy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unconventional bond- and current-density waves on hexagonal lattices",
+      "link": "https://arxiv.org/abs/2608.19185v1",
+      "summary": "Charge-density wave (CDW) orders are conventionally described as modulations of on-site charge at an ordering wave vector $\\boldsymbol{Q}$ with symmetry-related wave vectors typically forming a multicomponent order-parameter manifold. Recent developments significantly broadened this phenomenology to bond and loop-current density waves, which possess nontrivial, potentially symmetry-breaking textures within the unit cell in addition to their spatial modulation at $\\boldsymbol{Q}$. Such textures a",
+      "published": "2026-08-19T17:55:44Z",
+      "authors": [
+        "Andras Szabo",
+        "Hannes Braun",
+        "Laura Classen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Fast Deterministic Algorithm for $(Δ+1)$-edge coloring in CONGEST",
+      "link": "https://arxiv.org/abs/2608.19184v1",
+      "summary": "Vizing's theorem states that any graph of maximum degree $Δ$ can be properly edge-colored with $Δ+ 1$ colors (which is optimal in general). A recent breakthrough result by Bernshteyn showed that such a $(Δ+ 1)$-edge coloring can be found deterministically in $poly(Δ,\\log n)$ rounds in the LOCAL model of distributed computing, where $n$ denotes the number of vertices of the input graph [J. Comb. Theory 2022]. Since then, the exponent in the $poly(\\log n)$-part of the runtime has been improved by ",
+      "published": "2026-08-19T17:55:32Z",
+      "authors": [
+        "Sebastian Brandt",
+        "Ananth Narayanan",
+        "Alexandre Nolin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2608.19182v1",
+      "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT pretrains a dexterous policy on a generic object reposing task, then post-trains downstream policies with this pretrained behavior as a prior. ADEPT enables learning new behaviors that are otherwise d",
+      "published": "2026-08-19T17:55:06Z",
+      "authors": [
+        "Jayjun Lee",
+        "Jessica Yin",
+        "Asif Rana",
+        "Nicholas Blauch",
+        "Sam Mady"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "link": "https://arxiv.org/abs/2608.19181v1",
+      "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constraints. Task-specific verifiers, in contrast, evaluate task completion at the response level and may return graded rewards that reflect partial success. We diagnose this mismatch on fixed responses fro",
+      "published": "2026-08-19T17:54:58Z",
+      "authors": [
+        "Zhu Zhang",
+        "Jixun Wang",
+        "Xiaoang Xu",
+        "Xiaorong Wang",
+        "Zihan Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Electrostriction in a Bose-Einstein Condensate of Dipolar Molecules",
+      "link": "https://arxiv.org/abs/2608.19180v1",
+      "summary": "The recent creation of a Bose-Einstein condensate (BEC) of dipolar molecules has opened a new frontier for many-body quantum systems in which dipolar interactions can drive novel self-organization phenomena. Here, we observe electrostriction in a molecular BEC, an elliptical deformation driven by anisotropic dipolar interactions. We use double microwave dressing, involving $σ$- and $π$-polarized fields, to control non-axially symmetric dipolar interactions. We compare the experimental observatio",
+      "published": "2026-08-19T17:54:42Z",
+      "authors": [
+        "Haneul Kwak",
+        "Ian Stevenson",
+        "Weijun Yuan",
+        "Siwei Zhang",
+        "Asaf Toprakci"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Chiral bosonic mean-field Ansatz and spin dynamics in spin-1 Kitaev magnets",
+      "link": "https://arxiv.org/abs/2608.19178v1",
+      "summary": "The Kitaev model is a paradigmatic system for realizing quantum spin liquids, but its higher-spin extensions are not exactly solvable, and their spin dynamics is less well understood than in the spin-1/2 case. In this work, we reexamine a previously introduced triplet-pairing $φ_t = π/2$ phase pattern for the antiferromagnetic $S = 1$ Kitaev model and extend the analysis to weak symmetric off-diagonal exchanges $Γ$ and $Γ'$. Using a bond-operator formulation of Schwinger-boson mean-field theory,",
+      "published": "2026-08-19T17:54:08Z",
+      "authors": [
+        "Daiki Sasamoto",
+        "Arnaud Ralko",
+        "Jaime Merino",
+        "Joji Nasu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Image-Guided Pavement Defect Recognition in GPR Data with novel 3D Deep Learning Architecture",
+      "link": "https://arxiv.org/abs/2608.19177v1",
+      "summary": "Ground Penetrating Radar (GPR) is a widely adopted non-destructive sensing technology for subsurface inspection in civil and transportation engineering. Despite its potential for pavement condition assessment, the large-scale application of GPR in automated inspection has two key challenges: the scarcity of annotated real-world datasets and the lack of deep learning models designed for the unique characteristics of 3-Dimensional (3D) GPR data. This study addresses these limitations by firstly in",
+      "published": "2026-08-19T17:53:54Z",
+      "authors": [
+        "Yuandong Pan",
+        "Linjun Lu",
+        "Mudan Wang",
+        "Florian Noichl",
+        "Fan Xue"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Effects of manufacturing tolerances on the performance of metamaterial microwave anti-reflection coatings",
+      "link": "https://arxiv.org/abs/2608.19176v1",
+      "summary": "Metamaterial anti-reflection coatings (ARC) are used in a variety of applications, including: lenses, filters, and absorbers. Typically, the design of a given ARC is done within an infinite medium approximation, which presupposes that every unit cell on the interface is identical. However, in realistic applications, the geometry of a given ARC usually has some degree of variability, be it due to the shape of the surface inherent to the application, like in a lens, or manufacturing tolerances. Th",
+      "published": "2026-08-19T17:52:39Z",
+      "authors": [
+        "Rustam Balafendiev",
+        "Miranda Eiben",
+        "Jon E. Gudmundsson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "State--Generator Geometry of Open Quantum Systems: Compatibility and Covariant Transport",
+      "link": "https://arxiv.org/abs/2608.19175v1",
+      "summary": "We develop a geometry for transporting stationary-state response across the control space of an open quantum system. A physical model is represented by the ordered pair of its stationary state and dynamical generator. Embedding these pairs in a common ambient space induces a metric, a response one-form, and a closed two-form on the control manifold. The ambient space admits a canonical complex structure that exchanges state and generator directions, but the Liouvillian null-state condition restr",
+      "published": "2026-08-19T17:52:08Z",
+      "authors": [
+        "Eric R. Bittner",
+        "Carlos Silva-Acuna"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cell-Probe Lower Bounds and Complexity-Preserving Reductions for Suffix Array Queries",
+      "link": "https://arxiv.org/abs/2608.19172v1",
+      "summary": "For a text $T$ of length $n$ over an alphabet of size $σ$, its suffix array lists the starting positions of the suffixes of $T$ in lexicographic order, and its inverse suffix array gives the lexicographic rank of the suffix starting at each position. Since the introduction of the FM-index and the compressed suffix array in 2000, both queries have been supported in $O((\\log_σn)^ε)$ time using $O(n\\logσ)$ bits, for any constant $ε>0$. Yet no nontrivial time-space lower bound for suffix-array queri",
+      "published": "2026-08-19T17:50:21Z",
+      "authors": [
+        "Dominik Kempa",
+        "Tomasz Kociumaka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "link": "https://arxiv.org/abs/2608.19171v1",
+      "summary": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also reports, in closed form and at no extra cost, how far it should be trusted. We introduce Lévy Attention, a cross-attention operator whose output is a stochastic integral against an inhomogeneous Poisson",
+      "published": "2026-08-19T17:50:16Z",
+      "authors": [
+        "Sotirios P. Chatzis",
+        "Loukas Papadoulas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constrained minmax density transportation for linear parabolic PDEs: a numerical optimal control perspective",
+      "link": "https://arxiv.org/abs/2608.19170v1",
+      "summary": "This article introduces a numerical optimal control framework for minmax constrained density control for a class of noisy linear parabolic partial differential equations (PDEs), in particular the noisy heat equation. The goal is to transport an initial density to a target density while minimizing a specified cost with respect to control actions and maximizing it with respect to disturbances, all within a fixed time horizon while satisfying given convex path constraints. To address this, the spat",
+      "published": "2026-08-19T17:50:05Z",
+      "authors": [
+        "Siddhartha Ganguly",
+        "Vaibhav Upadhyay",
+        "Kenji Kashima",
+        "Debasish Chatterjee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Eigendecomposition of the Hessian of the Robin function in orthogonally invariant domains",
+      "link": "https://arxiv.org/abs/2608.19169v1",
+      "summary": "In this work we analyze the eigendecomposition of the Hessian matrix of the Robin function $\\mathcal{R}(x)$ for the spectral fractional Laplacian in orthogonally invariant domains. We prove that, if $Ω$ a smooth bounded convex domain invariant under the action of an orthogonal transformation $\\mathcal{O}$ then, for $\\overline{t}\\in\\{a\\inΩ:\\mathcal{O}(a)=a\\}$, the gradient vector $\\nabla\\mathcal{R}(\\overline{t})$ is an eigenvector of the Jacobian $D\\mathcal{O}$ associated to the eigenvalue $1$. M",
+      "published": "2026-08-19T17:50:02Z",
+      "authors": [
+        "Alejandro Ortega"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
+      "link": "https://arxiv.org/abs/2608.19168v1",
+      "summary": "A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one batch. We ran that counterfactual 24 times at a small scale. We trained 32 GPT-2 models at 124M parameters from scratch on OpenWebText, over four conditions and eight seeds. At step 200 of 9,536, at peak learning rate, we replaced one row of a 256-row batch with a fixed context injection carrying a 1",
+      "published": "2026-08-19T17:46:08Z",
+      "authors": [
+        "Zachary Speck",
+        "Asa Shepard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Upper and Lower Bounds on the Space Complexity of Multi-word Single-Writer Registers",
+      "link": "https://arxiv.org/abs/2608.19167v1",
+      "summary": "We prove matching upper and lower bounds on the space complexity of simulating a large shared register using smaller shared registers. We focus on the case where both the simulated and base registers are single-writer, which means they can be accessed concurrently by multiple readers but only by a single writer. To strengthen our lower bounds, we prove that they hold even when the base registers are atomic and the simulated register is regular. Furthermore, the lower bounds hold for obstruction-",
+      "published": "2026-08-19T17:45:49Z",
+      "authors": [
+        "Yuanhao Wei",
+        "Yousof Yavari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
+      "link": "https://arxiv.org/abs/2608.19165v1",
+      "summary": "ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so that others can skip them. We pair the segment with its available transcript, video and channel information, and a sales or service page linked from the video description. Systems determine what kind ",
+      "published": "2026-08-19T17:44:58Z",
+      "authors": [
+        "Thales Bertaglia",
+        "Catalina Goanta",
+        "Gerasimos Spanakis",
+        "Gunes Acar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LearnAI: Just-in-Time AI Co-Creation Across Disciplines at a University",
+      "link": "https://arxiv.org/abs/2608.19164v1",
+      "summary": "As generative AI reshapes professional and educational practice, institutions face a challenge: how to support diverse learners, from non-coders to advanced students, in building confidence and practice with AI-supported problem solving. Most institutional responses bifurcate into conceptual workshops for general audiences or technical courses for computer science majors, leaving few spaces where mixed-ability learners can engage common AI tasks at levels matched to their prior experience.   Thi",
+      "published": "2026-08-19T17:44:54Z",
+      "authors": [
+        "Weihao Qu",
+        "Ling Zheng",
+        "Chris Buzaid",
+        "Daniel Crawford"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
+      "link": "https://arxiv.org/abs/2608.19163v1",
+      "summary": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions initialized from March to May consistently indicate a dry anomaly over central China in summer 2026. Retrospective evaluations revealed higher predictive skill in the analogue years, which also tended to ",
+      "published": "2026-08-19T17:43:49Z",
+      "authors": [
+        "Anran Wang",
+        "Wen Shi",
+        "Yong Luo",
+        "Jianbin Huang",
+        "Lijuan Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "link": "https://arxiv.org/abs/2608.19161v1",
+      "summary": "Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel status to the resulting public action using a shared event identifier, enabling matched causal analysi",
+      "published": "2026-08-19T17:43:22Z",
+      "authors": [
+        "Ramneet Kaur",
+        "Pradyumna Chari",
+        "Ramesh Raskar",
+        "Jugad Singh",
+        "Sumit Kumar Jha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FedGuard-DC: Privacy-Preserving Federated Load Forecasting and Cyber-Attack Detection for Data-Center Loads in Transmission Systems",
+      "link": "https://arxiv.org/abs/2608.19155v1",
+      "summary": "The rapid growth of large data-center (DC) loads is creating new challenges for power-system visibility, privacy, and cyber-physical security. System operators need accurate short-term information about these fast-varying loads, while DC operators may avoid sharing raw megawatt measurements because they can reveal sensitive workload and utilization patterns. This paper presents FedGuard-DC, a federated learning (FL) framework for privacy-preserving DC load forecasting and local false-data-inject",
+      "published": "2026-08-19T17:40:59Z",
+      "authors": [
+        "Md Kibria Saroare",
+        "Md Rubel Ahmed"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Kähler-Ricci Tangent Flows in the Analytic Minimal Model Program",
+      "link": "https://arxiv.org/abs/2608.19152v1",
+      "summary": "We describe certain finite-time singularities of the Kähler-Ricci flow arising in the analytic minimal model program. Assuming that convergence to an asymptotically conical Kähler-Ricci shrinker is realized by holomorphic maps, we prove that, in a fixed holomorphic gauge, the nearby flow is modeled on the shrinker at the level of Kähler potentials. Consequently, every noncollapsed Kähler-Ricci flow through singularities in complex dimension two is modeled on a shrinker-cone-expander transition, ",
+      "published": "2026-08-19T17:40:36Z",
+      "authors": [
+        "Longteng Chen",
+        "Max Hallgren",
+        "Lucas Lavoyer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
+      "link": "https://arxiv.org/abs/2608.19151v1",
+      "summary": "We study stochastic control of multivariate Hawkes-driven stochastic differential equations with machine learning algorithms in a non-Markovian setting. Due to the path dependence of the memory of the Hawkes intensity, this problem does not fall within classical stochastic control theory outside particular Markovian kernels. We first develop a finite-dimensional Markovianization procedure and algorithm to approximate multivariate Hawkes processes with mixtures of exponential kernels. We prove th",
+      "published": "2026-08-19T17:40:23Z",
+      "authors": [
+        "Tomasz R. Bielecki",
+        "Thibaut Mastrolia",
+        "Haoze Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "link": "https://arxiv.org/abs/2608.19147v1",
+      "summary": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into per-stage shards, each pre-compiled into an OpenVINO graph, so that every machine runs one shard and p",
+      "published": "2026-08-19T17:33:28Z",
+      "authors": [
+        "Tate Berenbaum",
+        "Muthaiah Venkatachalam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On entropic cosmology, late time acceleration and the quantum bounce",
+      "link": "https://arxiv.org/abs/2608.19146v1",
+      "summary": "In this work, we present a unified entropic description of the quantum bounce that is present in Loop Quantum Cosmology (LQG) and dark energy that drives the late time acceleration of the Universe. By considering a minimal area $A_0$ for the Universe and a modified entropy area constructed as the sum of $S_Q$, $S_{BH}$ and $S_{DE}$, we derive the Friedmann equations. We show that in the limit $A\\sim A_0$, there is a critical density that generates the quantum bounce and depends on the minimal ar",
+      "published": "2026-08-19T17:33:14Z",
+      "authors": [
+        "Luis Rey Diaz-Barron",
+        "G. E. Pérez-Cuéllar",
+        "M. Sabido"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Network-Scale Road Disruption from Liquefaction in Cascadia Subduction Zone Earthquakes",
+      "link": "https://arxiv.org/abs/2608.19143v1",
+      "summary": "This paper presents a mechanics-informed, data-driven framework for modeling liquefaction-induced disruption of roadway networks following a magnitude-9 earthquake on the Cascadia Subduction Zone (CSZ). Liquefaction hazard is predicted using a geospatial liquefaction model trained on more than 37,000 cone penetration tests (CPTs) and conditioned on spatial data describing geomorphology, hydrology, climate, and surficial geology. Ground motions are derived from physics-based ensembles of CSZ rupt",
+      "published": "2026-08-19T17:31:23Z",
+      "authors": [
+        "M. D. Sanger",
+        "O. Blaze-Smith",
+        "B. W. Maurer",
+        "L. Wotherspoon",
+        "M. O. Eberhard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Effect of style of faulting on the probabilistic characterization of directionality of horizontal response spectral ordinates",
+      "link": "https://arxiv.org/abs/2608.19142v1",
+      "summary": "Horizontal earthquake ground motions exhibit substantial changes in amplitude with changes in orientation. While the effects of style of faulting on central tendency measures of ground motion intensity such as RotD50 are well established in ground motion models, less attention has been given to how faulting mechanism influences the complete directional characteristics of ground motions. This study addresses this gap by conducting a comprehensive probabilistic characterization of ground motion di",
+      "published": "2026-08-19T17:30:07Z",
+      "authors": [
+        "Nathan Girmay",
+        "Eduardo Miranda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "link": "https://arxiv.org/abs/2608.19140v1",
+      "summary": "Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is precision: how tightly concentrated their outputs are around that target across repeated, identical requests. Borrowing the marksman's distinction, capability is where the average shot lands; reliabil",
+      "published": "2026-08-19T17:29:47Z",
+      "authors": [
+        "George Andrikopoulos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "U.S. National Liquefaction Hazard Maps and their Implications for Engineering Practice and Policy",
+      "link": "https://arxiv.org/abs/2608.19137v1",
+      "summary": "This study introduces U.S. national liquefaction hazard maps (NLHMs) developed using a mechanics-informed, geospatial machine learning model which surrogates state-of-practice liquefaction models, exploits a large library of geospatial predictors to infer subsurface conditions, and is anchored to measured conditions with in-situ test data. By convolving this geospatial liquefaction model with the 2023 U.S. national seismic hazard model, liquefaction hazard is mapped across the contiguous U.S. at",
+      "published": "2026-08-19T17:28:50Z",
+      "authors": [
+        "Morgan D. Sanger",
+        "Victoria P. Zdanovski",
+        "Brett W. Maurer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
+      "link": "https://arxiv.org/abs/2608.19135v1",
+      "summary": "A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated. If a false emergency braking alert reaches the planning pipeline in time, the car brakes - a safety failure triggered by a security failure. Existing intrusion detection systems are not designed to handle that coupling. They operate per vehicle, per message, with static rules - blind to attack patterns that only emerge across a fleet or over time, and blind to the fundamenta",
+      "published": "2026-08-19T17:28:32Z",
+      "authors": [
+        "Krishna Teja Medam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval",
+      "link": "https://arxiv.org/abs/2608.19134v1",
+      "summary": "Accurate visual decoding can reveal how the brain represents visual information and recover perceived content from neural signals such as electroencephalography (EEG), with potential for neural communication. However, current EEG-to-image retrieval methods perform far below their within-subject counterparts for new users without labeled calibration, limiting real-world deployment. To understand this gap, we analyze EEG features across subjects and find that different subjects preserve similar re",
+      "published": "2026-08-19T17:27:29Z",
+      "authors": [
+        "Zhenyao Cui",
+        "Siyuan Kan",
+        "Siyang Li",
+        "Ziwei Wang",
+        "Dongrui Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+      "link": "https://arxiv.org/abs/2608.19133v1",
+      "summary": "We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit comments spanning 2006 to 2022. Using unsupervised methods on these embeddings, we identify dynamically evolving topic clusters over time. Our primary contribution is a methodology for analysis of semant",
+      "published": "2026-08-19T17:27:25Z",
+      "authors": [
+        "Steven Morse",
+        "Daniel Runfola",
+        "Trenton W. Ford"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles",
+      "link": "https://arxiv.org/abs/2608.19127v1",
+      "summary": "A gradient-boosted ensemble predicts by summing one leaf value per tree. Read   those values as coordinates rather than as intermediate results, and every   instance becomes a point in R^M on which the model acts linearly: the score is   the sum of the coordinates.   This small change of view makes contrastive explanation exact. The difference   between two instances is a vector that is identically zero wherever they share   a leaf, so the gap between a rejected applicant and an accepted one is ",
+      "published": "2026-08-19T17:20:33Z",
+      "authors": [
+        "Emanuele Luzio"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Avalanche-like Plasticity in Complex Concentrated Alloys: A Review Across Scales",
+      "link": "https://arxiv.org/abs/2608.19126v1",
+      "summary": "Complex concentrated alloys (CCAs), including high- and medium-entropy alloys, deform in chemically heterogeneous energy landscapes where dislocation glide, solute aging, twinning, phase transformation and microstructural barriers may all contribute. This review discusses avalanche-like and serrated plasticity in CCAs across scales. The first part separates the relevant length scales and methods used to access them. At microscopic and mesoscopic scales, acoustic emission (AE) and microcompressio",
+      "published": "2026-08-19T17:19:42Z",
+      "authors": [
+        "Michal Knapek",
+        "Tomáš Tayari",
+        "Kristián Máthis",
+        "Miloš Janeček"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering",
+      "link": "https://arxiv.org/abs/2608.19125v1",
+      "summary": "When an expert corrects an LLM assistant's error, the correction usually dies with the session, and the error class returns. I argue this is an operations problem, not a tooling problem: mechanisms for persisting corrections exist and are shipping, but the discipline for governing them -- versioning with provenance, recurrence monitoring, counter-metrics, retirement of stale rules -- does not. Writing as a systems engineer of thirty years, I map the LLM stack onto the machines my profession alre",
+      "published": "2026-08-19T17:18:53Z",
+      "authors": [
+        "George Andrikopoulos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constant-Time Inverse Suffix Array Queries in Compact Space and Sublinear-Time Construction of Suffix Array Indexes",
+      "link": "https://arxiv.org/abs/2608.19123v1",
+      "summary": "For a text $T\\in[0..σ)^n$ with $2\\leqσ\\leq n$, its suffix array orders the suffix starting positions lexicographically, while its inverse suffix array maps each position to its suffix's rank. Since compressed suffix arrays and FM-indexes appeared in 2000, a central goal has been to support both queries in $O(n\\logσ)$ bits. Thankachan recently reduced inverse suffix array query time to $O(\\log\\log n/\\log\\logσ)$, but constant time remained open.   We give the first inverse suffix array structure w",
+      "published": "2026-08-19T17:17:54Z",
+      "authors": [
+        "Dominik Kempa",
+        "Tomasz Kociumaka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Toward Quantum Advantage in Learning Parities with Structured Noise via Lower Bound Optimization of the Condition Number",
+      "link": "https://arxiv.org/abs/2608.19122v1",
+      "summary": "Learning Parities with Structured Noise (LPSN) can be reduced to solving nonlinear Boolean systems. In quantum computing, such systems are typically transformed into Macaulay linear systems and solved via quantum linear system algorithms, a process severely limited by the condition number. To address this, we propose a novel reduction method for Macaulay linear systems. Under the assumptions of Ding et al., we derive a condition number lower bound incorporating a scaling factor.   This reduction",
+      "published": "2026-08-19T17:17:31Z",
+      "authors": [
+        "Yusen Han",
+        "Xuelian Li",
+        "Juntao Gao",
+        "Bo Song"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
+      "link": "https://arxiv.org/abs/2608.19119v1",
+      "summary": "Time series imputation is a crucial area for reliable time series analysis, yet it remains challenging due to the complex temporal dynamics and noise of real-world data. Existing approaches, however, exhibit two limitations: missing and observed values are embedded within the same representation space without explicit structural separation, and continuous diffusion-based methods are trained to predict added noise rather than the original signal. To address these, we propose the Masked Diffusion ",
+      "published": "2026-08-19T17:16:27Z",
+      "authors": [
+        "Dongbin Kim",
+        "Seungyun Lee",
+        "Geonwoo Shin",
+        "Jaewook Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhancing EBSD throughput of battery electrode materials using super-resolution generative adversarial networks",
+      "link": "https://arxiv.org/abs/2608.19117v1",
+      "summary": "Quantitative microstructural characterization of Li-ion battery electrode materials using electron backscatter diffraction (EBSD) has been proven as a critical method for optimizing cell performance. However, the inherently slow nature of EBSD can hinder the throughput of analyses needed for statistical representation of a material microstructure being developed. This work demonstrates a machine learning super-resolution framework using a generative adversarial network (SRGAN) to significantly i",
+      "published": "2026-08-19T17:14:20Z",
+      "authors": [
+        "John Mangum",
+        "Andrew Glaws",
+        "Francois Usseglio-Viretta",
+        "Steven Spurgeon",
+        "Donal Finegan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JANUS: A Multi-modal Foundation Neural Sampler for Disordered Materials",
+      "link": "https://arxiv.org/abs/2608.19116v1",
+      "summary": "Many problems in disordered materials require sampling beyond fixed composition and volume, where coupled changes in atomic identities and structure create a prohibitively expensive discrete-continuous sampling problem. Here we introduce JANUS, a multimodal neural sampler that couples continuous and masked discrete diffusion through an equivariant graph neural network trained directly from energy evaluations, without pre-generated equilibrium data. In benchmark Ising and isobaric $ΔμNPT$ alloy s",
+      "published": "2026-08-19T17:11:03Z",
+      "authors": [
+        "Denis Blessing",
+        "Mouyang Cheng",
+        "Maximilian Schebek",
+        "Jutta Rogal",
+        "Mingda Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Local Structure and Dynamics of Three-Dimensional Covalent Organic Frameworks",
+      "link": "https://arxiv.org/abs/2608.19106v1",
+      "summary": "Resolving and controlling the local dynamical properties of covalent organic frameworks (COFs) remains a central challenge, particularly when assembled from large, flexible building units. Here, we combine synchrotron X-ray pair distribution function (PDF) analyses with machine learning-accelerated molecular dynamics (MD) simulations to resolve the local structure and dynamics of two three-dimensional imine-linked COFs, COF-682 {[(DHP)(TAM)]$_{imine}$}, assembled from 6,13-dihydropentacene (DHP)",
+      "published": "2026-08-19T16:59:10Z",
+      "authors": [
+        "Francesco Tavani",
+        "Saber Mirzaei",
+        "Jian Yin",
+        "Yen-hsu Lin",
+        "Caden Myers"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wet Removal and Cloud Enhancement: The Microphysics of Cloud-Haze Interactions on Sub-Neptunes",
+      "link": "https://arxiv.org/abs/2608.19100v1",
+      "summary": "Aerosols are a near-ubiquitous feature of sub-Neptune atmospheres, yet their microphysical nature remains poorly understood. Both condensate clouds and photochemical hazes have been proposed to explain observations, but have largely been studied in isolation. Here we present a new bin-scheme microphysical model, adapted from CARMA, that couples cloud and haze formation through heterogeneous nucleation - the dominant mode of cloud formation in the Solar System - in which haze particles act as clo",
+      "published": "2026-08-19T16:51:52Z",
+      "authors": [
+        "Vighnesh Nagpal",
+        "Maria Steinrueck",
+        "Diana Powell",
+        "Peter Gao",
+        "Dominic Samra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Large Field-Free Superconducting Diode Effect with Nonmonotonic Polarity Reversals in NbSe$_2$/CrBr$_3$ Heterostructures",
+      "link": "https://arxiv.org/abs/2608.19099v1",
+      "summary": "The superconducting diode effect (SDE), characterized by nonreciprocal dissipationless supercurrent, offers a promising route toward ultralow-power superconducting electronics. Yet most realizations require an external magnetic field, and achieving a large, controllable SDE at zero field remains challenging. Here we report a field-free SDE with an efficiency reaching 35.7% in a van der Waals NbSe$_2$/CrBr$_3$ heterostructure, whose polarity is programmable by magnetic-field history. Unlike conve",
+      "published": "2026-08-19T16:51:23Z",
+      "authors": [
+        "Shengbiao Sun",
+        "Lang Xiao",
+        "Chenghao Shen",
+        "Bowen Hao",
+        "Jia-Peng Peng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+      "link": "https://arxiv.org/abs/2608.19098v1",
+      "summary": "Multi-teacher on-policy distillation (M-OPD) has emerged as a promising paradigm for consolidating domain-specialized reinforcement learning (RL) experts into a single generalist student via dense, token-level reward supervision. Despite its practical success, the optimization dynamics governing multi-teacher capability integration remain poorly understood, and open, rigorously reproducible recipes are conspicuously lacking. In this work, we establish a controlled M-OPD benchmark on SmolLM3-3B-B",
+      "published": "2026-08-19T16:50:39Z",
+      "authors": [
+        "Huan-ang Gao",
+        "Haohan Chi",
+        "Yong Yan",
+        "Shiyuan Feng",
+        "Hanlin Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Approximating Minimum Dominating Set with Few Awake Rounds",
+      "link": "https://arxiv.org/abs/2608.19096v1",
+      "summary": "We study the Minimum Dominating Set (MDS) problem in the sleeping CONGEST model (Chatterjee, Gmyr, and Pandurangan, PODC 2020), a generalization of the standard CONGEST model, in which a node may sleep in some rounds and can only compute, send messages, or receive messages when it is awake. The awake complexity of an algorithm in this model is the worst case number (over all inputs and all nodes) of rounds a node is awake for during the execution of the algorithm. While there are several $O(\\log",
+      "published": "2026-08-19T16:45:50Z",
+      "authors": [
+        "Hongyan Ji",
+        "Shreyas Pai",
+        "Sriram V. Pemmaraju"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
