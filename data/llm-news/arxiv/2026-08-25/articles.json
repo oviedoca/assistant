@@ -1,0 +1,634 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "How to Train a Critic Stably and Efficiently",
+      "link": "https://arxiv.org/abs/2608.23566v1",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormal",
+      "published": "2026-08-24T17:59:39Z",
+      "authors": [
+        "Penghui Qi",
+        "Xiangxin Zhou",
+        "Wee Sun Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "link": "https://arxiv.org/abs/2608.23565v1",
+      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over the entire history, and random head routing keeps either capability from binding to particular heads; r",
+      "published": "2026-08-24T17:59:05Z",
+      "authors": [
+        "Zhifei Chen",
+        "Luozhou Wang",
+        "Guibao Shen",
+        "Dongyu Yan",
+        "Shuai Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "link": "https://arxiv.org/abs/2608.23564v1",
+      "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an easy hack: agents copy the original implementation to make tests pass. We call this Blindness. To addre",
+      "published": "2026-08-24T17:59:04Z",
+      "authors": [
+        "Deyao Hong",
+        "Yizhe Chi",
+        "Wenyi Li",
+        "Xiaoqiu Wang",
+        "Mingju Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
+      "link": "https://arxiv.org/abs/2608.23563v1",
+      "summary": "Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Distillation (EGD), a novel artificial intelligence framework that transfers institutional road safety expertise into a compact vision-language model for scalable visual road safety auditing. The key in",
+      "published": "2026-08-24T17:58:41Z",
+      "authors": [
+        "Md Thamed Bin Zaman Chowdhury",
+        "Moazzem Hossain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography",
+      "link": "https://arxiv.org/abs/2608.23562v1",
+      "summary": "Ballistocardiography (BCG) is promising for unobtrusive long-term blood pressure (BP) monitoring in laboratory settings, but traditional BCG signals are vulnerable to the variations in body-bed interaction with shifted fiducial points in temporal or amplitude axis, and BP varies with personal hemodynamic changes, causing misaligned representations that affect model generalizability and robustness. In this work, we propose a non-invasive BP estimation framework, Phy-BP, based on triaxial bodyseis",
+      "published": "2026-08-24T17:58:35Z",
+      "authors": [
+        "Yuanyuan Zhang",
+        "Yida Zhang",
+        "Jiahui Li",
+        "Yuyan Wu",
+        "Fei Dou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flux-induced Aharonov-Bohm Oscillation in the Tunneling Spectroscopy of Kitaev Spin Liquids",
+      "link": "https://arxiv.org/abs/2608.23561v1",
+      "summary": "Identifying emergent flux excitations and signatures of their mutual statistics with itinerant Majorana fermions remains a central challenge in Kitaev spin liquids. We show that an isolated $π$ flux imprints an intrinsic Aharonov-Bohm-like interference pattern on the charge-neutral Majorana continuum. Spatially resolved scanning tunneling microscopy with inelastic electron tunneling spectroscopy (STM-IETS) probes this oscillation in the local dynamical spin response as a function of both bias vo",
+      "published": "2026-08-24T17:58:26Z",
+      "authors": [
+        "Wen-Han Kao",
+        "Elio J. König"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The descendants of $z \\gtrsim 10$ JWST galaxies in the COLIBRE simulations",
+      "link": "https://arxiv.org/abs/2608.23558v1",
+      "summary": "Recent observations with JWST have revealed a population of UV-bright galaxies at $z\\gtrsim 10$. This discovery naturally raises the question: what do such early galaxies evolve into by the present day? In this work, we address this descendant question using the new-generation COLIBRE cosmological hydrodynamical simulations to trace bright galaxies selected at $z=10$ and follow their descendants to the present day. Most of the high-redshift galaxies do not survive as distinct, self-bound objects",
+      "published": "2026-08-24T17:55:55Z",
+      "authors": [
+        "Xu Zhao",
+        "Carlos S. Frenk",
+        "Andrew Pontzen",
+        "Kyle A. Oman",
+        "Evgenii Chaikin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two-loop renormalisation and Higgs phenomenology in the five-dimensional MSSM",
+      "link": "https://arxiv.org/abs/2608.23555v1",
+      "summary": "The five-dimensional Minimal Supersymmetric Standard Model (5D MSSM) provides an attractive framework in which power-law renormalisation group evolution naturally generates a sizeable trilinear stop coupling, allowing the observed Higgs boson mass to be reproduced without requiring too heavy a supersymmetric spectra. In this work we present a comprehensive two-loop analysis of the 5D MSSM, deriving the complete renormalisation group equations governing the gauge, Yukawa and soft supersymmetry-br",
+      "published": "2026-08-24T17:55:10Z",
+      "authors": [
+        "Ammar Abdalgabar",
+        "Alan S. Cornell",
+        "Aldo Deandrea",
+        "Howeida M. Esmaeil",
+        "Mohammed Omer Khojali"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+      "link": "https://arxiv.org/abs/2608.23554v1",
+      "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $τ$-leaping sampler scale linearly with the ambient dimension $d$, raising the question of whether this dependence is intrinsic to the forward process. We answer this question in the negative. We consider a fi",
+      "published": "2026-08-24T17:54:51Z",
+      "authors": [
+        "Daniil Dmitriev",
+        "Zhihan Huang",
+        "Yuting Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "link": "https://arxiv.org/abs/2608.23552v1",
+      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectorie",
+      "published": "2026-08-24T17:54:19Z",
+      "authors": [
+        "Seth Karten",
+        "Alex L. Zhang",
+        "Kevin Thomas",
+        "Sebastian Müller",
+        "Elie Bakouch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
+      "link": "https://arxiv.org/abs/2608.23551v1",
+      "summary": "Recent advances in continuous diffusion and flow-based language models (LMs) have achieved performance competitive with discrete LMs. However, existing continuous frameworks still rely on decoders supervised with cross entropy (CE) because the flow trajectories are not guaranteed to terminate at valid token embeddings. Motivated by this limitation, we introduce \\textbf{ConvergeFlow}, an embedding-space flow-based LM, which constrains the data predictor to the convex hull of token embeddings and ",
+      "published": "2026-08-24T17:54:14Z",
+      "authors": [
+        "Na Li",
+        "Yuchen Jiao",
+        "Changxiao Cai",
+        "Gen Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When \"Do Not\" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls",
+      "link": "https://arxiv.org/abs/2608.23550v1",
+      "summary": "In CLAUDE.md, \"do not\" is a natural-language instruction that the model interprets. Claude Code's deny is a built-in control that blocks an action before the agent can take it. Both can express the same security goal, but they control the agent in different ways. We measure this gap in 481 public CLAUDE.md files. An LLM matched the extracted candidate rules against Claude Code's documented controls, and two security practitioners independently checked a sample without seeing the model's answers ",
+      "published": "2026-08-24T17:52:57Z",
+      "authors": [
+        "Ting Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors",
+      "link": "https://arxiv.org/abs/2608.23549v1",
+      "summary": "Rendering views using 3D scene representations such as Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), meshes, or even point clouds produces artifacts when input views are sparse or target views lie far from the input. Recent work mitigates these artifacts using diffusion-based generative priors, but is specialized to individual representations and require custom architectures or extensive retraining. We present FixAnything, a single model for fixing a wide range of rendering artifacts",
+      "published": "2026-08-24T17:51:33Z",
+      "authors": [
+        "Khiem Vuong",
+        "Deva Ramanan",
+        "Srinivasa Narasimhan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Preparing for the Early eVolution Explorer: The Impact of Flare Temperature on Ozone Column Depth in Earth-Like Atmospheres",
+      "link": "https://arxiv.org/abs/2608.23548v1",
+      "summary": "Atmospheric photochemical models incorporating the impacts of stellar flares often assume a $\\sim$9,000 K spectrum at ultraviolet-optical wavelengths. Recent multiwavelength observations, however, reveal a more complex picture with temperature measurements spanning 4,000-40,000 K, although the occurrence rates for flares with different temperatures remain unknown. Here, we model the evolution of a Proterozoic Earth-like world with 0.01 bar of O$_2$ under repeated flaring to identify the impact o",
+      "published": "2026-08-24T17:50:42Z",
+      "authors": [
+        "Jaime S. Crouse",
+        "Nicholas F. Wogan",
+        "Ward S. Howard",
+        "Meredith A. MacGregor",
+        "Guadalupe Tovar Mendoza"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
+      "link": "https://arxiv.org/abs/2608.23547v1",
+      "summary": "Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be corrupted through compromised logs, labeling errors, manipulated historian records, or unsafe retraining processes. This paper evaluates the robustness of offline ICS anomaly-detection pipelines on the Secure Water Treatment (SWaT) benchmark under training-time contamination. We assess 11 heterogen",
+      "published": "2026-08-24T17:49:36Z",
+      "authors": [
+        "Mustafa Umut Ozbek",
+        "Taiwo Ojo",
+        "Pooria Madani",
+        "Khalil El-Khatib",
+        "Li Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Eulerian walkers on $\\mathbb{Z}^2$ have range exponent $2/3$",
+      "link": "https://arxiv.org/abs/2608.23545v1",
+      "summary": "In the Eulerian walker model (also known as rotor walk), each site of the square lattice begins with an arrow pointing to one of its four neighbors. A walker that starts at the origin repeatedly turns the arrow at its current site clockwise by $90^\\circ$ and steps in the new direction. Priezzhev, Dhar, Dhar, and Krishnamurthy (1996) introduced this as a model of self-organized criticality and conjectured that, for independent uniform initial directions, the region explored in the first $t$ steps",
+      "published": "2026-08-24T17:47:51Z",
+      "authors": [
+        "Ahmed Bou-Rabee",
+        "Yuval Peres"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles",
+      "link": "https://arxiv.org/abs/2608.23543v1",
+      "summary": "While AI assistance can improve human task performance in the short term, it may also undermine the development of skills in the longer term. We examine this tension in a controlled logic-puzzle experiment involving on-demand AI assistance, where participants complete tasks before, during, and after AI is available. By experimentally varying AI request costs, we find that lower-cost assistance induces more frequent AI use. We also find that participants who request AI assistance during the AI-ac",
+      "published": "2026-08-24T17:46:11Z",
+      "authors": [
+        "Shang Wu",
+        "Catarina G Belem",
+        "Shuyuan Fu",
+        "Mark Steyvers",
+        "Padhraic Smyth"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams",
+      "link": "https://arxiv.org/abs/2608.23541v1",
+      "summary": "Does multi-agent LLM interaction help or hurt? Some work reports gains from debate (Du et al., 2024), critique loops (Chen et al., 2025), and mixture-of-agents synthesis (Wang et al., 2025), while other work finds that interaction adds cost without improving quality under equal budgets (Tran & Kiela, 2026; Xu et al., 2026; Jarrett et al., 2025), or that independent sampling already captures multi-agent gains (Li et al., 2024). We argue this contradiction partly reflects a missing distinction, be",
+      "published": "2026-08-24T17:45:15Z",
+      "authors": [
+        "Summer Eunhyung Ann",
+        "Haokun Liu",
+        "Chenhao Tan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Stochastic Flow for the Stochastic Allen-Cahn Equation with Multiplicative Noise",
+      "link": "https://arxiv.org/abs/2608.23540v1",
+      "summary": "We establish the existence of a stochastic flow on $L^{\\infty} (\\mathbb{T})$ for the stochastic Allen-Cahn equation with multiplicative noise \\[ (\\partial_t - \\partial_x^2) u = u - u^3 + σ(u) ξ\\quad \\text{on}   \\quad \\mathbb{R}_+ \\times \\mathbb{T}, \\] where $ξ$ is space-time white noise and $σ: \\mathbb{R} \\rightarrow \\mathbb{R}$ is sufficiently smooth, bounded, and has bounded derivatives. Our strategy is to obtain pathwise a priori estimates via regularity structures. In fact, we consider a gen",
+      "published": "2026-08-24T17:45:04Z",
+      "authors": [
+        "Salvador Esquivel",
+        "Hendrik Weber"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interpretable AI with Local Distillation",
+      "link": "https://arxiv.org/abs/2608.23538v1",
+      "summary": "Modern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression function is locally well approximated by a linear one, allowing a linear fit near each query point to achieve high accuracy without sacrificing transparency. The chal",
+      "published": "2026-08-24T17:43:07Z",
+      "authors": [
+        "Erin Craig",
+        "Yiling Huang",
+        "Snigdha Panigrahi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition",
+      "link": "https://arxiv.org/abs/2608.23536v1",
+      "summary": "The continual evolution of malware variants necessitates detection systems that can adapt to new threats without retraining from scratch. However, continually updating models on new data often leads to catastrophic forgetting, where previously learned knowledge is overwritten. While continual learning has been increasingly explored for malware detection, the specific setting of Few-Shot Class-Incremental Learning (FSCIL), where new malware classes must be learned from only a small number of labe",
+      "published": "2026-08-24T17:41:15Z",
+      "authors": [
+        "Kyle Stein",
+        "Guillermo Francia",
+        "III Eman El-Sheikh",
+        "Andrew Arash Mahyari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bound States in Exactly Solvable Polaritonic Models",
+      "link": "https://arxiv.org/abs/2608.23535v1",
+      "summary": "We study a one-dimensional scalar model for an effective-mass quasiparticle field coupled to a continuum of two-level atoms with at most one excitation present. We prove a general theorem on the existence of bound states under sign-definite spatially localized perturbations of constant atomic density and analyze the bound states for several exactly solvable examples.",
+      "published": "2026-08-24T17:37:08Z",
+      "authors": [
+        "Sam Johar",
+        "Ryogo Katahira",
+        "Joseph Kraisler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Strong Lensing Cosmology with Population-level Calibrated Neural Ratio Estimation",
+      "link": "https://arxiv.org/abs/2608.23534v1",
+      "summary": "Strong gravitational lensing contains key information about cosmic acceleration. Modern and next-generation galaxy imaging surveys are expected to provide high-quality data on $\\mathcal{O}(10^5)$ galaxy-galaxy lensing systems. The plethora and complexity of the data are likely to present computational challenges for parameter inference methods for fitting high-dimensional likelihoods, which are often analytically intractable. Neural Ratio Estimation (NRE) efficiently computes individual likeliho",
+      "published": "2026-08-24T17:35:46Z",
+      "authors": [
+        "Sreevani Jarugula",
+        "Brian D. Nord",
+        "Aleksandra Ćiprijanović",
+        "Shubhendu Trivedi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From arithmetic spectra to a quantum-corrected black hole geometry",
+      "link": "https://arxiv.org/abs/2608.23528v1",
+      "summary": "The Euler product of the Riemann zeta function is the partition function of a free bosonic gas whose mode energies are the logarithms of the primes. We show that this arithmetic gas, combined with the assumption that the entropy--geometry correspondence holds, leads to a quantum-corrected black-hole metric. The prime gas is a Hagedorn system. Its entropy is linear in the energy, which is exactly what an entropy linear in the horizon area requires, and the simple pole of the zeta function at $β=1",
+      "published": "2026-08-24T17:31:08Z",
+      "authors": [
+        "Kimet Jusufi",
+        "Ankit Anand"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The ALMA EGO-10 Survey of Massive Protoclusters: Correlation of 1.3 mm Continuum Source Clustering with Evolutionary State",
+      "link": "https://arxiv.org/abs/2608.23527v1",
+      "summary": "Massive stars characteristically form in clustered environments. Characterising young massive 'protoclusters' is therefore crucial to constraining the mechanism(s) of massive star formation, and of the assembly of stellar clusters. We present 1.3 mm continuum results from the ALMA EGO-10 imaging survey, targeting ten Spitzer GLIMPSE Extended Green Objects (EGOs) - massive protostars with active outflows traced by extended 4.5 $μ$m emission. Our sensitive 1'.6$\\times$1'.6 mosaics reveal rich prot",
+      "published": "2026-08-24T17:30:20Z",
+      "authors": [
+        "Michael C. Logue",
+        "Claudia J. Cyganowski",
+        "Crystal L. Brogan",
+        "Todd R. Hunter",
+        "Alessio Traficante"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Correcting a learned physical invariant improves world-model rollouts",
+      "link": "https://arxiv.org/abs/2608.23526v1",
+      "summary": "World models can predict video without learning dynamics that they reliably preserve. We test whether a frozen DreamerV3 trained only on pendulum video learns a scalar that its own latent transition treats as approximately conserved. A label-free search recovers the same energy-like invariant across independently trained conservative models, while the same procedure finds no comparable invariant in matched damped models. During autonomous rollouts, this quantity drifts. Projecting the latent sta",
+      "published": "2026-08-24T17:29:40Z",
+      "authors": [
+        "Richard Bao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards",
+      "link": "https://arxiv.org/abs/2608.23525v1",
+      "summary": "Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. Natural hazards make this work consequential because incomplete evidence can change estimates of severity, exposure, and mechanism. We introduce EarthVerse, a benchmark that evaluates scientific agents through package-scoped investigations. Its 405 reproducible tasks are grounded in 199 documented events and 19 hazard families. Agents inspect heterogeneous event pa",
+      "published": "2026-08-24T17:29:16Z",
+      "authors": [
+        "Zhiqing Cui",
+        "Xinxiang Yin",
+        "Yihong Tang",
+        "Xinglang Zhang",
+        "Yuanzhe Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+      "link": "https://arxiv.org/abs/2608.23524v1",
+      "summary": "Artificial intelligence (AI) is transforming measurement in economics. AI models convert unstructured data, such as text and images, into structured variables at low cost, making previously prohibitive measurement feasible at scale. This shifts the bottleneck from finding any scalable measure of a phenomenon to choosing among many plausible ones, which may support different empirical conclusions. This review provides guidance for navigating that shift. We describe three stages at which AI enters",
+      "published": "2026-08-24T17:28:34Z",
+      "authors": [
+        "Melissa Dell",
+        "Ashesh Rambachan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Disentangling propagation effects from Fast Radio Burst spectra: An analysis on simulated data",
+      "link": "https://arxiv.org/abs/2608.23522v1",
+      "summary": "We present a methodology to decouple propagation effects, specifically scattering and dispersion, from the intrinsic spectro-temporal properties of repeating Fast Radio Bursts. Utilizing the Triggered Relativistic Dynamical Model, and assuming superradiance as the emission mechanism, we generate simulated sub-bursts and inject controlled levels of scattering and residual dispersion. For each burst, we measure the sub-burst slope, defined as the trajectory of the centroids in the dynamic spectrum",
+      "published": "2026-08-24T17:25:50Z",
+      "authors": [
+        "Aishwarya Kumar",
+        "Fereshteh Rajabi",
+        "Martin Houde"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Generalized Chiral $U(1)_{B-L}$: Towards a Less Constrained $Z'$ and Dark Matter",
+      "link": "https://arxiv.org/abs/2608.23521v1",
+      "summary": "Extensions of the Standard Model by a $U(1)_{X}$ gauge symmetry predict a new $Z'$ boson, whose mass is severely constrained by high-mass dilepton resonance searches at the LHC. We show that these bounds can be relaxed by generalizing the chiral $(B-L)$ charge assignment while preserving gauge anomaly cancellation. The resulting $U(1)_X$ charges are parameterized by two independent parameters, and an appropriate choice of these parameters suppresses the $Z'$ branching fraction into charged lepto",
+      "published": "2026-08-24T17:24:43Z",
+      "authors": [
+        "Ranjeet Kumar",
+        "Hemant Kumar Prajapati"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Run-and-tumble particles with preferred reorientation",
+      "link": "https://arxiv.org/abs/2608.23519v1",
+      "summary": "Run-and-tumble particles (RTPs) are canonically modeled with uniform reorientation probabilities, an assumption that breaks down for many biological microswimmers. In this work, we investigate the dynamics of RTPs with arbitrary non-uniform tumble distributions. By deriving an exact Doi-Peliti field theory, we explicitly calculate a wide array of spatial and orientational observables. Notably, we demonstrate that the spatial dynamics exhibit an effective persistence and chirality governed entire",
+      "published": "2026-08-24T17:23:52Z",
+      "authors": [
+        "Callum Britton",
+        "Ziluo Zhang",
+        "Seongjun Han",
+        "Thibault Bertrand"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Investigating Relational Reasoning in VLMs",
+      "link": "https://arxiv.org/abs/2608.23518v1",
+      "summary": "Vision-Language Models (VLMs) achieve strong performance in visual reasoning tasks, but it remains unclear whether they understand visual relations, or simply employ shortcuts such as language cues or priors. To investigate this, we use the Qwen3-VL-4B (Bai et al., 2025), a modern VLM, to decode how visual information is encoded across depths. For this, we propose a synthetic dataset of simple geometric shapes for controlled analysis, along with queries crafted to precisely test language cues. F",
+      "published": "2026-08-24T17:23:36Z",
+      "authors": [
+        "Adhithya Laxman Ravi Shankar Geetha",
+        "Aulia Kharis Rakhmasari",
+        "Haleema Ramzan",
+        "Xander Yap"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Extreme-ultraviolet spectroscopy using quantum logic: a feasibility study for singly-ionized helium",
+      "link": "https://arxiv.org/abs/2608.23516v1",
+      "summary": "Extreme-ultraviolet (XUV) spectroscopy represents an important new direction in precision physics, with potential applications ranging from the metrology of fundamental constants to tests of physics beyond the Standard Model. However, the application of quantum control methods for precision spectroscopy remains an open challenge in the XUV range. Here we present a novel quantum logic (QL) spectroscopy method for precision spectroscopy of weak XUV transitions, and numerically validate its feasibi",
+      "published": "2026-08-24T17:22:25Z",
+      "authors": [
+        "A. Martínez de Velasco",
+        "V. P. J. Barbé",
+        "E. L. Gründeman",
+        "A. Díaz Calderon",
+        "M. Collombon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Core Breaking at Low Spin in $^{68}$Zn from Nuclear Resonance Fluorescence",
+      "link": "https://arxiv.org/abs/2608.23514v1",
+      "summary": "Low-spin excited states in $^{68}$Zn have been studied at the High Intensity Gamma-Ray Source (HI$γ$S) from the ground state up to the particle emission threshold using the nuclear resonance fluorescence technique (NRF) and the newly developed Clover Array. Low-spin levels were excited by linearly-polarized, $2.90 - 9.79$ MeV photon beams. Spin-parity quantum numbers as well as associated $M1$ and $E1$ decay strengths were determined for a large fraction of the 158 states observed. In addition, ",
+      "published": "2026-08-24T17:20:11Z",
+      "authors": [
+        "S. R. Johnson",
+        "R. V. F. Janssens",
+        "B. A. Brown",
+        "A. D. Ayangeakaa",
+        "S. S. Bhattacharjee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asymptotics for Model Selection in Probabilistic Principal Component Analysis",
+      "link": "https://arxiv.org/abs/2608.23513v1",
+      "summary": "The probabilistic formulation of principal component analysis promises statistically grounded solutions to the problem of selecting the number of principal components. However, developing tractable model selection methods is complicated by the fact that the probabilistic principal component analysis (PPCA) model exhibits non-standard large sample asymptotics at model singularities, where the Fisher information matrix does not have full rank. In this work, tools from singular learning theory are ",
+      "published": "2026-08-24T17:20:08Z",
+      "authors": [
+        "Mathias Drton",
+        "Andrew McCormack",
+        "Daniel Windisch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Penalized likelihood estimation of probability density functions using compositional splines",
+      "link": "https://arxiv.org/abs/2608.23512v1",
+      "summary": "Probability density functions are commonly estimated through preliminary smoothing or aggregation procedures, e.g., histograms or kernel density estimation, before subsequent functional representation and functional data analyses. Such a two-stage approach can lead to additional approximation bias and weaken the direct connection between the observed data and the underlying distributional structure. In this paper, we propose a penalized maximum likelihood framework for direct estimation of proba",
+      "published": "2026-08-24T17:19:32Z",
+      "authors": [
+        "Stanislav Škorňa",
+        "Jitka Machalová"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Large Jahn-Teller shifts and splittings observed in halide perovskite CsPbBr3",
+      "link": "https://arxiv.org/abs/2608.23510v1",
+      "summary": "Despite the fundamental role of Jahn-Teller effects of first and second order in shaping structural and electronic properties, there is hardly any observation in angle-resolved photoemission of solids. In oxide and halide perovskites, band structure replicas have occasionally been reported as fingerprints of Jahn-Teller effects, but no accompanying energy shifts or splittings that would allow a conclusion about their origin. In CsPbBr3, we uncover both key signatures: Upon cooling, orthorhombic ",
+      "published": "2026-08-24T17:16:52Z",
+      "authors": [
+        "Maryam Sajedi",
+        "Maxim Krivenkov",
+        "Dmitry Marchenko",
+        "Saleem Ayaz Khan",
+        "Andrei Varykhalov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Energy and CO2 Footprint of Climate Model Intercomparison Projects",
+      "link": "https://arxiv.org/abs/2608.23509v1",
+      "summary": "Earth System Models (ESMs) rely heavily on High-Performance Computing (HPC) resources to simulate global climate. As these models evolve, their computational demands continue to grow, driven by three factors: (1) finer spatial grid resolutions, (2) the integration of complex biogeochemical processes (e.g., atmospheric chemistry, interactive vegetation, land use, and ice sheets), and (3) larger climate ensembles to manage uncertainty. Historically, growth in peak computing performance (FLOP/s) ha",
+      "published": "2026-08-24T17:13:29Z",
+      "authors": [
+        "Sergi Palomas",
+        "Pablo Aparici",
+        "Gladys Utrera",
+        "Mario Acosta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Testing selection on observables in parametric models with refreshment samples",
+      "link": "https://arxiv.org/abs/2608.23508v1",
+      "summary": "In panels with sample selection (that may occur due to attrition, nonresponse, etc.), the assumption of selection on observables (missing at random, MAR) is commonly imposed despite often being implausible. However, this assumption becomes testable when a refreshment sample is available. We develop a statistical test of MAR based on a distance between two estimated distributions: one obtained using the standard inverse probability weighting (IPW) that is valid under MAR and the other obtained us",
+      "published": "2026-08-24T17:12:10Z",
+      "authors": [
+        "Grigory Franguridi",
+        "Arie Kapteyn"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World",
+      "link": "https://arxiv.org/abs/2608.23507v1",
+      "summary": "Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identity reconciliation more than a problem of string matching or transliteration. We introduce MHER, a provenance-controlled benchmark for pairwise reconciliation of person-name attestations from the Mongol world. MHER contains a balanced 396-pair Name-only core over 84 primary historical persons and a s",
+      "published": "2026-08-24T17:10:36Z",
+      "authors": [
+        "Xiang Chen",
+        "Zeyu Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Riesz Energy Subset Selection in the Euclidean Plane is NP-Hard",
+      "link": "https://arxiv.org/abs/2608.23506v1",
+      "summary": "We prove that minimum Riesz $s$-energy subset selection in the Euclidean plane is NP-complete already for the fixed exponent $s=2$. To our knowledge, this is the first Euclidean hardness result for exact Riesz-energy subset selection in which both the ambient dimension and the exponent are fixed. The reduction uses Barahona's planar cubic Ising model with uniform field. A spin is encoded by one diagonal of a four-point square. Axis-aligned selector chains implement ferromagnetic consistency, whi",
+      "published": "2026-08-24T17:09:26Z",
+      "authors": [
+        "Michael Emmerich"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Informational Model of the Holobiont: Statistical Tests for Selection and Extension to a Theory of Variable Interactions",
+      "link": "https://arxiv.org/abs/2608.23504v1",
+      "summary": "We review, clarify, and generalize a recently proposed evolutionary information-theoretic model of the holobiont, in which evolutionary change is quantified using Jeffreys divergence and partitioned into contributions from the host, microbial components, and host-microbiome associations. Building on these partitions, we develop statistical tests to identify whether observed informational change is attributable to selection acting on host types, microbial-component states, or particular host-micr",
+      "published": "2026-08-24T17:05:50Z",
+      "authors": [
+        "Antonio Carvajal-Rodríguez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
+      "link": "https://arxiv.org/abs/2608.23503v1",
+      "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details during reformulation, or utilizing absolute pointwise scoring for multimodal verification. To address these limitations, we propose \\textbf{ActPair}, a unified three-stage coarse-to-fine framework tha",
+      "published": "2026-08-24T17:04:34Z",
+      "authors": [
+        "Thanh-Khoi Nguyen",
+        "Thanh-Nhan Vo",
+        "Trong-Thuan Nguyen",
+        "Minh-Triet Tran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Interactive Agent for Requirement-Driven Candidate Sourcing",
+      "link": "https://arxiv.org/abs/2608.23501v1",
+      "summary": "Finding people from a natural-language description (``ML engineers transitioning to research roles in biotech'') is increasingly delegated to LLM agents and framed as information retrieval. We argue that it is fundamentally a requirements engineering task: such a request is an under-determined requirement with implicit constraints, many valid answers, and no acceptance criterion, so useful answers require eliciting, validating, and verifying the requirement before search can matter. We present \\",
+      "published": "2026-08-24T17:04:16Z",
+      "authors": [
+        "Yuanpeng He",
+        "Fangjing Li",
+        "Xiangyu Ru",
+        "Kexin Sun",
+        "Kun Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SVD-Based Typicality Maps for Out-of-Distribution Detection in Vision Transformers",
+      "link": "https://arxiv.org/abs/2608.23499v1",
+      "summary": "We present a method for analyzing the internal representations of Vision Transformers (ViTs) exploiting the geometry of their learned parameters. Each affine layer's weight matrix is factored via Singular Value Decomposition (SVD), and activations are projected onto the leading right singular vectors to obtain compact, layer-intrinsic representations. A class-conditional density model is then fitted at each layer, producing per-class \\emph{typicality scores} that are stacked across depth into \\e",
+      "published": "2026-08-24T17:03:02Z",
+      "authors": [
+        "Aldo Sean Sartor",
+        "Leandro de Souza Rosa",
+        "Andriy Enttsel",
+        "Mauro Mangia",
+        "Riccardo Rovatti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Road to Normalcy: Environment-Driven Evolutionary Pathways for Primordial Black Holes",
+      "link": "https://arxiv.org/abs/2608.23498v1",
+      "summary": "We investigate how cosmological environment regulates the evolution of primordial black hole (PBH) seeds in the early universe using a suite of hydrodynamical simulations. Unlike traditional seeding channels, PBHs provide early BH seeds without the need of special conditions for gas collapse/fragmentation that favor overdense regions, thus covering diverse large-scale environments. We find that PBHs follow distinct evolutionary pathways depending on the gas supply and halo assembly history. In u",
+      "published": "2026-08-24T17:02:37Z",
+      "authors": [
+        "Saiyang Zhang",
+        "Junehyoung Jeon",
+        "Boyuan Liu",
+        "Volker Bromm",
+        "Priyamvada Natarajan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+      "link": "https://arxiv.org/abs/2608.23497v1",
+      "summary": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show that RIM does not always emerge. Previous work attributed RIM to neuron-level entanglement, but did not identify the geometry of the representation space underlying",
+      "published": "2026-08-24T16:57:28Z",
+      "authors": [
+        "Yipeng Zhao",
+        "Qishun Yang",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Di Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Numerical Solution of Pantograph Delay Integrodifferential Equation of Volterra Type: Collocation Method Based on Shifted Jacobi Polynomials",
+      "link": "https://arxiv.org/abs/2608.23494v1",
+      "summary": "Pantograph arises in electric trains, material modelling, and the modelling of quantum dot lasers. Pantograph integrodifferential equations are integrodifferential equations involving proportional delays; and they appear in fields such as electrodynamics, epidemiology, control theory, astrophysics, economics, and engineering. This research presents an efficient collocation method based on shifted Jacobi polynomials for obtaining numerical solutions of a class of first order pantograph delay inte",
+      "published": "2026-08-24T16:55:33Z",
+      "authors": [
+        "Richard Olu Awonusika",
+        "Olasupo John Felemu",
+        "Olawale Olaonipekun Ajijola",
+        "Yoyinade Joose Aborisade"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+      "link": "https://arxiv.org/abs/2608.23493v1",
+      "summary": "Self-reflection is a powerful mechanism for credit assignment in human learning, converting sparse outcome feedback into actionable guidance. However, its potential for post-training Large Language Models (LLMs) remains underexplored. We propose Self-Reflective Policy Optimization (SRPO), a framework that internalizes this capability. SRPO enables LLMs to analyze their own completed trajectories, synthesize errors into concise \"reflection patches,\" and use reflection-conditioned teacher scores o",
+      "published": "2026-08-24T16:55:09Z",
+      "authors": [
+        "Jialong Liu",
+        "Yuling Shi",
+        "Ning Yang",
+        "Xiaodong Gu",
+        "Zuchao Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stochastic Dynamics of Low Earth Orbit Near Full Capacity",
+      "link": "https://arxiv.org/abs/2608.23491v1",
+      "summary": "The capacity of Low Earth Orbit (LEO) to sustain space operations is under mounting pressure from megaconstellations, legacy fragmentation debris, and new payload classes. Existing assessments of orbital capacity and debris evolution are largely deterministic, tracking mean populations of intact satellites and fragments with ordinary differential equations; they cannot capture the inherent randomness of collisions, breakup sizes, and launch schedules. We develop a stochastic extension of the two",
+      "published": "2026-08-24T16:54:26Z",
+      "authors": [
+        "Priyank Behera",
+        "Aditya S. Gopalan",
+        "Harsha Honnappa"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
