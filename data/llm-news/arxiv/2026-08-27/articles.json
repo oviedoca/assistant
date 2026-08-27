@@ -1,0 +1,631 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "link": "https://arxiv.org/abs/2608.26105v1",
+      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning thr",
+      "published": "2026-08-26T17:59:51Z",
+      "authors": [
+        "Junxiang Xu",
+        "Ruisi Wang",
+        "Fanyi Pu",
+        "Maijunxian Wang",
+        "Ran Ji"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "link": "https://arxiv.org/abs/2608.26103v1",
+      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task",
+      "published": "2026-08-26T17:59:34Z",
+      "authors": [
+        "Jiaming Zhou",
+        "Qihang Zhang",
+        "Gangwei Xu",
+        "Cunxin Fan",
+        "Yujie Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing",
+      "link": "https://arxiv.org/abs/2608.26101v1",
+      "summary": "Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable supervision signals. Second, most public datasets rely primarily on textual instructions, while lacking visual references that are crucial for precise, identity-preserving, and controllable editing. To a",
+      "published": "2026-08-26T17:59:19Z",
+      "authors": [
+        "Bojia Zi",
+        "Xiaoyan Yang",
+        "Yu Zhou",
+        "Ruijie Sun",
+        "Lihan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Integrated Hardware Annealing based on Langevin Dynamics for Ising Machines",
+      "link": "https://arxiv.org/abs/2608.26100v1",
+      "summary": "Ising machines are non-von Neumann machines designed to solve combinatorial optimization problems (COP) by searching for the ground state, or the lowest energy configuration, within the Ising model. However, Ising machines often face the challenges of getting trapped in local minima due to the complex energy landscapes. Hardware annealing algorithms help mitigate this issue by using a probabilistic approach to steer the system toward the ground state. In this paper, we present a hardware anneali",
+      "published": "2026-08-26T17:59:06Z",
+      "authors": [
+        "Yongchao Liu",
+        "Lianlong Sun",
+        "Michael Huang",
+        "Hui Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exact analytical spectrum, eigenstates, and quantum geometry of the quarter-flux Harper-Hofstadter model",
+      "link": "https://arxiv.org/abs/2608.26099v1",
+      "summary": "Quantum geometry has emerged as a guiding principle across atomic and condensed-matter physics, shaping the topological responses of Bloch bands and the stability of the correlated phases they host. Beyond two-band models, however, closed-form expressions for both the spectrum and the quantum geometry are rare. Here we provide such expressions for a paradigmatic four-band model that has recently been realized experimentally with ultracold atoms, photons and in superconducting circuits: the Harpe",
+      "published": "2026-08-26T17:58:52Z",
+      "authors": [
+        "Isaac Tesfaye",
+        "André Eckardt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Isotopic and Elemental Abundances of Planet-Host Star TRAPPIST-1",
+      "link": "https://arxiv.org/abs/2608.26097v1",
+      "summary": "Elemental and isotopic abundances are key tracers of planet formation, stellar evolution, and Galactic chemical evolution. Very low-mass stars are particularly interesting in this regard, because unlike more massive or evolved stars their photospheric abundances retain the star's natal composition. Cool dwarf spectra have historically been challenging to use for measurements of chemical abundances because of the blending of molecular and atomic features. However, recent advances in molecular lin",
+      "published": "2026-08-26T17:58:03Z",
+      "authors": [
+        "Darío González Picos",
+        "Ian J. M. Crossfield",
+        "David Coria",
+        "Joshua Lothringer",
+        "Eric Gaidos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Torsion balances as operational probes of semiclassical gravity: Matched-filter bounds, torque-diffusion constraints, and quantum-noise benchmarks",
+      "link": "https://arxiv.org/abs/2608.26096v1",
+      "summary": "Calibrated torsion-balance spectra constrain deterministic and stochastic deviations from standard Newtonian gravity. Using one-sided spectra, we derive a calibrated angle-equivalent noise budget and finite-time matched-filter/Cramér-Rao bounds for known torque templates. For stochastic models, subtracting the calibrated standard noise budget (thermal, Newtonian, environmental, imprecision, backaction) from the observed angle spectrum yields a residual spectrum, convertible to an equivalent resi",
+      "published": "2026-08-26T17:57:48Z",
+      "authors": [
+        "Jyotirmaya Mohanta",
+        "Yutaka Shikano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
+      "link": "https://arxiv.org/abs/2608.26095v1",
+      "summary": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterogeneous visual dependence (VD). However, we reveal that token-level VD is crucial for MU-CPT. Specifically, its structural distortion serves as an indicator of cross-modal catastrophic forgetting, and ",
+      "published": "2026-08-26T17:57:04Z",
+      "authors": [
+        "Kaichen Li",
+        "Zhilin Zhu",
+        "Jianhao Huang",
+        "Zhengqin Lai",
+        "Baochen Xiong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
+      "link": "https://arxiv.org/abs/2608.26094v1",
+      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback. We introduce MyoMechanix, a multimodal ecosystem for weight-loaded actions that aligns motion with muscle activity. Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with s",
+      "published": "2026-08-26T17:56:33Z",
+      "authors": [
+        "Hao Yin",
+        "Paritosh Parmar",
+        "Lijun Gu",
+        "Lin Xu",
+        "Tianxiao Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
+      "link": "https://arxiv.org/abs/2608.26091v1",
+      "summary": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting these plans. We present a Visual-First Multimodal Retrieval-Augmented Generation (RAG) framework called PlanSightRAG. It indexes and reasons directly over plan imagery, integrates a ColNomic-3B multi-vector retrieval, an agentic Planner-Retriever-Auditor-Synthesizer, and MaxSim heatmaps as an evidence ",
+      "published": "2026-08-26T17:54:24Z",
+      "authors": [
+        "Nabaraj Subedi",
+        "Shuvo Dip Datta",
+        "Ahmed Abdelaty",
+        "Shivanand Venkanna Sheshappanavar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
+      "link": "https://arxiv.org/abs/2608.26090v1",
+      "summary": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the model representation, using a strict validation protocol consisting of held-out tests, matched nuisance controls, and replication across independent dictionary trainings. Causal interventions show that the direction head bar",
+      "published": "2026-08-26T17:53:00Z",
+      "authors": [
+        "Raphaël Bonnet-Guerrini",
+        "Johann Ioannou-Nikolaides",
+        "Inar Timiryasov",
+        "Vincenzo Piuri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+      "link": "https://arxiv.org/abs/2608.26088v1",
+      "summary": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predictive planetary models remains bottlenecked by a fragmented data ecosystem, requiring manual data retrieval, multimodal data curation and fusion along with iterative model selection. We present the Planetary Prediction Engine (PPE), an autonomous AI system that executes this end-to-end workflow directl",
+      "published": "2026-08-26T17:50:52Z",
+      "authors": [
+        "Evelyn Ma",
+        "Rama Kumar Pasumarthi",
+        "Kishwar Shafin",
+        "Mandar Sharma",
+        "Mimi Sun"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+      "link": "https://arxiv.org/abs/2608.26086v1",
+      "summary": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over hours of feedback, and on most competitions still finishes below strong human competitors. Outcome-based benchmarks record this gap but not its cause, because they grade the final submission and discard the development process behind it. We introduce TraceML, which pairs human and agent work on the ",
+      "published": "2026-08-26T17:50:13Z",
+      "authors": [
+        "Jiarui Yan",
+        "Weiwei Sun",
+        "Sijie Li",
+        "Wenhan Li",
+        "Yiming Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Massive Ghost Confinement, Dipole Equation and Multipole States in Quadratic Gravity",
+      "link": "https://arxiv.org/abs/2608.26085v1",
+      "summary": "We investigate the problem of confinement of massive ghost, which violates the unitarity of the physical S-matrix, in quadratic gravity on the basis of a manifestly covariant and local canonical operator formalism. First, we reconsider the manifestly covariant quantization of quadratic gravity in the de Donder gauge (the harmonic gauge) from the viewpoint of dipole fields. Next, we also reconsider a possible mechanism of confinement of the massive ghost and derive an effective Lagrangian for asy",
+      "published": "2026-08-26T17:49:29Z",
+      "authors": [
+        "Ichiro Oda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Localic Esakia Duality via Conic Frames",
+      "link": "https://arxiv.org/abs/2608.26084v1",
+      "summary": "Esakia duality is the dual equivalence between Heyting algebras and Esakia spaces. However, the traditional proof uses the Prime Ideal Theorem to recover the algebra from its spectrum, a choice principle that is not constructively valid.   We build on Townsend's localic Priestley duality to describe a fully constructive, localic Esakia duality. On the algebraic side, we use the recently introduced Heyting frames as the point-free version of Heyting algebras. On the spatial side, Esakia spaces ar",
+      "published": "2026-08-26T17:49:10Z",
+      "authors": [
+        "Nesta van der Schaaf"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing",
+      "link": "https://arxiv.org/abs/2608.26083v1",
+      "summary": "Deep neural networks often exploit spurious associations in their training data, a failure known as shortcut learning. Concept-based explainability methods screen for shortcuts by testing whether concepts such as a patient's sex or scanner settings can be decoded from a network layer. Because each concept is evaluated in isolation, these methods can mistake correlations between concepts as evidence that the model uses them. We introduce ICON decomposition, which instead quantifies how much of a ",
+      "published": "2026-08-26T17:47:49Z",
+      "authors": [
+        "Roshan Prakash Rane",
+        "Marco Simnacher",
+        "Manuel Pfeuffer",
+        "Marc-Andre Schulz",
+        "Nys Tjade Siegel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "link": "https://arxiv.org/abs/2608.26081v1",
+      "summary": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains unclear whether decentralized agents can build functional technologies and outperform independent search. Here, initially homogeneous LLM agents in SwarmWorld se",
+      "published": "2026-08-26T17:45:34Z",
+      "authors": [
+        "Subhadeep Pal",
+        "Fiona Y. Wang",
+        "Markus J. Buehler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Parity Anomaly as Modular Commutator with Massless Dirac Fermion",
+      "link": "https://arxiv.org/abs/2608.26078v1",
+      "summary": "The modular commutator $J(A,B,C) = i\\langle[K_{AB},K_{BC}]\\rangle$ extracts the chiral central charge $c_-$ from a single bulk wavefunction of a \\emph{gapped} 2d state, where $3J/π=c_-$. Inspired by the recent developments in the field of gapless symmetry-protected topological phases, we ask: what does the modular commutator measure, if it is well-defined at all, when the 2d bulk becomes \\textit{gapless}? Several interesting new insights can already be obtained using the simple Haldane honeycomb",
+      "published": "2026-08-26T17:43:50Z",
+      "authors": [
+        "Meng Zeng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Anatomy of an extensive air shower: building an optimal radio emission calculation",
+      "link": "https://arxiv.org/abs/2608.26077v1",
+      "summary": "Radio emission from particle air showers is one of the most promising detection techniques to achieve an experiment with a large exposure in ultra-high-energy astroparticle physics. In this regime, above $10^{17}$ eV, the detailed calculation of the radio emission from Monte Carlo particle showers is sufficiently CPU intensive that statistical studies and optimization problems remain largely out of reach. In this article we examine the characteristics of the longitudinal and lateral development ",
+      "published": "2026-08-26T17:43:40Z",
+      "authors": [
+        "Juan Ammerman-Yebra",
+        "Harm Schoorlemmer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast Generative Grasping via Lie Group-Constrained MeanFlow",
+      "link": "https://arxiv.org/abs/2608.26076v1",
+      "summary": "Grasp synthesis is a core task in robotic manipulation, for which the solution typically forms a multimodal distribution rather than a point estimate. Generative robotic grasping aims to learn this distribution with deep generative models such as diffusion and flow-based approaches. The iterative nature of such generative models makes them flexible and generalizable; however, multi-step sampling impedes the time-critical operation required in robotics. We devise an approach to fast generative gr",
+      "published": "2026-08-26T17:43:07Z",
+      "authors": [
+        "S. Talha Bukhari",
+        "Yi Wei",
+        "Ruiqi Ni",
+        "Zachary Kingston",
+        "Aniket Bera"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Epistemic Networks, Collective Misperception, and the Manipulation of Social Knowledge",
+      "link": "https://arxiv.org/abs/2608.26075v1",
+      "summary": "We investigate the structure of interactive beliefs in networks: the epistemic state in which agents hold, revise, and act on their models of the epistemic states of other agents. What a group believes depends on what each member agent takes the others to believe, and on what each takes the others to believe about still others. We posit that the proper unit of social-epistemic analysis is not the individual belief but the tensor of mutual attribution, the array that records what every agent take",
+      "published": "2026-08-26T17:42:38Z",
+      "authors": [
+        "Mihnea C. Moldoveanu",
+        "Joel A. C. Baum"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving",
+      "link": "https://arxiv.org/abs/2608.26074v1",
+      "summary": "Intent misinterpretation during vehicle interactions causes recurring planning failures. We study a decision layer in which a language-guided intent module reads structured descriptors, computes a smoothed intent-geometry divergence score, and gates the planned maneuver before commitment, upstream of a corridor envelope. On a replayed off-road departure and four crash clips under a frozen, disclosed implementation, gating is the only layer that repairs the plan: on the main case it fires 72 ms a",
+      "published": "2026-08-26T17:42:03Z",
+      "authors": [
+        "Cong Xu",
+        "Ravi Sankar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optical extinction and near-field properties of plasmonic dimers: Role of particle shape and separation",
+      "link": "https://arxiv.org/abs/2608.26073v1",
+      "summary": "Localized surface plasmons (LSPs) supported by metallic nanostructures exhibit a great tunability of their resonance frequencies and associated spatial field distributions. In particular, nanoscale gaps and sharp corners exhibit promising near-field enhancements for applications such as biochemical sensing and nanoantennas. In this work, we investigate the optical properties of bowtie nanowire dimers excited by linearly polarized light, including polarization orthogonal to the dimer axis. To dis",
+      "published": "2026-08-26T17:41:53Z",
+      "authors": [
+        "Gino Wegner",
+        "Bill Antonio Bernhardt",
+        "Ulf Peschel",
+        "Kurt Busch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Fleet to Lab: Revisiting the Security and Complexity of Industrial Rowhammer Mitigation",
+      "link": "https://arxiv.org/abs/2608.26072v1",
+      "summary": "This paper studies efficient and secure Rowhammer mitigation at the Memory-Controller (MC). Rowhammer mitigation faces a fundamental tradeoff between tracking storage and mitigation rate: precise trackers (such as Misra-Gries) avoid unnecessary mitigations but require large CAM structures, whereas sampling-based schemes (such as PARA) require no storage but incur frequent mitigations even when not under attack. Microsoft recently deployed Sigries, an MC-side Rowhammer defense that combines an un",
+      "published": "2026-08-26T17:38:45Z",
+      "authors": [
+        "Hritvik Taneja",
+        "Moinuddin Qureshi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Incommensurate spin fluctuations in one-dimensional Kondo metal CeCo2Ga8",
+      "link": "https://arxiv.org/abs/2608.26071v1",
+      "summary": "We present an experimental and numerical study of the spin fluctuations in 1D Kondo metal CeCo$_2$Ga$_8$. Using inelastic neutron spectroscopy, we measure highly one-dimensional magnetism with low-energy incommensurate short-ranged magnetic fluctuations. ARPES similarly shows a highly one-dimensional electronic band structure, confirming the one-dimensional nature of the system. We use density matrix renormalization group (DMRG) simulations of the 1D Kondo lattice model to interpret the measured",
+      "published": "2026-08-26T17:38:16Z",
+      "authors": [
+        "Yixuan Huang",
+        "P. Murgatroyd",
+        "Yi Wu",
+        "M. Cook",
+        "P. F. S. Rosa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "link": "https://arxiv.org/abs/2608.26070v1",
+      "summary": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find most intermediate reasoning tokens lose importance as the model continues reasoning. This calls into question whether retaining them is worth the cost. Based on this insight, we propose Prefix Sliding, w",
+      "published": "2026-08-26T17:37:15Z",
+      "authors": [
+        "Niklas Muennighoff",
+        "Zhengyang Wang",
+        "Zeyi Chen",
+        "Weijia Shi",
+        "Binyuan Hui"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Group-Shared Low-Rank Approximation for Mobile-Efficient Pointwise Convolutions in Large-Kernel CNNs",
+      "link": "https://arxiv.org/abs/2608.26069v1",
+      "summary": "Large-kernel Convolutional Neural Networks (CNNs) deliver remarkable performance in vision tasks by significantly expanding receptive fields, yet their quadratic parameter growth critically impedes storage-efficient edge deployment. While existing efficient architectures adopt parameter-efficient depthwise separable convolution backbones that leverage techniques like low-rank approximation and weight sharing to compress depthwise convolutions, we identify a critical oversight: pointwise convolut",
+      "published": "2026-08-26T17:36:35Z",
+      "authors": [
+        "Hao Luo",
+        "Yiting Yang",
+        "Wenyi Zhao",
+        "Man Jiang",
+        "Zhijun Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "All once-extended 3D TQFTs are Reshetikhin--Turaev theories",
+      "link": "https://arxiv.org/abs/2608.26068v1",
+      "summary": "We present a direct geometric construction which extends the Reshetikhin--Turaev TQFT to circles. We prove that this agrees with the generators-and-relations approach of Bartlett--Douglas--Schommer-Pries--Vicary, thus providing an alternative to the Cerf-theoretic part of their classification of once-extended 3-dimensional TQFTs, and deduce as a result that all once-extended 3-dimensional TQFTs arise via our construction.",
+      "published": "2026-08-26T17:35:25Z",
+      "authors": [
+        "Glen Lim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2608.26067v1",
+      "summary": "Vision-Language-Action (VLA) models have demonstrated effectiveness in robot manipulation, yet state-of-the-art models such as pi0.5 operate under a single-frame paradigm, limiting their ability to retain past observations and develop precise spatial perception. In this paper, we propose StreamPI, a streaming multimodal temporal modeling framework that equips single-frame VLA with temporal reasoning capability without introducing any additional parameters. One core design is instruction-anchored",
+      "published": "2026-08-26T17:33:19Z",
+      "authors": [
+        "Zhe Liu",
+        "Jinghua Hou",
+        "Yuxiang Lu",
+        "Zhenya Yang",
+        "Xianzhe Fan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lab earthquakes confirm the theory of frictional slip pulses",
+      "link": "https://arxiv.org/abs/2608.26065v1",
+      "summary": "Large natural earthquakes are typically mediated by frictional pulse-like rupture, which features a finite slipping zone. Recently, a comprehensive two-dimensional theory of frictional slip pulses has been developed. It predicts that pulses are categorically unstable rupture modes, whose evolution is intrinsically slow. Unsteady pulses satisfy an equation of motion expressed in terms of discrete observables, which is inherently related to their steady-state counterparts. The theory also predicts",
+      "published": "2026-08-26T17:32:47Z",
+      "authors": [
+        "Alina Shafir",
+        "Tom Gabrieli",
+        "Yuval Tal",
+        "Eran Bouchbinder"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neural-Network and Reduced-order Modeling Workflows for AI-Driven CFD: Fast Response Surfaces, Reduced Dynamics and Jet in Cross-flow Examples",
+      "link": "https://arxiv.org/abs/2608.26064v1",
+      "summary": "Highly resolved computational fluid dynamics (CFD) simulations are essential for design but too expensive for dense design-space sampling. This chapter presents an AI-driven CFD workflow that combines scalar-response modeling and reduced-order dynamics using jet-in-cross-flow examples. A reacting hydrogen jet-in-cross-flow study is first used to train a multilayer perceptron (MLP) mapping injector spacing to unburnt hydrogen throughput, wall heat transfer, and bulk temperature concentration, wit",
+      "published": "2026-08-26T17:32:41Z",
+      "authors": [
+        "Kaku E. Eduku",
+        "Pavel P. Popov",
+        "Gustaaf Jacobs"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Three omitted values and non-Blaschke point divisors in half-planes",
+      "link": "https://arxiv.org/abs/2608.26062v1",
+      "summary": "We construct a real meromorphic function $F$ on $\\mathbb C$ such that $F^{-1}(\\{0,1,\\infty\\})\\subset\\mathbb R$, while $F$ is not of bounded type in either half-plane. More strongly, for every $a\\in\\widehat{\\mathbb C}\\setminus\\{0,1,\\infty\\}$, the $a$-point divisor in either half-plane fails the Blaschke condition. Thus the construction provides an independent negative answer to a question going back to Nevanlinna's 1925 work that had remained open for over a century. Postcomposition gives the ana",
+      "published": "2026-08-26T17:30:53Z",
+      "authors": [
+        "Quanyu Tang",
+        "Bokai Cui",
+        "Wei He",
+        "Tao Hu",
+        "Yanyang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asymptotically optimal purification of noisy unitary channels in any dimension",
+      "link": "https://arxiv.org/abs/2608.26061v1",
+      "summary": "We consider the problem of noisy unitary purification. Given access to an unknown $d$-dimensional unitary channel followed by depolarizing noise of strength $p$, we aim to construct a superchannel that universally purifies the noisy unitary back to the original unknown unitary. We optimize over arbitrary adaptive sequential strategies and analytically derive the optimal fidelity to the leading order in the noise strength and number of channel uses, while also providing a concrete $\\mathrm{SU}(d)",
+      "published": "2026-08-26T17:30:35Z",
+      "authors": [
+        "Ryotaro Niwa",
+        "Satoshi Yoshida",
+        "Mio Murao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
+      "link": "https://arxiv.org/abs/2608.26060v1",
+      "summary": "Automatic Speech Recognition (ASR) technologies have achieved remarkable performance in recent years through the use of large multilingual foundation models. However, most advances remain concentrated on high-resource languages, while indigenous languages continue to suffer from a lack of speech resources and language technologies. This work presents a preliminary study on the adaptation of Whisper for Automatic Speech Recognition in Baniwa, an indigenous Arawakan language spoken in Brazil, Colo",
+      "published": "2026-08-26T17:29:47Z",
+      "authors": [
+        "Leonardo Duart",
+        "Tiago Fonseca",
+        "Thiago Chacón"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation",
+      "link": "https://arxiv.org/abs/2608.26058v1",
+      "summary": "Scaling generalist vision-language-action (VLA) policies is severely bottlenecked by the inherent heterogeneity of embodied data, which spans diverse robot morphologies, camera configurations, and low-level action spaces. Existing paradigms typically address this mismatch through explicit action retargeting, human-to-robot video synthesis, or dataset-specific adaptation branches, fundamentally hindering the joint learning of a unified policy. We introduce UCAG-P, a camera-centric unified action ",
+      "published": "2026-08-26T17:27:36Z",
+      "authors": [
+        "Xiaomi Embodied Intelligence Team",
+        "University of Macau",
+        ":",
+        "Shaoqing Xu",
+        "Fang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Giving Mechanical Engineers Intelligent Tools: A Project-Based AI Education Curriculum in Thermal Engineering",
+      "link": "https://arxiv.org/abs/2608.26056v1",
+      "summary": "Mechanical engineering (ME) requires a broad knowledge base across several disciplines. However, ME students often have insufficient training in electrical and computer engineering, complex challenges in traditional thermal system modeling, and endure heavy course loads with limited class hours. To help address these challenges, this paper proposes a new curriculum that integrates artificial intelligence (AI) into ME at the University of Arkansas (UARK), with a particular emphasis on thermal pro",
+      "published": "2026-08-26T17:26:22Z",
+      "authors": [
+        "Changgen Li",
+        "Han Hu",
+        "Christy Dunlap",
+        "Nathaniel House",
+        "Jonathan Wai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Numerical Direct Scattering Transform for Dark Solitons",
+      "link": "https://arxiv.org/abs/2608.26054v1",
+      "summary": "We introduce a numerical direct scattering transform scheme for dark solitons of the nonlinear Schrodinger equation, enabling the identification and complete characterization of nonlinear coherent structures in defocusing media with a continuous-wave (CW) background. Our scheme is based on numerically solving the auxiliary Zakharov-Shabat scattering problem with CW boundary conditions and on analytically derived expressions that relate the elements of the transfer matrix to the scattering data f",
+      "published": "2026-08-26T17:25:28Z",
+      "authors": [
+        "Ilya Mullyadzhanov",
+        "Sergey Dremov",
+        "Andrey Gelash"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2608.26053v1",
+      "summary": "Reasoning in language allows foundation models to spend more test-time compute on hard problems, such as those requiring decomposition, constraint tracking, and prediction of future consequences. Whether this mechanism can improve robotic manipulation remains unclear, where long-horizon tasks require tracking partial progress, reasoning about object relations, recovering from mistakes, and steering noisy low-level policies. In this paper, we study whether VLMs can be trained to reason directly i",
+      "published": "2026-08-26T17:25:10Z",
+      "authors": [
+        "Lehong Wu",
+        "Yuxiao Qu",
+        "Zheyuan Hu",
+        "Ivan Zhang",
+        "Limin Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Much Rank Does LoRA Need? Rank-Error Bounds for Transformer Attention",
+      "link": "https://arxiv.org/abs/2608.26052v1",
+      "summary": "Choosing the rank of a low-rank adaptation (LoRA) update is usually an empirical task. In this paper, we provide a task-dependent theory of the approximation error achievable at each LoRA rank for Transformer attention. We fix a pretrained attention head, a target attention function, and a distribution over inputs from the downstream task, and bound the smallest expected Kullback--Leibler (KL) error achievable by a rank-$r$ query LoRA update. When target attention probabilities are bounded away ",
+      "published": "2026-08-26T17:25:03Z",
+      "authors": [
+        "Gerard Conangla Planes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Value of Human Expertise",
+      "link": "https://arxiv.org/abs/2608.26051v1",
+      "summary": "We consider optimization applications with unknown parameters where the decision maker believes that the optimal value of the nominal problem-the optimization problem they would have solved if the true parameters were known-is unlikely to be large. This belief derives from information that humans have that is not captured in datasets, obtained from domain knowledge and interacting with the physical world. We propose an approach to evaluating policies that provides tighter performance guarantees ",
+      "published": "2026-08-26T17:24:52Z",
+      "authors": [
+        "Bradley Sturt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Obstacles Bend: Modeling Vegetation Deformation in the context of Field Robotics",
+      "link": "https://arxiv.org/abs/2608.26050v1",
+      "summary": "Autonomous robots operating in natural environments must often interact with vegetation rather than simply avoid it. In this context, traversability is typically defined from the robot's perspective, by measuring how a specific platform responds when moving through the environment. While practical, this viewpoint entangles the assessment of the environment with the robot's own dynamics, making the resulting characterization difficult to transfer across different platforms. More importantly, it d",
+      "published": "2026-08-26T17:23:57Z",
+      "authors": [
+        "Muhammad Hsaeeb Zaar Khizar",
+        "Tom Montagnon",
+        "Roland Lenain",
+        "Romuald Aufrère",
+        "Johann Laconte"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
+      "link": "https://arxiv.org/abs/2608.26049v1",
+      "summary": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level specs. into synthesizable hardware. However, this reliance on pre-trained (3rd-party) fine-tuned models may introduce critical trust issues, as the training data and adaptation process of these models are often opaque. Thus, adversaries (even model providers) may embed hidden backdoor threats during fine-tuning, allowi",
+      "published": "2026-08-26T17:23:48Z",
+      "authors": [
+        "Mahshid Rezakhani",
+        "Kimia Azar",
+        "Hadi Kamali"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Experimental Characterization of Additively Manufactured Metallic Alloys for Electric Propulsion Applications",
+      "link": "https://arxiv.org/abs/2608.26048v1",
+      "summary": "This work explores the sputtering of additively manufactured (AM) materials for use in gridded ion source applications. The first part of the paper uses 316L stainless steel as an example to demonstrate that additively manufactured material does not exhibit adverse sputtering behavior, such as higher sputter yield, compared with conventionally manufactured material. To this end, three additively manufactured 316L stainless steel samples were exposed to the beam of a KDC-40 electrostatic gridded ",
+      "published": "2026-08-26T17:23:44Z",
+      "authors": [
+        "J. Chamberlain",
+        "A. Shashurin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A family of second order, linear, unconditionally stable methods for the Cahn-Hilliard-Navier-Stokes equations",
+      "link": "https://arxiv.org/abs/2608.26046v1",
+      "summary": "We present a family of second-order, linear, unconditionally stable implicit-explicit (IMEX) methods for the Cahn-Hilliard-Navier-Stokes (CHNS) equations modeling matched-density two-phase flows. The proposed semi-discrete scheme combines extrapolation of the nonlinear terms with an auxiliary-variable formulation of the nonlinear free-energy term and a temporal-curvature regularization controlled by a parameter $ε$. We establish a discrete energy estimate showing unconditional long-time stabilit",
+      "published": "2026-08-26T17:22:48Z",
+      "authors": [
+        "Daozhi Han",
+        "Nan Jiang",
+        "Jonah H. Nissan",
+        "Sayantan Sarkar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Electrical manipulation of oxygen stoichiometry in multiterminal YBa$_2$Cu$_3$O$_{7-δ}$ junctions",
+      "link": "https://arxiv.org/abs/2608.26045v1",
+      "summary": "Local manipulation of oxygen stoichiometry offers a route to control the electronic properties of complex oxides, yet the selective modification of individual current-carrying branches through oxygen redistribution remains unexplored in multiterminal high-temperature superconducting junctions. In a YBa$_2$Cu$_3$O$_{7-δ}$ Y-shaped three-terminal device, we demonstrate the possibility to electrically control oxygen vacancy migration on a hand-picked terminal while largely preserving the other two.",
+      "published": "2026-08-26T17:21:54Z",
+      "authors": [
+        "Daniel Stoffels",
+        "Caio C. Quaglio-Gomes",
+        "Nicolas Lejeune",
+        "Emile Fourneau",
+        "Pedro Schio"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robust CurveMoE: Multi-Norm Adversarial Defense for Mixture-of-Experts Models via Mode Connectivity",
+      "link": "https://arxiv.org/abs/2608.26043v1",
+      "summary": "Multi-norm adversarial defense aims to protect neural networks against perturbations defined by different norm constraints, but existing methods typically optimize competing robustness objectives within a single parameter configuration, leading to substantial training cost and unfavorable robustness trade-offs. We propose Robust CurveMoE, an efficient mixture-of-experts framework that connects models specialized for different perturbation norms through a low-loss path and exploits the complement",
+      "published": "2026-08-26T17:21:33Z",
+      "authors": [
+        "Xu Zhang",
+        "Ren Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+      "link": "https://arxiv.org/abs/2608.26036v1",
+      "summary": "Answer accuracy is an insufficient reliability signal for LLM data agents. In structured-data tasks, a benchmark-correct answer can be produced by an invalid trace. This paper introduces Trace Integrity, a deployment reliability criterion for evaluating whether the computation recorded behind an answer is explicit, executable, schema-valid, operator-faithful, replayable, answer-consistent, and auditable. We identify the Structure Gap as the deployment failure mode that makes Trace Integrity nece",
+      "published": "2026-08-26T17:15:24Z",
+      "authors": [
+        "Srimonti Dutta",
+        "Akshata Kishore Moharir"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty",
+      "link": "https://arxiv.org/abs/2608.26035v1",
+      "summary": "When a speaker refers to a scene that the listener cannot directly see, the listener must decide whether to preserve its current understanding or revise it as new utterances arrive. Many language systems treat local mismatch as a cue for updating: divergence from the current understanding encourages adjustment. Yet conversational understanding may be more conservative, interpreting mismatching evidence relative to prior understanding rather than immediately revising it. We introduce a controlled",
+      "published": "2026-08-26T17:13:46Z",
+      "authors": [
+        "Ziming Liu",
+        "Bhanu Chaitanya Jasti",
+        "Ziyang Xu",
+        "Hongyu Wu",
+        "Yi Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dual modes in Kerr spacetimes and the Whiting transform: Mode stability revisited",
+      "link": "https://arxiv.org/abs/2608.26034v1",
+      "summary": "The purpose of the paper is to place Whiting's classical growing mode stability argument, extended to real frequencies by Shlapentokh-Rothman for the scalar wave equation and by Andersson, Ma, Paganini and Whiting in general, in the framework of classical PDE theory. The key steps are: a description of the dual or adjoint modes, a singular phase space pairing argument which is technically executed via the Fourier transform, followed by a standard unique continuation result.   One part of our des",
+      "published": "2026-08-26T17:13:43Z",
+      "authors": [
+        "Oliver Petersen",
+        "András Vasy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UltraPIPS: Improving model perception in B-mode ultrasound with foundation models",
+      "link": "https://arxiv.org/abs/2608.26033v1",
+      "summary": "In medical imaging, it is common to use learned perceptual image patch similarity (LPIPS) to compare images semantically in feature space. Although backbones pretrained on natural images are widely used for LPIPS computation, B-mode ultrasound images possess distinct speckle patterns and acoustic-specific image statistics that are fundamentally different from natural images and even from other images in radiology. Consequently, we propose that domain-specific models are needed to measure percept",
+      "published": "2026-08-26T17:12:11Z",
+      "authors": [
+        "Tal Grutman",
+        "Tali Ilovitsh"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
