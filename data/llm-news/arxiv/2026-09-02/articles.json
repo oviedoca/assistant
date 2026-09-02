@@ -1,0 +1,637 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+      "link": "https://arxiv.org/abs/2609.01607v1",
+      "summary": "While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the representation, task, and system levels in a controlled, structurally native setting without pretrained vision priors. At the representation level, we find that each objective provides useful signal ",
+      "published": "2026-09-01T17:59:59Z",
+      "authors": [
+        "Penghao Wu",
+        "Haiwen Diao",
+        "Weichen Fan",
+        "Lewei Lu",
+        "Dahua Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Observable- and state-selective prethermalization and bounds on prethermal lifetimes",
+      "link": "https://arxiv.org/abs/2609.01606v1",
+      "summary": "Prethermalization describes long-lived intermediate regimes that precede equilibrium and can dominate experimentally accessible dynamics. Here, we show that a separation of spectral energy scales, despite giving rise to a hierarchy of dynamical timescales, does not by itself guarantee the appearance of a prethermal plateau. Under the same Hamiltonian, some observables may exhibit prethermal behavior, while others relax directly toward equilibrium. We uncover the mechanism governing this selectiv",
+      "published": "2026-09-01T17:59:58Z",
+      "authors": [
+        "C. L. Sriram",
+        "Soumya Kanti Pal",
+        "Lea F. Santos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "link": "https://arxiv.org/abs/2609.01604v1",
+      "summary": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability and Adequacy dimensions of NLG quality, a generation pipeline that produces paired clean and corrupt summaries with controlled error intensity and explicit token-l",
+      "published": "2026-09-01T17:59:49Z",
+      "authors": [
+        "Himil Vasava",
+        "Ming Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "link": "https://arxiv.org/abs/2609.01603v1",
+      "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that ",
+      "published": "2026-09-01T17:59:46Z",
+      "authors": [
+        "Kefeng Duan",
+        "Dewu Zheng",
+        "Yanlin Wang",
+        "Xiwen Wang",
+        "Ensheng Shi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Singular Weak-Field Thermodynamics of 2D Superconductors",
+      "link": "https://arxiv.org/abs/2609.01602v1",
+      "summary": "In a bulk 3D type-II superconductor, the lower critical field at which an isolated vortex becomes thermodynamically favorable is a size-independent material property. We show that the situation is different in 2D superconductors: the larger the superconductor, the weaker the field needed to create its first vortex. The lower critical field in 2D is always size-dependent. For a disk of area $\\mathcal A$, the lower critical field $B_v(\\mathcal A)$ scales as $\\mathcal A^{-1}\\ln(\\mathcal A/\\mathcal ",
+      "published": "2026-09-01T17:59:45Z",
+      "authors": [
+        "Guopeng Xu",
+        "Chunli Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+      "link": "https://arxiv.org/abs/2609.01601v1",
+      "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented generation (RAG) to provide repository-specific context. Despite improving repository-context retrieval, existing methods typically provide context as task-level support, without explicitly identifying th",
+      "published": "2026-09-01T17:59:39Z",
+      "authors": [
+        "Kefeng Duan",
+        "Dewu Zheng",
+        "Yanlin Wang",
+        "Terry Yue Zhuo",
+        "Mingwei Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "link": "https://arxiv.org/abs/2609.01600v1",
+      "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It combines a controlled formal setting with programs executed against Cordis, a runtime that manages component dependencies and cleanup, and asks models to identify affected components, predict state af",
+      "published": "2026-09-01T17:59:13Z",
+      "authors": [
+        "Damien Sileo",
+        "Dimitri Kachler"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constraining the Planetary Obliquity Distribution of Warm Jupiters",
+      "link": "https://arxiv.org/abs/2609.01599v1",
+      "summary": "Warm Jupiters are an intriguing class of planets with uncertain origins. Their planetary obliquities could help distinguish between different formation pathways: planet-planet scattering and migration across resonances can excite large obliquities, whereas in-situ formation would more naturally produce low obliquities. We searched for oblateness-related anomalies in the transit light curves of six observationally favorable warm Jupiters: TOI-201b, TOI-1670c, TOI-199b, Kepler-9c, Kepler-30c, and ",
+      "published": "2026-09-01T17:59:00Z",
+      "authors": [
+        "Caleb Lammers",
+        "Joshua N. Winn"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.01597v1",
+      "summary": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first unified account of it. We organize the field around a single axis, \\textit{when} verbal feedback takes effect in an agent's lifecycle and \\textit{what} it modifies, yielding three pillars: (1) \\textbf{La",
+      "published": "2026-09-01T17:58:18Z",
+      "authors": [
+        "Kshitij Tayal",
+        "Arun Sharma",
+        "Genta Indra Winata",
+        "Anirban Das",
+        "Sambit Sahu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+      "link": "https://arxiv.org/abs/2609.01596v1",
+      "summary": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its actions. Facet-0 unifies multimodal representation learning and reinforcement learning (RL) post-training around a joint action-wrench proposal: a causal wrench history is aligned with vision-language semantics and kinematic state, and flow matching gen",
+      "published": "2026-09-01T17:58:07Z",
+      "authors": [
+        "Haoyuan Deng",
+        "Haichao Liu",
+        "Wenkai Guo",
+        "Yuan Ling",
+        "Zaijia Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fermionic Dark Matter Absorption and the High-Energy Event in LUX-ZEPLIN",
+      "link": "https://arxiv.org/abs/2609.01592v1",
+      "summary": "The LUX-ZEPLIN (LZ) experiment has reported a single candidate event in the high-energy nuclear recoil window $248\\pm32.5\\ \\mathrm{keV}_{\\mathrm{nr}}$ with an exposure of $2.80\\ \\mathrm{ton}\\cdot\\mathrm{yr}$, while the low-energy spectrum remains consistent with background expectations. We demonstrate that this excess can be naturally explained by the neutral-current absorption of fermionic dark matter on xenon nuclei. For a dark matter mass $m_χ\\simeq 247\\ \\mathrm{MeV}$, the coherent absorption",
+      "published": "2026-09-01T17:55:18Z",
+      "authors": [
+        "Yuanchao Lou",
+        "hih-Ting Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "link": "https://arxiv.org/abs/2609.01591v1",
+      "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real learners. Student simulators can provide this signal as a proxy, yet existing approaches are limited: state-tracking models fit student behavior but struggle to process explanations or corrections, while LLM role-play follows guidance fluently but does not reliably match the competence",
+      "published": "2026-09-01T17:55:10Z",
+      "authors": [
+        "Ke Yang",
+        "Chenglong Wang",
+        "Michel Galley",
+        "Chandan Singh",
+        "Jeevana Priya Inala"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TeV Higgsino Dark Matter from LZ Nuclear Recoil to Fermi-LAT Gamma Rays",
+      "link": "https://arxiv.org/abs/2609.01590v1",
+      "summary": "The Higgsino dark matter of the minimal supersymmetric standard model is one of the most minimal and canonical WIMP candidates. We demonstrate that this classic candidate can account for both the high-energy nuclear-recoil excess reported by the LZ experiment and the mild preference in the 14 years of FermiLAT Galactic-center data, with the relic abundance fixing the Higgsino dark matter mass near 1.1 TeV and the recoil spectrum selecting a mass splitting of a few hundred keV. Together with the ",
+      "published": "2026-09-01T17:54:59Z",
+      "authors": [
+        "Lei Wu",
+        "Yang Zhang",
+        "Bin Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Designing Proactive Thought Partners for Writing",
+      "link": "https://arxiv.org/abs/2609.01588v1",
+      "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of proactive thought partners: AI agents that proactively offer customizable, higher-level cognitive support during writing. We instantiated this concept in a technolog",
+      "published": "2026-09-01T17:54:32Z",
+      "authors": [
+        "Chao Zhang",
+        "Abe Davis",
+        "Chih-Wei Chen",
+        "Chin-Chia Hsu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+      "link": "https://arxiv.org/abs/2609.01587v1",
+      "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how to allocate a small additional precision budget. Using causal mixed-precision intervention as ground truth (raise each layer to 8-bit in turn and measure the accuracy it recovers) across 9 open-weight models in 4 architecture families, we test 3 intuitive hypotheses: that quantiz",
+      "published": "2026-09-01T17:53:41Z",
+      "authors": [
+        "Jundong Hu",
+        "Shekar Ramachandran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The JWST Emission Line Survey (JELS): A narrow-band determination of the H$α$ Luminosity Function and Cosmic Star Formation into the Epoch of Reionization",
+      "link": "https://arxiv.org/abs/2609.01586v1",
+      "summary": "The recent star-formation activity in galaxies can be optimally traced by the H$α$ emission line, with the resulting H$α$ luminosity function (LF) at a given epoch providing a reliable probe of cosmic star formation. We present the first narrow-band determined H$α$ LF into the Epoch of Reionization (EoR) at $z\\sim6.1$, using 39 H$α$ emitters selected from the JWST Emission Line Survey (JELS). The observed and dust-corrected LFs are broadly consistent with recent slitless spectroscopic measuremen",
+      "published": "2026-09-01T17:50:30Z",
+      "authors": [
+        "C. A. Pirie",
+        "K. J. Duncan",
+        "P. N. Best",
+        "D. J. McLeod",
+        "C. L. Hale"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Families of relative periodic orbits in the planar three-body problem via consecutive alignments",
+      "link": "https://arxiv.org/abs/2609.01585v1",
+      "summary": "Relative periodic orbits (RPOs) are solutions of the three-body problem that are periodic in a uniformly rotating reference frame and, in general, quasi-periodic in inertial coordinates. We present a numerical procedure for computing and continuing one-parameter families of RPOs of the planar Newtonian three-body problem.   The method exploits consecutive syzygies, understood here as configurations in which the three bodies are aligned and their velocities satisfy the corresponding symmetry cond",
+      "published": "2026-09-01T17:49:31Z",
+      "authors": [
+        "Joan Gimeno",
+        "Marc Jorba-Cuscó",
+        "Begoña Nicolás"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Benchmark for Vehicle Attribute Classification in Cross-Domain Surveillance Scenarios",
+      "link": "https://arxiv.org/abs/2609.01584v1",
+      "summary": "Vehicle attribute analysis is a key component of Intelligent Transportation Systems (ITS), supporting applications such as vehicle identification, traffic monitoring, and forensic investigation. However, models trained under controlled conditions often degrade in real surveillance scenarios due to changes in viewpoint, occlusion, illumination, and sensor characteristics. This paper introduces Unconstrained Vehicle Identification Benchmark (UVIB), a benchmark for evaluating three operational vehi",
+      "published": "2026-09-01T17:48:10Z",
+      "authors": [
+        "Sergio M. Silva",
+        "Otavio T. Remer",
+        "Gabriel E. Lima",
+        "Lucas Wojcik",
+        "Rayson Laroca"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SpatialGuard: Harness-Guided Verifiable Spatial Reasoning for Text-to-Image Generation",
+      "link": "https://arxiv.org/abs/2609.01582v1",
+      "summary": "Complex 3D spatial text to image generation requires models to convert natural language into stable visual geometry, not merely semantic appearance. Existing prompt-driven or layout-conditioned methods improve controllability, but often lack an optimizable and verifiable spatial intermediary before visual sampling. As a result, object relations, occlusion, visibility, and camera constraints can decay during multi-round generation. This paper presents SpatialGuard, a structured layout-guided fram",
+      "published": "2026-09-01T17:47:00Z",
+      "authors": [
+        "Ziyun Qian",
+        "Zizhi Chen",
+        "Yizhou Liu",
+        "Mingyang Sun",
+        "Dingkang Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Closing Cost-Quality Gap in Document VLMs: Difficulty-Aware Data Curation and Quality-Adjusted Deployment Economics",
+      "link": "https://arxiv.org/abs/2609.01575v1",
+      "summary": "Extracting structured fields from hundreds of millions of documents annually remains costly in regulated industries: bespoke OCR cascades cover only a fraction of workflows, privacy rules preclude external models, and existing open-source VLMs that clear quality thresholds cost more to serve than human annotation. We present a deployed document-understanding system built on a Mixture-of-Experts VLM (35B total, 3B active), fine-tuned on in-house production data mixed with open-domain documents cu",
+      "published": "2026-09-01T17:40:29Z",
+      "authors": [
+        "Maksim Evdokimov",
+        "Matvey Ivanov",
+        "Dmitrii Tsiupin",
+        "Olga Tsymboi",
+        "Anatolii Potapov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
+      "link": "https://arxiv.org/abs/2609.01573v1",
+      "summary": "How to divide a fixed annotation budget between supervised fine-tuning (SFT) and reinforcement learning (RL) during LLM post-training remains an open problem. Existing work characterizes only broad trends (e.g., SFT dominates in low-data regimes), lacks a principled allocation framework, and does not examine whether the optimal ratio transfers across model sizes. We frame this problem in terms of near-optimality: rather than seeking a single optimal SFT-RL ratio, we characterize the near-optimal",
+      "published": "2026-09-01T17:39:55Z",
+      "authors": [
+        "Jingtan Wang",
+        "Arun Verma",
+        "Xiaoqiang Lin",
+        "Zhengyuan Liu",
+        "Nancy F. Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "link": "https://arxiv.org/abs/2609.01572v1",
+      "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate traffic from over 200 internal applications onto a single model by closing quality gaps identified through production error analysis along three axes: instruction following, function-calling, and internal task distribution. Quality is tracked by offline benchmarks stratified to p",
+      "published": "2026-09-01T17:39:26Z",
+      "authors": [
+        "Olga Tsymboi",
+        "Dmitrii Stoianov",
+        "Ramil Latypov",
+        "Danil Taranets",
+        "Daniil Dryabin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enabling gravitational-wave astronomy with spin-precessing black holes on generic orbits",
+      "link": "https://arxiv.org/abs/2609.01568v1",
+      "summary": "Binary black holes (BBHs) formed in dense stellar environments or in hierarchical triples can coalesce on eccentric orbits and carry spins of arbitrary orientation, leaving distinctive imprints on their gravitational-wave (GW) emission. We present SEOBNRv6EPHM: the first generic-orbit, spin-precessing model in the effective-one-body SEOBNR family, whose waveforms have underpinned LIGO-Virgo GW analyses since 2011. The model describes the dynamics and multipolar GW signal of generic BBHs, coverin",
+      "published": "2026-09-01T17:34:56Z",
+      "authors": [
+        "Aldo Gamboa",
+        "Lorenzo Pompili",
+        "Alessandra Buonanno",
+        "Luca Sebastiani",
+        "Raffi Enficiaud"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "link": "https://arxiv.org/abs/2609.01567v1",
+      "summary": "Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve from environment interaction, and can repeat systematic errors. We study how to learn a cheap autonomous policy from an online, expensive, and imperfect but informative VLM teacher. We propose SAGE (Selective Agent Guidance via Entropy), a framework that queries a VLM only when the learner is uncertai",
+      "published": "2026-09-01T17:33:41Z",
+      "authors": [
+        "Matteo Merler",
+        "Giovanni Bonetta",
+        "Davide Zago",
+        "Rossella Cancelliere",
+        "Bernardo Magnini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hypersurfaces of constant higher order mean curvature in hyperbolic space with prescribed asymptotic boundary at infinity",
+      "link": "https://arxiv.org/abs/2609.01565v1",
+      "summary": "In this note, we prove the existence of smooth complete admissible hypersurfaces in hyperbolic space with constant higher order mean curvature and a prescribed asymptotic boundary at infinity. Unexpectedly, our result holds for a large part of indices in the subcritical range where the concavity inequality loses its effectiveness. We supply with new arguments to reduce the proof to a semi-convex situation in which case the concavity inequality can play a role.",
+      "published": "2026-09-01T17:31:11Z",
+      "authors": [
+        "Bin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
+      "link": "https://arxiv.org/abs/2609.01564v1",
+      "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding similarity and prompt the LLM to choose among them. However, top-$K$ retrieval reduces the number of candidates but does not help the model tell similar ones apart. When two similar labels both appear as candidates, the ",
+      "published": "2026-09-01T17:31:02Z",
+      "authors": [
+        "Manish Gupta",
+        "Chaitanya Giri",
+        "Jayasimha Talur"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains",
+      "link": "https://arxiv.org/abs/2609.01563v1",
+      "summary": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts, structures, and prioritizes risk intelligence from public corporate disclosures. We present an end-to-end pipeline that retrieves corporate documents for semiconductor companies and uses large language models (LLMs) to extract the risks and opportunities they describe. It organizes these into a knowledge graph linkin",
+      "published": "2026-09-01T17:30:39Z",
+      "authors": [
+        "Ema Salkić",
+        "Alexander Fichtl",
+        "Philipp Ulrich",
+        "Hans Ehm",
+        "Marta Bonik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "link": "https://arxiv.org/abs/2609.01560v1",
+      "summary": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-shot control of character behavior and camera motion through natural-language instructions. Building on this, H3-World turns this coarse language interface into precise, temporally grounded world contr",
+      "published": "2026-09-01T17:21:40Z",
+      "authors": [
+        "Danze Chen",
+        "Zeqing Wang",
+        "Ziyue Lin",
+        "Xingyi Yang",
+        "Yeying Jin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Erlang Loss Model with Energy Constrained Servers",
+      "link": "https://arxiv.org/abs/2609.01559v1",
+      "summary": "In this paper, we study an Erlang-type loss system with energy-constrained servers. Each server is equipped with a finite battery and becomes temporarily unavailable for service when its energy is depleted, entering a charging phase before returning to operation upon full recharge. Customers who arrive to find all servers unavailable are blocked and lost immediately. We characterize the steady-state behavior of this two-dimensional Markov process by extending classical truncation results for Jac",
+      "published": "2026-09-01T17:21:01Z",
+      "authors": [
+        "Elijah Kulikov",
+        "Eliezer Fuentes-Quezada",
+        "Jamol Pender"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gradient-Update Mismatch: Rethinking Conflict-Free Training of Physics-Informed Neural Networks",
+      "link": "https://arxiv.org/abs/2609.01558v1",
+      "summary": "Training Physics-Informed Neural Networks (PINNs) requires jointly optimizing physics residual and initial/boundary condition loss terms, which often induce conflicting gradients. Gradient surgery methods mitigate this issue by constructing directions from loss-specific gradients to reduce conflict before optimizer transformation. However, even when the constructed direction is conflict-free, this property may not be preserved after optimizer transformation. Let $a_t$ denote the direction constr",
+      "published": "2026-09-01T17:20:13Z",
+      "authors": [
+        "Jing Xiao",
+        "Xinhai Chen",
+        "Qinglin Wang",
+        "Menghan Jia",
+        "Zhiquan Lai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$L^\\infty$ Variational Approximation of the Aubry Set",
+      "link": "https://arxiv.org/abs/2609.01557v1",
+      "summary": "Let $H\\in C^\\infty(\\mathbb R^n\\times\\mathbb T^n)$ be a periodic Tonelli Hamiltonian with critical value $c$. For each $k\\in\\mathbb N$, let $u_k$ be the normalized minimizer of the variational functional introduced by Evans[7], \\[   I_k[w]=\\int_{\\mathbb T^n} e^{kH(Dw,x)}\\,dx,   \\qquad \\int_{\\mathbb T^n}w\\,dx=0. \\] If $u_\\infty$ is a uniform limit of a subsequence of $\\{u_k\\}$ and the Mather quotient $({A}_M,δ_M)$ satisfies $H^1( A_M,δ_M)=0$, then $u_\\infty$ is a critical subsolution that is stric",
+      "published": "2026-09-01T17:20:10Z",
+      "authors": [
+        "Hung V. Tran",
+        "Yifeng Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories",
+      "link": "https://arxiv.org/abs/2609.01556v1",
+      "summary": "We evaluate embedding retrieval where surface form and meaning are pulled apart on purpose: retrieving items that share underlying structure but not wording, in two unrelated domains under one protocol, competition mathematics (MathNet-Retrieve; 500 queries, 117,088-item corpus) and embodied-agent trajectories (ALFWorld-derived; 118 queries, 336 trajectories). In mathematics the failure is complete: strict Hit@1 at the heaviest disguise tier is 0.0% for both production embedders (bootstrap 95% C",
+      "published": "2026-09-01T17:19:57Z",
+      "authors": [
+        "Nabira Rashid",
+        "Manolis Kellis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Deformed Convolution, Cumulant Transforms, and Semigroup Generators in Hurwitz Series Rings",
+      "link": "https://arxiv.org/abs/2609.01555v1",
+      "summary": "Let $R$ be a commutative $\\Q$-algebra and let $HR$ denote its Hurwitz series ring. We introduce a one-parameter convolution $\\hconv{t}$ on $HR$ for which the specialization $t=-1$ is the intrinsic Hurwitz product. Positive integral parameters act on finite-support truncations and reproduce finite free convolution in coefficient coordinates. A logarithmic transform yields additive and homogeneous cumulants, an explicit inversion formula, binomial, Hermite, Laguerre, and hypergeometric families, a",
+      "published": "2026-09-01T17:19:36Z",
+      "authors": [
+        "Morteza Ahmadi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BS: Take the Hint - Interactive Multitracer PET/CT Lesion Segmentation with a Scribble-Conditioned ResEnc U-Net",
+      "link": "https://arxiv.org/abs/2609.01554v1",
+      "summary": "Automated lesion segmentation in whole-body PET/CT is complicated by the variety of physiological tracer uptake patterns and by the differing appearance of lesions across tracers. The autoPET/CT V challenge addresses this by making segmentation interactive: user scribbles marking foreground and background are supplied alongside the image, and the algorithm is expected to exploit them. We present our submission, a scribble-conditioned residual encoder U-Net operating on four input channels: CT, P",
+      "published": "2026-09-01T17:19:34Z",
+      "authors": [
+        "Marven Sherif",
+        "Amgad Elmasry",
+        "Youssef Ghazal",
+        "Ayman Elghotni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
+      "link": "https://arxiv.org/abs/2609.01552v1",
+      "summary": "Scientific equation discovery has long been central to scientific progress, proceeding through iterative cycles of hypothesis generation, observational testing, and refinement under scientific constraints. As LLM capabilities advance and their role in AI for Science expands, it remains an open problem whether they can genuinely discover scientific laws and how this ability should be evaluated. Existing evaluations, however, often either simplify discovery through synthetic settings or reuse publ",
+      "published": "2026-09-01T17:17:59Z",
+      "authors": [
+        "Yiming Huang",
+        "Ziche Liu",
+        "Zhuohang Wu",
+        "Yiqian Wang",
+        "Junxia Cui"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What, Where, and How: Probing Spatiotemporal Representations in Video Foundation Models",
+      "link": "https://arxiv.org/abs/2609.01551v1",
+      "summary": "Self-supervised video foundation models learn rich spatiotemporal representations, yet it remains unclear what visual concepts these representations encode, where they emerge across transformer layers, and how they are geometrically organized. In this work, we tackle these three questions through a systematic layer-wise analysis of V-JEPA 2 and VideoMAE-v2. We leverage lightweight probes trained to discover three temporally grounded properties: (i) camera motion understanding, (ii) intuitive phy",
+      "published": "2026-09-01T17:17:04Z",
+      "authors": [
+        "Sharon S. Musa",
+        "Fereshteh Forghani",
+        "Harrish Thasarathan",
+        "Sonia Joseph",
+        "Matthew Kowal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Mathematical Theory of Reusable Neural Bases for Network Compression",
+      "link": "https://arxiv.org/abs/2609.01550v1",
+      "summary": "As large AI models become increasingly prevalent across a wide range of applications, memory cost has become a critical bottleneck in both training and inference. To mitigate this issue, we introduce the Linear Reusable Neural Bases Architecture (LRNBA), a novel framework aimed at improving parameter efficiency and reducing memory cost. Inspired by recurrent neural network (RNN) designs, the core idea of our approach is to represent each network block as a linear combination of a shared set of n",
+      "published": "2026-09-01T17:16:21Z",
+      "authors": [
+        "Binshuai Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games",
+      "link": "https://arxiv.org/abs/2609.01549v1",
+      "summary": "Model-based reinforcement learning (MBRL) has achieved remarkable results in single-agent domains, yet its extension to competitive imperfect information games (IIGs) remains underexplored. In multi-agent settings, opponent-induced non-stationarity complicates the learning process, and decentralized model learning faces severe identifiability barriers, which we argue make centralized model learning a mathematical necessity. Building on this analysis, we propose NashDreamer, a principled MBRL fra",
+      "published": "2026-09-01T17:15:41Z",
+      "authors": [
+        "Tomáš Holeček",
+        "Viliam Lisý"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
+      "link": "https://arxiv.org/abs/2609.01548v1",
+      "summary": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's profound effects on people and communities, benchmarks remain scarce. Existing general-domain evaluations typically rely on static prompts and fixed-format tasks, overlooking conversational contexts and audience effects in everyday communication. To address these gaps, we introduce SDARE-Bench, the first scenario-based benchmark evaluating both stigma detec",
+      "published": "2026-09-01T17:15:22Z",
+      "authors": [
+        "Stephanie Fong",
+        "Yiwen Jiang",
+        "Zimu Wang",
+        "Hongxi Yang",
+        "Yaling Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Construction and Performance of the sMDT Precision Muon Tracking Chambers for ATLAS at the HL-LHC",
+      "link": "https://arxiv.org/abs/2609.01546v1",
+      "summary": "In order to improve the muon trigger efficiency and the rate capability of the ATLAS muon detectors for operation at the high luminosity upgrade of the Large Hadron Collider (HL-LHC), the Monitored Drift Tube (MDT) tracking chambers in the inner barrel layer of the ATLAS Muon Spectrometer will be replaced by small-diameter Muon Drift Tube (sMDT) chambers integrated with new thin-gap RPC trigger chambers. The sMDT chambers are in serial production since January 2021. This documentation provides i",
+      "published": "2026-09-01T17:14:34Z",
+      "authors": [
+        "D. A. Buchin",
+        "O. Kortner",
+        "H. Kroha",
+        "A. Reed",
+        "M. Rendel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Variable Selection for Feature-Based Newsvendor",
+      "link": "https://arxiv.org/abs/2609.01544v1",
+      "summary": "Feature-based newsvendor models use observable covariates to tailor inventory decisions, aiming to balance holding and shortage costs under demand uncertainty. However, high-dimensional feature sets often hinder interpretability and inflate data collection and implementation costs. This paper studies variable selection for the feature-based newsvendor problem under a hard cardinality constraint on the number of selected features. We formulate the resulting $\\ell_0$-constrained empirical newsvend",
+      "published": "2026-09-01T17:10:24Z",
+      "authors": [
+        "Zhaoliang Yuan",
+        "Jie Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Trajectory Analysis of ECG Motif Dynamics in the Run-up to Sudden Cardiac Arrest",
+      "link": "https://arxiv.org/abs/2609.01543v1",
+      "summary": "Early warning signatures of sudden cardiac arrest (SCA) remain poorly characterised in long-duration ECG. We quantified pre-event changes in ECG morphology using a motif-based trajectory framework. Holter ECGs from 23 patients with annotated SCA were analysed over non-overlapping 10 s windows. Window-level motifs were extracted to quantify trajectories of instability, consistency, dispersion, heterogeneity, and personalised-baseline distance. Each trajectory was normalised to an early baseline u",
+      "published": "2026-09-01T17:09:40Z",
+      "authors": [
+        "Nivedita Bijlani",
+        "Mauricio Villarroel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TAG-Bench: Benchmarking Temporal Audio Grounding in Large Audio Language Models",
+      "link": "https://arxiv.org/abs/2609.01542v1",
+      "summary": "Large audio language models (LALMs) can describe what is heard, but their ability to localize when queried content occurs remains less systematically evaluated. We present TAG-Bench, a benchmark for temporal audio grounding in which a model returns every time interval that matches a natural-language query. TAG-Bench contains 1,750 human-verified query-recording pairs covering 149.5 hours, with eight source-dependent subsets spanning query categories and audio durations from 7 s to 20 min; 22.1% ",
+      "published": "2026-09-01T17:07:52Z",
+      "authors": [
+        "Yuhang Dai",
+        "Xin Shu",
+        "Zengxi Li",
+        "Lei Xie",
+        "Xiangang Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
+      "link": "https://arxiv.org/abs/2609.01535v1",
+      "summary": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. In particular, we present an empirical case study on the Planar mode, a long-standing intra prediction tool in video coding standards. Our experiments operate within a generation-and-evaluation loop, with the LLM generating new Planar predictors, encoder trials evaluating their coding performance, and the LLM re-generat",
+      "published": "2026-09-01T17:04:47Z",
+      "authors": [
+        "Yingwen Zhang",
+        "Meng Wang",
+        "Liqiang He",
+        "Shiqi Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "No source-free exchange-correlation magnetic fields in non-collinear spin DFT",
+      "link": "https://arxiv.org/abs/2609.01533v1",
+      "summary": "We show that the Maxwellian equation $\\nabla\\cdot\\mathbf{B}_{\\mathrm{xc}}=0$, where $\\mathbf{B}_{\\mathrm{xc}}$ is the exchange-correlation (xc) magnetic field, is not an exact condition of non-collinear spin density functional theory: it violates global spin-rotation symmetry, the operation which turns the electron spins. How much does this matter in practice? To find out we impose the condition anyway, in the best way we can: we modify any parent xc functional so that the Kohn-Sham procedure yi",
+      "published": "2026-09-01T17:04:02Z",
+      "authors": [
+        "Ester Livshits",
+        "Roi Baer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+      "link": "https://arxiv.org/abs/2609.01532v1",
+      "summary": "Logit-based knowledge distillation (KD) is used to train smaller language models (LMs) via supervision from stronger teachers, but whether its benefits are consistent across training stages remains unclear. Through controlled experiments, we find that forward Kullback-Leibler (KL) distillation--the standard KD formulation--with post-trained teachers behaves fundamentally differently during mid-training, an intermediate phase of self-supervised learning on curated corpora. Surprisingly, while for",
+      "published": "2026-09-01T17:00:30Z",
+      "authors": [
+        "Jacqueline He",
+        "Howard Yen",
+        "Shuyue Stella Li",
+        "Margaret Li",
+        "Hanqing Zeng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Revisiting Cross-View Completion: Self-Supervised Pre-Training via Reconstruction Error Comparison",
+      "link": "https://arxiv.org/abs/2609.01530v1",
+      "summary": "Self-supervised pre-training via cross-view completion learns strong features for 3D vision from co-visible regions of image pairs. However, the reference view provides little information for reconstructing non-co-visible patches, implicitly yielding a monocular training signal in these regions. We introduce Gekko, which turns this limitation into a useful signal. The relative improvement of the cross-view reconstruction error over a masked-autoencoder error is a self-supervised proxy for co-vis",
+      "published": "2026-09-01T16:57:46Z",
+      "authors": [
+        "Thibaut Loiseau",
+        "Guillaume Bourmaud",
+        "Vincent Lepetit"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
+      "link": "https://arxiv.org/abs/2609.01526v1",
+      "summary": "Scientific agents must learn not only how to reason, but also what to believe. However, existing LLM agents typically express scientific hypotheses in free-form text, leaving their beliefs implicit and difficult to test or revise. We introduce EvoSCM, which equips scientific agents with explicit structural causal models that evolve as new experimental evidence is collected. EvoSCM maintains a population of competing SCM hypotheses, each encoding a candidate causal explanation of the environment,",
+      "published": "2026-09-01T16:55:56Z",
+      "authors": [
+        "Qing Zhao",
+        "Haowei Li",
+        "Weijian Deng",
+        "Pengxu Wei",
+        "Liang Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Relational-Core Graph Analytics Querying graphs at SQL scale, and why the node/edge model is a performance tax, not a truer picture of connected data",
+      "link": "https://arxiv.org/abs/2609.01525v1",
+      "summary": "A durable assumption holds that graph analytics requires a purpose-built graph engine, and that relational systems are ill-suited to connected data. We argue the opposite for the workloads enterprises actually run. A columnar relational engine fronted by a graph query language matches or exceeds native graph engines on analytical graph queries, and - decisively - scales past the point where in-memory graph engines fail. We further argue that the node/edge property graph is not a more faithful mo",
+      "published": "2026-09-01T16:55:11Z",
+      "authors": [
+        "Gene Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Weighted Moving Average for Predicting Limit Order Book Trends",
+      "link": "https://arxiv.org/abs/2609.01524v1",
+      "summary": "Can quantum computers be useful for forecasting multivariate financial time series? In this work, we consider the problem of predicting price trends from limit order book (LOB) data. After identifying key components of classical models, we introduce the quantum weighted moving average (QWMA) model. The two main building blocks are, first, classically preprocessing via normalization of both feature and temporal dimensions and, second, a linear combination of unitaries-based layer for unitarily-em",
+      "published": "2026-09-01T16:54:59Z",
+      "authors": [
+        "Matthias Kamm",
+        "Dinh-Long Vu",
+        "Patrick Rebentrost"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
