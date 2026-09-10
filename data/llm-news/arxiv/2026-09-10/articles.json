@@ -1,0 +1,635 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Symplectic Hopf Insulator: Delicate Topology in Bosonic Bogoliubov-de Gennes Systems",
+      "link": "https://arxiv.org/abs/2609.10541v1",
+      "summary": "Recent advances in topological phases have highlighted the role of symplectic (Krein-space) topology in the classification of bosonic Bogoliubov-de Gennes (BBdG) systems. In this work, we construct a BBdG realization of Hopf topology, which we dub the symplectic Hopf insulator, starting from a microscopic Bose-Hubbard generalization of the Moore-Ran-Wen model with weak on-site interactions treated within a Bogoliubov approximation. The resulting BBdG system admits a symplectic Hopf invariant, wh",
+      "published": "2026-09-09T17:59:46Z",
+      "authors": [
+        "Isaac Tesfaye",
+        "Giandomenico Palumbo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Programmable World Model",
+      "link": "https://arxiv.org/abs/2609.10540v1",
+      "summary": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions into executable programs that specify entity states and state-transition rules, enabling direct control",
+      "published": "2026-09-09T17:59:32Z",
+      "authors": [
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Jiacheng Lin",
+        "Yi-Chuan Huang",
+        "Ruihan Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "link": "https://arxiv.org/abs/2609.10539v1",
+      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method without unsupported assumptions. We construct evidence-grounded specifications and their supported re",
+      "published": "2026-09-09T17:59:04Z",
+      "authors": [
+        "Yiling Ma",
+        "Yilun Zhao",
+        "Sihong Wu",
+        "Manasi Patwardhan",
+        "Arman Cohan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+      "link": "https://arxiv.org/abs/2609.10537v1",
+      "summary": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise fo",
+      "published": "2026-09-09T17:58:58Z",
+      "authors": [
+        "Yiwei Fang",
+        "Yichen Liu",
+        "Ze Jin",
+        "Haoqiang Wang",
+        "Qixu Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Performance Comparison of the Nonlinear Curvature and Shack-Hartmann Wavefront Sensors in Strong Turbulence",
+      "link": "https://arxiv.org/abs/2609.10536v1",
+      "summary": "Strong turbulence induces spatial variations in beam intensity that hinder the reconstruction process of many commonly deployed adaptive optics (AO) systems that use gradient-based wavefront sensors (WFS), such as the Shack-Hartmann wavefront sensor (SHWFS) and pyramid wavefront sensor. The nonlinear curvature WFS (nlCWFS) uses Fresnel diffraction to extract wavefront phase and amplitude information, suggesting that it may be able to operate under challenging turbulence conditions. In this work,",
+      "published": "2026-09-09T17:58:36Z",
+      "authors": [
+        "Sam J. Potier",
+        "Arlene J. Aleman",
+        "Justin R. Crepp",
+        "Stanimir Letchev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Noether Symmetries Generate Deterministic Energy-Harvesting Protocols",
+      "link": "https://arxiv.org/abs/2609.10533v1",
+      "summary": "We consider the general principles for when deterministic energy harvesting (DEH) is possible. DEH means absorbing energy from a fluctuating source without entropy being absorbed. We show that the symmetry structure of the source--harvester dynamics gives a general route beyond existing examples to identify DEH capable source states. Any continuous symmetry with a conserved Noether charge induces a source-side orbit of states that all implement the same deterministic harvester transition, provid",
+      "published": "2026-09-09T17:58:08Z",
+      "authors": [
+        "Ali Akil",
+        "M. Hamed Mohammady",
+        "Zihan Wang",
+        "Oscar Dahlsten"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Guiding Image-to-3D Generation with Test-Time Partial Observations",
+      "link": "https://arxiv.org/abs/2609.10531v1",
+      "summary": "Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric observations of the object may be available at test time. We introduce a training-free framework for incorporating such evidence into pretrained image-to-3D generative models without retraining or finetuni",
+      "published": "2026-09-09T17:58:04Z",
+      "authors": [
+        "Jerred Chen",
+        "Simon Weber",
+        "Ronald Clark"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Ding--Song--Sun inequality via a maximum principle",
+      "link": "https://arxiv.org/abs/2609.10528v1",
+      "summary": "We prove the Ding--Song--Sun inequality for continuous spin models on finite ferromagnetic graphs whose even single-site potentials have convex derivatives on the positive half of their domain. This class, introduced by Ellis, Monroe and Newman, includes the $\\varphi^4$ and sinh-Gordon potentials. The proof uses a rank-one interpolation of the interactions and a maximum principle for a cooperative parabolic system on a half-plane. The boundary conditions follow by induction on the number of vert",
+      "published": "2026-09-09T17:56:51Z",
+      "authors": [
+        "Fu-Hsuan Ho"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
+      "link": "https://arxiv.org/abs/2609.10525v1",
+      "summary": "Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language. We characterize this task for arbitrary families over a countable universe. Generation is possible exactly when each target can be assigned a finite positive witness so that the targets activated by any finite sample have an infinite common intersection. The necessary direction follows from a universal normalization: a search through unconfirmed histories c",
+      "published": "2026-09-09T17:54:30Z",
+      "authors": [
+        "Xiaoyu Li",
+        "Andi Han",
+        "Jiaojiao Jiang",
+        "Junbin Gao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Precision in Rice Variety Classification using Stacking-Based Ensemble Learning",
+      "link": "https://arxiv.org/abs/2609.10524v1",
+      "summary": "Rice, a staple food for a significant portion of the global population, exhibits remarkable diversity in its varieties, presenting substantial challenges for accurate identification by consumers, traders, and farmers. This complexity often facilitates fraudulent practices, such as the unauthorized mixing of rice types, which undermines quality and trust in the supply chain. Despite its critical importance, existing research falls short of providing robust and efficient methods for precise rice v",
+      "published": "2026-09-09T17:53:50Z",
+      "authors": [
+        "Md. Masudul Islam",
+        "Galib Muhammad Shahriar Himel",
+        "Md. Golam Moazzam",
+        "Mohammad Shorif Uddin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "link": "https://arxiv.org/abs/2609.10522v1",
+      "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action. Show-Harness exposes discrete semantic action units that VLMs can naturally reason over, while embodiment-specific interpreters deterministically ground them into local robot actions, keeping the VL",
+      "published": "2026-09-09T17:53:38Z",
+      "authors": [
+        "Yanzhe Chen",
+        "Zechen Bai",
+        "Zhijun Cao",
+        "Wenzheng Zeng",
+        "Kevin Qinghong Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Private communication via zero-private-capacity quantum channels",
+      "link": "https://arxiv.org/abs/2609.10520v1",
+      "summary": "Private communication over a noisy quantum channel requires reliable transmission to the receiver and secrecy from the environment. Whether two channels with zero private capacity can jointly enable private communication is a longstanding open problem in quantum information theory. Here we resolve this problem by exhibiting a four-level channel and a qubit erasure channel with half erasure probability, each with zero private capacity, whose joint use achieves more than 0.0001903 private bits per",
+      "published": "2026-09-09T17:51:54Z",
+      "authors": [
+        "Chengkai Zhu",
+        "Xin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Intermediate Hamiltonians for Non-Equilibrium Free Energy Calculations: A Numerical Study of Markov Models",
+      "link": "https://arxiv.org/abs/2609.10519v1",
+      "summary": "The Jarzynski relation enables the estimation of equilibrium free energy differences from non-equilibrium, finite-time switching simulations. These estimates usually converge poorly because rare trajectories dominate the exponential work average. Here, we numerically determined and explored the sequence of intermediate Hamiltonians connecting initial and final states that minimize the mean squared error (MSE) of the Jarzynski estimator and thereby enhance convergence. For discrete-time Markov mo",
+      "published": "2026-09-09T17:51:12Z",
+      "authors": [
+        "David Beyer",
+        "Helmut Grubmüller"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BrainTaskonomy: Learning How to Pretrain and What to Transfer in fMRI Foundation Models",
+      "link": "https://arxiv.org/abs/2609.10518v1",
+      "summary": "fMRI foundation models increasingly aggregate heterogeneous data across brain states, cohorts, and acquisition settings, yet pretraining domains are commonly treated as a flat mixture and downstream tasks are adapted independently. We study whether measured learning relations can organize both stages without modifying the backbone. During pretraining, a lightweight Brain-DiT proxy estimates difficulty and directed facilitation across ten fMRI domains, yielding a priority-guided cumulative domain",
+      "published": "2026-09-09T17:50:39Z",
+      "authors": [
+        "Junfeng Xia",
+        "Wenhao Ye",
+        "Junxiang Zhang",
+        "Jiayu Zuo",
+        "Mo Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An isoperimetric problem for Fourier zeros of centrally symmetric convex bodies",
+      "link": "https://arxiv.org/abs/2609.10517v1",
+      "summary": "Given a centrally symmetric convex body, consider the zero set of the Fourier transform of its characteristic function. We study how large the distance from this set to the origin can be when the volume of the body is fixed. A 2009 conjecture of Benguria, Levitin, and Parnovski asserts that the maximum is attained by a Euclidean ball. We disprove it in all dimensions greater than one. In the plane, every regular centrally symmetric polygon with at least twelve sides outperforms the disk, albeit ",
+      "published": "2026-09-09T17:49:53Z",
+      "authors": [
+        "Javier Gómez-Serrano",
+        "Michael Levitin",
+        "Daniel Platt",
+        "Iosif Polterovich"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans",
+      "link": "https://arxiv.org/abs/2609.10515v1",
+      "summary": "In modern AI Accelerators and GPGPUs, many concurrent cores repeatedly access the same shared data. This pattern occurs in attention, where different query tiles share the same K/V block, GEMM, where every tile in a row reads the same panel, and many other operators. We name this pattern parallel scan. Due to a significant amount of data reuse in this pattern, the cache is expected to capture as much data reuse as possible and largely reduce requests sent to the main memory for both performance ",
+      "published": "2026-09-09T17:48:51Z",
+      "authors": [
+        "Zhongchun Zhou",
+        "Chengtao Lai",
+        "Songtao Mao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
+      "link": "https://arxiv.org/abs/2609.10509v1",
+      "summary": "Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but it remains unclear where to introduce agentic reasoning, how to bound its risk, and when it actually helps. We present Avatar, an actor-based architecture comprising an orchestrator, an executor, and a provenance monitor. Each actor's decision policy is pluggable (rule-based or LLM-backed) via a single adapter-validated action cata",
+      "published": "2026-09-09T17:45:36Z",
+      "authors": [
+        "Suman Raj",
+        "Hai Duc Nguyen",
+        "Haochen Pan",
+        "Ryan Chard",
+        "Kyle Chard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.10506v1",
+      "summary": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we introduce DUET-DINO, a simultaneous cross-view latent world model that jointly learns action-conditioned predictions from static side- and wrist-camera observations through cross-view conditioning. By exploi",
+      "published": "2026-09-09T17:41:38Z",
+      "authors": [
+        "Nisarga Nilavadi",
+        "Ralf Römer",
+        "Moritz Reuss",
+        "Michael Krawez",
+        "Tobias Jülg"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Feature Engineering for Credit Default Prediction: When and Why IQP Circuits Help Linear Classifiers",
+      "link": "https://arxiv.org/abs/2609.10505v1",
+      "summary": "Credit default prediction is a tabular classification problem in which modest gains in F1 translate directly into reduced financial exposure. We ask whether Instantaneous Quantum Polynomial-time (IQP) circuits can produce features that improve a classifier over both its raw classical baseline and Kernel PCA - the strongest unsupervised classical non-linear alternative - at an equal feature budget. The dataset provides 23 financial attributes per client; for an n-qubit circuit we select n of them",
+      "published": "2026-09-09T17:41:27Z",
+      "authors": [
+        "Menachem Finkelstein",
+        "Diana Legziel Levy",
+        "Zohar Yakhini",
+        "Sarel Cohen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Elastic Neutrino Scattering Account for the LZ230616 Event?",
+      "link": "https://arxiv.org/abs/2609.10504v1",
+      "summary": "Recently, the LUX-ZEPLIN (LZ) Collaboration reported an isolated nuclear-recoil event at $248\\pm 23_\\mathrm{stat}\\pm 23_\\mathrm{syst}~\\mathrm{keV_{nr}}$, in a region where the expected background is very small and conventional elastic dark matter (DM)-nucleus scattering cannot readily account for such a localized feature. We investigate whether LZ230616 could instead originate from coherent elastic neutrino-nucleus scattering (CE$ν$NS). We consider neutrino-nucleus interactions within and beyond",
+      "published": "2026-09-09T17:39:44Z",
+      "authors": [
+        "Ayan Chattaraj",
+        "Anirban Majumdar",
+        "Dimitrios K. Papoulias",
+        "Rahul Srivastava"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "iLogMap: Geodesic Polar Coordinates Parameterization with the Magnetic Laplacian",
+      "link": "https://arxiv.org/abs/2609.10503v1",
+      "summary": "Geodesic polar coordinates (GPCs) provide an intrinsic parameterization over curved surfaces, but their accurate estimation remains challenging, particularly in the presence of anisotropic metrics, high curvature and complex topology. We introduce iLogMap, a method for computing GPCs in curved domains that recasts the angular component of the logarithmic map to a ground-state magnetic eigenproblem over the circumferential direction field of geodesic distance. Our method effortlessly extends to a",
+      "published": "2026-09-09T17:37:54Z",
+      "authors": [
+        "Tomás Banduc",
+        "Simone Pezzuto",
+        "Francisco Sahli Costabal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
+      "link": "https://arxiv.org/abs/2609.10502v1",
+      "summary": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats. Among this infrastructure, charging stations are the most vulnerable elements. The software in the charging station supply equipment is particularly vulnerable. Currently, the software is an attack surface that is largely unprotected and poorly characterized. To represent the vulnerabilities in this attack surface, we advocate for applying modern software quality assurance to characterize vulnerabilities i",
+      "published": "2026-09-09T17:37:14Z",
+      "authors": [
+        "Emma Sheppard",
+        "Zachary Wadhams",
+        "Dalton Arford",
+        "Clemente Izurieta",
+        "Ann Marie Reinhold"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Field Converter: Geometry-Initialized Temporal Residual Refinement for World-Grounded Player Pose Estimation from Soccer Broadcasts",
+      "link": "https://arxiv.org/abs/2609.10498v1",
+      "summary": "Recovering 3D human pose from monocular sports broadcasts remains challenging when players must be localized in a shared metric world coordinate system rather than only reconstructed relative to their own body. We introduce Field Converter, a geometry-initialized temporal residual framework for world-grounded 3D player pose estimation from calibrated soccer broadcasts. Our method first uses camera and pitch geometry to initialize the player root through ray-ground intersection, then predicts a t",
+      "published": "2026-09-09T17:35:16Z",
+      "authors": [
+        "Simon Khan",
+        "Laurent Gajny",
+        "Jennyfer Lecompte",
+        "Sébastien Laporte"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dynamic Reduced-Order Data Assimilation from Sparse Velocity Measurements",
+      "link": "https://arxiv.org/abs/2609.10497v1",
+      "summary": "We present a novel reduced-order data assimilation framework, termed Reduced-Order Dynamical Assimilation (RODAS), for reconstructing high-resolution, time-resolved flow fields from sparse velocity measurements. The method combines low-dimensional experimental observations with a physics-based parametric reduced-order model, enabling both spatial extrapolation beyond the measurement region and temporal super-resolution. The approach first identifies the dominant dynamics from sparse measurements",
+      "published": "2026-09-09T17:35:11Z",
+      "authors": [
+        "Mauricio Portilla",
+        "Felipe Galarce",
+        "Ernesto Castillo",
+        "Benjamin Herrmann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cross-Model Agreement as a Deployment-Time Reliability Signal for Automatic Polyp Segmentation",
+      "link": "https://arxiv.org/abs/2609.10495v1",
+      "summary": "In real-time colonoscopy, ground-truth annotations are unavailable at inference, so polyp segmentation models can fail silently. We propose Referee-Based Quality Estimation (RBQE), a reference-free framework measuring agreement between a primary segmentation model and an independently trained referee on the same image. RBQE is evaluated on a standardized 1,223-image external benchmark drawn from four public datasets, using four referee configurations chosen to separate two design axes: referee i",
+      "published": "2026-09-09T17:32:43Z",
+      "authors": [
+        "Siddharth Gupta",
+        "Jitin Singla"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
+      "link": "https://arxiv.org/abs/2609.10494v1",
+      "summary": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has three parts. A gold-blind capability-binding preflight verifies that a route can execute the evaluation contract before any task reaches it; a reliability-inclusive first-pass scoring rule keeps fail",
+      "published": "2026-09-09T17:31:29Z",
+      "authors": [
+        "Blake Stenstrom",
+        "Charangan Vasantharajan",
+        "Brian Sathianathan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inelastic Dark Matter and High-Energy Recoil Signatures in LZ",
+      "link": "https://arxiv.org/abs/2609.10491v1",
+      "summary": "We study the inelastic dark matter (iDM) that consists of two-component dark matter particles $(χ_1,χ_2)$ and serves as a minimal extension beyond the commonly used one-component DM models. A distinctive feature of such iDM scattering with the target nuclei is to favorably produce signals at high nuclear recoil (NR) energy region in both exothermic and endothermic processes. In particular, for the exothermic dark matter scenario, the signal does not rely on the tail of the Boltzmann velocity dis",
+      "published": "2026-09-09T17:29:21Z",
+      "authors": [
+        "Zi-Tong Fan",
+        "Hong-Jian He",
+        "Yu-Chen Wang",
+        "Yue Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Artificial Intelligence Literacy and Sustainable Development: An Ethical Governance and Development Goals Framework",
+      "link": "https://arxiv.org/abs/2609.10489v1",
+      "summary": "AI literacy provides foundational competencies that support ethical, transparent, and sustainable technological development, although higher-order capabilities such as governance, critical evaluation, and strategic decision-making extend beyond basic literacy into advanced levels of AI competency. This study positions AI literacy as a governance capacity that complements and strengthens all 17 SDGs. It introduces a six-level taxonomy of artificial intelligence reasoning and ethics that extends t",
+      "published": "2026-09-09T17:28:08Z",
+      "authors": [
+        "Md. Masudul Islam",
+        "Mirza Niaz Morshed",
+        "Md. Shafiqul Islam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Difference Equations for Local Gromov-Witten Potentials of Threefold Flops",
+      "link": "https://arxiv.org/abs/2609.10488v1",
+      "summary": "We study the information encoded by difference equations for the local Gromov-Witten theory of contractible rational curves in Calabi-Yau threefolds. Starting from the Bryan-Katz-Leung multiple-cover decomposition, we organize all nonzero primitive degrees on an exceptional ray by a single central-difference operator associated with the greatest common divisor of their support. The resulting equation is governed by explicit Fejér-type Laurent kernels.   Our main structural result shows that, onc",
+      "published": "2026-09-09T17:27:47Z",
+      "authors": [
+        "Xiaobin Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Box dimension prints",
+      "link": "https://arxiv.org/abs/2609.10485v1",
+      "summary": "We study lower and upper box dimension prints for bounded subsets of \\(\\mathbb R^n\\), defined by weighted covering numbers for independently oriented rectangular boxes with prescribed ordered side-length bounds. The limits range over all eccentricities, including unbounded aspect ratios. For every non-empty bounded set, we identify the closure of the lower print with the intersection of the half-spaces determined by its lower eccentricity profile, without any uniformity assumption. The profile e",
+      "published": "2026-09-09T17:25:15Z",
+      "authors": [
+        "Peizhi Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Deep Learning-Based Detection of Electrical Faults and Power Quality Disturbances in Aerospace Power Systems",
+      "link": "https://arxiv.org/abs/2609.10479v1",
+      "summary": "More Electric Aircraft require fast and reliable monitoring of high-frequency electrical networks, yet most power quality disturbance and fault diagnosis methods are developed for conventional 50 or 60 Hz grids. This work presents a hardware-aware deep learning framework for multiclass detection of electrical faults and power quality disturbances in a 400 Hz aerospace power system. A high-fidelity simulation model inspired by the Boeing 787 electrical architecture generates voltage and current w",
+      "published": "2026-09-09T17:19:14Z",
+      "authors": [
+        "Ian C. Guzmán",
+        "Radu Babiceanu",
+        "Berker Peköz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multivariate linear regression without prior assumptions",
+      "link": "https://arxiv.org/abs/2609.10477v1",
+      "summary": "Recovering the linear relationships that govern a system from noisy measurements is a basic task across the physical and engineering sciences. Because every measured variable may carry an unknown amount of noise, classical regression must commit in advance to a set of structural assumptions: ordinary least squares requires a declared input-output partition with input variables being noise-free, total least squares assumes equal noise variance across all variables, and generalized total least squ",
+      "published": "2026-09-09T17:18:04Z",
+      "authors": [
+        "Mayank S. K. Gupta",
+        "Deepanjhan Das",
+        "Arun K. Tangirala",
+        "Shankar Narasimhan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Invariant domain preservation for hybrid point-value and cell-average discretizations of hyperbolic equations on general meshes",
+      "link": "https://arxiv.org/abs/2609.10476v1",
+      "summary": "This paper presents a unified invariant-domain-preserving (IDP) framework for hybrid discretizations of hyperbolic conservation laws, including active flux and PAMPA methods, in which cell averages are updated conservatively while cell-boundary point values evolve under a possibly non-conservative operator. The main challenge is to preserve admissibility for these two coupled sets of states under a single local stability condition, without adding evolved degrees of freedom or relying on post-upd",
+      "published": "2026-09-09T17:16:53Z",
+      "authors": [
+        "Shengrong Ding",
+        "Shumo Cui",
+        "Remi Abgrall",
+        "Kailiang Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Assessing flood-conditioned power dependency of urban rail transit and its effects on resilience under climate change",
+      "link": "https://arxiv.org/abs/2609.10473v1",
+      "summary": "Urban rail transit (URT) faces increasing flood risk while relying on traction power systems whose failures can trigger cascading disruption. Existing studies on URT flood resilience often oversimplify power dependency by overlooking traction power redundancy and rarely consider flood-conditioned cascading impacts, providing limited insight into how flood-induced traction power failures propagate through operations and affect system resilience. This study marks the first quantitative assessment ",
+      "published": "2026-09-09T17:14:55Z",
+      "authors": [
+        "Wei Bi",
+        "Bryan T. Adey",
+        "Jürgen Hackl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ACES VIII: A Survey of Compact, High-Velocity Features Observed in CS(2-1)",
+      "link": "https://arxiv.org/abs/2609.10472v1",
+      "summary": "The extreme kinematics of the Milky Way's Central Molecular Zone (CMZ) are influenced by processes such as dynamical shearing, cloud collisions, and stellar feedback. These events are visible in molecular data as vertically spiked features in position-velocity (PV) diagrams referred to as high velocity dispersion compact clouds (HVCCs). Using ALMA CMZ Exploration Survey (ACES) CS (2-1) molecular data, we identify a total of 235 HVCC candidates, 163 of which are visually identified, and an additi",
+      "published": "2026-09-09T17:13:12Z",
+      "authors": [
+        "Dani R. Lipman",
+        "Jakub Poznanski",
+        "Savannah R. Gramze",
+        "Claire E. Cook",
+        "Cara Battersby"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AgroVisNet: A lightweight Convolutional Network and the BD-PlantDX Expert-Validated Benchmark for Radish, Potato and Pointed Gourd Disease Classification",
+      "link": "https://arxiv.org/abs/2609.10469v1",
+      "summary": "Automated plant disease diagnosis is increasingly deployed on farmer-held devices in regions where agronomic expertise is scarce and network connectivity is unreliable. Three obstacles limit its practical value: public benchmarks are dominated by a small set of non-native crops, region-specific datasets are rarely validated by domain experts, and the architectures that reach competitive accuracy carry parameter budgets that are unsuited to low-cost hardware. We propose AgroVisNet, a compact conv",
+      "published": "2026-09-09T17:12:17Z",
+      "authors": [
+        "Md. Abdullah Mandal",
+        "Saad Ahmed",
+        "Md. Khalid Syfullah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HAPS-RIS or HAPS-Relay: Which Outperforms Under Impairments with NOMA in 6G NTN?",
+      "link": "https://arxiv.org/abs/2609.10468v1",
+      "summary": "This paper investigates the performance of high-altitude platform station (HAPS)-assisted communication systems employing either reconfigurable intelligent surfaces (RIS) or relay stations (RS) under non-orthogonal multiple access (NOMA) scheme. Practical system impairments, including hardware impairments (HWI) and imperfect channel state information (CSI), are explicitly considered. The results show that HAPS-RIS outperforms HAPS-RS in terms of both sum-rate and energy efficiency under non-idea",
+      "published": "2026-09-09T17:12:03Z",
+      "authors": [
+        "Bilal Karaman",
+        "Faicel Khennoufa",
+        "Ilhan Basturk",
+        "Metin Ozturk",
+        "Ferdi Kara"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Phoneme-Aware Pronunciation Representations for L2-English L1-Background Accent Identification",
+      "link": "https://arxiv.org/abs/2609.10466v1",
+      "summary": "We study speaker-disjoint accent identification for L2 English, where the goal is to predict a speaker's first-language (L1) background from English pronunciation. Most existing systems classify accents using a single utterance-level representation, but such global representations can obscure pronunciation cues that depend on specific English phonemes. We propose a transcript-assisted model that makes phoneme information explicit during accent identification. Instead of representing an utterance",
+      "published": "2026-09-09T17:08:59Z",
+      "authors": [
+        "Yangyang Qu",
+        "Massimiliano Todisco",
+        "Nicholas Evans"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+      "link": "https://arxiv.org/abs/2609.10464v1",
+      "summary": "Joint-Embedding Predictive Architecture (JEPA) world models learn a compact latent representation of the world that supports prediction and planning, but their capability to learn physics and generate physically realistic dynamics remains hitherto untested. In this work, we introduce SemiGroup-JEPA (SG-JEPA), which extends the LeWorldModel framework by supplying the parameter governing the physics to the temporal model via action-conditioning and jointly training an encoder and predictor through",
+      "published": "2026-09-09T17:08:13Z",
+      "authors": [
+        "Andy Zeyi Liu",
+        "Haoran Sun",
+        "Lucas Baker",
+        "Randall Balestriero",
+        "John Sous"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Formal Framework for Noisy Runtime Verification",
+      "link": "https://arxiv.org/abs/2609.10462v1",
+      "summary": "We introduce the logic EDMon---an epistemic dynamic logic meant to model monitorability concepts in noisy runtime verification. Its syntax and semantics are defined and explained and the connection between EDMon and monitorability and noisy runtime verification concepts is explored. We then demonstrate that EDMon is sufficient to capture many of the results in the noisy runtime verification literature and catalog its relation to nearby logics and describe a large class of its theorems.",
+      "published": "2026-09-09T17:07:59Z",
+      "authors": [
+        "Shay Allen Logan",
+        "Shawn Standefer",
+        "Thomas Ferguson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MotionCanvas: Learning Implicit Motion Planning from Composable Kinematic Cues",
+      "link": "https://arxiv.org/abs/2609.10457v1",
+      "summary": "Professional character animation requires both natural motion and precise, versatile control. For example, it is common for the creators to define the timing of a specified action, to control the motion range of the character's arm swing, and the route the character walks through, like specifying various kinematic motion cues on a ``motion canvas''. This motivates us to propose MotionCanvas, a model that supports \\emph{cue-conditioned implicit motion planning} to faithfully and coherently connec",
+      "published": "2026-09-09T17:06:18Z",
+      "authors": [
+        "Zeyu Ling",
+        "Di Kang",
+        "Qing Shuai",
+        "Yuxin Wen",
+        "Jing Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Advanced Brain Tissue Imaging with Data-Consistent Diffusion Priors in Laminographic X-Ray Nanoimaging",
+      "link": "https://arxiv.org/abs/2609.10456v1",
+      "summary": "Nanoscale imaging of mammalian brains is critical for connectomics. X-ray laminography enables high-throughput imaging of extended, plate-like biological specimens. However, the tilted acquisition geometry leads to incomplete Fourier-space coverage, giving rise to a missing-cone of information. Conventional reconstruction methods cannot recover unmeasured information within the cone, resulting in artifacts that distort fine brain structures. While resolving these requires modeling 3D structure, ",
+      "published": "2026-09-09T17:05:00Z",
+      "authors": [
+        "Wenxuan Fang",
+        "Abraham L. Levitan",
+        "Ana Diaz",
+        "Carles Bosch",
+        "Adrian Wanner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The U.S. Interconnection Queue System: Cascading Vulnerability Analysis and a Resilience Engineering Framework",
+      "link": "https://arxiv.org/abs/2609.10455v1",
+      "summary": "As of 2025, the U.S. interconnection queues, the grid-access gateway for new generation and storage, contain roughly 8,200 projects totaling 2,061 GW of capacity. Only 13% of capacity queued in 2000-2020 (19% by project count) has reached operation. We argue that the queue architecture is vulnerable to self-reinforcing project withdrawal cascades arising from restudy and cost reallocation, independent of study delays. Adapting failure contagion models from financial and interdependent infrastruc",
+      "published": "2026-09-09T17:04:46Z",
+      "authors": [
+        "Zahra Heidari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Delay Placement Governs Feasibility and Hopf Bifurcation in a Pollution-Based Tourism Model",
+      "link": "https://arxiv.org/abs/2609.10452v1",
+      "summary": "We compare eight variants of a three-variable pollution-based tourism model obtained by assigning the same discrete delay to different terms. The delay may enter three slots: the visitor factor in the deterrence term, pollution perception, or visitation-driven growth and reinvestment. We call a placement feasible when every nonnegative initial history produces a solution that exists for all future time and remains nonnegative. For every $τ>0$, feasibility holds exactly when the visitor factor in",
+      "published": "2026-09-09T17:02:00Z",
+      "authors": [
+        "Taylan Şengül",
+        "Bünyamin Kurtkaya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition",
+      "link": "https://arxiv.org/abs/2609.10451v1",
+      "summary": "Real-world GUI usage frequently involves workflows that span multiple devices and platforms, requiring the transfer of intermediate results, maintenance of shared state, and coordination across heterogeneous environments. However, existing GUI benchmarks overwhelmingly evaluate agents on single-device, statically defined tasks, thus leaving such cross-device capabilities largely unexamined, resulting in an overly optimistic assessment of agents' readiness for real-world usage. We introduce Jarvi",
+      "published": "2026-09-09T16:59:59Z",
+      "authors": [
+        "Zixiang Chen",
+        "Yuheng Lu",
+        "Zihao Cheng",
+        "Zeming Liu",
+        "Jizeng Bai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Aldous' spectral gap phenomena in stochastic exchange models",
+      "link": "https://arxiv.org/abs/2609.10450v1",
+      "summary": "We consider a broad class of exchange dynamics with arbitrary weighted graph or hypergraph update structures, which includes the Kipnis--Marchioro--Presutti (KMP) model and the energies of Kac's walk on the sphere. These are conservative continuous-spin systems whose reversible measures are Dirichlet distributions. We prove that their spectral gap is always attained by a polynomial of degree at most two in the energy variables. Equivalently, through an intertwining with the associated discrete p",
+      "published": "2026-09-09T16:59:40Z",
+      "authors": [
+        "Pietro Caputo",
+        "Matteo Quattropani",
+        "Federico Sau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "link": "https://arxiv.org/abs/2609.10445v1",
+      "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing the intent of the original question, and forgoes knowledge more readily expressed in the target language. In this work, we advance L2 reasoning, the ability of a model to reason consistently in the la",
+      "published": "2026-09-09T16:56:25Z",
+      "authors": [
+        "Mehrnaz Mofakhami",
+        "Ananya Sahu",
+        "Alejandro R. Salamanca",
+        "Daniel D'souza",
+        "Alexandre Berard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The bounds $\\hbar_{p,X}\\lesssim(β_{p,X})^2$ and $β_{p,X}\\lesssim(\\hbar_{p,X})^2$ are sharp",
+      "link": "https://arxiv.org/abs/2609.10444v1",
+      "summary": "It was proved in the 1980s by Burkholder and Bourgain that, for any Banach space $X$ and $1<p<\\infty$, the UMD$_p$ property for $X$ is equivalent to boundedness of the Hilbert transform on $L^p(\\R;X)$, and that the UMD constant $β_{p,X}$ and the Hilbert transform constant $\\hbar_{p,X}$ are related by the quadratic bounds \\begin{equation*}   \\hbar_{p,X}\\lesssim(β_{p,X})^2,   \\qquad   β_{p,X}\\lesssim(\\hbar_{p,X})^2. \\end{equation*} In this paper we present examples showing that both bounds are sha",
+      "published": "2026-09-09T16:54:23Z",
+      "authors": [
+        "Emiel Lorist",
+        "Jan van Neerven"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gauge mean-field theories of the underscreened Kondo lattice",
+      "link": "https://arxiv.org/abs/2609.10443v1",
+      "summary": "Various mean-field decoupling schemes have been introduced thus far to study the important and challenging problem of the spin-$1$ underscreened Kondo lattice where magnetic order can coexist with Kondo hybridization. We use a single control parameter $N$ and an unbiased variational ansatz to unify and connect the previously proposed decouplings to standard Read-Newns theory, where fluctuations are small in $1/N$. We compute the corrections around the large-$N$ limit. In particular, we make cont",
+      "published": "2026-09-09T16:54:21Z",
+      "authors": [
+        "Ewan Scott",
+        "Michal Kwasigroch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+      "link": "https://arxiv.org/abs/2609.10441v1",
+      "summary": "While Large Language Models (LLMs) have demonstrated impressive capabilities, they often struggle with extremely long contexts due to fixed context limits. To address this, sequential approaches like MemAgent extend the effective context by reading text in segments and iteratively updating a fixed-size memory. However, this sequential paradigm suffers from high latency and requires costly reinforcement learning (RL) training, which can lead to overfitting on specific datasets. To overcome these ",
+      "published": "2026-09-09T16:53:02Z",
+      "authors": [
+        "Hongming Zhang",
+        "Zhaozhen Gu",
+        "Fengshuo Bai",
+        "Ming Hao",
+        "Qingyang Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
