@@ -1,0 +1,706 @@
+{
+  "source": "yahoo-finance",
+  "article_count": 100,
+  "articles": [
+    {
+      "title": "Popular women's clothing chain closes 177 stores",
+      "link": "https://finance.yahoo.com/small-business/articles/popular-womens-clothing-chain-closes-231700943.html",
+      "summary": "",
+      "published": "2026-09-10T23:17:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Academy Sports (ASO) Rockets 14% on Solid Q2 Despite Consumer Spending Tests",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/academy-sports-aso-rockets-14-004715929.html",
+      "summary": "",
+      "published": "2026-09-10T00:47:15Z",
+      "section": "top"
+    },
+    {
+      "title": "Enbridge to Buy Tallgrass Crude Pipeline Business for $2.55 Billion",
+      "link": "https://finance.yahoo.com/energy/articles/enbridge-buy-tallgrass-crude-pipeline-013000983.html",
+      "summary": "",
+      "published": "2026-09-10T01:30:00Z",
+      "section": "top"
+    },
+    {
+      "title": "How to close a bank account: A step-by-step guide",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/how-to-close-bank-account-124151383.html",
+      "summary": "",
+      "published": "2023-12-15T22:28:20Z",
+      "section": "top"
+    },
+    {
+      "title": "What is a health savings account (HSA)?",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/what-is-a-health-savings-account-140052424.html",
+      "summary": "",
+      "published": "2024-09-11T14:00:52Z",
+      "section": "top"
+    },
+    {
+      "title": "HIVE brings in enterprise veteran to scale BUZZ HPC's AI cloud business",
+      "link": "https://finance.yahoo.com/technology/ai/articles/hive-brings-enterprise-veteran-scale-233612805.html",
+      "summary": "",
+      "published": "2026-09-10T23:36:12Z",
+      "section": "top"
+    },
+    {
+      "title": "How to open a checking account: A step-by-step guide",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/how-to-open-checking-account-181402931.html",
+      "summary": "",
+      "published": "2023-12-15T22:42:24Z",
+      "section": "top"
+    },
+    {
+      "title": "Cloudflare (NET) Soars 10.5% on Upbeat Outlook, Says Opportunities ‘Larger’ Than Business",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-net-soars-10-5-020021013.html",
+      "summary": "",
+      "published": "2026-09-10T02:00:21Z",
+      "section": "top"
+    },
+    {
+      "title": "G-III’s (GIII) $1.2B Bet On Life After Calvin Klein",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/g-iii-giii-1-2b-020946153.html",
+      "summary": "",
+      "published": "2026-09-10T02:09:46Z",
+      "section": "top"
+    },
+    {
+      "title": "Medtronic’s (MDT) Heart Devices Are Suddenly Outgrowing The Rest Of Med-Tech",
+      "link": "https://finance.yahoo.com/healthcare/articles/medtronic-mdt-heart-devices-suddenly-021839780.html",
+      "summary": "",
+      "published": "2026-09-10T02:18:39Z",
+      "section": "top"
+    },
+    {
+      "title": "Man declares bankruptcy with 34 cents while hiding millions",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/man-declares-bankruptcy-34-cents-234136167.html",
+      "summary": "",
+      "published": "2026-09-10T23:41:36Z",
+      "section": "top"
+    },
+    {
+      "title": "NIO (NIO) Narrows Its Losses, But Can It Keep This Up?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nio-nio-narrows-losses-keep-022554180.html",
+      "summary": "",
+      "published": "2026-09-10T02:25:54Z",
+      "section": "top"
+    },
+    {
+      "title": "Sibanye Stillwater’s (SBSW) Record Half Comes With Strings Attached",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/sibanye-stillwater-sbsw-record-half-023558777.html",
+      "summary": "",
+      "published": "2026-09-10T02:35:58Z",
+      "section": "top"
+    },
+    {
+      "title": "Sportsman’s Warehouse (SPWH) Trades Flat Sales For A Cleaner Balance Sheet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sportsman-warehouse-spwh-trades-flat-024555594.html",
+      "summary": "",
+      "published": "2026-09-10T02:45:55Z",
+      "section": "top"
+    },
+    {
+      "title": "One Customer’s Delay Can’t Hide ADTRAN’s (ADTN) Optical Surge",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/one-customer-delay-t-hide-025435705.html",
+      "summary": "",
+      "published": "2026-09-10T02:54:35Z",
+      "section": "top"
+    },
+    {
+      "title": "Oil prices hit very unwelcome levels",
+      "link": "https://finance.yahoo.com/energy/articles/oil-prices-hit-very-unwelcome-003700136.html",
+      "summary": "",
+      "published": "2026-09-10T00:37:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Bit Digital (BTBT) Turns Its Ethereum Stash Into a Lending Machine",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bit-digital-btbt-turns-ethereum-030631658.html",
+      "summary": "",
+      "published": "2026-09-10T03:06:31Z",
+      "section": "top"
+    },
+    {
+      "title": "Nuveen Churchill’s (NCDL) Payout Cushion Widens Even As Risk Flags Rise",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nuveen-churchill-ncdl-payout-cushion-031425342.html",
+      "summary": "",
+      "published": "2026-09-10T03:14:25Z",
+      "section": "top"
+    },
+    {
+      "title": "Kimball Electronics (KE) Bets Big On Medical Devices And Debt Paydown",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kimball-electronics-ke-bets-big-032316692.html",
+      "summary": "",
+      "published": "2026-09-10T03:23:16Z",
+      "section": "top"
+    },
+    {
+      "title": "Nvidia plans major expansion of data centre capacity in Australia to meet AI demand",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-plans-major-expansion-data-032949319.html",
+      "summary": "",
+      "published": "2026-09-10T03:29:49Z",
+      "section": "top"
+    },
+    {
+      "title": "Optical Cable (OCC) Q3 2026 Earnings Call Transcript",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/optical-cable-occ-q3-2026-004307690.html",
+      "summary": "",
+      "published": "2026-09-10T00:43:07Z",
+      "section": "top"
+    },
+    {
+      "title": "Oil prices leap to their highest since May and drag Wall Street lower",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-fall-oil-prices-034806730.html",
+      "summary": "",
+      "published": "2026-09-10T03:48:06Z",
+      "section": "top"
+    },
+    {
+      "title": "Give Me Space: ETFs Seek to Fill a Void",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/space-etfs-seek-fill-void-040100367.html",
+      "summary": "",
+      "published": "2026-09-10T04:01:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Investors Need Real Talk About Interval Funds",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-real-talk-interval-funds-040200857.html",
+      "summary": "",
+      "published": "2026-09-10T04:02:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Your Client’s Big Tech Company Just IPO’d. Now What?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/client-big-tech-company-just-040300173.html",
+      "summary": "",
+      "published": "2026-09-10T04:03:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Prediction: CoreWeave's Contracted Backlog Passes $150 Billion Before 2028",
+      "link": "https://finance.yahoo.com/technology/ai/articles/prediction-coreweaves-contracted-backlog-passes-005701311.html",
+      "summary": "",
+      "published": "2026-09-10T00:57:01Z",
+      "section": "top"
+    },
+    {
+      "title": "On A Long Runway To Revenue, Terrestrial Energy (IMSR) Just Got A Little Shorter",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/long-runway-revenue-terrestrial-energy-041812316.html",
+      "summary": "",
+      "published": "2026-09-10T04:18:12Z",
+      "section": "top"
+    },
+    {
+      "title": "W&T Offshore (WTI) Turns A Profit While Short Sellers Still Circle",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/w-t-offshore-wti-turns-042615779.html",
+      "summary": "",
+      "published": "2026-09-10T04:26:15Z",
+      "section": "top"
+    },
+    {
+      "title": "NexPoint Residential (NXRT) Sees Improving Occupancy Despite Sliding Profits",
+      "link": "https://finance.yahoo.com/real-estate/articles/nexpoint-residential-nxrt-sees-improving-043533232.html",
+      "summary": "",
+      "published": "2026-09-10T04:35:33Z",
+      "section": "top"
+    },
+    {
+      "title": "VTEX (VTEX) Just Turned A Profit Corner, But Growth Is Slowing",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/vtex-vtex-just-turned-profit-044209900.html",
+      "summary": "",
+      "published": "2026-09-10T04:42:09Z",
+      "section": "top"
+    },
+    {
+      "title": "How Far Can Arista Networks Stock Move On You In A Year?",
+      "link": "https://finance.yahoo.com/markets/options/articles/far-arista-networks-stock-move-005738192.html",
+      "summary": "",
+      "published": "2026-09-10T00:57:38Z",
+      "section": "top"
+    },
+    {
+      "title": "Chatham Lodging’s (CLDT) Room Rates Just Hit A Record High",
+      "link": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-cldt-room-rates-045131718.html",
+      "summary": "",
+      "published": "2026-09-10T04:51:31Z",
+      "section": "top"
+    },
+    {
+      "title": "Tectonic Therapeutic (TECX) Clears Two Trial Hurdles With Cash To Spare",
+      "link": "https://finance.yahoo.com/healthcare/articles/tectonic-therapeutic-tecx-clears-two-045517387.html",
+      "summary": "",
+      "published": "2026-09-10T04:55:17Z",
+      "section": "top"
+    },
+    {
+      "title": "Exclusive-China's AI chipmakers raise prices as high-bandwidth memory shortage bites",
+      "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-chinas-ai-chipmakers-raise-050223278.html",
+      "summary": "",
+      "published": "2026-09-10T05:10:49Z",
+      "section": "top"
+    },
+    {
+      "title": "Is Charter Communications Stock Underperforming the Nasdaq?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-stock-underperforming-nasdaq-060511958.html",
+      "summary": "",
+      "published": "2026-09-10T06:05:11Z",
+      "section": "top"
+    },
+    {
+      "title": "My husband died and left me $900k in life insurance. My son wants $150k for a house. Am I wrong for hesitating?",
+      "link": "https://finance.yahoo.com/small-business/articles/husband-died-left-900k-life-010024037.html",
+      "summary": "",
+      "published": "2026-09-10T01:00:24Z",
+      "section": "top"
+    },
+    {
+      "title": "Will the housing market crash in 2026? Probably not",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-probably-not-170038540.html",
+      "summary": "",
+      "published": "2024-07-05T17:00:38Z",
+      "section": "top"
+    },
+    {
+      "title": "What is an adjustable-rate mortgage (ARM), and what are the risks?",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/adjustable-rate-mortgage-155738644.html",
+      "summary": "",
+      "published": "2024-01-26T22:54:47Z",
+      "section": "top"
+    },
+    {
+      "title": "When will gas prices go down? Prices hit records as Iran war fuels uncertainty.",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/when-will-gas-prices-go-down-prices-hit-records-as-iran-war-fuels-uncertainty-154506731.html",
+      "summary": "",
+      "published": "2026-04-14T15:45:06Z",
+      "section": "top"
+    },
+    {
+      "title": "How long should you wait between credit card applications?",
+      "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-long-should-you-wait-between-credit-card-applications-152057924.html",
+      "summary": "",
+      "published": "2026-09-09T15:20:57Z",
+      "section": "top"
+    },
+    {
+      "title": "Walmart Eyes CTV, AI and Self-Service Tools to Build a Bigger Ad Business",
+      "link": "https://finance.yahoo.com/media-advertising/articles/walmart-eyes-ctv-ai-self-010203880.html",
+      "summary": "",
+      "published": "2026-09-10T01:02:03Z",
+      "section": "top"
+    },
+    {
+      "title": "Best CD rates today, Thursday, September 10, 2026: Lock in up to 4.35% APY with an 18-month CD",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-september-10-2026-lock-in-up-to-435-apy-with-an-18-month-cd-100000213.html",
+      "summary": "",
+      "published": "2026-09-10T10:00:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Do you need to be a millionaire to retire? Experts weigh in on the 15% rule.",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/do-you-need-to-be-a-millionaire-to-retire-experts-weigh-in-on-the-15-rule-150323141.html",
+      "summary": "",
+      "published": "2026-09-09T15:03:23Z",
+      "section": "top"
+    },
+    {
+      "title": "What is the 'Lean FIRE' movement, and how can it help you reach financial independence?",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-lean-fire-movement-143401919.html",
+      "summary": "",
+      "published": "2026-09-09T14:34:01Z",
+      "section": "top"
+    },
+    {
+      "title": "Gold price today, Thursday, September 10, 2026: Gold prices steady ahead of inflation data and the Fed",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-10-2026-gold-prices-steady-ahead-of-inflation-data-and-the-fed-105217035.html",
+      "summary": "",
+      "published": "2026-09-10T10:52:17Z",
+      "section": "top"
+    },
+    {
+      "title": "SpaceX investors get bold Wall Street price target for 2027 year-end",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-investors-bold-wall-street-010300275.html",
+      "summary": "",
+      "published": "2026-09-10T01:03:00Z",
+      "section": "top"
+    },
+    {
+      "title": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html",
+      "summary": "",
+      "published": "2026-09-10T11:07:19Z",
+      "section": "top"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Thursday, September 10, 2026: Crypto prices slide back with inflation data on tap",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-10-2026-crypto-prices-slide-back-with-inflation-data-on-tap-113018195.html",
+      "summary": "",
+      "published": "2026-09-10T11:30:18Z",
+      "section": "top"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-11-2026-bitcoin-falls-below-77000-with-key-inflation-data-on-deck-113905130.html",
+      "summary": "",
+      "published": "2026-09-11T11:39:05Z",
+      "section": "top"
+    },
+    {
+      "title": "8 best places to keep your cash in 2026",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/best-places-to-keep-cash-230620039.html",
+      "summary": "",
+      "published": "2026-01-07T23:06:20Z",
+      "section": "top"
+    },
+    {
+      "title": "Popular women's clothing chain closes 177 stores",
+      "link": "https://finance.yahoo.com/small-business/articles/popular-womens-clothing-chain-closes-231700943.html",
+      "summary": "",
+      "published": "2026-09-10T23:17:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Ford caught in escalating Washington clash over China deals",
+      "link": "https://finance.yahoo.com/economy/policy/articles/ford-caught-escalating-washington-clash-002747788.html",
+      "summary": "",
+      "published": "2026-09-10T00:27:47Z",
+      "section": "markets"
+    },
+    {
+      "title": "Perma-Pipe International Holdings, Inc. Q2 2027 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/perma-pipe-international-holdings-inc-003115455.html",
+      "summary": "",
+      "published": "2026-09-10T00:31:15Z",
+      "section": "markets"
+    },
+    {
+      "title": "Academy Sports (ASO) Rockets 14% on Solid Q2 Despite Consumer Spending Tests",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/academy-sports-aso-rockets-14-004715929.html",
+      "summary": "",
+      "published": "2026-09-10T00:47:15Z",
+      "section": "markets"
+    },
+    {
+      "title": "Enbridge to Buy Tallgrass Crude Pipeline Business for $2.55 Billion",
+      "link": "https://finance.yahoo.com/energy/articles/enbridge-buy-tallgrass-crude-pipeline-013000983.html",
+      "summary": "",
+      "published": "2026-09-10T01:30:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "HIVE brings in enterprise veteran to scale BUZZ HPC's AI cloud business",
+      "link": "https://finance.yahoo.com/technology/ai/articles/hive-brings-enterprise-veteran-scale-233612805.html",
+      "summary": "",
+      "published": "2026-09-10T23:36:12Z",
+      "section": "markets"
+    },
+    {
+      "title": "How to close a bank account: A step-by-step guide",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/how-to-close-bank-account-124151383.html",
+      "summary": "",
+      "published": "2023-12-15T22:28:20Z",
+      "section": "markets"
+    },
+    {
+      "title": "What is a health savings account (HSA)?",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/what-is-a-health-savings-account-140052424.html",
+      "summary": "",
+      "published": "2024-09-11T14:00:52Z",
+      "section": "markets"
+    },
+    {
+      "title": "How to open a checking account: A step-by-step guide",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/how-to-open-checking-account-181402931.html",
+      "summary": "",
+      "published": "2023-12-15T22:42:24Z",
+      "section": "markets"
+    },
+    {
+      "title": "Cloudflare (NET) Soars 10.5% on Upbeat Outlook, Says Opportunities ‘Larger’ Than Business",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-net-soars-10-5-020021013.html",
+      "summary": "",
+      "published": "2026-09-10T02:00:21Z",
+      "section": "markets"
+    },
+    {
+      "title": "Man declares bankruptcy with 34 cents while hiding millions",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/man-declares-bankruptcy-34-cents-234136167.html",
+      "summary": "",
+      "published": "2026-09-10T23:41:36Z",
+      "section": "markets"
+    },
+    {
+      "title": "G-III’s (GIII) $1.2B Bet On Life After Calvin Klein",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/g-iii-giii-1-2b-020946153.html",
+      "summary": "",
+      "published": "2026-09-10T02:09:46Z",
+      "section": "markets"
+    },
+    {
+      "title": "Medtronic’s (MDT) Heart Devices Are Suddenly Outgrowing The Rest Of Med-Tech",
+      "link": "https://finance.yahoo.com/healthcare/articles/medtronic-mdt-heart-devices-suddenly-021839780.html",
+      "summary": "",
+      "published": "2026-09-10T02:18:39Z",
+      "section": "markets"
+    },
+    {
+      "title": "NIO (NIO) Narrows Its Losses, But Can It Keep This Up?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nio-nio-narrows-losses-keep-022554180.html",
+      "summary": "",
+      "published": "2026-09-10T02:25:54Z",
+      "section": "markets"
+    },
+    {
+      "title": "Sibanye Stillwater’s (SBSW) Record Half Comes With Strings Attached",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/sibanye-stillwater-sbsw-record-half-023558777.html",
+      "summary": "",
+      "published": "2026-09-10T02:35:58Z",
+      "section": "markets"
+    },
+    {
+      "title": "Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls It the ‘Biggest Threat’",
+      "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-warns-10-15-003013222.html",
+      "summary": "",
+      "published": "2026-09-10T00:30:13Z",
+      "section": "markets"
+    },
+    {
+      "title": "Sportsman’s Warehouse (SPWH) Trades Flat Sales For A Cleaner Balance Sheet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sportsman-warehouse-spwh-trades-flat-024555594.html",
+      "summary": "",
+      "published": "2026-09-10T02:45:55Z",
+      "section": "markets"
+    },
+    {
+      "title": "One Customer’s Delay Can’t Hide ADTRAN’s (ADTN) Optical Surge",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/one-customer-delay-t-hide-025435705.html",
+      "summary": "",
+      "published": "2026-09-10T02:54:35Z",
+      "section": "markets"
+    },
+    {
+      "title": "Bit Digital (BTBT) Turns Its Ethereum Stash Into a Lending Machine",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bit-digital-btbt-turns-ethereum-030631658.html",
+      "summary": "",
+      "published": "2026-09-10T03:06:31Z",
+      "section": "markets"
+    },
+    {
+      "title": "Nuveen Churchill’s (NCDL) Payout Cushion Widens Even As Risk Flags Rise",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nuveen-churchill-ncdl-payout-cushion-031425342.html",
+      "summary": "",
+      "published": "2026-09-10T03:14:25Z",
+      "section": "markets"
+    },
+    {
+      "title": "Oil prices hit very unwelcome levels",
+      "link": "https://finance.yahoo.com/energy/articles/oil-prices-hit-very-unwelcome-003700136.html",
+      "summary": "",
+      "published": "2026-09-10T00:37:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Kimball Electronics (KE) Bets Big On Medical Devices And Debt Paydown",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kimball-electronics-ke-bets-big-032316692.html",
+      "summary": "",
+      "published": "2026-09-10T03:23:16Z",
+      "section": "markets"
+    },
+    {
+      "title": "Nvidia plans major expansion of data centre capacity in Australia to meet AI demand",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-plans-major-expansion-data-032949319.html",
+      "summary": "",
+      "published": "2026-09-10T03:29:49Z",
+      "section": "markets"
+    },
+    {
+      "title": "Oil prices leap to their highest since May and drag Wall Street lower",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-fall-oil-prices-034806730.html",
+      "summary": "",
+      "published": "2026-09-10T03:48:06Z",
+      "section": "markets"
+    },
+    {
+      "title": "Give Me Space: ETFs Seek to Fill a Void",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/space-etfs-seek-fill-void-040100367.html",
+      "summary": "",
+      "published": "2026-09-10T04:01:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Optical Cable (OCC) Q3 2026 Earnings Call Transcript",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/optical-cable-occ-q3-2026-004307690.html",
+      "summary": "",
+      "published": "2026-09-10T00:43:07Z",
+      "section": "markets"
+    },
+    {
+      "title": "Investors Need Real Talk About Interval Funds",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-real-talk-interval-funds-040200857.html",
+      "summary": "",
+      "published": "2026-09-10T04:02:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "Your Client’s Big Tech Company Just IPO’d. Now What?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/client-big-tech-company-just-040300173.html",
+      "summary": "",
+      "published": "2026-09-10T04:03:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "On A Long Runway To Revenue, Terrestrial Energy (IMSR) Just Got A Little Shorter",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/long-runway-revenue-terrestrial-energy-041812316.html",
+      "summary": "",
+      "published": "2026-09-10T04:18:12Z",
+      "section": "markets"
+    },
+    {
+      "title": "W&T Offshore (WTI) Turns A Profit While Short Sellers Still Circle",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/w-t-offshore-wti-turns-042615779.html",
+      "summary": "",
+      "published": "2026-09-10T04:26:15Z",
+      "section": "markets"
+    },
+    {
+      "title": "Prediction: CoreWeave's Contracted Backlog Passes $150 Billion Before 2028",
+      "link": "https://finance.yahoo.com/technology/ai/articles/prediction-coreweaves-contracted-backlog-passes-005701311.html",
+      "summary": "",
+      "published": "2026-09-10T00:57:01Z",
+      "section": "markets"
+    },
+    {
+      "title": "NexPoint Residential (NXRT) Sees Improving Occupancy Despite Sliding Profits",
+      "link": "https://finance.yahoo.com/real-estate/articles/nexpoint-residential-nxrt-sees-improving-043533232.html",
+      "summary": "",
+      "published": "2026-09-10T04:35:33Z",
+      "section": "markets"
+    },
+    {
+      "title": "VTEX (VTEX) Just Turned A Profit Corner, But Growth Is Slowing",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/vtex-vtex-just-turned-profit-044209900.html",
+      "summary": "",
+      "published": "2026-09-10T04:42:09Z",
+      "section": "markets"
+    },
+    {
+      "title": "Chatham Lodging’s (CLDT) Room Rates Just Hit A Record High",
+      "link": "https://finance.yahoo.com/real-estate/articles/chatham-lodging-cldt-room-rates-045131718.html",
+      "summary": "",
+      "published": "2026-09-10T04:51:31Z",
+      "section": "markets"
+    },
+    {
+      "title": "Tectonic Therapeutic (TECX) Clears Two Trial Hurdles With Cash To Spare",
+      "link": "https://finance.yahoo.com/healthcare/articles/tectonic-therapeutic-tecx-clears-two-045517387.html",
+      "summary": "",
+      "published": "2026-09-10T04:55:17Z",
+      "section": "markets"
+    },
+    {
+      "title": "How Far Can Arista Networks Stock Move On You In A Year?",
+      "link": "https://finance.yahoo.com/markets/options/articles/far-arista-networks-stock-move-005738192.html",
+      "summary": "",
+      "published": "2026-09-10T00:57:38Z",
+      "section": "markets"
+    },
+    {
+      "title": "Exclusive-China's AI chipmakers raise prices as high-bandwidth memory shortage bites",
+      "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-chinas-ai-chipmakers-raise-050223278.html",
+      "summary": "",
+      "published": "2026-09-10T05:10:49Z",
+      "section": "markets"
+    },
+    {
+      "title": "Will the housing market crash in 2026? Probably not",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-probably-not-170038540.html",
+      "summary": "",
+      "published": "2024-07-05T17:00:38Z",
+      "section": "markets"
+    },
+    {
+      "title": "What is an adjustable-rate mortgage (ARM), and what are the risks?",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/adjustable-rate-mortgage-155738644.html",
+      "summary": "",
+      "published": "2024-01-26T22:54:47Z",
+      "section": "markets"
+    },
+    {
+      "title": "When will gas prices go down? Prices hit records as Iran war fuels uncertainty.",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/when-will-gas-prices-go-down-prices-hit-records-as-iran-war-fuels-uncertainty-154506731.html",
+      "summary": "",
+      "published": "2026-04-14T15:45:06Z",
+      "section": "markets"
+    },
+    {
+      "title": "My husband died and left me $900k in life insurance. My son wants $150k for a house. Am I wrong for hesitating?",
+      "link": "https://finance.yahoo.com/small-business/articles/husband-died-left-900k-life-010024037.html",
+      "summary": "",
+      "published": "2026-09-10T01:00:24Z",
+      "section": "markets"
+    },
+    {
+      "title": "How long should you wait between credit card applications?",
+      "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-long-should-you-wait-between-credit-card-applications-152057924.html",
+      "summary": "",
+      "published": "2026-09-09T15:20:57Z",
+      "section": "markets"
+    },
+    {
+      "title": "Do you need to be a millionaire to retire? Experts weigh in on the 15% rule.",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/do-you-need-to-be-a-millionaire-to-retire-experts-weigh-in-on-the-15-rule-150323141.html",
+      "summary": "",
+      "published": "2026-09-09T15:03:23Z",
+      "section": "markets"
+    },
+    {
+      "title": "Best CD rates today, Thursday, September 10, 2026: Lock in up to 4.35% APY with an 18-month CD",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-september-10-2026-lock-in-up-to-435-apy-with-an-18-month-cd-100000213.html",
+      "summary": "",
+      "published": "2026-09-10T10:00:00Z",
+      "section": "markets"
+    },
+    {
+      "title": "What is the 'Lean FIRE' movement, and how can it help you reach financial independence?",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-lean-fire-movement-143401919.html",
+      "summary": "",
+      "published": "2026-09-09T14:34:01Z",
+      "section": "markets"
+    },
+    {
+      "title": "Walmart Eyes CTV, AI and Self-Service Tools to Build a Bigger Ad Business",
+      "link": "https://finance.yahoo.com/media-advertising/articles/walmart-eyes-ctv-ai-self-010203880.html",
+      "summary": "",
+      "published": "2026-09-10T01:02:03Z",
+      "section": "markets"
+    },
+    {
+      "title": "Gold price today, Thursday, September 10, 2026: Gold prices steady ahead of inflation data and the Fed",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-10-2026-gold-prices-steady-ahead-of-inflation-data-and-the-fed-105217035.html",
+      "summary": "",
+      "published": "2026-09-10T10:52:17Z",
+      "section": "markets"
+    },
+    {
+      "title": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html",
+      "summary": "",
+      "published": "2026-09-10T11:07:19Z",
+      "section": "markets"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Thursday, September 10, 2026: Crypto prices slide back with inflation data on tap",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-10-2026-crypto-prices-slide-back-with-inflation-data-on-tap-113018195.html",
+      "summary": "",
+      "published": "2026-09-10T11:30:18Z",
+      "section": "markets"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-11-2026-bitcoin-falls-below-77000-with-key-inflation-data-on-deck-113905130.html",
+      "summary": "",
+      "published": "2026-09-11T11:39:05Z",
+      "section": "markets"
+    }
+  ]
+}
