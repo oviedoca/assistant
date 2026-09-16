@@ -1,0 +1,635 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "$B$-sure. Part II. Scattering transforms as robustness test for tensor-to-scalar ratio detection from CMB observations",
+      "link": "https://arxiv.org/abs/2609.17531v1",
+      "summary": "Galactic foregrounds represent a major contamination to the measurement of primordial $B$-modes from observations of the Cosmic Microwave Background polarisation. Even after the application of component separation algorithms, foreground residuals may potentially still bias the estimate of the tensor-to-scalar ratio $r$, causing a false detection. In this work, we present the methodology of a robustness test for the validation of an eventual detection of primordial $B$-modes, as obtained by a fut",
+      "published": "2026-09-15T17:59:31Z",
+      "authors": [
+        "Claudio Ranucci",
+        "Sébastien Pierre",
+        "Léo Vacher",
+        "Alessandro Carones",
+        "Nicoletta Krachmalnicoff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vanilla Scotogenic Model at the future Muon Collider",
+      "link": "https://arxiv.org/abs/2609.17530v1",
+      "summary": "The vanilla scotogenic model (VSM) featuring three right-handed neutrinos and an inert scalar doublet, offers a unified explanation of neutrino masses, dark matter (DM), and the baryon asymmetry of the Universe through leptogenesis. The typical mass scale of such a scenario lies in the vicinity of $\\sim$ 10 TeV and above, whereas enhanced second-generation Yukawa couplings lower the leptogenesis scale to $\\sim 1$ \\TeV, allowing the model to be probed at the future muon colliders. Adhering to DM,",
+      "published": "2026-09-15T17:58:07Z",
+      "authors": [
+        "Niloy Mondal",
+        "Dipankar Pradhan",
+        "Abhik Sarkar",
+        "Biplob Bhattacherjee",
+        "Subhaditya Bhattacharya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Alon-Boppana Bound for the Non-Backtracking Operator",
+      "link": "https://arxiv.org/abs/2609.17529v1",
+      "summary": "For any fixed $k$, we prove a lower bound on the $k$th largest modulus of an eigenvalue of the non-backtracking matrix $B$. Specifically, consider any deterministic or random family of graphs that converges locally to the unimodular Galton-Watson tree with root degree distribution $D$, and set $κ:=\\mathbb E[D(D-1)]/\\mathbb E[D]$. Given $κ>1$ and an exponential-moment bound on the empirical degree distributions, we show that $|λ_k(B)|\\geq\\sqrtκ-o_N(1)$, where $N$ is the number of vertices. When r",
+      "published": "2026-09-15T17:57:58Z",
+      "authors": [
+        "Theo McKenzie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "You Shall Not Pass into Ring-0! A User Privacy-Friendly Anti-Cheat Architecture for Personal Computers",
+      "link": "https://arxiv.org/abs/2609.17525v1",
+      "summary": "Kernel-level anti-cheats are effective against malicious player behavior in competitive video games, but raise significant user privacy concerns regarding installing unverifiable components at privileged modes (i.e., ring-0 in x86). While existing research has focused on improving the effectiveness of anti-cheats, the user privacy concern has been largely ignored. Tirith is an anti-cheat architecture that addresses this problem using two key ideas. First, instead of running video games within re",
+      "published": "2026-09-15T17:56:31Z",
+      "authors": [
+        "Santosh Gokul Narayanan",
+        "Giovanni Paladino",
+        "Chuqi Zhang",
+        "Sangho Lee",
+        "Zhenkai Liang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Modality-Autoregressive World-Action Models",
+      "link": "https://arxiv.org/abs/2609.17524v1",
+      "summary": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images. Other visual modalities such as depth, pretrained visual features, and point tracks can more efficiently capture geometric, semantic, and motion features. However, how best to combine these modalities within WAMs remains an open question. We introduce ModAR, the first WAM to autoregressively denoise multiple future modalities before predicting actions. This allows each predict",
+      "published": "2026-09-15T17:56:24Z",
+      "authors": [
+        "Adam Hung",
+        "Bardienus P. Duisterhof",
+        "Deva Ramanan",
+        "Jeffrey Ichnowski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "link": "https://arxiv.org/abs/2609.17523v1",
+      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: ",
+      "published": "2026-09-15T17:55:28Z",
+      "authors": [
+        "Shuhan Xue",
+        "Jianyuan Zhong",
+        "Ziyuan Nan",
+        "Wenbin Li",
+        "Zhaochen Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Coupling spherical p-spin systems",
+      "link": "https://arxiv.org/abs/2609.17522v1",
+      "summary": "Spherical p-spin models provide a mean-field framework for glassy dynamics. Coupling such systems opens a controlled way to probe how they evolve jointly, develop cross correlations, and possibly share common aging scales. We study spherical p-spin systems with site-independent inter-system couplings and generally correlated quenched disorders. We derive closed multi-subsystem two-time equations for correlations, responses, and spherical constraints. A marginal one-step replica-symmetry-breaking",
+      "published": "2026-09-15T17:55:19Z",
+      "authors": [
+        "Riccardo Cipolloni",
+        "Leticia F. Cugliandolo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "link": "https://arxiv.org/abs/2609.17521v1",
+      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory-",
+      "published": "2026-09-15T17:55:13Z",
+      "authors": [
+        "Chuhao Chen",
+        "Peter Wonka",
+        "Chaoyang Wang",
+        "Chen Wang",
+        "Qiao Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Renormalizing small ball events for branching random walk",
+      "link": "https://arxiv.org/abs/2609.17520v1",
+      "summary": "Consider a branching random walk (BRW) of depth $n$ with standard Gaussian increments, conditioned on all endpoints lying in an interval of radius $r$ (which may depend on $n$), i.e. a small ball event. We prove that this conditioning results in exponential decay of correlations between the endpoints, with correlation length $O(r)$. Our proof is based on the renormalization group, which in this context captures the effect of the endpoint conditioning on earlier steps in the walk. This effect can",
+      "published": "2026-09-15T17:55:12Z",
+      "authors": [
+        "Vilas Winstein"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "link": "https://arxiv.org/abs/2609.17516v1",
+      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-C",
+      "published": "2026-09-15T17:52:24Z",
+      "authors": [
+        "Ali Şenol"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+      "link": "https://arxiv.org/abs/2609.17515v1",
+      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together with depth, width, hybrid, and expert pruning methods. After post-pruning supervised fine-tuning (SFT), we evaluate more than 19,500 instances from three smart-ho",
+      "published": "2026-09-15T17:51:48Z",
+      "authors": [
+        "Congjing Zhang",
+        "Vashishtha Patil",
+        "Henning Lange",
+        "Usman Aleem"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
+      "link": "https://arxiv.org/abs/2609.17509v1",
+      "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmenta",
+      "published": "2026-09-15T17:46:51Z",
+      "authors": [
+        "Thanapat Trachu",
+        "Samuele Cornell",
+        "William Chen",
+        "Shinji Watanabe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Constraints on the central engine of merger-driven long gamma-ray bursts",
+      "link": "https://arxiv.org/abs/2609.17507v1",
+      "summary": "Recent observations have identified a new class of long-duration gamma-ray bursts (GRBs) likely produced by compact binary mergers. Using radio observations and lightcurve modelling, we investigate whether a magnetar remnant can power the long-lasting prompt emission observed in this merger-driven GRB sample. We derive constraints on the magnetars' rotational energy and magnetic-field strength, and assess whether the magnetar central-engine model is viable for the observed events. We conducted 2",
+      "published": "2026-09-15T17:46:35Z",
+      "authors": [
+        "Muskan Yadav",
+        "Roberto Ricci",
+        "Paz Beniamini",
+        "Hira Waseem",
+        "Tatsuya Matsumoto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhanced thermal stability of SiGeSn by suppressing surface-mediated degradation",
+      "link": "https://arxiv.org/abs/2609.17504v1",
+      "summary": "$\\text{SiGeSn}$ alloys are promising silicon-compatible semiconductors for monolithic infrared photonics. However, their metastable nature limits the thermal budgets available for post-growth device processing, and the mechanisms governing their thermal degradation remain unresolved. Here, we investigate the thermal stability of $\\text{Si}_{0.08}\\text{Ge}_{0.83}\\text{Sn}_{0.04}$ alloys using in situ spectroscopic ellipsometry (SE) during isothermal annealing at 550 °C. We show that adding an ult",
+      "published": "2026-09-15T17:44:24Z",
+      "authors": [
+        "Anis Attiaoui",
+        "Sebastien Koelling",
+        "Lu Luo",
+        "Simone Assali",
+        "Oussama Moutanabbir"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+      "link": "https://arxiv.org/abs/2609.17499v1",
+      "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a promising approach for uncertainty estimation in VLN. However, given that VLN agent requires a sequence of steps, standard calibration in conformal prediction fails to provide coverage guarantee it p",
+      "published": "2026-09-15T17:42:15Z",
+      "authors": [
+        "Vicky Feliren",
+        "A. Taufiq Asyhari",
+        "Muhamad Risqi U. Saputra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Antidistinguishability of states in General Probabilistic Theories",
+      "link": "https://arxiv.org/abs/2609.17498v1",
+      "summary": "We investigate antidistinguishability of states within the framework of general probabilistic theories (GPTs). We formulate antidistinguishability, strong and equal antidistinguishability as refined notions that imposed additional constraint on the measurement effects. We establish general results relating these notions of antidistinguishability and derive an upper bound on the cardinality of equally antidistinguishable sets in terms of the affine dimension of the state space. We then study anti",
+      "published": "2026-09-15T17:37:48Z",
+      "authors": [
+        "Satyaki Manna",
+        "Anandamay Das Bhowmik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Hardware: Adaptive Algorithmic Control by State-Proxy Equalization",
+      "link": "https://arxiv.org/abs/2609.17497v1",
+      "summary": "Recent advances in quantum computing have been driven primarily by improvements in hardware. Here we show that substantial gains can instead arise from how finite computational resources are allocated throughout a quantum computation. We introduce Adaptive Algorithmic Control (A2C), a software paradigm founded on a State-Proxy Equalization theorem, which proves that the optimal allocation for a state-derived proxy-error functional equalizes cumulative computational hardness rather than physical ",
+      "published": "2026-09-15T17:37:39Z",
+      "authors": [
+        "Jianlong Lu",
+        "Hongrui Zhang",
+        "Vishal Sharathchandra Bajpe",
+        "Thorsten Koch",
+        "Ying Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "link": "https://arxiv.org/abs/2609.17496v1",
+      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a",
+      "published": "2026-09-15T17:37:29Z",
+      "authors": [
+        "Amir Taubenfeld",
+        "Zorik Gekhman",
+        "Avigail Grinstein-Dabush",
+        "Itay Laish",
+        "Ariel Goldstein"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "First-Crossing Reduction and Inference for No-Rescue Effects under Deterministic Rescue",
+      "link": "https://arxiv.org/abs/2609.17495v1",
+      "summary": "Clinical protocols may require rescue medication when a patient's condition crosses a prespecified threshold. The outcome under continued non-rescue is then unobserved after first crossing, preventing point identification without extrapolation assumptions. In this paper, we develop sharp partial identification and inference for this hypothetical estimand while retaining the original no-rescue intervention. We show that bounding this mean reduces exactly to restricting conditional mean effects of",
+      "published": "2026-09-15T17:37:27Z",
+      "authors": [
+        "Shu Tamano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Equivariant Cohomological Crepant Resolution Conjecture for ADE-orbifolds",
+      "link": "https://arxiv.org/abs/2609.17494v1",
+      "summary": "Let G be a non-trivial finite subgroup of SL_2(C) and let p : X \\to C^2/G be the minimal resolution. We prove the C^*-equivariant Cohomological Crepant Resolution Conjecture for the ADE orbifold [C^2/G]. More precisely, after specializing the quantum parameters at suitable roots of unity, we prove that the Bryan-Gholampour transformation induces an isomorphism between the C^*-equivariant quantum cohomology of X and the C^*-equivariant Chen-Ruan cohomology of [C^2/G].   Our proof is direct and is",
+      "published": "2026-09-15T17:35:37Z",
+      "authors": [
+        "Qike Li",
+        "Fabio Perroni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Query-optimal quantum simulation of Lindblad evolution",
+      "link": "https://arxiv.org/abs/2609.17490v1",
+      "summary": "For the problem of simulating Lindblad evolution for time $t$ to precision $ε$, Hamiltonian simulation provides an additive query lower bound, informally, $Ω(t + \\mathrm{polylog}(1/ε))$. However, the best previously known algorithms for general Lindblad simulation achieve a multiplicative upper bound, informally, $\\mathcal{O}(t\\,\\mathrm{polylog}(1/ε))$, in gate complexity. It has remained open whether this multiplicative dependence is necessary. In this paper, we close the gap in query complexit",
+      "published": "2026-09-15T17:32:12Z",
+      "authors": [
+        "Chunhao Wang",
+        "Christopher Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
+      "link": "https://arxiv.org/abs/2609.17491v1",
+      "summary": "Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and directions, but their frequency and spatial dimensions exhibit different structural dependencies. We propose FreqSpaNet, an SFPF representation learning network for open set hardware anomaly detectio",
+      "published": "2026-09-15T17:32:12Z",
+      "authors": [
+        "Xiaoxuan Huang",
+        "Jinlong Xu",
+        "YiZhe Wang",
+        "Meng Zhang",
+        "Xian Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hysteresis and trap emission in dc-biased integrated lithium niobate electro-optic modulators",
+      "link": "https://arxiv.org/abs/2609.17489v1",
+      "summary": "The electro-optic effect is crucially important for low power and efficient tuning of integrated photonic circuits. However, in electro-optic materials such as lithium niobate, dc biasing for an extended duration of time results in the emergence of numerous nonidealities, including hysteresis -- a persistent degradation of the magnitude and linearity of the dc electro-optic response. We show that electro-optic hysteresis can be reversed under both zero-bias and reverse-bias conditions, given suf",
+      "published": "2026-09-15T17:31:55Z",
+      "authors": [
+        "Matthew Yeh",
+        "CJ Xin",
+        "Donald Witt",
+        "David R. Barton",
+        "Evelyn L. Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+      "link": "https://arxiv.org/abs/2609.17488v1",
+      "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organizing principle of in-context learning from target-centric prediction to mechanism-oriented joint modeling. Rather than centering the network on the $p(y \\mid x, D_{\\mathrm{context}})$ objective of co",
+      "published": "2026-09-15T17:30:02Z",
+      "authors": [
+        "Xingxuan Zhang",
+        "Gang Ren",
+        "Hao Yuan",
+        "Hao Zou",
+        "Hongze Tan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stuffed IBLTs: Optimal Linear Multiset Sketches",
+      "link": "https://arxiv.org/abs/2609.17487v1",
+      "summary": "A \\emph{linear sketch} is a randomized linear mapping of a vector $v$ to a lower dimensional sketch vector, designed to preserve relevant information about $v$. We consider sketches of vectors $v \\in Z^u$ (for $u \\in N$), designed for exact recovery of $v$ from its sketch. Concretely, our \\emph{Stuffed IBLT} is a linear sketch configured with a capacity $n \\in N$ and a multiplicity limit $L \\in N$ and will recover $v$ with high probability whenever $||v||_0 \\leq n$ and $||v||_\\infty \\leq L$. The",
+      "published": "2026-09-15T17:29:42Z",
+      "authors": [
+        "Jonas Klausen",
+        "Rasmus Pagh",
+        "Stefan Walzer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bridging the Gap Between Homogeneous and Heterogeneous Asynchronous Optimization Is Surprisingly Difficult",
+      "link": "https://arxiv.org/abs/2609.17483v1",
+      "summary": "Modern large-scale machine learning tasks often require multiple workers, devices, CPUs, or GPUs to compute stochastic gradients in parallel and asynchronously to train model weights. Theoretical results typically distinguish between two settings: (i) the homogeneous setting, where all workers have access to the same data distribution, and (ii) the heterogeneous setting, where each worker operates on different data distributions. Known optimal time complexities in these settings reveal a signifi",
+      "published": "2026-09-15T17:24:09Z",
+      "authors": [
+        "Alexander Tyurin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stitch-Free, Diamond-Scribed Silicon Nitride Photonic Integrated Circuits for the Visible Band",
+      "link": "https://arxiv.org/abs/2609.17480v1",
+      "summary": "Silicon nitride photonic integrated circuits for the visible band are conventionally built with a buried oxide overcladding and singulated with wafer-scale tooling, constraints that preclude evanescent access to the guided mode for externally integrated emitters. We report a PECVD grown $Si_3N_4$ platform designed around an air-clad waveguide whose evanescent field remains accessible along the full device length. Two process elements make this geometry practical at chip scale. Fixed-beam moving-",
+      "published": "2026-09-15T17:22:16Z",
+      "authors": [
+        "Kishor Kumar Mandal",
+        "Lekshmi Eswaramoorthy",
+        "Parul Sharma",
+        "Anuj Kumar Singh",
+        "Brijesh Kumar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
+      "link": "https://arxiv.org/abs/2609.17479v1",
+      "summary": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social organisms or those with colonial life histories, as they ignore multiple detections within a scene and produce single-instance outputs that blur evidence across individuals. These methods also generate",
+      "published": "2026-09-15T17:20:16Z",
+      "authors": [
+        "Jiayi Zhou",
+        "David W. Johnston",
+        "Brinnae Bent"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bias-Induced Crossover in Absolute Capacity of Dense Associative Memory",
+      "link": "https://arxiv.org/abs/2609.17477v1",
+      "summary": "The absolute capacity of dense associative memory has mainly been analyzed for unbiased patterns. Here we examine the effect of bias in centered binary patterns under the Krotov-Hopfield single-site criterion $P_{\\mathrm{error}}=1/N$, where $P_{\\mathrm{error}}$ is the probability that a single-site flip lowers the energy of a stored pattern and $N$ is the number of neurons. Each pattern component takes $1-q$ with probability $q$ and $-q$ otherwise, where $0<q\\le1/2$. For polynomial interactions ",
+      "published": "2026-09-15T17:16:38Z",
+      "authors": [
+        "Yuto Sakurai",
+        "Takeaki Shimokawa",
+        "Kazunori Iwata",
+        "Kazushi Mimura"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Designing Homogeneous Ti-Nb-Fe-Sn $β$ Titanium Alloys by PBF-LB: A Pre-Alloyed Powder Blend Strategy",
+      "link": "https://arxiv.org/abs/2609.17476v1",
+      "summary": "Metastable $β$ titanium alloys are attractive for biomedical and structural applications owing to their low elastic modulus, high specific strength, and excellent corrosion resistance. Laser powder bed fusion (PBF-LB) enables complex-shape production and controlled compositional variation through powder blending. However, processing elemental Ti-Nb blends often results in chemical heterogeneity from incomplete dissolution of Nb-rich particles and non-equilibrium phase formation. To address this,",
+      "published": "2026-09-15T17:15:49Z",
+      "authors": [
+        "João Felipe Queiroz Rodrigues",
+        "Kristína Bartha",
+        "Mariano Casas-Luna",
+        "Gilberto Vicente Prandi",
+        "Márcio Sangali"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
+      "link": "https://arxiv.org/abs/2609.17475v1",
+      "summary": "Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. We present JustFit, an MLX-based inference runtime that combines KVExec for compressed KV execution, PhaseSwap for component residency, and StateTrans for state-preserving serving transitions. These mechanisms fuse reconstruction and coordinate just-in-time materialization and release, independently of model-weight quantization. In full-execution capacity tests on a ",
+      "published": "2026-09-15T17:15:48Z",
+      "authors": [
+        "Yuhua Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+      "link": "https://arxiv.org/abs/2609.17474v1",
+      "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability on target questions is uncertain and target-domain reward feedback is unavailable. We propose Coupled Calibration and Learning (CCL), an LLM distillation algorithm that couples teacher calibration wi",
+      "published": "2026-09-15T17:15:40Z",
+      "authors": [
+        "Haichen Hu",
+        "Yuheng Zhang",
+        "David Simchi-Levi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Extended Chiral Mean-Field Model with Medium-Modified Thermal Mesons for Hot and Dense Hadronic Matter",
+      "link": "https://arxiv.org/abs/2609.17473v1",
+      "summary": "In this conference proceeding we review an extension of the Chiral Mean Field (CMF) model that consistently incorporates interacting thermal mesons with self-consistent in-medium masses. In this approach, the in-medium masses of pseudoscalar and vector mesons are evaluated through the explicit chiral symmetry-breaking and vector-interaction terms in the Lagrangian respectively, before applying the mean-field approximation. These medium-modified meson properties introduce additional feedback into",
+      "published": "2026-09-15T17:14:35Z",
+      "authors": [
+        "Micheal Kahangirwe",
+        "Rajesh Kumar",
+        "Joaquin Grefa",
+        "Konstantin Maslov",
+        "Yuhan Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Including Thermal Mesons and Meson Resonances in the Chiral Mean-Field Equation of State",
+      "link": "https://arxiv.org/abs/2609.17470v1",
+      "summary": "The Chiral Mean-Field (CMF) model describes dense matter in terms of baryons and quarks interacting through scalar and vector meson mean fields. In the mean-field approximation, the meson fields are replaced by their expectation values. Their role in generating interactions and in-medium properties is retained, but explicit thermal mesonic excitations are absent. This becomes increasingly problematic at high temperature, where mesons contribute significantly to the thermodynamics of hadronic mat",
+      "published": "2026-09-15T17:12:53Z",
+      "authors": [
+        "Micheal Kahangirwe",
+        "Joaquin Grefa",
+        "Mateus Reinke Pelicer",
+        "Rajesh Kumar",
+        "Claudia Ratti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
+      "link": "https://arxiv.org/abs/2609.17465v1",
+      "summary": "Scalable quantum computation is expected to rely on fault-tolerant quantum computation (FTQC), in which quantum error correction (QEC) suppresses physical errors sufficiently to support reliable logical operations. This requires quantum compilation to move beyond general-purpose circuit optimization toward encoding-aware and protocol-structured compilation across the full stack of fault-tolerant quantum computers. Beyond circuit synthesis and hardware mapping, an FTQC compiler must lower algorit",
+      "published": "2026-09-15T17:05:49Z",
+      "authors": [
+        "Chenghong Zhu",
+        "Jiahan Chen",
+        "Keming He",
+        "Hongshun Yao",
+        "Zhaohui Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Decomposition Buys Integrity, Not Yield",
+      "link": "https://arxiv.org/abs/2609.17464v1",
+      "summary": "Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches the root. Model a decomposition as a tree in which an agent handed $b$ items keeps any one with probability $r(b)$. If $r(b)=1/b$, every tree delivers exactly one finding, for every task size and every shape; we verify this to $2.4 \\times 10^{-15}$ on 20,000 random irregular tree",
+      "published": "2026-09-15T17:04:09Z",
+      "authors": [
+        "Rong He"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gaussian Processes for Modelling Spatial Fields with Robot Swarms",
+      "link": "https://arxiv.org/abs/2609.17463v1",
+      "summary": "Robot swarms, by virtue of their decentralised architecture, are a natural tool for scalable, robust modelling of spatial fields, such as water temperature, wind velocity, or terrain elevation. However, existing methods rely on external positioning systems that allow each robot to determine its own position in space. Here, we introduce location-unaware Gaussian process regression (LU-GPR) as a solution to the modelling of spatial fields in the absence of such positioning systems. LU-GPR allows e",
+      "published": "2026-09-15T17:03:11Z",
+      "authors": [
+        "Guillermo Legarda Herranz",
+        "Gianpiero Francesca",
+        "Mauro Birattari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Symmetry of the Klein-Gordon Equation under Disformal Transformations with Higher-Order Derivatives",
+      "link": "https://arxiv.org/abs/2609.17462v1",
+      "summary": "Scalar-Tensor theories extend General Relativity (GR) by including both a scalar field and a metric tensor in describing gravity. Although the matter sector is minimally coupled to the metric in GR, the scalar field coupling to matter may be adjusted by means of Disformal Transformations. One of the most general of these transformations, formulated by Takahashi, Motohashi, and Minamitsuji, include arbitrarily high-order derivatives of the scalar field and are designed to map between two ghost-fr",
+      "published": "2026-09-15T17:03:03Z",
+      "authors": [
+        "Yurev Ivan Ross B. Carag",
+        "Allan L. Alinea"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mass gap for the hierarchical sinh-Gordon model",
+      "link": "https://arxiv.org/abs/2609.17461v1",
+      "summary": "The (massless) sinh-Gordon model is defined in terms of a continuum massless Gaussian free field perturbed by a cosh interaction.   For the hierarchical version of the model, we prove existence of the infinite volume limit, a uniform log-Sobolev inequality, and a mass gap.   Our results hold for all $b^2 \\in (0,1)$ and simplify for $b^2 \\in (0,1/2)$ for which the Gaussian multiplicative chaos has two moments.   In an appendix, our renormalization group analysis is compared with the conjectures a",
+      "published": "2026-09-15T17:00:45Z",
+      "authors": [
+        "Omar Abdelghani",
+        "Roland Bauerschmidt",
+        "Michael Hofstetter",
+        "Ofer Zeitouni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Toward Ku-Band Surface Acoustic Wave Delay Lines on AlScN-on-Diamond with Decoupled Phase and Group Velocities",
+      "link": "https://arxiv.org/abs/2609.17460v1",
+      "summary": "This work reports surface acoustic wave (SAW) acoustic delay lines (ADLs) on an aluminum scandium nitride (AlScN) on diamond platform operating in the X band and approaching the Ku band. The large acoustic-velocity contrast between the AlScN film and the diamond substrate produces a strongly dispersive Sezawa branch that decouples the phase velocity from the group velocity. Delay lines with a 1 $μ$m wavelength show a Sezawa passband at 9.55 GHz with a fractional bandwidth of 1.05%, a propagation",
+      "published": "2026-09-15T17:00:42Z",
+      "authors": [
+        "Tzu-Hsuan Hsu",
+        "Kapil Saha",
+        "Yuchen Ma",
+        "Vakhtang Chulukhadze",
+        "Pietro Simeoni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Angle-of-Arrival Determination of Radio-Frequency Fields Using Stark-Shifted Rydberg-EIT Spectra",
+      "link": "https://arxiv.org/abs/2609.17459v1",
+      "summary": "We demonstrate a method for determining the magnitude of the angle of arrival (AoA) of a linearly polarized radio-frequency (RF) field using the angle-dependent spectral amplitudes of AC Stark-shifted electromagnetically induced transparency (EIT) resonances. An off-resonant RF field produces distinct Stark shifts of the $|m_J|$ sublevels, while their relative excitation strengths depend strongly on the relative orientation of the RF and optical polarizations. Under the controlled polarization g",
+      "published": "2026-09-15T16:59:54Z",
+      "authors": [
+        "Rajavardhan Talashila",
+        "Zoya Popovic",
+        "Nikunjkumar Prajapati",
+        "Noah Schlossberger",
+        "Christopher L. Holloway"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tables Decoded: DELTA for Structure, TARQA for Understanding",
+      "link": "https://arxiv.org/abs/2609.17458v1",
+      "summary": "Table understanding is a core task in document intelligence, encompassing two key subtasks: table reconstruction and table visual question answering (TabVQA). While recent approaches predominantly rely on vision- language models (VLMs) operating on table images, we propose a more scalable and effective alternative based on structured textual representations. These representations are easier to process, align more naturally with LLMs, and eliminate the need for language-specific visual encoders, ",
+      "published": "2026-09-15T16:59:42Z",
+      "authors": [
+        "Jahanvi Rajput",
+        "Dhruv Kudale",
+        "Saikiran Kasturi",
+        "Utkarsh Verma",
+        "Ganesh Ramakrishnan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Arithmetic Gadget, Two Problems",
+      "link": "https://arxiv.org/abs/2609.17453v1",
+      "summary": "There is an absolute constant $c>0$ such that, for every $0<\\varepsilon\\leq1$, arbitrarily large finite sets $A\\subset\\mathbb{C}$ satisfy \\[   |A+A|\\leq |A|^{1+\\varepsilon},\\qquad   |AA|\\leq |A|^{2-c\\varepsilon},\\qquad   ν_1(A)\\geq |A|^{1+c\\varepsilon}, \\] where $ν_1(A)$ counts unordered unit-distance pairs. We combine the arithmetic directions from the recent unit-distance construction with the multiplicative enlargement used in the recent sum-product construction. The arithmetic ingredients ar",
+      "published": "2026-09-15T16:56:02Z",
+      "authors": [
+        "Jozsef Solymosi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast, optimal readout of a tethered optomechanical pressure sensor",
+      "link": "https://arxiv.org/abs/2609.17452v1",
+      "summary": "We demonstrate a fast readout method for tethered optomechanical pressure sensors. The fast readout method allows mechanical ring-down measurement rates that exceed the total mechanical damping rate $Γ_t$. We model the uncertainty of our ring-down measurements with the Cramér-Rao bound, including the effect of thermomechanical noise. Both our data and the Cramér-Rao bound indicate that measurement rates on the order of the mechanical damping rate produce the lowest uncertainty. At low pressures,",
+      "published": "2026-09-15T16:55:19Z",
+      "authors": [
+        "Stephen R. Chen",
+        "Yiliang Bao",
+        "John R. Lawall",
+        "Jason J. Gorman",
+        "Daniel S. Barker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis",
+      "link": "https://arxiv.org/abs/2609.17450v1",
+      "summary": "Novel-view synthesis from a single image is a fundamentally ambiguous problem. As the camera moves away from the input viewpoint, previously hidden regions become visible, exposing missing geometry and holes in the reconstructed scene. Existing methods often rely on generative models to complete such regions. However, many of these artifacts are small gaps near depth boundaries and do not require generating new scene content.   In order to eliminate expensive process of generating image we intro",
+      "published": "2026-09-15T16:53:54Z",
+      "authors": [
+        "Weronika Jakubowska",
+        "Maciej Zięba",
+        "Przemysław Spurek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the relaxation dynamics of non-equilibrium quantum systems",
+      "link": "https://arxiv.org/abs/2609.17447v1",
+      "summary": "We investigate the relaxation of an approximately conserved charge in interacting quantum systems close to local equilibrium. To this end, we provide a pedagogical review of Zubarev's non-equilibrium statistical operator approach in the minimal setting of a single non-conserved charge and apply it to the problem at hand. We explicitly highlight the physical assumptions that lead to a local relaxation law: weak charge violation, a separation between the short timescale of microscopic correlations",
+      "published": "2026-09-15T16:52:27Z",
+      "authors": [
+        "Matthias Carosi",
+        "Björn Garbrecht",
+        "Silvia Pla",
+        "Nils Wagner",
+        "Edward Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Graphlets as structural fingerprints of complex networks",
+      "link": "https://arxiv.org/abs/2609.17445v1",
+      "summary": "Complex networks are often compared using selected graph-theoretical measures that capture a selected set of properties with effects ranging from local to global, such as degree, clustering or betweenness centrality. Here we introduce a structural fingerprinting framework based on graphlets: small rooted subgraphs whose distributions provide a systematic description of local-to-mesoscale topology. Across synthetic networks generated from several random graph models, graphlet fingerprints capture",
+      "published": "2026-09-15T16:51:44Z",
+      "authors": [
+        "Anna Pidnebesna",
+        "David Hartman",
+        "Aneta Pokorna",
+        "Daniel Trlifaj",
+        "Jaroslav Hlinka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
+      "link": "https://arxiv.org/abs/2609.17443v1",
+      "summary": "Vision-language models (VLMs) achieve strong visual question answering (VQA) performance, but processing large cluttered images is computationally expensive when only a small region is relevant. Electroencephalography (EEG) signals, which capture human neural responses to visual stimuli, can provide a human-derived semantic cue about the region of interest (ROI). However, EEG-guided visual category decoding remains imperfect, making direct ROI routing unreliable. In this work, we propose BrainFo",
+      "published": "2026-09-15T16:51:13Z",
+      "authors": [
+        "Yihui Peng",
+        "Guorui Lu",
+        "Qinyu Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Overlap structure of mixed even $p$-spin models",
+      "link": "https://arxiv.org/abs/2609.17442v1",
+      "summary": "We identify the limiting overlap structure of mixed even $p$-spin models, including the Sherrington-Kirkpatrick model, at every fixed deterministic external field. In particular, we show that the disorder-averaged distribution of the overlap, or its absolute value at zero field, converges to the Parisi measure. We identify the full limiting array using the overlap array of the associated Ruelle probability cascade. We also establish the corresponding Ghirlanda-Guerra identities and determine the",
+      "published": "2026-09-15T16:51:00Z",
+      "authors": [
+        "P. M. Aronow",
+        "Patrick Lopatto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reduced-Space Multi-Fidelity Bayesian Optimization of Process Simulation Models",
+      "link": "https://arxiv.org/abs/2609.17440v1",
+      "summary": "Optimizing industrial process flowsheets is often computationally prohibitive due to the high cost of rigorous simulations and the curse of dimensionality inherent in complex design spaces. To address these challenges, we present a reduced-space multi-fidelity Bayesian optimization (RS-MFBO) framework designed for high-dimensional, expensive black-box functions. The approach integrates Global Sensitivity Analysis (GSA) for dimensionality reduction with a fidelity-augmented Gaussian process that ",
+      "published": "2026-09-15T16:46:51Z",
+      "authors": [
+        "Niki Triantafyllou",
+        "Andrea Bernardi",
+        "Maria M. Papathanasiou"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
