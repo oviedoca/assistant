@@ -1,0 +1,629 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+      "link": "https://arxiv.org/abs/2609.19145v1",
+      "summary": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down pruning). Existing comparisons confound these axes, making it unclear whether their observed differences stem from what is being optimised vs. how it is being optimised. We disentangle the two by introducing two new tokenisati",
+      "published": "2026-09-16T17:59:45Z",
+      "authors": [
+        "Ahmetcan Yavuz",
+        "Clara Meister",
+        "Tiago Pimentel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "link": "https://arxiv.org/abs/2609.19144v1",
+      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margins. In this paper, we propose and analyze Comparison-based Preference Optimization (ComPO), a zeroth-order alignment method based on comparison oracles. ComPO extracts directional information from thes",
+      "published": "2026-09-16T17:59:35Z",
+      "authors": [
+        "Peter Chen",
+        "Xi Chen",
+        "Wotao Yin",
+        "Tianyi Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "link": "https://arxiv.org/abs/2609.19143v1",
+      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that combine dense captioning with pixel-level grounding often produce either incomplete descriptions or inaccurate segmentation masks. We study this problem through panoptic grounded captioning, a task tha",
+      "published": "2026-09-16T17:59:30Z",
+      "authors": [
+        "Sara Pieri",
+        "Evangelos Kazakos",
+        "Shizhe Chen",
+        "Josef Sivic",
+        "Cordelia Schmid"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+      "link": "https://arxiv.org/abs/2609.19142v1",
+      "summary": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-conditioned 3D dynamics, which excludes web video data from the training pool. We study 3D point track completion as a pre-training objective for learning transferable 3D dynamics without robot data. Given ",
+      "published": "2026-09-16T17:59:30Z",
+      "authors": [
+        "Bardienus P. Duisterhof",
+        "Kaifeng Zhang",
+        "Adam Hung",
+        "Bowen Wen",
+        "Stan Birchfield"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Period-Inverted Blast-Radius Normalization for a Non-Ablating Hypersonic Reentry Source Using OSIRIS-REx Capsule Infrasound",
+      "link": "https://arxiv.org/abs/2609.19141v1",
+      "summary": "Cylindrical blast wave theory relates infrasound from hypersonic sources to energy deposition through a characteristic blast radius R_0, yet the normalization constant k in the scaling R_0 = k (E_0/p_0)^(1/2) differs by up to 40% across the formulations examined here. This uncertainty affects period-based source characterization for elevated atmospheric sources relevant to infrasound monitoring. Using infrasound from the OSIRIS-REx Sample Return Capsule reentry on 24 September 2023, observed per",
+      "published": "2026-09-16T17:59:24Z",
+      "authors": [
+        "Elizabeth A. Silber"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination",
+      "link": "https://arxiv.org/abs/2609.19140v1",
+      "summary": "AI agents for security inspect web pages, source code, logs, configuration files, and command outputs. These environments may contain deceptive artifacts that influence the agent's behavior. We call this adversarial task contamination. Whereas prompt injection relies on attacker-supplied instructions, task contamination also includes non-instructional evidence, such as fake results and decoy endpoints. We present AgentLSD, a controlled framework for studying adversarial task contamination. Agent",
+      "published": "2026-09-16T17:58:55Z",
+      "authors": [
+        "Matteo Golinelli",
+        "Idilio Drago",
+        "Matteo Boffa",
+        "Francesco Bergadano",
+        "Bruno Crispo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment",
+      "link": "https://arxiv.org/abs/2609.19139v1",
+      "summary": "Rapid medical triage following ionizing radiation exposure is critical for emergency management, yet traditional alignment-based bioinformatics are too computationally intensive for mass-casualty scenarios. To address this, we developed STUART (Sequence Triage and qUAntification of Read Transcripts), a mapping-free machine learning framework optimized for mobile biological dosimetry. Inspired by Natural Language Processing (NLP), the system converts raw sequencing reads into k-mer-based numerica",
+      "published": "2026-09-16T17:58:48Z",
+      "authors": [
+        "Tomasz Strzoda",
+        "Lourdes Cruz-Garcia",
+        "Mustafa Najim",
+        "Christophe Badie",
+        "Joanna Polanska"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "In-Context Robot Learning with VLM Agents",
+      "link": "https://arxiv.org/abs/2609.19138v1",
+      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such in-context learning (ICL), however, remains largely beyond the reach of existing robotic policies. The broad agentic capabilities of commercial vision-language models (VLMs), such as GPT-6 Astra, rai",
+      "published": "2026-09-16T17:58:35Z",
+      "authors": [
+        "Dongzhou Cheng",
+        "Taoran Yi",
+        "Ye Fang",
+        "Xingwu Zhang",
+        "Fan Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "link": "https://arxiv.org/abs/2609.19137v1",
+      "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appropriate contact forces are essential for success. In this work, we explore augmenting generated video with audio to shape a bounded, time-varying desired-force profile using the loudness of generated contact sounds. We present a pipeline that jointly ",
+      "published": "2026-09-16T17:56:44Z",
+      "authors": [
+        "Guanhua Ji",
+        "Tianyu Li",
+        "Dayoon Suh",
+        "Yuqian Zhang",
+        "Boyan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Maximum Matching Size for Bounded Arboricity Graphs in the Dynamic Graph Stream Model using $\\tilde{O}(n^{2/3})$ space",
+      "link": "https://arxiv.org/abs/2609.19136v1",
+      "summary": "The paper presents a one-pass algorithm in the insert-delete graph stream model that returns a $(1+\\varepsilon)(α+2)$-approximation for the size of the maximum matching in a graph of arboricity at most $α$. The algorithm uses $O(\\varepsilon^{-4/3}α^{4/3}n^{2/3} \\text{polylog} n)$ space. For constant $α$ and $\\varepsilon$, this improves the best known previous space bound from $O(n^{4/5} \\text{polylog} n)$ to $O(n^{2/3} \\text{polylog} n)$. The algorithm is a linear sketch and requires no bounds o",
+      "published": "2026-09-16T17:56:37Z",
+      "authors": [
+        "Andrew McGregor"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "link": "https://arxiv.org/abs/2609.19135v1",
+      "summary": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a common logger with three memory states. Action coverage, belief coverage, and two behavior-marginal outcome-revealing conditions all have constants independent of $H$. Nevertheless, evaluating a know",
+      "published": "2026-09-16T17:56:12Z",
+      "authors": [
+        "Pranaya Jajoo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "link": "https://arxiv.org/abs/2609.19134v1",
+      "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the scientific experience bottleneck. We introduce ScienceIDE, infrastructure for turning the world's scientific code into programmable environments for scientific agents. Guided by expert-defined scientific",
+      "published": "2026-09-16T17:55:47Z",
+      "authors": [
+        "Hejia Geng",
+        "Zesen Huang",
+        "Haoyang Li",
+        "Wenbin Li",
+        "Koutian Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Updated Model for Epsilon Eridani b and Prospects for Imaging with the Roman Coronagraph",
+      "link": "https://arxiv.org/abs/2609.19131v1",
+      "summary": "Epsilon Eridani b, the nearest known Jupiter analog, has its orbit and mass constrained from radial velocity (RV) and absolute astrometry, and its atmosphere from JWST/NIRCam imaging upper limits in Sanghi et al. 2026. Here we follow up that work with a self-consistent model of Epsilon Eridani b that treats all available data within a single Bayesian framework. We extend the RV data with new measurements, update the treatment of the astrometry data with a new model, and include the NIRCam observ",
+      "published": "2026-09-16T17:51:25Z",
+      "authors": [
+        "Jorge Llop-Sayson",
+        "Andre Fogal",
+        "James Mang",
+        "William Thompson",
+        "Clarissa R. Do 'O"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "IB-Flows: an open-source multi-GPU immersed boundary code for fluid-structure interaction",
+      "link": "https://arxiv.org/abs/2609.19130v1",
+      "summary": "We present IB-Flows, an open-source, multi-GPU solver for the direct numerical simulation of incompressible fluid-structure interaction (FSI) problems. The code couples a second-order finite-difference fractional-step Navier-Stokes solver on a staggered Cartesian grid with two immersed boundary methods: a Lagrangian method based on moving least-squares (MLS) interpolation and an Eulerian sharp-interface method. Rigid bodies are advanced with a quaternion-based Newton-Euler solver, while deformab",
+      "published": "2026-09-16T17:51:05Z",
+      "authors": [
+        "Giovanni Vagnoli",
+        "Martino Andrea Scarpolini",
+        "Fabio Guglietta",
+        "Joshua Romero",
+        "Massimiliano Fatica"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+      "link": "https://arxiv.org/abs/2609.19128v1",
+      "summary": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that combines a fast action proposer with a slower planner, using two modular cognitive extensions: an Adaptive Memory Module (AMM) for salience-gated episodic storage and trigger-driven retrieval, and a Self-Reflection Module (SRM) for bounded execution-time validation and corrective inte",
+      "published": "2026-09-16T17:50:42Z",
+      "authors": [
+        "João Meneses dos Santos",
+        "Arlindo L. Oliveira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EarStreAM: A Closed-Loop Earable System for Personalized Stress-Adaptive Meditation",
+      "link": "https://arxiv.org/abs/2609.19127v1",
+      "summary": "We present EarStreAM, a closed-loop earable system for stress-adaptive meditation that integrates in-ear physiological sensing with personalized, real-time intervention. Leveraging OpenEarable 2.0's multimodal sensing, EarStreAM continuously monitors physiological signals and detects elevated stress from heart rate and heart rate variability. Upon detection, the system initiates a personalized guided meditation generated by an LLM and adapted in real time to the user's stress state. The demo off",
+      "published": "2026-09-16T17:46:50Z",
+      "authors": [
+        "Jonas Hummel",
+        "Luisa Faust",
+        "Elias Müller",
+        "Eva Bertog",
+        "Valeria Zitz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+      "link": "https://arxiv.org/abs/2609.19124v1",
+      "summary": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and mechanistic understanding is crucial for collective alignment. To this end, we introduce the Flag Game, a toy model for studying the mechanisms of collective belief formation. Concretely, a hidden country flag defines the ground truth, and each bounded agent directly observes only a private crop but c",
+      "published": "2026-09-16T17:46:06Z",
+      "authors": [
+        "Elizabeth Pavlova",
+        "Hidenori Tanaka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Track, Articulate, Act: Generating Articulation from Casual Human Videos",
+      "link": "https://arxiv.org/abs/2609.19119v1",
+      "summary": "Human videos contain rich causal evidence for robot manipulation: they reveal how hand motion induces object motion and produces task-relevant changes in object state. In this work, we study articulated objects such as doors, drawers, cabinets, laptops, ovens, and hinged containers that are ubiquitous in daily life and present unique challenges for embodied interaction. These objects cannot be represented by a single pose; their motion depends on the underlying parts and joints. We introduce a r",
+      "published": "2026-09-16T17:43:12Z",
+      "authors": [
+        "Jiaming Zhang",
+        "Homanga Bharadhwaj"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Strong Matroid Secretary Conjecture and Beyond",
+      "link": "https://arxiv.org/abs/2609.19118v1",
+      "summary": "The strong matroid secretary conjecture asserts that every matroid admits a $1/e$-competitive secretary algorithm, matching the classical single-choice guarantee. We formulate a finite linear program whose value is the optimal ordinal competitive ratio of any fixed matroid; for all matroids of positive rank on seven elements and nearly all on eight, this value exceeds $1/e$. The same computations suggested that the optimal ratio is monotone under truncation of the matroid; we prove this for unif",
+      "published": "2026-09-16T17:43:06Z",
+      "authors": [
+        "Hamed Abdi",
+        "Kiarash Banihashem",
+        "MohammadTaghi Hajiaghayi",
+        "Danny Mittal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Floquet-Plasmon Enhanced Charge Transfer at Catalytic Interfaces",
+      "link": "https://arxiv.org/abs/2609.19117v1",
+      "summary": "Plasmonic excitation of metallic nanostructures can generate energetic carriers capable of transferring charge into nearby adsorbed molecules, providing a possible pathway for driving chemical transformations. In many theoretical descriptions of this process, charge transfer is determined by the equilibrium electronic structure of the molecule and substrate together with the time-dependent carrier distribution produced during plasmon decay. However, the intense transient electric fields associat",
+      "published": "2026-09-16T17:43:02Z",
+      "authors": [
+        "Annabelle Canestraight",
+        "Phillip Christopher",
+        "Vojtech Vlcek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hamiltonicity in graphs defined by primes and primitive elements",
+      "link": "https://arxiv.org/abs/2609.19114v1",
+      "summary": "A prime circle of order $2n$ is a circular ordering of $1,\\ldots,2n$ such that the sum of every two adjacent terms is prime. We prove that a prime circle exists for every sufficiently large $n$. The proof is based on a perfect matching and robust expansion. We also study Hamilton cycles in graphs and digraphs defined by primitive sums and differences over finite fields. In particular, the primitive-sum graph on $\\F_q$ is Hamiltonian for every prime power $q>18\\,888\\,871$, and for the graph on a ",
+      "published": "2026-09-16T17:41:23Z",
+      "authors": [
+        "Yue-Feng She"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
+      "link": "https://arxiv.org/abs/2609.19113v1",
+      "summary": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ yes/no questions. An answerer sees only the target and the question, and replies with one word. Both roles run on the same provider, so the game measures how well a model communicates with itself across an information asymmetry. We run 408 games over document sets of 4 to 1024 paragraphs at a total ",
+      "published": "2026-09-16T17:41:12Z",
+      "authors": [
+        "Peter Potash"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analog Pin Directionality as an Exfiltration Attack Surface in Mixed-Signal ICs",
+      "link": "https://arxiv.org/abs/2609.19111v1",
+      "summary": "Mixed-signal SoCs rely on nominally input-only analog pins to acquire off-chip signals, but the directionality of these interfaces is generally treated as a functional property rather than explicitly verified as a security property. This work identifies and experimentally demonstrates a directionality-based class of analog and mixed-signal (AMS) exfiltration attacks in which data-dependent circuit-offset modulation converts a nominally input-only pin into an outbound information channel. We anal",
+      "published": "2026-09-16T17:39:26Z",
+      "authors": [
+        "Ramana Ranganatham",
+        "Chirag Adiga",
+        "Michael Zuzak",
+        "Tejasvi Das"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RECaST-Surv: A Calibrated Borrowing Method for Survival Endpoints in Unequal Randomized Trials",
+      "link": "https://arxiv.org/abs/2609.19109v1",
+      "summary": "Randomized trials with limited concurrent control information---including but not limited to unequal-randomization settings---can offer ethical and practical advantages, especially in pediatric and rare diseases, but they often lose power because fewer control patients are available for direct comparison. Borrowing information from external controls may improve efficiency, but can also inflate the Type I error rate when the external and trial populations are not sufficiently comparable. We propo",
+      "published": "2026-09-16T17:38:26Z",
+      "authors": [
+        "Dehua Bi",
+        "Arlina Shen",
+        "Ruben P. A. van Eijk",
+        "Lu Tian",
+        "Jiapeng Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Radiation-Driven Magnetic Fields in Sub-Keplerian Accretion Flows: An Alternative to MRI",
+      "link": "https://arxiv.org/abs/2609.19108v1",
+      "summary": "Large scale magnetic fields play a crucial role in shaping the dynamics and structure of the inner parts of accretion disks and the resulting jets from the vicinity of black holes and neutron stars. Currently, the primary mechanism considered for generating and amplifying large scale magnetic fields in accretion disks is the magneto-rotational instability (MRI). Here we show that non-conservative radiation fields provide a rapid and independent mechanism for generating and amplifying magnetic fi",
+      "published": "2026-09-16T17:37:56Z",
+      "authors": [
+        "Mukesh Kumar Vyas",
+        "Asaf Pe'er"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents",
+      "link": "https://arxiv.org/abs/2609.19107v1",
+      "summary": "Scaling laws predict how loss decreases with increases in computation. We show, contrary to conventional wisdom, that architectural interventions can modify scaling exponents in pre-training, leading to exponential improvements in performance with increases in computation. As an anchoring point, we consider the architectural formulation of looped transformers. Although not typically used in this way, looping, also known as recursive depth, provides a mechanism for model growth, by increasing the",
+      "published": "2026-09-16T17:36:13Z",
+      "authors": [
+        "Zixi Chen",
+        "Akshay Vegesna",
+        "Samip Dahal",
+        "Andrew Gordon Wilson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Characterization of the CSST Survey Camera CCDs: I. basic electro-optical performance",
+      "link": "https://arxiv.org/abs/2609.19105v1",
+      "summary": "The Chinese Space-station Survey Telescope (CSST) is a flagship mission designed to carry out a large-area high-resolution multiband imaging and slitless spectroscopic survey over a decade. The survey's science drivers, ranging from precision cosmology to stellar astrophysics, impose stringent requirements on the performance of its focal plane detectors. This paper is the first in a series that present ground-based characterization of the 31 flight-model charge-coupled devices (CCDs) of the CSST",
+      "published": "2026-09-16T17:35:50Z",
+      "authors": [
+        "Zun Luo",
+        "Hu Zhan",
+        "Youhua Xu",
+        "Qiuyan Luo",
+        "Yuhe Song"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+      "link": "https://arxiv.org/abs/2609.19104v1",
+      "summary": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies. Vision-Language-Action (VLA) models now dominate as the policy paradigm for these robots. The inference latency of VLA models directly affects robot responsiveness and motion smoothness. However, existing VLA inference frameworks do not fully exploit the characteristics of embodied workloads or ac",
+      "published": "2026-09-16T17:34:43Z",
+      "authors": [
+        "Kaijun Zhou",
+        "Zhiyang Li",
+        "Le Chen",
+        "Jinyu Gu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+      "link": "https://arxiv.org/abs/2609.19101v1",
+      "summary": "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented internally in frontier open source LLMs, and how those representations can be used to understand and discover the range of hacking behaviors a model displays. In particular, we find that simple difference of means vectors coherently represent reward hacking in Kimi K3, GLM 5.2, and Qwen",
+      "published": "2026-09-16T17:31:52Z",
+      "authors": [
+        "Leon Bergen",
+        "Usha Bhalla",
+        "Andrew Lee",
+        "Barak Widawsky",
+        "Linas Nasvytis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Characterizing Network Centralization and Observability in the Remote MCP Ecosystem",
+      "link": "https://arxiv.org/abs/2609.19100v1",
+      "summary": "The Model Context Protocol (MCP) has emerged as the dominant interface for connecting autonomous agents to external data sources and execution environments. The ecosystem's transition from local process execution to remote Streamable HTTP deployments introduces unmeasured architectural and security constraints at scale. This paper presents a three-tier observability framework comprising catalog metadata (O_0), passive compliance signals (O_1), and live vulnerability analysis (O_2), applied to em",
+      "published": "2026-09-16T17:31:46Z",
+      "authors": [
+        "Muhammad Abdullah Sohail"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory",
+      "link": "https://arxiv.org/abs/2609.19099v1",
+      "summary": "Self-emulsifying drug delivery systems (SEDDS) can improve the oral bioavailability of poorly soluble drugs, but identifying high-performing formulations remains experimentally intensive. We present Andromeda 2, an agentic system that reasons over structured in-house experimental evidence and invokes computational and experimental tools to design and execute successive formulation batches. Using a miniaturized automated laboratory at a matched budget, we benchmark it against Andromeda 1, a proba",
+      "published": "2026-09-16T17:31:27Z",
+      "authors": [
+        "Michael M. Craig",
+        "Riley J. Hickman",
+        "Yingshan Ma",
+        "Rémi Piché-Taillefer",
+        "Christine Allen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Auxiliary Codes and the Generalized Packing-Covering Conjecture",
+      "link": "https://arxiv.org/abs/2609.19098v1",
+      "summary": "The generalized packing--covering conjecture asks whether, at every order, the packing radius of a linear code is at most its covering radius. We prove the conjecture for every linear code of redundancy at most fourteen over every finite field, extending the previously established redundancy-seven range. We also prove the generalized Hamming-weight bound $d_t(C)\\le2R_t(C)+1$ whenever the alphabet size $q$ satisfies $q\\ge R_t(C)$, using an auxiliary-code criterion that converts a syndrome-space c",
+      "published": "2026-09-16T17:31:03Z",
+      "authors": [
+        "Isaac Barouch Essayag",
+        "Aryeh Lev Zabokritskiy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Explicit equations of Galois subfields of Hermitian function fields with respect to decomposition groups",
+      "link": "https://arxiv.org/abs/2609.19095v1",
+      "summary": "Let $q$ be a prime power and $\\mathbb{F}_{q^2}$ be the finite fields of $q^2$ elements. The Hermitian function field $H=\\mathbb{F}_{q^2}(x,y)$ defined by $y^q+y=x^{q+1}$ is a well-known maximal function field with the largest possible genus. Let $A(P_\\infty)$ be the decomposition group of the infinity place $P_\\infty$ of $H$ which is the common pole of $x$ and $y$. For every subgroup $G\\le A(P_\\infty)$, we construct explicit generators of Galois subfield $H^G$ of $H$ with respect to $G$ and dete",
+      "published": "2026-09-16T17:29:23Z",
+      "authors": [
+        "Liming Ma",
+        "Yipeng Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
+      "link": "https://arxiv.org/abs/2609.19093v1",
+      "summary": "Radiologists follow heterogeneous reporting practices. Two radiologists examining the same image and identifying the same clinical findings might nevertheless compose superficially distinct reports, varying in terminology, shorthand, formatting, and level of detail. These variations in reporting norms represent an under-appreciated obstacle in efforts to evaluate AI-based radiology report generation (RRG) models, where machine-generated reports are typically assessed based on their concordance w",
+      "published": "2026-09-16T17:28:51Z",
+      "authors": [
+        "Daniel P. Jeong",
+        "Charles Q. Li",
+        "Hossein Hosseiny",
+        "Nitya M. Bhalla",
+        "Fatma Uyar Morency"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Agents Look Like Beacons: NIDS Evasion by Model Context Protocol Traffic",
+      "link": "https://arxiv.org/abs/2609.19091v1",
+      "summary": "The Model Context Protocol (MCP) standardizes communication between autonomous Artificial Intelligence (AI) agents and remote tools over Streamable HTTP. This shift introduces a class of machine-generated, authenticated, and high-frequency JSON-RPC traffic directly into enterprise networks. Enterprise network defenders have historically relied on machine-like cadence as an Indicator of Compromise (IoC). In this study, we show that without explicit network-layer indication, MCP traffic structural",
+      "published": "2026-09-16T17:27:42Z",
+      "authors": [
+        "Muhammad Abdullah Sohail"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Near-Optimal Space Lower Bound for Euclidean Diameter Estimation in Dynamic Streams",
+      "link": "https://arxiv.org/abs/2609.19089v1",
+      "summary": "We study the space complexity of diameter estimation for a set of points in Euclidean space in the dynamic (turnstile) streaming model. The seminal work of Indyk (SODA 2003) gives a $c$-approximation to the Euclidean diameter of $n$ vectors using $n^{O(1/c^2)}$ space. Our main contribution is giving an essentially matching lower bound. Any dynamic streaming algorithm which can $c$-approximate the diameter of $n$ Euclidean vectors must use $n^{\\tildeΩ(1/c^2)}$ space.",
+      "published": "2026-09-16T17:26:50Z",
+      "authors": [
+        "Ashwin Padaki",
+        "Krish Singal",
+        "Erik Waingarten"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
+      "link": "https://arxiv.org/abs/2609.19088v1",
+      "summary": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must interpret artistic imagery, understand its semantic, affective, and cultural content, and reason about visual context to support meaningful interaction. However, existing benchmarks primarily focus on real-world images or domain-specific educational reasoning, providing limited co",
+      "published": "2026-09-16T17:26:10Z",
+      "authors": [
+        "Luyao Zhu",
+        "Xun Wei Yee",
+        "Wei Li",
+        "Mun Thye Mak",
+        "Wee Siong Ng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Pretrends: A Discordance-Based Sensitivity Analysis for Difference-in-Differences",
+      "link": "https://arxiv.org/abs/2609.19081v1",
+      "summary": "In the canonical Difference-in-Differences design, the control group's post-treatment change serves as an imputation of the treated group's counterfactual change in the same period, an imputation justified by parallel trends. However, differences in group composition can produce between-group differences in how outcomes would evolve over time, rendering this imputation vulnerable to confounding. An alternative imputation -- such as one based on the treated group's pre-treatment change -- avoids ",
+      "published": "2026-09-16T17:22:15Z",
+      "authors": [
+        "Thomas Leavitt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Probabilistic Linear Explanations",
+      "link": "https://arxiv.org/abs/2609.19077v1",
+      "summary": "Formal explainability provides mathematically grounded justifications for individual predictions. However, abductive explanations often exceed human cognitive limits by involving too many features, while probabilistic relaxations have remained largely limited to categorical classification. We present a unified framework for probabilistic explainability based on sparse, anchored linear models, applicable to both binary classification and continuous regression. By mapping instances to the Boolean ",
+      "published": "2026-09-16T17:18:00Z",
+      "authors": [
+        "Frederic Koriche",
+        "Jean-Marie Lagniez",
+        "Chi Tran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Double descent is the principle of least action",
+      "link": "https://arxiv.org/abs/2609.19076v1",
+      "summary": "The test error of a model plotted against its number of parameters $d$ falls, peaks when the model can just fit the training data, and falls again, exhibiting the double descent phenomenon. We explain the phenomenon with statistical mechanics. The training trajectory of a stochastic gradient-based method is a particle wandering over the energy landscape of the training loss at an induced temperature $T$, and a run that has equilibrated visits every parameter vector of a given training loss equal",
+      "published": "2026-09-16T17:17:46Z",
+      "authors": [
+        "Congzhou M Sha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When duality changes the poles: $SL(2,\\mathbb{Z})$ transformations of linear response EFTs",
+      "link": "https://arxiv.org/abs/2609.19075v1",
+      "summary": "We study how $SL(2,\\mathbb Z)$ transformations act on pole-truncated linear-response effective theories in $(2+1)$ dimensions. For correlators meromorphic within a finite low-frequency domain, the EFT data include both derivative-expanded transport coefficients and the retained non-hydrodynamic poles. Since the $S$-trans\\-for\\-mation inverts the optical conductivity and exchanges its poles and zeros, it does not necessarily commute with the infrared truncation. We derive explicit maps for static",
+      "published": "2026-09-16T17:17:00Z",
+      "authors": [
+        "Andrea Amoretti",
+        "Daniel K. Brattan",
+        "Jonas Rongen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MightyPPL : Towards model checking MTL",
+      "link": "https://arxiv.org/abs/2609.19073v1",
+      "summary": "The theoretical foundation for model checking timed systems against Metric Interval Temporal Logic (MITL) was established in the early 1990s, yet the first practical tool supporting future MITL (MightyL) did not emerge until 2017. Recently, there has been growing interest in extending this toolchain to support more expressive logical operators, including past modalities, Pnueli modalities, and limited use of singular intervals. MightyPPL is one such toolchain. We introduce an upgraded version of",
+      "published": "2026-09-16T17:15:19Z",
+      "authors": [
+        "Hsi-Ming Ho",
+        "Shankara Narayanan Krishna",
+        "Khushraj Madnani",
+        "Rupak Majumdar",
+        "Paritosh Pandya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs",
+      "link": "https://arxiv.org/abs/2609.18935v1",
+      "summary": "A game character should not have to reread its entire life before every conversation. For locally deployed language-model characters, however, revising a few memories can invalidate a long reusable prefix. The resulting preparation cost competes with both foreground dialogue and the maintenance of other characters. This matters especially when dialogue feeds game-defined actions and value judgments: a fluent but incorrect account of who owns an item, or whether a transfer has already happened, c",
+      "published": "2026-09-16T17:09:05Z",
+      "authors": [
+        "Zimu Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Oscillating dynamo models with a time-nonlocal $α$ effect",
+      "link": "https://arxiv.org/abs/2609.18933v1",
+      "summary": "The traditional $α$ effect is extended by the first temporal derivative, so that in turbulent flows the magnetic field entering the induction process is effectively sampled in the past. As a consequence, dynamo excitation becomes easier and cycle times are prolonged relative to solutions obtained from the local standard formulation. The temporal shape of the magnetic cycles is also modified, with rise times becoming shorter than decline times, so that the profiles acquire a characteristic ``sawt",
+      "published": "2026-09-16T17:08:59Z",
+      "authors": [
+        "Günther Rüdiger",
+        "Manfred Schultz",
+        "Alfio Bonanno"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Replication-Aware Placement of Functions and Data in the Edge-Cloud Continuum",
+      "link": "https://arxiv.org/abs/2609.18932v1",
+      "summary": "Function-as-a-Service (FaaS) has emerged as the prominent programming model for the edge-cloud continuum. FaaS inherently decouples stateless functions from their persistent state. We study how to jointly schedule functions and place data to minimize client latency, considering data replication under heterogeneous consistency requirements. We introduce a Binary Linear Programming (BLP) model to compute optimal placements, establishing a rigorous theoretical baseline. Since the BLP scales cubical",
+      "published": "2026-09-16T17:07:55Z",
+      "authors": [
+        "Dario d'Abate",
+        "Matteo Cenzato",
+        "Matteo Briscini",
+        "Arianna Dragoni",
+        "Alessandro Margara"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Numerical Simulation of Transdermal Insulin Delivery Using a Coated Microneedle in a 2D Skin Model",
+      "link": "https://arxiv.org/abs/2609.18931v1",
+      "summary": "In this work, we present a computational model to investigate transdermal insulin delivery using coated microneedles. A detailed skin geometry incorporating a coated microneedles was developed to analyze insulin release through the different skin layers and to evaluate the influence of key transport parameters. The model represents the major skin layers: the stratum corneum, viable epidermis, and dermis. Unstructured grids were used to achieve a reliable resolution of the model. The simulations ",
+      "published": "2026-09-16T17:07:26Z",
+      "authors": [
+        "Milana Tesfamarian",
+        "Michael Heisig",
+        "Gabriel Wittum",
+        "Rolf Krause"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning Holistic Whole-Body Loco-Manipulation with a Bipedal Mobile Manipulator",
+      "link": "https://arxiv.org/abs/2609.18930v1",
+      "summary": "Bipedal loco-manipulation enables robots to interact with objects beyond the nominal workspace of their arms by coordinating locomotion and manipulation. Realizing this capability requires a low-level whole-body controller that translates task-level manipulation goals into coordinated arm and leg motions while maintaining balance. We present a unified whole-body controller trained with reinforcement learning that directly maps 6-DoF end-effector targets to coordinated actions for the bipedal bas",
+      "published": "2026-09-16T17:05:32Z",
+      "authors": [
+        "Zhongyu Chen",
+        "Yuxuan Nai",
+        "Qian Chen",
+        "Yidong Zhu",
+        "Chen Jing"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comprehensive reconstruction of collider events with hypergraph representation learning and graph-conditioned diffusion",
+      "link": "https://arxiv.org/abs/2609.18928v1",
+      "summary": "In particle collider experiments, event reconstruction is the task of inferring the kinematics of short-lived particles produced in the hard scatter from the stable final states recorded by detectors. We decompose event reconstruction into two primary tasks: assigning measured jets and charged leptons to parent particles, and predicting unmeasured neutrino kinematics. We present VyPER, a novel geometric learning framework that represents collider events as hypergraphs with a physics-inspired top",
+      "published": "2026-09-16T17:03:37Z",
+      "authors": [
+        "Lining Mao",
+        "Yvonne Peters",
+        "Ethan Simpson",
+        "Zihan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Geometry-Controlled Relaxation Spectra in Viscoelastic Fluids",
+      "link": "https://arxiv.org/abs/2609.18926v1",
+      "summary": "Soft materials store, dissipate and release mechanical stresses through relaxation processes that often span many orders of magnitude in time. Such relaxation spectra are widely used to infer internal material dynamics and are usually regarded as fingerprints of microscopic complexity, disorder, or heterogeneity. Here we show that a broad relaxation spectrum can instead be generated by the geometry of mechanical excitation itself. Using rotationally driven colloidal dimers in a wormlike micellar",
+      "published": "2026-09-16T17:00:47Z",
+      "authors": [
+        "Niloyendu Roy",
+        "Rupayan Saha",
+        "Debankur Das",
+        "Matthias Krüger",
+        "Clemens Bechinger"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ermes: a Stateful Serverless Platform for the Edge-to-Cloud Continuum",
+      "link": "https://arxiv.org/abs/2609.18924v1",
+      "summary": "Function-as-a-Service (FaaS) is a widely adopted paradigm to simplify application deployment across the edge-to-cloud continuum. However, its stateless nature forces functions to retrieve their state from external, typically cloud-centric, data stores, reintroducing the very latency that edge computing aims to eliminate. This issue is further exacerbated by location-agnostic schedulers and rigid, one-size-fits-all consistency models that fail to capture the diverse requirements of edge applicati",
+      "published": "2026-09-16T16:59:33Z",
+      "authors": [
+        "Matteo Cenzato",
+        "Dario d'Abate",
+        "Arianna Dragoni",
+        "Giacomo Orsenigo",
+        "Luca Tosetti"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
