@@ -1,0 +1,637 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "link": "https://arxiv.org/abs/2609.22086v1",
+      "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design software through more than 230 tools, while an external procedural memory of natural-language skills accumulates and refines reusable design procedures from experience. The memory widens by acquiring ",
+      "published": "2026-09-18T17:59:56Z",
+      "authors": [
+        "Hongyang Du",
+        "Lan Yan",
+        "Christian Flores",
+        "Asim Kadav"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2609.22085v1",
+      "summary": "Despite rapid progress, generalist robot policies remain brittle on complex, long-horizon tasks that comprise multiple stages or require repeated attempts and deliberation on the same underlying stage before success. Q-value functions can improve these policies by ranking candidate actions or guiding policy improvement, but learning from sparse task-level rewards entails long credit-assignment horizons, difficult Bellman backups, and broad data-coverage requirements. We introduce SeeQ (Subtask-e",
+      "published": "2026-09-18T17:59:47Z",
+      "authors": [
+        "Saksham Singh",
+        "Zheyuan Hu",
+        "Max Sobol Mark",
+        "Jeffrey Yu",
+        "Zackory Erickson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MintAct: A Unified Visual Agent for Digital Environments",
+      "link": "https://arxiv.org/abs/2609.22083v1",
+      "summary": "We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance of per-domain specialists across all of these capabilities. To enable this, we develop a scalable environment and reinforcement learning (RL) infrastructure. On the environment side, we host hundreds",
+      "published": "2026-09-18T17:59:34Z",
+      "authors": [
+        "Mingfei Gao",
+        "Rui Tian",
+        "Haiming Gang",
+        "Bohan Zhai",
+        "Le Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
+      "link": "https://arxiv.org/abs/2609.22081v1",
+      "summary": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can facilitate large-scale accident analysis and support occupational risk prevention. However, the terminology and writing styles used to describe accidents vary considerably across sectors and organisations, raising questions about the ability of automated coding systems to generalize beyond their train",
+      "published": "2026-09-18T17:59:10Z",
+      "authors": [
+        "Aho Yapi",
+        "Pierre Latouche",
+        "Arnaud Guillin",
+        "Yan Bailly"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rotating Neutron Star Migrations as a Standardized Test for 3+1 Numerical Relativity",
+      "link": "https://arxiv.org/abs/2609.22080v1",
+      "summary": "When simulating dynamically unstable neutron stars, truncation errors can introduce perturbations that drive the stellar configuration either toward gravitational collapse into a black hole or toward migration to a dynamically stable, lower-density configuration. This mechanism has become a standard benchmark for validating general-relativistic hydrodynamics codes in the case of spherically symmetric neutron-star models. In this work, we extend the analysis to the more general case of uniformly ",
+      "published": "2026-09-18T17:59:05Z",
+      "authors": [
+        "Óscar H. Petit",
+        "José A. Font",
+        "Nikolaos Stergioulas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Universal Eigenvector Statistics of Non-Hermitian Random Matrices",
+      "link": "https://arxiv.org/abs/2609.22079v1",
+      "summary": "Eigenvector overlaps quantify nonorthogonality and govern the response and dynamics of non-Hermitian systems. We extend the universality of non-Hermitian random matrices to the statistics of these overlaps. We obtain analytical expressions for eigenvector overlaps in the spectral bulk and near the origin, covering ten symmetry classes in the limit of large matrix size. Using fermionic replica nonlinear $σ$ models, we relate these overlaps to Hermitian level statistics, symmetry class by symmetry",
+      "published": "2026-09-18T17:58:41Z",
+      "authors": [
+        "Ze Chen",
+        "Zhenyu Xiao",
+        "Shinsei Ryu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stellahedral Geometry of Partially Ordered Sets",
+      "link": "https://arxiv.org/abs/2609.22078v1",
+      "summary": "We introduce a transformation on partially ordered sets, termed the \\emph{stellahedral transform}, with notable features.   It preserves the properties of being Eulerian, Cohen--Macaulay, and of being the face poset of a polytope.   Furthermore, it admits an explicit geometric realization for convex polytopes and specializes to the construction that takes a simplex to the stellahedron. One motivation for this definition comes from the theory of toric $h$-polynomials and (augmented) Chow polynomi",
+      "published": "2026-09-18T17:58:38Z",
+      "authors": [
+        "Tommaso Faustini",
+        "Luis Ferroni",
+        "Ludovico Piazza"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Energy minimization for eight points on the sphere",
+      "link": "https://arxiv.org/abs/2609.22077v1",
+      "summary": "We study the energy minimization problem for eight points on the unit sphere. For the logarithmic and Coulomb energies, we show that the unique global minimizer up to congruence is a square antiprism with height characterized by a unique stationarity equation. The proof is computer-assisted and fully verified in Lean. After this, we consider generalizations of the result to other important energies. For the Riesz $s$-energies, we provide a Lean-verified, non-computer-assisted proof that the squa",
+      "published": "2026-09-18T17:58:32Z",
+      "authors": [
+        "Liudmyla Kryvonos",
+        "Lukas Liehr",
+        "Mitchell A. Taylor"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
+      "link": "https://arxiv.org/abs/2609.22076v1",
+      "summary": "APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport (OAP) specification. 225,964 evaluations completed. We report five distinct events per evaluation, because collapsing them is how an agent benc",
+      "published": "2026-09-18T17:58:10Z",
+      "authors": [
+        "Uchi Uchibeke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
+      "link": "https://arxiv.org/abs/2609.22075v1",
+      "summary": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling its safety structure into a task policy. LIMBO learns the safety certificate from black-box transitions and a state-based failure specification over residual actions around a frozen base controller, ma",
+      "published": "2026-09-18T17:57:56Z",
+      "authors": [
+        "Jake Gonzales",
+        "Arturo Flores Alvarez",
+        "Yu-Ming Chen",
+        "Aaron D. Ames",
+        "Lillian J. Ratliff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The AGN Channel in 3D: Scattering Belts and the Importance of Eccentricity in the Black Hole Population",
+      "link": "https://arxiv.org/abs/2609.22074v1",
+      "summary": "Active galactic nuclei (AGN) are a promising origin for observed gravitational wave mergers. Current population synthesis models are limited to 1D N-body or Monte Carlo methods which rely on statistical approaches to resolving dynamical scatterings. We present three-dimensional hybrid $N$-body simulations of a population of black holes (BHs) surrounding an AGN using a new code in development, AGNBI, where close interactions are directly simulated for both single and binary objects. Our results s",
+      "published": "2026-09-18T17:57:48Z",
+      "authors": [
+        "Connar Rowan",
+        "Martin E. Pessah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Duty Factor Predicts Robust Constrained Quadrupedal Locomotion Across Gait Types",
+      "link": "https://arxiv.org/abs/2609.22073v1",
+      "summary": "Quadrupedal robots are increasingly deployed in environments where locomotion must remain robust to disturbances and constrained terrain. Gait type, such as walking or trotting, is commonly used to characterize quadrupedal locomotion. However, gait type does not uniquely define locomotion, as parameters such as duty factor, speed, and stance width can vary within a single gait type. In this work, we investigate the relationship between these gait parameters using three distinct quadrupedal locom",
+      "published": "2026-09-18T17:57:08Z",
+      "authors": [
+        "James Zhu",
+        "David Ologan",
+        "George Ortiz",
+        "Thomas Chun Fai Lee",
+        "Selvin Garcia Gonzalez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Discovery, Characterization, and Potential Origins of a Stream in the Stellar Halo of Nearby LMC-Mass Galaxy NGC 55",
+      "link": "https://arxiv.org/abs/2609.22071v1",
+      "summary": "We present a previously undetected stellar stream in the halo of the LMC-mass dwarf galaxy NGC 55 (2 Mpc), as part of an ongoing effort to characterize the stellar halos of LMC/SMC-mass dwarfs in the DEEP component of the DECam Local Volume Exploration (DELVE) survey. This structure is aligned with an outflow traced by H$α$ emission, a spur and cloud of neutral hydrogen, and the ultra-diffuse and possibly disrupting satellite galaxy NGC 55-dw1. We investigate possible ex-situ progenitor scenario",
+      "published": "2026-09-18T17:56:58Z",
+      "authors": [
+        "Benjamin N. Velguth",
+        "Burçin Mutlu-Pakdil",
+        "Erik Tollerud",
+        "Sarah Pearson",
+        "Kristine Spekkens"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Sociotechnical Review of Algorithms in Health Systems: Technical, Cost, and Human-Centered Considerations",
+      "link": "https://arxiv.org/abs/2609.22070v1",
+      "summary": "Artificial intelligence (AI) applications in healthcare are becoming increasingly prevalent, to assist health systems, providers, and patients with tasks such as decision-making, risk prediction, and diagnosis. This increasing computational potential brings AI applications to the forefront of workplace decision making, often without full consideration of subsequent computational, organizational, and social costs. These applications are leveraged to reduce healthcare costs and increase efficiency",
+      "published": "2026-09-18T17:56:41Z",
+      "authors": [
+        "Victoria Chui",
+        "Kelly McConvey",
+        "Shion Guha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
+      "link": "https://arxiv.org/abs/2609.22069v1",
+      "summary": "Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their test cases cover limited reference types and compositions, and their evaluation protocols largely assess holistic reference consistency, overlooking whether reference factors are properly preserved, disentangled, and routed. Meanwhile, the high cost of",
+      "published": "2026-09-18T17:55:49Z",
+      "authors": [
+        "Wenxue Li",
+        "Peiyan Guan",
+        "Haoyang Jiang",
+        "Junxian Cai",
+        "Hualuo Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "link": "https://arxiv.org/abs/2609.22068v1",
+      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns implemented functionality in existing codebases into executable RL environments using source code as its",
+      "published": "2026-09-18T17:55:17Z",
+      "authors": [
+        "Bowen Ye",
+        "Lei Li",
+        "Shicheng Li",
+        "Zihao Yue",
+        "Linghao Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+      "link": "https://arxiv.org/abs/2609.22067v1",
+      "summary": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task completion rather than the values users prioritize. Using Value Sensitive Design, we analyzed, with LLM assistance, 73,093 first-person Reddit posts about using OpenClaw, each for its human value, agent aspect, value fulfillment, and user outcome. The 21 values form six value groups, including Autonomous, Dependable, and Affordable Operation, Bounded Reach, Reviewability, and Equitable Access. Relati",
+      "published": "2026-09-18T17:55:09Z",
+      "authors": [
+        "Renkai Ma",
+        "Ruyuan Wan",
+        "Xuan Lu",
+        "Fan Yang",
+        "Chen Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
+      "link": "https://arxiv.org/abs/2609.22064v1",
+      "summary": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress toward this goal has been limited by fragmented evaluation protocols and a narrow focus on individual task domains. Here, we present BrainWideBench, a benchmark for evaluating across-animal transfer on ",
+      "published": "2026-09-18T17:54:32Z",
+      "authors": [
+        "Alexandre Andre",
+        "Shivashriganesh P. Mahato",
+        "Vinam Arora",
+        "Keshav Balaji",
+        "Divyansha Lachi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gripper-Aware Automatic Dense Packing of Irregular Objects",
+      "link": "https://arxiv.org/abs/2609.22062v1",
+      "summary": "Automatic dense packing is widely desired in warehouse operations but remains a fundamental challenge in robotic manipulation. Existing work on irregular-object packing largely targets simulation with idealized contact, treating the object as an isolated rigid body. The gripper often enters as a discrete, post-hoc feasibility check, if considered at all, and the perception and contact drift accumulated during execution are not addressed. We present a closed-loop pipeline that integrates percepti",
+      "published": "2026-09-18T17:53:16Z",
+      "authors": [
+        "Tianhao Qin",
+        "Connor McCann",
+        "Berk Calli",
+        "Jing Xiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Duality and minors for embeddings of graphs in pseudosurfaces",
+      "link": "https://arxiv.org/abs/2609.22061v1",
+      "summary": "Cellular embeddings of graphs in surfaces have well-defined duality and minor (edge contraction and deletion) operations that interact in a natural way. A pseudosurface is obtained from a surface (compact 2-manifold) by a finite number of identifications of finite sets of points. Points that are created by the identifications do not have a neighborhood homeomorphic to an open disk and are known as pinchpoints. Embeddings of graphs in pseudosurfaces have been considered, both implicitly and expli",
+      "published": "2026-09-18T17:52:28Z",
+      "authors": [
+        "Blake Dunshee",
+        "M. N. Ellingham",
+        "Joanna A. Ellis-Monaghan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Traffic Sign Recognition for Autonomous Driving Using Branched YOLOv2 and Geometric Features",
+      "link": "https://arxiv.org/abs/2609.22060v1",
+      "summary": "Traffic sign recognition (TSR) is an important perception task for autonomous driving and advanced driver-assistance systems, where a system must both localize traffic signs and determine their semantic classes efficiently. This work presents a TSR system based on YOLOv2 for simultaneous detection and classification. Two complementary modifications are studied. First, YOLOv2 is extended with intermediate prediction layers, forming a branched architecture that can terminate inference early for ea",
+      "published": "2026-09-18T17:52:00Z",
+      "authors": [
+        "Arefeh Rezaei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lyapunov stability of polynomial vector fields is undecidable",
+      "link": "https://arxiv.org/abs/2609.22058v1",
+      "summary": "We show that there are integers $N$ and odd $D$ such that no algorithm can decide, from the rational coefficients of a homogeneous polynomial vector field F of degree $D$ in dimension $N$, whether the origin is Lyapunov stable for $\\dot Y=F(Y)$. This proves, for some large and unoptimized dimension and degree, a conjecture of V. I. Arnold.",
+      "published": "2026-09-18T17:50:07Z",
+      "authors": [
+        "Milan Korda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Non-linear halo bias for accurate modelling of cosmic infrared background anisotropies",
+      "link": "https://arxiv.org/abs/2609.22057v1",
+      "summary": "Halo models provide the standard framework for interpreting cosmic infrared background (CIB) anisotropies and inferring the connection between dusty star-forming galaxies and their host dark matter halos. Recent studies have shown that inaccuracies in the modelling of halo clustering may bias the inferred parameters governing star formation in dark matter halos. In this work, we investigate whether a more detailed description of halo clustering can alleviate these shortcomings. We incorporate a ",
+      "published": "2026-09-18T17:48:44Z",
+      "authors": [
+        "Baptiste Jego",
+        "Matthieu Béthermin",
+        "Katarina Kraljic",
+        "Athanasia Gkogkou",
+        "Guilaine Lagache"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+      "link": "https://arxiv.org/abs/2609.22056v1",
+      "summary": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual information about success, a condition satisfied by LLM-judge pipelines but substantially weaker in dense-only settings, explaining the AUC-AC gap between regimes. Second (Feature Regime Complementarity)",
+      "published": "2026-09-18T17:48:15Z",
+      "authors": [
+        "Andre Bacellar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
+      "link": "https://arxiv.org/abs/2609.22055v1",
+      "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge obtained from prior experiences underpins an agent's ability to efficiently adapt to novel environments, as the dynamics of the physical world can often be described in recurring mechanisms. However, the world model's measure of adaptation entangles two abilities: the spe",
+      "published": "2026-09-18T17:46:28Z",
+      "authors": [
+        "Haoyu Zhou",
+        "Joe Watson",
+        "Anson Lei",
+        "Ingmar Posner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Design and pricing of a transparent parametric-modeled loss CAT bond: application to German windstorm",
+      "link": "https://arxiv.org/abs/2609.22052v1",
+      "summary": "Catastrophe (cat) bonds overcome some lack of reinsurance by sourcing capacity from the wider capital markets. We present a new type of cat bond addressing the known trade-off between moral hazard and basis risk. As our main contributions we propose a trigger mechanism which is entirely transparent and simpler to evaluate compared to indemnity modeling techniques, as well as a methodology to price this cat bond. This is relevant for insurers and public authorities in a world where natural disast",
+      "published": "2026-09-18T17:43:48Z",
+      "authors": [
+        "John Ery",
+        "Erwan Koch"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Correlation enhanced magnetism at a superconducting cuprate/manganite interface",
+      "link": "https://arxiv.org/abs/2609.22051v1",
+      "summary": "Motivated by experimental studies on cuprate-manganite heterostructures, we study a correlated bilayer Hubbard model subject to a local interfacial exchange field using cluster dynamical mean-field theory in the underdoped cuprate regime. We find that superconductivity coexists with a manganite-induced Cu spin polarization. Remarkably, throughout this coexistence regime, the superconducting solution carries a larger magnetic moment than the corresponding constrained normal state. Analysis of the",
+      "published": "2026-09-18T17:42:28Z",
+      "authors": [
+        "Vitor A. M. Lima",
+        "Marcello Civelli",
+        "Walber Hugo de Brito"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Researchers Use and Verify AI Coding Assistants: Tasks and Validation Practices in Scientific Programming",
+      "link": "https://arxiv.org/abs/2609.22049v1",
+      "summary": "Generative AI has entered research programming, yet there is little evidence about which tasks researchers hand to it or how they decide whether its code is correct. We draw on 527 free-text responses to a 2025 survey of researchers who write code, most of them at U.S. universities. In each response, a researcher recounts a single task from their own work, the way they used an AI tool for it, and what they did to assess the result. We coded the task and the evaluation strategies reported, and re",
+      "published": "2026-09-18T17:41:39Z",
+      "authors": [
+        "Gabrielle O'Brien",
+        "Reed Milewicz",
+        "Nasir Eisty"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
+      "link": "https://arxiv.org/abs/2609.22048v1",
+      "summary": "A selective predictor acts as a safety gate: it returns an output only when the prediction appears sufficiently trustworthy. Deployments increasingly require this reliability to be certified at a target precision for every reporting unit of interest, such as a tool, policy label, or patient subgroup. The main difficulty is often not whether a granted certificate is valid, but whether finite calibration data can produce one at all. As the gate becomes safer or more fine-grained, some units may re",
+      "published": "2026-09-18T17:36:52Z",
+      "authors": [
+        "Parivesh Priye",
+        "Yufeng Wang",
+        "Haibin Ling",
+        "Michael Chaykowsky"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asteroids Impacting the Solar System Planets and the Moon. III. Real Impacts from Known Objects and LSST Discovery Predictions",
+      "link": "https://arxiv.org/abs/2609.22045v1",
+      "summary": "Impact rates predicted using pre-impact source-population models and those inferred from observations disagree by a factor of a few to $\\sim200$ across the Solar System planets and the Moon. An exciting opportunity for an additional observational constraint is the discovery of asteroids before impact and their tracking until impact. We evaluate this prospect based on both known objects and forecasts of the Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST). First, we identify impac",
+      "published": "2026-09-18T17:34:29Z",
+      "authors": [
+        "Qifeng Cheng",
+        "Daniel Scolnic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asteroids Impacting the Solar System Planets and the Moon. II: Comparison with Observational Impact Records",
+      "link": "https://arxiv.org/abs/2609.22044v1",
+      "summary": "Planetary impact rates are difficult to infer from observations alone because impacts are rare, observational records are target-dependent, and converting observed flashes, bolides, and craters to an intrinsic impact rate depends on uncertain selection effects and conversion parameters. Building on the simulations in Paper I, we examine whether observational systematics can explain the order-of-magnitude mismatch between observed and modeled impact rates on Earth, and whether comparable discrepa",
+      "published": "2026-09-18T17:34:16Z",
+      "authors": [
+        "Qifeng Cheng",
+        "Daniel Scolnic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+      "link": "https://arxiv.org/abs/2609.22043v1",
+      "summary": "Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little attention. When the memory store contains conflicting positions, standard retrieval-augmented generation (RAG) blindly injects memories and amplifies hallucinations: in models susceptible to memory injection, the RAG hallucination rate under conflicting memories is markedly higher than that of a memory-f",
+      "published": "2026-09-18T17:34:13Z",
+      "authors": [
+        "Yiming Zhang",
+        "Jinghong Zhang",
+        "Haoran Zhao",
+        "Yiren Ma",
+        "Chunlei Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asteroids Impacting the Solar System Planets and the Moon. I. Collision Rates from N-body Simulations",
+      "link": "https://arxiv.org/abs/2609.22042v1",
+      "summary": "Previous studies have shown a mismatch between the simulated rate of asteroids impacting the Earth and the observed rate, posing an important problem for planetary defense. Extending this analysis to other planets offers a new opportunity to examine minor body populations and impactor models. We present a unified simulation framework that estimates intrinsic $D\\gtrsim10$~m impactor rates on the eight planets and the Moon. We construct size-calibrated source populations of Near Earth Objects (NEO",
+      "published": "2026-09-18T17:34:07Z",
+      "authors": [
+        "Qifeng Cheng",
+        "Daniel Scolnic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$λ$-Controlled GRPO: Turning Flow-Matching Ratio Instability into a Budgeted Resource",
+      "link": "https://arxiv.org/abs/2609.22041v1",
+      "summary": "Reinforcement learning is increasingly used to align image generators with reward signals, and Flow-GRPO recently extended this paradigm to flow-matching models by treating the denoising sampler as a stochastic policy that can be optimized from reward feedback. Training in this setting is unstable in a way specific to multi-step denoising: the policy update changes systematically across denoising steps, with importance ratios drifting below one, becoming increasingly dispersed, clipping at diffe",
+      "published": "2026-09-18T17:33:38Z",
+      "authors": [
+        "Yufeng Wang",
+        "Parivesh Priye",
+        "Meeshawn Marathe",
+        "Ramit Pahwa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
+      "link": "https://arxiv.org/abs/2609.22040v1",
+      "summary": "Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream reasoning and navigation goals, processing visual inputs agnostically without prioritizing cues informed by prior decisions. To bridge this gap, this paper introduces PRIME, a learned feedback mechani",
+      "published": "2026-09-18T17:31:34Z",
+      "authors": [
+        "Erik Deinzer",
+        "Naya Baslan",
+        "Luca Paparusso",
+        "Narunas Vaskevicius",
+        "Peter Knott"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge",
+      "link": "https://arxiv.org/abs/2609.22038v1",
+      "summary": "We introduce QuranicMMLU, a benchmark for evaluating generative AI on Quranic Arabic across multiple dimensions of linguistic complexity. Existing Quranic benchmarks center on general question answering and semantic retrieval, without probing specific linguistic competencies or stratifying by cognitive demand and verse difficulty. We construct a five-pillar Quranic taxonomy spanning Phonology, Morphology, Syntax, Semantics, and Pragmatics, with 31 leaves covering phenomena from tajwīd and root-a",
+      "published": "2026-09-18T17:30:27Z",
+      "authors": [
+        "Rawan El Ghali",
+        "Umm Kulsoom",
+        "Anas Madkoor",
+        "Dima Faris Alsaudi",
+        "Roaa Abdelmagid"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance",
+      "link": "https://arxiv.org/abs/2609.22037v1",
+      "summary": "The large-scale integration of renewable energy into electrical power systems places a growing reliance on grid-forming converters (GFMs) to overcome critical stability and control hurdles. By emulating a slowly varying voltage source behind a tunable resistive?inductive impedance, GFMs enable precise setpoint tracking and vital grid support. In this regard, virtual admittance (VA)-based inner-loop control provides exceptional flexibility in shaping the converter's small-signal immittance at con",
+      "published": "2026-09-18T17:30:20Z",
+      "authors": [
+        "Ruzica Cvetanovic",
+        "Lazar Stojanovic",
+        "Paolo Sbabo",
+        "Paolo Mattavelli",
+        "Massimo Bongiorno"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Moderator Modeling for High Intensity Slow Positron Sources",
+      "link": "https://arxiv.org/abs/2609.22036v1",
+      "summary": "Slow positron beams enable diverse applications, from surface-sensitive materials studies to positronium physics, but progress is limited by source intensity and brightness. In linac-based sources, mono-energetic, slow positrons are produced by moderating the broad, divergent distribution of fast positrons produced by high-energy electrons incident on a high-Z target. This process is intrinsically inefficient. Conventional linac-based designs place the moderator close to the target. Tungsten mod",
+      "published": "2026-09-18T17:28:59Z",
+      "authors": [
+        "Sophie Crisp",
+        "Ryland Goldman",
+        "Spencer Gessner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Searching for Massive Remnant Planetary System Hosts with White Dwarf Gaia XP Spectra",
+      "link": "https://arxiv.org/abs/2609.22033v1",
+      "summary": "Remnant planetary systems around massive white dwarfs ($M_{\\rm WD} > 0.8\\,{\\rm M}_\\odot$) are intrinsically rare and remain poorly characterized. As the evolutionary endpoints of intermediate-mass B- and A-type stars, these white dwarfs provide valuable constraints on the formation and survival of planetary systems around higher-mass progenitors. In the absence of large, dedicated spectroscopic surveys, extremely-low-resolution Gaia XP spectra provide a powerful means of identifying candidate me",
+      "published": "2026-09-18T17:27:11Z",
+      "authors": [
+        "Lou Baya Ould Rouis",
+        "J. J. Hermes",
+        "Pierre Bergeron",
+        "Simon Blouin",
+        "Stefan Arseneau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Model-Based Iterative Reconstruction with View-Dependent Detector Displacements for Cone-Beam CT",
+      "link": "https://arxiv.org/abs/2609.22032v1",
+      "summary": "Detector shifting is used in industrial cone-beam computed tomography to reduce ring artifacts, but the resulting detector motion can vary nonuniformly across projection views and produce detector positions that cannot be represented by fixed offsets. Although analytical reconstruction can accommodate this motion, approaches that use projection interpolation or rebinning may limit spatial resolution and introduce artifacts. MBIR provides an alternative by representing the acquisition geometry ex",
+      "published": "2026-09-18T17:25:21Z",
+      "authors": [
+        "Doga Topcicek",
+        "Sharmin Majumder",
+        "Whitney A. Poling",
+        "Dmitriy D. Bruder",
+        "Zhili Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Partial Accent-Control Editing in Frozen Speech Representations for Accent Conversion",
+      "link": "https://arxiv.org/abs/2609.22031v1",
+      "summary": "Accent conversion is the task of modifying a speech recording so that it sounds closer to a target accent while preserving linguistic content and other speaker-related characteristics. Most accent conversion systems use trained, generative models. Although they can induce target-accented speech, the strength of accent modification is not controllable at inference time, making it difficult to analyse how the strength of accent conversion affects source preservation. We propose Partial Accent-Cont",
+      "published": "2026-09-18T17:24:37Z",
+      "authors": [
+        "Yangyang Qu",
+        "Michele Panariello",
+        "Massimiliano Todisco",
+        "Nicholas Evans"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The optical high-resolution spectral archive of the HERMES spectrograph mounted on the 1.2m Mercator telescope",
+      "link": "https://arxiv.org/abs/2609.22029v1",
+      "summary": "Context. The HERMES spectrograph is a high-resolution, fibre-fed optical spectrograph of the 1.2m Mercator telescope operated from the Roque de los Muchachos observatory in Spain. HERMES started its scientific operations in June 2009 and has been the workhorse instrument since then. Regular instrument updates have been crucial. They have helped to ensure the continued provision of high-quality spectra. This will continue both now and in the future.   Aims. With this contribution we review over 1",
+      "published": "2026-09-18T17:22:36Z",
+      "authors": [
+        "Hans Van Winckel",
+        "Saskia Prins",
+        "Gert Raskin",
+        "Jesus Perez Padilla",
+        "Wim Pessemier"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spherical Harmonic Sliced Wasserstein Displacement Interpolation for Acoustic Source and Reflection Density Modeling",
+      "link": "https://arxiv.org/abs/2609.22028v1",
+      "summary": "Spatial room impulse responses (SRIRs) capture directional distributions of acoustic sound-sources and their reflections. However, collecting SRIRs of moving sound-sources remains a challenge, requiring complex interpolations across measurements that account for multi-path spatial-temporal dynamics. This paper investigates the Wasserstein metric and displacement for evaluating interpolated SRIR echo densities in the spherical harmonic domain. We present novel sum-of-magnitude square expansions f",
+      "published": "2026-09-18T17:22:17Z",
+      "authors": [
+        "Yuancheng Luo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rotational Mapping and Regional Atmospheric Retrievals of Variable Brown Dwarfs: Application to Luhman 16B and SIMP 0136",
+      "link": "https://arxiv.org/abs/2609.22026v1",
+      "summary": "We present a Bayesian framework for converting time-resolved spectroscopy into rotation-inferred regional spectra and atmospheric constraints for variable brown dwarfs. We derive an analytic mapping framework with evidence-optimized regularization and uncertainty propagation by marginalizing over physical parameters and model complexities. We provide methods for selecting characteristic spectral end-members from the inferred surface maps, and highlight the advantage of analyzing these rotation-i",
+      "published": "2026-09-18T17:20:01Z",
+      "authors": [
+        "Ruizhe Wang",
+        "Heather A. Knuton",
+        "Julie Inglis",
+        "Xianyu Tan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Reactive Assistance: PV-Care Using Low-Density EEG and AI to Provide Proactive, Context-Aware Help for MCI",
+      "link": "https://arxiv.org/abs/2609.22024v1",
+      "summary": "The growing elderly population gives rise to an urgent need for intelligent support systems, particularly for individuals with Mild Cognitive Impairment (MCI). This paper presents PV-Care, a proactive AI-driven assistance scheme that integrates wearable electroencephalogram (EEG) sensing with visual environmental perception to provide real-time, context-aware voice assistance for MCI users. Unlike traditional assistant systems that passively wait for user commands, PV-Care actively initiates hel",
+      "published": "2026-09-18T17:17:13Z",
+      "authors": [
+        "Simon L Liu",
+        "Manish Kumar Krishne Gowda"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Non-Hermitian impurity scattering in graphene: Boltzmann transport and thermoelectric response",
+      "link": "https://arxiv.org/abs/2609.22023v1",
+      "summary": "We investigate charge and thermoelectric transport in monolayer graphene containing a dilute distribution of finite-range non-Hermitian scattering centers. The impurities are modeled as circular complex potentials, whose imaginary component describes local carrier loss or gain. By solving the Dirac scattering problem exactly within a partial-wave approach, we obtain the nonunitary scattering matrix and derive the transport and absorption cross sections, which separately characterize momentum rel",
+      "published": "2026-09-18T17:17:02Z",
+      "authors": [
+        "Juan A. Cañas",
+        "Daniel A. Bonilla",
+        "A. Martín-Ruiz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "cboamd: A Machine Learning Molecular Dynamics Framework for Vibrational Strong Coupling",
+      "link": "https://arxiv.org/abs/2609.22022v1",
+      "summary": "Under vibrational strong coupling (VSC), molecular vibrations hybridize with an optical cavity mode to form polaritons, offering a route to modify chemical and material properties without external driving. In this work, we develop a machine-learning interatomic potential (MLIP) based framework to study VSC inside optical cavities. By using the cavity Born-Oppenheimer approximation and treating the photonic degrees of freedom as an effective electric field, we provide a framework that can describ",
+      "published": "2026-09-18T17:16:51Z",
+      "authors": [
+        "Yifan Li",
+        "Roberto Car",
+        "Johannes Flick"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multiband Color Monitoring of 3I/ATLAS through Ground-Based Relay Observations",
+      "link": "https://arxiv.org/abs/2609.22021v1",
+      "summary": "We present multiband, long-baseline photometric observations of interstellar comet 3I throughout its 2025--2026 apparition using coordinated ground-based global relay observations. Our dataset combines measurements from professional observatories and citizen-operated Unistellar eVscopes distributed worldwide, providing dense temporal coverage from 2025 July 2 through 2026 April 1 and spanning the comet's pre- and post-perihelion trajectory. Broadband photometry was obtained in bandpasses equival",
+      "published": "2026-09-18T17:16:22Z",
+      "authors": [
+        "Ariel Graykowski",
+        "Bryce Bolin",
+        "Laura-May Abron",
+        "Franck Marchis",
+        "Martin Mašek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comparative analysis of Neural Networks approaches for Initial Orbit Determination of Near-Earth Objects",
+      "link": "https://arxiv.org/abs/2609.22020v1",
+      "summary": "Initial Orbit Determination (IOD) from Very Short Arcs (VSAs) remains one of the most challenging open problems in asteroid surveillance and celestial mechanics. Classical methods require angular observations spanning a sufficient fraction of the orbit, and become ill-conditioned or fail outright when only a single observing night is available, as is the case for most newly discovered Near-Earth Objects (NEOs). We present a comparative analysis of two Neural Network (NN) models that attack the r",
+      "published": "2026-09-18T17:15:13Z",
+      "authors": [
+        "Francesco Geroni",
+        "Roberto Paoli",
+        "Riccardo Massidda",
+        "Giacomo Tommei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ReaxKit: A Modular Python Toolkit for Preparing, Parsing, and Analyzing ReaxFF Molecular Dynamics Simulations",
+      "link": "https://arxiv.org/abs/2609.22019v1",
+      "summary": "Empirical reactive force field (RFF) molecular dynamics enables atomistic simulation of bond breaking, bond formation, charge redistribution, and structural evolution in chemically complex systems. The ReaxFF method is arguably the most popular and transferable of the currently available RFF methods. However, routine use of ReaxFF often requires substantial manual effort to prepare inputs, interpret engine-specific outputs, organize simulation artifacts, and develop custom analysis scripts, limi",
+      "published": "2026-09-18T17:15:03Z",
+      "authors": [
+        "Ali Mohammadi Dinani",
+        "Alireza Sepehrinezhad",
+        "Anirban Phukan",
+        "Asma Ul Hosna",
+        "Jupjeet Dhingra"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
