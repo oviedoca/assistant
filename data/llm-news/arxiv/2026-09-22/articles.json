@@ -1,0 +1,645 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Passthrough Rigidity: The Behavioral and Visuomotor Costs of Mediated Perception",
+      "link": "https://arxiv.org/abs/2609.25002v1",
+      "summary": "Broad public adoption of head-mounted displays using video passthrough remains elusive despite significant market investment. A precise understanding of why users experience persistent discomfort even as hardware factors such as resolution and latency have dramatically improved remains an open issue. This paper investigates the impact of viewing the world through video passthrough systems on human behavioral and physiological patterns through a large-scale multimodal study. We developed a novel ",
+      "published": "2026-09-21T17:59:41Z",
+      "authors": [
+        "Markus D. Solbach",
+        "Mohit Goyal",
+        "Sakar Khattar",
+        "Jayant Varma",
+        "Bjorn Vlaskamp"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "link": "https://arxiv.org/abs/2609.25001v1",
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different",
+      "published": "2026-09-21T17:59:33Z",
+      "authors": [
+        "Yiran Wang",
+        "Xingyilang Yin",
+        "Junfu Pu",
+        "Guangzhi Wang",
+        "Kaifeng Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Statistical Fluctuations as Primordial Correlators in the CMB: Finite Chemical Potential Thermodynamics",
+      "link": "https://arxiv.org/abs/2609.24998v1",
+      "summary": "Can primordial cosmological correlations originate from statistical fluctuations of an early-universe thermal system? We connect grand-canonical thermodynamics, stochastic transport, and gauge-invariant cosmological perturbations for a charged fluid at finite chemical potential. Energy-charge susceptibilities determine curvature, charge-isocurvature, and cross-correlation amplitudes, while transport sets when each mode leaves equilibrium. For an isolated, adiabatic conformal plasma with conserve",
+      "published": "2026-09-21T17:59:05Z",
+      "authors": [
+        "Anish Ghoshal",
+        "Anupam Mazumdar",
+        "Bartłomiej Sikorski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+      "link": "https://arxiv.org/abs/2609.24997v1",
+      "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through",
+      "published": "2026-09-21T17:58:56Z",
+      "authors": [
+        "Binxu Li",
+        "Haoyi Duan",
+        "Yuhui Zhang",
+        "Yaohui Zhang",
+        "Zihao Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning",
+      "link": "https://arxiv.org/abs/2609.24995v1",
+      "summary": "Understanding natural human instructions is crucial for deploying robots in human-centric environments. We study multimodal instruction grounding, where language and gesture provide complementary but uncertain cues. We present MIGU, a modular framework that combines semantic and geometric evidence into a unified grounding belief and connects it to manipulation planning. MIGU constructs a 3D geometric likelihood by propagating viewing-direction and depth uncertainty through eye-finger geometry wh",
+      "published": "2026-09-21T17:58:22Z",
+      "authors": [
+        "Mingke Lu",
+        "Anxing Xiao",
+        "David Hsu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Feedback Coding Enables Inference-Time Covert Agentic Communication",
+      "link": "https://arxiv.org/abs/2609.24994v1",
+      "summary": "As large language models (LLMs) are increasingly used to automate digital interactions, users can leverage LLM-generated text as cover for covert communication within seemingly benign conversations. Existing LLM steganography, however, is predominantly white-box, requiring the sender and receiver to share the cover statistics, typically through access to the model weights and prompt. Black-box schemes remove this requirement by allowing the receiver to operate solely on the generated text, but c",
+      "published": "2026-09-21T17:58:22Z",
+      "authors": [
+        "Sidong Guo",
+        "Sajani Vithana",
+        "Atefeh Gilani",
+        "Lalitha Sankar",
+        "Oliver Kosut"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multi-Stage and Multi-Field Inflation in Random Inflationary Landscapes",
+      "link": "https://arxiv.org/abs/2609.24992v1",
+      "summary": "Generic potentials in an inflationary landscape are typically too steep to support a prolonged period of cosmic inflation. Atypical flat regions of the landscape are required to support successful inflation. The occurrence of such regions leads broadly to two possibilities: a single prolonged period of slow-roll inflation (which we call single-stage inflation), or multiple shorter periods of inflation separated by transient departures from slow roll (which we call multi-stage inflation), giving ",
+      "published": "2026-09-21T17:57:46Z",
+      "authors": [
+        "Xingang Chen",
+        "Lucas Pinol",
+        "Zhong-Zhi Xianyu",
+        "Yisong Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Who Pays for the KV Cache? Attributing Shared AI Inference Spend Across Kubernetes and LLM Provider Bills",
+      "link": "https://arxiv.org/abs/2609.24991v1",
+      "summary": "Organizations pay for AI through disconnected ledgers: Kubernetes allocations for self-hosted inference, gateway logs, and per-token bills from API providers. We present unalloc, an open-source tool that joins OpenCost, LiteLLM, OpenAI and Anthropic cost data into one exact ledger and reports the share of spend with no owner, and use it to study where attribution breaks at the seams between these systems. Five case studies run inference for real or simulate it: a vLLM-style serving simulator wit",
+      "published": "2026-09-21T17:57:40Z",
+      "authors": [
+        "Timothy Urista"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tangled $τ$: Planck CMB Constraints on Flash Reionization",
+      "link": "https://arxiv.org/abs/2609.24989v1",
+      "summary": "Recent cosmological tensions have renewed interest in the role of reionization in parameter inference, and flash reionization has been proposed as a transient high-redshift ionization episode that can increase the Thomson optical depth while remaining compatible with CMB polarization data. In this work, we present the first Markov Chain Monte Carlo analysis of the flash reionization model fit to Planck cosmic microwave background temperature, polarization, and lensing data. We perform this analy",
+      "published": "2026-09-21T17:57:32Z",
+      "authors": [
+        "Param Upadhyay",
+        "Elisa G. M. Ferreira",
+        "Evan McDonough"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "link": "https://arxiv.org/abs/2609.24985v1",
+      "summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effe",
+      "published": "2026-09-21T17:57:20Z",
+      "authors": [
+        "Zixiang Chen",
+        "Wenting Zhao",
+        "Zhepeng Cen",
+        "Akshara Prabhakar",
+        "Jielin Qiu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "link": "https://arxiv.org/abs/2609.24984v1",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditione",
+      "published": "2026-09-21T17:57:06Z",
+      "authors": [
+        "Wangbo Yu",
+        "Kunhao Liu",
+        "Wenbo Hu",
+        "Shenghai Yuan",
+        "Chaoran Feng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "link": "https://arxiv.org/abs/2609.24983v1",
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate",
+      "published": "2026-09-21T17:56:53Z",
+      "authors": [
+        "Lei Yang",
+        "Mengyin Liu",
+        "Jia Wang",
+        "Hangyu Guo",
+        "Liang Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+      "link": "https://arxiv.org/abs/2609.24981v1",
+      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically rich space that encodes cross-view structure. Rather than adding geometry as another output, we repara",
+      "published": "2026-09-21T17:56:25Z",
+      "authors": [
+        "Jiahao Lu",
+        "Minghao Yin",
+        "Wenbo Hu",
+        "Hengyu Liu",
+        "Wang Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+      "link": "https://arxiv.org/abs/2609.24979v1",
+      "summary": "On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling to a particular user) means that a given on-device LLM tends to be used in similar, predictable patterns over the course of time. This paper presents a novel me",
+      "published": "2026-09-21T17:55:48Z",
+      "authors": [
+        "Sean Augenstein",
+        "Li Ding",
+        "Jihwan Lee",
+        "Keith Rush",
+        "Andrey Zhmoginov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bayesian Optimization of The Relativistic Heavy Ion Collider Luminosity via $s^*$ Control",
+      "link": "https://arxiv.org/abs/2609.24978v1",
+      "summary": "Maximizing luminosity at the interaction point (IP) requires the collision location $s_{IP}$ to coincide with the longitudinal position of the minimum beta function, $s^$. Accurate optics measurements and control of $s^$ are therefore essential for luminosity optimization. At the Relativistic Heavy Ion Collider (RHIC), average horizontal beta-beat measurements between operating IPs are approximately $20%$, with significant variation in measured $s^*$.   Precise control of the beam waist position",
+      "published": "2026-09-21T17:55:45Z",
+      "authors": [
+        "Xiaofeng Gu",
+        "Benjamin Coe",
+        "Guillaume Robert-Demolaize",
+        "Takeshi Kanesue",
+        "Masahiro Okamura"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Accessing zero-point fluctuations in high-energy nuclear collisions",
+      "link": "https://arxiv.org/abs/2609.24977v1",
+      "summary": "Ultracentral high-energy collisions between identical nuclei are very sensitive to the size and shape of the frozen configuration of nucleons at the instant of the collision, an information that is encoded in the ground state wave functions of the colliding nuclei. The relative standard deviation of the size of the colliding system soon after the collision has recently been inferred from event-by-event fluctuations of the momentum per particle in collisions of $^{208}$Pb nuclei at the LHC, and s",
+      "published": "2026-09-21T17:55:43Z",
+      "authors": [
+        "Jean-Paul Blaizot",
+        "Jean-Yves Ollitrault"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+      "link": "https://arxiv.org/abs/2609.24976v1",
+      "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We present DexTacWAM, a visuo-tactile WAM that encodes each fingertip independently, aggregates the resulting features through a finger- and pose-aware tactile compressor, and injects the tactile latent i",
+      "published": "2026-09-21T17:55:24Z",
+      "authors": [
+        "Haoran Yuan",
+        "Zekai Wang",
+        "Boning Shao",
+        "Haoran Lu",
+        "Trevor Darrell"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "link": "https://arxiv.org/abs/2609.24974v1",
+      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time gui",
+      "published": "2026-09-21T17:55:20Z",
+      "authors": [
+        "Haoran Ye",
+        "Yuxing Lu",
+        "Haonan Dong",
+        "Zhaochen Su",
+        "Guojie Song"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "link": "https://arxiv.org/abs/2609.24972v1",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d",
+      "published": "2026-09-21T17:54:49Z",
+      "authors": [
+        "Peng Xia",
+        "Rujun Han",
+        "Zifeng Wang",
+        "Yanfei Chen",
+        "Yufan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+      "link": "https://arxiv.org/abs/2609.24971v1",
+      "summary": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores.   We present DolphinBench, a benchmark th",
+      "published": "2026-09-21T17:54:35Z",
+      "authors": [
+        "Soumil Rathi",
+        "Deshraj Yadav",
+        "Taranjeet Singh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Elemental Abundances of Cool Stars: A Spectroscopic Framework Applied to Five Planet-Host Stars",
+      "link": "https://arxiv.org/abs/2609.24970v1",
+      "summary": "Stellar elemental abundances provide important constraints on the chemical environments from which planets form. M and late-K dwarfs are prime targets for the characterization of small exoplanets, yet their complex spectra make accurate elemental abundance measurements challenging. In this work, we present a spectral synthesis-based framework to derive detailed abundances for cool stars from high-resolution, near-infrared spectra. We apply our framework to SPIRou YJHK spectra of five planet-host",
+      "published": "2026-09-21T17:54:24Z",
+      "authors": [
+        "Nicole Gromek",
+        "Drew Weisserman",
+        "Ryan Cloutier",
+        "Alexandrine L'Heureux",
+        "Charles Cadieux"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rare Event Estimation via Iterative Unalignment",
+      "link": "https://arxiv.org/abs/2609.24969v1",
+      "summary": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Mont",
+      "published": "2026-09-21T17:53:38Z",
+      "authors": [
+        "Hanming Yang",
+        "Daksh Mittal",
+        "Jing Dong",
+        "Hongseok Namkoong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "link": "https://arxiv.org/abs/2609.24967v1",
+      "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from th",
+      "published": "2026-09-21T17:52:48Z",
+      "authors": [
+        "Xinrui Shi",
+        "Yanzhe Zhang",
+        "Diyi Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+      "link": "https://arxiv.org/abs/2609.24965v1",
+      "summary": "Scientific workflows often require choosing among known relations before a deterministic calculation can proceed. Whether observations share a culture, treatment or reference standard can change the scientific meaning of the resulting count or comparison. We evaluate Jev as a semantic decision component using a harness that follows its documented guidance and assigns arithmetic to code. The study compares twelve model configurations on twenty source-grounded Choices across ten scientific cases, ",
+      "published": "2026-09-21T17:51:50Z",
+      "authors": [
+        "Boyuan Deng",
+        "Shuyi Fan",
+        "Hongyang Zhang",
+        "Xinhong Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Perception-Aware Communication Middleware for Distributed Visual Perception in UAV Swarms",
+      "link": "https://arxiv.org/abs/2609.24964v1",
+      "summary": "Unmanned Aerial Vehicle (UAV) swarms increasingly support safety-critical applications that rely on distributed visual perception. Meeting the low-latency requirements of these applications can require perception models to execute within the swarm on inference-capable UAVs, creating a need for efficient UAV-to-UAV transport of high-bandwidth perception data. However, the Quality-of-Service (QoS) requirements of perception differ from conventional packet-level QoS; successful delivery of individu",
+      "published": "2026-09-21T17:51:18Z",
+      "authors": [
+        "Manveen Kaur",
+        "Kevin Loi",
+        "Ifunanya Okafor",
+        "Daniel Ng",
+        "Joseph Lucey-Renteria"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the failure of the $12\\%$ rule in $J/ψ$ and $ψ(2S)$ decays",
+      "link": "https://arxiv.org/abs/2609.24961v1",
+      "summary": "The $12\\%$ rule relates hadronic decays of the $J/ψ$ and $ψ(2S)$ through the ratio of their wave functions at the origin, but is strongly violated in several vector--pseudoscalar ($VP$) channels, most prominently in the $ρπ$ one. We study these decays within an effective chiral framework including strong and electromagnetic interactions, with the latter implemented through vector meson dominance. The $ψ(2S)\\to VP$ data are described well by a relatively minimal model with three free parameters, ",
+      "published": "2026-09-21T17:50:32Z",
+      "authors": [
+        "Arthur Vereijken",
+        "Francesco Giacosa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Model of the magnon Kerr effect in a highly anisotropic ferromagnet",
+      "link": "https://arxiv.org/abs/2609.24959v1",
+      "summary": "The magnon Kerr effect is a nonlinear phenomenon that occurs universally in any ferromagnet with finite magnetic anisotropy. It manifests itself as a magnon population-dependent change in the magnon dispersion relation. Here, we derive the Hamiltonian for the magnon Kerr effect for a thin film with uniaxial anisotropy. We consider the external field, parallel, perpendicular, and at an intermediate angle to the anisotropy axis, and determine the Kerr coefficient in each case. We show how the nonl",
+      "published": "2026-09-21T17:49:13Z",
+      "authors": [
+        "Davit Petrosyan",
+        "Hiroki Matsumoto",
+        "Hanchen Wang",
+        "Richard Schlitz",
+        "Pietro Gambardella"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization",
+      "link": "https://arxiv.org/abs/2609.24954v1",
+      "summary": "Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of experiments (DOE) approaches, which are inefficient for resolving multivariate pass/fail boundaries in higher-dimensional spaces. While Bayesian optimization ha",
+      "published": "2026-09-21T17:46:19Z",
+      "authors": [
+        "Xinyang Li",
+        "Kevin Stone",
+        "Ajit Vikram"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning to Drive on Mars: Visual Multimodal Traversability Estimation for Off-World Navigation",
+      "link": "https://arxiv.org/abs/2609.24952v1",
+      "summary": "Autonomous navigation on Mars requires vehicles to distinguish between traversable terrains across diverse and visually challenging environments. However, progress in learning-based navigation for off-world environments has been limited by the lack of large-scale datasets. Since landing in Jezero Crater, the Mars 2020 Perseverance rover has traversed terrain ranging from sandy dunes, rocky patches, and flat bedrocks. As a result, this paper presents a dataset spanning 500 sols and 45km of trajec",
+      "published": "2026-09-21T17:45:18Z",
+      "authors": [
+        "Darren Chiu",
+        "Cole Wilson",
+        "Andrei Tumbar",
+        "Gaurav S. Sukhatme",
+        "Steven Myint"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Search for a top-philic heavy resonance in association with top quarks in $pp$ collisions at $\\sqrt{s} = $ 13 TeV and 13.6 TeV with the ATLAS detector",
+      "link": "https://arxiv.org/abs/2609.24950v1",
+      "summary": "A search for a new top-philic vector boson ($Z'$) produced in association with a top-quark or a pair of top quarks, and decaying into a top quark pair is presented. The search uses $pp$ collision data collected by the ATLAS detector at the Large Hadron Collider at centre-of-mass energies of $\\sqrt{s} =$ 13 TeV and 13.6 TeV, corresponding to integrated luminosities of 140 fb$^{-1}$ and 56 fb$^{-1}$, respectively. Events containing exactly two same-sign leptons or at least three leptons (electrons",
+      "published": "2026-09-21T17:45:05Z",
+      "authors": [
+        "ATLAS Collaboration"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Selective Inference for CART with Binary Outcomes",
+      "link": "https://arxiv.org/abs/2609.24949v1",
+      "summary": "Binary classification trees select subgroups using the same outcomes later used to assess their differences. We develop finite-sample conditional tests of a common success probability within a parent selected by deterministic Gini CART. The construction retains all eligible cutpoints and conditions on the selected split, its ancestor path, the parent success total, and outside outcomes. The resulting uniform label fiber gives an exact count distribution, while a reversible parallel Monte Carlo c",
+      "published": "2026-09-21T17:44:41Z",
+      "authors": [
+        "Tomoshige Nakamura"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two-dimensional weak lensing shear for cluster mass, concentration, ellipticity and miscentering estimation",
+      "link": "https://arxiv.org/abs/2609.24948v1",
+      "summary": "The effects of weak gravitational lensing induced by clusters of galaxies makes it possible to constrain their dark matter distribution. In general mass estimates from weak lensing are made by compressing the two-dimensional shear-field into one-dimension. In this work we build a forward model of the two-dimensional reduced-shear field around a galaxy cluster, including the non-Gaussian correlated large-scale structure from N-body simulations, the uncorrelated line-of-sight structure, cluster mi",
+      "published": "2026-09-21T17:42:33Z",
+      "authors": [
+        "Calum Murray",
+        "Martin Kilbinger",
+        "Constantin Payerne"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Merlin: Fast and flexible 3x2pt cosmology with simulation-based inference",
+      "link": "https://arxiv.org/abs/2609.24946v1",
+      "summary": "We present Merlin, a simulation-based inference (SBI) pipeline to perform cosmological analyses of 3x2pt summary statistics: cosmic shear, galaxy clustering and the cross-correlation power spectra. Our approach combines Marginal Neural Ratio Estimation (MNRE) with 3x2pt angular power spectra predictions from the cloelib library, although the pipeline is readily extensible to other cosmology libraries. We demonstrate this pipeline on a realistic setting representative of a Stage-IV photometric su",
+      "published": "2026-09-21T17:41:51Z",
+      "authors": [
+        "Alexandra Wernersson",
+        "Guillermo Franco-Abellán",
+        "Guadalupe Cañas-Herrera"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Structured Screen-and-Select for Ultra-High-Dimensional Variable Selection",
+      "link": "https://arxiv.org/abs/2609.24945v1",
+      "summary": "Ultra-high-dimensional data, with p far exceeding n, are common in genomics and biomedical research. Marginal screening can miss active predictors with weak marginal signals, especially under strong predictor correlation. We develop Structured Screen-and-Select Variable Selection (S3VS), an iterative framework that combines outcome-based screening with correlation-based local predictor sets. At each iteration, S3VS identifies leading variables, forms local sets through predictor associations, ap",
+      "published": "2026-09-21T17:40:55Z",
+      "authors": [
+        "Nilotpal Sanyal",
+        "Padmore N. Prempeh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Contour Method for Multiparameter Eigenvalue Problems",
+      "link": "https://arxiv.org/abs/2609.24943v1",
+      "summary": "Multiparameter eigenvalue problems arise in boundary value problems, stability analysis, and delay-differential equations. Despite their importance, existing methods either require solving extremely large global problems or rely on local iterative techniques that only recover a few eigenvalues at a time. In this work we develop the first contour method for analytic multiparameter eigenvalue problems. The key theoretical ingredient is a new residue formula for multivariate matrix-valued analytic ",
+      "published": "2026-09-21T17:40:09Z",
+      "authors": [
+        "Emil Graf",
+        "Alex Townsend"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
+      "link": "https://arxiv.org/abs/2609.24942v1",
+      "summary": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exactness in and out of distribution, and extrapolation is governed by this exactness at inference, whatever its realization. Tensor Logic shows this: a zero-temperature contraction is equivalent to discrete logic, deducing in place with no artefact extracted, its tensors Boolean, its",
+      "published": "2026-09-21T17:39:51Z",
+      "authors": [
+        "Filipe Marinho Rocha",
+        "Inês Dutra",
+        "Vítor Santos Costa",
+        "Luís Paulo Reis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ruling out nucleonic direct Urca cooling in low-mass neutron stars using nuclear data",
+      "link": "https://arxiv.org/abs/2609.24940v1",
+      "summary": "Connecting nuclear experiments to neutron star composition requires controlling the extrapolation of experimental information beyond the densities probed in the laboratory. We combine a broad set of nuclear structure observables and INDRA-FAZIA isospin-transport data within a Bayesian inference of the dense matter equation of state (EoS). To limit uncontrolled extrapolation to high density, we employ a flexible asymptotically causal metamodel whose neutron star posteriors are comparable to those",
+      "published": "2026-09-21T17:39:18Z",
+      "authors": [
+        "Gabriele Montefusco",
+        "Pietro Klausner",
+        "Marco Antonelli",
+        "Caterina Ciampi",
+        "Diego Gruyer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Anatomy-Decomposed Chest Computed Tomography (CT) Projections as Scalable Supervision for Bone Suppression in Chest Radiographs",
+      "link": "https://arxiv.org/abs/2609.24937v1",
+      "summary": "Bone overlap can obscure abnormalities in chest radiographs, while scarce paired training data limit supervised bone suppression. We address this challenge with a digitally reconstructed radiograph (DRR) framework that converts chest computed tomography (CT) into paired supervision for component suppression. A novel bone segmentation algorithm enables CT decomposition into bone, non-lung soft-tissue, and lung components, which are projected separately. Their weighted combination yields synthetic",
+      "published": "2026-09-21T17:32:52Z",
+      "authors": [
+        "Mrunmay Angaitkar",
+        "Piyush Kumar",
+        "Aarjav Satia",
+        "Pranav Rao",
+        "Ashish Mittal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Whose Facts Count? A Culturally Responsive Audit of LLM Evaluation Benchmarks",
+      "link": "https://arxiv.org/abs/2609.24934v1",
+      "summary": "LLM benchmarks function as evaluation instruments, informing decisions that affect education, labor, and public services worldwide. Drawing on Hood, Kirkhart, and Hopson's culturally responsive evaluation (CRE) frameworks, this paper applies a six-dimension CR rubric to audit OpenAI's SimpleQA (N = 4,326 items) and the LMSYS Chatbot Arena (N = 600 conversations). Every SimpleQA question requires English-language archival verification as its evidentiary basis. A single rater's preoccupation with ",
+      "published": "2026-09-21T17:29:39Z",
+      "authors": [
+        "Fatima Tuz Zahra",
+        "Md. Sajeebul Islam Sk.",
+        "Rachel Chung"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A thermal microwave bus for neutral atom quantum computing",
+      "link": "https://arxiv.org/abs/2609.24933v1",
+      "summary": "High-fidelity two-qubit gates in neutral-atom arrays rely on the Rydberg blockade, which is intrinsically short ranged and requires long range connectivity to be achieved through atom shuttling. We propose a four level architecture, where the typical ground state qubit can be leveraged for its long lifetime and the Rydberg states couple to a microwave cavity, allowing for long range cavity mediated gates. We first find the thermal dependence of two established protocols, the dispersive iSWAP nat",
+      "published": "2026-09-21T17:27:28Z",
+      "authors": [
+        "Matthew J. H. Kendall",
+        "Christopher J. Watson",
+        "Michael Ben Shem",
+        "Jonathan D. Breeze"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Linguistic Features for Interpretable Textual Entailment",
+      "link": "https://arxiv.org/abs/2609.24932v1",
+      "summary": "Despite the success of neural models in natural language processing, their black-box nature limits interpretability and conceals the linguistic phenomena underlying their predictions. We present SLITE, an explainable hybrid model for Recognizing Textual Entailment that integrates two complementary layers of semantic analysis: a structural-relational layer, based on semantic compatibility and incompatibility between compositional entities, and a distributional-informational layer, based on struct",
+      "published": "2026-09-21T17:26:30Z",
+      "authors": [
+        "David Torres-Moreno",
+        "Jorge Hermosillo-Valadez",
+        "Asela Reig-Alamillo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing",
+      "link": "https://arxiv.org/abs/2609.24928v1",
+      "summary": "Autonomous software engineering agents (SWE-agents) automate coding tasks. Each agent update may require re-running the full benchmark to detect regressions and improvements, at a cost of hundreds of millions of LLM tokens per run, which makes evaluation a bottleneck. One solution is to evaluate only a subset of benchmark instances. Yet, simple approaches, such as random sampling or stratified random sampling based on past pass/fail outcomes, risk producing high variance and unrepresentative sub",
+      "published": "2026-09-21T17:23:28Z",
+      "authors": [
+        "Mahmoud Ayyad",
+        "Zehao Wang",
+        "Jiho Shin",
+        "Ying Zou",
+        "Bram Adams"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+      "link": "https://arxiv.org/abs/2609.24927v1",
+      "summary": "Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access to the user's personal context, e.g., their email inbox and a structured profile of personal attributes, with the intention of making an optimal, personalized decision for the user. We show that by simply providing this personal context, the agent steers recommendations based on i",
+      "published": "2026-09-21T17:22:44Z",
+      "authors": [
+        "Aman Priyanshu",
+        "Supriti Vijay",
+        "Brian Jabarian",
+        "Niloofar Mireshghallah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Galaxy evolution in the post-merger regime. V - Atomic gas evolution traced by ALFALFA stacks",
+      "link": "https://arxiv.org/abs/2609.24925v1",
+      "summary": "(Abridged) In this work, we investigate the role of atomic hydrogen (HI) gas in the galaxy merger lifecycle. In order to both identify galaxies in mergers, as well as to predict their time since coalescence, we present an extension of the MUlti Model Merger Identifier (MUMMI) machine vision pipeline applied to Dark Energy Camera Legacy Survey (DECaLS) imaging. The new MUMMI-DECaLS catalog contains 19,951 post-mergers, of which 14,638 have robust time post-merger (T_PM) predictions. The MUMMI-DEC",
+      "published": "2026-09-21T17:20:09Z",
+      "authors": [
+        "Sara L. Ellison",
+        "Manasvee Saraf",
+        "Leonardo Ferreira",
+        "Amelie Saintonge",
+        "Dirk Scholte"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A decision procedure for intuitionistic modal logic IS4 (and IK4)",
+      "link": "https://arxiv.org/abs/2609.24922v1",
+      "summary": "In this paper, we show that the two intuitionistic modal logics IS4 and IK4 are decidable. We provide a constructive decision procedure, that, given a formula, produces either a proof showing the formula to be valid or a finite countermodel falsifying the formula, thus also proving the finite model property for both logics. The main ingredient of our strategy is the introduction of (possibly unsound) loop rules, which encode repeating behaviour in proof search. This paper fixes a previous mistak",
+      "published": "2026-09-21T17:18:22Z",
+      "authors": [
+        "Marianna Girlando",
+        "Roman Kuznets",
+        "Sonia Marin",
+        "Lutz Straßburger"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BackTrend: Evaluating Scientific Weak-Signal Prediction via Backward Reconstruction",
+      "link": "https://arxiv.org/abs/2609.24921v1",
+      "summary": "Scientific weak signals are early, low-visibility research directions that later become central to mature scientific topics, yet existing resources such as trend tracking, citation forecasting, and foresight reports rarely provide validated reference sets that link concrete early precursors to later paradigms. We introduce BackTrend, a retrospective benchmark in which, given a mature target topic and a temporal evidence constraint, systems must recover two types of precursors: problem-space sign",
+      "published": "2026-09-21T17:18:19Z",
+      "authors": [
+        "Xiao Zhou",
+        "Yilun Zhao",
+        "Owen Jiang",
+        "Tiansheng Hu",
+        "Cai Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PixelDiT2: Representation-Grounded Pixel Diffusion Transformers",
+      "link": "https://arxiv.org/abs/2609.24919v1",
+      "summary": "Recent advances in pixel-space diffusion models have narrowed the image quality gap with latent-space diffusion, but still converge more slowly and lag behind in final image quality. We argue that a key reason is the lack of an explicit representation prior: unlike latent diffusion, which usually denoises in a compact and structured latent space, pixel diffusion needs to learn denoising-friendly representations and pixel generation simultaneously from raw RGB space. To address this problem, we p",
+      "published": "2026-09-21T17:17:39Z",
+      "authors": [
+        "Yongsheng Yu",
+        "Wei Xiong",
+        "Yichen Sheng",
+        "Shiqiu Liu",
+        "Jiebo Luo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Magnetar magnetothermal evolution with Landau-quantized electrons: enhanced Joule heating due to free electron diamagnetism and the magnetar heating problem",
+      "link": "https://arxiv.org/abs/2609.24918v1",
+      "summary": "Magnetars are systematically more luminous than other neutron stars. Previous studies suggest that supporting such high luminosities requires a heat source beyond standard Ohmic dissipation-- the ``magnetar heating problem''. We previously demonstrated using periodic box simulations that de Haas--van Alphen (dHvA) oscillations of the Landau quantization-induced magnetization in a neutron star could repeatedly generate large-gradient field components that undergo rapid Ohmic dissipation. Using th",
+      "published": "2026-09-21T17:17:37Z",
+      "authors": [
+        "Peter B. Rau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fisher-information training of optical sensing front ends from natural fluctuations",
+      "link": "https://arxiv.org/abs/2609.24915v1",
+      "summary": "Fisher-information-based optimization of programmable optical front ends in situ generally requires a response model or parameter-labeled measurements. We show that natural parameter fluctuations can instead provide the training signal. We construct proxies for the Fisher information (FI) of one parameter and the prior-weighted FI spectrum of multiple parameters from measured covariances after subtracting conditional detection noise, assuming locally affine responses. We use simulated photon cou",
+      "published": "2026-09-21T17:16:37Z",
+      "authors": [
+        "Abhinav Sinha",
+        "Kai Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Luminosity Signatures of Dark Sector Particles from Black Hole Evaporation in Neutron Stars",
+      "link": "https://arxiv.org/abs/2609.24914v1",
+      "summary": "Microscopic black holes may form at the centers of neutron stars through the accumulation and collapse of dark matter. While Standard Model particles produced by Hawking evaporation are efficiently absorbed by the dense stellar medium, sufficiently weakly interacting and long-lived particles can escape and subsequently decay into high-energy neutrinos, photons, or charged particles, providing an indirect probe of Hawking radiation. We examine the joint energy--angular distribution of these secon",
+      "published": "2026-09-21T17:16:24Z",
+      "authors": [
+        "Ioannis Dalianis",
+        "Anastasios Irakleous"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
