@@ -1,0 +1,628 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "link": "https://arxiv.org/abs/2609.26796v1",
+      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and",
+      "published": "2026-09-22T17:59:57Z",
+      "authors": [
+        "Quan Nguyen-Tri",
+        "Mukul Ranjan",
+        "Zhiqiang Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
+      "link": "https://arxiv.org/abs/2609.26793v1",
+      "summary": "Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images but the reconstruction quality is limited. Therefore, recovering a complete 3D scene from a single monocular image with accurate inter-object relationships and high-fidelity reconstruction quality rema",
+      "published": "2026-09-22T17:59:47Z",
+      "authors": [
+        "Shufan Sun",
+        "Chen Wang",
+        "Enxin Song",
+        "Jiatao Gu",
+        "Lingjie Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+      "link": "https://arxiv.org/abs/2609.26792v1",
+      "summary": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy perception, undermining their ability to assess a policy's closed-loop decision-making. To this end, we propose DreamStream, a generative, closed-loop simulator that achieves policy-oriented fidelity using a simulator-ground",
+      "published": "2026-09-22T17:59:31Z",
+      "authors": [
+        "Ziyang Leng",
+        "Sicheng Mo",
+        "Seth Z. Zhao",
+        "Haoyuan Cai",
+        "Yu Zeng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cascade mechanisms for Navier-Stokes blow-up",
+      "link": "https://arxiv.org/abs/2609.26790v1",
+      "summary": "In a recent preprint (arXiv:2511.09556), we exhibited an inverse energy cascade for the 3D Navier-Stokes equations which results in \"instantaneous\" Type I blow-up and failure of uniqueness in certain sharp regularity classes. Our purpose here is to elucidate this phenomenon further in the setting of the Obukhov dyadic model, and to compare it to the better-known phenomenon of finite-time blow-up. When intermittency is low ($α\\leq 2$), we recover our previous result from the Navier-Stokes setting",
+      "published": "2026-09-22T17:59:18Z",
+      "authors": [
+        "Alexey Cheskidov",
+        "Mimi Dai",
+        "Stan Palasek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Advantage for Distributed Symmetry Breaking",
+      "link": "https://arxiv.org/abs/2609.26788v1",
+      "summary": "We present a distributed quantum algorithm that $3$-colors cycles in $O(1)$ rounds, with high probability. It follows that all locally checkable labeling problems (LCLs) that have round complexity $O(\\log^* n)$ in the classical LOCAL model can be solved in $O(1)$ rounds in the quantum-LOCAL model, with high probability; this includes problems such as maximal independent set and maximal matching in bounded-degree graphs. This presents the first natural examples of graph problems with an asymptoti",
+      "published": "2026-09-22T17:58:07Z",
+      "authors": [
+        "Maxime Flin",
+        "Longcheng Li",
+        "Jukka Suomela"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Extreme values of central $L$-derivatives and heights of Heegner points",
+      "link": "https://arxiv.org/abs/2609.26786v1",
+      "summary": "Using Soundararajan's resonance method, we obtain extreme values of the central derivatives \\[ L^{(r)}(1/2,f\\otimesχ_d), \\] where $f$ is a normalized newform and $χ_d$ ranges over primitive real characters associated with negative fundamental discriminants. The twisted first moment estimate used in the proof may be of independent interest. Applying Gross--Zagier-type formulas, we obtain correspondingly large Néron--Tate heights of Heegner points on elliptic curves and large absolute values of Be",
+      "published": "2026-09-22T17:57:13Z",
+      "authors": [
+        "Mohammad H. Hamdar",
+        "Sun-Kai Leung"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
+      "link": "https://arxiv.org/abs/2609.26783v1",
+      "summary": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision processes without prior knowledge of the transition model. Each team member makes decisions based on local private information and delayed common information shared across the team. Using only this avai",
+      "published": "2026-09-22T17:56:46Z",
+      "authors": [
+        "Xiaoxing Ren",
+        "Thomas Parisini",
+        "Andreas A. Malikopoulos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "link": "https://arxiv.org/abs/2609.26781v1",
+      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, ",
+      "published": "2026-09-22T17:56:25Z",
+      "authors": [
+        "Zhihao Zhan",
+        "Ting Song",
+        "Li Dong",
+        "Shaohan Huang",
+        "Jianxun Lian"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "link": "https://arxiv.org/abs/2609.26780v1",
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed acr",
+      "published": "2026-09-22T17:56:12Z",
+      "authors": [
+        "Haobo Zheng",
+        "Tan Tang",
+        "Yan Chen",
+        "Weijie Wang",
+        "Yingcai Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "link": "https://arxiv.org/abs/2609.26779v1",
+      "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the performanc",
+      "published": "2026-09-22T17:55:59Z",
+      "authors": [
+        "Trang Nguyen",
+        "Eulrang Cho",
+        "Bingqing Chen",
+        "Tim Dettmers"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An Exponential Succinctness Gap between Three-Variable Logic and the Calculus of Relations",
+      "link": "https://arxiv.org/abs/2609.26778v1",
+      "summary": "Three-variable first-order logic (FO3) and the calculus of relations (CoR) define the same binary queries, an equivalence going back to Tarski in the 1940s. While the classical translation $\\text{FO3} \\Rightarrow \\text{CoR}$ is exponential, we prove that this blow-up is unavoidable, resolving a long-standing open question. We construct positive formulas $\\varphi$ with a single quantifier whose equivalent terms require size $2^{Ω(|\\varphi|)}$, even over finite structures and circuit representatio",
+      "published": "2026-09-22T17:55:06Z",
+      "authors": [
+        "Yuya Uezato"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "link": "https://arxiv.org/abs/2609.26777v1",
+      "summary": "We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedi",
+      "published": "2026-09-22T17:54:59Z",
+      "authors": [
+        "Jennifer Williams",
+        "Dave Farris",
+        "Jeff Farris",
+        "Jiantao Jiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
+      "link": "https://arxiv.org/abs/2609.26774v1",
+      "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challenge. We argue that the root cause lies in the entanglement of the Encoder--Decoder and Codebook training: because neither module can reliably fulfill its own responsibility in isolation, the system can",
+      "published": "2026-09-22T17:54:12Z",
+      "authors": [
+        "Bao Tang",
+        "Jiahao Guo",
+        "Haoxiang Cao",
+        "Wenyu Liu",
+        "Changqian Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Attention Guided Conditional Adversarial Learning for EMG Artifact Suppression in Single Channel EEG",
+      "link": "https://arxiv.org/abs/2609.26772v1",
+      "summary": "Electromyographic activity can dominate scalp electroencephalography across a broad frequency range and obscure neural structure that is relevant to analysis and brain computer interfaces. This paper evaluates P2P Trans, a conditional adversarial denoiser that combines a U shaped encoder decoder, multi head self attention at the bottleneck, cross attention guided skip fusion, and a PatchGAN discriminator. The reported experiment used EEGdenoiseNet segments represented as 1024 sample sequences, s",
+      "published": "2026-09-22T17:51:00Z",
+      "authors": [
+        "Haoyi Wang",
+        "Haowei Wang",
+        "Yihang Li",
+        "Wenjie Zhang",
+        "Yibo Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bogomolov-Guan Manifolds are not formal",
+      "link": "https://arxiv.org/abs/2609.26768v1",
+      "summary": "Bogomolov--Guan manifolds form the only known series of compact simply connected non-Kähler holomorphic symplectic manifolds. We prove that all Bogomolov--Guan manifolds of complex dimension at least four are nonformal over $\\mathbb{Q}$. The proof constructs a uniform degree-eight $a$-Massey product in a finite-dimensional invariant de Rham model of the symmetric quotient of the Bogomolov--Guan precursor. Its indeterminacy vanishes, and its nontriviality is detected by an explicit top-degree pai",
+      "published": "2026-09-22T17:48:48Z",
+      "authors": [
+        "Ángel David Ríos Ortiz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation",
+      "link": "https://arxiv.org/abs/2609.26766v1",
+      "summary": "Thermal Visual Place Recognition (Thermal VPR) maps camera observations to metric poses within a mapped environment, serving as a prerequisite for autonomous navigation. However, thermal VPR suffers from severe environmental dependence, heavy online retraining overheads, and an inability to model dynamic non-linear shifts, causing existing frameworks to fail during online deployment. To achieve robust domain-invariant place recognition, we bridge Analytic Class-Incremental Learning (ACIL) with d",
+      "published": "2026-09-22T17:46:31Z",
+      "authors": [
+        "Yanshuo Bai",
+        "Kanji Tanaka"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Empirical Bayes prepivoting under group invariance: false discovery rate control and moderated t-tests",
+      "link": "https://arxiv.org/abs/2609.26764v1",
+      "summary": "We consider simultaneously testing hypotheses about thousands of units, e.g., genes or proteins, where each unit yields a handful of replicate measurements and we test whether its mean is zero. A widely used approach in genomics, implemented in the limma software, borrows strength across units to learn the distribution of the unit-specific variances, then computes moderated t-statistics. Here we develop the first procedures using moderated t-statistics that (i) control the false discovery rate (",
+      "published": "2026-09-22T17:42:46Z",
+      "authors": [
+        "Nikolaos Ignatiadis",
+        "Etienne Roquain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SARA: SLO-Aware Resource Allocation for Disaggregated Agentic LLM Services",
+      "link": "https://arxiv.org/abs/2609.26763v1",
+      "summary": "Recent advances in large language models (LLMs) are driving the emergence of multi-modal and agentic services for mobile users through cloud and edge infrastructures, where long-context workloads pose daunting challenges for inference latency. Existing disaggregated LLM serving systems largely rely on hardware profiling, configuration enumeration, or heuristic scheduling, offering limited analytical guidance for cost-efficient resource allocation. In this paper, we propose SARA, a Service level ",
+      "published": "2026-09-22T17:42:35Z",
+      "authors": [
+        "Shicong Liu",
+        "Xianghao Yu",
+        "Zhen Gao",
+        "Jun Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The existence and uniqueness of magic-faced hypercubes, and applications to Khajuraho most-perfect magic squares, cubes, and hypercubes",
+      "link": "https://arxiv.org/abs/2609.26762v1",
+      "summary": "A $\\textit{magic-lined hypercube}$ (or, simply, $\\textit{magic hypercube}$) of order $k$ and dimension $n$ is an arrangement of the numbers $1,\\dots,k^n$ in a $k\\times\\cdots\\times k$ ($n$-fold) grid such that every line of $k$ numbers parallel to a coordinate axis has the same magic sum. While such hypercubes exist for every order $k\\ge 3$ and every dimension $n$, no magic-lined hypercube of order $2$ exists in any dimension $n\\ge 2$.   For hypercubes of order $2$, we thus relax the magic condit",
+      "published": "2026-09-22T17:42:12Z",
+      "authors": [
+        "Manjul Bhargava"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "link": "https://arxiv.org/abs/2609.26761v1",
+      "summary": "Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacke",
+      "published": "2026-09-22T17:41:34Z",
+      "authors": [
+        "Laizhen Li",
+        "Xuan Wang",
+        "Peicheng Zhao",
+        "Juanjuan Zhao",
+        "Kejiang Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "link": "https://arxiv.org/abs/2609.26760v1",
+      "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserving LLM calls for task-specific semantic reasoning. We introduce Growing Harness, a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold that exposes fix",
+      "published": "2026-09-22T17:40:45Z",
+      "authors": [
+        "Laizhen Li",
+        "Jiarui Li",
+        "Juanjuan Zhao",
+        "Kejiang Ye",
+        "Ye Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Statistical Analysis of Diffusion Dynamics in Networks",
+      "link": "https://arxiv.org/abs/2609.26759v1",
+      "summary": "Network diffusion is a well-known model for studying how a quantity in a network propagates to reach a steady state, where its value becomes uniformly distributed across all nodes. Previous studies of network diffusion have mainly focused on the second-smallest eigenvalue of the network Laplacian to determine the timescale associated with the slowest decaying mode. However, this study investigates the eigenspectrum of the network Laplacian in terms of its statistical properties. This method is u",
+      "published": "2026-09-22T17:40:40Z",
+      "authors": [
+        "A. Talebi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+      "link": "https://arxiv.org/abs/2609.26758v1",
+      "summary": "Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By construction, every output conforms to the required schema. Yet this guarantee does not tell us whether the model interprets the options as intended. We study Jev and two Jev-like models with open weights by changing how option names are assigned to rubrics. Each option consists of an option name and ",
+      "published": "2026-09-22T17:38:12Z",
+      "authors": [
+        "Yu Sun",
+        "Junhao Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Certification complexity of Boolean functions",
+      "link": "https://arxiv.org/abs/2609.26757v1",
+      "summary": "Certificate complexity $(C(f ))$ is a fundamental measure of complexity of Boolean functions f which counts the number of bits of an input that need to be known in order for the value of the function to be determined. A certificate can be viewed as a partial assignment, or a boolean subcube where the function is constant. Certificate complexity is well understood for deterministic query (or decision tree) complexity $(D)$ and other query models such as bounded-error randomized and quantum comple",
+      "published": "2026-09-22T17:37:57Z",
+      "authors": [
+        "Chandrima Kayal",
+        "Sophie Laplante",
+        "Émile Larroque",
+        "Krišjānis Prūsis",
+        "Jevgēnijs Vihrovs"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FleXray: Universal Clinical X-ray Segmentation",
+      "link": "https://arxiv.org/abs/2609.26756v1",
+      "summary": "X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeling X-ray databases for training general-purpose segmentation systems is impractical, leaving morphometric and functional X-ray analysis confined to narrow anatomical regions and applications. To this ",
+      "published": "2026-09-22T17:37:55Z",
+      "authors": [
+        "Victor Ion Butoi",
+        "Vivek Gopalakrishnan",
+        "John V. Guttag",
+        "Adrian V. Dalca",
+        "Neel Dey"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Finite-orbit obstructions for multipliers on the polydisk",
+      "link": "https://arxiv.org/abs/2609.26755v1",
+      "summary": "We study the closed spans of finitely many joint orbits of holomorphic multipliers on the Hardy space $H^2(\\mathbb D^d)$ of the polydisk. If fewer than $d$ symbols are used, every such span has infinite codimension. The symbols may be unbounded, provided that all orbit vectors belong to the Hardy space. We give two elementary proofs. The first uses common level sets and independent point evaluations; for bounded symbols, these evaluations yield joint adjoint eigenvectors. The second uses finite ",
+      "published": "2026-09-22T17:36:51Z",
+      "authors": [
+        "Ilya Krishtal",
+        "Javad Mashreghi",
+        "Prateek Kumar Vishwakarma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "To USR or not to USR: An effective description of two-field dynamics",
+      "link": "https://arxiv.org/abs/2609.26754v1",
+      "summary": "Single-field models of inflection point inflation experience a phase of ultra-slow roll (USR), leading to amplified curvature perturbations. Recently, Lorenzoni et al. modified the scenario by adding a light spectator field, showing that it ruins USR by setting a floor for the first slow-roll parameter $ε$. Mixing with isocurvature perturbations still amplifies the curvature power spectrum. We offer an alternative point of view, arguing that the inflaton still undergoes effective USR. The specta",
+      "published": "2026-09-22T17:36:21Z",
+      "authors": [
+        "Samuel Sánchez López",
+        "Eemeli Tomberg"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Underwater Navigation in Unsteady Flows Using Measurement Histories from a Single Sensing Unit",
+      "link": "https://arxiv.org/abs/2609.26753v1",
+      "summary": "Spatial flow measurements support underwater navigation, but distributed sensing is constrained by robot size and sensor layout. We use a causal observer to estimate current lateral velocities from a finite history of measurements collected by a single sensing unit, supplying the inputs of a fixed navigation controller. In two-dimensional wake simulations with access to body-frame ambient velocity, this virtual sensing interface reduces simultaneous flow sampling from three points to the robot c",
+      "published": "2026-09-22T17:34:33Z",
+      "authors": [
+        "Linhao Jin",
+        "Qimin Feng",
+        "Peter Gunnarson",
+        "Qiang Zhong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
+      "link": "https://arxiv.org/abs/2609.26751v1",
+      "summary": "Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A complemen- tary need is to study whether a generated assertion cap- tures externally observable behavior or depends on inci- dental details of one RTL implementation. ",
+      "published": "2026-09-22T17:33:09Z",
+      "authors": [
+        "FNU Aditi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen",
+      "link": "https://arxiv.org/abs/2609.26749v1",
+      "summary": "Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vulnerability repair, and we support this with five controlled experiments over 203 vulnerable functions from Big-Vul, three open-source code LLMs (350M to 6.7B parameters), and three prompting strategies",
+      "published": "2026-09-22T17:32:05Z",
+      "authors": [
+        "Om Nepal",
+        "Sushant Aryal",
+        "Oluseyi Olukola",
+        "Nick Rahimi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping",
+      "link": "https://arxiv.org/abs/2609.26748v1",
+      "summary": "Clustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical parameter tuning. A-DLCC uses the $β$-integrated local depth to identify stable exemplars, points consistently central across multiple locality levels, termed local ",
+      "published": "2026-09-22T17:31:28Z",
+      "authors": [
+        "Siyi Wang",
+        "Alexandre Leblanc",
+        "Paul D. McNicholas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analytic toroidal 3D MHD equilibria and steady Euler flows with invariant surfaces",
+      "link": "https://arxiv.org/abs/2609.26742v1",
+      "summary": "Families of explicit analytic solutions of the magnetohydrodynamic equilibrium equations are presented, equivalent to steady incompressible Euler flow. The solutions are non-axisymmetric and possess exact nested toroidal flux surfaces. No expansion is made in inverse aspect ratio or in the deviation from axisymmetry. The magnetic field and flux surfaces are given explicitly in Cartesian coordinates using elementary functions. The field, current density, and scalar pressure are smooth over the to",
+      "published": "2026-09-22T17:27:44Z",
+      "authors": [
+        "Matt Landreman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Longitudinal $Λ$ Polarization as a Quantitative Constraint on Geometric Relaxation in Pb-Pb Collisions at $\\sqrt{s_{NN}} = 5.36$ TeV",
+      "link": "https://arxiv.org/abs/2609.26740v1",
+      "summary": "Longitudinal hyperon polarization is generated by velocity gradients at decoupling, but its quantitative connection to the evolving collision geometry has remained unclear. We analyze 48 Pb-Pb initial states with (3+1)-dimensional ideal hydrodynamics and the isothermal local-equilibrium spin prescription. The positive kinematic-shear contribution correlates with the freeze-out eccentricity $ε_{2,\\mathrm{fo}}$, whereas the magnitude of the negative kinematic-vorticity contribution depends jointly",
+      "published": "2026-09-22T17:27:26Z",
+      "authors": [
+        "Yilong Xie",
+        "Simin Wu",
+        "Laszlo P. Csernai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
+      "link": "https://arxiv.org/abs/2609.26737v1",
+      "summary": "Detection of overlapping communities is essential for modelling networks in which nodes participate simultaneously in multiple structural or functional groups. Existing graph neural network approaches commonly rely on local message passing, which can obscure community boundaries through smoothing and limit the representation of structurally relevant long-range dependencies. We introduce Diffusion-Induced Spatial Attention Community Detection (DISCO), a deep-learning framework that combines a str",
+      "published": "2026-09-22T17:25:55Z",
+      "authors": [
+        "Kosti Koistinen",
+        "Vesa Kuikka",
+        "Joni Herttuainen",
+        "Matthew Hendren",
+        "Brian Holt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Entropy-Driven Initiation and Cytoskeletal Viscoelasticity in Endocytosis: An Onsager Variational Framework",
+      "link": "https://arxiv.org/abs/2609.26734v1",
+      "summary": "Receptor-mediated endocytosis requires a particle to approach the cell membrane to within a few nanometers before ligand--receptor binding can occur. Existing continuum models often start from an already established contact and do not explicitly describe how crowding particles on the extracellular side influence the distribution of the particle near the membrane. We examine entropic depletion forces as one possible nonspecific contribution to this initial approach. For ideal depletants, the Asak",
+      "published": "2026-09-22T17:23:29Z",
+      "authors": [
+        "Jinjie Liu",
+        "Zhongcan Ouyang",
+        "Hao Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evaluating the Semantic-to-Geometric Gap in Adversarial Defenses Against Vision-Language Model-Based Plagiarism",
+      "link": "https://arxiv.org/abs/2609.26733v1",
+      "summary": "The rapidly advancing capabilities of vision-language models (VLMs) present a systemic challenge to academic integrity. VLMs now allow students to bypass meaningful engagement by capturing and submitting graphical problems as singular images, a practice we define as trivial plagiarism. To provide educators with actionable data on VLM limitations, we investigate the efficacy of heuristic adversarial image transformations designed to degrade model performance while remaining human-interpretable. T",
+      "published": "2026-09-22T17:23:26Z",
+      "authors": [
+        "Christopher Burger",
+        "Christina Trotter",
+        "Joseph Carlisle",
+        "Charles Walter"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Solution of the Mumford-Shah conjecture",
+      "link": "https://arxiv.org/abs/2609.26732v1",
+      "summary": "We present a compact-translation argument for the classification of planar Mumford--Shah generalized global minimizers. Two perpendicular translations of a compact isolated portion of the crack, independently relaxed in the displacement, saturate a full-plane Hodge identity. The resulting normal conditions imply a holomorphic rigidity statement which excludes that portion. Established classification theorems then leave only the constant, pure-jump, triple-junction, and crack-tip models. The plan",
+      "published": "2026-09-22T17:22:30Z",
+      "authors": [
+        "Francesco Deangelis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Three-Dimensional Imaging of High-Density Dislocation Networks and Their Interactions using Multislice Electron Ptychography",
+      "link": "https://arxiv.org/abs/2609.26730v1",
+      "summary": "Development of novel devices often involve combining functional materials and substrates, each chosen for particular physical properties such as low-loss or thermal conductivity. This, however, can introduce a large lattice mismatch and high density of structural defects that may limit device performance and reliability by trapping charge or creating leakage pathways. Such is the case for integrating superconducting TiN with a low-loss sapphire substrate. Here we resolve and image the resulting ",
+      "published": "2026-09-22T17:20:48Z",
+      "authors": [
+        "Eegene Chung",
+        "Anand Ithepalli",
+        "Naomi Pieczulewski",
+        "Chia-Hao Lee",
+        "Steven Zeltmann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GAD-MambaUNet: Direction-Group Mamba with Gradient-Adaptive DINOv3 Distillation for Lightweight Medical Image Segmentation",
+      "link": "https://arxiv.org/abs/2609.26729v1",
+      "summary": "In this paper, we proposed GAD-MambaUNet, a lightweight medical image segmentation network that combines efficient local modeling, direction--group state-space interaction, and training-time foundation-model supervision. To improve contextual modeling in compact segmentation networks, we introduced Direction-Group Graph Selective Scan (DG-GSS), which treated scan-direction and channel-group responses as graph nodes and enabled structured information exchange before multi-directional fusion. We f",
+      "published": "2026-09-22T17:20:33Z",
+      "authors": [
+        "Fang Wang",
+        "Huitao Li",
+        "Wenhan Chao",
+        "Zheng Zhuo",
+        "Xinxin Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
+      "link": "https://arxiv.org/abs/2609.26725v1",
+      "summary": "AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with large language models (LLMs). While these tools promise time savings, experimental evidence in product design remains limited compared with evidence from software engineering. We conducted a randomized controlled trial with 50 product designers and 50 product managers to evaluate prospective time savings from ",
+      "published": "2026-09-22T17:13:07Z",
+      "authors": [
+        "Remy Stewart",
+        "Olabode Anise",
+        "Andrew Hogan",
+        "Augustus Griffin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quasinormal modes and quantum black hole interiors",
+      "link": "https://arxiv.org/abs/2609.26724v1",
+      "summary": "Quasinormal modes (QNMs) of black hole perturbations in the large overtone limit, namely, asymptotic QNMs, are highly sensitive to a black hole's interior geometry. We probe the singularity structure of a class of exact (2+1)-dimensional quantum black hole solutions to semi-classical gravity by computing their asymptotic QNM spectra. We do this using methods of complex analysis in which the radial coordinate is analytically continued to the complex plane. The leading order QNM frequencies all fi",
+      "published": "2026-09-22T17:11:43Z",
+      "authors": [
+        "Chiara Coviello",
+        "Ansh Gupta",
+        "Robie A. Hennigar",
+        "Kai Shi",
+        "Andrew Svesko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Role of Electron Correlations in Chirality Induced Spin Selectivity of Molecular Junctions",
+      "link": "https://arxiv.org/abs/2609.26722v1",
+      "summary": "The Non-Equilibrium Green's Function (NEGF) approach is applied to a chain of Hubbard atoms in a helical geometry sandwiched between two leads, one of which is magnetic, to assess what role the electronic correlation effects within the molecule may play in explaining the Chirality Induced Spin Selectivity (CISS) effect. The correlation effects are treated at the level of the self-consistent second Born approximation. Two chiralities, Laevorotatory (L) and Dextrorotatory (D), of the helix, are di",
+      "published": "2026-09-22T17:10:37Z",
+      "authors": [
+        "A. Konidena",
+        "J. Fransson",
+        "L. Kantorovich"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "First Observation of a Polar Coronal Hole-like Fast Solar Wind Stream in the Sub-Alfvénic Solar Corona: an Analysis of Turbulence Properties",
+      "link": "https://arxiv.org/abs/2609.26720v1",
+      "summary": "Parker Solar Probe, near its 23rd perihelion in March 2025, sampled an extended interval of sub-Alfvénic solar wind likely originating from a large equatorial coronal hole. At heliocentric distances of approximately 10 solar radii, with speed mostly above 400 km/s, this interval is a first example of ``polar coronal hole-like (PCH-l) fast\" solar wind observed in the sub-Alfvénic solar corona. We characterize the turbulence properties of this unique interval using Parker Solar Probe measurements.",
+      "published": "2026-09-22T17:07:25Z",
+      "authors": [
+        "Riddhi Bandyopadhyay",
+        "Sujan Prasad Gautam",
+        "William H. Matthaeus",
+        "Yeimy J. Rivera",
+        "Samuel T. Badman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The cubic discriminant as an organizing principle for Duffing dynamics",
+      "link": "https://arxiv.org/abs/2609.26719v1",
+      "summary": "We present an analytical organizing principle underlying the dynamics of the periodically forced Duffing oscillator. In the massless limit the system reduces to a time-dependent cubic equation whose discriminant and Jacobian classify the canonical Duffing regimes and determine the number and stability of instantaneous equilibria. For the double-well oscillator, the same construction gives an exact forcing threshold $F_{\\mathrm{bif}}$ separating intra-well and inter-well dynamics. We show that th",
+      "published": "2026-09-22T17:06:51Z",
+      "authors": [
+        "Patrycja Jaros",
+        "Przemyslaw Perlikowski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
+      "link": "https://arxiv.org/abs/2609.26718v1",
+      "summary": "Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative competition with abundant, task-irrelevant proximal background. To address the Proximity Trap, we introduce LYRA (Long-context heavY-tailed Relevance Alignment), a t-distributed directional matching mecha",
+      "published": "2026-09-22T17:06:51Z",
+      "authors": [
+        "Xiaoyu Yang",
+        "Jie Lu",
+        "Wei Duan",
+        "En Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+      "link": "https://arxiv.org/abs/2609.26711v1",
+      "summary": "Software vulnerabilities are often discovered long after they are introduced, making it difficult to identify the vulnerability-inducing commit (VIC) responsible for introducing the underlying vulnerable condition. Existing VIC identification techniques largely rely on git blame to trace vulnerable code through revision history and use positional heuristics, such as selecting its earliest or most recent modification. However, the true VIC may occur anywhere within this history, and vulnerable be",
+      "published": "2026-09-22T17:02:42Z",
+      "authors": [
+        "Fnu Tanish",
+        "Samiha Shimmi",
+        "Samikshya Chapagain",
+        "Hamed Okhravi",
+        "Mona Rahimi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Normalized fractional Hirsch Index and Modified Pareto Law",
+      "link": "https://arxiv.org/abs/2609.26710v1",
+      "summary": "The Hirsch index (introduced in 2005) has been a very successful scientometric author-level measure for the publication impact inequalities among the authors. However, it does not have any upper bound and statistically it grows in proportion to the square root of the number of publications by the author. Social scientists, on the other hand, measure the economic performance of different countries (having different wealth amounts and populations etc.) using inequality indices like the Gini index ",
+      "published": "2026-09-22T17:01:29Z",
+      "authors": [
+        "Asim Ghosh",
+        "Bikas K. Chakrabarti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonlinear Spin Polarization Enables Néel Order Switching in Centrosymmetric Altermagnets",
+      "link": "https://arxiv.org/abs/2609.26709v1",
+      "summary": "Deterministic electrical switching of the Néel order remains challenging in centrosymmetric altermagnets, where linear current-induced spin polarization is forbidden by inversion symmetry. Here, we establish a nonlinear route to Néel order control. Spin group symmetry shows that, in the nonrelativistic limit, the nonlinear spin polarization is constrained along the Néel vector, with a staggered response allowed in $8$ of the $10$ nontrivial spin-Laue groups. Although this Néel spin polarization ",
+      "published": "2026-09-22T17:01:20Z",
+      "authors": [
+        "Sunit Das",
+        "Sayan Sarkar",
+        "Amit Agarwal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
+      "link": "https://arxiv.org/abs/2609.26708v1",
+      "summary": "Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired. Long generations often degenerate into repetitive loops, exhausting the decoding budget without completing a solution. We trace this gap to quantization-amplified exposure bias: QAD trains on fixed corpus prefixes, while quantization-induced deviations compound along the model's own autoregressive t",
+      "published": "2026-09-22T17:01:09Z",
+      "authors": [
+        "Yuanteng Chen",
+        "Zhilei Liu",
+        "Peisong Wang",
+        "Yuantian Shao",
+        "Chuangyi Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Sequential Annotations for Off-Policy Evaluation",
+      "link": "https://arxiv.org/abs/2609.26707v1",
+      "summary": "Offline reinforcement learning and off-policy evaluation evaluates dynamic treatment rules based on retrospectively collected data prior to deployment. In recent AI applications, state and reward information is recorded as complex text or image, which recent AI advancements such as LLM-as-a-judge can label with unknown bias. Expert annotation may be available but at a higher cost. For example, safety classification via cheap but imperfect classifiers vs. expensive expert review. We show how a li",
+      "published": "2026-09-22T17:00:22Z",
+      "authors": [
+        "Woojin Chae",
+        "Ezinne Nwankwo",
+        "Haitong Qin",
+        "Angela Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
