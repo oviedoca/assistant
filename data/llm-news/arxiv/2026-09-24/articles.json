@@ -1,0 +1,631 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "A sub-100 pc view at z~5 of a Multiply-Imaged Massive Quiescent Galaxy",
+      "link": "https://arxiv.org/abs/2609.28474v1",
+      "summary": "Recent James Webb Space Telescope spectroscopic surveys reveal an abundance of rapidly assembled early galaxies in the first billion years. Cosmological simulations struggle to reproduce this population because models require a rapid, highly efficient conversion of baryons into stars followed by an abrupt cessation of star-formation, known as quenching, in the early Universe. Testing these theoretical models remains difficult because high-redshift field galaxies appear compact and unresolved. Th",
+      "published": "2026-09-23T17:59:59Z",
+      "authors": [
+        "Richard Pan",
+        "Danilo Marchesini",
+        "Joseph F. V. Allingham",
+        "Seiji Fujimoto",
+        "Adi Zitrin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "link": "https://arxiv.org/abs/2609.28473v1",
+      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reconstruction recovers such details. However, perhaps counterintuitively, this procedure reduces the effective dimensionality of the resulting representation, and the altered geometry has downstream effe",
+      "published": "2026-09-23T17:59:56Z",
+      "authors": [
+        "Chao Feng",
+        "Zhiyang Xu",
+        "Bowei Chen",
+        "Yuanjun Xiong",
+        "Xiyao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Contrastive Learning for Authorship Verification",
+      "link": "https://arxiv.org/abs/2609.28471v1",
+      "summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these considerations, we develop a ModernBERT Bi-Encoder model that achieves 98.4% accuracy on the PAN21 authorship verification task.",
+      "published": "2026-09-23T17:59:08Z",
+      "authors": [
+        "Peter Kirby"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+      "link": "https://arxiv.org/abs/2609.28470v1",
+      "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench, a suite of AI teaching evaluations and a public platform that enables large-scale data collection with over 175,000 student-AI messages to study whether large language models (LLMs) produce learning gains equivalent to human tutoring. Using StudentBench, we measured learning gains on Quantitative ",
+      "published": "2026-09-23T17:57:45Z",
+      "authors": [
+        "Curtis Northcutt",
+        "Inaara Hasmani",
+        "Kevin Feng",
+        "Trevor Khangi",
+        "Andreas Plesner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Compressed Permutation Oracles Revisited",
+      "link": "https://arxiv.org/abs/2609.28469v1",
+      "summary": "The compressed permutation oracle has been used to analyze the quantum security of a number of cryptographic constructions which resisted prior techniques. However, these analyses were fundamentally limited by the poor soundness of the method: the technique was proven sound only up to $O(N^{1/12})$ queries to permutations on $N$ elements. We revisit this analysis, improving the soundness bound to a tight $Ω(N^{1/2})$. In addition to being tighter, our proof is conceptually simpler and more direc",
+      "published": "2026-09-23T17:57:21Z",
+      "authors": [
+        "Joseph Carolan",
+        "Christian Majenz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast-Neutron Scintillation with Multi-Quantum-Well 2D Perovskites",
+      "link": "https://arxiv.org/abs/2609.28468v1",
+      "summary": "Fast-neutron scintillators must efficiently convert neutron energy into detectable light while enabling selectivity between neutrons and the γ-ray background. Here, we report a synthesis strategy for layered two-dimensional (2D) lead halide perovskite scintillators with independent control of the macroscopic detector geometry and microscopic phase composition. Our synthesis approach produces mm-thick, large-area scintillators with a deliberately engineered multi-quantum-well energy landscape, cr",
+      "published": "2026-09-23T17:55:54Z",
+      "authors": [
+        "Shaun Tan",
+        "Zachary Benesh",
+        "Seong Eui Chang",
+        "Shelby Elder",
+        "Haidi Jakovic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "link": "https://arxiv.org/abs/2609.28467v1",
+      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for applications such as robotic guide dogs and autonomous mobility scooters. We formulate language-grounded robot group joining: given an observation and a natural-language description of a target group, t",
+      "published": "2026-09-23T17:55:48Z",
+      "authors": [
+        "Zilin Fang",
+        "Zishuo Wang",
+        "Gim Hee Lee",
+        "David Hsu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+      "link": "https://arxiv.org/abs/2609.28466v1",
+      "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, and computational limits. Consequently, critical historical information, e.g., entity identities, dy",
+      "published": "2026-09-23T17:54:52Z",
+      "authors": [
+        "Harold Haodong Chen",
+        "Rongjin Guo",
+        "Disen Lan",
+        "Wen-Jie Shu",
+        "Hongfei Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Market Completeness and Optional Projections under Restricted Information",
+      "link": "https://arxiv.org/abs/2609.28463v1",
+      "summary": "In a finite discrete-time market, trading decisions may be predictable with respect to a filtration that does not adapt asset prices. The first fundamental theorem then characterizes absence of arbitrage by measures under which the optional projection of discounted prices is a martingale. We examine the corresponding completeness question. For a fixed projection, every claim measurable with respect to its terminal price history is attainable precisely when all equivalent martingale measures of t",
+      "published": "2026-09-23T17:53:37Z",
+      "authors": [
+        "Levin David Schwab"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Detecting Structural Changes in High-Dimensional Multivariate Regression Models",
+      "link": "https://arxiv.org/abs/2609.28462v1",
+      "summary": "We study structural-change testing in multivariate linear regression when the response dimension is proportional to the sample size and the number of predictors is fixed. Despite its relevance to applications across a broad range of fields, this problem remains underexplored. The alternatives of interest allow multiple unknown changes in a prescribed linear contrast of the predictor effects. We construct a least-squares-based Wald statistic standardized by the residual covariance estimator and s",
+      "published": "2026-09-23T17:53:17Z",
+      "authors": [
+        "Haoran Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Differentiable astrophysics at scale: solving and differentiating ODE ensembles on the GPU",
+      "link": "https://arxiv.org/abs/2609.28458v1",
+      "summary": "Astronomers increasingly fit their models with gradient-based methods, such as Hamiltonian Monte Carlo, which need the derivatives of the model with respect to its parameters. In many analyses a prediction requires solving a small system of ordinary differential equations (ODEs) for thousands to millions of parameter sets, and this ensemble of integrations often sets the cost of the analysis. We introduce to the astronomical community GRADSOLVE, a JAX library that moves this computation to graph",
+      "published": "2026-09-23T17:52:39Z",
+      "authors": [
+        "A. Spurio Mancini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sterile Neutrino Dark Matter Cries for GeV Heavy Neutral Leptons",
+      "link": "https://arxiv.org/abs/2609.28457v1",
+      "summary": "The ordinary and dark matter in the Universe may share a common origin in the framework of a minimal extension of the Standard Model by three right-handed neutrinos. A pair of such heavy neutral leptons (HNLs) can give masses to neutrinos, generate the baryon asymmetry at the electroweak scale and produce a large lepton asymmetry at the QCD scale, which is then resonantly transformed into an abundance of the third state that acts as sterile neutrino dark matter. The minimality of this setup, kno",
+      "published": "2026-09-23T17:50:29Z",
+      "authors": [
+        "Marco Drewes",
+        "Yannis Georis",
+        "Juraj Klarić",
+        "Mikhail Shaposhnikov",
+        "Inar Timiryasov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scalar Gauss-Bonnet Wormholes and the Imaginary Distance Bound",
+      "link": "https://arxiv.org/abs/2609.28456v1",
+      "summary": "We study $O(4)$ symmetric Euclidean wormholes in four-dimensional gravity with a massless scalar linearly coupled to the Gauss-Bonnet invariant. At nonzero coupling, the Einstein wormhole becomes a regular complex saddle that satisfies the Kontsevich-Segal-Witten criterion until its branch ends at a finite coupling. In asymptotically flat space, the Gauss-Bonnet term modifies the scalar displacement and the on-shell action for finite wormholes, but the size dependent parts of both corrections va",
+      "published": "2026-09-23T17:50:25Z",
+      "authors": [
+        "Alex Kehagias",
+        "Antonio Riotto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inter-Temporal Price Constraints in Dynamic Pricing: Performance Guarantees Under Price Monotonicity and Promotion Fatigue",
+      "link": "https://arxiv.org/abs/2609.28451v1",
+      "summary": "We study dynamic pricing problems under inter-temporal price constraints. We have resources with limited capacities. At each time period, we decide which products to make available and what prices to charge for the available products. The sale probability for a product depends on its price. If we make a sale for a product, then we collect a revenue reflecting the price and consume the capacities of a combination of resources. We work with two types of inter-temporal constraints. In price monoton",
+      "published": "2026-09-23T17:47:41Z",
+      "authors": [
+        "Weiyuan Li",
+        "Paat Rusmevichientong",
+        "Huseyin Topaloglu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spatial-Spectral Trade-offs in Metasurface-Based Snapshot Hyperspectral Imaging",
+      "link": "https://arxiv.org/abs/2609.28450v1",
+      "summary": "Snapshot hyperspectral imaging maps a spatial--spectral datacube onto a two-dimensional detector, with recoverability depending on the datacube sampling regime, the scene prior, and the optical encoding. We study this co-dependence with algorithmic recovery and optical design optimization in a differentiable metasurface model by varying the spatial--spectral ratio and comparing average-coherence, mutual-information, and end-to-end objectives. For compressed imaging with three bands, optimization",
+      "published": "2026-09-23T17:47:37Z",
+      "authors": [
+        "Liam Fitzpatrick",
+        "Sean Molesky",
+        "Kai Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+      "link": "https://arxiv.org/abs/2609.28449v1",
+      "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snippets or functions. We introduce SWE-Flux, a repository-level benchmark for dynamic execution reasoning containing 480 execution-grounded instances across 12 real Python repositories",
+      "published": "2026-09-23T17:46:50Z",
+      "authors": [
+        "Hamed Taherkhani",
+        "Mohammad Abdollahi",
+        "Melika Sepidband",
+        "Hridya Dhulipala",
+        "Tien N. Nguyen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
+      "link": "https://arxiv.org/abs/2609.28448v1",
+      "summary": "We study the nonequilibrium dynamics of a minimal recurrent transformer with $N$ normalized tokens, $Q=K=I$, and a negative value map $V=-I$. Similarity-based attention selects nearby representations, while the negative value map drives tokens away from the selected field. This feedback can continually reorganize both the representation geometry and the attention network. For $d=2$, the tokens lie on a circle, where the regular polygon is an exact fixed point. As the attention feedback strength ",
+      "published": "2026-09-23T17:46:38Z",
+      "authors": [
+        "Qucheng Gao",
+        "Zuyi Yang",
+        "Xiao Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Spectral Proof of Khachiyan's Ellipsoid Conjecture",
+      "link": "https://arxiv.org/abs/2609.28447v1",
+      "summary": "For a convex body $K\\subset\\mathbb{R}^n$, let $w(K)$ denote the volume of its maximum-volume inscribed ellipsoid. We prove that every closed halfspace $H$ whose boundary passes through the center of the maximizing ellipsoid satisfies \\[   w(K\\cap H)\\le\\frac{\\sqrt e}{2}\\,w(K). \\] The constant is optimal uniformly over all dimensions, as witnessed by a family of circular cones, thereby establishing Khachiyan's conjecture.   The proof converts containment, maximality, and the central-cut condition ",
+      "published": "2026-09-23T17:44:59Z",
+      "authors": [
+        "Zhou Longfei",
+        "Haijun Zou",
+        "Tianhao Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Angular Modulations in Magnetic Torque Induced by Phase Transitions in the Triangular Supersolid $2H$-AgNiO$_2$",
+      "link": "https://arxiv.org/abs/2609.28445v1",
+      "summary": "Easy-axis frustrated triangular lattice antiferromagnets provide an important playground for stabilising a wide range of exotic magnetic phases. The delafossite $2H$-AgNiO$_2$ offers a unique model system containing a lattice of localised ($S=1$) moments surrounded by a honeycomb of itinerant electrons. Below $T_{\\rm N} =19$ K, the system exhibits collinear stripe antiferromagnetic order, whereas applied magnetic fields induce a cascade of transitions which has been proposed to contain a magneti",
+      "published": "2026-09-23T17:43:18Z",
+      "authors": [
+        "John S. Pearce",
+        "Zeyu Ma",
+        "Alimamy Bangura",
+        "Timo Sorgel",
+        "Martin Jansen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
+      "link": "https://arxiv.org/abs/2609.28442v1",
+      "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR), which quantifies how distinctly ordering patterns are represented relative to variation across problem in",
+      "published": "2026-09-23T17:40:57Z",
+      "authors": [
+        "Zhixu Silvia Tao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Analog neutral-atom for in-memory processing in quantum reservoir computing",
+      "link": "https://arxiv.org/abs/2609.28441v1",
+      "summary": "Quantum Reservoir Computing (QRC) exploits the rich dynamics of quantum many-body systems to process time-dependent information with high-dimensional state spaces. While neutral atom arrays offer a scalable platform for this paradigm, realizing intrinsic temporal memory without relying on external classical buffering requires precise control over the relaxation dynamics of the system. We address the necessity of specific non-unitary dynamics for enforcing fading memory while overcoming the lack ",
+      "published": "2026-09-23T17:39:45Z",
+      "authors": [
+        "Luca Nigro",
+        "Gian Luca Giorgi",
+        "Enrico Prati",
+        "Roberta Zambrini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MultiVENT-Raw: A Benchmark for Retrieval and Reasoning over Raw Videos",
+      "link": "https://arxiv.org/abs/2609.28437v1",
+      "summary": "Online information is increasingly consumed in video format. Much of this comes in the form of *raw video*: continuous footage taken on a cell phone, with a hand-held camera, or via CCTV, which is then directly uploaded to social media platforms and content sharing services. Whereas professional or even amateur-edited footage tends to feature scripted speech, chyrons, graphics, and metadata that help contextualize its subject matter, raw video typically contains none of these things, making it a",
+      "published": "2026-09-23T17:35:40Z",
+      "authors": [
+        "Reno Kriz",
+        "David Etter",
+        "Alexander Martin",
+        "Cameron Carpenter",
+        "Debashish Chakraborty"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cooperative Domain-Wall Dynamics in a Two-Dimensional Quasiclassical Holstein Model",
+      "link": "https://arxiv.org/abs/2609.28436v1",
+      "summary": "We investigate charge-density-wave (CDW) coarsening in a two-dimensional quasiclassical Holstein model following thermal quenches into the ordered phase. Although the staggered CDW order parameter is nonconserved, domain-wall motion remains constrained by conservation of the microscopic electronic charge. The simulations exhibit apparent growth exponents between $1/4$ and the Allen--Cahn value $1/2$. These apparent exponents are primarily accounted for by the crossover kinetics $\\dot{L}=[D(T)/L]",
+      "published": "2026-09-23T17:35:23Z",
+      "authors": [
+        "Arunangshu Bora",
+        "Sankha Subhra Bakshi",
+        "Ho Jang",
+        "Gia-Wei Chern"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Formal weakly enriched category theory",
+      "link": "https://arxiv.org/abs/2609.28435v1",
+      "summary": "A formal category theory is constructed (in the form of a proarrow equipment), encoding weak coherent enrichment over a monoidal model category $\\mV$. We describe how basic categorical concepts formulated via the equipment translate back to enriched categories. We characterize Dwyer-Kan equivalences of enriched categories as $2$-categorical equivalences.   Specializing to either the Kan-Quillen model structure on simplicial sets, or the Quillen-Serre model structure on topological spaces, we pro",
+      "published": "2026-09-23T17:34:32Z",
+      "authors": [
+        "Giuseppe Leoncini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Predicting the Progression of Adolescent Idiopathic Scoliosis",
+      "link": "https://arxiv.org/abs/2609.28434v1",
+      "summary": "Adolescent Idiopathic Scoliosis is defined as a lateral curvature of the spine that develops during adolescence, without known cause. The condition can result in significant pain and disability, and often progresses rapidly during adolescence. The objective of this paper is to predict the progression of the condition in a temporal sequence from ages 9 to 24, as measured from a sequence of Dual X-ray Absorptiometry (DXA) scans. To this end, we train a transformer model that takes in the curve of ",
+      "published": "2026-09-23T17:33:31Z",
+      "authors": [
+        "Owen Pullen",
+        "Amir Jamaludin",
+        "Andrew Zisserman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
+      "link": "https://arxiv.org/abs/2609.28431v1",
+      "summary": "Dexterous manipulation demands long-term foresight and rapid reactive control. Vision-Language-Action (VLA) models, while proficient in high-level reasoning, often lack a fine-grained understanding of physical dynamics and spatial perception. Conversely, World-Action Models (WAMs) typically suffer from high inference latency due to iterative generation. These deficiencies result in a critical temporal misalignment where the model's intent fails to adapt to rapid physical contact changes. To over",
+      "published": "2026-09-23T17:31:52Z",
+      "authors": [
+        "Ning Chen",
+        "Yankai Fu",
+        "Junkai Zhao",
+        "Qianpu Sun",
+        "Guocai Yao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cross-Scale Transfer Learning for Depression Severity Prediction: From PHQ-8 to HAMD-17 Across Languages and Clinical Paradigms",
+      "link": "https://arxiv.org/abs/2609.28430v1",
+      "summary": "This work addresses continuous depression-severity score prediction from clinical interview transcripts under data scarcity. We propose a sequential low-rank adaptation (LoRA) protocol for cross-scale transfer: a Qwen3 backbone with a bounded regression head is first fine-tuned on the English DAIC-WOZ dataset (189 avatar-mediated sessions, PHQ-8), and the adapter then initializes fine-tuning on the Chinese PDCH dataset (100 real clinical consultations, HAMD-17), where a reinitialised, scale-spec",
+      "published": "2026-09-23T17:30:07Z",
+      "authors": [
+        "Wenjie Feng",
+        "Sahba Zojaji",
+        "Satoshi Nakamura"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams",
+      "link": "https://arxiv.org/abs/2609.28429v1",
+      "summary": "An always-on robot faces an endless stream that never resets: instructions arrive and lapse, the scene changes, and its own past actions reshape what it must reason about. Today's action models are built for the opposite: a fixed instruction, no mid-task intervention, single-step reasoning. In an open-ended world a robot must watch a live stream for far-future cues, recall its own far-past actions, and act on them under dual-arm concurrency. We present ARMS (Always-on Robot in Multi-modal Stream",
+      "published": "2026-09-23T17:29:40Z",
+      "authors": [
+        "Ding Yi",
+        "Peiwen Sun",
+        "Chenchu Rong",
+        "Jianan Wang",
+        "Xili Dai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+      "link": "https://arxiv.org/abs/2609.28427v1",
+      "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous Preference Learning (CCPL), a Gaussian-process preference model that shares observations across nearby contexts while retaining context-specific utility estimates.",
+      "published": "2026-09-23T17:28:08Z",
+      "authors": [
+        "Sunin Baek",
+        "Sungwoo Park",
+        "Daekyum Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Repairability of Inexact Solvers in Recursive State Estimation with Machine Learning",
+      "link": "https://arxiv.org/abs/2609.28425v1",
+      "summary": "Recursive state estimation often executes approximate numerical solutions inside a feedback loop, where highly accurate local steps do not guarantee better overall results. For a fixed linear Kalman model, we characterize when a correction within a prescribed subspace and norm budget can meet a local admissibility tolerance, and how the defects actually executed affect the finite-horizon covariance response. Centering each defect on the exact gain for the implemented covariance separates current",
+      "published": "2026-09-23T17:27:07Z",
+      "authors": [
+        "Yanjun Ji",
+        "Dennis Willsch",
+        "Orkun Şensebat",
+        "Priyanka Arkalgud Ganeshamurthy",
+        "Zhi Pei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Skin-Restricted Reinhard Transform:Uniqueness under a Lightness-Preserving Constraint",
+      "link": "https://arxiv.org/abs/2609.28424v1",
+      "summary": "Catalog skin recolouring has to change pigment and leave shading alone. The classical Reinhard map does not make that split: it rescales lightness by the ratio of standard deviations, and a flat reference swatch therefore flattens the limb. This paper formalises the correction used in our pipeline, the skin-restricted Reinhard transform. It is the diagonal affine map in CIE Lab that translates lightness, matches the chromatic mean, and clamps the chromatic gain to [0.72, 1.18], with moments take",
+      "published": "2026-09-23T17:27:01Z",
+      "authors": [
+        "Vijesh KP"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Performance-portable GPU acceleration of the hybrid particle-in-cell code dHybridR",
+      "link": "https://arxiv.org/abs/2609.28422v1",
+      "summary": "Hybrid particle-in-cell simulations are widely used to study kinetic processes in collisionless astrophysical and space plasmas, yet the high computational cost of large-scale three-dimensional runs has largely confined production studies to two dimensions or restricted domains. To address this challenge, we present a performance-portable GPU implementation of the hybrid particle-in-cell code dHybridR. The implementation combines OpenMP target offloading with specialized SYCL kernels for the mos",
+      "published": "2026-09-23T17:26:39Z",
+      "authors": [
+        "Bricker Ostler",
+        "Miha Cernetic",
+        "Damiano Caprioli"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fermionic cosmic strings in dynamical Chern-Simons gravity",
+      "link": "https://arxiv.org/abs/2609.28421v1",
+      "summary": "We investigate topological defects produced by a chiral phase transition in a fermionic ultraviolet completion of dynamical Chern-Simons (dCS) gravity. The model contains a complex scalar field with a chiral Yukawa coupling to fermions. Below the chiral symmetry breaking scale, integrating out the gapped bulk modes produces a gravitational Chern-Simons coupling which, we argue, modifies cosmic string solutions from the phase transition. The resulting corrected string metric is supported by a gen",
+      "published": "2026-09-23T17:26:00Z",
+      "authors": [
+        "Stephon Alexander",
+        "Heliudson Bernardo",
+        "Shengyuan Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Search For Stellar-mass Black Holes Via Astrometric Microlensing II: 2012-2015 Keck Candidates",
+      "link": "https://arxiv.org/abs/2609.28420v1",
+      "summary": "The Milky Way is expected to host $\\sim$10$^8$ stellar-mass black holes with an uncertain binary fraction. The only proven method to detect isolated stellar mass black holes is gravitational microlensing. Here we report the results of a microlensing search for black holes with photometry and astrometry. By combining 10 years of seeing-limited photometry from OGLE and MOA with diffraction-limited photometry and astrometry from adaptive optics imagers at the W.~M.~Keck Observatory, we constrain le",
+      "published": "2026-09-23T17:25:35Z",
+      "authors": [
+        "Mace J. Huston",
+        "Jessica R. Lu",
+        "Casey Y. Lam",
+        "J. Nijaid Arredondo",
+        "Natasha S. Abrams"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multivariate Continuous-Time Autoregressive Moving Average Processes for Astronomical Multiband Time Series",
+      "link": "https://arxiv.org/abs/2609.28419v1",
+      "summary": "Large-scale astronomical surveys provide unprecedented volumes of multivariate time-series observations obtained through multiple optical filters. We develop a structured multivariate continuous-time autoregressive moving average (MCARMA) framework for multi-band time series with irregular sampling, heteroscedastic measurement errors, and partially observed bands. The framework allows band-specific stochastic dynamics while modeling cross-band dependence through correlated Brownian driving proce",
+      "published": "2026-09-23T17:20:52Z",
+      "authors": [
+        "Izak Schmidlkofer",
+        "Zhirui Hu",
+        "Lishan Shi",
+        "Weixiang Yu",
+        "Hyungsuk Tak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "link": "https://arxiv.org/abs/2609.28416v1",
+      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from \\emph{task-state contamination}, where unsupported assumptions and outdated plans persist in history and dist",
+      "published": "2026-09-23T17:18:26Z",
+      "authors": [
+        "Shuang Sun",
+        "Guoxin Chen",
+        "Fanzhe Meng",
+        "Jia Deng",
+        "Huatong Song"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Inelastic dark matter mediated by natural dark photon",
+      "link": "https://arxiv.org/abs/2609.28415v1",
+      "summary": "At loop level, a dark $U(1)_X^{}$ gauge field for dark photon can naturally acquire a tiny kinetic mixing with the standard model $U(1)_Y^{}$ gauge field for hypercharge after a $Z_2^{}$ discrete symmetry is spontaneously broken for generating a small mass difference between two vector-like fermions carrying the same $U(1)_Y^{}$ charge and the opposite $U(1)_X^{}$ charges of equal magnitude. To avoid an unacceptable relic density with electric charge, these vector-like fermions can decay into th",
+      "published": "2026-09-23T17:17:34Z",
+      "authors": [
+        "Jie Tang",
+        "Pei-Hong Gu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model",
+      "link": "https://arxiv.org/abs/2609.28414v1",
+      "summary": "Latent world models that integrate a flow in a frozen self supervised latent space train stably and cheaply, yet silently lose the property manipulation depends on most: motion. The pretrained flow never moves the manipulated object; retraining it with latent-only losses only trades stillness for teleport-like motion. We trace the failure to the training signal, not the representation: anchor-sparse, latent-only supervision never says where along the horizon change belongs. Decode-augmented roll",
+      "published": "2026-09-23T17:17:02Z",
+      "authors": [
+        "Xiwen Chen",
+        "Rigaudiere Z. Li",
+        "Zhiruo Zhou",
+        "Xiaojun Zhu",
+        "Houde Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Strange Quark Stars and Spontaneous Scalarization",
+      "link": "https://arxiv.org/abs/2609.28408v1",
+      "summary": "Strange quark matter, as one of the most extreme dense states in astrophysics, can be explored through relativistic compact objects. Hypothetical relativistic stars composed of dense strange quark matter are characterized by the equation of state of that matter. The spontaneous scalarization of strange quark stars is influenced by the equation of state of strange quark matter. Here, we investigate how the equation of state of strange quark matter influences the spontaneous scalarization of these",
+      "published": "2026-09-23T17:10:35Z",
+      "authors": [
+        "Mina Mehraeen Nazdik",
+        "Zeinab Rezaei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Statistical Methods for Estimating Probability of Detection in Structural Health Monitoring",
+      "link": "https://arxiv.org/abs/2609.28407v1",
+      "summary": "There is much interest in the potential to use structural health monitoring (SHM) technology to augment traditional nondestructive inspection (NDI) methods to improve safety, increase asset availability, and reduce maintenance and inspection costs. SHM has the potential to be used in many applications, including critical components in aircraft and pipelines. Probability of detection (POD) plays a critical role in aircraft structural integrity programs, leading to increased interest in developing",
+      "published": "2026-09-23T17:09:57Z",
+      "authors": [
+        "Qizheng Xia",
+        "William Q. Meeker",
+        "Dennis Roach",
+        "Seth S. Kessler",
+        "Qing Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Label-Efficient Generative Inverse Design and Design-Rule Discovery in Freeform Topological Photonics",
+      "link": "https://arxiv.org/abs/2609.28401v1",
+      "summary": "Topological photonic crystals support robust, disorder-resilient light transport protected by their band-structure topology, yet their design remains confined to a small set of symmetry-defined templates. The surrounding freeform design space, where optimal performance and new functionality may reside, is difficult to access because of its high dimensionality and costly full-wave simulation needed for evaluating each candidate. % Here we report generative inverse design of freeform valley photon",
+      "published": "2026-09-23T17:06:33Z",
+      "authors": [
+        "Yuhan Zhang",
+        "Xin Xie",
+        "Bowen Song",
+        "Lixuan Chen",
+        "Liyue Shen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Memory Attention",
+      "link": "https://arxiv.org/abs/2609.28399v1",
+      "summary": "Language models typically construct attention values from contextual hidden states, even when some of their content may be reusable across contexts. We investigate whether token-indexed memory can replace the dedicated value projection when complemented by contextual information. We propose Memory Attention (MA), which forms values by combining layer-specific token memory with contextual keys. The memory supplies token-specific representations, while the keys preserve context dependence. At infe",
+      "published": "2026-09-23T17:04:30Z",
+      "authors": [
+        "Jiale Kang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
+      "link": "https://arxiv.org/abs/2609.28395v1",
+      "summary": "Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on general benchmarks. We ask whether these findings transfer to machine translation (MT) fine-tuning and to MT-specific instruction following (MT-IF): instructions that modify a translation, such as formality, grammatical gender, and length control. We compare methods anchored to auxiliary data, to model outputs, and to th",
+      "published": "2026-09-23T17:02:59Z",
+      "authors": [
+        "Niklas Scholz",
+        "David Thulke",
+        "Abdallah Nasir",
+        "Will Allred",
+        "Evgeny Matusov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation",
+      "link": "https://arxiv.org/abs/2609.28393v1",
+      "summary": "World models are useful for robotic manipulation because robots can predict how actions change the states of objects before executing them. We present PointCast, a point-set world model that spans rigid, articulated, and deformable object manipulation. Its state is a set of 3D points on the object and the end-effector, mesh-free and topology-agnostic. Each point keeps its identity and is supervised on its own trajectory, which teaches the model where every point goes rather than only the shape t",
+      "published": "2026-09-23T17:02:18Z",
+      "authors": [
+        "Hantao Ye",
+        "Ross Worobel",
+        "Zhuoli Xie",
+        "Mingen Li",
+        "Houjian Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum score matching with applications to learning thermal states",
+      "link": "https://arxiv.org/abs/2609.28391v1",
+      "summary": "Score matching has driven major advances in classical generative learning by enabling models to learn from data without evaluating intractable normalization constants, or partition functions. Yet, extending this principle to quantum learning requires rethinking its foundations, as quantum states are described by noncommuting density operators rather than scalar probabilities. The noncommutativity creates fundamental challenges not only in defining quantum scores, but also in developing a trainin",
+      "published": "2026-09-23T17:01:36Z",
+      "authors": [
+        "Yulong Dong",
+        "Jiaqi Leng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Lumina Project: Morphology of Ionized Bubbles and Neutral Islands",
+      "link": "https://arxiv.org/abs/2609.28390v1",
+      "summary": "The Epoch of Reionization is characterized by the nucleation, expansion, and percolation of ionized bubbles in the intergalactic medium. Interpreting emerging multi-wavelength observations from facilities such as JWST and next-generation 21 cm interferometers requires a detailed theoretical understanding of the 3D morphology of these HII regions and of the residual neutral structures that survive near the end of reionization. We analyze the geometry and physical properties of ionized bubbles and",
+      "published": "2026-09-23T17:01:21Z",
+      "authors": [
+        "Meredith Neyer",
+        "Aaron Smith",
+        "Ali Sadain",
+        "Oliver Zier",
+        "Mark Vogelsberger"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Image Compression Using Quantum Wavelet Transform and Quantum Convolutional Networks",
+      "link": "https://arxiv.org/abs/2609.28387v1",
+      "summary": "This paper presents a hybrid quantum-classical framework for grayscale image compression and decompression, leveraging the strengths of quantum computing and deep learning. The compression pipeline integrates a Variational Quantum Daubechies Wavelet Transform (V-QDWT) and a trainable Quantum Convolutional Neural Network (QCNN) optimized end-to-end to achieve efficient, image-adaptive multi-resolution analysis and entanglement-based feature reduction. Input images are encoded using the Normal Arb",
+      "published": "2026-09-23T16:59:17Z",
+      "authors": [
+        "Harshdeep Jadhav",
+        "Sreeraj Rajan Warrier",
+        "Jayasri Dontabhaktuni"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Motif-Vocab: StatisticallyCalibrated Transcription-Factor-Identity Tokenization forGenomic Language Models",
+      "link": "https://arxiv.org/abs/2609.28386v1",
+      "summary": "Tokenization is a central design choice in genomic language models, yet most deoxyribonucleic acid (DNA) tokenizers use characters, fixed-length k-mers, or frequency-derived subwords without explicitly using prior information about the specificity of DNA-binding regulatory factors. We introduce Motif-Vocab, a biologically informed tokenizer that scans both DNA strands for statistically calibrated motif matches, emits transcription-factor (TF) identity tokens, and applies nucleotide, $k$-mer, or ",
+      "published": "2026-09-23T16:58:41Z",
+      "authors": [
+        "Liangyu Li",
+        "Michael White"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond a Scalar: Distributional Serving Interfaces for Watch-Time Prediction",
+      "link": "https://arxiv.org/abs/2609.28383v1",
+      "summary": "Watch time is the primary engagement signal in short video feeds, and its prediction directly affects ranking and exposure. Existing methods improve watch time prediction by correcting duration bias or modeling richer distributions, but most expose only an expected or debiased watch time at serving time. Even when video duration is available to later models, the interface gives only one estimate of watch time and no probabilities for completion, overplay, or other regions relevant to downstream ",
+      "published": "2026-09-23T16:57:08Z",
+      "authors": [
+        "Xuan Liu",
+        "Jingbin Qian",
+        "Zhanyu Liu",
+        "Hefeng Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flavorful Lepton-Number-Violating SMEFT: Loop Mixing, $0νββ$ and Rare Meson Decays",
+      "link": "https://arxiv.org/abs/2609.28382v1",
+      "summary": "We investigate how one-loop operator mixing reshapes the flavor sensitivity of lepton-number-violating dimension-7 SMEFT interactions. Using both bottom-up and top-down EFT approaches, we study the interplay of neutrinoless double beta decay ($0νββ$) and neutral current rare meson decays $K\\toπνν$, and $B\\to K^{(*)}νν$, which at tree level probe apparently disconnected quark- and lepton-flavor sectors. We show that loop mixing qualitatively changes this picture: flavor structures radiatively fee",
+      "published": "2026-09-23T16:55:57Z",
+      "authors": [
+        "Lukáš Gráf",
+        "Chandan Hati",
+        "Ana Martín-Galán",
+        "Oliver Scholer"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
