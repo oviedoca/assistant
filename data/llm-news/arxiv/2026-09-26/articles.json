@@ -1,0 +1,631 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "link": "https://arxiv.org/abs/2609.30266v1",
+      "summary": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that exte",
+      "published": "2026-09-24T17:59:54Z",
+      "authors": [
+        "Jeremy Qin",
+        "David Schmotz",
+        "Derck Prinzhorn",
+        "Luca Beurer-Kellner",
+        "Ameya Prabhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "link": "https://arxiv.org/abs/2609.30264v1",
+      "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-discriminative joint-embedding world model for counterfactual MPC. AD-WM combines residual latent dynamics with predictor-level action-recovery regularization, using inverse dynamics and a normalized re",
+      "published": "2026-09-24T17:59:41Z",
+      "authors": [
+        "Jiabin Qiu",
+        "Zixuan Chen",
+        "Hongye Cao",
+        "Jieqi Shi",
+        "Jing Huo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Projected amorphous topological insulators",
+      "link": "https://arxiv.org/abs/2609.30260v1",
+      "summary": "We introduce projected amorphous topological insulators (PATIs) that despite containing only a fraction ($x$) of otherwise randomly selected {\\it disconnected} sites of a parent crystal, feature a quantized global topological invariant ({\\it strong} PATIs) when its effective Hamiltonian is constructed by integrating out the residual sites of the original lattice. Within the topological regime of the parent model, additionally, there exists a critical $x$ below which such systems foster a {\\it fr",
+      "published": "2026-09-24T17:59:32Z",
+      "authors": [
+        "Archisman Panigrahi",
+        "Bitan Roy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.30258v1",
+      "summary": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Attack on Consecutive Encodings (TRACE), an amortized temporal gradient-inversion attack that autoregressively reconstructs the sequence of private observation-action trajectories from per-step policy-le",
+      "published": "2026-09-24T17:59:18Z",
+      "authors": [
+        "Sudip Bhujel",
+        "Shanghao Shi",
+        "Ruiquan Huang",
+        "Ning Zhang",
+        "Yang Xiao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Feature Selection for Biomedical Data Analysis",
+      "link": "https://arxiv.org/abs/2609.30256v1",
+      "summary": "Feature selection is an essential step for reducing complexity of high dimensional data, usually in preparation for developing machine learning models such as computational biomarkers. However, there are limitations associated with feature selection such as for metabolomic data where there are hundreds or even thousands of features per study participant, while the available number of participants in a clinical trials is limited. Classical methods such as exhaustive search require evaluation of a",
+      "published": "2026-09-24T17:59:07Z",
+      "authors": [
+        "Hongbin Liu",
+        "Robert Lahmann",
+        "Benjamin Campbell",
+        "Zhemin Zhang",
+        "Zhiding Liang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Narrow Neutrino Window for the LZ Event",
+      "link": "https://arxiv.org/abs/2609.30255v1",
+      "summary": "The LUX-ZEPLIN (LZ) experiment has reported an event consistent with a $248$ keV nuclear recoil. Explaining the absence of lower-energy recoil events typically calls for some form of upscattering that kinematically forbids such events. In this work, we present a framework in which the LZ observation has a neutrino origin, with atmospheric neutrinos providing the dominant flux in the required energy range. A scenario in which atmospheric neutrinos upscatter to a heavier neutral state would also p",
+      "published": "2026-09-24T17:59:02Z",
+      "authors": [
+        "Vedran Brdar",
+        "Dibya S. Chattopadhyay"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Simulating the thermodynamics of gas, radiation, and multispecies dust: Method and applications to protoplanetary disks",
+      "link": "https://arxiv.org/abs/2609.30252v1",
+      "summary": "The thermodynamics of protoplanetary disks, governed by a complex interplay between gas, dust, and radiation, exerts a strong influence on their morphology and dynamics at both large and small scales. Historically, hydrodynamical simulations have treated thermodynamics with approximate prescriptions, such as local isothermality, parametrized $β$-cooling, and radiation hydrodynamics with gas-dust thermal equilibrium. However, a more comprehensive and self-consistent approach would more accurately",
+      "published": "2026-09-24T17:58:45Z",
+      "authors": [
+        "Dhruv Muley",
+        "David Melon Fuksman",
+        "Prakruti Sudarshan",
+        "Alexandros Ziampras",
+        "Mario Flock"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Statistics of large-scale structure from the transition probability of Lagrangian trajectories",
+      "link": "https://arxiv.org/abs/2609.30251v1",
+      "summary": "We describe a probabilistic approach to gravitational clustering. Working purely in configuration space, we show that the two-point function can be formulated in terms of a transition probability describing the likely final position of a particle given its initial position. The transition probability is initially sharply peaked and then over time broadens out in a diffusion-like manner. The effect is more pronounced for widely-separated particles (e.g.\\ at the baryon acoustic scale), leading to ",
+      "published": "2026-09-24T17:58:44Z",
+      "authors": [
+        "Lawrence Dam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agentic Detection of Online Conspiracies",
+      "link": "https://arxiv.org/abs/2609.30250v1",
+      "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the utterance's illocutionary force. We argue that this can be achieved through the use of relevant social contexts and propose an agentic framework, equipped with ",
+      "published": "2026-09-24T17:58:43Z",
+      "authors": [
+        "Lior Biton",
+        "Oren Tsur"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+      "link": "https://arxiv.org/abs/2609.30247v1",
+      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Rolling-WAM, a formulation that distributes joint denoising across successive replanning cycles. Our method maintains a sliding window of video-action chunks at staggered noise levels. At each step, a r",
+      "published": "2026-09-24T17:58:03Z",
+      "authors": [
+        "Yinghua Zhou",
+        "Junjie Ye",
+        "Yiqi Zhao",
+        "Hao Dong",
+        "Celina Shiyu Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Practical Compression of 3D Gaussian Splatting",
+      "link": "https://arxiv.org/abs/2609.30245v1",
+      "summary": "3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and coding. Meanwhile, floating-point context inference can introduce numerical inconsistencies across platforms, causing entropy-decoding failures. To address these practical challenges, we propose COSA-GS, which constructs context without spatial aggre",
+      "published": "2026-09-24T17:57:56Z",
+      "authors": [
+        "Pengpeng Yu",
+        "Yueru Chen",
+        "Fei Song",
+        "Tai Qin",
+        "Qi Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Proxy-likelihood Estimator for Multivariate Extremes Models with Intractable Likelihoods",
+      "link": "https://arxiv.org/abs/2609.30244v1",
+      "summary": "Many multivariate extremes models have intractable likelihoods requiring practitioners to use alternative fitting methods. The tail pairwise dependence is a summary measure of the dependence in the tail of any multivariate regular variation model. We develop an objective function for model fitting that relies on the tail pairwise dependence as the link between our desired model (that does not have a likelihood) and a proxy model (that has a likelihood). We employ the bivariate Hüsler-Reiss distr",
+      "published": "2026-09-24T17:57:49Z",
+      "authors": [
+        "Troy P. Wixson",
+        "Daniel Cooley"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JevOut: Natural Context Can Flip Decision Models",
+      "link": "https://arxiv.org/abs/2609.30243v1",
+      "summary": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding context. We find that short additions that fit naturally into this context can nevertheless redirect an otherwise correct decision, even when the correct answer remains unchanged. To study this behavi",
+      "published": "2026-09-24T17:57:07Z",
+      "authors": [
+        "Zixiang Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Peterson program for general Schubert varieties and mirror symmetry",
+      "link": "https://arxiv.org/abs/2609.30242v1",
+      "summary": "We initiate a `Peterson program' that seeks to extend Dale Peterson's theory for the quantum cohomology of flag varieties to arbitrary Schubert varieties, and that incorporates a mirror-symmetric approach. In this first paper we introduce a generalisation of the (localised) Peterson variety associated to an arbitrary Schubert variety $\\check X_{w,P}$ inside a partial flag variety $\\check G/\\check P$. This generalisation is possibly a non-reduced affine scheme that lies in the Langlands dual full",
+      "published": "2026-09-24T17:56:53Z",
+      "authors": [
+        "Changzheng Li",
+        "Konstanze Rietsch",
+        "Mingzhi Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Flavor of Non-Abelian Orbifolds",
+      "link": "https://arxiv.org/abs/2609.30241v1",
+      "summary": "In string model building, flavor symmetries can arise from the geometric features of the compactification space. In the case of heterotic orbifold models, modular and traditional flavor symmetries can be related to both geometric and algebraic properties of the orbifold space group. Our goal is to study the origin of moduli-independent discrete flavor symmetries in symmetric heterotic orbifolds with non-Abelian point groups. We develop various methods based on the Abelianization and the geometri",
+      "published": "2026-09-24T17:56:19Z",
+      "authors": [
+        "Miguel Hernandez-Segura",
+        "Xiang-Gan Liu",
+        "Ricardo Perez-Martinez",
+        "Saul Ramos-Sanchez"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Emergent Scaling Symmetry and Universal Interior Criticality of Scalarized Black Holes",
+      "link": "https://arxiv.org/abs/2609.30240v1",
+      "summary": "Spontaneous scalarization of charged black holes in asymptotically flat spacetime has attracted much recent interest. It is recently reported that inside these spontaneously scalarized black holes, the Kasner parameter $β$ at the terminal singularity diverges as $β\\propto(q/q_c-1)^{-γ}$ near the critical charge-to-mass ratio $q_c$, with an exponent $γ=1/2$ that appeared model independent within a wide class of couplings. In this paper we report a family of new universality classes in which $γ$ d",
+      "published": "2026-09-24T17:56:16Z",
+      "authors": [
+        "Ze Sun",
+        "Fu-Guo Yang",
+        "Rong-Gen Cai",
+        "Li Li",
+        "Run-Qiu Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+      "link": "https://arxiv.org/abs/2609.30238v1",
+      "summary": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still suffer from spurious generation and noisy guidance due to the lack of high-level semantic grounding in partially observed multimodal evidence. To address these ",
+      "published": "2026-09-24T17:55:31Z",
+      "authors": [
+        "Wenhao Li",
+        "Zhibin Wu",
+        "Chong Xiao",
+        "Qiangchang Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction",
+      "link": "https://arxiv.org/abs/2609.30234v1",
+      "summary": "Automated generation of production-ready 3D garment assets from a single image is a central challenge in digital content creation. While recent generative models have significantly advanced 3D geometry reconstruction, synthesizing high-quality textures remains a bottleneck. Existing methods often bake environmental illumination and shadows directly into the texture map, or they fail to maintain global structural coherence, making the resulting assets unusable for physical simulation and relighti",
+      "published": "2026-09-24T17:53:55Z",
+      "authors": [
+        "Ding-Jiun Huang",
+        "Yuanhao Wang",
+        "Cheng Zhang",
+        "Hugo Bertiche",
+        "Alexandru-Eugen Ichim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "link": "https://arxiv.org/abs/2609.30233v1",
+      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing",
+      "published": "2026-09-24T17:53:35Z",
+      "authors": [
+        "Matteo Merler",
+        "Bowen Li",
+        "Josh Roy",
+        "Yichao Liang",
+        "Qianwei Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Breaking the Blend: A multi-tracer kinematic decomposition method for IFS data applied to disentangling the AGN outflow and circumnuclear ring in NGC 5728 with JWST",
+      "link": "https://arxiv.org/abs/2609.30232v1",
+      "summary": "Integral field spectroscopy (IFS) of the central kiloparsecs of active galactic nuclei (AGN) reveals a mixture of spatially coincident emission from star-formation and AGN feedback exciting the interstellar medium. Disentangling these components remains a challenge, as most spectral tracers are affected by both processes, limiting robust interpretation of kinematics and energetics. We present a new framework for decomposing IFS data into distinct components on a spaxel-by-spaxel basis using a mu",
+      "published": "2026-09-24T17:53:20Z",
+      "authors": [
+        "Oscar Veenema",
+        "Niranjan Thatte",
+        "Dimitra Rigopoulou",
+        "Richard I. Davies",
+        "Miguel Pereira-Santaella"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Disc-mediated angular momentum transport resolves the mass-gain problem in rotating binaries",
+      "link": "https://arxiv.org/abs/2609.30230v1",
+      "summary": "A large fraction of stars interact with a close companion during their lifetime, in which the transfer of mass and angular momentum shapes their evolution and final fate. Standard rotationally limited accretion models predict that accretors reach critical rotation after gaining only a small fraction of their mass, severely suppressing further accretion. This is in tension with observations of post-interaction systems that require substantial mass gain. We introduce a disc-mediated angular moment",
+      "published": "2026-09-24T17:51:40Z",
+      "authors": [
+        "Sebastian Ljung",
+        "Avishai Gilkis",
+        "Sandro Tacchella"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+      "link": "https://arxiv.org/abs/2609.30227v1",
+      "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio Language Models (LALMs). VeriSpeak contains 3,879 spoken claims spanning temporal, geographical, and relational facts, with balanced true and false labels. The benc",
+      "published": "2026-09-24T17:50:40Z",
+      "authors": [
+        "Debajyoti Mazumder",
+        "Mamta",
+        "Abhirama Subramanyam Penamakuri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+      "link": "https://arxiv.org/abs/2609.30226v1",
+      "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it possible to predict the RL outcomes without actually running RL on it? We answer this in the affirma",
+      "published": "2026-09-24T17:50:25Z",
+      "authors": [
+        "Kimia Hamidieh",
+        "Giannis Daras",
+        "Antonio Torralba"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient simulation of millimeter-scale complex-modulated integrated Bragg gratings via hierarchical locally periodic eigenmode expansion",
+      "link": "https://arxiv.org/abs/2609.30224v1",
+      "summary": "We propose a structure-aware, hierarchical locally periodic eigenmode expansion (HLP-EME) framework for efficiently simulating millimeter-scale integrated Bragg gratings (IBGs) with complex modulation on silicon-on-insulator platforms. HLP-EME discretizes continuously varying grating parameter profiles into piecewise-constant blocks and exploits the resulting local periodicity of the physical grating structure by reusing the S-matrix of a representative period within each block. This strategy re",
+      "published": "2026-09-24T17:48:49Z",
+      "authors": [
+        "Rui Cheng",
+        "Jia Meng",
+        "Ping Yu",
+        "Jihao Wang",
+        "Zikun Xie"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
+      "link": "https://arxiv.org/abs/2609.30222v1",
+      "summary": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point tracker that breaks this trade-off by representing videos as persistent 3D scene tracks in world coordinates. Grounded in the insight that videos are 2D projections of an underlying 3D world, TrackEverything decouples model complexity from video duration, allowing it to scale with u",
+      "published": "2026-09-24T17:48:20Z",
+      "authors": [
+        "Ayush Jain",
+        "Sreeharsha Paruchuri",
+        "Ishita Gupta",
+        "Fan Zhang",
+        "Tanner Schmidt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "link": "https://arxiv.org/abs/2609.30221v1",
+      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic plan",
+      "published": "2026-09-24T17:48:19Z",
+      "authors": [
+        "Yubo Zhu",
+        "Yawen Shao",
+        "Ziyun Dai",
+        "Zixun Fang",
+        "Kai Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Riemannian Gradient Descent for Gaussian Mixture Models with unknown diagonal covariances",
+      "link": "https://arxiv.org/abs/2609.30220v1",
+      "summary": "This paper investigates the numerical resolution of the Beurling-LASSO (BLASSO), a convex optimization framework that promotes sparsity in the space of measures. We consider its application to the estimation of Gaussian mixture models (GMMs) with an unknown number of components and unknown diagonal covariance matrices. Our approach combines the Conic Particle Gradient Descent (CPGD) principle with Riemannian gradient descent, to account for the underlying Fisher-Rao geometry of Gaussian distribu",
+      "published": "2026-09-24T17:48:09Z",
+      "authors": [
+        "Romane Giard",
+        "Yohann De Castro",
+        "Roland Denis",
+        "Clément Marteau"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority",
+      "link": "https://arxiv.org/abs/2609.30219v1",
+      "summary": "An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning. Candidate generation is separated from release authority. Requirements unsupported by a deterministic parser are routed to a frozen local language model with four billion parameters. Plans are released only when both facts can be derived by an external gate under a sealed grammar. One canonical answer is requested from a gold-standard user when eligible. The protocol was evaluated once un",
+      "published": "2026-09-24T17:46:53Z",
+      "authors": [
+        "Mehmet Iscan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Minimally Invasive Steering of Language Models",
+      "link": "https://arxiv.org/abs/2609.30218v1",
+      "summary": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the local KL geometry of the induced token distribution. The resulting Fisher quadratic measures distributional sensitivity and admits an analytic gradient computed",
+      "published": "2026-09-24T17:46:46Z",
+      "authors": [
+        "Taha Entesari",
+        "Jingyu Zhang",
+        "Daniel Khashabi",
+        "Mahyar Fazlyab"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+      "link": "https://arxiv.org/abs/2609.30217v1",
+      "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks. We introduce EvasionBench, a benchmark of 50 diverse task-policy pairs in which completing the task requires an operation prohibited by a runtime monitor. Agents know that their tool calls are monitored and are prompted to continue workin",
+      "published": "2026-09-24T17:46:27Z",
+      "authors": [
+        "David Schmotz",
+        "Derck Prinzhorn",
+        "Luca Beurer-Kellner",
+        "Anselm Paulus",
+        "Ameya Prabhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
+      "link": "https://arxiv.org/abs/2609.30216v1",
+      "summary": "Jev is a fast, low-cost decision model that answers natural-language questions with choices, binary judgments, and scores. As its public ecosystem grows rapidly, it remains unclear how Jev is used across applications and how public attention relates to project distribution. To answer these questions, we conduct a large-scale, data-driven analysis of 2,170 publicly available Jev projects collected from GitHub as of September 22, 2026. We find rapid early growth in Jev's public ecosystem, with bot",
+      "published": "2026-09-24T17:46:08Z",
+      "authors": [
+        "Guoming Ling",
+        "Muen Xue",
+        "Zijian Ye"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model",
+      "link": "https://arxiv.org/abs/2609.30215v1",
+      "summary": "We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear lower bound. Our construction also implies the same lower bound for volume estimation.",
+      "published": "2026-09-24T17:45:58Z",
+      "authors": [
+        "Santosh S. Vempala"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage",
+      "link": "https://arxiv.org/abs/2609.30214v1",
+      "summary": "We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-centric multi-view predictive world model for near-field heavy-load underwater ROV salvage. Without contact sensors, it predicts in latent space how the task-object state evolves through contact interaction and under the hydrodynamic lag of the vehicle, from synchronized multi-view RGB observations and vehicle control signals. C$^{3}$-JEPA encodes multi-camera observations into task-object and conte",
+      "published": "2026-09-24T17:45:42Z",
+      "authors": [
+        "Yuncong Yang",
+        "Jinlong Li",
+        "Yulong Xue",
+        "Feng Wu",
+        "Chunwen Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Anchored Extra-Proximal Methods: Optimal Higher-Order Methods for Monotone Inclusion Problems",
+      "link": "https://arxiv.org/abs/2609.30212v1",
+      "summary": "We study the deterministic oracle complexity of finding approximate solutions to composite monotone inclusion problems, formed by the sum of a smooth single-valued monotone operator and a maximally monotone set-valued operator, under the tangent-residual criterion. We introduce the Anchored Extra-Proximal (AEP) framework, which combines an anchored extrapolation step with an inexact anchored proximal update satisfying a relative-error condition. The framework recovers the composite Fast Extragra",
+      "published": "2026-09-24T17:43:45Z",
+      "authors": [
+        "Ruichen Jiang",
+        "TaeHo Yoon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Alignment Illusion in Multimodal Large Language Models",
+      "link": "https://arxiv.org/abs/2609.30210v1",
+      "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into a shared representation space. This reading rests on the assumption that scalar alignment scores reflect content-level cross-modal interaction. To test this assumption, we apply controlled interventions to the visual stream. Across 13 MLLMs from five families spanning 0.5B to 72B parameters, replacing projector-output",
+      "published": "2026-09-24T17:42:29Z",
+      "authors": [
+        "Hong-Han Wang",
+        "Yuntao Wang",
+        "Hu Ding"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Localization near the edge for the lattice Anderson-Bernoulli model on general dimension",
+      "link": "https://arxiv.org/abs/2609.30209v1",
+      "summary": "The Anderson tight-binding model is a fundamental model of quantum transport and localization in disordered media. Completing a problem left open by Bourgain and Kenig, this paper proves Anderson localization near the bottom of the spectrum for the lattice Anderson model with Bernoulli potential, in any dimension $d\\ge 2$. The proof uses the multiscale framework of Fröhlich-Spencer and Bourgain-Kenig, and the main new ingredient is a probabilistic discrete unique continuation principle (PDUC) fo",
+      "published": "2026-09-24T17:42:14Z",
+      "authors": [
+        "Linjun Li",
+        "Shihe Liu",
+        "Lingfu Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Voxel-based block variational quantum linear solver: a hybrid quantum-classical method for static analysis of solids",
+      "link": "https://arxiv.org/abs/2609.30208v1",
+      "summary": "In solid mechanics, finite element discretization of large-scale static problems produces large sparse linear systems whose solution requires substantial computation time and memory. The variational quantum linear solver (VQLS) offers a hybrid quantum-classical route, but its use in quantum finite element analysis is limited by the decomposition of nonunitary matrices, barren plateaus, and the measurement cost of expectation values. We propose a voxel-based block variational quantum linear solve",
+      "published": "2026-09-24T17:42:08Z",
+      "authors": [
+        "Feng Wu",
+        "Chen Li",
+        "Li Zhu",
+        "Yuxiang Yang",
+        "Xu Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Topological black holes of Einsteinian cubic gravity and Born-Infeld-type electrodynamics",
+      "link": "https://arxiv.org/abs/2609.30206v1",
+      "summary": "In this paper, we examine the new black holes of Einsteinian cubic gravity within the framework of Born-Infeld-type electrodynamics. Initially, we establish the differential equations of motion that characterize an innovative collection of charged black hole solutions in Einsteinian cubic theory. Next, we compute the thermodynamic quantities of these black holes for the case of vanishing bare cosmological constant. We consider this situation because the model is unitary only for the asymptotical",
+      "published": "2026-09-24T17:41:22Z",
+      "authors": [
+        "Askar Ali"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+      "link": "https://arxiv.org/abs/2609.30205v1",
+      "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Their safety and utility depend on rigorous evaluation, yet existing benchmarks are manually curated, costly to update, and rapidly become obsolete with evolving technological advancements. We present a scalable framework that automatically generates question--answer pairs from lon",
+      "published": "2026-09-24T17:41:16Z",
+      "authors": [
+        "Jordan L. Cahoon",
+        "Chloe O. Stanwyck",
+        "Sulaiman Somani",
+        "Philip Chung",
+        "Kevin R Keet"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An extremal theorem for non-isomorphic spanning trees",
+      "link": "https://arxiv.org/abs/2609.30201v1",
+      "summary": "For a graph $G$, let $τ_{\\mathrm{iso}}(G)$ denote the number of isomorphism classes of its spanning trees. For every fixed $d\\ge3$ and all sufficiently large $n$, we prove that every connected $n$-vertex graph $G$ with $δ(G)\\ge d$ satisfies \\[τ_{\\mathrm{iso}}(G)\\ge τ_{\\mathrm{iso}}(K_{d,n-d})=A_dn^{d-1}+O_d(n^{d-2}),\\] for an explicit constant $A_d>0$, and $K_{d,n-d}$ is the unique minimizer. This confirms a conjecture of Bitonti, Michel and Scott and extends it to every $d\\ge3$. We also show th",
+      "published": "2026-09-24T17:37:23Z",
+      "authors": [
+        "Zhifei Yan",
+        "Lu-Ming Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "High Rank and Multiplicity in Random and Perfect Profinite Groups",
+      "link": "https://arxiv.org/abs/2609.30200v1",
+      "summary": "We prove that almost sure topological finite generation holds for a general class of random models of profinite groups. We deduce that in the models introduced by Liu--Wood and Sawin--Wood, one has that finite presentation holds almost surely, with almost sure control of the deficiency in the presentation. In particular this settles questions raised in work of Liu--Wood and Sawin--Wood. Using the same underlying principle, we show that there exists a unique universal d-generated perfect profinit",
+      "published": "2026-09-24T17:37:23Z",
+      "authors": [
+        "Carlo Pagano",
+        "Mark Shusterman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "link": "https://arxiv.org/abs/2609.30199v1",
+      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of e",
+      "published": "2026-09-24T17:37:14Z",
+      "authors": [
+        "Ming Zhang",
+        "Zhenghao Xiang",
+        "Peizhong Gao",
+        "Yujiong Shen",
+        "Yuhui Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond Compression: Training Latent Representations for Stable Long-Horizon Rollout in Neural Surrogate Solvers",
+      "link": "https://arxiv.org/abs/2609.30198v1",
+      "summary": "Latent neural surrogate solvers, or latent dynamics models, accelerate simulations of time-dependent physical systems by evolving a compressed latent space rather than resolving full-resolution fields directly. In principle this reduces computational cost and simplifies learning, but in practice errors often accumulate rapidly during long autoregressive rollouts, limiting predictive utility. We show that this instability does not stem from the latent representation itself, but arises when it is ",
+      "published": "2026-09-24T17:36:46Z",
+      "authors": [
+        "Andreas E. Robertson",
+        "Ashley T. Lenau",
+        "John D. Shimanek",
+        "Benjamin A. Jasperson",
+        "Vivek Oommen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Simulation-Based Inference and Unbinned Asimov Construction with Hybrid Neural Density Estimation",
+      "link": "https://arxiv.org/abs/2609.30196v1",
+      "summary": "High-dimensional, unbinned neural simulation-based inference often relies on neural ratio estimation, which uses expressive supervised models to estimate density ratios, but a learned ratio by itself provides neither an explicit normalized density nor a generative model. Flow-based surrogate models instead enable tractable density evaluation and efficient sampling, but residual density-estimation errors can limit precision for complex implicit distributions.   We propose \\textit{hybrid neural de",
+      "published": "2026-09-24T17:35:28Z",
+      "authors": [
+        "Rafael Coelho Lopes de Sa",
+        "Jay Sandesara"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Loan Portfolio Optimization with Variational Quantum Algorithms",
+      "link": "https://arxiv.org/abs/2609.30195v1",
+      "summary": "Loan portfolio optimization (LPO) seeks portfolios that minimize credit risk while satisfying practical selection constraints. Accounting for portfolio-level risk requires modeling not only expected losses but also loss variability and borrower-default correlations, leading to a large-scale combinatorial optimization problem whose complexity grows rapidly with portfolio size. In this work, we formulate LPO as a Quadratic Constrained Binary Optimization (QCBO) problem that jointly captures expect",
+      "published": "2026-09-24T17:34:29Z",
+      "authors": [
+        "Balaganchi A. Bhargava",
+        "Kamlesh Kumar",
+        "Gouranga Dinda",
+        "Aniruddha Biswas",
+        "Vijay S. Rao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+      "link": "https://arxiv.org/abs/2609.30192v1",
+      "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by complex reasoning spaces: an exploration bias, where models are drawn toward locally plausible but structurally unstable branches, and a compounding bias, where small local deviations accumulate across depth and suppress rare rewards. We introduce Symbolic Closure Analysis (SCA) as a theoretical lens characterizing how b",
+      "published": "2026-09-24T17:33:29Z",
+      "authors": [
+        "Xinyue Zeng",
+        "Jiawei Zhang",
+        "Yujun Yan",
+        "Dawei Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning the Maximum Tolerated Dose for Continuous Toxicity via Monotone Bayesian Trees",
+      "link": "https://arxiv.org/abs/2609.30190v1",
+      "summary": "Phase I cancer trials seek the maximum tolerated dose (MTD) while protecting patients from excessive toxicity. Dose assignments must therefore balance patient safety with learning the dose--toxicity relationship as data accrue. We model continuously measured toxicity outcomes using two forms of Bayesian additive regression trees (BART): isotonic BART projects posterior response curves onto nondecreasing functions, whereas monotone BART constrains the model. Joint curve and variance draws induce ",
+      "published": "2026-09-24T17:32:15Z",
+      "authors": [
+        "Se Yoon Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bayesian joint modeling of longitudinal patient-reported outcomes and survival: an application to chronic obstructive pulmonary disease",
+      "link": "https://arxiv.org/abs/2609.30188v1",
+      "summary": "Questionnaire-based patient-reported outcomes (PROs) are discrete, bounded and overdispersed, yet joint models relating them to survival may ignore these features or estimate both processes sequentially. We propose a Bayesian joint model combining a beta-binomial mixed-effects submodel with a Weibull proportional hazards submodel, linked through the subject-specific response probability. Simulations show that simultaneous estimation reduces bias in the longitudinal slope and yields practically u",
+      "published": "2026-09-24T17:31:15Z",
+      "authors": [
+        "Cristina Galán-Arcicollar",
+        "Danilo Alvares",
+        "Josu Najera-Zuloaga",
+        "Dae-Jin Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures",
+      "link": "https://arxiv.org/abs/2609.30187v1",
+      "summary": "Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI. However, the dataset ships with only sparse 3D human pose annotations, and reconstructing dense human motion from its multi-view captures is nontrivial. To this end, we present Ego-Exo4D-HM, a large-scale dataset of 4D human motion reconstructions for Ego-Exo4D's captures, and release the accom",
+      "published": "2026-09-24T17:30:36Z",
+      "authors": [
+        "Abhiram Maddukuri",
+        "Georgios Pavlakos"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Jev-Mobile: Jev as an Executor for Mobile GUI Agents",
+      "link": "https://arxiv.org/abs/2609.30186v1",
+      "summary": "Vision-language models (VLMs) have become a common foundation for autonomous mobile GUI agents, but most existing systems rely on the VLM for both planning and action grounding at nearly every interaction step, leading to substantial latency and model-serving cost. We introduce Jev-Mobile, which shifts this paradigm to low-frequency VLM planning and high-frequency lightweight execution: the VLM specifies local goals, the accessibility tree defines a structured executable action space, and Jev, a",
+      "published": "2026-09-24T17:30:32Z",
+      "authors": [
+        "Linghua Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
