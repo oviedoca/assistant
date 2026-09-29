@@ -1,0 +1,664 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "From Density to Mass: A New Parametrized Framework for Dark Matter Environment Around Black Holes",
+      "link": "https://arxiv.org/abs/2609.35771v1",
+      "summary": "Astrophysical black holes (BHs) are not isolated vacuum objects but are expected to reside within complex environments, such as dark matter (DM) halos and baryonic distributions. Such environments can modify the spacetime geometry surrounding the BH and leave observable imprints on gravitational-wave (GW) signals, including shifts in the quasinormal mode (QNM) spectrum, tidal Love numbers (TLNs), and the inspiral dynamics of extreme-mass-ratio inspirals (EMRIs). We develop a general framework fo",
+      "published": "2026-09-28T17:59:59Z",
+      "authors": [
+        "Rajes Ghosh",
+        "Nicholas Speeney",
+        "Avijit Chowdhury",
+        "Chiranjeeb Singha",
+        "Miguel A. S. Pinto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "link": "https://arxiv.org/abs/2609.35770v1",
+      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variability. We present FurE, an efficient strand-based animal fur reconstruction method that recovers a per-strand, editable groom by optimizing a root-conditioned latent field, decoded into strand geometry vi",
+      "published": "2026-09-28T17:59:58Z",
+      "authors": [
+        "Srinjay Sarkar",
+        "Prakhar Kaushik",
+        "Soumava Paul",
+        "Alan Yuille"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Telescopic Language Models",
+      "link": "https://arxiv.org/abs/2609.35769v1",
+      "summary": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a full anchor. At every step, one randomly truncated prefix of the capacity axis is trained against the full next-token target, alongside one full-capacity pass, so the trained artifact is a valid langua",
+      "published": "2026-09-28T17:59:53Z",
+      "authors": [
+        "Zhilin Guo",
+        "Boqiao Zhang",
+        "Hakan Aktas",
+        "Kyle Fogarty",
+        "Nursena Koprucu Aslan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+      "link": "https://arxiv.org/abs/2609.35768v1",
+      "summary": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturation and artifacts. We trace this instability to critic errors, which enter successive student updates and accumulate over time. We introduce Projected Distribution Matching Distillation (PDMD) to filte",
+      "published": "2026-09-28T17:59:52Z",
+      "authors": [
+        "Zimo Wang",
+        "Junkun Yuan",
+        "Angtian Wang",
+        "Haotian Yang",
+        "Canyu Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.35767v1",
+      "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image generation must be learned jointly, over the whole loop. Supervised fine-tuning (SFT) on reflection trajectories gives a cold start but does not find the high-success repair paths, and naive RL that ",
+      "published": "2026-09-28T17:59:36Z",
+      "authors": [
+        "Yijia Fan",
+        "Ziqi Huang",
+        "Zhongang Cai",
+        "Yan Li",
+        "Zimo Wen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
+      "link": "https://arxiv.org/abs/2609.35765v1",
+      "summary": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Tales. Drawing on the commentary to a critical edition, we construct a benchmark of 189 annotated references and evaluate retrieval against all 31,170 verses of historically plausible Danish Old and New",
+      "published": "2026-09-28T17:59:27Z",
+      "authors": [
+        "András Kovács",
+        "Alexander Conroy",
+        "Daniel Hershcovich",
+        "Jens Bjerring-Hansen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
+      "link": "https://arxiv.org/abs/2609.35764v1",
+      "summary": "Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies between sessions, and streams drift or drop out. On a new 35-take single-subject benchmark pairing an earbud head inertial measurement unit (IMU) with two smart-insole foot IMUs (SAM-3D-Body pseudo-ground-truth labels), we show the reliability problem is channel-level: a channel ablation isolates foot acceleration ",
+      "published": "2026-09-28T17:59:22Z",
+      "authors": [
+        "Zhilin Guo",
+        "Boqiao Zhang",
+        "Oszkár Urbán",
+        "Josef Bengtson",
+        "Hakan Aktas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Unifying Distributional Training for One-Step Visual Generation",
+      "link": "https://arxiv.org/abs/2609.35763v1",
+      "summary": "\\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \\emph{a unified theoretical framework} that separates distribution modeling from matching discrepancy and connects global objectives to pointwise feature updates through Wasserstein gradient flow. Under this framework, FD-Loss and Gaussian-kernel Drifting are recovered through Gaussian optimal transport and kernel-dens",
+      "published": "2026-09-28T17:59:14Z",
+      "authors": [
+        "Chi Zhang",
+        "Haoyang Shi",
+        "Yueyi Liu",
+        "Ruichuan An",
+        "Junkang Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms",
+      "link": "https://arxiv.org/abs/2609.35762v1",
+      "summary": "This paper presents Peppy, an AI-assisted workflow for discovering tight, analytic convergence proofs for first-order optimization algorithms. Generic approaches to using LLMs to conduct mathematical research target an unspecified, broad spectrum of problems and sometimes use the Lean 4 proof assistant for formalization. On the other hand, Peppy leverages domain-specific knowledge more heavily and is thereby capable of constructing the proofs in a more structured manner, which allow a minimal an",
+      "published": "2026-09-28T17:59:12Z",
+      "authors": [
+        "Jaewook J. Suh",
+        "TaeHo Yoon",
+        "Edward Duc Hien Nguyen",
+        "Bicheng Ying",
+        "Shiqian Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "link": "https://arxiv.org/abs/2609.35759v1",
+      "summary": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative State Tracking Agent (NstAgent), a training-free agentic framework that allows LLMs to track a struct",
+      "published": "2026-09-28T17:59:09Z",
+      "authors": [
+        "Zhennan Wan",
+        "Jianfei Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+      "link": "https://arxiv.org/abs/2609.35760v1",
+      "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call. The total consumption of a task is therefore hard to predict before execution and the prediction must be revised as the run unfolds. In this paper, we propose TokenCast, which learns a composable cos",
+      "published": "2026-09-28T17:59:09Z",
+      "authors": [
+        "Chaoqian Ouyang",
+        "Ling Yue",
+        "Libin Zheng",
+        "Huanghui Guo",
+        "Shengxiang Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
+      "link": "https://arxiv.org/abs/2609.35758v1",
+      "summary": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejection methods. Specifically, we introduce a statistically principled hard expectation-maximization (hard-EM) procedure, with a Kalman smoother in the hard E-step, to identify dynamical representations of disturbance whose latent evolution is uniformly co",
+      "published": "2026-09-28T17:59:07Z",
+      "authors": [
+        "Min Kim",
+        "José Leonardo Brenes",
+        "Fred Hadaegh",
+        "Soon-Jo Chung"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Fingers of God be Resummed?",
+      "link": "https://arxiv.org/abs/2609.35757v1",
+      "summary": "Fingers of God (FoGs), Doppler shifts due to the small-scale virial motions of galaxies, are one of the most significant challenges for analytic models of galaxy clustering in redshift surveys. In the effective field theory approach, the characteristic scale of these shifts introduces a new, large length scale, limiting the reach of the theory. This has motivated many phenomenological models of FoGs in the literature where their effect is approximated by a single damping function of the line-of-",
+      "published": "2026-09-28T17:59:06Z",
+      "authors": [
+        "Shi-Fan Chen",
+        "Alejandro Aviles"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gauge Backreaction in Standard Model Warm Inflation",
+      "link": "https://arxiv.org/abs/2609.35756v1",
+      "summary": "Standard-Model warm inflation (SMWI) makes QCD the microscopic origin of inflationary dissipation, so the real-time response of the gauge plasma enters the cosmological prediction. We show that a slowly relaxing gauge-helicity response cannot, in general, be absorbed into an effective friction coefficient and must instead remain dynamical. We therefore evolve the quark axial densities and a matched hard-helicity mode, with QCD sphalerons and an effective $2\\leftrightarrow3$ channel generating bo",
+      "published": "2026-09-28T17:59:03Z",
+      "authors": [
+        "Rafid H. Dejrah",
+        "Anish Ghoshal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Covariant Contrastive Learning for Uncertainty-Aware Anomaly Detection",
+      "link": "https://arxiv.org/abs/2609.35755v1",
+      "summary": "Machine-learning-based anomaly detection (AD) offers a promising, model-agnostic alternative to traditional LHC analyses, allowing to search for many signals at once. Recent advances in representation learning motivate the use of neural embeddings to map high-dimensional physics observables into low-dimensional latent spaces better suited to statistical inference. However, the propagation of systematic uncertainty in embedded spaces remains poorly understood, severely limiting the application of",
+      "published": "2026-09-28T17:59:02Z",
+      "authors": [
+        "Shelley Tong",
+        "Philip Harris",
+        "Gaia Grosso"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Perfect Born Sampling of Symmetric Thermal Tensor Network for Quantum Lattice Models",
+      "link": "https://arxiv.org/abs/2609.35754v1",
+      "summary": "Accurate calculations of quantum lattice models at low temperatures constitute a major challenge in many-body physics. Stochastic sampling of tensor-network states offers a promising route to tackle this problem; however, existing schemes have long faced a fundamental dilemma---sampling efficiency and symmetry acceleration \\textit{cannot} be achieved simultaneously. Here we propose a perfect Born sampling approach for thermal tensor networks, which performs importance sampling directly from the ",
+      "published": "2026-09-28T17:58:21Z",
+      "authors": [
+        "Jianxin Gao",
+        "Qiaoyi Li",
+        "Yuan Gao",
+        "Chuanshu Xu",
+        "Guoliang Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AutoCF: An Automated LLM-Assisted Ecosystem for Compound Flood Simulation, Evaluation, and Impact Attribution",
+      "link": "https://arxiv.org/abs/2609.35753v1",
+      "summary": "Compound coastal flooding (CCF) arises from interacting coastal, precipitation, and river processes, yet modeling workflows often separate simulation, evaluation, and impact analysis. We present AutoCF, an automated ecosystem integrating data harmonization, model construction, observational evaluation, exposure analysis, complete factorial driver attribution, and cross-platform execution. The automated Hurricane Harvey simulation achieves a median root mean square error of 0.147 m and correlatio",
+      "published": "2026-09-28T17:58:14Z",
+      "authors": [
+        "Soheil Radfar",
+        "Faezeh Maghsoodifar",
+        "Ning Lin",
+        "Hamed Moftakhari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neural Harmonic Measure Operator",
+      "link": "https://arxiv.org/abs/2609.35752v1",
+      "summary": "We introduce Neural Harmonic Measure Operator (NHMO), a neural solver for elliptic PDE problems on variable-shape domains. The harmonic measure of a domain is the boundary probability distribution that, integrated against any boundary data, returns the Dirichlet Laplace solution. It depends only on the geometry, not on the boundary data. NHMO parameterizes the density of this measure as a transformer-based boundary kernel supervised by Walk-on-Spheres exit samples, so one trained kernel handles ",
+      "published": "2026-09-28T17:58:13Z",
+      "authors": [
+        "Jinjin He",
+        "Sinan Wang",
+        "Yuchen Sun",
+        "Bo Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "link": "https://arxiv.org/abs/2609.35751v1",
+      "summary": "Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed size further, and so use its parameters more fully; while sparse mixture-of-experts (MoE) models activate only a few of many experts for each token. Looped MoE bridges these two design philosophies and gives MoE models new potential for better expert usage, but it raises a question: how to loop a MoE? We answer it with Foil. With the expert parameters and the expert compute per t",
+      "published": "2026-09-28T17:58:03Z",
+      "authors": [
+        "Shouren Wang",
+        "Chuang Ma",
+        "Mohsen Hariri",
+        "Debargha Ganguly",
+        "Wang Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.35750v1",
+      "summary": "Scaling the horizon of agentic LLMs is bottlenecked by the need to fit ever longer context traces in GPU memory. Context compaction has been the most popular mechanism to alleviate this issue, keeping GPU memory constant for a given trace. Unfortunately, most compaction strategies rely on prefilling the LLM context many times over, hindering training throughput. To alleviate this bottleneck and enable efficient trainable compaction, we propose KV-streams, a plug-and-play strategy compatible with",
+      "published": "2026-09-28T17:57:42Z",
+      "authors": [
+        "Emiliano Penaloza",
+        "Dane Malenfant",
+        "Dheeraj Vattikonda",
+        "Roger Creus Castanyer",
+        "Siddarth Venkatraman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Communication-Efficient Social Intelligence in Language Agents",
+      "link": "https://arxiv.org/abs/2609.35749v1",
+      "summary": "Socially intelligent language agents must negotiate, coordinate, and resolve conflicting preferences while respecting the time and attention of both participants. Balancing these demands is challenging because agents must convey enough to address a partner's constraints and advance their goals without adding words that do not help the interaction. In this paper, we propose Teacher-Assisted Communication Training (TACT) to improve social goal attainment while reducing communication cost, making i",
+      "published": "2026-09-28T17:57:16Z",
+      "authors": [
+        "Linxiao Gong",
+        "Yijie Xu",
+        "Tianfu Wang",
+        "Yin Wu",
+        "Yili Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+      "link": "https://arxiv.org/abs/2609.35748v1",
+      "summary": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-compute slope, measured as the accuracy gain per doubling of test-time decoding FLOPs. We find that exi",
+      "published": "2026-09-28T17:56:55Z",
+      "authors": [
+        "Yichen You",
+        "Tianyu Fu",
+        "Aosong Feng",
+        "Xingtai Lv",
+        "Xuefei Ning"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Near-Optimal Bounds for Testing Residual-String Equality and Parenthesis Languages",
+      "link": "https://arxiv.org/abs/2609.35746v1",
+      "summary": "Residual-String Equality, denoted $\\texttt{ResStringEq}$, is the property consisting of all pairs of strings over $\\{0,1,*\\}$ that are equal after deleting all `$*$' symbols from them. This property was first introduced by Fischer, Magniez, and Starikovskaya (SODA 2018), who used it to show a lower bound on testing the $\\texttt{Dyck}$ languages, where $\\texttt{Dyck}_m$ is the language consisting of balanced sequences of parentheses over $m$ parenthesis types. They showed that testing $\\texttt{Re",
+      "published": "2026-09-28T17:56:02Z",
+      "authors": [
+        "Hadar Strauss"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Copy the Same, Distill the Difference: Initializing Linear Vision Transformers",
+      "link": "https://arxiv.org/abs/2609.35745v1",
+      "summary": "Linear Vision Transformers (ViTs) are designed to replace the attention in Softmax ViTs with the linear-complexity attention operator for more efficient token routing, but they require from-scratch pre-training and typically underperform the original Softmax version. How to initialize linear ViTs both efficiently and effectively still remains unclear. In this work, we explicitly ask: given that most foundation ViTs are built on the mainstream Softmax attention, can linear ViTs benefit from their",
+      "published": "2026-09-28T17:55:21Z",
+      "authors": [
+        "Huaiyuan Qin",
+        "Muli Yang",
+        "Gabriel James Goenawan",
+        "Shiqi Huang",
+        "Min Kass Chong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
+      "link": "https://arxiv.org/abs/2609.35744v1",
+      "summary": "Evaluating finance research agents requires rubrics that reflect expert standards and fix the values correct as of an information cutoff. Expert-reviewed finance benchmarks rely on fixed, per-item rubrics, which are costly to extend and cannot encode each institution's own standard. In FinAutoRubric, experts specify reusable evaluation guidance, while agents and code carry out query-specific rubric generation, review, and validation. This expert guidance governs every agent, as prompts and as ru",
+      "published": "2026-09-28T17:55:06Z",
+      "authors": [
+        "Hoyoung Lee",
+        "Suyeol Yun",
+        "Jack Haverty",
+        "Yunju Cho",
+        "Meesong Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MINT: Modeling GenAI Impact on Network Traffic",
+      "link": "https://arxiv.org/abs/2609.35742v1",
+      "summary": "Generative AI (GenAI) is becoming a mainstream network workload, yet packet-level simulators lack measure\\-ment-driven GenAI traffic models. Currently researchers must approximate GenAI services using traditional sources such as file transfer and video streaming, limiting realistic network evaluation of scheduling and capacity planning. We present MINT, a measurement and modeling framework for GenAI network traffic. Using an isolated net\\-work-namespace capture pipeline, we collect client-side t",
+      "published": "2026-09-28T17:54:31Z",
+      "authors": [
+        "Andrew Nguyen",
+        "Samson Kempiak",
+        "Agrim Gupta",
+        "Koushik Kar",
+        "Ish Kumar Jain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+      "link": "https://arxiv.org/abs/2609.35741v1",
+      "summary": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions by training only on explanations of its own experience? We investigate this question by studying Retrospection-Only Fine-Tuning (ROFT), a minimal online procedure designed to isolate the effect of explanation-only training on subsequent behavior. The agent attempts a task, obser",
+      "published": "2026-09-28T17:54:24Z",
+      "authors": [
+        "Jonathan Light",
+        "Christopher Zhang Cui",
+        "Jeonghye Kim",
+        "Roger Creus Castanyer",
+        "Emiliano Penaloza"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rubric-Calibrated Preferences: Cross-Query Calibration of LLM Judgments via Item Response Theory",
+      "link": "https://arxiv.org/abs/2609.35739v1",
+      "summary": "Rerankers decide which documents users and LLMs see, yet their standard metric, nDCG, relies on human relevance labels that are costly, sparse, noisy, and discretely graded. As rerankers approach each other in quality, nDCG on these labels therefore increasingly fails to separate them. LLM judges could supply dense labels. Relative judgments within one query tell even close candidates apart, yet their scores share no scale across queries. Absolute grades share one scale but are too coarse to dis",
+      "published": "2026-09-28T17:54:16Z",
+      "authors": [
+        "Fabian David Schmidt",
+        "Donato Crisostomi",
+        "Carlos Lassance",
+        "Nils Reimers"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Harness Learning Enables Generalizable Test-Time Adaptation",
+      "link": "https://arxiv.org/abs/2609.35738v1",
+      "summary": "A language-model agent is jointly defined by its model and its harness, the executable program that organizes model calls, tool use, and information flow. Because different tasks call for different ways of organizing these operations, the harness needs to be adapted using feedback from the task at hand. We introduce harness learning, which trains a proposer model to revise a solver's harness using execution feedback. We formulate this process as meta-learning over executable programs, with harne",
+      "published": "2026-09-28T17:52:54Z",
+      "authors": [
+        "Alvin Zhang",
+        "Xuecheng Liu",
+        "Zixuan Wang",
+        "Fahim Tajwar",
+        "Daman Arora"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GAIA meets LZ: a high velocity tail-tale sign for dark matter",
+      "link": "https://arxiv.org/abs/2609.35737v1",
+      "summary": "The interpretation of high-energy nuclear recoils in direct-detection experiments can depend sensitively on the high-velocity tail of the galactic dark matter (DM) distribution. The LUX-ZEPLIN (LZ) experiment has recently reported an event, LZ230616, with nuclear recoil energy 248 $\\pm$ 23 (stat) $\\pm$ 23 (sys) keV, while the Gaia mission has provided an unprecedented view of the kinematics and mass distribution of the Milky Way. We bring these two probes together to investigate the inelastic DM",
+      "published": "2026-09-28T17:52:28Z",
+      "authors": [
+        "Anirban Das",
+        "Subhabrata Majumdar",
+        "Manibrata Sen",
+        "Amogh Srivastav"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space",
+      "link": "https://arxiv.org/abs/2609.35734v1",
+      "summary": "Novel view synthesis from sparse images must reconcile faithful reconstruction of observed regions with plausible completion of unseen content, while maintaining world consistency across viewpoints. Existing geometry-based methods preserve observed scene structure but often struggle to complete unseen regions, whereas video generative models offer rich appearance priors but accumulate inconsistencies during sequential view generation. We propose GeoVerse, a framework that synthesizes world-consi",
+      "published": "2026-09-28T17:51:48Z",
+      "authors": [
+        "Kerui Ren",
+        "Tao Lu",
+        "Linning Xu",
+        "Changjian Jiang",
+        "Mu Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast radio burst - persistent radio source systems III. The relation bewteen PRS luminosity and FRB rotation measure",
+      "link": "https://arxiv.org/abs/2609.35733v1",
+      "summary": "Fast radio bursts (FRBs) are millisecond-duration radio transients of extragalactic origin whose physical origin remains uncertain. A small fraction of FRBs are known to repeat, and some of them are associated with persistent radio sources (PRSs), interpreted as synchrotron-emitting nebulae surrounding the FRB source. In the context of magnetar-based models, the rotation measure (RM) of an FRB is expected to correlate with the spectral luminosity of its associated PRS, providing a probe of the p",
+      "published": "2026-09-28T17:51:41Z",
+      "authors": [
+        "D. Pelliciari",
+        "G. Bernardi",
+        "M. Pilia",
+        "P. Esposito",
+        "L. Beduzzi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
+      "link": "https://arxiv.org/abs/2609.35732v1",
+      "summary": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it. Existing benchmarks often entangle this reporting failure with tool selection, recovery, and environment dynamics. We introduce Failure-Transparent Agents (FTA), a controlled benchmark that fixes the failed observation and required evidence state before generation, making post-failure claims directly auditable. FTA contains 100 tasks with deterministic fail",
+      "published": "2026-09-28T17:51:41Z",
+      "authors": [
+        "Junru Zhu",
+        "Shiming Xie",
+        "Aime Lu Fan Chen",
+        "Xiaoqing Ding",
+        "Chunxin Tang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
+      "link": "https://arxiv.org/abs/2609.35728v1",
+      "summary": "We present FlowAct-R2, a framework for interactive humanoid video generation that combines continuous multimodal control with proactive agent planning. Our method consists of two coupled components. First, a Streaming Multimodal Reference Diffusion Transformer adapts the pretrained Seedance 2.0 Mini reference-to-video backbone to accept rolling action prompts, streaming audio, and dynamically updated image, audio, and video references. Video-driven rotary positional embeddings align reference ch",
+      "published": "2026-09-28T17:50:47Z",
+      "authors": [
+        "Ziyao Huang",
+        "Zhengkun Rong",
+        "Shiyang Qin",
+        "Shuang Liang",
+        "Wentao Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Impact of Patient Orientation in Single- and Multi-View Camera Environments for AI-based Rehabilitation Monitoring",
+      "link": "https://arxiv.org/abs/2609.35726v1",
+      "summary": "Automated quality assessment of rehabilitation exercises relies heavily on accurate human pose estimation from video data. Although numerous RGB-based pose estimation methods have been proposed, the impact of camera placement on detecting clinically relevant movement errors remains insufficiently explored. To address this gap, we introduce REHAB26-ViewAngles, a dataset comprising correct and incorrect rehabilitation exercise executions captured from a wide range of camera angles. Furthermore, we",
+      "published": "2026-09-28T17:50:26Z",
+      "authors": [
+        "Miriama Jánošová",
+        "Andreas Lang",
+        "Petra Budikova",
+        "Jan Sedmidubsky"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Superquadric Primitive Decomposition of 3D point clouds via Geometric-Aware Inlier Refinement",
+      "link": "https://arxiv.org/abs/2609.35725v1",
+      "summary": "The decomposition of 3D point clouds into interpretable geometric primitives remains a longstanding challenge in Computer Vision and Computer Graphics. Among the available representations, superquadrics offer a compact and expressive model capable of capturing a wide range of shapes. However, their estimation is inherently challenging, as it requires solving a non-linear optimization problem and is particularly sensitive to noise, outliers, and overlapping structures. While robust estimation met",
+      "published": "2026-09-28T17:49:31Z",
+      "authors": [
+        "Alessandro Rinaldi",
+        "Edoardo Tedesco",
+        "Andrea Ferraris",
+        "Filippo Leveni",
+        "Daniele Baieri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Empirical determination of the Galactic neutron star--black hole merger rate using StarTrack models",
+      "link": "https://arxiv.org/abs/2609.35723v1",
+      "summary": "The discovery of a pulsar in a binary system with a black hole would provide a unique laboratory for testing general relativity in the strong-field regime and offer vital constraints on massive star evolution. We assess prospects for the detectability of such systems by utilizing the radio pulsar population and survey models within the modeling package PsrPopPy and, as a proof of principle, two evolutionary models with different treatments of common-envelope phases from the stellar population sy",
+      "published": "2026-09-28T17:48:31Z",
+      "authors": [
+        "Terrence Pierre Jacques",
+        "D. R. Lorimer",
+        "Nihan Pol",
+        "M. A. McLaughlin",
+        "K. Belczynski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Multilevel Plaquette-Space Sampling for Lattice Gauge Theories with Local Constraint Solves",
+      "link": "https://arxiv.org/abs/2609.35722v1",
+      "summary": "Lattice gauge theories are an important class of physical models with high-dimensional structured distributions that underpin first-principles calculations in particle, nuclear, and condensed-matter physics. Recent advances in generative modeling have opened new avenues for sampling Boltzmann distributions in lattice gauge theories, offering the potential to alleviate limitations of traditional Monte Carlo methods, including critical slowing down and topological freezing. However, generative sam",
+      "published": "2026-09-28T17:48:21Z",
+      "authors": [
+        "Ankur Singha",
+        "Jacob Finkenrath",
+        "Karl Jansen",
+        "Vipul Arora",
+        "Shinichi Nakajima"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SN 2025qe: A case study of diversity in low-luminosity thermonuclear explosions",
+      "link": "https://arxiv.org/abs/2609.35720v1",
+      "summary": "We present optical photometric and spectroscopic observations of SN 2025qe, a Type Iax supernova in IC 0529, monitored from $-10$ to $+150$ rest-frame days relative to $g'$-band maximum using the GROWTH-India and the Himalayan Chandra Telescopes. SN 2025qe reaches a peak $g'$-band absolute magnitude of $M_{g'} \\approx -16.16 \\pm 0.15$ mag, placing it in the sparsely sampled luminosity gap between the brightest and faintest members of the SNe Iax class. The multiband light curves show pronounced ",
+      "published": "2026-09-28T17:47:49Z",
+      "authors": [
+        "Hrishav Das",
+        "Anirban Dutta",
+        "Devendra K. Sahu",
+        "G. C. Anupama",
+        "Prathamesh S. Kadam"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions",
+      "link": "https://arxiv.org/abs/2609.35719v1",
+      "summary": "Artificial intelligence (AI) agents, language models connected to tools and run in a loop, can now carry out long, multi-step tasks with little supervision. We gave swarms of off-the-shelf coding agents a short statement of scope, from a narrow topic to a whole field, access to the literature and to computing tools, and one standing instruction: make real, correct, useful progress, and do not stop. We supplied no scientific ideas. Within weeks, the agents produced a large body of research notes,",
+      "published": "2026-09-28T17:47:30Z",
+      "authors": [
+        "Sergey Gusev",
+        "David E. Bernal Neira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
+      "link": "https://arxiv.org/abs/2609.35718v1",
+      "summary": "Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models. As these capabilities expand, a central question for the computer-vision community is how far this reach extends, and what remains hard. We evaluate GPT-6 Astra alongside five frontier general-purpose AI systems across 34 capabilities and 55 benchmarks spanning nine areas of computer vision. We compare their performance with dedicated mod",
+      "published": "2026-09-28T17:46:57Z",
+      "authors": [
+        "Hanoona Rasheed",
+        "Mohammed Irfan Kurpath",
+        "Bin Ren",
+        "Hisham Cholakkal",
+        "Fahad Shahbaz Khan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RoboCompiler: Graph-Native Compilation of Closed-Chain Robots for Consistent Modeling, Control, and Simulation",
+      "link": "https://arxiv.org/abs/2609.35717v1",
+      "summary": "Robots with kinematic loops, coupled actuators, and changing contacts require consistent models of configuration, motion, force, and dynamics. Yet these interfaces are often reconstructed separately for control and simulation, making closure and actuation consistency difficult to maintain. This paper presents RoboCompiler, a graph-native framework that compiles a canonical mechanism graph into a shared mechanical interface. From bodies, joints, frames, inertias, and actuator ports, it constructs",
+      "published": "2026-09-28T17:46:49Z",
+      "authors": [
+        "Mehdi Heydari Shahna",
+        "Joongheon Kim",
+        "Jouni Mattila"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When does least-squares residual minimization solve a differential equation?",
+      "link": "https://arxiv.org/abs/2609.35716v1",
+      "summary": "Least-squares residual minimization approximates a differential equation through an optimization problem. This paper investigates the conditions required to transition from stationary points and minimizing sequences of the residual functional to the exact solution. Starting from the classical orthogonality relation between the residual and the range of the linearized operator, we study how boundary conditions and parameterized variations determine what can be inferred about the residual at a sta",
+      "published": "2026-09-28T17:46:43Z",
+      "authors": [
+        "Carlos Esteve-Yagüe",
+        "Richard Tsai",
+        "Stanley Osher"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tide-and-Seek: Anisotropic scale-dependent bias in the Lyman-alpha forest and designer samples",
+      "link": "https://arxiv.org/abs/2609.35713v1",
+      "summary": "Searches for primordial non-Gaussianity are powerful ways of learning new information about the early Universe. Observing primordial signals in the late Universe is challenging as, in general, it is difficult to disentangle the small, primordial signatures from the complex physics that describes the distribution of galaxies and large-scale cosmic structures. We demonstrate that scale-dependent bias from primordial non-Gaussianity with non-trivial directional dependence in the squeezed limit (als",
+      "published": "2026-09-28T17:46:17Z",
+      "authors": [
+        "Yong Sheng Yap",
+        "William R. Coulton",
+        "Vid Iršič"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lagrangian--Hamiltonian Flows for Video Prediction and Image Generation: A Symplectic Perspective",
+      "link": "https://arxiv.org/abs/2609.35710v1",
+      "summary": "We introduce LHFM, a geometric framework for learning image dynamics. Drawing on structures central to classical mechanics, symplectic geometry, and geometric quantization, LHFM represents each image as an exact Lagrangian graph and models its evolution through image-dependent Hamiltonian flows, which yield a transport--source parameterization of image velocities. Our primary application is deterministic video prediction: LHFM-V is a recurrent model that advances frames by integrating predicted ",
+      "published": "2026-09-28T17:45:16Z",
+      "authors": [
+        "Jiawei Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+      "link": "https://arxiv.org/abs/2609.35709v1",
+      "summary": "Vision-language-action (VLA) models using discrete action tokens have proven effective for controling robotic arms on manipulation tasks. For a humanoid, however, the whole-body action space -- legs, torso, arms, and hands -- is far higher-dimensional and heterogeneous, raising tokenization, training, and real-time inference challenges that the previous VLA models do not address. We present Holo-M, to our knowledge the first discrete VLA model for humanoid loco-manipulation that intrinsically ex",
+      "published": "2026-09-28T17:44:15Z",
+      "authors": [
+        "Wenxin Shao",
+        "Siqi Chai",
+        "Kun Li",
+        "Kerou Zhang",
+        "Xinzhou Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+      "link": "https://arxiv.org/abs/2609.35707v1",
+      "summary": "Recent progress in machine learning is driven by large-scale foundation models, where scaling laws and finding optimal scaling prescriptions for architecture, data, and hyperparameters are key in advancing the state-of-the-art. Therefore, it is surprising that no systematic study evaluates the methodology to obtain scaling laws and prescriptions across different model types. To shed light on this crucial blind spot and facilitate future research, we introduce the surrogate benchmarks ScAn-Bench-",
+      "published": "2026-09-28T17:44:11Z",
+      "authors": [
+        "Artin Sermaxhaj",
+        "Nastaran Alipour",
+        "Donat Sinani",
+        "Johannes Hog",
+        "Neeratyoy Mallik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
+      "link": "https://arxiv.org/abs/2609.35706v1",
+      "summary": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation. Effective discovery, however, spans a broader creative spectrum: from structured day science to loosely structured, serendipitous night science that reaches ideas beyond those typically considered. We introduce AI Night-Scientist, an agentic framework that uses reinforcement learning to teach mod",
+      "published": "2026-09-28T17:43:52Z",
+      "authors": [
+        "Priyanka Kargupta",
+        "Silviu Cucerzan",
+        "Shweti Mahajan",
+        "Allen Herring",
+        "Jiawei Han"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Journey to the Center of a Black Hole",
+      "link": "https://arxiv.org/abs/2609.35705v1",
+      "summary": "An infalling two-point function of a scalar field in a three-dimensional BTZ black hole, with one operator inserted in the exterior and the other inserted along a timelike geodesic, diverges when the infalling insertion point reaches the black hole singularity. In the boundary description, this divergence comes entirely from the exchange of double-twist operators, rather than from the multi-stress-tensor sector that encodes the curvature singularities in higher dimensions. We show that the inclu",
+      "published": "2026-09-28T17:43:38Z",
+      "authors": [
+        "Vyshnav Mohan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DynaTokens: Teaching Dynamics to Camera-Controlled Video Models at Test Time",
+      "link": "https://arxiv.org/abs/2609.35704v1",
+      "summary": "Video generation must account for two sources of motion, one induced by the observer's camera path and the other caused by scene dynamics. An ideal camera-controlled video model should account for both motions: let users move the camera while evolving the scene dynamics. While current models handle camera-induced motion well in static settings, they struggle for dynamic scenes: objects are static, move incorrectly, or degrade in generation quality. We introduce DynaTokens, a lightweight set of l",
+      "published": "2026-09-28T17:42:57Z",
+      "authors": [
+        "Ziqi Ma",
+        "Hongqiao Chen",
+        "Georgia Gkioxari"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
