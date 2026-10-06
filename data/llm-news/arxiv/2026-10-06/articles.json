@@ -1,0 +1,647 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+      "link": "https://arxiv.org/abs/2610.06852v1",
+      "summary": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the method. We formulate aspect-ratio-adaptive flowchart relayout as a distinct task: given a raster flowchart and a target ratio, produce a structurally faithful, hallucination-free, editable layout. Ex",
+      "published": "2026-10-05T17:59:54Z",
+      "authors": [
+        "Shih-Chen Tseng",
+        "Chih-Hsuan Chen",
+        "Ryan Yang",
+        "Hsi-An Chen",
+        "Chun-Wei Tuan Mu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Base Models Can Reason By Taking a Cue From Training Data",
+      "link": "https://arxiv.org/abs/2610.06851v1",
+      "summary": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcement learning (RL)-trained counterparts on math and coding. For instance, the cue \".\\n\\nOkay\" raises Olmo-3-7B's MATH-500 pass@1 accuracy from 42% to 78%, while \"Alright,\" raises Qwen3-14B's from 72% t",
+      "published": "2026-10-05T17:59:52Z",
+      "authors": [
+        "Sophie L. Wang",
+        "Amil Dravid",
+        "Rulin Shao",
+        "Kevin Farhat",
+        "Sewon Min"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+      "link": "https://arxiv.org/abs/2610.06850v1",
+      "summary": "Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other. First, we consolidate motion-captured human-object interaction datasets and retarget them into humanoid robot references while preserving whole-body coordination and dexterous hand-object relat",
+      "published": "2026-10-05T17:59:50Z",
+      "authors": [
+        "Yucheng Zhang",
+        "Sirui Xu",
+        "Jinhong Li",
+        "Liuyu Bian",
+        "Anatulya Nandi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
+      "link": "https://arxiv.org/abs/2610.06848v1",
+      "summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data t",
+      "published": "2026-10-05T17:59:42Z",
+      "authors": [
+        "Joshua Kalyanapu",
+        "Darsh Asher",
+        "Kaushal Mhapsekar",
+        "Bita Aslrousta",
+        "Rushiraj Chaitanyakumar Sheth"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+      "link": "https://arxiv.org/abs/2610.06847v1",
+      "summary": "Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules. We introduce Serial-to-Parallel Diffusion (S2PD), which performs autoregressive diffusion at high noise before switching to parallel diffusion at low noise. The autoregressive phase provides the serial computation needed to coordinate interdependent events and produce valid s",
+      "published": "2026-10-05T17:59:35Z",
+      "authors": [
+        "Jeffrey Hu",
+        "Daniel Olmeda Reino",
+        "Ayush Tewari"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rewire and reset are all you need: Minimal resources for manipulating non-Abelions",
+      "link": "https://arxiv.org/abs/2610.06845v1",
+      "summary": "Braiding and fusing anyons are fundamental to topological quantum computation, yet existing circuit protocols often employ ancillas and measurements. We determine the minimal circuit resources for performing such anyon operations in quantum double models of generic finite groups. Our approach braids anyons through a sequential unitary circuit without ancillas. Intuitively, this is obtained by deforming the underlying graph on which the anyons live. More generally, we introduce graph rewiring, a ",
+      "published": "2026-10-05T17:59:17Z",
+      "authors": [
+        "Chiu Fan Bowen Lo",
+        "Rohith Sajith",
+        "Anasuya Lyons",
+        "Ashvin Vishwanath",
+        "Ruben Verresen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "link": "https://arxiv.org/abs/2610.06844v1",
+      "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a framework for reading this contextual space through natural-language interrogation. We train a lightweight bottleneck network that maps intermediate contextual tokens into the input space of a frozen Lar",
+      "published": "2026-10-05T17:59:17Z",
+      "authors": [
+        "Omer Dahary",
+        "Etai Sella",
+        "Hadar Averbuch-Elor",
+        "Daniel Cohen-Or",
+        "Or Patashnik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Recursive Video In-Context Learning for Agentic Robot",
+      "link": "https://arxiv.org/abs/2610.06843v1",
+      "summary": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyframes lose the contact detail that decides whether a grasp holds, and what the agent needs shifts from the task's structure while planning to the frames around each contact. We introduce Recursive Video ",
+      "published": "2026-10-05T17:59:11Z",
+      "authors": [
+        "Wenrui Bao",
+        "Xinxin Liu",
+        "Bingxin Xu",
+        "Yuzhang Shang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum information processing under maximal distance measures",
+      "link": "https://arxiv.org/abs/2610.06842v1",
+      "summary": "The measures of distance frequently used in quantum information, such as trace distance or fidelity-based purified distance, are the smallest extensions of the corresponding distance measures in classical information theory. However, this way of extending classical distances is not unique, and a whole spectrum of other extensions can be defined. Here we study the question of how quantum information processing tasks are affected by a change of the error metrics to the maximal extensions of the cl",
+      "published": "2026-10-05T17:59:08Z",
+      "authors": [
+        "Bartosz Regula",
+        "Ludovico Lami",
+        "Mario Berta",
+        "Marco Tomamichel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Testing Refracted Gravity with the kinematics of stacked galaxy clusters",
+      "link": "https://arxiv.org/abs/2610.06841v1",
+      "summary": "We test Refracted Gravity (RG), a phenomenological modified gravity model that modifies the Poisson equation by introducing an effective gravitational permittivity $ε(ρ_{\\rm bar})$ which depends on the baryonic matter density $ρ_{\\rm bar}$ and mimics the behaviour of dark matter in cosmic structures. We perform a kinematical analysis of member galaxies for a sample of 74 galaxy clusters, compiled from the Cluster Infall Regions in the Sloan Digital Sky Survey (CIRS). We stack the clusters in thr",
+      "published": "2026-10-05T17:59:00Z",
+      "authors": [
+        "Dario Primignani",
+        "Lorenzo Pizzuti",
+        "Antonaldo Diaferio",
+        "Valeria Broccolato"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Spectrum-Based Converse for Quantum State Discrimination and Its Applications to Classical-Quantum Channel Coding",
+      "link": "https://arxiv.org/abs/2610.06840v1",
+      "summary": "We investigate converse bounds on the average decoding error probability in finite-blocklength classical-quantum channel coding. We first present a lower bound for multiple quantum hypothesis testing in terms of pairwise trace distances and derive a corresponding fidelity bound. We then obtain a spectrum-based converse that depends only on the a priori probabilities and spectra of the states. We show that the converse bound remains tight for the quantum depolarizing channel under suitable condit",
+      "published": "2026-10-05T17:58:45Z",
+      "authors": [
+        "Tam{á}s Havas",
+        "Hsuan-Yin Lin",
+        "Eirik Rosnes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Goal-Oriented Wave Computing for Direction-of-Arrival Estimation",
+      "link": "https://arxiv.org/abs/2610.06839v1",
+      "summary": "Programmable metasurfaces---arrays of elements whose electromagnetic response can be tuned electronically---can process signals as a wave propagates through or reflects off them, a paradigm known as wave-domain analog computing. The design strategy is typically indirect: the surface is fitted to a prescribed linear operator, such as a discrete Fourier transform, and the result is read from output power measurements. Using direction-of-arrival (DoA) estimation as a canonical benchmark, we study w",
+      "published": "2026-10-05T17:58:39Z",
+      "authors": [
+        "Mert Kalfa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Anatomy-aware Fine-grained Multimodal Fusion for Laryngopharyngeal Cancer T-Staging Prediction Using CT and Radiology Report",
+      "link": "https://arxiv.org/abs/2610.06837v1",
+      "summary": "Accurate T-staging is crucial for guiding personalized treatment strategies for laryngopharyngeal cancer. However, current clinical practice relies on invasive biopsy procedures, whereas CT-based staging remains challenging due to the complex patterns of tumor invasion. Recent computer-aided approaches face two key challenges: 1) Structural relationship modeling: existing methods underrepresent anatomically structured patterns of tumor invasion, as they either process whole CT volumes without tu",
+      "published": "2026-10-05T17:58:28Z",
+      "authors": [
+        "Xingyue Zhao",
+        "Yanzhou Su",
+        "Fang Zhang",
+        "Zhanghexuan Ji",
+        "Yirui Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+      "link": "https://arxiv.org/abs/2610.06833v1",
+      "summary": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) sharing for decoding with almost no loss in accuracy; a distilled student that prefills up to 1.79x faster; and RL updates that compute gradients from saved rollout states, 2x faster than backpropagating through the repla",
+      "published": "2026-10-05T17:58:15Z",
+      "authors": [
+        "Benhao Huang",
+        "Chufan Shi",
+        "Junlin Chen",
+        "Shicheng Wen",
+        "Zhengzhong Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniSlider: Perceptually Uniform Sliders for Continuous Image Editing",
+      "link": "https://arxiv.org/abs/2610.06831v1",
+      "summary": "Sliders provide an intuitive interface for continuous image editing. In current generative approaches, however, the slider is simply a rescaling of the method's strength parameter, such as an adapter coefficient, a prompt weight, or an interpolation factor. This strength relates poorly to perceptual change. The image can partially revert as the slider moves, long stretches of the range produce no visible difference, and short intervals transform the image abruptly. Remapping the strength could f",
+      "published": "2026-10-05T17:58:11Z",
+      "authors": [
+        "David Serrano-Lozano",
+        "Duygu Ceylan",
+        "Yannick Hold-Geoffroy",
+        "Iliyan Georgiev",
+        "Javier Vazquez-Corral"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+      "link": "https://arxiv.org/abs/2610.06830v1",
+      "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over performa",
+      "published": "2026-10-05T17:58:06Z",
+      "authors": [
+        "Haozhen Zhang",
+        "Haodong Yue",
+        "Quanyu Long",
+        "Jianzhu Bao",
+        "Qingyuan Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
+      "link": "https://arxiv.org/abs/2610.06829v1",
+      "summary": "Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for credit assignment, while frontier-language-model judges are too expensive to call at every step and cannot be assumed available at deployment. We introduce CLIFT, a training and test-time scaling method built around conformal self-verification. During training, the agent answers natural-language ver",
+      "published": "2026-10-05T17:57:51Z",
+      "authors": [
+        "Yifan Zhang",
+        "Yutong Dai",
+        "Viraj Prabhu",
+        "Zhiyuan Hu",
+        "Ran Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Asymmetric Information in Wage Contracts: Experimental Evidence and Welfare Implications",
+      "link": "https://arxiv.org/abs/2610.06827v1",
+      "summary": "Compared to self-employment or performance-based pay, fixed wages reduce earnings uncertainty but are prone to market distortions through moral hazard and adverse selection. Using a model of wage contracts under asymmetric information, I show that these distortions map to marginal treatment response functions in a marginal treatment effects (MTE) framework. I apply this framework to a field experiment in which data-entry workers choose between a randomized fixed wage and a piece rate. I find evi",
+      "published": "2026-10-05T17:57:42Z",
+      "authors": [
+        "Daniel Herbst"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Natural proofs for quantum state preparation lower bounds",
+      "link": "https://arxiv.org/abs/2610.06826v1",
+      "summary": "We identify a barrier that helps explain why proving stronger quantum state-preparation lower bounds has been so difficult. In particular, we establish a quantum analogue of the Razborov-Rudich natural proofs barrier for state-preparation lower bounds. We call a property of quantum states \\emph{natural} if it holds for a sufficiently large fraction of Haar-random states and can be efficiently tested when given all of the state's amplitudes. Under a standard cryptographic assumption, we show that",
+      "published": "2026-10-05T17:57:39Z",
+      "authors": [
+        "Christine Li",
+        "Natalie Parham"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PlotGround: Grounding Plot Digitization in Real Scientific Figures and Their Source Data",
+      "link": "https://arxiv.org/abs/2610.06825v1",
+      "summary": "Scientific figures often encode quantitative results that are not readily available in machine-readable form, making accurate plot digitization important for verifying and reusing published findings. Yet it remains unclear how accurately current models recover plotted values from real scientific figures, as existing benchmarks rely largely on synthetic charts or cover only a limited range of chart types. We introduce PlotGround, an automated pipeline for building plot digitization benchmarks fro",
+      "published": "2026-10-05T17:57:19Z",
+      "authors": [
+        "Yaohui Zhang",
+        "Binxu Li",
+        "Haoyi Duan",
+        "Jiacheng Miao",
+        "Yixin Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts",
+      "link": "https://arxiv.org/abs/2610.06824v1",
+      "summary": "We introduce TasteVal, a benchmark to evaluate the experimental research taste of frontier models. We define research taste as the ability to pick interesting problems to solve, design experiments, and interpret experimental results. TasteVal measures the experimental component of research taste; given a fixed research problem, we measure how well a model iteratively designs experiments and draws conclusions from their outcomes. We operationalize experimental research taste as compute efficiency",
+      "published": "2026-10-05T17:57:15Z",
+      "authors": [
+        "Oliver Jaffe",
+        "Dane Sherburn"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Deep Learning for Sleep Heart Rate Estimation from Accelerometers: Toward Population-Scale Cardiac Insight Without Optical Sensors",
+      "link": "https://arxiv.org/abs/2610.06823v1",
+      "summary": "Large longitudinal cohorts often contain wrist accelerometry without optical heart-rate sensing, motivating recovery of cardiac information from motion signals already collected during sleep. We present SeqSmoother, a transformer-based temporal corrector for sleep heart rate (HR) estimation from wrist accelerometry. SeqSmoother combines spectral descriptors with an intermediate Nightbeat-derived frequency anchor and a physics-motivated sub-harmonic feature designed to identify harmonic frequency",
+      "published": "2026-10-05T17:56:57Z",
+      "authors": [
+        "Tanbin Islam Rohan",
+        "Pranjol Sen Gupta",
+        "Tanusree Debi",
+        "Nazmus Sakib"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The complete phase diagram of detailed-balanced Gibbs samplers for the mean-field Heisenberg model",
+      "link": "https://arxiv.org/abs/2610.06818v1",
+      "summary": "We study the spectral gap of recently discovered families of KMS-detailed-balanced Gibbs-sampler Lindbladians for the mean-field Heisenberg model on $n$ spins. We show that the spectral gaps of these natural families of Lindbladians admit the same phase diagram: the gap is constant above the critical temperature (i.e., in the disordered phase), scales as $1/\\sqrt{n}$ at the critical temperature, and as $1/n$ below the critical temperature (i.e., in the ordered phase). Our result builds on and ex",
+      "published": "2026-10-05T17:56:27Z",
+      "authors": [
+        "Levente Raikovich",
+        "József Mák",
+        "Csaba Czabán",
+        "András Gilyén"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model",
+      "link": "https://arxiv.org/abs/2610.06817v1",
+      "summary": "We distill Kokoro-82M, a widely used open text-to-speech model with 54 voices, into Paradee, an 8.07M-parameter model that speaks one of them. Paradee keeps Kokoro's architecture with much narrower layers, and each of its two halves is trained separately against the frozen teacher. It has 10x fewer parameters and needs 15x less compute. We first synthesize a corpus with the teacher and keep its durations, pitch, energy and phoneme features. We then train a small text side to predict these values",
+      "published": "2026-10-05T17:56:07Z",
+      "authors": [
+        "Sahil Mahendrakar"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reconfigurable On-Chip AI for Particle Physics Detectors with Logic Neural Networks",
+      "link": "https://arxiv.org/abs/2610.06816v1",
+      "summary": "On-device machine learning is increasingly important in applications where extreme data rates or resource constraints make centralized processing infeasible. Logic neural networks (LNNs), which directly learn Boolean logic instead of conventional arithmetic operations, have recently emerged as a state-of-the-art approach for efficient inference and are particularly well suited for deployment in custom silicon. However, hard-wired solutions are typically optimized for narrowly defined tasks and l",
+      "published": "2026-10-05T17:55:54Z",
+      "authors": [
+        "Mila Bileska",
+        "Lino Gerlach",
+        "Jennet Dickinson",
+        "Lindsey Gray",
+        "Giuseppe Di Guglielmo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+      "link": "https://arxiv.org/abs/2610.06814v1",
+      "summary": "World models learn to predict how their environment will evolve, making them an important foundation for general-purpose robotic control. Yet world action models depend on camera inputs whose manipulation can corrupt the visual representations used across tasks and action policies. Existing attacks on these models optimize against the victim's actions or predicted futures and therefore require access to target-model outputs. In this paper, we propose an attack, TAPDreamer, against world action m",
+      "published": "2026-10-05T17:55:21Z",
+      "authors": [
+        "Xuanyu Lu",
+        "Fengqing Jiang",
+        "Kaiyuan Zheng",
+        "Yichen Feng",
+        "Yaorui Ding"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models",
+      "link": "https://arxiv.org/abs/2610.06813v1",
+      "summary": "Recent progress in 3D foundation models has enabled rapid 3D reconstruction and camera calibration by leveraging learned 3D priors from vast amount of spatial data. However, the all-to-all global attention design leads to quadratic complexity and limits long-sequence inference; unconstrained cross-view interactions also can propagate unreliable evidence from occluded or visually similar but geometrically distant views. In this paper, We introduce a Masked Geometric Encoder (MGE), which promotes ",
+      "published": "2026-10-05T17:55:06Z",
+      "authors": [
+        "Zhimin Shao",
+        "Xijun Liu",
+        "Zhaoliang Zhang",
+        "Yutao Tang",
+        "Abhay Yadav"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Protecting Quantum Computers against Untrusted Users",
+      "link": "https://arxiv.org/abs/2610.06812v1",
+      "summary": "Publicly accessible fault-tolerant quantum computers must preserve scientific utility while limiting cryptanalytic power. We propose the restricted model of computation, 1/2BQP_1: a quantum server provides random computational-basis inputs, revealed only after execution, and one designated output bit. This interface permits arbitrary circuits and system sizes. We conjecture that a classical client making polynomially many adaptive requests cannot efficiently factor RSA moduli. The model subsumes",
+      "published": "2026-10-05T17:54:41Z",
+      "authors": [
+        "Shiv Akshar Yadavalli",
+        "Joel Rajakumar",
+        "Alexander Schuckert",
+        "Michael J. Gullans"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Polynomial-time classical algorithms for mean-field models up to the glass transition",
+      "link": "https://arxiv.org/abs/2610.06807v1",
+      "summary": "The Sachdev-Ye-Kitaev model is a strongly interacting fermionic system that has been well-studied in condensed matter and high energy physics. It is highly quantum: Gaussian states are far from the thermal state (Hastings and O'Donnell, STOC'22) and representing the thermal state requires large polynomial-size quantum circuits (Anschuetz et al., QIP'25). Very recently, it was nonetheless proven that classical algorithms can estimate local thermal expectations at sufficiently high temperature in ",
+      "published": "2026-10-05T17:53:50Z",
+      "authors": [
+        "Alexander Schmidhuber",
+        "Alexander Zlokapa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+      "link": "https://arxiv.org/abs/2610.06805v1",
+      "summary": "Long-horizon planning with latent world models requires reasoning across timescales and levels of abstraction. Existing task-agnostic JEPA world models predict and plan at a single timescale or with multiple horizons in one shared latent space. We introduce H-JEPA, an end-to-end recipe for training a hierarchy of action-conditioned JEPAs in which each level predicts farther ahead in its own learned latent space. Planning proceeds top-down: the top level optimizes progress toward the goal, and ea",
+      "published": "2026-10-05T17:53:34Z",
+      "authors": [
+        "Wancong Zhang",
+        "Basile Terver",
+        "Michael Rabbat",
+        "Yann LeCun",
+        "Randall Balestriero"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+      "link": "https://arxiv.org/abs/2610.06804v1",
+      "summary": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample an incorrect one, because the incorrect answers together hold more probability. The power distribution raises each complete answer's probability to a power above one and renormalizes, shifting probability toward answers the model finds most likely (sharpening). Sampling from it improves reasoning without changing parameters, but needs many scored candidates per query. We show tha",
+      "published": "2026-10-05T17:53:30Z",
+      "authors": [
+        "Erfan Baghaei Potraghloo",
+        "Seyedarmin Azizi",
+        "Arya Fayyazi",
+        "Saeid Shokoufa",
+        "Mehdi Kamal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tight bounds for hybrid quantum-classical query algorithms",
+      "link": "https://arxiv.org/abs/2610.06803v1",
+      "summary": "We study hybrid quantum-classical algorithms in the query model. The computation consists of quantum subroutines that make at most $q$ oracle queries; between subroutines, all qubits are measured and discarded. We prove matching upper and lower bounds for several problems in this model:   (i) (Unbiased) Phase estimation up to a precision $ε$ requires $Θ(\\frac{1}{q ε^2})$ queries;   (ii) (Unbiased) Amplitude estimation up to a precision $ε$ requires $Θ(\\frac{p(1-p)}{q ε^2})$ queries;   (iii) Sear",
+      "published": "2026-10-05T17:53:05Z",
+      "authors": [
+        "Andris Ambainis",
+        "András Gilyén",
+        "Martins Kokainis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+      "link": "https://arxiv.org/abs/2610.06801v1",
+      "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inaccurate interaction selection, and the attention contributions lost when tokens are discarded. Guided",
+      "published": "2026-10-05T17:51:42Z",
+      "authors": [
+        "Jiarui Chen",
+        "Zeqiang Lai",
+        "Jiangshan Wang",
+        "Ziheng Ouyang",
+        "Ye Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Response Theory Probe for Learned Stochastic AI Simulators, Tested on Lorenz-63",
+      "link": "https://arxiv.org/abs/2610.06798v1",
+      "summary": "Machine-learning emulators of chaotic and stochastic systems are usually validated on forecast skill and long-run statistics. Neither certifies that an emulator responds correctly to forcing, the property that projection and attribution studies rely on. Linear response theory makes this testable: the forced response follows from unperturbed correlations through a generalized fluctuation-dissipation relation, and decomposes over the stochastic Ruelle-Pollicott resonances of the Koopman generator.",
+      "published": "2026-10-05T17:51:23Z",
+      "authors": [
+        "João Böger",
+        "Simon Driscoll",
+        "Niccolò Zagli",
+        "Valerio Lucarini",
+        "Francisco Camara Pereira"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Approximating Random Walks in $\\widetilde{O}(\\log n + \\log^2 κ)$ Space for $κ$-Conditioned Graphs",
+      "link": "https://arxiv.org/abs/2610.06796v1",
+      "summary": "For $κ>1$, a directed graph is $κ$-conditioned if it is $κ$-mixing and its stationary distribution is approximated by the uniform distribution within a factor of $κ$. We present a deterministic algorithm that approximates the stationary distribution of a $κ$-conditioned graph to inverse polynomial relative error in $O((\\log n + \\log^2 κ) \\log \\log n)$ space. In the regime $κ= \\exp(Θ(\\log^αn))$ for any $α\\in (0, 2/3)$, our result improves the best-known $O(\\log n \\sqrt{\\log κ} / \\sqrt{\\log \\log n",
+      "published": "2026-10-05T17:50:42Z",
+      "authors": [
+        "Junzhao Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Round-Trip KNN Clustering: multiscale hierarchical cluster detection on directed nearest-neighbour graphs",
+      "link": "https://arxiv.org/abs/2610.06795v1",
+      "summary": "We introduce Round-Trip KNN Clustering (RTKNNC), a graph-based method for finding cluster structure at several neighbourhood scales without requiring the number of clusters in advance. Unlike approaches that first make a $k$-nearest-neighbour (KNN) graph undirected, RTKNNC keeps both directions of the neighbour relation: which points a given point selects and which points select it. Incoming selections are treated as weighted votes that help decide which local connections remain visible during a",
+      "published": "2026-10-05T17:50:16Z",
+      "authors": [
+        "Eraldo Pereira Marinho",
+        "Caetano Mazzoni Ranieri",
+        "Fabricio Aparecido Breve"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+      "link": "https://arxiv.org/abs/2610.06790v1",
+      "summary": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (EDA), approximately 74.6% of existing studies target static Register-Transfer Level (RTL) code generation, leaving post-simulation verification and interactive waveform debugging largely untouched. We ",
+      "published": "2026-10-05T17:48:14Z",
+      "authors": [
+        "Je Yang",
+        "Ivan Lobov",
+        "Thomas Karpati"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Large corank of dense random regular digraphs",
+      "link": "https://arxiv.org/abs/2610.06788v1",
+      "summary": "Let $1\\le k\\le n$ and let $A$ be the adjacency matrix of a uniformly random $d$-regular directed graph on $n$ vertices. Suppose that $λn\\le d \\le (1-λ)n$ for a fixed $0<λ\\le 1/2$. We show that there exists $c_λ>0$ depending only on $λ$ such that $$   \\mathbb{P}[\\operatorname{rank}(A)\\le n-k]\\le 2e^{-c_λ kn}. $$ This gives a large corank extension of the exponential singularity bound of Jain, Sah, and Sawhney.",
+      "published": "2026-10-05T17:47:33Z",
+      "authors": [
+        "Huaijin Liang",
+        "Kexin Yu",
+        "Tingzhou Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum-optimized phase closure for robust interferometric imaging",
+      "link": "https://arxiv.org/abs/2610.06786v1",
+      "summary": "Closure phase enables imaging with ground-based interferometric arrays by canceling telescope-dependent phase errors due to atmospheric fluctuations. It can be obtained by measuring fringe phases on individual baselines forming a triangle and summing them. We show that closure phases can be measured more accurately with fewer photons by performing joint measurements on multiple photons. We first establish that at least three photons from the same atmospheric temporal phase-stability window are r",
+      "published": "2026-10-05T17:46:05Z",
+      "authors": [
+        "Zhenning Liu",
+        "Emil T. Khabiboulline",
+        "Lorcan O. Conlon",
+        "Brittany McClinton",
+        "Aqil Sajjad"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the Growth Factor of Random Matrices",
+      "link": "https://arxiv.org/abs/2610.06785v1",
+      "summary": "Gaussian elimination is the oldest and most popular method for solving a linear system. Its numerical stability for a given matrix is controlled by the growth factor, a measure of how large entries can become during elimination. In this work, we prove a number of new results regarding the growth factor of random matrices. First, we provide tight estimates for the growth factor of a matrix preconditioned by a Haar orthogonal matrix without pivoting and characterize the asymptotic distribution of ",
+      "published": "2026-10-05T17:45:14Z",
+      "authors": [
+        "John Urschel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How to scale your HEP ML models: A recipe for robust architecture comparisons at scale",
+      "link": "https://arxiv.org/abs/2610.06784v1",
+      "summary": "Much of the recent progress in machine learning domains such as language models has come from scaling laws that predict performance as a function of training effort. In high-energy physics (HEP) similar behavior has now been observed. To aid further study, we present a systematic procedure to derive robust scaling laws and compare design choices on the relevant budget axes for HEP tasks. We first validate the full scaling trajectory on toy problems and then apply the procedure to multi-task tran",
+      "published": "2026-10-05T17:44:43Z",
+      "authors": [
+        "Matthias Vigl",
+        "Nikita Pond",
+        "Jackson Barr",
+        "Alexander Froch",
+        "Dan Guest"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search",
+      "link": "https://arxiv.org/abs/2610.06782v1",
+      "summary": "We present T-Search, an open-weight agentic retriever for hard multi-step search. Given a question and a search tool over a fixed corpus, it runs a bounded multi-round search and returns a ranked list of evidence chunks with short justifications, leaving answer generation to a downstream model, so backend and generator can be swapped without retraining. T-Search is built on Qwen3.6-35B-A3B and trained on adversarially filtered synthetic search tasks with round-sliced supervised fine-tuning follo",
+      "published": "2026-10-05T17:44:26Z",
+      "authors": [
+        "Olga Tsymboi",
+        "Ramil Latypov",
+        "Aleksandr Medvedev",
+        "Danil Taranets",
+        "Dmitrii Stoianov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Production of White Dwarf Debris Disks from Planetary Collisions and Poynting-Robertson Drag",
+      "link": "https://arxiv.org/abs/2610.06780v1",
+      "summary": "This paper explores the production of debris disks around white dwarfs, which are observed to experience frequent pollution events. In this scenario, planetary collisions occur just outside the surface of a highly evolved AGB star, after the end of its mass loss phase, as it starts its transition into a white dwarf. The collisions vaporize a fraction of the planetary material, which subsequently expands, cools, nucleates droplets, and condenses into rocky bodies with characteristic size of order",
+      "published": "2026-10-05T17:44:07Z",
+      "authors": [
+        "Fred C. Adams",
+        "Konstantin Batygin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Informed Trading model with quantum walks",
+      "link": "https://arxiv.org/abs/2610.06779v1",
+      "summary": "The seminal Kyle model offers a framework to understand the price impact of an informed trader in a market model for a single asset. We study variants in which the asset's future value is modeled by a classical random walk and by a continuous-time quantum walk, respectively. With these assumptions, we analytically approximate and numerically identify the market equilibrium between risk-neutral market maker and informed trader. In the classical equilibrium, the informed trader possesses a linear ",
+      "published": "2026-10-05T17:44:00Z",
+      "authors": [
+        "H. W. Shawn Liew",
+        "Patrick Rebentrost"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "IdeaLens: Detecting AI Ideas in Long-form Writing",
+      "link": "https://arxiv.org/abs/2610.06778v1",
+      "summary": "While modern AI detectors identify who wrote the words, emerging policies on AI use increasingly hinge on a different question: who came up with the ideas? We introduce IdeaLens, a detector that identifies whether a document's ideas came from a human or AI (idea provenance), regardless of who wrote its words. To focus IdeaLens on ideas rather than prose, we represent documents as outlines: lists of items that each pair a discourse role with a brief, paraphrased description of the content, minimi",
+      "published": "2026-10-05T17:43:33Z",
+      "authors": [
+        "Rishanth Rajendhran",
+        "Minjoon Choi",
+        "Jenna Russell",
+        "Ramya Namuduri",
+        "Deniz Bölöni-Turgut"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Puncture Evolution with Physics-Informed Neural Networks",
+      "link": "https://arxiv.org/abs/2610.06776v1",
+      "summary": "We investigate the application of physics-informed neural networks (PINNs) to solve the vacuum Einstein equations in spherical symmetry. Our neural network architecture is designed to solve the 1+1D moving-puncture evolution, by minimizing a loss that combines a data term, the Ricci tensor of the reconstructed spacetime, and the moving-puncture gauge conditions. It represents the lapse, the shift and the Z4c conformal variables $χ$ and $\\widetildeγ_{rr}$, which remain regular at the puncture. We",
+      "published": "2026-10-05T17:42:39Z",
+      "authors": [
+        "Estuti Shukla",
+        "Ashwin Suriyanarayanan",
+        "David Radice",
+        "Romit Maulik",
+        "Sebastiano Bernuzzi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Singular parameters and missing limits in neural PDE solvers",
+      "link": "https://arxiv.org/abs/2610.06770v1",
+      "summary": "Neural solvers for partial differential equations (PDEs) can approach an accurate solution while their parameters grow without bound. In such cases, the limiting solution may have no finite representation in the chosen model, leaving the best loss unattained. Our analysis connects missing limits in deep neural tanh- networks to unbounded hidden parameters or increasingly redundant neurons. For a class of models built from translated kernels, we describe the missing functions and recover them by ",
+      "published": "2026-10-05T17:40:08Z",
+      "authors": [
+        "Daniel Fernández"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fast convergence of propagation algorithms for open quantum systems",
+      "link": "https://arxiv.org/abs/2610.06769v1",
+      "summary": "We establish general conditions for the rapid convergence of propagation algorithms for computing expectation values of local observables in quantum many-body systems, covering both spin and fermionic systems. Our results apply to evolutions that are sufficiently contractive, providing a general mechanism by which contractivity controls the growth generated by local interactions and enables efficient classical simulation. As a first application, we consider noisy time evolution generated by loca",
+      "published": "2026-10-05T17:39:20Z",
+      "authors": [
+        "Giorgio Facelli",
+        "Hamza Fawzi",
+        "Omar Fawzi",
+        "Cambyse Rouzé",
+        "Sam Slezak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Conditional Rank Allocation for Taxonomy-Aware Medical Language Model Adaptation",
+      "link": "https://arxiv.org/abs/2610.06765v1",
+      "summary": "Medical question answering spans specialties and clinical operations that may benefit from different adaptation directions. We propose ARBOR, a parameter-efficient method that selects rank-one components from a shared low-rank basis for each question. An additive gate combines question representations, specialty tags, operation tags, and their interaction; a learned coefficient scales the adapter residual. An illustrative separation under orthogonal, equiprobable subtasks shows how conditional s",
+      "published": "2026-10-05T17:38:13Z",
+      "authors": [
+        "Guangyuan Dong",
+        "Ziwei Hong",
+        "Xuehao Zhou",
+        "Zidong Yu",
+        "Bingchen Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hypercontractivity and entropy decay for infinite-dimensional quantum Gibbs samplers",
+      "link": "https://arxiv.org/abs/2610.06764v1",
+      "summary": "We derive rates of exponential relative-entropy decay for a broad class of infinite-dimensional quantum Gibbs samplers. A key technical ingredient is a perturbative stability theory for hypercontractive estimates and logarithmic Sobolev inequalities. For suitably chosen dissipative couplings, we obtain exponential entropy decay for full multimode Bose-Hubbard samplers with arbitrary hopping and repulsive density interactions. For harmonically confined quantum Coulomb gases and molecular systems,",
+      "published": "2026-10-05T17:38:01Z",
+      "authors": [
+        "Simon Becker",
+        "Cambyse Rouzé",
+        "Robert Salzmann"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
