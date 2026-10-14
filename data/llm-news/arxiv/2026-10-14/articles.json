@@ -1,0 +1,661 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "link": "https://arxiv.org/abs/2610.18874v1",
+      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round of LLM reasoning over the full interaction history, so the cost of an episode grows with the number of primitives. We find this reasoning largely redundant: once ",
+      "published": "2026-10-13T17:59:57Z",
+      "authors": [
+        "Bingxin Xu",
+        "Wenrui Bao",
+        "Xinxin Liu",
+        "Jiawei Zhou",
+        "Yuzhang Shang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+      "link": "https://arxiv.org/abs/2610.18873v1",
+      "summary": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical interactions and their consequences. We introduce \\textbf{LoopWAM}, a closed-loop world-action model that learns directly from this full quality spectrum, using rollouts from both itself and other dep",
+      "published": "2026-10-13T17:59:56Z",
+      "authors": [
+        "Wenxuan Guo",
+        "Yingping Liang",
+        "Zhaoguo Wang",
+        "Ziyuan Li",
+        "Angyuan Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dog-Breed Text-to-image Flow Matching from Pretraining to Fine-Tuning on 4 Consumer GPUs",
+      "link": "https://arxiv.org/abs/2610.18870v1",
+      "summary": "We generally perceive that training text-to-image diffusion models requires heavy compute: it is true if we aim at a comprehensive frontier model. This understanding prevents people from training their own models when getting started in the field. We develop MiniDog, a framework that enables pretraining diffusion transformers in 55 minutes and fine-tuning in another 15 minutes on four 3090 GPUs. For data, we use 26k dog images from ImageNet and caption them for pretraining and use 2k images gene",
+      "published": "2026-10-13T17:59:53Z",
+      "authors": [
+        "Reyhaneh Esmailizadeh",
+        "Xingjian Leng",
+        "Zhanhao Liang",
+        "Liang Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+      "link": "https://arxiv.org/abs/2610.18871v1",
+      "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser. Since this scale depends on unknown target motion, it cannot be measured directly at test time. We d",
+      "published": "2026-10-13T17:59:53Z",
+      "authors": [
+        "Chih-Hai Su",
+        "Tsung-Wei Ke",
+        "Yu-Lun Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "link": "https://arxiv.org/abs/2610.18869v1",
+      "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional comparisons examine pretraining data size and the roles of quality tags during fine-tuning and inference. Ac",
+      "published": "2026-10-13T17:59:52Z",
+      "authors": [
+        "Mingxuan Yan",
+        "Litian Gong",
+        "Dihong Huang",
+        "Zhixu Li",
+        "Tianyu Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "link": "https://arxiv.org/abs/2610.18868v1",
+      "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are difficult to curate and verify, and their rewards are sparse. We address both. First, we introduce ",
+      "published": "2026-10-13T17:59:51Z",
+      "authors": [
+        "Wenbo Hu",
+        "Shraman Pramanick",
+        "Krishna Kumar Singh",
+        "Nanyun Peng",
+        "Kai-Wei Chang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EmbodiedEvo: Self-improving Coding Agents for Physical Intelligence",
+      "link": "https://arxiv.org/abs/2610.18867v1",
+      "summary": "Bringing general-purpose agents into the physical world calls for an executable representation of physical intelligence. Compared with vision-language-action (VLA) models, which map observations and language instructions directly to actions, code makes control logic explicit and reusable. Code can serve not only as a policy representation but also as the workspace in which the agent solves a task. Rather than following a prescribed workflow of planning, execution, and verification, the agent can",
+      "published": "2026-10-13T17:59:51Z",
+      "authors": [
+        "Wenyi Li",
+        "Yizhe Chi",
+        "Youjie Zheng",
+        "Chunyu Liu",
+        "Xiaoqiu Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Simulations of the Evolving Ozone Layer: Implications for the Early Earth, Exoplanets, and the Search For Life",
+      "link": "https://arxiv.org/abs/2610.18864v1",
+      "summary": "Over 4 billion years, Earth's atmosphere has been transformed from a composition devoid of molecular oxygen (O$_2$) to one where O$_2$ is now 21% of our modern atmosphere by volume. With high quantities of O$_2$, an ozone (O$_3$) layer can form and partially shield the surface from biologically harmful ultraviolet radiation (UV). The evolution of the O$_3$ layer has previously been simulated under the modern Sun by independent groups with separate models. Here, we present simulations of Earth's ",
+      "published": "2026-10-13T17:59:34Z",
+      "authors": [
+        "Akhil Kumar",
+        "Gregory J. Cooke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Data Free Training of Diffusion Models for Lattice Field Theories",
+      "link": "https://arxiv.org/abs/2610.18863v1",
+      "summary": "Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configurations. Diffusion models are promising for this purpose, but their standard denoising score matching objective requires samples from the target distribution, seemingly reintroducing the original sampling problem. Here, we show that diffusion models can instead be trained from their own generated samples ",
+      "published": "2026-10-13T17:59:33Z",
+      "authors": [
+        "Dennis Grinwald",
+        "Ankur Singha",
+        "Khaled Kahouli",
+        "Karl Jansen",
+        "Shinichi Nakajima"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+      "link": "https://arxiv.org/abs/2610.18862v1",
+      "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like \"wait\", which can reduce accuracy. We propose DoubtLess, a training-free decoding method in which a much smaller reasoning model steers the large one t",
+      "published": "2026-10-13T17:59:32Z",
+      "authors": [
+        "Minghao Luo",
+        "Liang Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+      "link": "https://arxiv.org/abs/2610.18860v1",
+      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which gen",
+      "published": "2026-10-13T17:59:31Z",
+      "authors": [
+        "Xin Gao",
+        "Yifan Yang",
+        "Xin Li",
+        "Pan Wang",
+        "Yan Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hybrid Reasoning Agents",
+      "link": "https://arxiv.org/abs/2610.18861v1",
+      "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturall",
+      "published": "2026-10-13T17:59:31Z",
+      "authors": [
+        "Jiaru Zou",
+        "Yunzhe Qi",
+        "Sirui Chen",
+        "Federico Bianchi",
+        "Shang Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Szemerédi's theorem with random differences and arithmetic Kakeya",
+      "link": "https://arxiv.org/abs/2610.18859v1",
+      "summary": "We prove that there exists an absolute constant $c > 0$ such that the following holds for every $k \\ge 3$ and $p \\ge n^{-c / \\log \\log k}$. Letting $δ> 0$ and $D \\sim [n]_p$, with high probability every ${S \\subset [n]}$ with $|S| \\ge δn$ contains a $k$-term arithmetic progression whose common difference lies in $D$. This improves the best known bounds for the threshold of Szemerédi's theorem with random differences for all sufficiently large $k$, previously of the form ${p \\ge n^{-2/k+o(1)}}$, ",
+      "published": "2026-10-13T17:59:26Z",
+      "authors": [
+        "Gabriel Dahia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
+      "link": "https://arxiv.org/abs/2610.18858v1",
+      "summary": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image adds many visual tokens, increasing encoding and attention demands. Existing techniques that address the above issue, including visual token pruning, token merging, visual token compression, learned resampling, hierarchical compression, retrieval-augmented visual reasoning, and memory-based architectures, have largely been designed for sing",
+      "published": "2026-10-13T17:59:24Z",
+      "authors": [
+        "Aimon Rahman",
+        "Joymallya Chakraborty",
+        "Vidit Bansal",
+        "Abhishek Dan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PixelMoE: Scaling Pixel-Space Diffusion with LLM-Style Mixture-of-Experts",
+      "link": "https://arxiv.org/abs/2610.18857v1",
+      "summary": "Pixel-space diffusion models provide an appealing alternative to latent-space diffusion models by directly modeling raw images without relying on a learned tokenizer. However, scaling pixel-space models has predominantly followed dense strategies, tightly coupling model capacity with active computation. In this work, we show that standard LLM-style Mixture-of-Experts (MoE) architectures can be effectively transferred to pixel-space diffusion. Building on this finding, we introduce PixelMoE, a pi",
+      "published": "2026-10-13T17:59:21Z",
+      "authors": [
+        "Ruixiao Dong",
+        "Jianmin Bao",
+        "Bozhi Luan",
+        "Zijie Meng",
+        "Xin Tao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
+      "link": "https://arxiv.org/abs/2610.18856v1",
+      "summary": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a principled investigation of the generation problem: produce graphs that realize a target PD exactly. We propose two approaches guided by the implicit local and gl",
+      "published": "2026-10-13T17:59:19Z",
+      "authors": [
+        "Mattie Ji",
+        "Indradyumna Roy",
+        "Vikas Garg"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interaction Latents as Actions for Contact-Rich Manipulation",
+      "link": "https://arxiv.org/abs/2610.18855v1",
+      "summary": "Contact-rich manipulation requires robots to coordinate not only where to move, but also how contact and force should evolve throughout an interaction. Yet most robot policies represent actions primarily as motion trajectories, using tactile signals as inputs or auxiliary prediction targets without explicitly encoding contact dynamics in the action representation. We propose ILA (Interaction Latents as Actions), which uses decodable interaction latents that jointly capture the evolution of motio",
+      "published": "2026-10-13T17:59:16Z",
+      "authors": [
+        "Yuhang Zheng",
+        "Yujie Zang",
+        "Yuchen Liu",
+        "Yupeng Zheng",
+        "Zhennan Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A hierarchy of exact lower bounds on the Laughlin spectral gap",
+      "link": "https://arxiv.org/abs/2610.18854v1",
+      "summary": "We develop a bootstrap approach to deriving lower bounds on the spectral gap of the first Haldane pseudopotential Hamiltonian on the sphere with $N_Φ$ flux quanta for arbitrary $N_Φ$, including in the thermodynamic limit $N_Φ\\to \\infty$. Our approach can in principle be generalized to pseudopotentials describing other model wavefunctions such as the Moore-Read state or Read-Rezayi sequence. Our approach is based on Knabe's observation that if $H$ is a Hamiltonian with ground state energy $0$ the",
+      "published": "2026-10-13T17:59:10Z",
+      "authors": [
+        "Michael G. Scheer",
+        "Eslam Khalaf"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
+      "link": "https://arxiv.org/abs/2610.18853v1",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per sample with one optimizer step per rollout, this rule is less understood in practical multi-step training. We develop a two-clock framework that separates the samples needed to make progress from those consumed before collapse. Under a local quadratic model, the square-root rule p",
+      "published": "2026-10-13T17:58:57Z",
+      "authors": [
+        "Yuante Li",
+        "Junwei Quan",
+        "Kai Qiu",
+        "Kate Zhang",
+        "Yicheng Tao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation",
+      "link": "https://arxiv.org/abs/2610.18852v1",
+      "summary": "Expert demonstrations show how to complete contact-rich tasks, but provide limited coverage of how interaction forces respond to different actions. Task-agnostic play provides broader experience of contact dynamics without specifying task goals. To fully leverage these two types of data, we introduce ForceWAM, a force world action model that decouples knowledge of task-compatible interaction outcomes from knowledge of how local actions change contact. A world model learns from successful demonst",
+      "published": "2026-10-13T17:58:44Z",
+      "authors": [
+        "Zijun Xu",
+        "Wendi Chen",
+        "Xinkai Wang",
+        "Jiachen Zou",
+        "Hongjin Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
+      "link": "https://arxiv.org/abs/2610.18851v1",
+      "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This process often requires iterative modifications guided by computational or experimental feedback. Recent large language model (LLM)-based methods have begun to explore this iterative approach; however, these methods are not explicitly trained to leverage such feedback, while existing ap",
+      "published": "2026-10-13T17:58:41Z",
+      "authors": [
+        "Trieu Nguyen",
+        "Frazier N. Baker",
+        "Ruoxi Gao",
+        "Daniel Adu-Ampratwum",
+        "Xia Ning"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Collaborative Planning for UAV-UGV Teams under Operational Constraints via Masked Error-bounded Neuro-Symbolic Diffusion",
+      "link": "https://arxiv.org/abs/2610.18850v1",
+      "summary": "Collaborative planning under operational constraints is essential for heterogeneous robot teams in large-scale missions. Unmanned Aerial Vehicles (UAVs) provide rapid area coverage but are limited by onboard energy, while Unmanned Ground Vehicles (UGVs) can serve as mobile recharging stations yet are constrained by road-network traversability. Effective collaboration must enforce operational constraints during execution while enabling parallel, coordinated actions. Masked Diffusion Models (MDMs)",
+      "published": "2026-10-13T17:58:37Z",
+      "authors": [
+        "Zihao Deng",
+        "Qianhuang Li",
+        "Maggie Wigness",
+        "John Rogers",
+        "Donghyun Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Energy, vertex, and time response of a LiquidO detector with an opaque-scintillator target to Compton-tagged electrons",
+      "link": "https://arxiv.org/abs/2610.18849v1",
+      "summary": "LiquidO detectors confine scintillation light near its point of production by stochastic scattering in an opaque medium and collect it with a lattice of wavelength-shifting (WLS) fibers. The elementary signal of such a detector is the point-like sub-MeV energy deposition, yet the response to that signal at the center of the detector volume has not been measured against an event-by-event ground truth. To close this gap, we couple BPULSE, a 4-liter prototype LiquidO detector, to a Compton-coincide",
+      "published": "2026-10-13T17:58:14Z",
+      "authors": [
+        "LiquidO Collaboration",
+        "S. Katz",
+        "J. T. Moffatt",
+        "G. Wendel",
+        "D. F. Cowen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World",
+      "link": "https://arxiv.org/abs/2610.18846v1",
+      "summary": "Reconstructing complete, high-quality meshes of large-scale scenes from unposed multi-view images requires faithful geometric grounding while plausibly completing surfaces that are unobserved or only sparsely captured. We present WorldRecon, a generative multi-view reconstruction framework for recovering complete, large-scale 3D scene meshes from unposed RGB images. WorldRecon uses a coarse, noisy global point cloud and camera poses estimated from the input images by a reconstruction model as a ",
+      "published": "2026-10-13T17:57:58Z",
+      "authors": [
+        "Mengchen Zhang",
+        "Yang Li",
+        "Chunshi Wang",
+        "Tong Wu",
+        "Chunchao Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
+      "link": "https://arxiv.org/abs/2610.18845v1",
+      "summary": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use and the verifier defines what counts as success. Every EO task can be made verifiable, through labeled benchmarks, independent sensors, physical models or the repeated observation of the same place. G",
+      "published": "2026-10-13T17:57:51Z",
+      "authors": [
+        "Sijie Zhao",
+        "Zeqi Zhou",
+        "Heli Qi",
+        "Xuanchao Fu",
+        "Zhuo Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RepProbe: Can Video Language Models Count Repeated Actions? A Diagnostic Benchmark",
+      "link": "https://arxiv.org/abs/2610.18844v1",
+      "summary": "Repetition counting requires identifying and enumerating action cycles over time. While state-of-the-art video language models describe actions fluently, they fail to reliably count how many times an action repeats. To investigate this limitation, we introduce RepProbe, a benchmark of 42K real and synthetic video clips containing exactly k in [1, 20] complete repetitions, with controls for clip position, temporal coverage, and duration. These controls allow us to study the counting failure direc",
+      "published": "2026-10-13T17:57:43Z",
+      "authors": [
+        "Mahsa Khoshnoodi",
+        "Sarah Adel Bargal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2610.18843v1",
+      "summary": "Robot policies are expected to generalize across deployment environments, including variations in the robot itself: cameras are bumped and remounted, calibrations drift, controllers run at different rates, and end-effector pads wear down. We present LIBERO-RIG, a benchmark that perturbs only the robot's hardware and setup while holding every LIBERO task fixed. The benchmark spans eleven perturbation axes, including camera mounting and optics, camera-to-arm calibration, actuation gain, control ra",
+      "published": "2026-10-13T17:57:18Z",
+      "authors": [
+        "Andrea Yaoyun Cui",
+        "Hanyu Wang",
+        "Xinyi Wang",
+        "Bangzheng Li",
+        "Lin Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Who Improves the Robot? Toward Physical Recursive Self-Improvement",
+      "link": "https://arxiv.org/abs/2610.18842v1",
+      "summary": "Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, making subsequent improvement more effective across tasks. Physical RSI faces challenges from noisy observations, continuous dynamics, costly trials, and irreversible consequences. We present an L0-L5 fra",
+      "published": "2026-10-13T17:57:04Z",
+      "authors": [
+        "Hai Zhou",
+        "Fan Yang",
+        "Zeyi Chen",
+        "Lejun Zhang",
+        "Chenyang Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Scaling Online Optimal Transport Minibatches for Flow Matching",
+      "link": "https://arxiv.org/abs/2610.18838v1",
+      "summary": "A central challenge in scaling flow models is maintaining stability in training and integration. In flow matching, this stability depends critically on how source samples are paired with data. Independent random pairing introduces substantial stochasticity, motivating minibatch optimal transport (OT) to construct online source-target couplings that reduce this randomness (Tong et al., 2024). However, as applications extend to larger and higher-dimensional datasets, small minibatches can limit th",
+      "published": "2026-10-13T17:56:26Z",
+      "authors": [
+        "Peter Chen",
+        "Sergey Levine"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Plan-Bench: Can Existing VLMs Go Well Beyond Perception to Reason and Plan in Embodied Worlds?",
+      "link": "https://arxiv.org/abs/2610.18836v1",
+      "summary": "Vision-Language Models (VLMs) have achieved strong performance in visual perception and spatial reasoning, leading to growing interest in using them as high-level planners for embodied AI. However, physical tasks require models to integrate spatial information, reason over temporal states, and generate multi-step plans under various constraints, raising the question of whether current VLMs can reliably support such reasoning and planning independently of execution. We introduce Plan-Bench, a ben",
+      "published": "2026-10-13T17:55:20Z",
+      "authors": [
+        "Juntong Feng",
+        "Qingan Liu",
+        "Jingru Dong",
+        "Yue Zhu",
+        "Weiming Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
+      "link": "https://arxiv.org/abs/2610.18835v1",
+      "summary": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newt",
+      "published": "2026-10-13T17:55:14Z",
+      "authors": [
+        "Kaiyuan Chen",
+        "Shuangyu Xie",
+        "Uksang Yoo",
+        "Xinyue Zhu",
+        "Cael Magner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?",
+      "link": "https://arxiv.org/abs/2610.18834v1",
+      "summary": "Visual reasoning is an important capability for vision-language models (VLMs) to understand visual evidence, spatial structure, constraints, and state changes. Existing evaluations mainly rely on real-world data or procedurally generated tasks. Real-world data preserve natural complexity, while procedural games provide controllable generation and verifiable solutions. However, it remains unclear whether abilities measured in toy games correspond to real-world visual reasoning and whether game ex",
+      "published": "2026-10-13T17:55:10Z",
+      "authors": [
+        "Qingan Liu",
+        "Juntong Feng",
+        "Yue Zhu",
+        "Yujie Cheng",
+        "Xinzhe Han"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Testing compact binary nature in eccentric orbits with third-generation detectors",
+      "link": "https://arxiv.org/abs/2610.18833v1",
+      "summary": "The spin-induced quadrupole moment (SIQM) of a compact object provides a direct null test of the Kerr hypothesis. Most existing gravitational-wave tests of SIQM assume quasi-circular binaries, although dynamical formation channels can produce measurable eccentricity that may persist in the sensitive band of third-generation (3G) detectors. We extend the symmetric SIQM test to eccentric, aligned-spin binaries using a post-Newtonian spinning-eccentric phasing model, and forecast its measurability ",
+      "published": "2026-10-13T17:55:05Z",
+      "authors": [
+        "Syed U. Naqvi",
+        "Kaushik Paul",
+        "Chandra Kant Mishra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A 4D $T^\\prime$-expanded lattice QCD equation of state with a multi-dimensional 3D-Ising-type critical contribution",
+      "link": "https://arxiv.org/abs/2610.18830v1",
+      "summary": "Inferring the possible existence and location of a critical point on the QCD phase diagram through experimental observations requires equations of state that include both lattice QCD constraints and critical behavior. In this manuscript, we present the first four-dimensional equation of state in the $(T,μ_B,μ_Q,μ_S)$ space combining the lattice 4D $T^\\prime$-Expansion Scheme with a critical contribution mapped from the 3D Ising model. We extend the earlier two-dimensional construction, the so-ca",
+      "published": "2026-10-13T17:54:35Z",
+      "authors": [
+        "Francesco Di Clemente",
+        "Prachi Garella",
+        "Johannes Jahan",
+        "Micheal Kahangirwe",
+        "Jamie M. Karthein"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "link": "https://arxiv.org/abs/2610.18829v1",
+      "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass defines two evaluation tracks: OmniCompass-VL assesses vision-language models on ta",
+      "published": "2026-10-13T17:54:22Z",
+      "authors": [
+        "Xuyang Liu",
+        "Shihao Wang",
+        "Xinyu Wei",
+        "Minghan Li",
+        "Zeqing Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Settling the Approximability of Submodular Facility Location",
+      "link": "https://arxiv.org/abs/2610.18828v1",
+      "summary": "In submodular facility location (SFL), introduced by Svitkina and Tardos (SODA 2006), clients $\\cal C$ in a metric space are assigned to facilities $\\cal F$. A facility serving a set $S \\subseteq \\cal C$ of clients incurs cost $g(S)$, where $g$ is a monotone submodular function common to all facilities. The best known approximation factor for SFL is $O(\\log\\log|\\cal C|)$, due to Abbasi, Adamczyk, Bosch-Calvo, Byrka, Grandoni, Sornat, and Tinguely (ICALP 2024), improving on the $O(\\log|\\cal C|)$-",
+      "published": "2026-10-13T17:54:13Z",
+      "authors": [
+        "Adam N. Elmachtoub",
+        "Bento Natura",
+        "Meike Neuwohner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions",
+      "link": "https://arxiv.org/abs/2610.18826v1",
+      "summary": "We introduce WorldOracle, a benchmark specifically designed to evaluate action-conditioned world models (ACWMs) against paired real-world executions. Given the same initial observation and low-level action sequence, WorldOracle asks whether a predicted rollout reproduces what happens in the real world, including physical consequences and task-state transitions. We evaluate models along four complementary dimensions: physical state correctness, interaction spatial alignment, key interaction area ",
+      "published": "2026-10-13T17:52:55Z",
+      "authors": [
+        "Haoyi Duan",
+        "Liliang Chen",
+        "Nan Wang",
+        "Yang Zhang",
+        "Yuhang Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks",
+      "link": "https://arxiv.org/abs/2610.18825v1",
+      "summary": "Simulation-based Bayesian inference for Chemical Reaction Networks (CRNs) must simultaneously solve two computationally demanding problems: discriminating between overlapping reaction pathways and estimating reaction rate constants. Classical approaches, such as Sequential Monte Carlo ABC, rely on handcrafted summary statistics and scale poorly across large parameter spaces. To overcome this, we introduce a neural inference architecture. Our pipeline utilizes shared 1D-CNNs and a permutation-inv",
+      "published": "2026-10-13T17:52:39Z",
+      "authors": [
+        "J. Arturo Esquivel",
+        "Jorge A. Campos-Gonzalez-Angulo",
+        "Sergio Pablo-García",
+        "Alán Aspuru-Guzik",
+        "Vianey Leos-Barajas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RetinaSC: Retinal Semantic Communication Framework for Diabetic Retinopathy Detection",
+      "link": "https://arxiv.org/abs/2610.18824v1",
+      "summary": "This paper presents a lightweight semantic com- munication framework for diabetic retinopathy (DR) grading from fundus images pertaining specifically to the APTOS2019 dataset. The framework includes semantic encoder designed using ResNet34, U-Net, MobileNetV2, and EfficientNet-B0 architectures. Further, the trained models are used to train the same framework for IDRiD dataset using transfer learning approach. Such a framework will enable the telemedicine sector in the early detection of DR and p",
+      "published": "2026-10-13T17:52:25Z",
+      "authors": [
+        "Avani Shinod",
+        "Rangineni Rushitha",
+        "Asqeem Nas",
+        "Anirban Bhowal",
+        "Shikha Baghel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Missile and the Toll: Two-Way Flow Through the Strait of Hormuz",
+      "link": "https://arxiv.org/abs/2610.18823v1",
+      "summary": "Tolls for safe passage and attacks on shipping are usually treated as mutually exclusive: either ships pay or attacks happen. We argue they are complementary. In a Stackelberg escalation game for the Strait of Hormuz, the enforcer chooses an attack intensity and a toll schedule; the response is to pay, cross exposed, wait, reroute, or exit. Attacks create the willingness to pay; tolls harvest it. The model predicts asymmetry across trade forms: a toll where the cargo owner can pay and the vessel",
+      "published": "2026-10-13T17:51:49Z",
+      "authors": [
+        "Bernhard K Meister"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos",
+      "link": "https://arxiv.org/abs/2610.18822v1",
+      "summary": "Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data. However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations. We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos,",
+      "published": "2026-10-13T17:51:46Z",
+      "authors": [
+        "Ziheng Wang",
+        "Yanming Shao",
+        "Ting Mao",
+        "Kaihan Chen",
+        "Yiqun Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Peering into the Midplane of the DM Tau Disk using N2H+ and DCO+",
+      "link": "https://arxiv.org/abs/2610.18821v1",
+      "summary": "Planets form in the midplanes of protoplanetary disks, thus investigating the properties of the midplane region can shed light on the physical and chemical processes governing the evolution of planetary systems. In this work, we study the conditions near the midplane of the disk around DM Tau using 0.\"3 (~43 au) ALMA observations of N2H+ (J = 3 - 2) and DCO+ (J = 4 - 3). The radial profiles reveal that DCO+ is centrally peaked, with a depression near 120 au, while N2H+ exhibits a central depress",
+      "published": "2026-10-13T17:51:30Z",
+      "authors": [
+        "Amina Diop",
+        "Kevin Flaherty",
+        "Chunhua Qi",
+        "Ilse Cleeves",
+        "A. Meredith Hughes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Read the Room Before Your Model Generates",
+      "link": "https://arxiv.org/abs/2610.18820v1",
+      "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation of the communicative scenario. In this work, we introduce a simple and interpretable temperature selection framework, the \\textbf{Scenario-Actor}, which adapts decoding to the inferred",
+      "published": "2026-10-13T17:51:18Z",
+      "authors": [
+        "Muyao Kong",
+        "Zhihao Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DuplexBridge: Coordinating Understanding and Generation for Unified Image Editing",
+      "link": "https://arxiv.org/abs/2610.18819v1",
+      "summary": "Complex image editing requires faithful task interpretation and accurate execution, but a failed edit does not reveal which responsibility failed. We present DuplexBridge, which uses a unified model's own understanding capability to enhance prompts for its own generation capability, without an external understanding module. A source-grounded bridge specifies targets, final-state changes, and preservation constraints. Understanding is supervised on fidelity to the original request without observi",
+      "published": "2026-10-13T17:50:22Z",
+      "authors": [
+        "Yidi Liu",
+        "Jie Xiao",
+        "Chaojie Mao",
+        "Jingfeng Zhang",
+        "Xueyang Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+      "link": "https://arxiv.org/abs/2610.18818v1",
+      "summary": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translate",
+      "published": "2026-10-13T17:50:18Z",
+      "authors": [
+        "Divyanshu Bathla",
+        "Parag Singla",
+        "Jitin Singla"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Single anyons and anyon binding in a quantum Hall dot",
+      "link": "https://arxiv.org/abs/2610.18817v1",
+      "summary": "Anyons are particles with quantized fractional statistics. In theory, a single anyon can be stabilized as a localized fractional charge within the bulk of a topologically ordered two-dimensional insulator. However, experiments to date have focused on probing anyons in structures in which many anyonic excitations coexist and interact. Here, we demonstrate the trapping of a single anyon in a device consisting of a graphene-based quantum point contact with an embedded tunable quantum Hall dot. Benc",
+      "published": "2026-10-13T17:50:04Z",
+      "authors": [
+        "Marco Valentini",
+        "Will Wang",
+        "Amir Shapour Mohammadi",
+        "Noah Samuelson",
+        "Chengxuan Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards synergy between theory and experiments: First-passage processes under resetting with stochastic return protocols",
+      "link": "https://arxiv.org/abs/2610.18814v1",
+      "summary": "Stochastic resetting with stochastic return (SR) has recently emerged as an effective and practically relevant strategy for controlling first-passage phenomena and optimizing search processes by significantly reducing completion times in a wide class of stochastic systems. While most theoretical studies assume instantaneous return (IR), in realistic systems the return to the resetting position typically occurs over a finite time. We consider a 1-d diffusing particle in a harmonic trap with stiff",
+      "published": "2026-10-13T17:48:50Z",
+      "authors": [
+        "Ashutosh Dubey",
+        "Arnab Pal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Self-Evolving Agent Harness",
+      "link": "https://arxiv.org/abs/2610.18813v1",
+      "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through ev",
+      "published": "2026-10-13T17:48:49Z",
+      "authors": [
+        "Chuyang Wei",
+        "Haoxiang Guan",
+        "Minghang Zhu",
+        "Kexin Zhou",
+        "Jiyan He"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Depth Memory",
+      "link": "https://arxiv.org/abs/2610.18809v1",
+      "summary": "Residual connections propagate information through a network by additively accumulating layer outputs. Recently proposed alternatives, such as Manifold-Constrained Hyper-Connections (mHC) and Attention Residuals (AttnRes), instead use more expressive depth aggregation mechanisms that improve language modeling performance at scale. In this work, we consider the mixing of representations over depth as a problem of storing and retrieving information across layers. Formalizing this perspective, we i",
+      "published": "2026-10-13T17:46:33Z",
+      "authors": [
+        "David González-Martínez",
+        "Philipp Nazari",
+        "T. Konstantin Rusch",
+        "Shiwei Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2610.18808v1",
+      "summary": "In cooperative Multi-Agent Reinforcement Learning (MARL), agents must learn to coordinate their actions to achieve shared objectives. A key indicator of effective coordination is behavioral diversity, i.e., the agents' potential to enact distinct yet complementary control policies given the same set of observations. Although behavioral diversity can enable role specialization and richer joint behaviors, its appropriate level is highly context- and task-dependent and often costly to tune. We prop",
+      "published": "2026-10-13T17:46:27Z",
+      "authors": [
+        "Svar Rajankumar Patel",
+        "Kshitij Jerath"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
