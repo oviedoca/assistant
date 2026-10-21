@@ -1,0 +1,655 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Constraints on Millimeter-wave Extragalactic Transient Populations from 4 Years of SPT-3G data",
+      "link": "https://arxiv.org/abs/2610.28633v1",
+      "summary": "Wide-field cosmic microwave background (CMB) instruments have reached sufficient sensitivity and cadence to conduct untargeted millimeter-wave searches for astronomical transients. To date, such searches have primarily discovered stellar flares, while extragalactic detections remain limited to a few flaring blazars and active galactic nuclei. In contrast, recent simulations suggest that current and future CMB experiments should detect a few to dozens of extragalactic transients per year from sou",
+      "published": "2026-10-20T17:59:56Z",
+      "authors": [
+        "S. Guns",
+        "C. Tandoi",
+        "D. Anbajagane",
+        "E. Anderes",
+        "A. J. Anderson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "link": "https://arxiv.org/abs/2610.28632v1",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates the video and 3D motion for any supplied rig, along with a camera that registers this motion to the sc",
+      "published": "2026-10-20T17:59:56Z",
+      "authors": [
+        "Noam Rotstein",
+        "Yoad Tewel",
+        "Chen Tessler",
+        "Haggai Maron",
+        "Gal Chechik"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AEON: Unifying Video and 3D World Models",
+      "link": "https://arxiv.org/abs/2610.28631v1",
+      "summary": "Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridges video-based and 3D-based world models and combines the benefits of both. The key insight of AEON l",
+      "published": "2026-10-20T17:59:51Z",
+      "authors": [
+        "Weiqi Zhang",
+        "Wenyuan Zhang",
+        "Yu-Shen Liu",
+        "Junsheng Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+      "link": "https://arxiv.org/abs/2610.28630v1",
+      "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video rende",
+      "published": "2026-10-20T17:59:48Z",
+      "authors": [
+        "Guian Fang",
+        "Shengju Qian",
+        "Dongyue Lu",
+        "Junchao Huang",
+        "Lutao Jiang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "link": "https://arxiv.org/abs/2610.28629v1",
+      "summary": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Although general GBs constitute the vast majority of real-world interfaces in polycrystalline materials, they remain understudied because their s",
+      "published": "2026-10-20T17:59:40Z",
+      "authors": [
+        "Yazhuo Liu",
+        "Kunqing Ding",
+        "Xiaoguo Gong",
+        "Zifeng Wang",
+        "Yichen Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "link": "https://arxiv.org/abs/2610.28626v1",
+      "summary": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision target. We ask: can jointly generating language enrich this shared representation, improving manipulation and supporting memory-dependent behavior? Unlike prior approaches that attach a reasoning or vi",
+      "published": "2026-10-20T17:59:04Z",
+      "authors": [
+        "Rahul Sajnani",
+        "Diego Romeres",
+        "Mingyuan Zhang",
+        "Kai Gao",
+        "Carl Qi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos",
+      "link": "https://arxiv.org/abs/2610.28625v1",
+      "summary": "Understanding human needs and selecting responses require distinct judgments that aggregate accuracy can obscure. We introduce PsycheMME, a video benchmark informed by psychology, with eight capabilities spanning grounding, states, needs, interaction decisions, memory, and risk. Drawing on Social Information Processing and the Perception-Action Cycle, this organization separates human understanding from response selection. We construct 1,000 questions from 630 episodes through independent answer",
+      "published": "2026-10-20T17:59:00Z",
+      "authors": [
+        "Heran Hu",
+        "Yuhang Dong",
+        "Zhucun Xue",
+        "Kaiwei Chen",
+        "Yong Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "link": "https://arxiv.org/abs/2610.28624v1",
+      "summary": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can require reviewing video from multiple robots across several shifts. We present IndustrialRemembr, a shared spatiotemporal memory system that extends NVIDIA ReMEmbR to robot fleets and reduces server-side computation by generating scene descriptions o",
+      "published": "2026-10-20T17:58:32Z",
+      "authors": [
+        "Jad Yammine",
+        "Malek Wahidi",
+        "Abrar Anwar",
+        "Yan Chang",
+        "Mihir Acharya"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MindView: Benchmarking Generative Multi-View Spatial Intelligence",
+      "link": "https://arxiv.org/abs/2610.28622v1",
+      "summary": "Spatial intelligence has recently been assessed through generative tasks such as spatially grounded image editing, yet language-guided generation of spatially consistent views from partial multi-view observations remains underexplored. We introduce MindView, a benchmark for generative multi-view spatial intelligence with 1,500 samples from 513 scenes across three indoor datasets. Its seven tasks form two families: geometry-dominant tasks specify changes in camera position and orientation, while ",
+      "published": "2026-10-20T17:58:25Z",
+      "authors": [
+        "Yanbo Wang",
+        "Siqi Luo",
+        "Siyu Zhang",
+        "Chenming Zhu",
+        "Wenzhao Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Characterizing supersolid phase transitions in trapped quantum gases with tilted dipoles at finite temperature",
+      "link": "https://arxiv.org/abs/2610.28621v1",
+      "summary": "Motivated by a recent experimental work $[\\href{https://arxiv.org/abs/2608.20327}{\\text{arXiv:}2608.20327}]$, we theoretically investigate the nature of phase transitions in a trapped dipolar quantum gas upon tuning the contact interaction strength and dipole orientation. Using extended Gross-Pitaevskii simulations including thermal and quantum effects, we map the phase diagram comprising unmodulated superfluids, triangular droplet arrays, and stripe states. We further characterize the order of ",
+      "published": "2026-10-20T17:58:01Z",
+      "authors": [
+        "Julian Kusch",
+        "Lauriane Chomaz",
+        "Wyatt Kirkby"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Weight Placement Is Not Enough: Synchronization in Multi-Node CPU Decoding of Ternary LLMs",
+      "link": "https://arxiv.org/abs/2610.28620v1",
+      "summary": "Ternary LLMs read only a few gigabytes per decoded token, yet on dual-socket servers with four NUMA nodes the fastest ternary runtime we found uses less than half of the memory bandwidth. Placing each weight on the node of the thread that reads it is necessary but not enough: in a decode engine with node-local weights that reuses ik_llama.cpp's kernels, threads on two generations of Xeon servers still spend 20-48% of each token waiting at synchronization points. Per-thread barrier traces show th",
+      "published": "2026-10-20T17:56:35Z",
+      "authors": [
+        "Runguo Li",
+        "Dezhen Lu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Multi-Token Prediction: How far should we go?",
+      "link": "https://arxiv.org/abs/2610.28619v1",
+      "summary": "Multi-token prediction (MTP) can accelerate language-model decoding by drafting several tokens and verifying them in a single target-model pass. However, the best speculation horizon changes with context: longer drafts offer greater amortization when reliable, but can waste compute on suffixes discarded after a rejection. Unlike autoregressive drafting, where a stopping rule can decide token by token, MTP must fix the horizon before drafting, as all heads fire in the same forward pass. We theref",
+      "published": "2026-10-20T17:56:32Z",
+      "authors": [
+        "Emile Anand",
+        "Mohammed Rehan Parwani",
+        "Xinyuan Cao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Efficient Edge-aware Attention Network for Graph Generation",
+      "link": "https://arxiv.org/abs/2610.28618v1",
+      "summary": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware attention implementations, limiting their scalability. The adaptation is, however, non-trivial: edge and graph-level features must be injected into pairwise attention scores, graph masks must be respected, and dynamic edge updates remain a major source of quadratic memory usage. We propose an edge-a",
+      "published": "2026-10-20T17:56:05Z",
+      "authors": [
+        "Vincent Jung",
+        "Alba Carballo-Castro",
+        "Yiming Qin",
+        "Lonneke van der Plas",
+        "Pascal Frossard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
+      "link": "https://arxiv.org/abs/2610.28616v1",
+      "summary": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and speech times to named picture elements and retrieves utterances for predefined scene events. Narrative-spatial descriptors summarize coverage and temporal organization. A frozen language model contrasts each event's text under examples from Alzheimer's disease and healthy-control training participant",
+      "published": "2026-10-20T17:55:44Z",
+      "authors": [
+        "Qingming Li",
+        "Ruiyan Sun",
+        "Satoshi Nakamura"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning",
+      "link": "https://arxiv.org/abs/2610.28613v1",
+      "summary": "Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators. However, visually plausible predictions can misrepresent contact dynamics, providing unreliable feedback for policy evaluation and learning. We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation. PhysCanvas unifies multi-view RGB, tactile images, marker displacement, tas",
+      "published": "2026-10-20T17:54:03Z",
+      "authors": [
+        "Zebin Xing",
+        "Yuhang Zheng",
+        "Yupeng Zheng",
+        "Yichen Zhang",
+        "Zichen Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal",
+      "link": "https://arxiv.org/abs/2610.28612v1",
+      "summary": "Software engineering agents solve repository-level tasks through iterative tool use, but their continuously growing interaction traces incur substantial token consumption and inference overhead. Existing compression approaches often require model training, auxiliary LLM calls, or assumptions about specific content such as source code. We present TraceLite, a simple yet effective, training-free framework for compressing heterogeneous SWE-agent observations. Our preliminary study shows that optica",
+      "published": "2026-10-20T17:53:35Z",
+      "authors": [
+        "Jingyu Xiao",
+        "Qianxi Liu",
+        "Yintong Huo",
+        "Yuan Jiang",
+        "Michael R. Lyu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Semantic Observability for Autonomous Systems Diagnostics",
+      "link": "https://arxiv.org/abs/2610.28611v1",
+      "summary": "Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log str",
+      "published": "2026-10-20T17:53:32Z",
+      "authors": [
+        "Jitendra Solanki",
+        "Anand Todkar",
+        "Ziran Min"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "InterWebCoder: Learning Interactive Webpage Generation from Executable Tests via Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2610.28610v1",
+      "summary": "Interactive webpages underpin modern applications, but reproducing both their visual appearance and multi-step behavior remains challenging for multimodal large language models (MLLMs). Scalable training data must capture user actions, state transitions, and expected outcomes, while real-world webpage code is often entangled with irrelevant scripts and external dependencies. Moreover, existing GUI-agent-based verification provides slow and potentially unstable functional feedback. To address the",
+      "published": "2026-10-20T17:53:24Z",
+      "authors": [
+        "Jingyu Xiao",
+        "Dasen Dai",
+        "Yuxuan Wan",
+        "Jen-tse Huang",
+        "Yintong Huo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Benchmarking Arabic Dialects for Math Problems",
+      "link": "https://arxiv.org/abs/2610.28607v1",
+      "summary": "Mathematical reasoning remains underexplored for low-resource languages, including Dialectal Arabic. To bridge this gap, we introduce the DAR-MGSM (Dialectal Arabic Multilingual Grade School Math) Benchmark, the first manually curated benchmark for evaluating mathematical reasoning in Dialectal Arabic. DAR-MGSM consists of math word problems (MWPs) requiring multi-step reasoning and covers five major Arabic dialects alongside Modern Standard Arabic (MSA). The benchmark comprises two parallel ver",
+      "published": "2026-10-20T17:50:13Z",
+      "authors": [
+        "Noor Abo Mokh",
+        "Teresa Lynn",
+        "Nizar Habash",
+        "Ahmed Elshabrawy",
+        "Sara Alhajeri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Singular solutions to the complex Monge-Ampère equation II",
+      "link": "https://arxiv.org/abs/2610.28606v1",
+      "summary": "Continuing our work in [Math. Ann. 392 (2025), 1503-1518], we construct new singular solutions to the complex Monge-Ampère equation with constant right-hand side in the Bedford-Taylor sense. Let $\\mathbb D$ denote the open unit disk in $\\mathbb C$. For $n\\geq 2$, these solutions include: (i) a bounded solution on $\\mathbb D^n$ that is discontinuous almost everywhere and nowhere classically differentiable; (ii) a continuous exhaustion of $\\mathbb C^n$ that does not belong to $W^{2,1}_{\\mathrm{loc",
+      "published": "2026-10-20T17:49:15Z",
+      "authors": [
+        "Jiaxiang Wang",
+        "Wenlong Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Value-Rich, Differently Organized: Measuring Value Expression and Organization in AI-Generated Debates",
+      "link": "https://arxiv.org/abs/2610.28604v1",
+      "summary": "Current evaluation of LLM-generated debate largely focuses on argumentative quality, leaving the value structure of generated arguments underexamined. We introduce a diagnostic metric framework for comparing how values are expressed and organized in human-reference and AI-generated debates. The framework separates value expression, the range of recognizable values a debate invokes, from value organization, how those values are distributed and sustained across turns. Grounded in Schwartz's Basic-",
+      "published": "2026-10-20T17:48:56Z",
+      "authors": [
+        "Maoyuan Li",
+        "Haoyuan Li",
+        "Zhongsheng Wang",
+        "Jiamou Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Automated optimization of solar energetic particle acceleration and transport parameters against five-spacecraft observations of the 9 October 2021 event",
+      "link": "https://arxiv.org/abs/2610.28603v1",
+      "summary": "Solar energetic particle (SEP) events threaten space infrastructure, yet physics-based prediction models depend on numerous poorly constrained free parameters. We introduce the Fujitsu Solar Energetic particle Intelligent Tuning and Evaluation Network (SEITEN), which couples the SUSANOO MHD model of CME propagation to SEPIF, a diffusive shock acceleration and focused transport model, through the shock conditions SUSANOO supplies, and automatically optimizes the free parameters of the particle mo",
+      "published": "2026-10-20T17:48:06Z",
+      "authors": [
+        "Hiroyuki Tako Ishikawa",
+        "Naho Fujita",
+        "Yuta Kato",
+        "Miki Kurihara",
+        "Takashi Minoshima"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Turning TS2Vec into a Foundation Model for Time Series Classification",
+      "link": "https://arxiv.org/abs/2610.28602v1",
+      "summary": "TS2Vec is one of the strongest self-supervised methods for time series classification, introduced in 2022. It is designed to be trained anew on every dataset: self-supervised pre-training followed by linear probing. Since then, the field has shifted towards foundation models that reuse one encoder across datasets. Yet TS2Vec offers a compact convolutional architecture that operates directly on temporal samples and accepts variable-length inputs without resampling. We ask whether these properties",
+      "published": "2026-10-20T17:47:51Z",
+      "authors": [
+        "Vasilii Feofanov",
+        "Zhenghan Tai",
+        "Andrei Ermakov",
+        "Irina Rish"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evolving Agent Interfaces",
+      "link": "https://arxiv.org/abs/2610.28601v1",
+      "summary": "Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, workflows, and models. We argue that interface design should itself be an agent capability. We introduce Agent S4, an autonomous computer-use scien",
+      "published": "2026-10-20T17:47:37Z",
+      "authors": [
+        "Saaket Agashe",
+        "Yuzhe Yang",
+        "Gonzalo Gonzalez-Pumariega",
+        "Bhuvan Chandra Koduru",
+        "Chih-Lun Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resolving the extended interstellar medium of infrared galaxies I. Polycyclic aromatic hydrocarbon emission",
+      "link": "https://arxiv.org/abs/2610.28599v1",
+      "summary": "We investigate spatial variations in polycyclic aromatic hydrocarbon (PAH) properties and photoelectric heating efficiency in 67 nearby luminous infrared galaxies from the Great Observatories All-sky LIRG Survey (GOALS). Using mid-infrared spectroscopy from Spitzer and far-infrared cooling-line maps from Herschel, we extract spectra in concentric annuli and matched aperture grids out to about 14 kpc. PAH features are measured with the CAFE spectral decomposition tool. We trace photoelectric heat",
+      "published": "2026-10-20T17:47:24Z",
+      "authors": [
+        "C. M. Lofaro",
+        "T. Diaz-Santos",
+        "L. Armus",
+        "V. Charmandaris",
+        "T. Lai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neural Implicit Energy Optimization for LiDAR Mapping",
+      "link": "https://arxiv.org/abs/2610.28598v1",
+      "summary": "Neural implicit representations provide memory-efficient signed distance field (SDF) parameterizations for large-scale LiDAR scenes, but the geometry recovered from sparse and often noisy inputs carries jitter and artifacts. Classical geometric optimization techniques resolve such artifacts with surface energy functionals, whose minimizers correspond to smooth surfaces. Motivated by this principle, we formulate neural LiDAR mapping as the optimization of energy functionals over the parameter spa",
+      "published": "2026-10-20T17:47:07Z",
+      "authors": [
+        "Hrishikesh Viswanath",
+        "Md Ashiqur Rahman",
+        "Chi Lin",
+        "Damon Conover",
+        "Aniket Bera"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Resolving the extended interstellar medium of infrared galaxies II. Fine-structure line emission",
+      "link": "https://arxiv.org/abs/2610.28597v1",
+      "summary": "We investigate how star formation and active galactic nuclei (AGNs) shape the ionized and neutral interstellar medium in 67 nearby luminous and ultraluminous infrared galaxies from the Great Observatories All-sky LIRG Survey (GOALS). Combining mid-infrared (MIR) spectral mapping from the Spitzer Infrared Spectrograph with far-infrared (FIR) spectroscopy from the Herschel Photodetector Array Camera and Spectrometer, we measure fine-structure emission lines in aperture grids extending to projected",
+      "published": "2026-10-20T17:47:04Z",
+      "authors": [
+        "C. M. Lofaro",
+        "T. Diaz-Santos",
+        "L. Armus",
+        "V. Charmandaris",
+        "T. Lai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "What Do RTL Repair Benchmarks Actually Measure?",
+      "link": "https://arxiv.org/abs/2610.28595v1",
+      "summary": "RTL repair benchmarks should measure whether a model can fix broken RTL given a specification. To this end, we construct and hash-bind RTLRepairDataset, 5,784 (broken, fixed) training pairs; RTLRepairBench, 459 held-out cases with 374 syntactic and 85 behavioral mutations; and an evaluation harness supporting simulation and formal equivalence. We then use this infrastructure to identify two measurement confounds. First, simulation and formal scoring give opposite signs for the apparent effect of",
+      "published": "2026-10-20T17:45:57Z",
+      "authors": [
+        "Yeyin Eva Zhu",
+        "Rishabh Ranawat"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning the 4D World through Point Trajectory Forecasting",
+      "link": "https://arxiv.org/abs/2610.28594v1",
+      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras,",
+      "published": "2026-10-20T17:45:45Z",
+      "authors": [
+        "Byungwoo Jeon",
+        "Sunghwan Hong",
+        "Dohyeon Kim",
+        "Jonghoon Lee",
+        "Jungwoo Park"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Correcting topographic artifacts in three-dimensional ToF-SIMS: A practical guide from data-only reconstruction to correlative AFM",
+      "link": "https://arxiv.org/abs/2610.28593v1",
+      "summary": "Three-dimensional time-of-flight secondary ion mass spectrometry (3D ToF-SIMS) builds chemical volumes by stacking images acquired between sputter cycles. Standard reconstruction assumes a flat starting surface and a single sputter rate, so samples with topography, or with layers that sputter at different rates, yield distorted interface positions and depth scales. This article is a practical guide to correcting these artifacts. We group the available corrections by the information they need: th",
+      "published": "2026-10-20T17:43:23Z",
+      "authors": [
+        "Jacob Shusterman",
+        "Anton V. Ievlev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Monopole stability of time-dependent, spherically symmetric backgrounds in Horndeski theory",
+      "link": "https://arxiv.org/abs/2610.28592v1",
+      "summary": "We study linear perturbations about an arbitrary time-dependent, spherically symmetric background in the most general Horndeski theory. The odd-parity sector of such perturbations, analyzed previously, contains no scalar field perturbation and, hence, leaves the related degree of freedom unconstrained. In this paper, we address this issue by analyzing even-parity monopole ($\\ell = 0$) perturbations, which isolate this degree of freedom. We derive the quadratic master action for the only propagat",
+      "published": "2026-10-20T17:43:15Z",
+      "authors": [
+        "K. Kiselev",
+        "V. Volkova"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WildMAE: Structure-Aware Masked Autoencoding for Wildlife Image Reconstruction",
+      "link": "https://arxiv.org/abs/2610.28590v1",
+      "summary": "Camera-trap imagery presents substantial variation in animal appearance, illumination, background clutter, and visual degradation. Masked autoencoders (MAEs) offer a label-free framework for modeling such data through reconstruction of randomly hidden image patches. We present WildMAE, a decoder-side extension of MAE that combines local structure-aware refinement with masked-to-visible cross-attention. A zero-gated convolutional residual path introduces a two-dimensional neighborhood prior, whil",
+      "published": "2026-10-20T17:41:31Z",
+      "authors": [
+        "Yicheng Zhang",
+        "Yujie Jin",
+        "Ke Zhang",
+        "Jiaxin Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "link": "https://arxiv.org/abs/2610.28589v1",
+      "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether post-training can also improve robot planners. However, applying it across robot harn",
+      "published": "2026-10-20T17:41:09Z",
+      "authors": [
+        "Xinxin Liu",
+        "Bingxin Xu",
+        "Wenrui Bao",
+        "Ming Li",
+        "Wentao Bao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "link": "https://arxiv.org/abs/2610.28586v1",
+      "summary": "Agentic on-policy distillation (OPD) trains a student agent on its own trajectories while a teacher scores every token. A natural explanation of where it goes wrong is compounding error: the student's mistakes carry its trajectories beyond the region where the teacher is reliable, so recent methods keep training inside that region, through episode-length curricula, teacher-guided turns, prefix replay, or teacher intervention where the two disagree. We show this explanation is incomplete. From th",
+      "published": "2026-10-20T17:40:08Z",
+      "authors": [
+        "Shu Zhao",
+        "Tan Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning",
+      "link": "https://arxiv.org/abs/2610.28584v1",
+      "summary": "Autoregressive models (ARMs) face a \"Sequentiality Bottleneck\" in reasoning, while diffusion language models (DLMs) offer parallelism but lack semantic coherence. To addresses both limitations, we propose Collaborative Reasoning Asymmetric Learning (CoRAL), a hybrid framework via an Asymmetric Planner-Executor (APE) architecture: a DLM Planner generates K diverse reasoning trajectories in parallel, while a large ARM Executor selects the optimal plan and synthesizes the final answer. To train the",
+      "published": "2026-10-20T17:39:41Z",
+      "authors": [
+        "Wei Cai",
+        "Jian Zhao",
+        "Yuchen Yuan",
+        "Xuelong Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Large fluctuations and cusp-core transformation in dwarf galaxies",
+      "link": "https://arxiv.org/abs/2610.28583v1",
+      "summary": "Dwarf galaxies are abundant and dark matter dominated, rendering them particularly relevant for testing a cosmological model dominated by a dark sector. Whether their density profiles agree with $Λ$CDM expectations has long been a point of contention, dubbed the cusp/core problem. While numerical simulations have suggested that the erasure of central dark matter cusps may arise from potential fluctuations in feedback-driven gas, whether the required fluctuation levels are achieved in actual gala",
+      "published": "2026-10-20T17:39:33Z",
+      "authors": [
+        "Mahmoud Hashim",
+        "Amr El-Zant",
+        "Francoise Combes"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Optimal Incentive-Compatible Assignments with Endogenous School Priorities",
+      "link": "https://arxiv.org/abs/2610.28582v1",
+      "summary": "We study whether a planner can favor students at schools they rank more highly while preserving truthful reporting. The standard implementation of the deferred acceptance (DA) algorithm is typically not the solution. With interior cutoffs, DA with multiple tie-breaking (DA-MTB) solves the planner's optimization problem if and only if the planner's payoff from a school assignment is independent of the students' preferences. This is typically not the case, and strict incentive compatibility under ",
+      "published": "2026-10-20T17:37:40Z",
+      "authors": [
+        "Federico Echenique",
+        "Juan S. Pereyra"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Continuous-Time Policy Gradient from Discrete Data: Convergence Analysis and Model-Free Algorithms",
+      "link": "https://arxiv.org/abs/2610.28580v1",
+      "summary": "Continuous-time reinforcement learning seeks an optimal policy under unknown dynamics driven by stochastic differential equations using observations collected at discrete times. We develop a policy gradient framework that combines rigorous convergence analysis with learning from discrete data. We first establish a performance difference lemma and derive policy gradient formulas for randomized and parametrized policies. We then prove exponential convergence of an entropy-regularized policy flow t",
+      "published": "2026-10-20T17:33:08Z",
+      "authors": [
+        "Martin Hernandez",
+        "Xinyan Qing",
+        "Mo Zhou",
+        "Yuhua Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spatially Informed and Direction Sensitive Representation Learning for Spatial Transcriptomics",
+      "link": "https://arxiv.org/abs/2610.28579v1",
+      "summary": "Cellular states are shaped by both intrinsic gene expression programs and the spatial microenvironment in which cells reside. Spatial transcriptomics makes this context measurable, but effective representation learning requires capturing both spatially informative molecular signals and intercellular organization. Existing approaches address these challenges only partially: conventional gene selection can overlook spatially structured signals, while methods for encoding cell-cell relationships of",
+      "published": "2026-10-20T17:32:57Z",
+      "authors": [
+        "Azim Dehghani Amirabad",
+        "Ali Khodabandeh Yalabadi",
+        "Artem Moskalev",
+        "Yun-Ching Chen",
+        "Mehdi Pirooznia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+      "link": "https://arxiv.org/abs/2610.28578v1",
+      "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery. First, agentic orchestration extends single-agent execution through task d",
+      "published": "2026-10-20T17:32:48Z",
+      "authors": [
+        "Wenjie Lou",
+        "Tianshuo Peng",
+        "Shiyang Feng",
+        "Shengji Tang",
+        "Runmin Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cache Engineering for Agents",
+      "link": "https://arxiv.org/abs/2610.28577v1",
+      "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states ",
+      "published": "2026-10-20T17:32:24Z",
+      "authors": [
+        "Tianyu Fu",
+        "Ruoxi Wang",
+        "Zihan Min",
+        "Zhongqi Ren",
+        "Zhihao Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Token-Energy Law of LLM Decode: Active Bytes and Realized Time Account for Joules per Token",
+      "link": "https://arxiv.org/abs/2610.28576v1",
+      "summary": "Energy-efficient deployment of large language models requires understanding how model architecture, hardware, and serving settings shape energy per generated token. We introduce the Token-Energy Law, a compact, interpretable model of GPU-board energy per output token for dense, full-history decoding. It relates token energy to two core dimensions: active bytes and realized decode time. Active bytes describe logical byte demand per output, separating dense weights shared within a decode iteration",
+      "published": "2026-10-20T17:32:08Z",
+      "authors": [
+        "Chenxu Niu",
+        "Batuhan Sencer",
+        "Wei Zhang",
+        "Yong Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A sub-Earth-sized TESS planet candidate in the nearby M-dwarf binary GJ 774, most likely orbiting GJ 774 A (TIC 351339274)",
+      "link": "https://arxiv.org/abs/2610.28575v1",
+      "summary": "Small planets transiting the nearest M dwarfs are the terrestrial planets most accessible to detailed characterisation. We report a sub-Earth-sized transiting planet candidate in the wide (17.6\") M-dwarf binary GJ 774 at 12.86 pc, most likely orbiting the M2.5 primary GJ 774 A (TIC 351339274). The signal was a SPOC multi-sector threshold-crossing event (MES = 7.95) and is not a TESS Object of Interest. In eight TESS sectors (2019-2026) a 1.28-h transit recurs every 4.225138 +/- 0.000010 d with a",
+      "published": "2026-10-20T17:32:06Z",
+      "authors": [
+        "Jaden Tripp"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Vanishing Uniform Turán Densities: Characterization and Jumps",
+      "link": "https://arxiv.org/abs/2610.28574v1",
+      "summary": "Uniform Turán density problems ask for the minimum density threshold that guarantees a copy of a fixed 3-uniform hypergraph $F$ in every sufficiently large 3-uniform hypergraph whose edges are uniformly distributed. This line of research was initiated by Erdős and Sós in the 1980s, who introduced the notion of \\emph{vertex-set Turán density} $π_{vvv}(F)$. Reiher, Rödl and Schacht later defined two related concepts, namely, the \\emph{vertex-pair Turán density} $π_{ve}(F)$ and the \\emph{cherry Tur",
+      "published": "2026-10-20T17:32:05Z",
+      "authors": [
+        "Hao Lin",
+        "Jie Ma",
+        "Wenling Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ECHO: Efficient Cascade with Homogeneous Operators for Distillation-Guided 100K-Sequence Modeling",
+      "link": "https://arxiv.org/abs/2610.28569v1",
+      "summary": "Modeling lifetime user behavior sequences is essential for capturing long-range preferences in industrial recommendation, yet 100K-length user sequences make target-aware ranking prohibitively expensive. Search-based methods that retrieve from raw sequences incur candidate-dependent costs that grow with sequence length, whereas latent compression methods reduce computation at the expense of item-level addressability. We propose ECHO (Efficient Cascade with Homogeneous Operators), a framework tha",
+      "published": "2026-10-20T17:28:16Z",
+      "authors": [
+        "Wenhao Li",
+        "Qinglin Jia",
+        "Chenghou Jin",
+        "Zihong Xian",
+        "Jiezhou Ji"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Evolving Semantic Indexes for Generative Retrieval",
+      "link": "https://arxiv.org/abs/2610.28568v1",
+      "summary": "Generative retrieval (GR) casts search and recommendation as autoregressive generation of discrete semantic identifiers (SIDs). SID design largely determines GR quality, but its discrete, interdependent components (SID construction, collision handling, decoding, and training) cannot be optimized end-to-end with gradients and remain largely hand-designed. We introduce a framework that improves these components through LLM-driven evolutionary program search, to our knowledge the first application ",
+      "published": "2026-10-20T17:27:46Z",
+      "authors": [
+        "Jinming Nian",
+        "Jyun-Yu Jiang",
+        "Henry Tsai",
+        "Yi Fang",
+        "Zhirong Liang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Continual Concept Personalization in Diffusion Models via Residual-Space Adaptation",
+      "link": "https://arxiv.org/abs/2610.28567v1",
+      "summary": "Text-to-image personalization aims to equip pretrained diffusion models with the ability to learn user-specific concepts from only a few reference images. Existing methods, however, typically train each concept independently or assume that all concepts are available simultaneously. In practical applications, concepts often arrive sequentially, requiring models to continually learn new subjects, objects, or styles while minimizing interference with previously acquired concepts. We address this co",
+      "published": "2026-10-20T17:26:18Z",
+      "authors": [
+        "Yuzhi Liu",
+        "Enis Simsar",
+        "Giulia Lanzillotta",
+        "Thomas Hofmann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration",
+      "link": "https://arxiv.org/abs/2610.28566v1",
+      "summary": "Robots exploring unknown indoor environments must decide where to move while much of the environment remains unseen. Predicting the occupancy of unseen space beyond the current sensor range can improve these decisions, but recent approaches commonly rely on learned models that require offline training and repeated inference during exploration. We introduce the Mondrian-Anchored Prior for Learning-free Indoor Exploration (MAPLE), a training-free predictive approach that adapts the Mondrian proces",
+      "published": "2026-10-20T17:25:49Z",
+      "authors": [
+        "Kelvin Aladum",
+        "Nisar Ahmed"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Dynamics of Collapse and Recovery in Clustered Federated Learning",
+      "link": "https://arxiv.org/abs/2610.28565v1",
+      "summary": "Clustered federated learning (CFL) can suffer from cluster collapse. In particular, under unfavorable initialization, early client assignments concentrate heterogeneous groups on one cluster model, which is then trained toward a pooled compromise, while another model receives no updates. Since the current models determine client routing and routing determines subsequent model updates, we formulate clustered federated learning as control of an unknown dynamical system, with cluster models as the ",
+      "published": "2026-10-20T17:24:12Z",
+      "authors": [
+        "Priyanka Sinha",
+        "Snigdhansu Chatterjee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Differentiable powder X-ray diffraction enables analysis of evolving structures",
+      "link": "https://arxiv.org/abs/2610.28564v1",
+      "summary": "Operando and in-situ experiments extend powder X-ray diffraction (PXRD) to materials that evolve during experiments, producing series of hundreds or thousands of patterns. Such series are commonly refined one pattern at a time, so weak signals give noisy structural trajectories. Parametric refinement instead fits a shared model to all patterns, but with most existing programs, changing the model or fitting it efficiently remains challenging. Here, we introduce diffPXRD, a differentiable PXRD eng",
+      "published": "2026-10-20T17:24:03Z",
+      "authors": [
+        "Xiangyu Yin",
+        "Nina Andrejevic",
+        "Hemant Sharma",
+        "Ming Du",
+        "Aileen Luo"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
