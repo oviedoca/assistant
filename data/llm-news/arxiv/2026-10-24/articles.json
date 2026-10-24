@@ -1,0 +1,644 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Ricci flow of Integrable Sigma Models, Hitchin Systems and Quantum Seiberg-Witten theory",
+      "link": "https://arxiv.org/abs/2610.31672v1",
+      "summary": "We construct a family of integrable 2d sigma models through 4d Chern-Simons theory and show that their classical point-particle reduction corresponds to a Hitchin system. The integrable Hitchin quantisation then provides a natural candidate Hamiltonian for the one-loop reduced dynamics of the sigma models, which coincides with the Perelman operator in all cases examined. This allows us to study the corresponding spectral problems using 4d $\\mathcal{N}=2$ gauge theory and 2d conformal field theor",
+      "published": "2026-10-22T17:59:58Z",
+      "authors": [
+        "G. Bonelli",
+        "S. Lacroix",
+        "T. Pedroni",
+        "A. Tanzini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+      "link": "https://arxiv.org/abs/2610.31671v1",
+      "summary": "Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-granularity geometric conditions within a single model. By seamlessly integrating heterogeneous inputs, ranging from sparse points to dense bounding boxes and masks, via gated adaptive modulation, FlexPa",
+      "published": "2026-10-22T17:59:53Z",
+      "authors": [
+        "Qiwen Gu",
+        "Xin Zhou",
+        "Xiwu Chen",
+        "Zhongyang Zhu",
+        "Zhuo Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "link": "https://arxiv.org/abs/2610.31670v1",
+      "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the st",
+      "published": "2026-10-22T17:59:51Z",
+      "authors": [
+        "Yunfei Xie",
+        "Howard H. Qian",
+        "Shiyi Lan",
+        "Kaiyu Hang",
+        "Chen Wei"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "link": "https://arxiv.org/abs/2610.31668v1",
+      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
+      "published": "2026-10-22T17:59:50Z",
+      "authors": [
+        "Shengqiong Wu",
+        "Meng Luo",
+        "Bobo Li",
+        "Ziwei Liu",
+        "Shuicheng Yan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "link": "https://arxiv.org/abs/2610.31667v1",
+      "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based me",
+      "published": "2026-10-22T17:59:48Z",
+      "authors": [
+        "Mahdi Salmani",
+        "Adel Javanmard",
+        "Devansh Gupta",
+        "Meisam Razaviyayn"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Boosted Dark Matter Directionality in Large Liquid Scintillator Detectors",
+      "link": "https://arxiv.org/abs/2610.31666v1",
+      "summary": "Light dark matter can be boosted by cosmic-ray-dark matter interactions, which opens the possibility of direct-detection searches with large neutrino detectors. We consider the signal produced by boosted dark matter undergoing quasi-elastic scattering off carbon and knocking out a neutron in a large liquid scintillator detector. A distinctive delayed gamma ray from neutron capture can be reconstructed after $\\sim 210$ $μ$s, which is paired up with the prompt signal during neutron propagation. We",
+      "published": "2026-10-22T17:59:46Z",
+      "authors": [
+        "Samuel S. H. Tse",
+        "Qishan Liu",
+        "Kenny C. Y. Ng",
+        "Koun Choi",
+        "Yu-Feng Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Half-Completeness from Standard Gravitational Dispersion Relations",
+      "link": "https://arxiv.org/abs/2610.31665v1",
+      "summary": "The completeness hypothesis states that quantum gravity realizes every representation allowed by its gauge group. Previous S-matrix arguments used the graviton pole to constrain exchanged representations, including a proof of completeness by imposing an additional high-energy bound on crossing-odd amplitudes. We investigate what follows without this assumption, using standard twice-subtracted dispersion relations, positivity, and crossing symmetry. For external massless SU(2) isospin $J$, we pro",
+      "published": "2026-10-22T17:59:40Z",
+      "authors": [
+        "Lukas W. Lindwasser",
+        "Laurentiu Rodina",
+        "Justinas Rumbutis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+      "link": "https://arxiv.org/abs/2610.31662v1",
+      "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may propose a decision, while a separate verifier agent evaluates it and outputs a correctness or safety score. Based on this information, we must decide whether to accept the AI deci",
+      "published": "2026-10-22T17:59:22Z",
+      "authors": [
+        "Isaac Gibbs",
+        "Elise L. Han",
+        "Ryan J. Tibshirani",
+        "Tijana Zrnic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sound-Horizon-Agnostic Forecast for Constraints on $H_0$ and $Σm_ν$ from BAO, CMB Lensing, Supernovae and LSST-like Galaxy Lensing",
+      "link": "https://arxiv.org/abs/2610.31660v1",
+      "summary": "We present a sound-horizon-agnostic forecast for constraints on the Hubble constant $H_0$ and the sum of the neutrino masses $Σm_ν$ from a combination of LSST-like galaxy weak lensing, Simons-Observatory-like CMB lensing, the completed DESI BAO program, and expanded supernova samples. Treating the sound horizon at baryon drag $r_d$ as a free parameter, the method provides a consistency test of $Λ$CDM without relying on the standard early-Universe calibration of $r_d$. The analysis incorporates r",
+      "published": "2026-10-22T17:59:04Z",
+      "authors": [
+        "Seyed Hamidreza Mirpoorian",
+        "Helena García Escudero",
+        "Levon Pogosian",
+        "Amy Wayland",
+        "David Alonso"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+      "link": "https://arxiv.org/abs/2610.31659v1",
+      "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a suspect model's generated outputs. Existing approaches often trade off verifiability, fidelity, robustness, and deployability. We introduce $\\textbf{SpectralCanary",
+      "published": "2026-10-22T17:59:03Z",
+      "authors": [
+        "Sy-Tuyen Ho",
+        "Anirudh Satheesh",
+        "Soham Chawathe",
+        "Huy Nghiem",
+        "Yongkyun Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neutrino Mass in Left-Right Symmetry: From Majorana Signals to Dirac Predictions",
+      "link": "https://arxiv.org/abs/2610.31658v1",
+      "summary": "We review neutrino mass as a probe of restored parity in left-right symmetric theories, emphasizing the distinct Majorana and Dirac realizations. In the Majorana theory, lepton-number violation connects the seesaw mechanism to neutrinoless double beta decay, heavy-neutrino production and the Keung-Senjanovic process. The Dirac alternative removes these characteristic signals while retaining a relation between left- and right-handed flavor. The right-handed leptonic mixing matrix can then be reco",
+      "published": "2026-10-22T17:59:02Z",
+      "authors": [
+        "Vladimir Tello"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "link": "https://arxiv.org/abs/2610.31657v1",
+      "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_tr",
+      "published": "2026-10-22T17:58:52Z",
+      "authors": [
+        "Sachin Gupta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2610.31656v1",
+      "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation pha",
+      "published": "2026-10-22T17:58:27Z",
+      "authors": [
+        "Ali Najar",
+        "Hosein Hasani",
+        "Amir Kooshan Fattah",
+        "Yasamin Rajabi",
+        "Mahdieh Soleymani Baghshah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "link": "https://arxiv.org/abs/2610.31651v1",
+      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds,",
+      "published": "2026-10-22T17:57:20Z",
+      "authors": [
+        "Ava Pun",
+        "Kevin Dai",
+        "Sally Chen",
+        "Maxwell Jones",
+        "Ruixuan Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+      "link": "https://arxiv.org/abs/2610.31650v1",
+      "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. ",
+      "published": "2026-10-22T17:57:04Z",
+      "authors": [
+        "Qijin Zhang",
+        "Hanzhen Wang",
+        "Yuehan Zhao",
+        "Haoyu Dai",
+        "Yao Shu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gate3DGen: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation",
+      "link": "https://arxiv.org/abs/2610.31649v1",
+      "summary": "Single-image 3D generation has achieved high fidelity on curated benchmarks, yet degrades sharply on real-world images with uneven illumination, blur, and occlusions. Purifying such inputs requires deciding when to intervene and preserving the visual cues needed for 3D generation, while leaving clean inputs unchanged. We introduce Gate3DGen, a selective pre-processing model that gates image inputs to existing 3D generators without retraining them. A degradation-aware router bypasses inputs class",
+      "published": "2026-10-22T17:57:02Z",
+      "authors": [
+        "Xiaolin Li",
+        "Zihao Huang",
+        "Fanpeng Meng",
+        "Chen Yang",
+        "Guanjun Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "On the direct SLE-martingale approach to the integrability of Conformal Loop Ensembles",
+      "link": "https://arxiv.org/abs/2610.31648v1",
+      "summary": "This paper is about the derivation of \"integrability results\" (i.e., for example, explicit formulas for the probability of events involving a few marked points) for Conformal Loop Ensembles, that are the (conjectured) scaling limits of discrete crititical planar lattice models from Statistical Physics. We discuss the explicit solutions to the PDEs provided by the original SLE/CLE martingale approach that AI now makes it possible to uncover. This provides short and direct new proofs of a number o",
+      "published": "2026-10-22T17:56:41Z",
+      "authors": [
+        "Jason Miller",
+        "Wendelin Werner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Magnetic Activity as a Driver of Low-gravity-like Spectral Morphology in Late-M Dwarfs",
+      "link": "https://arxiv.org/abs/2610.31647v1",
+      "summary": "We present a systematic investigation of the connection between magnetic activity and the low-surface-gravity-like near-infrared spectral morphology of late-M dwarfs. Our sample includes TRAPPIST-1 observed with JWST NIRISS/SOSS and 22 late-M dwarfs observed with IRTF/SpeX, together with flare observations from K2, TESS, JWST NIRISS/SOSS, and literature-reported X-ray luminosities. Using one-component PHOENIX/NewEra spectral modeling, we find that all targets are better reproduced by lower-surfa",
+      "published": "2026-10-22T17:56:28Z",
+      "authors": [
+        "Chia-Lung Lin",
+        "Daniel Apai",
+        "Benjamin V. Rackham",
+        "Prajwal Niraula",
+        "Mark S. Giampapa"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Low-Bit N-Gram Embeddings for Language Models",
+      "link": "https://arxiv.org/abs/2610.31646v1",
+      "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We therefore investigate whether this memory cost can be reduced while preserving the performance improv",
+      "published": "2026-10-22T17:56:13Z",
+      "authors": [
+        "Stephen Chung",
+        "Wenyu Du"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields",
+      "link": "https://arxiv.org/abs/2610.31645v1",
+      "summary": "Monocular models recover 3D geometry from a single image in one pass, but most assume a pinhole camera and produce distorted geometry on the wide-angle imagery produced by fisheye and panoramic lenses. Camera-aware models remove this assumption by predicting a per-pixel ray field. However, they represent different camera geometries using a single fixed basis to capture both the overall camera projection and its finer variations. We argue that camera geometry can be viewed as having a hierarchy o",
+      "published": "2026-10-22T17:55:30Z",
+      "authors": [
+        "Namitha Guruprasad",
+        "Abhay Yadav",
+        "Cheng Peng",
+        "Rama Chellappa",
+        "Anand Bhattad"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GigaBench: Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution",
+      "link": "https://arxiv.org/abs/2610.31644v1",
+      "summary": "Learnable Representations (LRs) can fit parametric families of functions to diverse kinds of signals. These emergent neural-native data formats are gathering interest in the scientific community due to their compactness, resolution-agnosticism and amenability to direct neural processing. On the other hand, gigapixel images are becoming increasingly widespread across a variety of scientific, cultural, and industrial domains. In this paper, we present GigaBench, the first benchmark and experimenta",
+      "published": "2026-10-22T17:55:10Z",
+      "authors": [
+        "Matteo Fusconi",
+        "Alex Costanzino",
+        "Pierluigi Zama Ramirez",
+        "Luigi Di Stefano"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "UniVOE: A Removal-Driven Framework for Interaction-Aware Universal Video Object Editing",
+      "link": "https://arxiv.org/abs/2610.31641v1",
+      "summary": "Video object removal and injection are reciprocal editing operations between object-present and object-absent video states, yet they differ substantially in training difficulty. Removal can be effectively bootstrapped from video inpainting and further adapted to erase object-related interaction effects. Injection, however, requires large-scale paired supervision to model object appearance, dynamics, and scene-dependent effects, while perfectly aligned real-world pairs are difficult to collect an",
+      "published": "2026-10-22T17:54:03Z",
+      "authors": [
+        "Shuzhou Yang",
+        "Lanqing Guo",
+        "Lingen Li",
+        "Weiqi Li",
+        "Zhao Zhong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models",
+      "link": "https://arxiv.org/abs/2610.31640v1",
+      "summary": "Video diffusion models have learned rich 3D/4D priors, making them promising for scene generation and video re-rendering. However, their use in spatial tasks is limited by imprecise camera control, spatial and temporal inconsistencies, and entangled camera motion with scene dynamics. Existing approaches, such as task-specific fine-tuning and post-process warping, often introduce visual artifacts, generalize poorly, or incur high computational costs. We propose WorldForge V2 to achieve accurate c",
+      "published": "2026-10-22T17:53:03Z",
+      "authors": [
+        "Chenxi Song",
+        "Yanming Yang",
+        "Tong Zhao",
+        "Ruibo Li",
+        "Joey Tianyi Zhou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+      "link": "https://arxiv.org/abs/2610.31639v1",
+      "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step to attend to the full context, enabling the model to derive answers through direct lookup while generating plausible-sounding but post-hoc justifications. We introduce CausalCoT, an inference framework that enforces causal transparency by d",
+      "published": "2026-10-22T17:52:56Z",
+      "authors": [
+        "Gabriele Dominici",
+        "Teague McMillan",
+        "Fazl Barez",
+        "Marc Langheinrich",
+        "Martin Gjoreski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Lenses make many points: Pure point spectrum disproves Simon's $L^2$ conjecture",
+      "link": "https://arxiv.org/abs/2610.31637v1",
+      "summary": "For every $d\\ge2$ and $0\\leσ<1/3$, we construct with LLM-assistance a smooth bounded nonnegative lens-type potential $V$ with arbitrarily small $\\|V\\|_\\infty+\\int_{\\mathbb{R}^d}|x|^{1-d+σ}|V(x)|^2 dx$, such that $-Δ+V$ has only pure point spectrum in $(0,\\infty)$. Thus, we show that Barry Simon's $L^2$ conjecture, Problem 8 in \"Schrödinger operators in the twenty-first century\", is false.",
+      "published": "2026-10-22T17:52:23Z",
+      "authors": [
+        "Simon Becker",
+        "Mengxuan Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+      "link": "https://arxiv.org/abs/2610.31636v1",
+      "summary": "Multilingual pipelines such as FineWeb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated. We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus through a read-only, budgeted API and compiles each finding into an executable test, which a native speaker then validates. On the 26.5M-document Slovak portion of FineWeb2, three runs costing \\$2.21-\\$2.84 each found seven findings over four ",
+      "published": "2026-10-22T17:52:22Z",
+      "authors": [
+        "Marek Šuppa",
+        "Ivan Vykopal",
+        "Jaroslav Kopčan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+      "link": "https://arxiv.org/abs/2610.31635v1",
+      "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstructions with inconsistent coordinate frames and duplicate estimates of shared cameras. Achieving global consistency requires propagating constraints from adjacent overlaps and distan",
+      "published": "2026-10-22T17:51:10Z",
+      "authors": [
+        "Zunnan Xu",
+        "Shangchen Zhou",
+        "Yihang Luo",
+        "Chen Change Loy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+      "link": "https://arxiv.org/abs/2610.31633v1",
+      "summary": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final recurrence can be shared with the earlier recurrences without quality loss, a property we denote as KV-s",
+      "published": "2026-10-22T17:49:44Z",
+      "authors": [
+        "Hayden Prairie",
+        "Jacob M. Ryan",
+        "Taylor Berg-Kirkpatrick",
+        "Daniel Y. Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Ray-by-Ray: Fine-Grained Resource Management for GPU Ray Tracing Units",
+      "link": "https://arxiv.org/abs/2610.31630v1",
+      "summary": "Ray tracing (RT) generates photorealistic images by simulating the physical behavior of light as it interacts with surfaces in a virtual scene. In film production and high-end rendering pipelines, this technique computes global illumination, reflections, refractions, and soft shadows by tracing millions of light rays per frame and accurately modeling their bounces and attenuation. Contemporary GPUs incorporate specialized ray tracing hardware to accelerate key operations in the traversal pipelin",
+      "published": "2026-10-22T17:48:11Z",
+      "authors": [
+        "Junrui Pan",
+        "Cesar Avalos Baddouh",
+        "Kai Ze Ee",
+        "Timothy G. Rogers"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Workload-Aware Monitoring for AI-RAN",
+      "link": "https://arxiv.org/abs/2610.31627v1",
+      "summary": "AI-RAN platforms are expected to share CPU and GPU resources between radio workloads and AI services. Aggregate telemetry reports operating conditions, but timing changes may reflect different workloads, processors, or measurement boundaries. We propose workload-aware monitoring that associates radio-work descriptors with processing paths, timing boundaries, and operating context before comparing like with like. In 16 over-the-air downlink experiments, hybrid dispatch (CPU for transport blocks (",
+      "published": "2026-10-22T17:45:44Z",
+      "authors": [
+        "Babak Azkaei",
+        "Georgios Exarchakos",
+        "Kishor Chandra Joshi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Robust Estimator for the Lyman-$α$ Forest 1D Power Spectrum at High Redshift",
+      "link": "https://arxiv.org/abs/2610.31626v1",
+      "summary": "The Lyman-$α$ (Ly$α$) forest flux power spectrum $P(k)$ is sensitive to a range of astrophysical and cosmological effects, including the thermal state of and large-scale fluctuations in the intergalactic medium and the nature of dark matter. Measuring $P(k)$ becomes increasingly challenging at high redshift, where fewer quasar spectra are available and higher Ly$α$ optical depths result in lower transmitted flux. In addition, observational effects and missing data complicate standard Fourier-tra",
+      "published": "2026-10-22T17:45:40Z",
+      "authors": [
+        "Molly Wolfson",
+        "Joseph F. Hennawi",
+        "Frederick B. Davies",
+        "Zarija Lukić"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+      "link": "https://arxiv.org/abs/2610.31624v1",
+      "summary": "Instrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important threat to the society. For LLMs, reinforcement learning is the first stage of post-training that directly optimizes behavior against an objective; therefore, it is the stage where convergent instrumental behavior, on IC grounds, likely to appear. Does reinforceme",
+      "published": "2026-10-22T17:44:41Z",
+      "authors": [
+        "Barış Alparslan",
+        "Sandy Tanwisuth",
+        "Caleb Petterson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+      "link": "https://arxiv.org/abs/2610.31623v1",
+      "summary": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: methods based on intermediate structures are prone to error propagation, while diffusion models suffer from high inference latency and complex post-hoc candida",
+      "published": "2026-10-22T17:43:34Z",
+      "authors": [
+        "Jinyu Zhang",
+        "Haitao Lin",
+        "Jiashu Hou",
+        "Xiangyang Xue",
+        "Yanwei Fu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "GEM-PIC-RZ: a Galilean electromagnetic particle-in-cell code in quasi-cylindrical geometry with nonuniform grids",
+      "link": "https://arxiv.org/abs/2610.31622v1",
+      "summary": "Laser-plasma accelerators span scales from the micrometre wavelength of the driving laser to acceleration lengths of millimetres or metres. Full particle-in-cell (PIC) simulations resolve the laser carrier but are constrained by the Courant condition, whereas quasi-static models are computationally efficient but do not resolve it. We present GEM-PIC-RZ, a quasi-cylindrical implementation of the Galilean electromagnetic PIC scheme. The method retains the slow evolution of the forward field and th",
+      "published": "2026-10-22T17:42:58Z",
+      "authors": [
+        "Alexander Pukhov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Volatility-Corrected Prediction Intervals: Locally Adaptive Uncertainty Quantification for Probabilistic Time-Series Forecasting",
+      "link": "https://arxiv.org/abs/2610.31621v1",
+      "summary": "Prediction intervals from probabilistic time-series forecasters are commonly assessed by marginal coverage, the long-run proportion of observations falling inside the intervals. However, forecast errors in time series are often serially dependent and heteroskedastic, so prediction intervals can attain near-nominal marginal coverage while miscovering systematically during periods of larger local error variance. We identify and address this failure mode, which we call \\emph{local scale miscalibrat",
+      "published": "2026-10-22T17:42:50Z",
+      "authors": [
+        "Jason B. Cho",
+        "David S. Matteson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bilingual Language Models Capture Cross-Linguistic Influence in Second-Language Reading",
+      "link": "https://arxiv.org/abs/2610.31620v1",
+      "summary": "While monolingual language model (LM) surprisal is widely established as a predictor of reading times, it cannot capture the non-native (L2) reading dynamics that are shaped by the reader's first language (L1). In this work, we investigate whether the cross-lingual transfer within bilingual models aligns with human L1-driven biases during L2 reading. We evaluate bilingual models on eye-tracking data of readers from 12 diverse L1 backgrounds reading English texts. To isolate L1-specific transfer,",
+      "published": "2026-10-22T17:42:06Z",
+      "authors": [
+        "Abderrahmane Issam",
+        "Irene E. Winther",
+        "Stefan L. Frank"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+      "link": "https://arxiv.org/abs/2610.31617v1",
+      "summary": "Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control. World-model-based reinforcement learning provides a natural solution by learning latent dynamics for future imagination, yet it often entangles environmental evolution and the robot's own dynamics in a single learned rollout, where model bias can affect policy optimization efficiency. We propose DiffDreamer, a differentiable reinforcement learning framework t",
+      "published": "2026-10-22T17:41:13Z",
+      "authors": [
+        "Fanxing Li",
+        "Yuxiang Huang",
+        "Shengyang Wang",
+        "Fangyu Sun",
+        "Shuyu Wu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OP-Print: Tracing Membership Imprints in On-Policy Self-Distillation",
+      "link": "https://arxiv.org/abs/2610.31616v1",
+      "summary": "On-policy distillation has been widely adopted for alleviating the distribution mismatch of off-policy distillation. Self-distillation further removes the need for an external teacher by using the student's own outputs, enhanced with extra context or demonstrations, as supervision. This teacher-free design makes on-policy self-distillation practical, yet its privacy risks remain largely unexplored. In particular, using two coupled views of the same training example may strengthen its memorizatio",
+      "published": "2026-10-22T17:41:04Z",
+      "authors": [
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Critical 2D KPZ Process",
+      "link": "https://arxiv.org/abs/2610.31614v1",
+      "summary": "This work constructs a non-trivial solution to the ill-defined two-dimensional Kardar-Parisi-Zhang (KPZ) equation at criticality: a distribution-valued stochastic process on the plane, which we call the Critical 2D KPZ Process. It arises as the limit in law of centred log partition functions of two-dimensional Gaussian directed polymers at criticality, viewed as discretised KPZ solutions. It is also a measurable function of the Critical 2D Stochastic Heat Flow (SHF) via a renormalised Cole-Hopf ",
+      "published": "2026-10-22T17:40:36Z",
+      "authors": [
+        "Quentin Berger",
+        "Francesco Caravenna",
+        "Jeremy Clark",
+        "Alexander Dunlap",
+        "Yu Gu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2610.31613v1",
+      "summary": "Vision-Language-Action (VLA) models can perform diverse manipulation tasks directly from visual observations and natural language instructions, but they remain prone to mistakes and unpredictable failures. Deploying these policies without continuous human supervision will require robust runtime monitors that detect when the policy has gone off-course. Existing monitors use external foundation models, such as vision-language models (VLMs) to supervise the policy, introducing significant complexit",
+      "published": "2026-10-22T17:40:19Z",
+      "authors": [
+        "Atiksh Bhardwaj",
+        "Edward W. Duan",
+        "Junwon Seo",
+        "Prithwish Dan",
+        "Wei-Chiu Ma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonconformal kinetic theory with transverse dynamics and event-by-event simulations using CoMBolt-RTA",
+      "link": "https://arxiv.org/abs/2610.31611v1",
+      "summary": "A new version of CoMBolt, called CoMBolt-RTA, is introduced to solve the Boltzmann equation for massive quasiparticles in the relaxation time approximation (RTA). The inclusion of a constant quasiparticle mass allows one to obtain an equation of state (EOS) closer to that of lattice QCD. The nonequilibrium dynamics of a boost-invariant, nonconformal system with transverse spatial extension are studied, with particular emphasis on the effects of quasiparticle mass on the evolution toward equilibr",
+      "published": "2026-10-22T17:39:29Z",
+      "authors": [
+        "Seyed Farid Taghavi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum K-structure constants and cylindric Grothendieck polynomials for Grassmannians",
+      "link": "https://arxiv.org/abs/2610.31607v1",
+      "summary": "We use the partition functions of a five-vertex exactly solvable lattice model from statistical mechanics to give new combinatorial formulae for the Schubert structure constants of torus-equivariant quantum K-theory rings of Grassmannians. The proofs build on our earlier results where we identified the transfer matrices of these lattice models geometrically as multiplications by the Hirzebruch $λ_y$ classes of the tautological subbundle and the (dual) quotient bundle. The structure constants are",
+      "published": "2026-10-22T17:37:11Z",
+      "authors": [
+        "Vassily Gorbounov",
+        "Christian Korff",
+        "Leonardo C. Mihalcea"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+      "link": "https://arxiv.org/abs/2610.31606v1",
+      "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and f",
+      "published": "2026-10-22T17:36:14Z",
+      "authors": [
+        "Miguel Mochizuki Silva",
+        "Samuel Ismael",
+        "Mateus C. Dias",
+        "Thaís Gaudêncio",
+        "Yuri Malheiros"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Priori Estimation of the Non-Linear Compression Potential and Quantification of Autoencoder Non-Linearity in Turbulent Flows",
+      "link": "https://arxiv.org/abs/2610.31605v1",
+      "summary": "Data-driven reduced-order modelling (ROM) of turbulent flows is based on an efficient and physical low-dimensional representation of the flow process. Such a dimension reduction can be achieved using proper orthogonal decomposition (POD) or non-linear autoencoders. Capturing the inherent non-linearities in turbulent flows offers the potential for improved compression rates. This work proposes the local tangent residual (LTR) as an a priori estimate of the potential benefit of non-linear dimensio",
+      "published": "2026-10-22T17:36:11Z",
+      "authors": [
+        "Niklas Alexander Pissarski",
+        "Juan Pablo Murcia Leon",
+        "Søren Juhl Andersen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hydrodynamic and Stochastic Limits of Space-Time Hawkes Processes",
+      "link": "https://arxiv.org/abs/2610.31604v1",
+      "summary": "We study the large-scale behavior of critical and nearly critical space-time Hawkes processes initialized by a prescribed Poisson field of past events. The density of this initial field separates three macroscopic regimes. In the high-density regime, fluctuations average out and the event measure converges to a hydrodynamic limit which is a deterministic diffusion profile. At the fluctuation threshold, random branching remains visible and produces a measure-valued stochastic limit. Below the thr",
+      "published": "2026-10-22T17:35:45Z",
+      "authors": [
+        "Fuqing Gao",
+        "Yingli Wang",
+        "Lingjiong Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SympFormer: Inertial Attention Blocks from Damped Hamiltonian Dynamics on Spaces of Probability Measures",
+      "link": "https://arxiv.org/abs/2610.31600v1",
+      "summary": "The attention mechanism underpins modern large language models, yet their dynamics remain only partially understood. Recent perspectives interpret attention blocks as interacting particle systems, whose mean-field limits correspond to gradient flows of energy functionals on spaces of probability densities on $\\mathbb R^d$ equipped with Wasserstein-type metrics. We extend this viewpoint by deriving accelerated attention blocks from inertial, Nesterov-type damped Hamiltonian dynamics on these dens",
+      "published": "2026-10-22T17:32:11Z",
+      "authors": [
+        "Viktor Stein",
+        "Levin Maier",
+        "Wuchen Li",
+        "Gabriele Steidl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Controlled Radio Fault Injection and Telemetry Evaluation for Open 5G RANs",
+      "link": "https://arxiv.org/abs/2610.31598v1",
+      "summary": "Radio access network (RAN) telemetry reveals radio conditions, protocol behavior, and their consequences for applications. Evaluating its usefulness requires controlled impairments and observations of the same execution. We present C and Python channel brokers and a fault injection workflow for software 5G testbeds connecting an OCUDU base station and a software UE through ZeroMQ. The brokers apply scheduled, directional transformations to I/Q samples and restore the link, while the workflow joi",
+      "published": "2026-10-22T17:31:18Z",
+      "authors": [
+        "Babak Azkaei",
+        "Maxim Bîtiu",
+        "Georgios Exarchakos",
+        "Kishor Chandra Joshi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Systematic Control of the Nucleon Gluon PDF with the Pseudo-PDF Method",
+      "link": "https://arxiv.org/abs/2610.31597v1",
+      "summary": "We present updated lattice quantum chromodynamics (QCD) results for the unpolarized nucleon gluon parton distribution function (PDF) using the pseudo-PDF methodology. The calculation is performed at valence pion masses $M_π\\approx 310$ and $690$ MeV on an $a \\approx 0.06$ fm ensemble with $2+1+1$ flavors of highly improved staggered quarks (HISQ) generated by the MILC Collaboration. This lattice spacing is finer than those used in previous gluon pseudo-PDF studies, providing access to multiple s",
+      "published": "2026-10-22T17:28:31Z",
+      "authors": [
+        "Alex NieMiera",
+        "Kai Ebira",
+        "William Good",
+        "Huey-Wen Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Signed Wasserstein distance for room impulse response comparison",
+      "link": "https://arxiv.org/abs/2610.31596v1",
+      "summary": "The nature of room impulse response signals is often adverse to a clear evaluation of similarity: they are sparse, rapidly varying, signed signals resulting from the complex interaction of room reflections and phase relationships. Therefore, conventional point-wise metrics may be sensitive to small temporal shifts and provide poor loss surfaces for optimization. In this paper, we propose an optimal transport-based distance for RIR similarity that explicitly accounts for the structure of impulse ",
+      "published": "2026-10-22T17:27:07Z",
+      "authors": [
+        "Linda Fabiani",
+        "Sebastian J. Schlecht",
+        "Filip Elvander"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CRANE: Post-Hoc Counterfactual Retrieval for Multimodal Classifiers",
+      "link": "https://arxiv.org/abs/2610.31594v1",
+      "summary": "Counterfactual explanation methods have been introduced for unimodal settings, with dedicated frameworks for tabular, timeseries, text, and image data, yet no post-hoc method has been designed for classifiers that learn from multimodal inputs. Existing explainability methods for multimodal classifiers apply modality-specific attribution independently to each input, which fails to yield coherent explanations and does not transfer to arbitrary pre-trained multimodal architectures. To address these",
+      "published": "2026-10-22T17:26:58Z",
+      "authors": [
+        "Franco Rugolon",
+        "Ioanna Miliou",
+        "Panagiotis Papapetrou"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
