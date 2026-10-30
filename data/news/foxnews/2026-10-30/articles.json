@@ -1,0 +1,706 @@
+{
+  "source": "foxnews",
+  "article_count": 100,
+  "articles": [
+    {
+      "title": "Death row killer Christa Pike describes waking up after execution she never expected to survive",
+      "link": "https://www.foxnews.com/us/death-row-killer-christa-pike-describes-waking-up-after-execution-never-expected-survive",
+      "summary": "Christa Pike describes constant pain and deep isolation one month after surviving Tennessee&apos;s failed lethal injection execution on Sept. 30.",
+      "published": "Fri, 30 Oct 2026 10:43:28 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "E. coli outbreak lands 3 in hospital, health officials investigate link to pumpkin patch",
+      "link": "https://www.foxnews.com/health/e-coli-outbreak-lands-3-hospital-health-officials-investigate-link-pumpkin-patch",
+      "summary": "Three children are in intensive care after an E. coli outbreak potentially linked to Brookshire Farms pumpkin patch in San Luis Obispo, California.",
+      "published": "Fri, 30 Oct 2026 10:24:45 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Travel influencer, 24, killed after pickup truck is swept away in terrifying river crossing",
+      "link": "https://www.foxnews.com/travel/travel-influencer-24-killed-pickup-truck-swept-away-river-crossing",
+      "summary": "Influencer Emma Marie Laurent of France was among three women killed when a pickup truck was swept away crossing Nicaragua&apos;s Nahualapa River after heavy rainfall.",
+      "published": "Fri, 30 Oct 2026 10:23:23 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "AI-powered cyberattacks fuel 'Black October' fears",
+      "link": "https://www.foxnews.com/tech/ai-powered-cyberattacks-fuel-black-october-fears",
+      "summary": "A startup founder woke to $449 in unexpected OpenAI and Anthropic charges after stolen API keys were exploited during the &quot;Black October&quot; cyber wave.",
+      "published": "Fri, 30 Oct 2026 10:20:43 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Netanyahu's bloc falls short as longtime allies reportedly weigh move that could end his rule",
+      "link": "https://www.foxnews.com/world/netanyahus-bloc-falls-short-longtime-allies-reportedly-weigh-move-could-end-his-rule",
+      "summary": "Netanyahu&apos;s bloc secured only 53 Knesset seats as ultra-Orthodox allies reportedly explore breaking ranks to back Gadi Eisenkot&apos;s opposition.",
+      "published": "Fri, 30 Oct 2026 10:04:16 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Dem operative admits Ilhan Omar case has legs as liberal firewall begins to crack: 'I'm not stupid'",
+      "link": "https://www.foxnews.com/politics/dem-operative-admits-ilhan-omar-case-has-legs-liberal-firewall-begins-crack-im-not-stupid",
+      "summary": "A prominent Minnesota Dem operative says the federal investigation into Ilhan Omar&apos;s marriage fraud allegations is &quot;almost certainly&quot; legitimate.",
+      "published": "Fri, 30 Oct 2026 10:01:29 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Texas' red wall facing its biggest threat in decades as Republicans scramble to defend it",
+      "link": "https://www.foxnews.com/politics/red-wall-facing-its-biggest-threat-decades-republicans-scramble-defend-texas",
+      "summary": "James Talarico raised over $146 million for the Texas Senate race while Elon Musk bankrolled more than $200 million in outside support for Paxton.",
+      "published": "Fri, 30 Oct 2026 09:31:44 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Tennis star Genie Bouchard kicks off Halloween weekend with Britney tribute, Caleb supports kids & beer sword",
+      "link": "https://www.foxnews.com/outkick-sports/tennis-star-genie-bouchard-kicks-off-halloween-weekend-britney-tribute-caleb-supports-kids-beer-sword",
+      "summary": "Screencaps, America&apos;s Best Daily Column, kicks off Halloween weekend with costume content, grocery pickup debates, and resealable cereal bags.",
+      "published": "Fri, 30 Oct 2026 09:28:26 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Unhinged judge who called Latino attorney a 'White savior' ordered to undergo psychiatric examination",
+      "link": "https://www.foxnews.com/politics/unhinged-judge-called-latino-attorney-white-savior-ordered-undergo-psychiatric-examination",
+      "summary": "Judge Ada Brown called attorney Ezra Young a &quot;White savior&quot; intimidated by &quot;Black excellence&quot; in a hearing now under Fifth Circuit investigation.",
+      "published": "Fri, 30 Oct 2026 09:18:19 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "MIKE DAVIS: Democrats' lawfare targets journalists in Minnesota",
+      "link": "https://www.foxnews.com/opinion/mike-davis-democrats-lawfare-targets-journalists-minnesota",
+      "summary": "Mary Moriarty&apos;s felony charges against Cam Higby and James O&apos;Keefe sparked calls for Trump Justice Department to open a civil rights case.",
+      "published": "Fri, 30 Oct 2026 09:04:54 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "BRIAN HARRELL: America’s AI revolution can’t charge forward without lots of energy",
+      "link": "https://www.foxnews.com/opinion/brian-harrell-americas-ai-revolution-cant-charge-forward-without-lots-energy",
+      "summary": "Data centers demand massive electricity for AI, but who pays for the infrastructure? Why ratepayer protection and energy dominance matter now.",
+      "published": "Fri, 30 Oct 2026 09:00:50 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Kim Kardashian had sharp response to warnings Trump White House visit would end her career: book",
+      "link": "https://www.foxnews.com/entertainment/kim-kardashian-challenged-president-trump-oval-office-sick-prisoner-book-says",
+      "summary": "Kim Kardashian&apos;s White House meetings, Kanye West coparenting struggles and Kris Jenner&apos;s affair are explored in &quot;Citizen Kim&quot; by Jonathan Van Meter.",
+      "published": "Fri, 30 Oct 2026 09:00:39 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Koe Wetzel surprises fans with new country rock track 'Hard Way' featuring Stephen Wilson Jr.",
+      "link": "https://www.foxnews.com/outkick-culture/koe-wetzel-surprises-fans-new-country-rock-track-hard-way-featuring-stephen-wilson-jr",
+      "summary": "Koe Wetzel surprised fans with &quot;Hard Way,&quot; a country rock collaboration with Stephen Wilson Jr. now on the deluxe &quot;The Night Champion&quot; album.",
+      "published": "Fri, 30 Oct 2026 08:52:59 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Casual basketball fans gobsmacked at horrible Angel Reese highlights from an actual WNBA Finals game",
+      "link": "https://www.foxnews.com/outkick-sports/casual-basketball-fans-gobsmacked-horrible-angel-reese-highlights-wnba-finals-game",
+      "summary": "The Atlanta Dream forced a WNBA Finals Game 7 but Angel Reese&apos;s tough Game 6 highlights go mega-viral across social media platforms.",
+      "published": "Fri, 30 Oct 2026 08:44:03 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Peltola insists 'I knew nothing' about alleged 'Decoy Dan' scheme as Sullivan alleges she is 'still lying'",
+      "link": "https://www.foxnews.com/politics/peltola-insists-knew-nothing-alleged-decoy-dan-scheme-sullivan-alleges-still-lying",
+      "summary": "Mary Peltola claims she &quot;knew nothing&quot; about the alleged scheme to recruit candidates named Dan Sullivan, but the incumbent says she is &quot;still lying.&quot;",
+      "published": "Fri, 30 Oct 2026 08:27:04 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Joe Manchin warns Democratic socialists are gaining ground as Democrats remain silent",
+      "link": "https://www.foxnews.com/media/joe-manchin-warns-democratic-socialists-gaining-ground-democrats-remain-silent",
+      "summary": "Former West Virginia Sen. Joe Manchin warns Democratic socialists are gaining ground while longtime Democrats remain silent on the progressive shift.",
+      "published": "Fri, 30 Oct 2026 08:02:57 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Ancient account of Jesus challenges centuries of scholarly doubt: 'Totally authentic'",
+      "link": "https://www.foxnews.com/travel/ancient-account-jesus-challenges-centuries-scholarly-doubt-totally-authentic",
+      "summary": "New research on Josephus&apos; disputed passage about Jesus suggests the historian&apos;s words were never altered by Christian scribes, a scholar claims. He shared thoughts with Fox News Digital.",
+      "published": "Fri, 30 Oct 2026 08:00:27 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Vance calls for investigation into alleged Dem ballot scheme and more top headlines",
+      "link": "https://www.foxnews.com/us/vance-calls-investigation-alleged-dem-ballot-scheme-more-top-headlines",
+      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+      "published": "Fri, 30 Oct 2026 07:25:52 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "JACKSON THOMPSON: Gronk calls on NFL to punish refs, says Patriots made last Super Bowl due to easy schedule",
+      "link": "https://www.foxnews.com/outkick-sports/jackson-thompson-gronk-calls-nfl-punish-refs-says-patriots-made-last-super-bowl-easy-schedule",
+      "summary": "Rob Gronkowski calls for NFL referee punishments, questions the Patriots&apos; Super Bowl chances, and reveals Bill Belichick&apos;s strangest team rules.",
+      "published": "Fri, 30 Oct 2026 07:02:42 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Common developmental condition linked to higher risk of Parkinson's-related disorders",
+      "link": "https://www.foxnews.com/health/common-developmental-condition-linked-higher-risk-parkinsons-related-disorders",
+      "summary": "Older adults with autism were diagnosed with parkinsonism at more than double the rate of the general population, a study of 57 million Americans found.",
+      "published": "Fri, 30 Oct 2026 07:00:57 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "DOUGLAS MACKINNON: This land is your land. This land is my land. But it’s not a DEI land",
+      "link": "https://www.foxnews.com/opinion/douglas-mackinnon-land-your-land-my-land-not-dei-land",
+      "summary": "DEI and identity politics threaten meritocracy across the United States as commercial aviation, debanking and infrastructure safety face growing risks.",
+      "published": "Fri, 30 Oct 2026 07:00:45 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Lincoln Riley addresses speculation about his future at USC ahead of huge game against Ohio State",
+      "link": "https://www.foxnews.com/outkick-sports/lincoln-riley-addresses-speculation-future-usc-huge-game-ohio-state",
+      "summary": "Lincoln Riley insists USC is where he belongs amid growing speculation that his job hinges on upcoming results against Ohio State and Indiana.",
+      "published": "Fri, 30 Oct 2026 06:35:31 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "MATT CALKINS: Megan Rapinoe defends biological males in women's sports saying sports were not meant to be fair",
+      "link": "https://www.foxnews.com/outkick-sports/megan-rapinoe-defends-biological-males-womens-sports-saying-sports-not-meant-fair",
+      "summary": "Megan Rapinoe&apos;s sit-down with W. Kamau Bell reignited the transgender athletes in women&apos;s sports debate with claims that drew sharp criticism.",
+      "published": "Fri, 30 Oct 2026 06:19:12 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "RNC rejects narrative of spoiler candidates 'on both sides,' calls Alaska scheme 'fraudulent'",
+      "link": "https://www.foxnews.com/politics/rnc-rejects-narrative-spoiler-candidates-both-sides-calls-alaska-scheme-fraudulent",
+      "summary": "The RNC says Democrats recruited a second Dan Sullivan onto Alaska&apos;s Senate ballot to confuse voters as the DOJ intensifies its criminal probe.",
+      "published": "Fri, 30 Oct 2026 06:00:43 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Halloween candy favorites could leave adults with cracked teeth and far worse, says dentist",
+      "link": "https://www.foxnews.com/food-drink/halloween-candy-favorites-could-leave-adults-cracked-teeth-far-worse-says-dentist",
+      "summary": "Dr. Marc Lazare tells Fox News Digital which Halloween candy poses the biggest risks to dental crowns, fillings and enamel — and shares his top treat pick.",
+      "published": "Fri, 30 Oct 2026 06:00:39 -0400",
+      "section": "latest"
+    },
+    {
+      "title": "Dem operative admits Ilhan Omar case has legs as liberal firewall begins to crack: 'I'm not stupid'",
+      "link": "https://www.foxnews.com/politics/dem-operative-admits-ilhan-omar-case-has-legs-liberal-firewall-begins-crack-im-not-stupid",
+      "summary": "A prominent Minnesota Dem operative says the federal investigation into Ilhan Omar&apos;s marriage fraud allegations is &quot;almost certainly&quot; legitimate.",
+      "published": "Fri, 30 Oct 2026 10:01:29 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Texas' red wall facing its biggest threat in decades as Republicans scramble to defend it",
+      "link": "https://www.foxnews.com/politics/red-wall-facing-its-biggest-threat-decades-republicans-scramble-defend-texas",
+      "summary": "James Talarico raised over $146 million for the Texas Senate race while Elon Musk bankrolled more than $200 million in outside support for Paxton.",
+      "published": "Fri, 30 Oct 2026 09:31:44 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Unhinged judge who called Latino attorney a 'White savior' ordered to undergo psychiatric examination",
+      "link": "https://www.foxnews.com/politics/unhinged-judge-called-latino-attorney-white-savior-ordered-undergo-psychiatric-examination",
+      "summary": "Judge Ada Brown called attorney Ezra Young a &quot;White savior&quot; intimidated by &quot;Black excellence&quot; in a hearing now under Fifth Circuit investigation.",
+      "published": "Fri, 30 Oct 2026 09:18:19 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Peltola insists 'I knew nothing' about alleged 'Decoy Dan' scheme as Sullivan alleges she is 'still lying'",
+      "link": "https://www.foxnews.com/politics/peltola-insists-knew-nothing-alleged-decoy-dan-scheme-sullivan-alleges-still-lying",
+      "summary": "Mary Peltola claims she &quot;knew nothing&quot; about the alleged scheme to recruit candidates named Dan Sullivan, but the incumbent says she is &quot;still lying.&quot;",
+      "published": "Fri, 30 Oct 2026 08:27:04 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "RNC rejects narrative of spoiler candidates 'on both sides,' calls Alaska scheme 'fraudulent'",
+      "link": "https://www.foxnews.com/politics/rnc-rejects-narrative-spoiler-candidates-both-sides-calls-alaska-scheme-fraudulent",
+      "summary": "The RNC says Democrats recruited a second Dan Sullivan onto Alaska&apos;s Senate ballot to confuse voters as the DOJ intensifies its criminal probe.",
+      "published": "Fri, 30 Oct 2026 06:00:43 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Trump-backed Alaska candidate blasts 'so-called Republican' Murkowski for endorsing Dem",
+      "link": "https://www.foxnews.com/politics/trump-backed-alaska-candidate-blasts-so-called-republican-murkowski-endorsing-dem",
+      "summary": "Trump-backed Alaska gubernatorial candidate Bernadette Wilson slammed Sen. Lisa Murkowski for endorsing her Democratic opponent, accusing the two of sharing liberal economic policies.",
+      "published": "Fri, 30 Oct 2026 05:00:32 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Resurfaced Peltola 'criminal offense' quote comes back to haunt her after explosive report: 'Turn yourself in'",
+      "link": "https://www.foxnews.com/politics/resurfaced-peltola-criminal-offense-quote-comes-back-haunt-her-after-explosive-report-turn-yourself-in",
+      "summary": "Mary Peltola faces social media criticism after a resurfaced quote clashes with a New York Times report on spoiler candidates in the Alaska Senate race.",
+      "published": "Fri, 30 Oct 2026 04:00:30 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "A ghost story in the US Capitol",
+      "link": "https://www.foxnews.com/politics/ghost-story-us-capitol",
+      "summary": "Chad Pergram recalls slipping on the U.S. Capitol steps in front of Justin Trudeau and explores the ghostly history behind his unexpected fall.",
+      "published": "Thu, 29 Oct 2026 21:31:46 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Minnesota official's voter guide message on Somali TV triggers viral backlash: 'Not an accident'",
+      "link": "https://www.foxnews.com/politics/minnesota-officials-voter-guide-message-somali-tv-triggers-viral-backlash-not-accident",
+      "summary": "A Minnesota voter outreach director&apos;s appearance on Somali TV explaining same-day voter registration sparked fierce election integrity concerns online.",
+      "published": "Thu, 29 Oct 2026 20:00:12 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "US dual citizen extradited to El Salvador, accused of killing son's mother and abandoning toddler: DOJ",
+      "link": "https://www.foxnews.com/politics/us-dual-citizen-extradited-el-salvador-accused-killing-sons-mother-abandoning-toddler-doj",
+      "summary": "California&apos;s Michael Alejandro Castillo Murga became the first U.S. citizen extradited to El Salvador. He faces aggravated femicide charges in a 2019 killing.",
+      "published": "Thu, 29 Oct 2026 18:37:56 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Dem probes could ‘torture’ young Trump officials with crushing legal bills, subpoenaed conservative warns",
+      "link": "https://www.foxnews.com/politics/dem-probes-torture-young-trump-officials-crushing-legal-bills-subpoenaed-conservative-warns",
+      "summary": "Rachel Bovard of CPI warns Democrats could follow Jack Smith&apos;s playbook to target young Trump administration officials with costly subpoenas.",
+      "published": "Thu, 29 Oct 2026 16:36:26 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Report on alleged ‘second Dan Sullivan’ effort emerges after nearly 1 in 10 Alaskans voted",
+      "link": "https://www.foxnews.com/politics/report-alleged-second-dan-sullivan-effort-emerges-early-1-10-alaskans-voted",
+      "summary": "The Alaska Division of Elections reported roughly 58,000 early ballots cast as Dan Sullivan faces a same-name independent challenger on the ballot.",
+      "published": "Thu, 29 Oct 2026 15:19:21 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Feds raid multiple Minnesota autism service providers amid Medicaid fraud investigations",
+      "link": "https://www.foxnews.com/politics/feds-raid-multiple-minnesota-autism-service-providers-amid-medicaid-fraud-investigations",
+      "summary": "Federal agents raided Minnesota autism service providers in St. Louis Park and Edina as Medicaid fraud investigations intensify across the state.",
+      "published": "Thu, 29 Oct 2026 14:42:26 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Election expert sounds alarm on how noncitizens are landing on voter rolls",
+      "link": "https://www.foxnews.com/politics/election-expert-sounds-alarm-how-noncitizens-landing-voter-rolls",
+      "summary": "J. Christian Adams says the SAVE database could help clean voter rolls, but California and Washington still refuse to use it for verification.",
+      "published": "Thu, 29 Oct 2026 14:41:22 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Dead felon voting controversy grows as 'Betty No Last Name' surfaces in Spanberger's rights restoration push",
+      "link": "https://www.foxnews.com/politics/dead-felon-voting-controversy-grows-betty-no-last-name-surfaces-spanberger-rights-restoration-push",
+      "summary": "Virginia Gov. Abigail Spanberger&apos;s office sent a voting rights citation to &quot;Betty No Last Name,&quot; raising fraud concerns over felon restoration.",
+      "published": "Thu, 29 Oct 2026 14:18:32 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Libertarians challenge Trump-backed Republicans, look to shake up midterms beyond GOP-Dem duopoly",
+      "link": "https://www.foxnews.com/politics/libertarians-challenge-trump-backed-republicans-look-shake-up-midterms-beyond-gop-dem-duopoly",
+      "summary": "Libertarian candidate Jeremy Todd is running for the U.S. House of Representatives in Kentucky&apos;s 4th Congressional District after incumbent Rep. Thomas Massie lost the GOP primary.",
+      "published": "Thu, 29 Oct 2026 14:08:40 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Sky-high gas prices aren't shaking Trump's MAGA faithful in oil country as supporters warn of bigger threat",
+      "link": "https://www.foxnews.com/politics/sky-high-gas-prices-arent-shaking-trumps-maga-faithful-oil-country-supporters-warn-bigger-threat",
+      "summary": "Donald Trump rallied supporters in Texas who say rising costs haven&apos;t shaken their loyalty, warning socialism and progressive policies threaten America.",
+      "published": "Thu, 29 Oct 2026 13:35:05 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Little-known rule could stop socialists from being sworn into Congress",
+      "link": "https://www.foxnews.com/politics/little-known-rule-could-stop-socialists-from-being-sworn-congress",
+      "summary": "Rep. Keith Self says he could challenge Democratic Socialists of America members&apos; right to take the House oath of office in the new Congress.",
+      "published": "Thu, 29 Oct 2026 13:20:19 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "'Decoy Dan' Sullivan case leads top senator to break four-year X silence: 'Pattern of Lies'",
+      "link": "https://www.foxnews.com/politics/decoy-dan-sullivan-case-leads-top-senator-break-four-year-x-silence-pattern-lies",
+      "summary": "Lisa Murkowski broke years of silence on X to accuse Mary Peltola&apos;s team of ballot manipulation through a decoy Dan Sullivan candidate scheme.",
+      "published": "Thu, 29 Oct 2026 13:19:14 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Cruz says there's 'real risk that Americans will die' if El-Sayed gains access to US intelligence",
+      "link": "https://www.foxnews.com/politics/cruz-says-real-risk-americans-die-el-sayed-gains-access-us-intelligence",
+      "summary": "Sen. Ted Cruz suggested that if Democratic U.S. Senate candidate Abdul El-Sayed becomes a senator, he could tip off terrorists using U.S. intelligence.",
+      "published": "Thu, 29 Oct 2026 13:02:19 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Trump DOJ's fight over 20K suspected noncitizen voters takes sharp turn as California ballots pour in",
+      "link": "https://www.foxnews.com/politics/trump-dojs-fight-over-20k-suspected-noncitizen-voters-takes-sharp-turn-california-ballots-pour",
+      "summary": "A federal judge blocked the Justice Department&apos;s bid to sequester ballots from over 20,000 suspected noncitizen voters on California&apos;s voter rolls.",
+      "published": "Thu, 29 Oct 2026 12:18:50 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Obama admin first launched the investigation into Ilhan Omar's alleged brother marriage",
+      "link": "https://www.foxnews.com/politics/obama-admin-first-launched-investigation-ilhan-omars-alleged-brother-marriage",
+      "summary": "The FBI probe into whether Ilhan Omar married her brother began under Barack Obama in 2016, but a Biden-appointed attorney shut it down in 2021.",
+      "published": "Thu, 29 Oct 2026 11:05:27 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Maine, Kansas Senate races neck and neck as Democrats lead in Texas, Michigan, poll shows",
+      "link": "https://www.foxnews.com/politics/maine-kansas-senate-races-neck-and-neck-democrats-lead-texas-michigan-poll-shows",
+      "summary": "High-profile Senate races in Maine, Texas, Michigan and Kansas are extremely tight, with Democrats leading in all four according to a new CNN poll.",
+      "published": "Thu, 29 Oct 2026 10:49:10 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Nearly 40 House Dems skip effort to end Ilhan Omar immigration probe",
+      "link": "https://www.foxnews.com/politics/nearly-40-house-dems-skip-effort-end-ilhan-omar-immigration-probe",
+      "summary": "Nancy Pelosi and Steny Hoyer were among nearly 40 House Democrats who did not sign Pramila Jayapal&apos;s letter defending Ilhan Omar&apos;s probe.",
+      "published": "Thu, 29 Oct 2026 10:30:53 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Haley Stevens' fiance hammers El-Sayed, says he'll vote for Rogers",
+      "link": "https://www.foxnews.com/politics/haley-stevens-fiancee-hammers-el-sayed-says-hell-vote-rogers",
+      "summary": "Rep. Haley Stevens&apos; Jewish fiance says he cannot vote for Abdul El-Sayed, calling the Michigan Senate nominee an antisemite who endangers Jews.",
+      "published": "Thu, 29 Oct 2026 09:23:15 -0400",
+      "section": "politics"
+    },
+    {
+      "title": "Netanyahu's bloc falls short as longtime allies reportedly weigh move that could end his rule",
+      "link": "https://www.foxnews.com/world/netanyahus-bloc-falls-short-longtime-allies-reportedly-weigh-move-could-end-his-rule",
+      "summary": "Netanyahu&apos;s bloc secured only 53 Knesset seats as ultra-Orthodox allies reportedly explore breaking ranks to back Gadi Eisenkot&apos;s opposition.",
+      "published": "Fri, 30 Oct 2026 10:04:16 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Albanian opposition lawmakers disrupt parliament with smoke flares and furious attacks on socialist PM",
+      "link": "https://www.foxnews.com/world/albanian-opposition-lawmakers-disrupt-parliament-smoke-flares-furious-attacks-socialist-pm",
+      "summary": "Sali Berisha&apos;s microphone was cut after he declared ruling lawmakers &quot;deserve tear gas&quot; as Democratic Party members lit flares inside parliament.",
+      "published": "Thu, 29 Oct 2026 16:04:33 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Houthis hold 37 UN food workers as Trump-backed WFP chief inherits humanitarian crises across globe",
+      "link": "https://www.foxnews.com/world/houthis-hold-37-un-food-workers-trump-backed-wfp-chief-inherits-humanitarian-crises-across-globe",
+      "summary": "Luke Lindberg says 37 World Food Programme employees are detained by Houthis in Yemen, with some separated from families for nearly two years.",
+      "published": "Thu, 29 Oct 2026 13:41:36 -0400",
+      "section": "world"
+    },
+    {
+      "title": "ASRA NOMANI: 106 far-left groups in 'red-green' alliance target global ports",
+      "link": "https://www.foxnews.com/world/asra-nomani-106-far-left-groups-red-green-alliance-target-global-ports",
+      "summary": "Communist parties, Palestinian solidarity groups and socialist activists are coordinating strikes at 113 ports across five continents on Oct. 30.",
+      "published": "Thu, 29 Oct 2026 13:35:12 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Netanyahu falls short of majority as Israel faces three possible paths to a new government",
+      "link": "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge",
+      "summary": "Benjamin Netanyahu&apos;s coalition falls short of a majority as Arab parties surge to 19 seats, giving the opposition a potential 67-seat block.",
+      "published": "Thu, 29 Oct 2026 09:47:49 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Netanyahu alleges fraud as Arab parties score record gains — emerge as potential kingmakers",
+      "link": "https://www.foxnews.com/world/netanyahu-alleges-fraud-arab-parties-score-record-gains-emerge-potential-kingmakers",
+      "summary": "Benjamin Netanyahu alleges Israel&apos;s election was &quot;stolen by Arab parties,&quot; demanding police investigate as Arab voter turnout hit record levels.",
+      "published": "Thu, 29 Oct 2026 06:12:44 -0400",
+      "section": "world"
+    },
+    {
+      "title": "GOP lawmakers urge Rubio to weigh visa restrictions on corrupt officials as Albania rocked by protests",
+      "link": "https://www.foxnews.com/world/gop-lawmakers-urge-rubio-weigh-visa-restrictions-corrupt-officials-albania-rocked-protests",
+      "summary": "Two Republican Congressmen urge Marco Rubio to impose visa restrictions on corrupt Albanian officials as violent protests demand Edi Rama&apos;s resignation.",
+      "published": "Wed, 28 Oct 2026 12:54:42 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Holocaust educator says Mamdani could learn from UK's targeted approach to antisemitism in schools",
+      "link": "https://www.foxnews.com/world/holocaust-educator-says-mamdani-could-learn-from-uks-targeted-approach-antisemitism-schools",
+      "summary": "Britain accepted all 27 school antisemitism recommendations, drawing a sharp contrast with New York City Mayor Zohran Mamdani&apos;s broader plan.",
+      "published": "Wed, 28 Oct 2026 10:56:21 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Attacker shouting 'Allahu Akbar' killed outside Israeli Embassy in Serbia, police say",
+      "link": "https://www.foxnews.com/world/attacker-shouting-allahu-akbar-killed-outside-israeli-embassy-serbia-police-say",
+      "summary": "An assailant shouting Allahu Akbar attacked a Gendarmerie officer outside the Israeli Embassy in Belgrade before being fatally shot by the officer.",
+      "published": "Wed, 28 Oct 2026 08:17:34 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Spain high-speed railway crash kills at least 68 after train stopped on tracks",
+      "link": "https://www.foxnews.com/world/spain-high-speed-railway-crash-kills-train-stopped-tracks",
+      "summary": "A high-speed RENFE train slammed into a stopped IRYO train in Toledo province, derailing two cars and killing at least 68 people on Wednesday.",
+      "published": "Wed, 28 Oct 2026 07:08:48 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Netanyahu defies exit polls as vote shifts in his favor, but majority remains elusive",
+      "link": "https://www.foxnews.com/world/netanyahu-defies-exit-polls-vote-shifts-his-favor-majority-remains-elusive",
+      "summary": "With 70% of votes counted, Benjamin Netanyahu&apos;s Likud leads, but three possible paths to government formation keep Israel&apos;s election uncertain.",
+      "published": "Wed, 28 Oct 2026 06:10:20 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Netanyahu gains overnight as Israel election heads toward political deadlock",
+      "link": "https://www.foxnews.com/world/israelis-vote-record-numbers-first-national-election-since-oct-7-hamas-massacre",
+      "summary": "Israel election exit polls show Benjamin Netanyahu&apos;s Likud and Gadi Eisenkot&apos;s Yashar locked in a fight with neither bloc reaching 61 Knesset seats.",
+      "published": "Tue, 27 Oct 2026 16:10:31 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Sen Flávio Bolsonaro flees Brazil for US after election loss, will be issued visas: State Department",
+      "link": "https://www.foxnews.com/world/sen-flavio-bolsonaro-reportedly-flees-brazil-us-election-loss",
+      "summary": "The Brazilian far-right senator has reportedly headed to Florida two days after losing the presidential runoff to leftist incumbent Luiz Inácio Lula da Silva.",
+      "published": "Tue, 27 Oct 2026 15:25:32 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Serbia’s student movement topples Vucic’s party after 14 years, but political agenda remains unclear",
+      "link": "https://www.foxnews.com/world/serbias-student-movement-topples-vucics-party-after-14-years-political-agenda-remains-unclear",
+      "summary": "Aleksandar Vucic conceded defeat to the Student List after a landslide victory ended his 14-year rule over Serbia in a historic election day.",
+      "published": "Tue, 27 Oct 2026 13:59:28 -0400",
+      "section": "world"
+    },
+    {
+      "title": "UK charges 2 men in suspected Iran-linked incident at RAF Fairford after US bombers pulled",
+      "link": "https://www.foxnews.com/world/uk-charges-2-men-suspected-iran-linked-incident-raf-fairford-us-bombers-pulled",
+      "summary": "Two men face charges under the U.K.&apos;s National Security Act after a September incident at RAF Fairford, a key base for U.S. military bombers.",
+      "published": "Tue, 27 Oct 2026 11:42:39 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Pakistan’s top court upholds Christian man’s death sentence for blasphemy",
+      "link": "https://www.foxnews.com/world/pakistans-top-court-upholds-christian-mans-death-sentence-blasphemy",
+      "summary": "Pakistan’s Supreme Court upheld a Christian man’s death sentence for blasphemy in a historic ruling that advocates warn could have far-reaching consequences.",
+      "published": "Tue, 27 Oct 2026 10:48:54 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Ceasefire negotiated by Melania Trump holds in Russia-occupied Ukrainian city",
+      "link": "https://www.foxnews.com/world/ceasefire-negotiated-melania-trump-holds-russia-occupied-ukrainian-city",
+      "summary": "A ceasefire in the Russian-held Ukrainian city of Oleshky, where first lady Melania Trump said the situation &quot;is dire,&quot; went into effect on Tuesday.",
+      "published": "Tue, 27 Oct 2026 08:41:20 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Israel heads into deeply divided election as Oct 7 reckoning looms: What to know",
+      "link": "https://www.foxnews.com/world/israel-heads-deeply-divided-election-oct-7-reckoning-looms-what-know",
+      "summary": "Will Prime Minister Benjamin Netanyahu hold power? Israel&apos;s election becomes a referendum on Oct. 7 failures as no bloc secures a clear majority.",
+      "published": "Tue, 27 Oct 2026 04:00:35 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Former Colombian president accused of exploiting dozens of women for presidential parties",
+      "link": "https://www.foxnews.com/world/former-colombian-president-accused-exploiting-dozens-women-presidential-parties",
+      "summary": "Former Colombian President Gustavo Petro rejected claims he traded public contracts for sex amid broader allegations of corruption and drug trafficking.",
+      "published": "Mon, 26 Oct 2026 16:55:41 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Netanyahu fights for political future as Israel heads to polls with Iran threat looming",
+      "link": "https://www.foxnews.com/world/netanyahu-fights-political-future-israel-heads-polls-iran-threat-looming",
+      "summary": "Israel heads into a high-stakes election with Benjamin Netanyahu&apos;s political future and legacy on the line as voters weigh his security record and the continuing Iran threat.",
+      "published": "Mon, 26 Oct 2026 14:36:08 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Former Israeli PM emerges as wild card in high-stakes election with Middle East's future at stake",
+      "link": "https://www.foxnews.com/world/former-israeli-pm-emerges-wildcard-high-stakes-election-middle-easts-future-stake",
+      "summary": "Naftali Bennett&apos;s Middle East vision includes expanding the Abraham Accords, but polls show him trailing Gadi Eisenkot and Prime Minister Netanyahu ahead of Israel&apos;s election.",
+      "published": "Mon, 26 Oct 2026 10:49:56 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war",
+      "link": "https://www.foxnews.com/world/israel-drills-surprise-attack-massive-military-exercise-expert-invokes-1973-war",
+      "summary": "Israel&apos;s largest military drill in years mobilizes multiple divisions to counter border infiltrations, as an analyst invokes the 1973 Yom Kippur War.",
+      "published": "Sun, 25 Oct 2026 20:42:24 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Conservative wave hits roadblock in Brazil as Lula holds off Bolsonaro challenge",
+      "link": "https://www.foxnews.com/world/conservative-wave-hits-roadblock-brazil-lula-holds-off-bolsonaro-challenge",
+      "summary": "In a tight election, incumbent President Lula da Silva bested Senator Flávio Bolsonaro in Brazil.",
+      "published": "Sun, 25 Oct 2026 20:27:54 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Zelenskyy can leverage Moscow ties from comedy days to make peace deal, says former key aide",
+      "link": "https://www.foxnews.com/world/zelenskyy-can-leverage-moscow-ties-from-comedy-days-make-peace-deal-says-former-key-aide",
+      "summary": "Ukrainian President Volodymyr Zelenskyy earned his first millions in Moscow and should leverage those ties to negotiate with Vladimir Putin, says ex-aide.",
+      "published": "Sun, 25 Oct 2026 18:51:42 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
+      "link": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad",
+      "summary": "María Corina Machado&apos;s return to Venezuela could reshape opposition dynamics as Edmundo González vows to join her and push for democratic elections.",
+      "published": "Sun, 25 Oct 2026 13:47:02 -0400",
+      "section": "world"
+    },
+    {
+      "title": "Vance calls for investigation into alleged Dem ballot scheme and more top headlines",
+      "link": "https://www.foxnews.com/us/vance-calls-investigation-alleged-dem-ballot-scheme-more-top-headlines",
+      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+      "published": "Fri, 30 Oct 2026 07:25:52 -0400",
+      "section": "us"
+    },
+    {
+      "title": "‘Your kids are the target’: College drug deaths, alleged coke ring expose lethal threat, warns retired cop",
+      "link": "https://www.foxnews.com/us/your-kids-are-target-college-drug-deaths-alleged-coke-ring-expose-lethal-threat-warns-retired-cop",
+      "summary": "From FIT&apos;s fentanyl poisoning to Penn State&apos;s cocaine ring, campus drug deaths reveal how organized crime networks are targeting college students.",
+      "published": "Fri, 30 Oct 2026 06:00:08 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Three killed in midair helicopter collision near Oregon airport, authorities confirm",
+      "link": "https://www.foxnews.com/us/two-helicopters-collide-midair-near-oregon-airport-three-people-aboard-faa-confirms",
+      "summary": "Two helicopters collided midair near McMinnville Municipal Airport in Oregon, crashing in a field and forcing highway closures as the FAA investigates.",
+      "published": "Thu, 29 Oct 2026 22:21:14 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Chili's customers suffer chemical burns after dangerous margarita mix-up",
+      "link": "https://www.foxnews.com/us/chilis-customers-suffer-chemical-burns-after-dangerous-margarita-mix-up",
+      "summary": "Three customers and two employees suffered symptoms after an industrial degreaser was mistakenly used to prepare margaritas at a North Carolina Chili&apos;s.",
+      "published": "Thu, 29 Oct 2026 22:15:22 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Man dressed as zombie allegedly stabs two in coffee shop, flees and hits robotaxi",
+      "link": "https://www.foxnews.com/us/man-dressed-zombie-allegedly-stabs-two-coffee-shop-flees-hits-robotaxi",
+      "summary": "Shankar Temple Grace allegedly stabbed two people at The Buzz Mill before fleeing in a pickup truck and crashing into an unoccupied vehicle.",
+      "published": "Thu, 29 Oct 2026 21:04:29 -0400",
+      "section": "us"
+    },
+    {
+      "title": "WATCH: Phoenix bank employees rescue food vendor during severe Arizona storm in viral video",
+      "link": "https://www.foxnews.com/us/watch-phoenix-bank-employees-rescue-food-vendor-severe-arizona-storm-viral-video",
+      "summary": "Viral video shows PNC Bank employees pulling food vendor Hilario Cruz Cruz and his elotes cart safely inside as severe hail and wind hit Phoenix.",
+      "published": "Thu, 29 Oct 2026 20:56:58 -0400",
+      "section": "us"
+    },
+    {
+      "title": "House Judiciary report accuses NYC DAs of downgrading charges to protect illegal immigrants from deportation",
+      "link": "https://www.foxnews.com/us/house-judiciary-report-accuses-nyc-das-downgrading-charges-protect-illegal-immigrants-deportation",
+      "summary": "Letitia James, Melinda Katz and Eric Gonzalez faced pointed questions about a House Judiciary Committee report on immigration-safe plea deals.",
+      "published": "Thu, 29 Oct 2026 18:18:41 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Mysterious freezer failures at US military bases trigger federal investigation",
+      "link": "https://www.foxnews.com/us/mysterious-freezer-failures-us-military-bases-trigger-federal-investigation",
+      "summary": "Army investigators are probing whether a cyberattack caused mysterious freezer failures that spoiled food at U.S. military bases and may be linked to similar incidents in France.",
+      "published": "Thu, 29 Oct 2026 18:14:04 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Judge grills AG’s office in Cornell sex assault case as ex-frat bro’s lawyer demands ouster over alleged bias",
+      "link": "https://www.foxnews.com/us/judge-grills-ag-office-cornell-sex-assault-case-ex-frat-bro-lawyer-demands-ouster-alleged-bias",
+      "summary": "Defense attorneys argue Letitia James&apos; social media posts show pre-existing bias in the reopened Cornell University gang rape criminal investigation.",
+      "published": "Thu, 29 Oct 2026 17:22:01 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Woman shot outside Virginia GOP headquarters in Richmond, party confirms",
+      "link": "https://www.foxnews.com/us/woman-shot-outside-virginia-gop-headquarters-richmond-party-confirms",
+      "summary": "A woman was shot outside the Virginia GOP&apos;s headquarters in Richmond on Thursday. The party said all staff members are safe and there is no indication the shooting was politically connected.",
+      "published": "Thu, 29 Oct 2026 15:34:41 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Florida dad who swam to tangled seagull and was carried away from shore drowns",
+      "link": "https://www.foxnews.com/us/florida-dad-swam-tangled-seagull-carried-away-shore-drowns",
+      "summary": "Stone Romberg drowned after swimming out to untangle a seagull from his fishing line when an ocean current swept him away from the Florida shore.",
+      "published": "Thu, 29 Oct 2026 15:05:16 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Deputies find bodies of missing college students who went hiking on treacherous mountain trail",
+      "link": "https://www.foxnews.com/us/deputies-find-bodies-missing-college-students-hiking-treacherous-mountain-trail",
+      "summary": "Kaden Matsuda and Jackson Donlon left Colorado Mountain College&apos;s Leadville campus to hike near Ice Mountain before a heavy snowstorm struck the area.",
+      "published": "Thu, 29 Oct 2026 15:00:27 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Fox News ‘Antisemitism Exposed’ Newsletter: Trump's point man in the fight against Jew hate",
+      "link": "https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-trumps-point-man-fight-against-jew-hate",
+      "summary": "Fox News&apos; &quot;Antisemitism Exposed&quot; newsletter brings you stories on the rising anti-Jewish prejudice across the U.S. and the world.",
+      "published": "Thu, 29 Oct 2026 12:33:40 -0400",
+      "section": "us"
+    },
+    {
+      "title": "DOJ’s ‘Operation Ghostbusters’ targets massive student-aid fraud scheme built on fake enrollees",
+      "link": "https://www.foxnews.com/us/dojs-operation-ghostbusters-aims-crush-massive-student-aid-fraud-scheme-involving-fake-students",
+      "summary": "Operation Ghostbusters targets ghost students and identity theft in a student aid fraud scheme with potentially hundreds of millions in taxpayer losses.",
+      "published": "Thu, 29 Oct 2026 11:28:36 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Ex-chief says Christa Pike was 'almost giddy' describing murder as governor weighs in after botched execution",
+      "link": "https://www.foxnews.com/us/ex-chief-says-christa-pike-almost-giddy-describing-murder-governor-weighs-botched-execution",
+      "summary": "A former Knoxville police chief recalled Christa Pike being &quot;ruthless&quot; and &quot;almost giddy&quot; while describing Colleen Slemmer&apos;s brutal 1995 murder.",
+      "published": "Thu, 29 Oct 2026 10:59:01 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Prosecutors reveal six Lindsay Clancy jury notes as they fight bid to dismiss murder charges",
+      "link": "https://www.foxnews.com/us/lindsay-clancy-lawyer-denies-testify-homicidal-thoughts-ex-suit-against-doctors",
+      "summary": "Lindsay Clancy&apos;s lawyer says she never told healthcare providers about homicidal ideation toward her children, disputing Patrick Clancy&apos;s counsel.",
+      "published": "Thu, 29 Oct 2026 10:43:16 -0400",
+      "section": "us"
+    },
+    {
+      "title": "'Baby killers, cop killers' have an ally in Newsom, murdered girl's father says amid death row controversy",
+      "link": "https://www.foxnews.com/us/baby-killers-cop-killers-ally-newsom-murdered-girls-father-says-death-row-controversy",
+      "summary": "California Gov. Gavin Newsom is reportedly considering commuting sentences for 563 death row inmates, sparking fierce backlash from victims&apos; families.",
+      "published": "Thu, 29 Oct 2026 09:00:07 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Dems' alleged ballot scheme called a 'scandal at the highest order' and more top headlines",
+      "link": "https://www.foxnews.com/us/dems-alleged-ballot-scheme-called-scandal-highest-order-more-top-headlines",
+      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+      "published": "Thu, 29 Oct 2026 07:14:00 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Ted Bundy could have more undiscovered victims after DNA links him to murder of chief's daughter: detective",
+      "link": "https://www.foxnews.com/us/ted-bundy-undiscovered-victims-dna-links-murder-chiefs-daughter-detective",
+      "summary": "DNA evidence linked Ted Bundy to Melissa Ann Smith&apos;s 1974 murder, but a cold-case detective says the serial killer may have unknown victims.",
+      "published": "Thu, 29 Oct 2026 06:00:28 -0400",
+      "section": "us"
+    },
+    {
+      "title": "DHS investigates massive data breach exposing 40,000 employees, including ICE and Border Patrol agents",
+      "link": "https://www.foxnews.com/us/dhs-investigates-massive-data-breach-exposing-40000-employees-including-ice-border-patrol-agents",
+      "summary": "The Department of Homeland Security is investigating a breach that exposed roughly 40,000 employees, including 10,000 ICE agents and CBP personnel.",
+      "published": "Thu, 29 Oct 2026 00:31:13 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Emergency declared at South Carolina nuclear site after fire erupts at lab",
+      "link": "https://www.foxnews.com/us/emergency-declared-south-carolina-nuclear-site-after-fire-erupts-lab",
+      "summary": "A fire at a massive Department of Energy nuclear site triggered emergency measures, though officials reported no contamination outside the facility.",
+      "published": "Wed, 28 Oct 2026 21:10:04 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Convicted murderer got over 5-hour head start after prison escape before local police were notified: official",
+      "link": "https://www.foxnews.com/us/convicted-murderer-5-hour-head-start-prison-escape-local-police-notified-official",
+      "summary": "Jacob Allen Morley had at least a five-hour head start before Tiptonville police were notified he escaped the Northwest Correctional Complex.",
+      "published": "Wed, 28 Oct 2026 19:26:58 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Radicals bring life in America's largest city to screeching halt and vandalize 9/11 Memorial",
+      "link": "https://www.foxnews.com/us/radicals-bring-life-americas-largest-city-screeching-halt-vandalize-911-memorial",
+      "summary": "Anti-ICE radicals blocked New York City&apos;s Brooklyn Bridge and another suspect allegedly spray-painted over victims&apos; names at the 9/11 Memorial.",
+      "published": "Wed, 28 Oct 2026 18:39:03 -0400",
+      "section": "us"
+    },
+    {
+      "title": "Woman wearing burka escorted out of Florida county meeting after playing call to prayer recording",
+      "link": "https://www.foxnews.com/us/woman-covered-veil-escorted-florida-county-meeting-playing-call-prayer-recording",
+      "summary": "A woman wearing a burka played an Islamic call to prayer recording at a Pinellas County commissioners meeting before a sheriff&apos;s deputy escorted her out.",
+      "published": "Wed, 28 Oct 2026 16:53:41 -0400",
+      "section": "us"
+    },
+    {
+      "title": "FBI reports 114% jump in violent crime arrests under Trump compared to Biden’s final months",
+      "link": "https://www.foxnews.com/us/fbi-reports-67-percent-jump-violent-crime-arrests-trump-compared-bidens-final-months",
+      "summary": "Kash Patel says the FBI arrested over 47,000 violent criminals and gang members in 21 months, marking a 67% increase over the Biden era.",
+      "published": "Wed, 28 Oct 2026 14:39:58 -0400",
+      "section": "us"
+    }
+  ]
+}
