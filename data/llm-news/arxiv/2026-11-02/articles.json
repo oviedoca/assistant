@@ -1,0 +1,644 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "link": "https://arxiv.org/abs/2610.42152v1",
+      "summary": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight experts repeatedly read the same 80 chest X-rays (CXRs). We compared individual readers with three-, five- and eight-reader panels across seven architectures and 10 seeds, evaluating 910 models on a separat",
+      "published": "2026-10-30T17:59:59Z",
+      "authors": [
+        "Nattakorn Kittisut",
+        "Roy M. Gabriel",
+        "Marly van Assen",
+        "Mohammadreza Zandehshahvar",
+        "Carlo N. De Cecco"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments",
+      "link": "https://arxiv.org/abs/2610.42151v1",
+      "summary": "Intrinsic alignments (IA) of galaxies are an important source of systematic uncertainty in weak gravitational lensing measurements and also serve as a test for models of galaxy formation and evolution. These galaxy alignments are usually modeled assuming that the IA are sourced by the tidal fields around the galaxies. However, galaxy properties, like their proximity to other galaxies and their mass, provide alignment contributions beyond the tidal field. In this work, we perform novel model-agno",
+      "published": "2026-10-30T17:59:45Z",
+      "authors": [
+        "Paul Rogozenski",
+        "Sukhdeep Singh",
+        "Jonathan Blazek",
+        "Rachel Mandelbaum",
+        "Hung-Jin Huang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "link": "https://arxiv.org/abs/2610.42149v1",
+      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space,",
+      "published": "2026-10-30T17:59:43Z",
+      "authors": [
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho",
+        "Jinwoo Shin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "link": "https://arxiv.org/abs/2610.42148v1",
+      "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure ",
+      "published": "2026-10-30T17:59:38Z",
+      "authors": [
+        "Bobo Li",
+        "Jiajia Song",
+        "Hao Fei",
+        "Wynne Hsu",
+        "Mong Li Lee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "link": "https://arxiv.org/abs/2610.42147v1",
+      "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which a dedicated indexer selects a subset of keys for the attention. Yet current methods of indexing either still have quadratic cost in context size or lose accuracy at ultra-long context scale. We addres",
+      "published": "2026-10-30T17:59:34Z",
+      "authors": [
+        "Ales Kubicek",
+        "Andrea Caciolai",
+        "Liangzu Peng",
+        "Sukrit Sumant",
+        "Benjamin Hoover"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "link": "https://arxiv.org/abs/2610.42146v1",
+      "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from l",
+      "published": "2026-10-30T17:59:25Z",
+      "authors": [
+        "Gaoyue Zhou",
+        "Yvonne Wu",
+        "Zichen Jeff Cui",
+        "Nicolas Ballas",
+        "Mido Assran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
+      "link": "https://arxiv.org/abs/2610.42145v1",
+      "summary": "Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior work has primarily focused on geometry-aware shape abstraction, where the objective is to approximate the input shape with a minimal set of primitives while preserving geometric fidelity. However, th",
+      "published": "2026-10-30T17:59:14Z",
+      "authors": [
+        "Kuankuan Cheng",
+        "Haocheng Yuan",
+        "Changjian Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dittany: Contribution-Guided Repair Framework for MAS Applications",
+      "link": "https://arxiv.org/abs/2610.42144v1",
+      "summary": "LLM-based multi-agent system (MAS) applications can produce useful intermediate results while leaving task requirements unsatisfied. Repairing such executions requires identifying the work still needed and the completed results that can support it. We present \\tool, a contribution-guided runtime repair framework for MAS applications. \\tool derives expected contributions and acceptance conditions from task requirements and method specifications, and connects their dependencies in a contribution g",
+      "published": "2026-10-30T17:59:12Z",
+      "authors": [
+        "Hanqi Sun",
+        "Yuchen Shao",
+        "Hanyi Si",
+        "Beibei Xu",
+        "Lisheng Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "link": "https://arxiv.org/abs/2610.42141v1",
+      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises ",
+      "published": "2026-10-30T17:58:48Z",
+      "authors": [
+        "Shengguang Wu",
+        "Suning Huang",
+        "Cherie Ho",
+        "Ria Doshi",
+        "Hao Zhu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Parabolic Reifenberg Parametrizations and Corona Decompositions, with Applications to Singular Integrals",
+      "link": "https://arxiv.org/abs/2610.42142v1",
+      "summary": "For parabolic Ahlfors regular sets, we show that the bilateral weak geometric lemma (BWGL), bilateral approximation by unions of planes (BAUP), and corona decompositions by $Lip$(1,1/2) graphs (whose defining functions need not have half-order time derivatives in BMO) are equivalent. These geometric conditions do not imply the strong geometric lemma. A key tool is a parabolic version of Reifenberg's theorem for sets with holes, which we prove here. As an application of these geometric results, w",
+      "published": "2026-10-30T17:58:48Z",
+      "authors": [
+        "John Hoffman",
+        "Matthew Hyde",
+        "Mihalis Mourgoglou"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Non-sofic Tarski monsters",
+      "link": "https://arxiv.org/abs/2610.42140v1",
+      "summary": "We prove the existence of non-sofic Tarski monsters of every sufficiently large prime exponent and of torsion-free non-sofic Tarski monsters. The proof combines a theorem of Sandhu--Thom with quotient theorems of Semenov. These groups are minimal non-sofic, since all their proper subgroups are cyclic. A theorem of Minasyan--Osin--Witzel gives continuum many pairwise non-quasi-isometric torsion-free simple examples. Kulikova's quotient theorem also yields non-simple minimal non-sofic groups of ex",
+      "published": "2026-10-30T17:58:46Z",
+      "authors": [
+        "Kıvanç Ersoy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+      "link": "https://arxiv.org/abs/2610.42136v1",
+      "summary": "Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that strong pretrained 2D trackers and 3D geometry models provide an effective foundation: lifted trajectories, with occluded segments simply interpolated, already rival dedicated 3D trackers using the same ge",
+      "published": "2026-10-30T17:58:33Z",
+      "authors": [
+        "Assaf Singer",
+        "Maroun Khriesh",
+        "Noam Rotstein",
+        "Yoni Kasten",
+        "Or Litany"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Better Critic Matters for Distribution Matching Distillation",
+      "link": "https://arxiv.org/abs/2610.42135v1",
+      "summary": "Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. We investigate what the critic needs, in capacity and in information, to provide a reliable training signal. On the capacity side, controlled experiments across seven SiT model sizes on ImageNet show that increasing teacher size while keeping a small critic fixed can degrade student quality and cause training collap",
+      "published": "2026-10-30T17:58:26Z",
+      "authors": [
+        "Zongze Wu",
+        "Xianbang Wang",
+        "Zhengyang Geng",
+        "Mingdeng Cao",
+        "Zhoutong Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Instance-dependent sequential limits as an exact information ledger",
+      "link": "https://arxiv.org/abs/2610.42133v1",
+      "summary": "Instance-dependent limits for bandit regret, sequential tests, best-arm identification and Markov decision processes are proved by one chain. It runs from a divergence decomposition through data processing to a statistic, a testing step that turns a class guarantee into a requirement on the history, and optimization over alternatives and allocations. Only the first step is an identity. This work writes the chain as an exact ledger. By the chain rule, data processing loses exactly a conditional d",
+      "published": "2026-10-30T17:57:44Z",
+      "authors": [
+        "Akshay Balsubramani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nova V1674 Her as a fast magnetic rotator",
+      "link": "https://arxiv.org/abs/2610.42132v1",
+      "summary": "We report on the results of our XMM-Newton and NuSTAR campaign targeting V1674 Her in October 2023. These observations were timed to investigate the post-nova quiescent state 28 months after the 2021 outburst, although the optical luminosity was still slowly declining. The X-ray spectra are well-modeled by a multi-temperature thermal plasma. While in the best fit temperature we find that the highest plasma temperature is indicative of a massive white dwarf ($M_{\\text{WD}} \\approx 1.35 M_\\odot$),",
+      "published": "2026-10-30T17:57:42Z",
+      "authors": [
+        "G. J. M. Luna",
+        "M. Orio",
+        "A. Dobrotka",
+        "J. Magdolen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Value of Adding AI Weather Model Ensembles to a Multi-model Probabilistic Blend",
+      "link": "https://arxiv.org/abs/2610.42130v1",
+      "summary": "Many weather forecasting organizations use a multi-model blend of ensemble members from different prediction systems to obtain a more accurate forecast. Recent studies have shown that blending deterministic AI-based models alongside physics-based models improves the overall forecast skill. However, the incorporation of an ensemble AI-based model into a multi-model blend is yet to be investigated. This study explores the value of blending the ensemble version of the Artificial Intelligence Foreca",
+      "published": "2026-10-30T17:57:25Z",
+      "authors": [
+        "Harris Sop Nkuiate",
+        "Gavin Evans",
+        "Christopher A. T. Ferro",
+        "Frank Kwasniok",
+        "Caroline Bain"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+      "link": "https://arxiv.org/abs/2610.42128v1",
+      "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distilla",
+      "published": "2026-10-30T17:56:58Z",
+      "authors": [
+        "Yanran Wu",
+        "Dian Yu",
+        "Chongyang Bai",
+        "Jieyi Zhang",
+        "Rui Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions",
+      "link": "https://arxiv.org/abs/2610.42126v1",
+      "summary": "Objective: To distinguish the transferable predictive value of physiological trajectories from that of observation patterns in ICU mortality prediction, and to assess whether measurement timing affects performance independently of observation quantity.   Materials and Methods: In-hospital mortality was predicted at 48 hours using MIMIC-III, MIMIC-IV, and eICU. Nested representations progressively integrated latest-value snapshots (R1), longitudinal physiological summaries (R2), and measurement f",
+      "published": "2026-10-30T17:56:10Z",
+      "authors": [
+        "Benjamin T. Pike"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Co-sufficient weighting: leveraging sparsity for more powerful variable selection in the linear model",
+      "link": "https://arxiv.org/abs/2610.42122v1",
+      "summary": "We show that for the problem of controlled variable selection in the Gaussian linear model, informative and p-value-independent weights (for weighted multiple testing) can be derived entirely from sufficient statistics and a belief in sparsity using only the data itself and no external quantitative side information. Using these weights, which we call \\emph{co-sufficient weights} (CSW), in weighted versions of Holm's procedure and the Benjamini--Hochberg (BH) procedure results in substantially hi",
+      "published": "2026-10-30T17:54:13Z",
+      "authors": [
+        "Souhardya Sengupta",
+        "Lucas Janson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Where ADS Crashes Differ: A Harmonized Comparison Against Human Baselines",
+      "link": "https://arxiv.org/abs/2610.42121v1",
+      "summary": "Crash-rate comparisons between automated driving systems (ADS) and human drivers require an exposure denominator that only a few operators publish. We instead ask a composition question: given a crash, does the mix of crash types differ between ADS and human-driven vehicles? The question needs no mileage and can therefore cover every ADS operator. We assemble the NHTSA Standing General Order (SGO) ADS incident files across both file generations into 2,450 distinct in-scope incidents (2021-2026),",
+      "published": "2026-10-30T17:53:28Z",
+      "authors": [
+        "Doyeon Jang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
+      "link": "https://arxiv.org/abs/2610.42118v1",
+      "summary": "Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient flow from small initialization. We show that the dynamics are organized by two directions: the \"easy\" bisector direction, which carries the leading signal, and th",
+      "published": "2026-10-30T17:51:35Z",
+      "authors": [
+        "Binghua Li",
+        "Mengzhe Li",
+        "Denny Wu",
+        "Tianhao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+      "link": "https://arxiv.org/abs/2610.42116v1",
+      "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between",
+      "published": "2026-10-30T17:50:49Z",
+      "authors": [
+        "Yuzhe Liu",
+        "Haolin Tian",
+        "Tonghan Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Topologically Protected Edge States in a Single Flux Qubit",
+      "link": "https://arxiv.org/abs/2610.42114v1",
+      "summary": "We show that topological edge states can be realized in a simple superconducting circuit composed of an inductively shunted flux qubit. The Josephson potential of that qubit forms a honeycomb lattice similar to the case of graphene. The additional shunting element produces a quartic potential along one flux direction, which effectively creates a boundary in flux space. We map analytically the low-energy dynamics of the circuit to an extended Su--Schrieffer--Heeger (SSH) chain, in which a quartic",
+      "published": "2026-10-30T17:49:37Z",
+      "authors": [
+        "Pablo Perez-Fernandez",
+        "Manuel Pino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+      "link": "https://arxiv.org/abs/2610.42112v1",
+      "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods whose indexers themselves scale quadratically). In this paper, we derive an asymptotically subquadrati",
+      "published": "2026-10-30T17:48:37Z",
+      "authors": [
+        "Leon Lufkin",
+        "Cutter Dawes",
+        "Alexander Speicher",
+        "Kamesh Krishnamurthy",
+        "Tomás Figliolia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "SATFRONT: Detecting Atmospheric Fronts with Satellite Data using Machine Learning",
+      "link": "https://arxiv.org/abs/2610.42111v1",
+      "summary": "Atmospheric fronts are associated with much of the high-impact weather in the mid-latitudes, yet their identification and classification remain largely manual and subjective. Existing deep learning approaches rely primarily on gridded reanalysis or forecast data, limiting their applicability to satellite observations available for time-critical applications. We introduce SATFRONT, a machine learning framework for detecting cold, warm, and occluded fronts over Europe from geostationary satellite ",
+      "published": "2026-10-30T17:48:20Z",
+      "authors": [
+        "Ioannis Dravilas",
+        "Miruna Stoicescu",
+        "Roope Tervo",
+        "Carlos Horn",
+        "Oriol Hinojo Comellas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum 3xplorer: AI-Native Engine for Next-Generation Quantum Materials Modeling",
+      "link": "https://arxiv.org/abs/2610.42108v1",
+      "summary": "Quantum-mechanical approaches, such as density functional theory (DFT), underpin much of modern computational materials science and are the primary source of data for AI-driven discovery. Yet the established electronic-structure codes today represent decades-old software architectures, making new physical models slow and costly to implement, validate, and deploy on emerging hardware. We present Quantum 3xplorer (Q3, pronounced \"Quantum Explorer\"), an AI-native quantum simulation engine written f",
+      "published": "2026-10-30T17:47:56Z",
+      "authors": [
+        "Vsevolod Biryukov",
+        "Sergey V. Barabash",
+        "Pranab Kumar Das",
+        "Jack Deslippe",
+        "Mauro Del Ben"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Band Random Graphs: Connectivity, Geometry, and Transport",
+      "link": "https://arxiv.org/abs/2610.42107v1",
+      "summary": "Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$. We study connectivity, component geometry, and random walks throughout the regime $\\log n\\ll m<n/2$.   We prove that $p\\sim(\\log n)/(2m)$ is a sharp threshold for connectivity. If $n(1-p)^{2m}\\toλ\\in(0,\\infty)$, then the number of isolated vertices converges to $\\mathrm{Poisson}(λ)$, and with high probability every other vertex lies in a single component $C_1$. In ",
+      "published": "2026-10-30T17:47:28Z",
+      "authors": [
+        "Shantanav Chakraborty",
+        "Kyle Luh",
+        "Rudransh Pratap Singh"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Hyperbolic Inverse Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2610.42104v1",
+      "summary": "Inverse reinforcement learning (IRL) seeks to infer the reward function underlying observed behavior, but its predictive accuracy and interpretability depend on how that reward is computed from the underlying features. While prior IRL reward functions have been implemented through a variety of techniques including linear weights, neural networks, or other function approximators, none make assumptions about the geometry of the underlying feature space. Inspired by geometric organization observed ",
+      "published": "2026-10-30T17:46:04Z",
+      "authors": [
+        "Iulia Rusu",
+        "Anoop Praturu",
+        "Sergei Gepshtein",
+        "Tatyana Sharpee"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Charge Pumping Leptogenesis from the Symmetric Mass Generation Phase on a Four-Leg Ladder Lattice",
+      "link": "https://arxiv.org/abs/2610.42103v1",
+      "summary": "Quantized charge pumping in quantum Hall systems is a bulk topological property, typically manifesting on gapless boundaries as spectral flow through chiral edge modes upon flux insertion. When the boundary is anomaly-free, it can be symmetrically gapped by symmetric mass generation (SMG) interactions. However, the effects on quantized charge pumping at an interacting gapped boundary are unclear. We address this using density-matrix renormalization group simulations of a four-leg ladder quasi-(2",
+      "published": "2026-10-30T17:44:53Z",
+      "authors": [
+        "Runze Chi",
+        "Meng Zeng",
+        "Tao Xiang",
+        "Yi-Zhuang You",
+        "Bertrand I. Halperin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Pareto Secretary Problem",
+      "link": "https://arxiv.org/abs/2610.42101v1",
+      "summary": "The Pareto secretary problem asks for online selection of a Pareto-maximal observation from an i.i.d. sample: no other observation is at least as good in every coordinate and strictly better in one. For every fixed dimension $d\\ge2$ and independent continuous coordinates, the optimal failure probability is of order $1/[(\\log n)^{d-1}\\log\\log n]$, both with full information and with coordinate ranks alone. A deterministic rank rule attains the optimal leading term uniformly over the marginals. Fo",
+      "published": "2026-10-30T17:44:21Z",
+      "authors": [
+        "Andrés Cristi",
+        "Yilin Kong",
+        "Jiechen Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+      "link": "https://arxiv.org/abs/2610.42096v1",
+      "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (the action-relevant latent variables), as the model could just as well learn to imitate in this way wh",
+      "published": "2026-10-30T17:40:00Z",
+      "authors": [
+        "Juntao Cheng",
+        "Jinzhou Tang",
+        "Fan Feng",
+        "Henrik I. Christensen",
+        "Yujia Zheng"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A General Theoretical Framework for Transformed Geometric Pattern Matching in Music",
+      "link": "https://arxiv.org/abs/2610.42095v1",
+      "summary": "In this paper, we present a framework of concepts, terminology and notation for geometric pattern matching, centred around the idea of a {\\em transformation class}. After formally defining the concept of a transformation class, we provide detailed definitions of a number of specific transformation classes that are particularly relevant to pattern matching and pattern discovery in music, which is the primary application domain within which the framework has been developed. We then provide formal ",
+      "published": "2026-10-30T17:39:51Z",
+      "authors": [
+        "David Meredith"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Counterexample to the Alon-Krivelevich Conjecture and a New Lower Bound for Choosability of Bipartite Graphs",
+      "link": "https://arxiv.org/abs/2610.42094v1",
+      "summary": "For an integer $k\\ge 2$ and $r^2>2(2k-1)\\ln (2k-1)$, we construct a bipartite graph $G$ whose two vertex classes are disjoint copies of the family of all $k$-subsets of a $(2k-1)$-element set, two vertices being adjacent when their sets intersect in at most $r$ elements. Assigning each vertex its corresponding subset as its color list, $G$ is not colorable, and thus its choice number $\\ch(G)\\ge k+1$. This implies that there are graphs with maximum degree $Δ$ and $$\\ch(G)\\ge\\Bigl(\\frac1{32}-o(1)\\",
+      "published": "2026-10-30T17:39:18Z",
+      "authors": [
+        "Junran Yu",
+        "Gexin Yu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rethinking Asymmetry in Self-Supervised 3D Geometry Learning",
+      "link": "https://arxiv.org/abs/2610.42092v1",
+      "summary": "Self-supervised learning relies on asymmetry between what a model observes and what it must explain. Recent methods learn 3D geometry from unposed images by predicting cameras and scene structure, then rendering held-out views. To avoid trivial solutions, they impose this asymmetry in the input space, restricting how views interact through separate branches or masked attention. We revisit this design with geometric accuracy, rather than rendering quality, as the main objective. When a held-out v",
+      "published": "2026-10-30T17:38:39Z",
+      "authors": [
+        "Gyeongjin Kang",
+        "Freeman Cheng",
+        "Botao Ye",
+        "Weijie Lyu",
+        "Ming-Hsuan Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Onset of Radiatively Driven Convection in Ice-Covered Freshwater Lakes",
+      "link": "https://arxiv.org/abs/2610.42089v1",
+      "summary": "This work investigates the formation and growth of Rayleigh-Taylor instabilities (RTIs) during the onset of radiatively driven convection (RDC) in seasonally ice-covered freshwater lakes. Two-dimensional direct numerical simulations (DNS) and linear analysis allow for the investigation of how environmental factors, including thermal stratification, water clarity, and solar forcing influence RTI formation. It is found that for strongly stratified lakes, there is a period of dormancy before the wa",
+      "published": "2026-10-30T17:38:01Z",
+      "authors": [
+        "Benjamin J. Smith",
+        "Bingfei Yan",
+        "Till J. W. Wagner",
+        "Nimish Pujara",
+        "Jennifer A. Franck"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models",
+      "link": "https://arxiv.org/abs/2610.42084v1",
+      "summary": "Continuous diffusion language models show promising potential in text generation tasks, but are prone to problems such as text repetition, semantic drift, and generation quality degradation when the generation length exceeds the training length. To address these challenges, we propose RangeSWA, a training-free length extrapolation method. The method combines local sliding-window attention, remote block summaries, and dynamic content retrieval to preserve local details and support long-range cont",
+      "published": "2026-10-30T17:35:48Z",
+      "authors": [
+        "Guangfu Guo",
+        "Xiaoqian Lu",
+        "Linsey Pang",
+        "Weiran Yao",
+        "Haolin Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Long-time stochasticity for periodic iterations of random surface maps",
+      "link": "https://arxiv.org/abs/2610.42083v1",
+      "summary": "Let $M$ be a closed Riemannian surface, and let $f_1,\\ldots,f_s$ be area-preserving $C^2$ diffeomorphisms with fixed positive probabilities such that the resulting random dynamical system is uniformly expanding on average. For each $n$, choose $ω_1,\\ldots,ω_n$ independently according to these probabilities and set $F=f_{ω_n}\\circ\\cdots\\circ f_{ω_1}$. We prove that there exists $α>0$ such that, with probability at least $1-e^{-αn}$, the correlations of any two Hölder observables $φ,ψ$ under $F^m$",
+      "published": "2026-10-30T17:35:40Z",
+      "authors": [
+        "Dmitry Dolgopyat",
+        "Bassam Fayad",
+        "Alexey Okunev"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning",
+      "link": "https://arxiv.org/abs/2610.42082v1",
+      "summary": "A panoramic video captures all directions around the camera, but relevant evidence can appear in different directions and at different times. Understanding it requires models to connect observations across the viewing sphere and time. We introduce PanoVideoBench, the first manually annotated benchmark for comprehensive panoramic video understanding. Its 1,000 questions span five categories and 15 question types, with diagnostic annotations for target search and panoramic capabilities. Evaluation",
+      "published": "2026-10-30T17:35:02Z",
+      "authors": [
+        "Lidong Lu",
+        "Lidong Zou",
+        "Xinyi Mao",
+        "Jiaxin Lv",
+        "Zhenquan Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Differentially Private Synthetic Data from Sliced Chebyshev Moments",
+      "link": "https://arxiv.org/abs/2610.42081v1",
+      "summary": "Research on practical differentially private (DP) synthetic data has largely focused on methods that approximately preserve low-dimensional marginals of a target distribution, and can thus only hope to preserve higher-dimensional, global structure as a lucky by-product. At the same time, existing methods that target global accuracy guarantees pay a price exponential in the data dimension, $d$.   In this work, we address this ``curse of dimensionality'' by presenting a new DP synthetic data algor",
+      "published": "2026-10-30T17:34:58Z",
+      "authors": [
+        "Lucas Rosenblatt",
+        "R. Teal Witter",
+        "Christopher Musco"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks",
+      "link": "https://arxiv.org/abs/2610.42068v1",
+      "summary": "Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences. We propose RAMA, a retrieval-augmented multi-agent DRL framework with Approximate Information State (AIS), in which each satellite combines its loca",
+      "published": "2026-10-30T17:26:50Z",
+      "authors": [
+        "Xin Ming Li",
+        "Peng Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Knowledge Layer Model (KLM): Evidence-Visible AI Output, Routing Diagnostics, and Negative Results",
+      "link": "https://arxiv.org/abs/2610.42066v1",
+      "summary": "AI answers require more than apparent correctness: reviewers need to inspect their recorded basis. We introduce the Knowledge Layer Model (KLM), an open, implementation-neutral specification for inference records with versioned epistemic assessments, evidence relations, and explicit unknowns. SEDIM, the knowledge and evidence architecture of Nage AI OS, is a reference implementation. We reference KLM v0.3 (repository tag v0.3.0). Empirical material consists of separate internal experiments, not ",
+      "published": "2026-10-30T17:26:18Z",
+      "authors": [
+        "Omer Asim Ozturk",
+        "Cihan Aydiner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Current-driven transient dynamics of magnetic-octupole domain walls in noncollinear antiferromagnets",
+      "link": "https://arxiv.org/abs/2610.42065v1",
+      "summary": "Current-driven magnetic-octupole domain walls in noncollinear antiferromagnets are promising for fast spintronic devices, yet their transient dynamics are not yet fully understood. Here, we investigate spin-orbit-torque-driven domain-wall motion in Mn$_\\text{3}$Sn using a multipole micromagnetic framework. The three symmetry-related 60° walls exhibit equivalent current-driven dynamics, unlike their field-driven motion. For a representative 60° wall, the post-pulse motion is governed by relaxatio",
+      "published": "2026-10-30T17:26:03Z",
+      "authors": [
+        "Myoung-Woo Yoo",
+        "Axel Hoffmann"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Soft X-Ray Detection Down to the Nitrogen K-Edge Using a Pixelated iLGAD Sensor",
+      "link": "https://arxiv.org/abs/2610.42064v1",
+      "summary": "Hybrid pixel detectors represent the state-of-the-art technology for hard X-ray experiments at synchrotron light sources and free-electron lasers, owing to their high frame rates, extended dynamic range, and scalable detection areas. However, their application in the soft X-ray regime remains bottlenecked by the challenge of developing a sensor that can achieve high quantum efficiency and an sufficient signal-to-noise ratio at low photon energies. Here, we present inverse low-gain avalanche diod",
+      "published": "2026-10-30T17:25:31Z",
+      "authors": [
+        "Shuqi Li",
+        "Anna Bergamaschi",
+        "Ashish Bisht",
+        "Maurizio Boscardin",
+        "Martin Brückner"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Two-loop integrals for $t\\bar{t}γ$ production at hadron colliders in the leading-colour approximation",
+      "link": "https://arxiv.org/abs/2610.42062v1",
+      "summary": "We complete the calculation of the two-loop Feynman integrals required for the next-to-next-to-leading order QCD corrections to on-shell top--antitop production in association with a photon at hadron colliders, in the leading-colour approximation. The same integrals also enter the subleading-colour corrections to top--antitop production in association with a jet. We construct integral bases that satisfy algebraic differential equations. These are largely in canonical form; the exceptions are a f",
+      "published": "2026-10-30T17:24:09Z",
+      "authors": [
+        "Souvik Bera",
+        "Colomba Brancaccio",
+        "Dhimiter Canko",
+        "Federico Ripani",
+        "Simone Zoia"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "PersonaChatBench: Evaluating Chat Assistants with Diverse Simulated Users",
+      "link": "https://arxiv.org/abs/2610.42060v1",
+      "summary": "Conversational assistants are expected to help people with diverse backgrounds, preferences, and communication styles. Yet evaluations centered on a single cooperative user provide limited insight into how reliably an assistant serves users with different personas. We introduce PersonaChatBench, a framework for evaluating task competence and responsiveness to diverse user needs. PersonaChatBench pairs the same underlying task with multiple simulated users, each guided by a private persona card t",
+      "published": "2026-10-30T17:23:14Z",
+      "authors": [
+        "Zheyuan Deng",
+        "Taoran Li",
+        "Jingwen Zhang",
+        "Yuante Li",
+        "Dachuan Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Rapid mixing of Potts Glauber dynamics throughout uniqueness",
+      "link": "https://arxiv.org/abs/2610.42059v1",
+      "summary": "Sampling from the ferromagnetic $q$-state Potts model is a fundamental problem in statistical physics and approximate counting. Although computationally hard in the worst case, sampling is expected to be efficient throughout the high-temperature uniqueness regime of the model using the natural single-site Glauber dynamics. We establish fast mixing bounds for every $q$, in the full high-temperature regimes in the two central graph families on $n$ vertices.   (1) For every $Δ\\ge 3$, the Potts Glau",
+      "published": "2026-10-30T17:20:57Z",
+      "authors": [
+        "Antonio Blanca",
+        "Reza Gheissari",
+        "Heehyun Park",
+        "Xusheng Zhang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tests of equivalence principle violation in doubly coupled dark energy",
+      "link": "https://arxiv.org/abs/2610.42056v1",
+      "summary": "Recent work has shown that a simple form of coupled dark energy with a constant coupling produces a good fit to the DESI data. In this scenario, dark matter, but not baryons, couples to a scalar field, thereby violating the weak equivalence principle (EP). We first generalize the coupled dark energy model by adding a nonminimal coupling between the scalar field and gravity, and dub the resulting model \"doubly coupled dark energy\". We then construct a parameter $E_P$ in this model that quantifies",
+      "published": "2026-10-30T17:18:53Z",
+      "authors": [
+        "Yannick Kegel",
+        "Ziyang Zheng",
+        "Luca Amendola"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness",
+      "link": "https://arxiv.org/abs/2610.42054v1",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become the standard method for training language models to reason. However, RLVR typically relies solely on outcome correctness, which does not guarantee that the CoT causally contributes to the final answer. Without this connection, outcome rewards may fail to reinforce high-quality reasoning. Existing causality metrics assess CoT causality by perturbing the CoT, such as deleting reasoning steps or injecting errors, and measuring changes",
+      "published": "2026-10-30T17:18:35Z",
+      "authors": [
+        "Xiao Yu",
+        "Justin Chih-Yao Chen",
+        "Zaid Khan",
+        "Hyunji Lee",
+        "Mohit Bansal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+      "link": "https://arxiv.org/abs/2610.42053v1",
+      "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchron",
+      "published": "2026-10-30T17:18:13Z",
+      "authors": [
+        "Pengfei Zhou",
+        "Yixing Ma",
+        "Zhengfeiyang Zhang",
+        "Haoyuan Chen",
+        "Zhenglin Wan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Charged Compact Star Solution for a Conducting Sphere",
+      "link": "https://arxiv.org/abs/2610.42051v1",
+      "summary": "This paper considers the simplest charged stellar model, namely, a uniform density star with electric charge distributed on its surface. In this model, we treat the uniform density star as a conducting sphere, where all electric charges are uniformly distributed on the surface and represented by a delta function. We obtain an analytical solution for the background metric of the star spacetime and find that the pressure of the perfect fluid inside the star is directed inward (negative pressure) n",
+      "published": "2026-10-30T17:17:57Z",
+      "authors": [
+        "Kai Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
