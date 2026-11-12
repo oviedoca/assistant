@@ -1,0 +1,603 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "link": "https://arxiv.org/abs/2611.14519v1",
+      "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what deter",
+      "published": "2026-11-10T18:59:54Z",
+      "authors": [
+        "Emre Kutlusan",
+        "Yongmin Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "link": "https://arxiv.org/abs/2611.14518v1",
+      "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by",
+      "published": "2026-11-10T18:59:17Z",
+      "authors": [
+        "Sheethal Bhat",
+        "Bogdan Georgescu",
+        "Awais Mansoor",
+        "Florin C. Ghesu",
+        "Sasa Grbic"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TorchCurves: Differentiable Parametric Curves",
+      "link": "https://arxiv.org/abs/2611.14516v1",
+      "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly with the surrounding model or produced by another network. The library provides trainable modules, reusable basis modules, and a functional interface, supportin",
+      "published": "2026-11-10T18:58:52Z",
+      "authors": [
+        "Alex Shtoff"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "link": "https://arxiv.org/abs/2611.14515v1",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans and tailored to specific domains. We introduce AutoScaffold, a unified AI-for-AI framework that turn",
+      "published": "2026-11-10T18:58:46Z",
+      "authors": [
+        "Zijian Zhang",
+        "Rizhen Hu",
+        "Jiangweizhi Peng",
+        "Shiyang Li",
+        "Sujay Bhatt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+      "link": "https://arxiv.org/abs/2611.14514v1",
+      "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which replaces the single hypothesis with a contrast set, a scientific question paired with mutually exclusiv",
+      "published": "2026-11-10T18:58:43Z",
+      "authors": [
+        "Ziang Liu",
+        "James J. Kim",
+        "Yijia Dai",
+        "Jennifer J. Sun"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Solving the SU(2) BFSS model",
+      "link": "https://arxiv.org/abs/2611.14512v1",
+      "summary": "We numerically solve the ground state wavefunction of SU(2) BFSS matrix quantum mechanics. We compare ground correlators against islands obtained using the matrix bootstrap and find agreement up to five significant figures. The power law tail of this wavefunction determines the three-point amplitude, which agrees with the computation of Herderschee and Maldacena. Beyond the ground state, we extract the non-perturbative four-point scattering amplitude using Lüscher's method. In the appropriate re",
+      "published": "2026-11-10T18:57:34Z",
+      "authors": [
+        "Kabir Bajaj",
+        "Henry W. Lin"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "link": "https://arxiv.org/abs/2611.14511v1",
+      "summary": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical sign",
+      "published": "2026-11-10T18:56:32Z",
+      "authors": [
+        "Megha Srivastava",
+        "Michael H. Lim",
+        "Allison M. Keys",
+        "Pranav Murugan",
+        "Nate Gruver"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+      "link": "https://arxiv.org/abs/2611.14508v1",
+      "summary": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wiring with how the models are tuned: a connectome fixes who connects to whom, not the excitability, gains or plasticity rates the model also needs, and modellers often tune these until the real-wiring model works. We separate three estimands: physiology tuned on the real wiring and transferred to null",
+      "published": "2026-11-10T18:55:48Z",
+      "authors": [
+        "Yeyuan Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Annular Counterexamples and Skew-Shape Block Identities",
+      "link": "https://arxiv.org/abs/2611.14506v1",
+      "summary": "We establish four connected results on weighted order ideals, cluster coefficients, and block-statistic enumerators. First, we give a counterexample to Theorem 14 of Kang, Lee and Lim (European Journal of Combinatorics, 2026): in the rank-two annular cluster model, a single bridging-lamination coefficient row produces $1+q^2$, contradicting the asserted unimodality. We identify the unsupported initial case in their published induction. Second, we refute their log-concavity Conjecture 1: the same",
+      "published": "2026-11-10T18:55:26Z",
+      "authors": [
+        "Adam Tilèpe"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "link": "https://arxiv.org/abs/2611.14505v1",
+      "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions, whose tasks need no domain knowledge. The",
+      "published": "2026-11-10T18:55:01Z",
+      "authors": [
+        "Daniel Lenton"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "link": "https://arxiv.org/abs/2611.14504v1",
+      "summary": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site l",
+      "published": "2026-11-10T18:53:01Z",
+      "authors": [
+        "Adi Mashiach"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spatial patterns of transportation choice in Niterói",
+      "link": "https://arxiv.org/abs/2611.14499v1",
+      "summary": "Characterizing how people move through a city requires spatially and temporally fine-grained data that are often costly and difficult to obtain. Here, we introduce a computational framework that uses macroscopic, aggregated, and static urban data to construct a microscopic, dynamic, and spatially detailed representation of urban mobility. Building on an existing activity simulator, the framework combines a synthetic population, the built environment, and transport networks to generate daily trip",
+      "published": "2026-11-10T18:51:37Z",
+      "authors": [
+        "Sandro Martinelli Reia",
+        "Taylor Anderson",
+        "Dieter Pfoser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
+      "link": "https://arxiv.org/abs/2611.14498v1",
+      "summary": "Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We address this by benchmarking a task-optimized, continuous-time recurrent neural network of the fly visual system constrained by its synaptic connectome (FlyNet) against artificial neural networks. We com",
+      "published": "2026-11-10T18:51:31Z",
+      "authors": [
+        "Alexandre Garcia-Duran",
+        "Alejandro Rodriguez-Garcia",
+        "Manuel Molano-Mazón",
+        "Alexandre Hyafil",
+        "Srikanth Ramaswamy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Excess charge in the Engel-Dreizler model of atoms and molecules",
+      "link": "https://arxiv.org/abs/2611.14497v1",
+      "summary": "We prove an explicit excess-charge bound for the exchange-free Engel--Dreizler functional of atoms and molecules. If $αλ\\le1/1233$ and $α^3Z_k^2\\le1/137$ for each nucleus, every finite-mass electronic minimizer whose total energy, including nuclear repulsion, is nonpositive satisfies $N-\\sum_kZ_k<(5913/1000)λ^{3/2}K$. For the gradient coefficient $λ=1/9$, this gives $N-\\sum_kZ_k<0.219K$. The energy hypothesis holds automatically for atoms and for local minima of the Born--Oppenheimer energy at w",
+      "published": "2026-11-10T18:51:11Z",
+      "authors": [
+        "Rafael Benguria",
+        "Heinz Siedentop"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval",
+      "link": "https://arxiv.org/abs/2611.14496v1",
+      "summary": "Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, align each image only with its co-registered twin, or rely on large transformers with 118-173M parameters (and up to 398M). We introduce RS-JEPA, a compact joint-embedding predictive framework built on",
+      "published": "2026-11-10T18:51:05Z",
+      "authors": [
+        "Tanishq Rachamalla",
+        "Srishti Kaushik",
+        "Muhammad Attique Khan",
+        "Gustau Camps-Valls",
+        "Swalpa Kumar Roy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+      "link": "https://arxiv.org/abs/2611.14493v1",
+      "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two analytics agents in a controlled research setting using frozen execution traces. Phase 1 quantifies e",
+      "published": "2026-11-10T18:50:06Z",
+      "authors": [
+        "Howard Zhang",
+        "Chuck Arvin",
+        "Logan Brown",
+        "Mihir Bhatia",
+        "Neelu Choudhary"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "link": "https://arxiv.org/abs/2611.14492v1",
+      "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often",
+      "published": "2026-11-10T18:49:47Z",
+      "authors": [
+        "Kaiyuan Hou",
+        "Yang Ping Kuo",
+        "Indranil Bhattacharya",
+        "Rohith Nama",
+        "Arushi Gupta"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Series Analytics",
+      "link": "https://arxiv.org/abs/2611.14491v1",
+      "summary": "Time series analytics has been widely applied across various domains. While existing time series foundation models (TSFMs) have demonstrated promising results, they still face two major challenges: 1) Most TSFMs mainly rely on stacking Transformer layers to increase parameter size, lacking the ability to adaptively model complex time series patterns from multi-domain data. 2) Current TSFMs are primarily pre-trained for specific tasks, e.g., forecasting or anomaly detection, and a few models supp",
+      "published": "2026-11-10T18:49:26Z",
+      "authors": [
+        "Peng Chen",
+        "Yihang Wang",
+        "Zhongwen Rao",
+        "Yang Shu",
+        "Yuying Qiu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Automatic Continuity for projective clone homomorphisms",
+      "link": "https://arxiv.org/abs/2611.14490v1",
+      "summary": "We show that every projective clone homomorphism from a closed function clone containing the automorphism group of a countable homogeneous Ramsey structure $Δ$ in a finite relational language is uniformly continuous. This answers, for such structures, open questions previously raised by Barto, Bodirsky, Marimon, Pongrácz, and the second author in several papers (Bodirsky, Pinsker, Pongrácz, J. Symb. Log. 2021; Barto, Pinsker, SIAM J. Comput. 2020; Marimon, Pinsker, arXiv:2512.01086). Consequentl",
+      "published": "2026-11-10T18:48:42Z",
+      "authors": [
+        "Leopold Karl",
+        "Michael Pinsker"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "link": "https://arxiv.org/abs/2611.14488v1",
+      "summary": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a relea",
+      "published": "2026-11-10T18:47:57Z",
+      "authors": [
+        "Chubin Zhang",
+        "Bo An"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+      "link": "https://arxiv.org/abs/2611.14487v1",
+      "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published paper, a model must rediscover the paper's core idea by asking yes-or-no questions. Built from 200 ICML",
+      "published": "2026-11-10T18:47:22Z",
+      "authors": [
+        "Muhan Gao",
+        "Hangxiao Zhu",
+        "Xinqi Su",
+        "Yu Zhang",
+        "Daniel Khashabi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A fourth-order dimensionally split exponential time differencing scheme with real and distinct pole rational approximation for non-linear reaction-diffusion systems",
+      "link": "https://arxiv.org/abs/2611.14485v1",
+      "summary": "This paper presents a novel fourth-order, L-stable exponential time differencing (ETD) Runge-Kutta type scheme incorporating a dimensional splitting integrating factor method for the numerical solution of nonlinear reaction-diffusion systems. The method, ETDRK4RDP-IF, is obtained by approximating the matrix exponential operators in the classical dimensionally split ETDRK-IF scheme with an accurate fourth-order, L-acceptable rational function with real and distinct poles. The L-acceptability of t",
+      "published": "2026-11-10T18:45:45Z",
+      "authors": [
+        "Wisdom Attipoe",
+        "Emmanuel Asante-Asamani"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mechanistic Interpretability Needs a Logic of Inference",
+      "link": "https://arxiv.org/abs/2611.14483v1",
+      "summary": "Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population structures, and dynamical patterns associated with model behavior. As these tools improve, attention is shifting from what can be observed inside a model to how those observations support mechanistic ex",
+      "published": "2026-11-10T18:45:07Z",
+      "authors": [
+        "Zhimin Hu",
+        "Chen Jiang",
+        "Hanbo Xie",
+        "N. Apurva Ratan Murty",
+        "Sashank Varma"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Singustars: Between Black Holes and Compact Stars",
+      "link": "https://arxiv.org/abs/2611.14482v1",
+      "summary": "The Tolman--Oppenheimer--Volkoff equations admit singular solutions in which a negative point mass is surrounded by a self-gravitating fluid. For a $Γ$-law polytropic equation of state, these solutions, which we call singustars, are thick shells bounded by two zero-pressure surfaces around a naked, repulsive, negative-mass singularity, with a Schwarzschild exterior. They form a two-parameter family, labeled by the mass $M$ and the compactness $C\\equiv M/R$. Singustars join regular polytropes as ",
+      "published": "2026-11-10T18:45:02Z",
+      "authors": [
+        "Pablo Laguna"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+      "link": "https://arxiv.org/abs/2611.14480v1",
+      "summary": "In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data curation. It is based on an LLM-as-a-judge approach, with prompt engineering and model selection gui",
+      "published": "2026-11-10T18:41:37Z",
+      "authors": [
+        "Evelyn Y. Garland",
+        "Carola F. Berger"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Learning a model of non-stationary nuisances with non-local correlations for object detection",
+      "link": "https://arxiv.org/abs/2611.14479v1",
+      "summary": "We tackle the problem of detecting faint objects in multivariate data corrupted by a strong and spatially correlated nuisance component in the low-sample regime. Standard covariance-based models often yield unstable or ill-conditioned estimators of the nuisance statistics, severely degrading detection performance. We propose a data-driven approach based on sparse precision matrix modeling, where the precision matrix is approximated through a pivoted sparse Cholesky factorization whose non-zeros ",
+      "published": "2026-11-10T18:41:30Z",
+      "authors": [
+        "Olivier Flasseur",
+        "Eric Thiébaut",
+        "Loïc Denis",
+        "Samuel Thé"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Non-local phase transition models for partial singularities",
+      "link": "https://arxiv.org/abs/2611.14478v1",
+      "summary": "We study $Γ$-convergence, under appropriate scalings, of the energy functionals \\[ F_\\varepsilon(u) := [u]_{H^s(Q)}^2 + \\int_{Q} W_\\varepsilon(u)\\,dx, \\] where $s \\in (0,1)$, $[\\cdot]_{H^s(Q)}$ denotes the $H^s$-seminorm in $Q\\subset \\mathbb{R}^{n}$, and $W_\\varepsilon$ is a multi-well potential featuring infinitely many equally spaced wells together with additional intermediate wells whose height vanishes at a prescribed rate. Depending on this rate, different limiting behaviors emerge, ranging",
+      "published": "2026-11-10T18:39:56Z",
+      "authors": [
+        "Adriana Garroni",
+        "Maria Antonietta Palladino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FERN: Cross-Benchmark Table Retrieval for Text-to-SQL with Frozen Retrievers and Learned Ranking",
+      "link": "https://arxiv.org/abs/2611.14477v1",
+      "summary": "Text-to-SQL systems over large pooled catalogs must first retrieve the tables a question needs. We compare against the published table recall of RASL, which uses Claude 3.5 models to extract keywords and select tables, on pooled BIRD, Spider, and Fiben catalogs. FERN (Feature-Engineered Ranking with No generative LLM) instead fuses three frozen retrievers into 100 candidates, describes each with up to 120 features, and reorders them with LightGBM rankers fitted once on BIRD's training questions.",
+      "published": "2026-11-10T18:39:49Z",
+      "authors": [
+        "Arjun Rao",
+        "Nishant Gopinath"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Explicit restricted isometries with $k=m^{2/3-o(1)}$",
+      "link": "https://arxiv.org/abs/2611.14475v1",
+      "summary": "We construct an explicit family of real $m\\times n$ restricted isometries with $m\\to\\infty$, $m/n\\to 0$, $δ_k\\to 0$, and $k=m^{2/3-o(1)}$. We combine Gershgorin's circle theorem with a flat RIP estimate to reduce the problem to choosing a large vertex set in a strongly regular graph with the property that every small subset spans few edges. We select this vertex set using an incidence geometric result due to Zahl. The proof only uses the entrywise absolute value of the Gram matrix despite the co",
+      "published": "2026-11-10T18:37:57Z",
+      "authors": [
+        "Christian Kümmerle",
+        "Dustin G. Mixon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Running out of Field Range: Nonlinear Sourcing of Light Scalars",
+      "link": "https://arxiv.org/abs/2611.14473v1",
+      "summary": "Light scalar fields coupled linearly to the Standard Model are constrained by equivalence-principle tests, fifth-force searches, clock comparison tests, and stellar cooling. These bounds assume that the coupling to ordinary matter can be expanded to linear order for all field values reached. For a pseudo-Nambu-Goldstone boson with decay constant $f$ this fails as soon as the field value reaches $O(f)$. The field around a source then stops growing with the coupling, and in addition the linear cou",
+      "published": "2026-11-10T18:37:25Z",
+      "authors": [
+        "Abhishek Banerjee",
+        "Shourya Mukherjee",
+        "Stefan Stelzl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "C$^2$-Routing: Complementary Cropping and Compression for Efficient Vision-Language Inference",
+      "link": "https://arxiv.org/abs/2611.14469v1",
+      "summary": "Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. Simply enforcing a visual-token cap reduces computation, but it can discard information needed to answer the question. A single reduction strategy also struggles to accommodate different scenarios. Our key observation is that cropping and compression are comp",
+      "published": "2026-11-10T18:32:28Z",
+      "authors": [
+        "Guorui Lu",
+        "Qinyu Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bayesian inverse problems and epidemic-threshold uncertainty for a heterogeneous SIS reaction-diffusion model",
+      "link": "https://arxiv.org/abs/2611.14468v1",
+      "summary": "We study Bayesian inference of persistence from early observations of a heterogeneous susceptible--infected--susceptible (SIS) reaction--diffusion model with standard incidence. We show that the leading prevalence dynamics depend on the unknown coefficients only through the difference between the transmission and recovery rates and the infected diffusivity. The same pair determines the principal eigenvalue whose sign governs persistence, so early prevalence can inform the threshold even when the",
+      "published": "2026-11-10T18:32:19Z",
+      "authors": [
+        "Duc-Lam Duong"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets",
+      "link": "https://arxiv.org/abs/2611.14467v1",
+      "summary": "Policy optimization is central to language model post-training, yet principled guidance remains limited. We revisit its theoretical foundations to identify algorithms that learn near-optimal policies using total samples and gradient steps governed by the base model's response coverage, a measure of how readily it generates optimal responses. We call such algorithms coverage-preserving. This guarantee captures the goal of amplifying capabilities accessible through sampling from the base model.   ",
+      "published": "2026-11-10T18:31:36Z",
+      "authors": [
+        "Audrey Huang",
+        "Nan Jiang",
+        "Sham M. Kakade",
+        "Sadhika Malladi",
+        "Akshay Krishnamurthy"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Curve, Different Weights: AUC, the Brier Score, Decision-Weighted AUC, and the Policy Youden Index",
+      "link": "https://arxiv.org/abs/2611.14465v1",
+      "summary": "AUC and the Brier score are standard summaries of a binary risk score, yet they can rank models differently. We introduce a weighted AUC, AUC$_π$, which weights each pair of observations by how differently a decision maker with probability of acting $π$ treats them. We show that all three are built on weighted averages of one curve, the Youden index $J(t) = \\mathrm{TPR}(t) - \\mathrm{FPR}(t)$ across cutoffs $t$, and that the averages differ in the weights they put on the cutoffs. Each weights a c",
+      "published": "2026-11-10T18:29:50Z",
+      "authors": [
+        "Yegor Baranovski"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Progression-free sets in class $2$ and arbitrary finite groups",
+      "link": "https://arxiv.org/abs/2611.14464v1",
+      "summary": "We study progression-free sets in arbitrary finite groups. We transfer sharp upper bounds from abelian groups to nilpotent groups of class $2$, and from nilpotent groups to arbitrary groups. Combining a recent result of Raghavan with the author's theorem on large subgroups of class $2$ gives \\[   r_3(G) \\, \\leq \\, C \\, |G|\\exp\\left(   -c\\frac{(\\log|G|)^{1/6}}{(\\log\\log|G|)^{1/3}}\\right) \\] for every finite group as $|G|\\to\\infty$. This improves the estimates obtained by using the abelian subgrou",
+      "published": "2026-11-10T18:29:43Z",
+      "authors": [
+        "Luca Sabatini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Theory of Cross-Validation Variance",
+      "link": "https://arxiv.org/abs/2611.14463v1",
+      "summary": "Cross-validation estimates predictive performance by repeatedly splitting the data into training and validation sets, fitting the model on the first and evaluating it on the second. Every observation influences the estimate in two roles, through its own evaluation when it is held out and through the models it helps fit when it trains. The random splits determine its weight in each role. From this representation, we prove an exact finite-sample identity for the variance of the cross-validated est",
+      "published": "2026-11-10T18:29:42Z",
+      "authors": [
+        "Nathaniel S. O'Connell",
+        "Jaime L. Speiser"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Accurate predictions of properties of energetic materials with tabular foundation models",
+      "link": "https://arxiv.org/abs/2611.14462v1",
+      "summary": "We use TabPFN, a recently developed tabular foundation model, to predict three properties of energetic materials: impact sensitivity, decomposition temperature and crystal density. Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties. It also substantially outperforms a wide range of established machine-learning models, including tuned gradient boosting (XGBoost), random forests and Gaussian processes. This holds both when the models are given ",
+      "published": "2026-11-10T18:29:37Z",
+      "authors": [
+        "Vagn Krister Nes Glomsrud",
+        "Mathias Bynke",
+        "Lars Henry Berge Olsen",
+        "Dennis Christensen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Finite-Key Readiness and Authentication-Key Replenishment in QKD-Assisted UAV Edge Computing",
+      "link": "https://arxiv.org/abs/2611.14461v1",
+      "summary": "A service that needs fresh quantum keys must wait for key release, and may be denied it, before protected computation starts. We quantify this cost for a trusted stationary UAV serving two ground gateways, each obtaining its keys from one finite-key decoy-state BB84 attempt with parameters fixed in advance. A count-level Monte Carlo model, reproduced by a semi-analytic model, links key acceptance to protected upload, computation, and download, including failed attempts and hover energy. At 26~dB",
+      "published": "2026-11-10T18:29:12Z",
+      "authors": [
+        "Dang H. Le",
+        "Ban Q. Tran",
+        "Susan Mengel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Structure of correlations for the single-$j$ model using quantum information theory",
+      "link": "https://arxiv.org/abs/2611.14460v1",
+      "summary": "We say that a system undergoes a quantum phase transition when the mean-field ground state of a given Hamiltonian spontaneously breaks its symmetries depending on the Hamiltonian parameters. It is a widely accepted view that this phenomenon enables the mean-field state to absorb the maximum amount of correlations without losing its mean-field structure. However, it is still uncertain how those correlations are incorporated within the mean-field state and how the correlation structure changes whe",
+      "published": "2026-11-10T18:28:52Z",
+      "authors": [
+        "Javier Faba",
+        "Vicente Martín",
+        "Luis Robledo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "When does text encoding matter for language modeling?",
+      "link": "https://arxiv.org/abs/2611.14459v1",
+      "summary": "UTF-8's role as the de facto encoding standard in language models introduces cross-lingual inequities due to its variable-length design. However, the effect that this encoding choice has on model performance remains largely unexamined. In this work, we investigate how text encoding impacts the performance of byte-level language models, comparing UTF-8 with a wide range of other encoding strategies, including other Unicode-based approaches, language-specific encodings, and our own customized enco",
+      "published": "2026-11-10T18:27:26Z",
+      "authors": [
+        "Eugene Jang",
+        "Catherine Arnett",
+        "Terra Blevins"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum Thermal Transistor via Nonlinear Environmental Coupling",
+      "link": "https://arxiv.org/abs/2611.14458v1",
+      "summary": "Thermal amplification enables sensitive control of heat currents, providing a basis for heat management and thermal signal processing in quantum devices. For a harmonic oscillator coupled to emitter, collector, and base thermal reservoirs, we recover the absence of thermal amplification when system-reservoir interactions permit only single-quantum exchange. A controlled weak-nonlinearity expansion, supported by numerical stationary solutions, shows that two-quantum exchange at the emitter enable",
+      "published": "2026-11-10T18:26:46Z",
+      "authors": [
+        "Laiba Hayat",
+        "M. Tahir Naseem"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Measuring Kaplan--Meier Overestimation Under Competing Risks: Event Ordering, Quantification, and Exact Inference",
+      "link": "https://arxiv.org/abs/2611.14457v1",
+      "summary": "Competing risks arise when individuals may experience multiple mutually exclusive event types. Competing events are frequently treated as censoring and analysed using Kaplan--Meier (KM) methods, which overestimate real-world event risks. While the existence of KM overestimation is well known, its determinants, magnitude, and inferential properties remain poorly characterised.   We develop a nonparametric framework that treats competing risks overestimation as a statistical quantity in its own ri",
+      "published": "2026-11-10T18:26:33Z",
+      "authors": [
+        "Ferran Espuny-Pujol"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Connecting field-level and n-point function measurements of galaxy bias",
+      "link": "https://arxiv.org/abs/2611.14456v1",
+      "summary": "Precise measurements of galaxy bias parameters are essential for extracting cosmological information from galaxy surveys. Field-level analyses infer bias coefficients at a finite cutoff $Λ$, typically related to the lattice resolution, while $n$-point function analyses typically adopt renormalization conditions defined in the low-$k$ limit. In this work, we use the renormalization group (RG) to relate field-level measurements at different cutoffs and connect them to $n$-point function measuremen",
+      "published": "2026-11-10T18:23:46Z",
+      "authors": [
+        "Hsiang-Ming Huang",
+        "Henrique Rubira",
+        "Fabian Schmidt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Solomonoff Induction with Reflective Oracles",
+      "link": "https://arxiv.org/abs/2611.14454v1",
+      "summary": "We study predictive properties of a reflective variant of Solomonoff induction formulated using reflective oracles (Fallenstein et al. 2015, Wyeth et al. 2025). We show that the resulting optimal predictor succeeds against computable predictive strategies that specify only part of the data-generating process. The argument relies on the fact that hypotheses computable from the predictor's own conditional probabilities remain within the reflective hypothesis class. In particular, the predictor lea",
+      "published": "2026-11-10T18:22:27Z",
+      "authors": [
+        "Damini Kusum"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Revisiting the centrifugal breakout scaling relationship for H$α$ emission in light of $ρ$ Oph C, the coolest B-type star with an H$α$-bright centrifugal magnetosphere",
+      "link": "https://arxiv.org/abs/2611.14452v1",
+      "summary": "The corotating magnetospheres of B-type stars are strongly affected by magnetic field strength and rotational velocity, which determine both the geometry and strength of visible and radio emission; however, H$α$ emission largely disappears below a bolometric luminosity of $\\log{(L / L_\\odot)} \\sim 2.8$. The nearby B5 V star $ρ$ Oph C (HD 147932) is the least-luminous rapidly rotating magnetic B-type star to display magnetospheric H$α$ emission. While $ρ$ Oph C's radio magnetosphere has been exte",
+      "published": "2026-11-10T18:20:40Z",
+      "authors": [
+        "M. E. Shultz",
+        "E. Alecian",
+        "I. Berry",
+        "J. Krtička",
+        "J. Labadie-Bartz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Phase transitions in the hard-wall large deviations for the Gaussian free field",
+      "link": "https://arxiv.org/abs/2611.14448v1",
+      "summary": "We study the probability that the Gaussian free field on $\\mathbb{Z}^d$, $d\\ge3$, stays above a level $-h_N$ throughout the lattice $N$-blow-up of a bounded Lipschitz domain, when $h_N$ is close to the entropic-repulsion height $\\sqrt{4g_0\\log N}$. Two mechanisms compete: a collective upward displacement of the field, whose cost is governed by capacity, and the suppression of the remaining local violations, whose cost is their expected number, both of which are of order $N^{d-2}/\\log N$ exactly ",
+      "published": "2026-11-10T18:18:11Z",
+      "authors": [
+        "Xinyi Li",
+        "Jialu Shi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Angle-Resolved Reflectance Measurements in the Vacuum Ultraviolet for Metallic Samples",
+      "link": "https://arxiv.org/abs/2611.14447v1",
+      "summary": "The light yield of noble-element scintillation detectors depends strongly on the reflective properties of detector materials in the vacuum ultraviolet (VUV), where optical measurements are scarce. For this reason, we built a custom rotary setup at IFIC, equipped with a monochromator and operated in a gaseous argon atmosphere, to perform angle-resolved reflectance measurements in the specular reflection plane. We describe the setup and its extensive characterization, together with the procedure u",
+      "published": "2026-11-10T18:17:05Z",
+      "authors": [
+        "H. Amar",
+        "J. Álvarez",
+        "X. Arrue",
+        "C. Benitez",
+        "A. Cervera-Villanueva"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The active chiral random walk",
+      "link": "https://arxiv.org/abs/2611.14446v1",
+      "summary": "We introduce a minimal and intuitive lattice model for an active chiral particle which exhibits persistence, reversal, and chirality in its dynamics. It is fully defined by a small set of microscopic parameters that provide transparent control over the resulting dynamics. By coarse-graining, we extract continuum equations and closed-form expressions for the velocity autocorrelation, off-diagonal directional correlation, mean-squared displacement, and long-time diffusion and odd diffusion coeffic",
+      "published": "2026-11-10T18:16:09Z",
+      "authors": [
+        "Nir Sherf",
+        "Joshua Uhlig",
+        "Jan Wójcik",
+        "Ralf Metzler",
+        "Yael Roichman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Nonparametric Maximum Likelihood Estimation for Mixtures of Logistic Regressions",
+      "link": "https://arxiv.org/abs/2611.14445v1",
+      "summary": "Mixtures of logistic regressions provide a flexible framework for modeling binary responses, extending standard logistic regression to accommodate unobserved heterogeneity while retaining an interpretable regression structure. In this paper, we study such models with an unspecified mixing distribution. We analyze a sieve nonparametric maximum likelihood estimator (NPMLE) and derive nonasymptotic bounds on the estimation error of the resulting mixture regression function under both fixed and rand",
+      "published": "2026-11-10T18:15:33Z",
+      "authors": [
+        "Muheng Li",
+        "Peize Zhang",
+        "Xin Bing"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Assessing Alignment in Automatic Piano Transcription Datasets: A Benchmark for Scoring Methods",
+      "link": "https://arxiv.org/abs/2611.14443v1",
+      "summary": "Automatic Music Transcription (AMT) relies on paired audio--MIDI datasets, implicitly assuming near-perfect temporal alignment. However, widely used piano datasets have been shown to contain alignment errors that may bias model evaluation and training. We propose a framework for evaluating audio--MIDI alignment scoring methods through controlled temporal, pitch, and structural MIDI corruptions. We also introduce STI, a scoring method built on AMT models, and benchmark it against existing alignme",
+      "published": "2026-11-10T18:13:47Z",
+      "authors": [
+        "Lucas de Souza Brandão",
+        "Lucas Gris",
+        "Joaquim Cavalcante",
+        "Chukwuemeka Nkama",
+        "Andrea Poltronieri"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
