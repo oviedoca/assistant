@@ -1,0 +1,637 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+      "link": "https://arxiv.org/abs/2611.18563v1",
+      "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, space-based radio frequency (RF) observations provide an independent source of vessel activity but lack ship identification and therefore cannot identify vessels on their own. Foll",
+      "published": "2026-11-13T18:59:43Z",
+      "authors": [
+        "Daniel Grimm",
+        "Kyra Jongman",
+        "Renato Cordeiro Ferreira",
+        "Giuseppe Cascavilla",
+        "Alfredo Cuzzocrea"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
+      "link": "https://arxiv.org/abs/2611.18561v1",
+      "summary": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accuracy. This performance currently comes at the cost of using a compute-intensive language modeling stack, presenting a major bottleneck for real-world use. Further, current language models incur highly",
+      "published": "2026-11-13T18:59:02Z",
+      "authors": [
+        "Jonathan D. McCart",
+        "Pranav I. Deevi",
+        "Mehdi Azabou",
+        "Nanda H. Krishna",
+        "Caleb A. McKinney"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "link": "https://arxiv.org/abs/2611.18562v1",
+      "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the m",
+      "published": "2026-11-13T18:59:02Z",
+      "authors": [
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
+      "link": "https://arxiv.org/abs/2611.18559v1",
+      "summary": "Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked regions at a certain temporal scale, introducing heuristic hyperparameters that make the learned semantics sensitive to their settings. We propose BAL, a self-supervised framework that instead exploits supe",
+      "published": "2026-11-13T18:58:54Z",
+      "authors": [
+        "Genki Kinoshita",
+        "Ko Nishino"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Reconstruction of Dynamical Dark Energy and Gravity from latest cosmological data",
+      "link": "https://arxiv.org/abs/2611.18558v1",
+      "summary": "Recent cosmological observations have renewed interest in non-standard late-time evolution. We investigate whether departures from the standard expansion history are accompanied by modifications of gravitational dynamics through a joint, non-parametric reconstruction of the effective dark energy density, $Ω_{\\rm X}(a)$, and the gravitational response functions $μ(a)$ and $Σ(a)$. Combining CMB, DESI DR2 BAO, Pantheon+, and large scale structure observations, including DES Year 3 $6\\times2$pt data",
+      "published": "2026-11-13T18:58:51Z",
+      "authors": [
+        "Maria Luisa Gallavotti",
+        "Alessandra Silvestri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Does Dark Energy Evolve $\\textit{and}$ Cluster?",
+      "link": "https://arxiv.org/abs/2611.18557v1",
+      "summary": "Recent cosmological observations have renewed interest in dynamical dark energy, and naturally raise the question of whether departures from the standard expansion history are accompanied by modifications of gravitational dynamics. We address this question through a joint, non-parametric reconstruction of the effective dark-energy contribution to the expansion and the gravitational responses governing clustering and lensing, complemented by a combined covariance-mode analysis, without imposing m",
+      "published": "2026-11-13T18:58:50Z",
+      "authors": [
+        "Maria Luisa Gallavotti",
+        "Alessandra Silvestri"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From pure spinor modules to superspace superfields",
+      "link": "https://arxiv.org/abs/2611.18556v1",
+      "summary": "We relate the pure spinor formalism to the superspace description of constrained superfields and gauge multiplets, mainly for abelian two-dimensional N=(2,2) supersymmetry, with three- and four-dimensional N=1 examples for comparison. For each multiplet we give an explicit module over the supertranslation Chevalley-Eilenberg algebra and match its reconstruction with the known superfields. First-order constraints come from modules supported on linear subspaces of the nilpotence variety, and highe",
+      "published": "2026-11-13T18:58:43Z",
+      "authors": [
+        "Ondrej Hulik",
+        "Raphael Senghaas"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+      "link": "https://arxiv.org/abs/2611.18553v1",
+      "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (WSP). Exploring this new paradigm systematically requires a robust benchmark. We introduce WEIGHTBENCH, a benchmark that evaluates LLMs of increasing capability on 42 WSP tasks acr",
+      "published": "2026-11-13T18:58:08Z",
+      "authors": [
+        "Aayush Marasini",
+        "Barsat Khadka",
+        "Nick Rahimi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+      "link": "https://arxiv.org/abs/2611.18550v1",
+      "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student models relative to their teachers. We find that distilled students maintain total activation variance comparable to their teachers, but concentrate it into substantially fewer directi",
+      "published": "2026-11-13T18:55:59Z",
+      "authors": [
+        "Furkan Horoz",
+        "Ozgur Kara",
+        "Kaan Oktay",
+        "Adil Kaan Akan",
+        "Atakan Kara"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+      "link": "https://arxiv.org/abs/2611.18549v1",
+      "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choice",
+      "published": "2026-11-13T18:55:25Z",
+      "authors": [
+        "Jianjun Zhou",
+        "Hua Geng",
+        "Haoyu Guo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+      "link": "https://arxiv.org/abs/2611.18546v1",
+      "summary": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. This model predicts various friction effec",
+      "published": "2026-11-13T18:51:17Z",
+      "authors": [
+        "Jia Shen",
+        "Junhyoung Ha",
+        "Yue Chen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From smoothed analysis to backward error: The power of adaptive perturbations",
+      "link": "https://arxiv.org/abs/2611.18545v1",
+      "summary": "Smoothed analysis has become a central tool in theoretical computer science, often allowing for significant improvements to worst-case running times if we settle for a solution to a small random perturbation of the problem instance. This is closely related to the classical concept of backward error in numerical analysis, which allows an algorithm to return a solution to an arbitrary perturbation of the problem.   Despite the qualitative similarity of these concepts, we show that they can exhibit",
+      "published": "2026-11-13T18:50:40Z",
+      "authors": [
+        "Michał Dereziński",
+        "Michael W. Mahoney",
+        "Raphael A. Meyer",
+        "Christopher Musco"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+      "link": "https://arxiv.org/abs/2611.18542v1",
+      "summary": "Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. In this work, we introduce a new framework for joint schedule/discretization design based on the analyticity properties of the (complexified) ODE trajectories, which in turn ensure good numerical behavior. Our formulation can be solved exactly via conformal mapping, y",
+      "published": "2026-11-13T18:49:36Z",
+      "authors": [
+        "Cole Becker",
+        "Taylan Kargin",
+        "Kimia Hassibi",
+        "Asuman Ozdaglar",
+        "Pablo A. Parrilo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Geometric Quantization of the Giant Graviton Master Moduli Space",
+      "link": "https://arxiv.org/abs/2611.18539v1",
+      "summary": "We describe a remarkable reorganization of the space of gauge invariant operators of free or twisted $U(N)$ gauge theories as combinations of single-trace and determinant operators modulo certain \"open loop equations\". The reorganization has a transparent holographic interpretation, describing how states at finite $N$ can be reproduced by imposing certain $N$-independent gauge constraints on the combination of the closed strings Fock space and a geometric quantization of the moduli space of Gian",
+      "published": "2026-11-13T18:48:14Z",
+      "authors": [
+        "Kasia Budzik",
+        "Davide Gaiotto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Surrogate Boundary Condition for Improved Accuracy and Performance of Local Modeling in Radiation Transport Simulations",
+      "link": "https://arxiv.org/abs/2611.18535v1",
+      "summary": "Monte Carlo neutronics analysis of tokamak designs is computationally expensive due to the complex CAD geometries required to accurately model them. Design iteration of port plugs using global transport in the full model is impractical because of the computational cost. To circumvent this, local modeling methods are used. In the local modeling method, a boundary condition is assumed on the port plug, such that particles that leave the port plug do not require transport in the surrounding global ",
+      "published": "2026-11-13T18:46:36Z",
+      "authors": [
+        "Jonathan Trieloff",
+        "Ethan Peterson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Impact of Grid-Forming Inverter Placement and Penetration on Local and Aggregate Frequency",
+      "link": "https://arxiv.org/abs/2611.18534v1",
+      "summary": "Modern power systems are undergoing a huge shift in generation mix, including inverter-based resources that are fundamentally changing the stability dynamics of the grid. Thus, synchronous Generators (SG) are gradually being displaced by Grid-forming inverters (GFM) that are proposed as a solution to continue supporting grid stability. However, the effect of GFM placement in the network on frequency performance and how well aggregate-frequency assessment captures placement sensitivity observed i",
+      "published": "2026-11-13T18:46:18Z",
+      "authors": [
+        "Fatma Alfailkawi",
+        "Marena Trujillo",
+        "Bri-Mathias Hodge"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+      "link": "https://arxiv.org/abs/2611.18533v1",
+      "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains. We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the mod",
+      "published": "2026-11-13T18:45:49Z",
+      "authors": [
+        "Zelin He",
+        "Siyu Zhu",
+        "Jacob Helwig",
+        "Yujian Liu",
+        "Li An"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Quantum melting and Pomeranchuk effect of zero-field Wigner solids",
+      "link": "https://arxiv.org/abs/2611.18532v1",
+      "summary": "Wigner solids and crystals are many-body phases of matter in which repulsive interactions between the charge carriers cause them to freeze into a solid. How Wigner solids compete or cooperate with integer and fractional quantum Hall liquids has been a long-standing open question. Here, we investigate this question for zero-field, electron and hole Wigner solids in cadmium arsenide quantum wells. In the low temperature limit, our results are consistent with a recent theoretical model [A. P. Reddy",
+      "published": "2026-11-13T18:43:44Z",
+      "authors": [
+        "Boliang Liu",
+        "Simon Munyan",
+        "Sina Ahadi",
+        "Erez Berg",
+        "Susanne Stemmer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+      "link": "https://arxiv.org/abs/2611.18531v1",
+      "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each action",
+      "published": "2026-11-13T18:43:24Z",
+      "authors": [
+        "Thomas Brennan",
+        "Andrew W. Lo",
+        "Chaoyi Zhao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
+      "link": "https://arxiv.org/abs/2611.18529v1",
+      "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed number of output slots, such as Streaming Sortformer and Nemotron-3, are accurate and run online, but they cannot name more speakers than they have slots. We remove this limit without retraining. The slot head keeps deciding who is active and when speech overlaps, and speaker embeddings are clustered inside a single slot, with the official e-means algorithm, only after every slot ha",
+      "published": "2026-11-13T18:43:11Z",
+      "authors": [
+        "Kyudan Jung",
+        "Jihwan Kim",
+        "Minwoo Lee",
+        "Eunji Shin",
+        "Jaegul Choo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "KELP v1.0: an agent-ready Lagrangian particle tracker for unstructured meshes and HEALPix grids",
+      "link": "https://arxiv.org/abs/2611.18528v1",
+      "summary": "Lagrangian particle tracking follows virtual particles in the velocity fields of an ocean model to study transport pathways, connectivity and dispersion. Setting up such a study takes many technical steps, and this work is increasingly done with coding agents, programs in which a language model writes code, runs it and checks the result. We present KELP v1.0, the Kinematic Engine for Lagrangian Particles, a tracker for unstructured ocean-model meshes and HEALPix grids that is built to be operate",
+      "published": "2026-11-13T18:42:22Z",
+      "authors": [
+        "Ivan Kuznetsov",
+        "Alexey Androsov",
+        "Dmitrii Pantiukhin",
+        "Claudia Wekerle",
+        "Sergey Danilov"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
+      "link": "https://arxiv.org/abs/2611.18527v1",
+      "summary": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them challenging. Existing approaches rely on template-based mappings to maintain productivity, but these templates restrict the mapping design space. In particular, they impose fixed geometric layouts ov",
+      "published": "2026-11-13T18:41:44Z",
+      "authors": [
+        "Dayou Du",
+        "Congjie He",
+        "Andrew Boutros",
+        "Luo Mai",
+        "Vaughn Betz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Pressure and Magnetic Field Control of Topology in Antiferromagnetic Bilayers",
+      "link": "https://arxiv.org/abs/2611.18525v1",
+      "summary": "Controlling band topology in magnetic semiconductors requires strategies that couple electronic structure to experimentally accessible degrees of freedom. Here we propose a cooperative approach based on pressure and magnetic reorientation in A-type antiferromagnetic bilayers. Antiparallel layer magnetizations suppress hybridization between exchange-polarized band-edge states, limiting their response to interlayer compression. A magnetic field that aligns the layer moments removes this spin misma",
+      "published": "2026-11-13T18:40:43Z",
+      "authors": [
+        "Narsimha Rao Elaprolu",
+        "Marco Gibertini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation",
+      "link": "https://arxiv.org/abs/2611.18524v1",
+      "summary": "Event-camera segmentation requires persistent neural state despite sparse input events, making memory organization a central constraint on embedded implementation. We present EventSpikeSeg, a mixed-signal architecture combining resident capacitor memory with shared analog processing in GF180MCU 180-nm CMOS. Its 25-population spiking encoder-decoder has 143,824 synaptic weights but requires 30,976,000 membrane states at 440 x 640 resolution. The mapping specifies chronological 5-ms model updates,",
+      "published": "2026-11-13T18:40:12Z",
+      "authors": [
+        "Amir Mohammad Khadem Hosseini",
+        "Sattar Mirzakuchaki"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mutable Inference: Architecting LLM Accelerators for Inference-Time Learning",
+      "link": "https://arxiv.org/abs/2611.18523v1",
+      "summary": "Long-context LLMs must retain growing histories, but full attention makes each new token increasingly expensive. Inference-time learning (ITL) offers another approach. The model keeps training on the context during inference, retaining what it learns in its weights. Recent work shows that ITL can match full-context attention quality while attending only to a recent fixed-size window. This bounds attention costs but adds Learning (backward computation and weight updates) alongside Prediction (the",
+      "published": "2026-11-13T18:37:52Z",
+      "authors": [
+        "Yimin Gao",
+        "Liangtao Dai",
+        "Melika Morsali",
+        "Junting Huo",
+        "Mircea Stan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Patient-specific Modeling of the Tricuspid Valve from 3D Transesophageal Echocardiography",
+      "link": "https://arxiv.org/abs/2611.18522v1",
+      "summary": "Purpose: Image-based patient-specific simulations of the tricuspid valve (TV) could support repair planning. However, clinical images incompletely resolve the chordal anatomy and cannot directly determine tissue properties, which hinders the development of such models. We developed and evaluated a framework that simulates the TV from clinical images and addresses these limitations using measurements on explanted human valves. Methods: We reconstructed ten functionally competent human TVs from 3D",
+      "published": "2026-11-13T18:37:48Z",
+      "authors": [
+        "Davide Tondi",
+        "Vijay K. Dubey",
+        "Collin E. Haese",
+        "Colton J. Kostelnik",
+        "Mrudang Mathur"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fibonacci Non-Abelian Quantum Hall States with Pair Structure - a classification of chiral 2-cluster many-body wave-functions",
+      "link": "https://arxiv.org/abs/2611.18521v1",
+      "summary": "Fibonacci anyons support universal topological quantum computation. They have been proposed to emerge in fractional quantum Hall (FQH) systems, such as the filling-fraction $ν=\\tfrac{2}{3}$ state described by an effective $SU(3)_2$ Chern-Simons theory, and the $ν=\\tfrac{2}{5}$ state with a $3$-cluster structure (an $n$-cluster structure means that $n$-electron bound states form a Laughlin-type wave function of the form $(z^{(n)}_i-z^{(n)}_j)^m$). In this work, we systematically classify FQH wave",
+      "published": "2026-11-13T18:37:14Z",
+      "authors": [
+        "Abigail Timmel",
+        "Xiao-Gang Wen"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Box-conditional Hypothesis Testing for Out-of-Distribution Object Detection",
+      "link": "https://arxiv.org/abs/2611.18519v1",
+      "summary": "Detecting out-of-distribution (OOD) objects is essential for ensuring the reliability and safety of object detectors in real-world deployment. We treat the decision on a detected box as a hypothesis test with the null hypothesis that the box covers an object of an in-distribution (ID) class. The null distribution changes with the size of the box and its contact with the image border, and the detector observes both. The test can therefore rank a box only against ID boxes of the same size and bord",
+      "published": "2026-11-13T18:36:23Z",
+      "authors": [
+        "Donghoon Lee",
+        "Jusung Park",
+        "Shinjin Kang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "OpenLayout: An Open and Agentic-Driven Platform for Holistic VLSI Physical Design and Benchmarking",
+      "link": "https://arxiv.org/abs/2611.18517v1",
+      "summary": "Physical design automation of very large-scale integrated circuits (VLSI) has made significant strides, progressing from single-stage placement and routing toward increasingly integrated full-flow implementation. Yet, existing approaches struggle with the vast design space optimization (DSO) arising from diverse technology nodes, circuit designs, and varied constraints. The substantial runtime of physical-design tools further exacerbates this challenge, leaving industrial workflows heavily depen",
+      "published": "2026-11-13T18:36:22Z",
+      "authors": [
+        "Qiufeng Li",
+        "Sizhe Tang",
+        "Quan Cheng",
+        "Zirui Wang",
+        "Wantong Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Parity conservation of the isotropic galaxy 4PCF in redshift space",
+      "link": "https://arxiv.org/abs/2611.18515v1",
+      "summary": "Recent observational investigation of cosmological Parity Violation (PV) through the galaxy Four-point Correlation Function (4PCF) has motivated a careful theoretical examination of potential systematic contributions. In this work, we demonstrate that parity-odd contributions to the isotropic 4PCF estimator induced by Redshift Space Distortion (RSD), up to the leading order $\\mathcal{H}/k$ of general relativistic corrections, vanish upon averaging over all the Line-of-Sight (LOS). We analyse the",
+      "published": "2026-11-13T18:32:52Z",
+      "authors": [
+        "Chanasorn Kongprachaya",
+        "Nicola Bartolo",
+        "Daniele Bertacca",
+        "Sabino Matarrese"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+      "link": "https://arxiv.org/abs/2611.18514v1",
+      "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series of mechanistic analy",
+      "published": "2026-11-13T18:30:58Z",
+      "authors": [
+        "Mohamed Aghzal",
+        "Mor Geva",
+        "Gregory J. Stein",
+        "Ziyu Yao"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+      "link": "https://arxiv.org/abs/2611.18513v1",
+      "summary": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and generation to the reader's distinct position in the text. The system integrates a hybrid retrieval architect",
+      "published": "2026-11-13T18:29:51Z",
+      "authors": [
+        "Mohammed Efaz",
+        "Udo Bub",
+        "Itilekha Podder"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Probing baryonic feedback using fast radio bursts and galaxy surveys",
+      "link": "https://arxiv.org/abs/2611.18512v1",
+      "summary": "The dispersion measure (DM) of fast radio bursts (FRB) provides a noisy measure of the free-electron column density to the burst. With next-generation FRB surveys the number of bursts will drastically increase and measurements of the baryon distribution will be possible on the Mpc scales most relevant to Stage IV weak lensing surveys. Comparing the DM auto-spectrum, DM-shear cross-spectrum and the kinetic Sunyaev-Zel'dovich effect, we argue that the cross-correlation of FRB catalogs with galaxy ",
+      "published": "2026-11-13T18:29:42Z",
+      "authors": [
+        "Haruki Ebina",
+        "Martin White"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Complex fluid flow dynamics by bright scattershot boson sampling",
+      "link": "https://arxiv.org/abs/2611.18510v1",
+      "summary": "Boson sampling machines have become a fruitful tool for establishing new concepts, which connect fundamental physics with computer science applications. Here, we exploit the intrinsically high-dimensional correlations generated by the measurement outcomes of a multiphoton boson sampling machine and demonstrate how a reconfigurable architecture can be programmed to autonomously model the time evolution of nonlinear dynamical systems that describe complex fluid flows. By extending on the original ",
+      "published": "2026-11-13T18:25:13Z",
+      "authors": [
+        "Robert Schade",
+        "Shailendra K. Rathor",
+        "Tim J. Bartley",
+        "Benjamin Brecht",
+        "Christian Plessl"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An All-Digital Coherent AFSK Demodulator for CubeSat Applications",
+      "link": "https://arxiv.org/abs/2611.18509v1",
+      "summary": "Audio frequency-shift keying (AFSK) is a widely adopted modulation scheme for CubeSat systems due to its favorable bandwidth efficiency and implementation simplicity. However, coherent detection usually is avoided because synchronization impairments, caused by intense line-of-sight (LOS) dynamics inherent in low Earth orbit (LEO), may significantly degrade the bit error rate (BER). This paper presents a new all-digital coherent AFSK demodulator based on a Kalman filter (KF) for carrier phase and",
+      "published": "2026-11-13T18:24:18Z",
+      "authors": [
+        "Rubem Vasconcelos Pacelli",
+        "Rodrigo de Lima Florindo",
+        "Felix Antreich",
+        "Antônio Macilio Pereira de Lucena"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agentic induction of common data elements and information extraction from sarcoma case report abstracts",
+      "link": "https://arxiv.org/abs/2611.18506v1",
+      "summary": "Common data elements (CDEs) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstracts; agentic consolidation yielded 1,570 CDEs. We retained 53 supported by at least 50 abstracts and attempted evidence-linked extraction across the corpus. Processing succeeded for all retained CDEs i",
+      "published": "2026-11-13T18:23:11Z",
+      "authors": [
+        "Daniel Reichenpfader",
+        "Kwaku Appiagyei",
+        "Manovah Nadarajah",
+        "Ahmed Reda Bahr",
+        "Irina Filchenko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
+      "link": "https://arxiv.org/abs/2611.18504v1",
+      "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by hand for individual cases, with some recent works incorporating machine learning for certain aspects",
+      "published": "2026-11-13T18:20:23Z",
+      "authors": [
+        "Aritra Lahiri",
+        "Florian Marquardt"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "EPIGRIDS: Documentation and Validation of Seven Open Synthetic Transmission Grid Cases",
+      "link": "https://arxiv.org/abs/2611.18502v1",
+      "summary": "This paper documents and checks EPIGRIDS, seven open synthetic transmission grid cases from four independently built networks, made with an optimization-based construction method instead of the graph-statistics method behind most large public synthetic grids. The cases range from 250 to 78,484 buses, with geolocated substations, voltages up to 765 kV, and line parameters taken from conductor data. Each ships under an open license in three common power flow formats that agree at the solved operat",
+      "published": "2026-11-13T18:17:52Z",
+      "authors": [
+        "Jonathan M. Snodgrass",
+        "Scott Greene",
+        "Thomas J. Overbye",
+        "Christopher L. DeMarco",
+        "Bernard C. Lesieutre"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
+      "link": "https://arxiv.org/abs/2611.18501v1",
+      "summary": "Harmful Algal Blooms (HABs) pose significant environmental, economic, and public-health challenges in coastal and inland water bodies, creating a need for scalable methods to collect spatially distributed water-quality data. This paper presents an autonomous surface vessel-based sensing system for in-situ water-quality monitoring related to harmful algal bloom detection. The system integrates a BlueBoat Autonomous Surface Vessel (ASV), a motorized winch for depth-controlled sonde deployment, a m",
+      "published": "2026-11-13T18:14:56Z",
+      "authors": [
+        "Nenyi Kweku Nkensen Dadson",
+        "Jean Paul Gonzalez",
+        "Daniel P. Arabie",
+        "Ryan J. Cedel",
+        "Dorin Boldor"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Verifying the High-Energy Tail in Bi-Kappa Particle Loading: Three-Dimensional Tests, Velocity Bounds, and Finite Precision",
+      "link": "https://arxiv.org/abs/2611.18499v1",
+      "summary": "The bi-Kappa distribution models anisotropic space-plasma populations with suprathermal power-law tails. Kinetic simulations represent such a population by computational particles, and a loader draws their velocities from the requested bi-Kappa distribution, which we call the target distribution. When $κ$ is close to 1/2, floating-point underflow can remove the largest draws, and a velocity bound changes the loaded distribution. Published Kappa loaders are usually verified by comparing histogram",
+      "published": "2026-11-13T18:10:51Z",
+      "authors": [
+        "Keheng Zhu",
+        "Yuri A. Omelchenko"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+      "link": "https://arxiv.org/abs/2611.18494v1",
+      "summary": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reas",
+      "published": "2026-11-13T18:05:33Z",
+      "authors": [
+        "Dhruv Dixit",
+        "Khushi Patel",
+        "Congcong Xu",
+        "Min Song"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+      "link": "https://arxiv.org/abs/2611.18493v1",
+      "summary": "Autonomous trading agents need controls that prevent problematic orders without making legitimate tasks impractical. We study this aspect of agentic compliance with TradeGauntlet, a replayable limit-order-book simulator that separates detection, prevention, and execution cost. In 1,680 simulated sessions with Claude Haiku 5.5 and Sonnet 5.5, all conduct alerts were self-matches. Gates eliminated those alerts by rejecting self-crossing orders, while the aggregate-gate condition reduced Sonnet's t",
+      "published": "2026-11-13T18:05:23Z",
+      "authors": [
+        "Sandip Nandi",
+        "Aishwarya Bose",
+        "Apurba Bose",
+        "Soovadeep Bakshi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Fine-tuned atomistic foundation model for accurate sodium-carbon chemistry in Na-ion batteries",
+      "link": "https://arxiv.org/abs/2611.18490v1",
+      "summary": "Atomistic foundation models have emerged as a promising route to DFT-level accuracy for materials simulation with complex chemical environments. However, their reliability across competing bonding regimes and, more importantly, how complex bonding affects predictions of material properties remain unclear. Among materials with competing bonding regimes, sodium storage in hard carbon poses a substantial challenge. Hard carbon features diverse local structural motifs, including defective and curved",
+      "published": "2026-11-13T18:04:13Z",
+      "authors": [
+        "Andres Felipe Usuga",
+        "Ihor Radchenko",
+        "Yuxin Tang",
+        "Oleksandr I. Malyi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Dissipation as a Resource for Entanglement via High-Spin Mediator Purification",
+      "link": "https://arxiv.org/abs/2611.18489v1",
+      "summary": "We study entanglement generation between two spin qubits mediated by a single, thermally mixed, high-spin ($S=5/2$) magnetic impurity, using the Lindblad master equation to compare coherent and dissipative control of the mediator. We show that no coherent drive, however strong or resonant, can purify the mediator beyond its thermal value --- a direct consequence of unitary evolution exactly preserving state purity --- while a dissipative channel purifies it up to the limit set by the optical pum",
+      "published": "2026-11-13T18:01:43Z",
+      "authors": [
+        "Ellen Martins Fernandes",
+        "Fabricio Macedo de Souza"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations",
+      "link": "https://arxiv.org/abs/2611.18487v1",
+      "summary": "Accurately mapping the total mass distribution within galaxy clusters, including dark matter, is fundamental to understanding structure formation and constraining cosmological parameters. Conventional mass-mapping techniques rely predominantly on gravitational lensing and often produce smooth mass distributions based on analytical profiles, potentially missing important internal substructures. We introduce a complementary, simulation-based inference approach to reconstruct detailed galaxy cluste",
+      "published": "2026-11-13T18:00:06Z",
+      "authors": [
+        "Atulit Srivastava",
+        "Weiguang Cui",
+        "Daniel de Andres",
+        "Guillaume Bonnet",
+        "Romeel Davé"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A charge-dependent electron emission yield from electron irradiated dielectrics",
+      "link": "https://arxiv.org/abs/2611.18486v1",
+      "summary": "The total electron emission yield (TEEY) of dielectric surfaces may vary during electron irradiation owing to charge accumulation within the material. In the present work, the generation, transport, and escape formulation of Dionne is extended by introducing an additional attenuation of secondary electrons that depends on trapped positive charge. The resulting emission law is coupled to a charge-balance equation, allowing the TEEY to be calculated as a function of incident energy and injected ch",
+      "published": "2026-11-13T17:59:59Z",
+      "authors": [
+        "M. Belhaj",
+        "A. M. Cavalca de Almeida",
+        "N. Fil"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interactive Program Induction with Language Model Priors",
+      "link": "https://arxiv.org/abs/2611.18485v1",
+      "summary": "Program induction refers to the process in which a learner aims to recover a program from a few given input-output examples. This paradigm broadens programming access by letting users demonstrate the rule-based behavior they want to apply to unseen data, instead of having to implement it themselves. However, recovering a program from finite input-output examples is fundamentally ambiguous, as a finite set of input-output examples is theoretically consistent with infinitely many programs whose ou",
+      "published": "2026-11-13T17:59:55Z",
+      "authors": [
+        "Robin Shing Moon Chan",
+        "Ryan Cotterell"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+      "link": "https://arxiv.org/abs/2611.18484v1",
+      "summary": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action ",
+      "published": "2026-11-13T17:59:40Z",
+      "authors": [
+        "Ivana Ragusa",
+        "Lorenzo Guiducci",
+        "Filippo Cavallo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "link": "https://arxiv.org/abs/2611.18482v1",
+      "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that accep",
+      "published": "2026-11-13T17:54:28Z",
+      "authors": [
+        "Sicheng Feng",
+        "Zigeng Chen",
+        "Song Wang",
+        "Gongfan Fang",
+        "Xinchao Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Bregman geometry in regular exponential families: dual representations and relative smoothness",
+      "link": "https://arxiv.org/abs/2611.18480v1",
+      "summary": "Regular exponential-family distributions are ubiquitous in statistics due to their appealing and convenient properties. Notably, they can be expressed in terms of Bregman divergences, revealing fundamental connections between statistics, convex analysis, and information geometry. However, this geometric structure has not been systematically exploited to characterize these distributions with respect to their expectation parametrization. Building on a projective characterization, we establish a ge",
+      "published": "2026-11-13T17:52:40Z",
+      "authors": [
+        "Mame Diarra Fall",
+        "Éric Barat",
+        "Nicolas Dobigeon"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
