@@ -1,0 +1,14 @@
+{
+  "source": "yahoo-finance",
+  "article_count": 0,
+  "articles": [
+    {
+      "section": "top",
+      "error": "404 Client Error: Not Found for url: https://finance.yahoo.com/news/rssindex"
+    },
+    {
+      "section": "markets",
+      "error": "404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topfinstories"
+    }
+  ]
+}
