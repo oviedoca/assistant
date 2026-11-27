@@ -1,0 +1,627 @@
+{
+  "source": "arxiv",
+  "article_count": 50,
+  "articles": [
+    {
+      "title": "MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects",
+      "link": "https://arxiv.org/abs/2611.34945v1",
+      "summary": "While wearable displays can bring digital workspaces anywhere, interaction remains limited by mid-air gestures that lack tactile feedback and induce fatigue, or controllers that are cumbersome to carry. We present MidasTUI, a system that instantly transforms arbitrary everyday objects into opportunistic tangible user interfaces through brief interaction demonstrations. For example, a user can slide an earbud case across a table as a mouse, enabling opportunistic interaction without carrying a de",
+      "published": "2026-11-25T18:59:59Z",
+      "authors": [
+        "Wen Ying",
+        "Xuweiyi Chen",
+        "Zezhou Cheng",
+        "Seongkook Heo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "AnyCam: Anything Can Represent Camera for Video Generation",
+      "link": "https://arxiv.org/abs/2611.34944v1",
+      "summary": "Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks down under large viewpoint changes. We present AnyCam, a method that represents the camera with an anch",
+      "published": "2026-11-25T18:59:59Z",
+      "authors": [
+        "Weijie Lyu",
+        "Zhixin Shu",
+        "Yuntian Ke",
+        "Ming-Hsuan Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tracking Any Point with Agentic Visual Reasoning",
+      "link": "https://arxiv.org/abs/2611.34943v1",
+      "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predic",
+      "published": "2026-11-25T18:59:58Z",
+      "authors": [
+        "Xuweiyi Chen",
+        "Jin Yao",
+        "Linzhan Mou",
+        "Lei Gong",
+        "Di Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+      "link": "https://arxiv.org/abs/2611.34942v1",
+      "summary": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit error rates (BERs) under matched conditions but degrade severely on Rayleigh fading with practical f",
+      "published": "2026-11-25T18:59:57Z",
+      "authors": [
+        "Yalin E. Sagduyu",
+        "Tugba Erpek"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+      "link": "https://arxiv.org/abs/2611.34941v1",
+      "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural chan",
+      "published": "2026-11-25T18:59:55Z",
+      "authors": [
+        "Ji Xie",
+        "Yanhao Jia",
+        "Xiangpeng Yang",
+        "Martin Q. Ma",
+        "Sihan Xu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Mesh for Every Moment",
+      "link": "https://arxiv.org/abs/2611.34939v1",
+      "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture. At the core of MEMO is a per-Gaussian motion model i",
+      "published": "2026-11-25T18:59:45Z",
+      "authors": [
+        "Roy Or-El",
+        "Jeong Joon Park",
+        "Ira Kemelmacher-Shlizerman"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Tokenisation is not in APX",
+      "link": "https://arxiv.org/abs/2611.34938v1",
+      "summary": "In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or unigram log-likelihood objectives, and for binary or larger alphabets. We further show that, even over unary alphabets, direct tokenisation is APX-hard, and thus admits no polynomial-time approximation ",
+      "published": "2026-11-25T18:59:38Z",
+      "authors": [
+        "Violeta Kastreva",
+        "Philip Whittington",
+        "Dennis Komm",
+        "Tiago Pimentel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A microscopic continuum model for moiré transition metal dichalcogenides",
+      "link": "https://arxiv.org/abs/2611.34937v1",
+      "summary": "Twisted transition metal dichalcogenides (tTMDs) have emerged as a fascinating platform for many-body phases --- displaying fractional Chern insulators and superconductivity as a function of doping. Here, we give a microscopic derivation of a continuum model which accurately describes their bandstructure across a range of twist angles with angle-independent parameters. This angle-independent description rests on retaining both the monolayer valence and conduction bands, which introduce tunnellin",
+      "published": "2026-11-25T18:59:36Z",
+      "authors": [
+        "Julian Ingham",
+        "Harshitra Mahalingam",
+        "Raquel Queiroz"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Can image generation help visual reasoning? An empirical study",
+      "link": "https://arxiv.org/abs/2611.34935v1",
+      "summary": "Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7 percentage points, with declines on nine of ten tasks. Two unified models, BAGEL and Janus-Pro-7B, each lose accuracy on eight tasks. On VSTAR, addi",
+      "published": "2026-11-25T18:59:31Z",
+      "authors": [
+        "Xueyang Yu",
+        "Yifan Jing",
+        "Taiming Lu",
+        "Linrong Cai",
+        "Zhipeng Cai"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+      "link": "https://arxiv.org/abs/2611.34934v1",
+      "summary": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation applied within that method. This rate ranged from 0.5\\% to 20.8\\% across optimisation levels of a si",
+      "published": "2026-11-25T18:59:28Z",
+      "authors": [
+        "Charlie Griffin",
+        "Oliver Makins",
+        "Asa Cooper Stickland",
+        "Alessandro Abate",
+        "Yarin Gal"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Invariance of log plurigenera in families of compact Kähler manifolds",
+      "link": "https://arxiv.org/abs/2611.34933v1",
+      "summary": "Let $(X_t,B_t)$ be a smooth proper family of pairs with Kähler fibres, where the boundary has relative simple normal crossings and real coefficients in $[0,1)$. We show that for every $m\\ge1$, every section of $mK_{X_t}+\\lfloor mB_t\\rfloor$ extends locally over the base. In particular, the log plurigenera are locally constant, and for $B_t=0$ we obtain the deformation invariance of the plurigenera $P_m(X_t)$. Since the total space need not be Kähler, we run the minimal model program on the centr",
+      "published": "2026-11-25T18:59:26Z",
+      "authors": [
+        "Zhengyu Hu",
+        "Kefeng Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "DynMF2: Rigid Motion Factorization by Expectation-Maximization for Monocular 4D Reconstruction and Motion Segmentation",
+      "link": "https://arxiv.org/abs/2611.34931v1",
+      "summary": "A single casual video leaves a moving scene under-determined: a point seen once from each place can slide toward or away from the camera and still match every frame. We constrain the reconstruction with the structure of the motion itself. Building on DynMF, we model a scene's motion as a handful of SE(3) trajectories, each rigid, and let every point follow one of them alone, never a blend. DynMF2 computes this factorization directly from 3D point trajectories, with no rendering, by Expectation-M",
+      "published": "2026-11-25T18:59:14Z",
+      "authors": [
+        "Agelos Kratimenos",
+        "Yile Hua",
+        "Kostas Daniilidis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "link": "https://arxiv.org/abs/2611.34930v1",
+      "summary": "Pathology foundation models are usually compared by their performance on downstream tasks such as classification and retrieval. While such benchmarks measure how useful a model is, they provide no insight into the biology it represents. We introduce BioScore, a benchmark that quantifies how well an image encoder captures cell identities, with spatial transcriptomics of the same tissue as the reference. A sparse autoencoder splits the encoder's patch embeddings into sparse features, which we clus",
+      "published": "2026-11-25T18:59:13Z",
+      "authors": [
+        "Paul Vilars",
+        "Vincent Quoc-Huy Trinh",
+        "Maria Vakalopoulou",
+        "Dimitris Samaras",
+        "Stergios Christodoulidis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+      "link": "https://arxiv.org/abs/2611.34929v1",
+      "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-cond",
+      "published": "2026-11-25T18:59:12Z",
+      "authors": [
+        "Baihan Yang",
+        "Xin Lin",
+        "Yufan Wei",
+        "Baiang Li",
+        "Yuheng Liu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "link": "https://arxiv.org/abs/2611.34928v1",
+      "summary": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alte",
+      "published": "2026-11-25T18:59:11Z",
+      "authors": [
+        "Lukas Aichberger",
+        "Adam Golinski",
+        "Arno Blaas",
+        "Arwen Bradley",
+        "Jacob Springer"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+      "link": "https://arxiv.org/abs/2611.34925v1",
+      "summary": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representat",
+      "published": "2026-11-25T18:58:56Z",
+      "authors": [
+        "Shuaijun Liu",
+        "Qifu Wen",
+        "Xingwei Chen",
+        "Xinwen Hu",
+        "Feiyang You"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "An algebraic quantization of gravity from the null cone",
+      "link": "https://arxiv.org/abs/2611.34924v1",
+      "summary": "We propose a background independent quantization of vacuum general relativity on four dimensional Lorentzian spacetimes. Starting from first order gravity, we solve the gravitational constraints on intersecting null cones of a bulk subregion and obtain the reduced phase space at finite $G_N$. We promote its canonical Poisson brackets to commutation relations and use deformations of the reduced action to define an algebra of observables. Equipped with this, we use Gaussian wavefunctions of canoni",
+      "published": "2026-11-25T18:58:55Z",
+      "authors": [
+        "Venkatesa Chandrasekaran"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Mixture-of-Loops Transformer",
+      "link": "https://arxiv.org/abs/2611.34923v1",
+      "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and r",
+      "published": "2026-11-25T18:58:53Z",
+      "authors": [
+        "Lianghui Zhu",
+        "Shijie Wang",
+        "Xinggang Wang",
+        "Jinze Bai",
+        "Bo Wang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+      "link": "https://arxiv.org/abs/2611.34920v1",
+      "summary": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-duplex multi-user voice interaction. Simulated participants act from isolated profiles of goals, knowledge, and permissions, adapting to the agent's speech and tool outcomes. Across ",
+      "published": "2026-11-25T18:58:42Z",
+      "authors": [
+        "Qihao Lin",
+        "Guanxu Chen",
+        "Shuhang Zheng",
+        "Xiaoya Lu",
+        "Jingyi Yang"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Voltage-Enhanced Photorefractive Hysteresis in Thin-Film Lithium Niobate Photonic-Crystal Cavities",
+      "link": "https://arxiv.org/abs/2611.34919v1",
+      "summary": "We observe voltage-enhanced photorefractive hysteresis in thin-film lithium niobate nanocavities, causing the resonance to appear at different wavelengths during increasing- and decreasing-wavelength laser scans. Their separation grows with bias magnitude and optical power, but depends weakly on scan speed over 1-200 nm/s. A quasi-static surface-trap model links voltage-biased carrier transport to asymmetric trapping, whose space-charge field shifts the resonance through the Pockels effect. The ",
+      "published": "2026-11-25T18:58:02Z",
+      "authors": [
+        "Alessandro Buzzi",
+        "Bjarke A. Frederiksen",
+        "Mikkel Heuck",
+        "Dirk R. Englund",
+        "Dashiell L. P. Vitullo"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sums of Kloosterman fractions and applications",
+      "link": "https://arxiv.org/abs/2611.34917v1",
+      "summary": "We obtain improved bounds for bilinear and trilinear forms with Kloosterman fractions, building on the works of Duke-Friedlander-Iwaniec and Bettin-Chandee. Our results use the spectral theory of automorphic forms, and save $N^{1/12} A^{1/3}$ over the trivial bound when $M = N$ and $A$ is small. In the exceptional Maass spectrum, we rely on a new large sieve inequality with averaging over the levels, which may be of independent interest. Applications include an asymptotic for the second moment o",
+      "published": "2026-11-25T18:57:58Z",
+      "authors": [
+        "Alexandru Pascadi"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Memory Is Not Ground Truth: Revising Navigation Authority under Unreliable VLM Evidence for Persistent Semantic Navigation",
+      "link": "https://arxiv.org/abs/2611.34915v1",
+      "summary": "Vision-language models (VLMs) enable robots to reason about semantic and spatio-temporal context, verify task-relevant objects, and guide sensing and navigation. Persistent memory can reduce redundant search for field robots, but when should a memory continue to guide behavior? Repeated misses may suggest that a memory is stale. Our experiments show why this evidence can remain ambiguous under VLM-based perception. Using a Boston Dynamics Spot with four fixed cameras and a persistent spatio-temp",
+      "published": "2026-11-25T18:57:52Z",
+      "authors": [
+        "Sumukh Shrote",
+        "Shenbagaraj Kannapiran",
+        "Eric Eaton",
+        "Camillo Jose Taylor"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
+      "link": "https://arxiv.org/abs/2611.34914v1",
+      "summary": "Vision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions. Fine-tuning on new layouts needs robot data for each one and erodes skills the model already has. We introduce Cairn, which keeps the VLA frozen and steers it at test time along learned 3D trajectories of the object in its gripper. A small prior reads poi",
+      "published": "2026-11-25T18:57:29Z",
+      "authors": [
+        "Agelos Kratimenos",
+        "Kostas Daniilidis",
+        "Evangelos Chatzipantazis"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
+      "link": "https://arxiv.org/abs/2611.34912v1",
+      "summary": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing. This raises a natural question: Do video VAE encoding and decoding actually require such global spatiotempora",
+      "published": "2026-11-25T18:57:14Z",
+      "authors": [
+        "Jiachen An",
+        "Sijie Zhao",
+        "Le Li",
+        "Hongyu Liu",
+        "Zhiyuan Li"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A comparison of two- and one-fluid dust solvers for dusty, supersonic turbulence",
+      "link": "https://arxiv.org/abs/2611.34910v1",
+      "summary": "We model 3 and 10 $μ$m dust grains in supersonic, turbulent molecular cloud conditions to compare two different numerical methods solving dust coupled to gas through a drag term. One method models dust and gas as two separate species (two fluid) and the other the combination of dust and gas as a single mixture (one fluid) using the diffusion approximation. Simulations are performed in a 3D periodic box using the Phantom code. The gas probability distributions are consistent with a lognormal dist",
+      "published": "2026-11-25T18:56:18Z",
+      "authors": [
+        "Narges Vadood",
+        "Terrence S. Tricco"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The thermodynamic budget of objectivity",
+      "link": "https://arxiv.org/abs/2611.34909v1",
+      "summary": "An event becomes a fact when enough independent records of it exist such that no operation is possible that leaves all observers ignorant of it again. Records are physical, and creating, keeping, and destroying them have thermodynamic costs. We compute these costs exactly in a minimal broadcast model with a driven central qubit writing records into $N$ initially thermal registers, with work sources and baths at temperature $T$. The basic arguments for the operations are outlined here, with full ",
+      "published": "2026-11-25T18:56:11Z",
+      "authors": [
+        "Wonyong Chung"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Moiré-induced self-trapping in a Bose-Einstein Condensate",
+      "link": "https://arxiv.org/abs/2611.34908v1",
+      "summary": "The effect of moiré modulations on two-dimensional materials flattens their electronic energy bands, which enhances the effects of interactions and has been seen to give rise to several emergent electronic phases. We demonstrate this behavior with a moiré modulation extends to a quasiperiodic hopping model of interacting bosons on the honeycomb lattice. Without interactions, the velocity vanishes at a magic-angle transition, where a sharp onset of the zero-energy density of states and multifract",
+      "published": "2026-11-25T18:55:05Z",
+      "authors": [
+        "Keshav Badri",
+        "Kevin P. Lucht",
+        "Justin H. Wilson",
+        "Jedediah H. Pixley"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+      "link": "https://arxiv.org/abs/2611.34907v1",
+      "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow. We present Agentic LongLive, an asynchronous agentic memory for long video generation. A memor",
+      "published": "2026-11-25T18:54:03Z",
+      "authors": [
+        "Shaoteng Liu",
+        "Shuai Yang",
+        "Wei Huang",
+        "Luozhou Wang",
+        "Song Han"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Sliding-Window Detection of Hidden Regimes under Stochastic Switching",
+      "link": "https://arxiv.org/abs/2611.34905v1",
+      "summary": "A sliding-window average is a simple estimator of the current state of a hidden regime-switching process, such as a hidden Markov model. A longer window averages out more noise but is more likely to contain a switch, and the question is what such a switch costs. We analyse the decoder that assigns the average of the last $m$ observations to the nearest regime mean. For two regimes with conditionally independent, stochastically ordered observations, a switch inside the window, averaged uniformly ",
+      "published": "2026-11-25T18:53:46Z",
+      "authors": [
+        "Arina Pambukyan",
+        "Hayk Nersisyan"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "ProbFaS: Probabilistic Video Frame Selection for MLLMs via Multi-Fidelity Calibration",
+      "link": "https://arxiv.org/abs/2611.34903v1",
+      "summary": "Processing long videos with multimodal large language models (MLLMs) is prohibitively expensive, making informative frame selection essential for accurate video understanding. The default uniform sampling often misses task-relevant keyframes, while recent training-free selectors instead pick frames by how well each one matches the question under an image-text alignment (ITA) score. However, we show that ITA signals correspond poorly with the MLLM's true needs: their rankings correlate weakly wit",
+      "published": "2026-11-25T18:53:10Z",
+      "authors": [
+        "Tianru Zhang",
+        "Mayank Nautiyal",
+        "Hugo Eidmann",
+        "Prashant Singh",
+        "Ekta Vats"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+      "link": "https://arxiv.org/abs/2611.34899v1",
+      "summary": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linea",
+      "published": "2026-11-25T18:51:36Z",
+      "authors": [
+        "Rikard Vinge",
+        "Miguel A. Belenguer-Plomer",
+        "Isabelle Wittmann",
+        "Octavian Dumitru",
+        "Michele Lazzarini"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Strong Ill-Posedness for the Surface Quasi-Geostrophic Equations in $W^{k,1}(\\mathbb{R}^2)$",
+      "link": "https://arxiv.org/abs/2611.34893v1",
+      "summary": "We establish ill-posedness of the surface quasi-geostrophic equations in Sobolev spaces $W^{k,1}(\\mathbb{R}^2)$ for every integer $k \\geq 3$. This includes the scaling critical space $W^{3,1}(\\mathbb{R}^2)$. We build on ideas from (arXiv:2610.04872); in particular, we use a theorem of Bonami and Poornima to construct a basic building block, or packet, which obeys a linear evolution approximating that of the perturbation of the background solution to SQG. The Bonami-Poornima theorem ensures that ",
+      "published": "2026-11-25T18:47:32Z",
+      "authors": [
+        "Elaine Cozzi",
+        "Nicholas Harrison",
+        "Zachary Radke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Neural Network Decoders For Qubit Loss",
+      "link": "https://arxiv.org/abs/2611.34891v1",
+      "summary": "Qubit loss is a significant source of error in many quantum hardware platforms, requiring circuits that periodically replace or reset qubits to maintain fault-tolerance. When the reset process includes loss-resolving measurements, this information can improve decoding and substantially reduce overhead compared to the case where this information is not available. Prior work has demonstrated loss-tolerant circuits for the surface code that show significantly improved thresholds and subthreshold sc",
+      "published": "2026-11-25T18:47:12Z",
+      "authors": [
+        "J. Wilson Staples",
+        "Winston Fu",
+        "Yihe Dong",
+        "Jeff D. Thompson"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Splash population confined to the Milky Way bar region",
+      "link": "https://arxiv.org/abs/2611.34890v1",
+      "summary": "We investigate the chemo-dynamical properties of in-situ stars in the Galactic bar region (central $5$ kpc), specifically the inner Galactic counterpart of the solar-neighbourhood Splash population (in situ halo). We use a sample of APOGEE DR17 red giants with Gaia astrometry and AstroNN distances, and separate bulge/bar stellar populations dynamically using a normalised time-averaged bar-frame angular momentum, $\\mathcal{V}_φ$. Chemo-dynamical maps in the $\\mathcal{V}_φ$-[Fe/H] plane reveal a p",
+      "published": "2026-11-25T18:46:15Z",
+      "authors": [
+        "Aakash Pandey",
+        "Ortwin Gerhard"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The Look-Elsewhere Effect in Searches for New Physics: from Classical Methods to Machine Learning",
+      "link": "https://arxiv.org/abs/2611.34888v1",
+      "summary": "The look-elsewhere effect (LEE) arises when the location of an effect in parameter space is not specified in advance: scanning many locations inflates the significance of the largest excess, and the local $p$-value must be corrected into a global one. A well-established framework, rooted in the work of Davies and operationalised for particle physics by Gross and Vitells, provides this correction for scans over continuous parameters. Some aspects, however, remain unsettled. The definition of \"els",
+      "published": "2026-11-25T18:45:39Z",
+      "authors": [
+        "Gaia Grosso",
+        "Sergio Rodriguez-Benitez",
+        "Louis Lyons"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
+      "link": "https://arxiv.org/abs/2611.34887v1",
+      "summary": "Decision trees are among the most well-known interpretable models in Machine Learning. Over the years, a wide variety of strategies have been proposed to define split conditions within the greedy learning framework, aiming to guide instance routing and enhance predictive performance. These strategies range from axis-parallel and oblique splits based on feature values to proximity-based splits using exemplar instances and more complex hybrid approaches. However, no single method has emerged as un",
+      "published": "2026-11-25T18:45:35Z",
+      "authors": [
+        "Cristiano Landi",
+        "Alessio Cascione",
+        "Riccardo Guidotti"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Atheism and Cross-Country National Cognitive Skills: Evidence from a Beta Regression Analysis",
+      "link": "https://arxiv.org/abs/2611.34885v1",
+      "summary": "This study performs a beta regression analysis to investigate how country-level cognitive skills---measured using harmonized large-scale international educational assessments and expressed on an IQ-type scale---are associated with the prevalence of atheism in 131 countries. We find that this association is nonlinear: at low levels of cognitive skills, increases are associated with lower expected levels of atheism, whereas beyond a threshold, they are associated with higher expected atheism rates",
+      "published": "2026-11-25T18:42:05Z",
+      "authors": [
+        "Tatiene C. Souza",
+        "Francisco Cribari-Neto"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Transition Path Sampling for Rare Events in Non-Markovian Open Quantum Systems",
+      "link": "https://arxiv.org/abs/2611.34883v1",
+      "summary": "Rare transitions govern the dynamics of many open quantum systems, but their probabilities and rates are difficult to calculate. Transition path sampling (TPS) of quantum systems has so far been limited to Markovian, perturbative descriptions. Here, we formulate TPS for non-Markovian quantum state diffusion, which is exact for Gaussian baths, extending it to non-Markovian and strongly coupled open quantum systems. For normal-to-superradiant tunneling in the unbalanced open Dicke model, we determ",
+      "published": "2026-11-25T18:40:27Z",
+      "authors": [
+        "Ritesh Pant",
+        "Kai Müller",
+        "Tarun Gera",
+        "Doran I. G. B. Raccah"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Letter of Intent: AN Underground Belayed In-Shaft (ANUBIS) detector",
+      "link": "https://arxiv.org/abs/2611.34882v1",
+      "summary": "Long-lived particles (LLPs) arise naturally in many extensions of the Standard Model, notably in models with dark matter candidates or motivated by baryogenesis. LLPs produced at or above the electroweak scale with decay lengths of tens of metres escape the general-purpose LHC detectors and cannot be produced at sufficient rates in forward and beam-dump experiments. This Letter of Intent proposes the ANUBIS detector, which would instrument the ceiling of the ATLAS cavern and the bottom of its ac",
+      "published": "2026-11-25T18:40:17Z",
+      "authors": [
+        "ANUBIS Collaboration"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
+      "link": "https://arxiv.org/abs/2611.34881v1",
+      "summary": "Visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear. Yet over-reliance on context becomes a failure mode when models predict objects based on their typical neighbors rather than the objects' own visual features, which we call typicality bias. While extensively studied in the pre-Transformer era, it has often been assumed that architectural and scale improvements would naturally solve it, and a systematic diagnostic ac",
+      "published": "2026-11-25T18:39:28Z",
+      "authors": [
+        "Siddhartha Gairola",
+        "Jiahao Xie",
+        "Anna Kukleva",
+        "Francesco Locatello",
+        "Bernt Schiele"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Towards Closing the Performance Gap in Cross-Modal Place Recognition",
+      "link": "https://arxiv.org/abs/2611.34877v1",
+      "summary": "Cross-modal place recognition (CMPR) matches natural language descriptions against databases of geo-tagged reference images, enabling localization without visual queries. Despite its potential for language-guided navigation, existing vision-language models lag far behind visual place recognition (VPR) baselines, even after task adaptation. Unlike general-purpose text-to-image retrieval, place recognition relies on subtle local cues to distinguish visually similar locations. We therefore hypothes",
+      "published": "2026-11-25T18:38:09Z",
+      "authors": [
+        "Ofer Idan",
+        "Dan Badur",
+        "Yoli Shavit"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+      "link": "https://arxiv.org/abs/2611.34875v1",
+      "summary": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribution (DRA), which replays agent trajectories, traces every block (unit) of the final patch to the step that wrote it, reverts each unit, and reruns the task tests to decide whether the unit is needed. We apply DRA to 7,660 resolved GitHub Copilot CLI trajectories from 18 frontier ",
+      "published": "2026-11-25T18:37:06Z",
+      "authors": [
+        "Aakash Goel",
+        "Benjamin Steenhoek",
+        "Yu Hu"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Robust large-scale approximate solutions of the constrained Kemeny aggregation ranking problem",
+      "link": "https://arxiv.org/abs/2611.34873v1",
+      "summary": "The Kemeny aggregation ranking problem consists of computing the consensus rankings of an election with respect to the well-known Kemeny-Young voting method. These consensus rankings satisfy many fundamental properties and are the geometric medians of the votes in the election under the Kendall-tau distance which counts the number of pairwise disagreements. While having various applications in computational social choice, machine learning, operations research, and biology, the problem of computi",
+      "published": "2026-11-25T18:36:13Z",
+      "authors": [
+        "Xuan Kien Phung",
+        "Sylvie Hamel"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+      "link": "https://arxiv.org/abs/2611.34868v1",
+      "summary": "Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics ",
+      "published": "2026-11-25T18:33:07Z",
+      "authors": [
+        "Joy Bose",
+        "Srinivas Adyapak"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "The oxygen cold trap in protoplanetary discs",
+      "link": "https://arxiv.org/abs/2611.34867v1",
+      "summary": "The diffusive transport of oxygen in protoplanetary discs followed by sequestration into ice in the midplane, a process known as the cold trap, can substantially alter the chemical environment where planets form. This paper presents a new time-dependent modelling framework that allows us to consistently simulate kinetic gas-phase chemistry, ice growth and desorption, turbulent diffusive mixing, and gravitational settling of icy particles with a changing particle size distribution over million-ye",
+      "published": "2026-11-25T18:32:35Z",
+      "authors": [
+        "Peter Woitke"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Adaptive Control Barrier Functions for Nonlinear Singularly Perturbed Systems",
+      "link": "https://arxiv.org/abs/2611.34866v1",
+      "summary": "Control barrier functions (CBFs) have emerged as a flexible and efficient approach for enforcing dynamic safety constraints. In this paper, we consider a class of uncertain nonlinear systems with singular perturbations and develop an adaptive CBF framework for such systems to enforce safety constraints on both the slow and fast subsystems in the overall singularly perturbed nonlinear system with uncertain parameters. We first develop a robustness property showing that if an adaptive controller f",
+      "published": "2026-11-25T18:31:54Z",
+      "authors": [
+        "Prashanth Krishnamurthy",
+        "Farshad Khorrami"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "State convertibility in quantum-state texture from a general form of free operations",
+      "link": "https://arxiv.org/abs/2611.34865v1",
+      "summary": "State convertibility specifies which transformations between states a quantum resource theory allows. In quantum-state texture, deterministic conversion criteria are known for qubits and pure sources in arbitrary dimension, but a general criterion for mixed states in higher dimensions is missing. We derive this exact criterion from a complete characterization of free operations in arbitrary finite dimension. Because the unique free state is pure, every free operation splits into a quantum filter",
+      "published": "2026-11-25T18:30:55Z",
+      "authors": [
+        "Jose Alfredo de Leon"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
+      "link": "https://arxiv.org/abs/2611.34864v1",
+      "summary": "Since vision-language-action (VLA) policies can inherit the slow pace of human demonstrations, accelerating these demonstrations before fine-tuning can lead to faster VLA policies without an additional speed-selection module at deployment. Several offline speedup methods have focused on identifying segments that require less precision and assigning predefined speedup factors to the segments. However, even within a single segment, a speedup factor suitable for steady motion may be too high when p",
+      "published": "2026-11-25T18:30:43Z",
+      "authors": [
+        "Insup Lee",
+        "Hojin Jeon",
+        "Sunguk Shin",
+        "Seoungbin Bae",
+        "Taekwan Kim"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+      "link": "https://arxiv.org/abs/2611.34863v1",
+      "summary": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter expects its objects and coarser merging elsewhere. Protecting only the previous frame's mask works on short clips but fails on long videos, where fast motion pushes targets outside the margin an",
+      "published": "2026-11-25T18:30:28Z",
+      "authors": [
+        "Harsha Karipineni",
+        "Rajesh Reddy Chintha"
+      ],
+      "section": "arxiv-cs.CL"
+    },
+    {
+      "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
+      "link": "https://arxiv.org/abs/2611.34862v1",
+      "summary": "We introduce BOP-Refer, the first benchmark for monocular 3D and 2D grounding of everyday and industrial objects sourced from 9 diverse BOP datasets. We pair images from these datasets with VLM-generated and human-verified referring expressions, and derive accurate ground-truth 3D and 2D bounding boxes of the referred objects from their 3D models and 6DoF pose annotations. Our systematic evaluation of 17 frontier VLMs across the major proprietary and open-weight families (Gemini, GPT, Claude, Qw",
+      "published": "2026-11-25T18:29:36Z",
+      "authors": [
+        "Tomas Hodan",
+        "Vineet Bhat",
+        "Martin Sundermeyer",
+        "Jonathan Tremblay",
+        "Yash Patel"
+      ],
+      "section": "arxiv-cs.CL"
+    }
+  ]
+}
